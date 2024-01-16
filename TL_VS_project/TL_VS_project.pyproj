@@ -33,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="TL_flask\templates\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="TL_venv\">
