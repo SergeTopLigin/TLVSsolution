@@ -1,1 +1,1 @@
-TopLiga web app on Visual Studio
+Visual Studio demo project
