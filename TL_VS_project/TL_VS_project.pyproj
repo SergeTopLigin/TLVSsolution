@@ -35,7 +35,9 @@
     <Content Include="requirements.txt" />
     <Content Include="TL_flask\static\data.json" />
     <Content Include="TL_flask\static\site.css" />
+    <Content Include="TL_flask\templates\about.html" />
     <Content Include="TL_flask\templates\index.html" />
+    <Content Include="TL_flask\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="TL_venv\">
