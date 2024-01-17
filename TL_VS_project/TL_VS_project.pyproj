@@ -33,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="TL_flask\static\data.json" />
     <Content Include="TL_flask\static\site.css" />
     <Content Include="TL_flask\templates\index.html" />
   </ItemGroup>
@@ -50,6 +51,9 @@
   <ItemGroup>
     <Folder Include="TL_flask\" />
     <Folder Include="TL_flask\static\" />
+    <Folder Include="TL_flask\static\fonts\" />
+    <Folder Include="TL_flask\static\content\" />
+    <Folder Include="TL_flask\static\scripts\" />
     <Folder Include="TL_flask\templates\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
