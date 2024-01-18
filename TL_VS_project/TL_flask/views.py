@@ -1,6 +1,6 @@
 from TL_flask import app
 from datetime import datetime
-from flask import render_template
+from flask import render_template   # функция для вызова шаблонов по адресу \templates
 
 @app.route('/')
 @app.route('/home')
@@ -16,7 +16,7 @@ def home():
 
 @app.route('/api/data')
 def get_data():
-  return app.send_static_file('data.json')
+  return app.send_static_file('data.json')      # метод экземпляра flask (этого приложения) для вызова из \static
 
 @app.route('/about')
 def about():
