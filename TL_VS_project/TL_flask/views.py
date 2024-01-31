@@ -10,9 +10,9 @@ def home():
 
     return render_template(
         "index.html",
-        title = "Hello Flask",
-        message = "Hello, Flask!",
-        content = " on " + formatted_now)
+        title = "TopLiga",
+        message = "TopLiga soon",
+        content = ", now is " + formatted_now)
 
 @app.route('/api/data')
 def get_data():
@@ -22,5 +22,5 @@ def get_data():
 def about():
     return render_template(
         "about.html",
-        title = "About HelloFlask",
-        content = "Example app page for Flask.")
+        title = "About TopLiga",
+        content = "About")
