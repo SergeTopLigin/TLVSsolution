@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.10.2"
-      - name: repo checkout  # загрузка содержимого корня репозитория на вирт машину
+      - name: repo checkout  # загрузка содержимого репозитория на вирт машину
         uses: actions/checkout@v4  
         with:
           sparse-checkout: |   # загрузка только папки проекта
@@ -25,8 +25,10 @@ jobs:
         run: pip install -r TL_VS_project/requirements_static.txt
       - name: Run script    # запуск frozen-flask, создание /build
         run: python TL_VS_project/freeze.py
-      - name: list current folder  # проверка адреса /build
-        run: ls
+      # проверка адреса /build
+      - run: cd /TL_VS_project/TL_flask
+      - run: ls
+      - run: cd /
       - name: Deploy  # deploy происходит из внешнего репо pages из ветки gh-pages (указанной в settings), 
                       # в которую размещается папка build, созданная посредством test.py на runner, запущенном из этого репо
         uses: peaceiris/actions-gh-pages@v3
