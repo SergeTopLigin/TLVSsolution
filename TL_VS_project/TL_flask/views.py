@@ -14,10 +14,6 @@ def home():
         message = "TopLiga soon",
         content = ", now is " + formatted_now)
 
-@app.route('/api/data')
-def get_data():
-  return app.send_static_file('data.json')      # метод экземпляра flask (этого приложения) для вызова из \static
-
 @app.route('/about')
 def about():
     return render_template(
