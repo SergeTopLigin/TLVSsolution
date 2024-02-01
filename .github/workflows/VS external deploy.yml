@@ -1,0 +1,30 @@
+name: external deploy
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '*/5 * * * *'
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: repo checkout  # загрузка содержимого корня репозитория на вирт машину
+        uses: actions/checkout@v4  
+        with:
+          sparse-checkout:   # загрузка только папки проекта
+            TL_VS_project    
+      - name: list current folder  # проверка загрузки
+        run: ls
+      # - name: Run script
+      #   run: python Telega_project/test.py
+      - name: Deploy  # deploy происходит из внешнего репо pages из ветки gh-pages (указанной в settings), 
+                      # в которую размещается папка build, созданная посредством test.py на runner, запущенном из этого репо
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # When you use deploy_key, set your private key to the repository which includes this action and set your public key to your external repository.
+          external_repository: Top-Liga/Top-Liga.github.io
+          publish_branch: gh-pages
+          publish_dir: ./TL_VS_project/TL_flask
