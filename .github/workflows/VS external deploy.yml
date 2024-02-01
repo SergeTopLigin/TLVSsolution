@@ -23,12 +23,12 @@ jobs:
         run: ls
       - name: Install Dependencies  # Установить зависимости
         run: pip install -r TL_VS_project/requirements_static.txt
+      - name: non UTF-8 git console  # русификация git консоли
+        run: git config --global core.quotepath false
       - name: Run script    # запуск frozen-flask, создание /build
         run: python TL_VS_project/freeze.py
-      # проверка адреса /build
-      - run: cd /TL_VS_project/TL_flask
-      - run: ls
-      - run: cd /
+      - name: list build folder  # проверка адреса /build
+        run: ls ./TL_VS_project/TL_flask
       - name: Deploy  # deploy происходит из внешнего репо pages из ветки gh-pages (указанной в settings), 
                       # в которую размещается папка build, созданная посредством test.py на runner, запущенном из этого репо
         uses: peaceiris/actions-gh-pages@v3
