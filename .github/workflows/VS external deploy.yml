@@ -23,8 +23,8 @@ jobs:
         run: ls
       - name: Install Dependencies  # Установить зависимости
         run: pip install -r TL_VS_project/requirements_static.txt
-      - name: non UTF-8 git console  # русификация git консоли
-        run: git config --global core.quotepath false
+      # - name: non UTF-8 git console  # русификация git консоли
+      #   run: git config --global core.quotepath false
       - name: Run script    # запуск frozen-flask, создание /build
         run: python TL_VS_project/freeze.py
       - name: list build folder  # проверка адреса /build
