@@ -32,6 +32,7 @@
     <Compile Include="TL_flask\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="requirements_static.txt" />
     <Content Include="requirements.txt" />
     <Content Include="TL_flask\static\site.css" />
     <Content Include="TL_flask\templates\about.html" />
