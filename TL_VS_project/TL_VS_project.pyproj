@@ -27,6 +27,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="freeze.py" />
     <Compile Include="runserver.py" />
     <Compile Include="TL_flask\views.py" />
     <Compile Include="TL_flask\__init__.py" />
