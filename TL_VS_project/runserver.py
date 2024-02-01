@@ -10,4 +10,4 @@ if __name__ == '__main__':  # запуск локального сервера (на production сервере _
     except ValueError:
         PORT = 5555
 
-    app.run(HOST, PORT, debug=True)     # запуск приложения на локальном сервере
+    app.run(HOST, PORT, debug=True)      # запуск приложения на локальном сервере

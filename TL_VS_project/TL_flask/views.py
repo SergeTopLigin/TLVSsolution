@@ -1,6 +1,6 @@
 from TL_flask import app
 from datetime import datetime
-from flask import render_template   # функция для вызова шаблонов по адресу \templates
+from flask import render_template    # функция для вызова шаблонов по адресу \templates
 
 @app.route('/')
 @app.route('/home')
