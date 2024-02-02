@@ -3,7 +3,7 @@ from datetime import datetime
 from flask import render_template    # функция для вызова шаблонов по адресу \templates
 
 @app.route('/')
-@app.route('/home')
+@app.route('/home/')
 def home():
     now = datetime.now()
     formatted_now = now.strftime("%A, %d %B, %Y at %X")
@@ -14,7 +14,7 @@ def home():
         message = "TopLiga soon",
         content = ", now is " + formatted_now)
 
-@app.route('/about')
+@app.route('/about/')
 def about():
     return render_template(
         "about.html",
