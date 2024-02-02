@@ -1,7 +1,7 @@
 from TL_flask import app
 from datetime import datetime
 from flask import render_template    # функция для вызова шаблонов по адресу \templates
-from flask import send_from_directory   # функция для вызова файлов
+# from flask import send_from_directory   # функция для вызова файлов
 
 @app.route('/')
 # @app.route('/home/')      # для Frozen-Flask нельзя использовать одну функцию на несколько адресов
@@ -24,4 +24,4 @@ def about():
 
 @app.route('/robots.txt/')  # по этому адресу будет показан robots.txt из каталога static
 def robots():
-    return send_from_directory('static', 'robots.txt')
+    return app.send_static_file('data.json')
