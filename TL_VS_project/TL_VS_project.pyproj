@@ -35,6 +35,7 @@
   <ItemGroup>
     <Content Include="requirements_static.txt" />
     <Content Include="requirements.txt" />
+    <Content Include="TL_flask\robots.txt" />
     <Content Include="TL_flask\static\site.css" />
     <Content Include="TL_flask\templates\about.html" />
     <Content Include="TL_flask\templates\index.html" />
