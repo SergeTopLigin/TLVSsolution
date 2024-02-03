@@ -30,7 +30,7 @@ jobs:
         run: ls ./TL_VS_project/TL_flask
       - name: Deploy  # deploy происходит из внешнего репо pages из ветки gh-pages (указанной в settings), 
                       # в которую размещается папка build, созданная посредством test.py на runner, запущенном из этого репо
-        uses: peaceiris/actions-gh-pages@main
+        uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # When you use deploy_key, set your private key to the repository which includes this action and set your public key to your external repository.
