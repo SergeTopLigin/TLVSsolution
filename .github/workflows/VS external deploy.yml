@@ -11,14 +11,13 @@ jobs:
     
     steps:
       - name: Set up Python 3.10  # установка версии окружения
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c
         with:
           python-version: "3.10"
       - name: repo checkout  # загрузка содержимого репозитория на вирт машину
-        uses: actions/checkout@v4  
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  
         with:
-          sparse-checkout: |   # загрузка только папки проекта
-            TL_VS_project    
+          sparse-checkout: TL_VS_project   # загрузка только папки проекта
       - name: list current folder  # проверка загрузки
         run: ls
       - name: Install Dependencies  # Установить зависимости
@@ -31,7 +30,7 @@ jobs:
         run: ls ./TL_VS_project/TL_flask
       - name: Deploy  # deploy происходит из внешнего репо pages из ветки gh-pages (указанной в settings), 
                       # в которую размещается папка build, созданная посредством test.py на runner, запущенном из этого репо
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # When you use deploy_key, set your private key to the repository which includes this action and set your public key to your external repository.
