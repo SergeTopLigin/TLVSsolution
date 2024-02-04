@@ -15,15 +15,23 @@ def home():
         message = "TopLiga soon",
         content = ", now is " + formatted_now)
 
-@app.route('/about/')
-def about():
+@app.route('/standings/')
+def standings():
     return render_template(
-        "about.html",
-        title = "About TopLiga",
-        content = "About TopLiga")
+        "standings.html",
+        title = "Standings",
+        content = "Standings")
 
 @app.route('/robots.txt/')  # по этому адресу будет показан robots.txt из каталога static
 def robots():
     # return app.send_static_file('robots.txt')     # опасный вариант
     return send_from_directory('static', 'robots.txt')    # работает, но после Frozen - криво
     # return "<p>User-agent: *<br>Disallow: /<br>User-agent: AdsBot-Google<br>Disallow: /</p>"    # html вместо txt
+
+@app.errorhandler(404)  # оформление страницы с кодом 404 (страница не найдена) - только для динамо версии
+def pageNotFound(error):
+    return render_template(
+        'page404.html', 
+        title = "Page not found",
+        content = "Page not found"
+        ), 404  # возвращение сервером кода 404
