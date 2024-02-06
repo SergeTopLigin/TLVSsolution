@@ -28,10 +28,10 @@ def robots():
     return send_from_directory('static', 'robots.txt')    # работает, но после Frozen - криво
     # return "<p>User-agent: *<br>Disallow: /<br>User-agent: AdsBot-Google<br>Disallow: /</p>"    # html вместо txt
 
-@app.errorhandler(404)  # оформление страницы с кодом 404 (страница не найдена) - только для динамо версии
-def pageNotFound(error):
-    return render_template(
-        'page404.html', 
-        title = "Page not found",
-        content = "Page not found"
-        ), 404  # возвращение сервером кода 404
+# @app.errorhandler(404)  # оформление страницы с кодом 404 (страница не найдена) - только для динамо версии
+# def pageNotFound(error):
+#     return render_template(
+#         'page404.html', 
+#         title = "Page not found",
+#         content = "Page not found"
+#         ), 404  # возвращение сервером кода 404
