@@ -35,3 +35,4 @@ def robots():
 #         title = "Page not found",
 #         content = "Page not found"
 #         ), 404  # возвращение сервером кода 404
+#
