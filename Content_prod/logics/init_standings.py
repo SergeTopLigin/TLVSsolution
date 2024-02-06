@@ -9,18 +9,17 @@ if adress_year.month < 9:
 else:
     adress_year = adress_year.year +1
 
-from bs4 import BeautifulSoup
-import requests
-url = 'https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html'
-response = requests.get(url)
-if str(response) == '<Response [200]>':     # создание файла ошибки с указанием файла кода и строки в нем
+if 1==1:     # создание файла ошибки с указанием файла кода и строки в нем
     message = \
-'ошибка при парсинге UEFA club ranking\n\
+'init_standings\n\
+ошибка при парсинге UEFA club ranking\n\
 https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
 код ответа сервера != 200'
-    with open("../../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
-        f.write(message)
-
+    # with open("../../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
+    #     f.write(message)
+    # отправка bug_file на почту
+    from modules.bug_mail import bug_mail
+    bug_mail.bug_mail('init_standings', message)
 
 # try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
@@ -36,9 +35,11 @@ https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
 #     url = 'https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html'
 #     response = requests.get(url)
 #     if str(response) != '<Response [200]>':     # создание файла ошибки с указанием файла кода и строки в нем
-#         message = 'ошибка при парсинге UEFA club ranking\n\
-#                    https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
-#                    код ответа сервера != 200'
+#         message = \
+# 'init_standings\
+# ошибка при парсинге UEFA club ranking\n\
+# https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
+# код ответа сервера != 200'
 #         with open("../../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
 #             f.write(message)
 
@@ -62,7 +63,7 @@ https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
 #         # преобразование имен клубов по apisports
 #         UEFA50upg = {}      # словарь измененных ключей
 #         DelUEFA = []        # список ключей словаря на удаление
-#         import kassiesa_apifootball  # модуль словаря {kassiesa:apifootball}
+#         import pars_apifootball  # модуль словаря {kassiesa:apifootball}
 #         converting = pars_apifootball.pars_apifootball()
 #         for club in UEFA50:
 #             for club_kas in converting:
