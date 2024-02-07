@@ -15,11 +15,11 @@ if 1==1:     # создание файла ошибки с указанием ф
 ошибка при парсинге UEFA club ranking\n\
 https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
 код ответа сервера != 200'
-    # with open("../../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
+    # with open("../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
     #     f.write(message)
     # отправка bug_file на почту
     from modules.bug_mail import bug_mail
-    bug_mail.bug_mail('init_standings', message)
+    bug_mail('init_standings', message)
 
 # try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
@@ -64,7 +64,7 @@ https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
 #         UEFA50upg = {}      # словарь измененных ключей
 #         DelUEFA = []        # список ключей словаря на удаление
 #         import pars_apifootball  # модуль словаря {kassiesa:apifootball}
-#         converting = pars_apifootball.pars_apifootball()
+#         converting = modules.pars_apifootball.pars_apifootball()
 #         for club in UEFA50:
 #             for club_kas in converting:
 #                 if club == club_kas:
