@@ -15,5 +15,4 @@ jobs:
       - name: Run script
         env:
           bug_mail_pass: ${{ secrets.BUG_MAIL_PASS }}
-        run: python TL_VS_solution/Content_prod/logics/init_standings.py
-          
+        run: python Content_prod/logics/init_standings.py
