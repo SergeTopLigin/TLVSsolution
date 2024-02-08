@@ -1,6 +1,6 @@
 # модуль содержит словарь соответствий имен клубов по kassiesa.net и api-football.com для парсинга UEFA club ranking
 # {pars:apifootball}
-def pars_apifootball():
+def clubname_fix():
     ClubName = {
                 'West Ham United':'West Ham',
                 'Tottenham Hotspur':'Tottenham',
@@ -39,3 +39,4 @@ def pars_apifootball():
                 'Legia Warsaw':'Legia Warszawa',
                 'FerencvÃ¡ros':'Ferencvarosi TC'
                 }
+    return(ClubName) 
