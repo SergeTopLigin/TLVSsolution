@@ -9,7 +9,7 @@ def bug_mail(subj_mod, msg_bug):    # принимает параметры: sub
     from email.header import Header
 
     sender = 'yadserg9@yandex.ru'
-    password = ''
+    password = bug_mail_pass
     recipient = 'topligahighlights@gmail.com'
     
     msg = MIMEText(msg_bug, 'plain', 'utf-8')

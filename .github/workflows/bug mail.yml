@@ -1,0 +1,18 @@
+name: bug mail
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: repo checkout  # загрузка содержимого репозитория на вирт машину
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  
+      - name: list current folder  # проверка загрузки
+        run: ls
+      - name: Run script
+        run: python TL_VS_solution/Content_prod/logics/init_standings.py
+        with:
+          bug_mail_pass: ${{ secrets.BUG_MAIL_PASS }}
