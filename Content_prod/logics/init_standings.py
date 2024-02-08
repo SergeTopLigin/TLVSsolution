@@ -18,6 +18,8 @@ try:    # обработка исключений для определения 
 ошибка при парсинге UEFA club ranking\n\
 https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
 код ответа сервера != 200'
+        import os.path
+        os.path.basename(__file__)[:-3]   # определение имени текущего файла для передачи в модуль gh_push
         with open("../../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
             f.write(message)
         # отправка bug_file на почту
@@ -131,6 +133,7 @@ https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
         # #     print(club,'   ',TL_standings[club])
 
 except: 
+    import traceback    # модуль трассировки для отслеживания ошибок
     with open("bug_file.txt", 'w') as f:
         traceback.print_exc(file=f)     # создание на вирт машине файла ошибки с указанием файла кода и строки
 
