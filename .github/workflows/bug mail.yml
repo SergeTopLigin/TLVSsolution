@@ -13,6 +13,7 @@ jobs:
       - name: list current folder  # проверка загрузки
         run: ls
       - name: Run script
-        run: python TL_VS_solution/Content_prod/logics/init_standings.py
-        with:
+        env:
           bug_mail_pass: ${{ secrets.BUG_MAIL_PASS }}
+        run: python TL_VS_solution/Content_prod/logics/init_standings.py
+          
