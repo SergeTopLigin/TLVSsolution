@@ -10,14 +10,10 @@ except:
         f.seek(0)                       # установка курсора в начало временного файла
         bug_info = f.read()
 
-    # # отправка bug_file на почту
-    # from modules.bug_mail import bug_mail
+    print(bug_info)
+
+    # # отправка bug_file в репозиторий GitHub
     # import os
     # mod_name = os.path.basename(__file__)[:-3]
-    # bug_mail(str(mod_name), str(bug_info))
-
-    # отправка bug_file в репозиторий GitHub
-    import os
-    mod_name = os.path.basename(__file__)[:-3]
-    from modules.gh_push import gh_push
-    gh_push(str(mod_name), 'bug_files', 'bug_file', str(bug_info))
+    # from modules.gh_push import gh_push
+    # gh_push(str(mod_name), 'bug_files', 'bug_file', str(bug_info))
