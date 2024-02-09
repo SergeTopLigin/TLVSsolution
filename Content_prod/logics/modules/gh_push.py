@@ -48,4 +48,5 @@ def gh_push(main_mod, file_dir, file_name, file_content):
 
         # отправка bug_file на почту
         from bug_mail import bug_mail
-        bug_mail('gh_push', 'не удалось отправить файл в репозиторий GitHub\n'+str(bug_info))
+        import os
+        bug_mail(os.path.basename(__file__)[:-3], 'не удалось отправить файл в репозиторий GitHub\n'+str(bug_info))
