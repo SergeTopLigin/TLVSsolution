@@ -51,5 +51,5 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         # отправка bug_file на почту
         import os
         mod_name = os.path.basename(__file__)[:-3]
-        from bug_mail import bug_mail
+        from .bug_mail import bug_mail
         bug_mail(str(mod_name), 'не удалось отправить файл в репозиторий GitHub\n'+str(bug_info))
