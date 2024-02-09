@@ -20,9 +20,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         if file_name == 'bug_file':
             import datetime     # модуль для определния текущей даты для формирования имени bug_file
             BugDate = str(datetime.datetime.utcnow())[:19].replace(":", "-")    # текущая дата по UTC, отформатированная под строку
-            file_name = BugDate+str(main_mod)+".txt"
-
-        print(path+file_name)
+            file_name = BugDate+' '+str(main_mod)+".txt"
 
         # настройка выгрузки в репо
         from github import Github
@@ -35,7 +33,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         repo = g.get_repo(repo_name)
 
         # отправка файла в репо
-        repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
+        repo.create_file(path+file_name, "add ", file_content, branch="master")
 
         g.close()
 
