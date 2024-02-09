@@ -39,17 +39,17 @@ def gh_push(main_mod, file_dir, file_name, file_content):
 
     #     g.close()
 
-    # except:
+    except:
 
-    #     # запись ошибки/исключения в переменную через временный файл
-    #     import traceback
-    #     with open("bug_file.txt", 'w+') as f:
-    #         traceback.print_exc(file=f)     # создание на вирт машине файла ошибки с указанием файла кода и строки исключения
-    #         f.seek(0)                       # установка курсора в начало временного файла
-    #         bug_info = f.read()
+        # запись ошибки/исключения в переменную через временный файл
+        import traceback
+        with open("bug_file.txt", 'w+') as f:
+            traceback.print_exc(file=f)     # создание на вирт машине файла ошибки с указанием файла кода и строки исключения
+            f.seek(0)                       # установка курсора в начало временного файла
+            bug_info = f.read()
 
-    #     # отправка bug_file на почту
-    #     import os
-    #     mod_name = os.path.basename(__file__)[:-3]
-    #     from bug_mail import bug_mail
-    #     bug_mail(str(mod_name), 'не удалось отправить файл в репозиторий GitHub\n'+str(bug_info))
+        # отправка bug_file на почту
+        import os
+        mod_name = os.path.basename(__file__)[:-3]
+        from bug_mail import bug_mail
+        bug_mail(str(mod_name), 'не удалось отправить файл в репозиторий GitHub\n'+str(bug_info))
