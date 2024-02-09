@@ -36,6 +36,7 @@ def bug_mail(subj_mod, msg_bug):    # принимает параметры:
             bug_info = f.read()
 
         # отправка bug_file в репозиторий GitHub
-        from gh_push import gh_push
         import os
-        gh_push(os.path.basename(__file__)[:-3], 'bug_files', 'bug_file', 'не удалось отправить bug_mail\n'+str(bug_info))
+        mod_name = os.path.basename(__file__)[:-3]
+        from gh_push import gh_push
+        gh_push(str(mod_name), 'bug_files', 'bug_file', 'не удалось отправить bug_mail\n'+str(bug_info))
