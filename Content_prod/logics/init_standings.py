@@ -61,8 +61,8 @@ try:    # обработка исключений для определения 
         import os   # импорт модуля работы с каталогами
         for club in UEFA50:
             find_club = 0
-            for file in os.listdir('../cache/answers/standings/'):
-                with open('../cache/answers/standings/'+file, 'r') as f:
+            for file in os.listdir('./cache/answers/standings/'):
+                with open('./cache/answers/standings/'+file, 'r') as f:
                     for line in f:  # цикл по строкам
                         end_substr = 0
                         while True:     # бесконечный цикл
