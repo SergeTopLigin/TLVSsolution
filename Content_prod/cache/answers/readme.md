@@ -1,1 +1,1 @@
-.json(или.txt) ответы на апросы в API-Football
+.json(или.txt) ответы на запросы в API-Football

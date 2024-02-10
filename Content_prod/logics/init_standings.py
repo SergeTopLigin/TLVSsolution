@@ -1,7 +1,7 @@
-
 try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
     # определение года в веб-адресе
+    import datetime
     adress_year = datetime.datetime.utcnow()
     if adress_year.month < 9:
         adress_year = adress_year.year
@@ -12,19 +12,20 @@ try:    # обработка исключений для определения 
     import requests
     url = 'https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html'
     response = requests.get(url)
+    
     if str(response) != '<Response [200]>':     # создание файла ошибки с указанием файла кода и строки в нем
         message = \
-'init_standings\n\
-ошибка при парсинге UEFA club ranking\n\
-https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
-код ответа сервера != 200'
-        import os.path
-        os.path.basename(__file__)[:-3]   # определение имени текущего файла для передачи в модуль gh_push
-        with open("../../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
-            f.write(message)
-        # отправка bug_file на почту
+            'init_standings\n'+\
+            'ошибка при парсинге UEFA club ranking\n'+\
+            'https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n'+\
+            'код ответа сервера != 200'
+        # отправка bug_file в репозиторий GitHub и на почту
+        import os
+        mod_name = os.path.basename(__file__)[:-3]
+        from modules.gh_push import gh_push
+        gh_push(str(mod_name), 'bug_files', 'bug_file', message)
         from modules.bug_mail import bug_mail
-        bug_mail('init_standings', message)
+        bug_mail(str(mod_name), message)
 
     else:
         Page = str(BeautifulSoup(response.text,"html.parser"))
@@ -44,90 +45,89 @@ https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
         # преобразование имен клубов по apisports
         UEFA50upg = {}      # словарь измененных ключей
         DelUEFA = []        # список ключей словаря на удаление
-        import clubname_fix  # модуль словаря {kassiesa:apifootball}
-        converting = modules.clubname_fix.clubname_fix()
+        from modules.clubname_fix import clubname_fix  # модуль словаря {kassiesa:apifootball}
+        converting = clubname_fix()
         for club in UEFA50:
             for club_fix in converting:
                 if club == club_fix:
                     UEFA50upg[converting[club_fix]] = UEFA50[club]
-        # внесение неверных ключей словаря в словарь на удаление
-                    DelUEFA.append(club)
-
+                    DelUEFA.append(club)    # внесение неверных ключей словаря в словарь на удаление
         for club in DelUEFA:     # удаление исправленных
             del UEFA50[club] 
-
         for club in UEFA50upg:      # добавление исправленных
             UEFA50[club] = UEFA50upg[club]
 
+        # если в словаре есть клуб несоответсвующий ни одному из имен в каталоге - создать bug_file
+        import os   # импорт модуля работы с каталогами
+        for club in UEFA50:
+            find_club = 0
+            for file in os.listdir('../cache/answers/standings/'):
+                with open('../cache/answers/standings/'+file, 'r') as f:
+                    for line in f:  # цикл по строкам
+                        end_substr = 0
+                        while True:     # бесконечный цикл
+                            if line.find('name":"',end_substr) ==-1:
+                                break
+                            kursor = line.find('name":"',end_substr) +7    # переместить курсор перед искомой подстрокой
+                            end_substr = line.find('","',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
+                            if club == line[kursor:end_substr]:
+                                find_club = 1
+                                break
+                if find_club == 1:
+                    break
+            if find_club == 0:
+                # отправка bug_file в репозиторий GitHub и на почту
+                message = \
+                    club+'   имя клуба не соответсвует apisports,'+\
+                    ' внести в clubname_fix или добавить лигу в Content_prod/cache/answers/standings'
+                import os
+                mod_name = os.path.basename(__file__)[:-3]
+                from modules.gh_push import gh_push
+                gh_push(str(mod_name), 'bug_files', 'bug_file', message)
+                from modules.bug_mail import bug_mail
+                bug_mail(str(mod_name), message)
+
+
+        # расчет TLstandings initial
+        # (UEFA_club - UEFA_min) * (TL_max(2.2) - TL_min(-1.2)) / (UEFA_max - UEFA_min) - 1.2
+        for club in UEFA50:
+            UEFA50[club] = float(UEFA50[club])  # приведение строки к числу
+        # определение макс и мин коэф в УЕФА топ50 
+        UEFA_max = max(UEFA50.values())
+        UEFA_min = min(UEFA50.values())
+        for club in UEFA50:
+            UEFA50[club] = round((UEFA50[club] - UEFA_min) * (2.2 - (-1.2)) / (UEFA_max - UEFA_min) - 1.2, 2)
+
+        # сортировка TLstandings по убыванию: словаря по значению
+        TL_standings = dict(sorted(UEFA50.items(), key=lambda x: x[1], reverse=True))
+
+        # приведение словаря TL_standings к виду {club:[TL_rank,visual_rank]} 
+        # с установкой визуально понятного рейтинга - в диапазоне 0-100 между 1-м и последним клубом
+        TL_max = max(TL_standings.values())
+        TL_min = min(TL_standings.values())
+        for club in TL_standings:
+            TL_rank = TL_standings[club]
+            visual_rank = round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0)
+            TL_standings[club] = [TL_rank, visual_rank]
 
 
 
-
-        # # если в словаре есть клуб несоответсвующий ни одному из имен в каталоге - создать bug_file
-        # import os   # импорт модуля работы с каталогами
-        # for club in UEFA50:
-        #     find_club = 0
-        #     for file in os.listdir('standings/'):  
-        #         with open("standings/"+file, 'r') as f:
-        #             for line in f:  # цикл по строкам
-        #                 end_substr = 0
-        #                 while True:     # бесконечный цикл
-        #                     if line.find('name":"',end_substr) ==-1:
-        #                         break
-        #                     kursor = line.find('name":"',end_substr) +7    # переместить курсор перед искомой подстрокой
-        #                     end_substr = line.find('","',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
-        #                     if club == line[kursor:end_substr]:
-        #                         find_club = 1
-        #                         break
-        #         if find_club == 1:
-        #             break
-        #     if find_club == 0:
-        #         with open("bug_file.txt", 'w', errors='replace') as f:
-        #             traceback.print_stack(file=f)     # создание на вирт машине файла ошибки с указанием файла кода и строки
-        #             f.write(club+'   имя клуба не соответсвует apisports, внести в раздел "преобразование"')
-        #         with open("bug_file.txt", 'r') as f:
-        #             bug_info = f.read()             # чтение ошибки в переменную для дальнейшего импорта при создании файла в репозиторие
-        #         repo.create_file("bug_files/"+DateNow+".txt", "bug_file", bug_info, branch="main")
-
-
-        # # расчет TLstandings initial
-        # # (UEFA_club - UEFA_min) * (TL_max(2.2) - TL_min(-1.2)) / (UEFA_max - UEFA_min) - 1.2
-        # for club in UEFA50:
-        #     UEFA50[club] = float(UEFA50[club])  # приведение строки к числу
-        # # определение макс и мин коэф в УЕФА топ50 
-        # UEFA_max = max(UEFA50.values())
-        # UEFA_min = min(UEFA50.values())
-        # for club in UEFA50:
-        #     UEFA50[club] = round((UEFA50[club] - UEFA_min) * (2.2 - (-1.2)) / (UEFA_max - UEFA_min) - 1.2, 2)
-
-        # # сортировка TLstandings по убыванию: словаря по значению
-        # TL_standings = dict(sorted(UEFA50.items(), key=lambda x: x[1], reverse=True))
-
-        # # приведение словаря TL_standings к виду {club:[TL_rank,visual_rank]} 
-        # # с установкой визуально понятного рейтинга - в диапазоне 0-100 между 1-м и последним клубом
-        # TL_max = max(TL_standings.values())
-        # TL_min = min(TL_standings.values())
-        # for club in TL_standings:
-        #     TL_rank = TL_standings[club]
-        #     visual_rank = round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0)
-        #     TL_standings[club] = [TL_rank, visual_rank]
-
-        # # формирование строки из словаря в читабельном виде
-        # TL_standings_str = ''   # github принимает только str для записи в файл
-        # for club in TL_standings:
-        #     TL_standings_str += "{0:20}   {2:3.0f}   {1:5.2f}".format(club, TL_standings[club][0], TL_standings[club][1]) + '\n'
+        # формирование строки из словаря в читабельном виде
+        TL_standings_str = ''   # github принимает только str для записи в файл
+        for club in TL_standings:
+            TL_standings_str += "{0:20}   {2:3.0f}   {1:5.2f}".format(club, TL_standings[club][0], TL_standings[club][1]) + '\n'
         # # формирование в конце строки списка для передачи в дальнейшие расчеты
         # TL_standings_str += '\noutput list['
         # for club in TL_standings:
         #     TL_standings_str += r'["'+club+r'", '+str(TL_standings[club][0])+', '+str(TL_standings[club][1])+'],'
         # TL_standings_str = TL_standings_str[:-1] + ']'      # удаление последней запятой
-        # # вывод строки в .txt в репозиторий
-        # all_contents = repo.get_contents("")    # если в репозитории есть этот файл - сделать его update
-        # if "TLstandings_fromUEFAcoef.txt" in str(all_contents):
-        #     contents = repo.get_contents("TLstandings_fromUEFAcoef.txt", ref="main")
-        #     repo.update_file(contents.path, "TL standings from current UEFA ranking without >1/365>", TL_standings_str, contents.sha, branch="main")
-        # else:   # иначе создать файл
-        #     repo.create_file("TLstandings_fromUEFAcoef.txt", "TL standings from current UEFA ranking without >1/365>", TL_standings_str, branch="main")
+        # вывод строки в .txt в репозиторий
+        all_contents = repo.get_contents("")    # если в репозитории есть этот файл - сделать его update
+        if "TLstandings_fromUEFAcoef.txt" in str(all_contents):
+            contents = repo.get_contents("TLstandings_fromUEFAcoef.txt", ref="main")
+            repo.update_file(contents.path, "TL standings from current UEFA ranking without >1/365>", TL_standings_str, contents.sha, branch="main")
+        else:   # иначе создать файл
+            repo.create_file("TLstandings_fromUEFAcoef.txt", "TL standings from current UEFA ranking without >1/365>", TL_standings_str, branch="main")
 
         # # for club in TL_standings:
         # #     print(club,'   ',TL_standings[club])
