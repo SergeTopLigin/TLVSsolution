@@ -1,4 +1,4 @@
-name: init_standings
+name: TEST
 
 on:
   workflow_dispatch:
