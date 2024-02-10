@@ -24,7 +24,7 @@ jobs:
         run: pip install -r Content_prod/logics/requirements/req_init_standings.txt
       - name: Run script
         env:
-          GH_token: ${{ secrets.GITHUB_TOKEN }}
+          GH_token: ${{ secrets.FILE_UPLOAD }}
           repository: ${{ github.repository }}
           bug_mail_pass: ${{ secrets.BUG_MAIL_PASS }}
         run: python Content_prod/logics/test.py
