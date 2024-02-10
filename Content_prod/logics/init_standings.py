@@ -121,29 +121,35 @@ try:    # обработка исключений для определения 
         # for club in TL_standings:
         #     TL_standings_str += r'["'+club+r'", '+str(TL_standings[club][0])+', '+str(TL_standings[club][1])+'],'
         # TL_standings_str = TL_standings_str[:-1] + ']'      # удаление последней запятой
-        # вывод строки в .txt в репозиторий
-        all_contents = repo.get_contents("")    # если в репозитории есть этот файл - сделать его update
-        if "TLstandings_fromUEFAcoef.txt" in str(all_contents):
-            contents = repo.get_contents("TLstandings_fromUEFAcoef.txt", ref="main")
-            repo.update_file(contents.path, "TL standings from current UEFA ranking without >1/365>", TL_standings_str, contents.sha, branch="main")
-        else:   # иначе создать файл
-            repo.create_file("TLstandings_fromUEFAcoef.txt", "TL standings from current UEFA ranking without >1/365>", TL_standings_str, branch="main")
+        # # вывод строки в .txt в репозиторий
+        # all_contents = repo.get_contents("")    # если в репозитории есть этот файл - сделать его update
+        # if "TLstandings_fromUEFAcoef.txt" in str(all_contents):
+        #     contents = repo.get_contents("TLstandings_fromUEFAcoef.txt", ref="main")
+        #     repo.update_file(contents.path, "TL standings from current UEFA ranking without >1/365>", TL_standings_str, contents.sha, branch="main")
+        # else:   # иначе создать файл
+        #     repo.create_file("TLstandings_fromUEFAcoef.txt", "TL standings from current UEFA ranking without >1/365>", TL_standings_str, branch="main")
+
+        import os
+        mod_name = os.path.basename(__file__)[:-3]
+        from modules.gh_push import gh_push
+        gh_push(str(mod_name), 'content_commits', 'standings', TL_standings_str)
 
         # # for club in TL_standings:
         # #     print(club,'   ',TL_standings[club])
 
 except: 
-    import traceback    # модуль трассировки для отслеживания ошибок
-    with open("bug_file.txt", 'w') as f:
-        traceback.print_exc(file=f)     # создание на вирт машине файла ошибки с указанием файла кода и строки
 
-    message = \
-'init_standings\n\
-ошибка при парсинге UEFA club ranking\n\
-https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n\
-код ответа сервера != 200'
-    with open("../../bug_files/"+DateNowExc+" init_standings.txt", 'w', encoding='utf-8') as f:
-        f.write(message)
-    # отправка bug_file на почту
+    # запись ошибки/исключения в переменную через временный файл
+    import traceback
+    with open("bug_file.txt", 'w+') as f:
+        traceback.print_exc(file=f)     # создание на вирт машине файла ошибки с указанием файла кода и строки исключения
+        f.seek(0)                       # установка курсора в начало временного файла
+        bug_info = f.read()
+
+    # отправка bug_file в репозиторий GitHub
+    import os
+    mod_name = os.path.basename(__file__)[:-3]
+    from modules.gh_push import gh_push
+    gh_push(str(mod_name), 'bug_files', 'bug_file', bug_info)
     from modules.bug_mail import bug_mail
-    bug_mail('init_standings', message)
+    bug_mail(str(mod_name), bug_info)
