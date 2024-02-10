@@ -10,7 +10,7 @@ repo = g.get_repo(repo_name)
 # # отправка файла в репо
 # repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
-all_contents = repo.get_contents("")
+all_contents = repo.get_contents('Content_prod/cache/answers/standings/')
 print(all_contents)
 
 g.close()
