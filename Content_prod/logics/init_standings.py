@@ -88,7 +88,6 @@ try:    # обработка исключений для определения 
                 from modules.bug_mail import bug_mail
                 bug_mail(str(mod_name), message)
 
-
         # расчет TLstandings initial
         # (UEFA_club - UEFA_min) * (TL_max(2.2) - TL_min(-1.2)) / (UEFA_max - UEFA_min) - 1.2
         for club in UEFA50:
@@ -111,8 +110,6 @@ try:    # обработка исключений для определения 
             visual_rank = round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0)
             TL_standings[club] = [TL_rank, visual_rank]
 
-
-
         # формирование строки из словаря в читабельном виде
         TL_standings_str = ''   # github принимает только str для записи в файл
         for club in TL_standings:
@@ -122,14 +119,8 @@ try:    # обработка исключений для определения 
         # for club in TL_standings:
         #     TL_standings_str += r'["'+club+r'", '+str(TL_standings[club][0])+', '+str(TL_standings[club][1])+'],'
         # TL_standings_str = TL_standings_str[:-1] + ']'      # удаление последней запятой
-        # # вывод строки в .txt в репозиторий
-        # all_contents = repo.get_contents("")    # если в репозитории есть этот файл - сделать его update
-        # if "TLstandings_fromUEFAcoef.txt" in str(all_contents):
-        #     contents = repo.get_contents("TLstandings_fromUEFAcoef.txt", ref="main")
-        #     repo.update_file(contents.path, "TL standings from current UEFA ranking without >1/365>", TL_standings_str, contents.sha, branch="main")
-        # else:   # иначе создать файл
-        #     repo.create_file("TLstandings_fromUEFAcoef.txt", "TL standings from current UEFA ranking without >1/365>", TL_standings_str, branch="main")
 
+        # выгрузка standings.txt в /content_commits репо
         import os
         mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push

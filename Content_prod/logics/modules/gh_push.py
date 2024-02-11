@@ -36,20 +36,28 @@ def gh_push(main_mod, file_dir, file_name, file_content):
 
         # определение содержимого каталога выгрузки
         dir_contents = repo.get_contents(path[:-1])     # последний слэш не нужен
-        if file_name in str(dir_contents):       # если в каталоге есть этот файл - сделать его update
+        
+        if file_name in str(dir_contents):       
+            # если в каталоге есть этот файл - сделать его update
+            # GH не переписывает файл, если имя и содеражние не изменились
             contents = repo.get_contents(path+file_name, ref="master")
             repo.update_file(contents.path, "update "+file_name, file_content, contents.sha, branch="master")
         else:   # иначе создать файл
             repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
-        # if file_name in str(dir_contents) or\       # если в репозитории есть этот файл
-        # (file_dir == 'content_commits' and file_name[:-24] in str(dir_contents)):   # или в /content_commits есть файл такого типа
-        #     # достать его содержимое
-        #     contents = repo.get_contents(str(os.path.dirname(os.path.abspath(__file__))[:-20])+path+file_name, ref="master")
-        #     # если 
-        #     repo.update_file(contents.path, "TL standings from current UEFA ranking without >1/365>", TL_standings_str, contents.sha, branch="main")
-        # else:   # иначе создать файл
-        #     repo.create_file("TLstandings_fromUEFAcoef.txt", "TL standings from current UEFA ranking without >1/365>", TL_standings_str, branch="main")
+        # только для каталога content_commits: переписать файл, если содержание изменилось в сравнении с тем же типом последней версии
+        # если содержание прежнее (хотя дата в имени другая) - не переписывать файл
+        if file_dir == 'content_commits' and file_name[:-4] in str(dir_contents):   # если в /content_commits есть файл такого типа
+            # список файлов в /content_commits
+            dir_content_commits = os.listdir(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/content_commits')
+            last_file = file_name[:-4]     # инициализация имени последнего коммита для цикла
+            for file in dir_content_commits:
+                # если в /content_commits есть файл однотипный выгружаемому И это последний из выгруженных по дате
+                if file[:-24] == file_name[:-4] and file > last_file:
+                    last_file = file   # сохраняем последний выгруженный однотипный файл в переменную
+            with open(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/content_commits/'+last_file, 'r') as f:
+                if f.read() != file_content:    # если содержание меняется
+                    repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
         # # отправка файла в репо
         # repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
