@@ -40,6 +40,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         # только для каталога content_commits: переписать файл, если содержание изменилось в сравнении с тем же типом последней версии
         # если содержание прежнее (хотя дата в имени другая) - не переписывать файл
         if file_dir == 'content_commits' and file_name[:-4] in str(dir_contents):   # если в /content_commits есть файл такого типа
+            print('enter')
             # список файлов в /content_commits
             dir_content_commits = os.listdir(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/content_commits')
             last_file = file_name[:-4]     # инициализация имени последнего коммита для цикла
