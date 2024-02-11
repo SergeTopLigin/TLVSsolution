@@ -133,7 +133,7 @@ try:    # обработка исключений для определения 
         import os
         mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push
-        gh_push(str(mod_name), 'content_commits', 'standings', TL_standings_str)
+        gh_push(str(mod_name), 'content_commits', 'standings.txt', TL_standings_str)
 
         # # for club in TL_standings:
         # #     print(club,'   ',TL_standings[club])

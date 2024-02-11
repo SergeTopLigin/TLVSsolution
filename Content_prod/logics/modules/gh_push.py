@@ -22,7 +22,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         if file_name == 'bug_file':
             file_name = CreateDate+'_'+str(main_mod)+".txt"
         if file_dir == 'content_commits':
-            file_name = file_name+' '+CreateDate+".txt"
+            file_name = file_name[:-4]+' '+CreateDate+".txt"
 
         # настройка выгрузки в репо
         from github import Github
