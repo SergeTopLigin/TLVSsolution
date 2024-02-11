@@ -40,7 +40,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         # только для каталога content_commits: переписать файл, если содержание изменилось в сравнении с тем же типом последней версии
         # если содержание прежнее (хотя дата в имени другая) - не переписывать файл
         if (file_dir == 'content_commits') and (file_name[:-24] in str(dir_contents)):   # если в /content_commits есть файл такого типа
-            print('enter1')
+            print('enter 1')
             # список файлов в /content_commits
             dir_content_commits = os.listdir(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/content_commits')
             last_file = file_name[:-4]     # инициализация имени последнего коммита для цикла
@@ -50,16 +50,17 @@ def gh_push(main_mod, file_dir, file_name, file_content):
                     last_file = file   # сохраняем последний выгруженный однотипный файл в переменную
             with open(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/content_commits/'+last_file, 'r') as f:
                 if f.read() != file_content:    # если содержание меняется
+                    print('enter 2')
                     repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
         # для остальных каталогов
         elif file_name in str(dir_contents):       
-            print('enter2')
+            print('enter 3')
             # если в каталоге есть этот файл - сделать его update
             # GH не переписывает файл, если имя и содеражние не изменились
             contents = repo.get_contents(path+file_name, ref="master")
             repo.update_file(contents.path, "update "+file_name, file_content, contents.sha, branch="master")
         else:   # иначе создать файл
-            print('enter3')
+            print('enter 4')
             repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
         # # отправка файла в репо
