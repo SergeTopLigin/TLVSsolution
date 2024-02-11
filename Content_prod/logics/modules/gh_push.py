@@ -34,11 +34,11 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         g = Github(auth=auth)   # Public Web Github
         repo = g.get_repo(repo_name)
 
-        # определение содержимого каталога выгружамеого файла
-        dir_contents = repo.get_contents(str(os.path.dirname(os.path.abspath(__file__))[:-20])+path)
+        # определение содержимого каталога выгрузки
+        dir_contents = repo.get_contents(path[:-1])     # последний слэш не нужен
         if file_name in str(dir_contents):       # если в каталоге есть этот файл - сделать его update
-            contents = repo.get_contents(str(os.path.dirname(os.path.abspath(__file__))[:-20])+path+file_name, ref="master")
-            repo.update_file(contents.path, file_name+" update", file_content, contents.sha, branch="master")
+            contents = repo.get_contents(path+file_name, ref="master")
+            repo.update_file(contents.path, "update "+file_name, file_content, contents.sha, branch="master")
         else:   # иначе создать файл
             repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 

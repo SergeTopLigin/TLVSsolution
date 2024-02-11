@@ -147,7 +147,7 @@ except:
         f.seek(0)                       # установка курсора в начало временного файла
         bug_info = f.read()
 
-    # отправка bug_file в репозиторий GitHub
+    # отправка bug_file в репозиторий GitHub и на почту
     import os
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
