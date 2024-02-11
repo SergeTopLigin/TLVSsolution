@@ -37,14 +37,6 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         # определение содержимого каталога выгрузки
         dir_contents = repo.get_contents(path[:-1])     # последний слэш не нужен
         
-        if file_name in str(dir_contents):       
-            # если в каталоге есть этот файл - сделать его update
-            # GH не переписывает файл, если имя и содеражние не изменились
-            contents = repo.get_contents(path+file_name, ref="master")
-            repo.update_file(contents.path, "update "+file_name, file_content, contents.sha, branch="master")
-        else:   # иначе создать файл
-            repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
-
         # только для каталога content_commits: переписать файл, если содержание изменилось в сравнении с тем же типом последней версии
         # если содержание прежнее (хотя дата в имени другая) - не переписывать файл
         if file_dir == 'content_commits' and file_name[:-4] in str(dir_contents):   # если в /content_commits есть файл такого типа
@@ -58,6 +50,14 @@ def gh_push(main_mod, file_dir, file_name, file_content):
             with open(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/content_commits/'+last_file, 'r') as f:
                 if f.read() != file_content:    # если содержание меняется
                     repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
+        # для остальных каталогов
+        elif file_name in str(dir_contents):       
+            # если в каталоге есть этот файл - сделать его update
+            # GH не переписывает файл, если имя и содеражние не изменились
+            contents = repo.get_contents(path+file_name, ref="master")
+            repo.update_file(contents.path, "update "+file_name, file_content, contents.sha, branch="master")
+        else:   # иначе создать файл
+            repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
         # # отправка файла в репо
         # repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
