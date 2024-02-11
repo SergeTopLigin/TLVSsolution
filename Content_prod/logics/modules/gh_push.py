@@ -42,13 +42,13 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         if (file_dir == 'content_commits') and (file_name[:-24] in str(dir_contents)):   # если в /content_commits есть файл такого типа
             print('enter 1')
             # список файлов в /content_commits
-            dir_content_commits = os.listdir(os.path.dirname(os.path.abspath(__file__))[:-8]+'/cache/content_commits')
+            dir_content_commits = os.listdir((os.path.dirname(os.path.abspath(__file__)))[:-7]+'/cache/content_commits')
             last_file = file_name[:-24]     # инициализация имени последнего коммита для цикла
             for file in dir_content_commits:
                 # если в /content_commits есть файл однотипный выгружаемому И это последний из выгруженных по дате
                 if file[:-24] == file_name[:-24] and file > last_file:
                     last_file = file   # сохраняем последний выгруженный однотипный файл в переменную
-            with open(os.path.dirname(os.path.abspath(__file__))[:-8]+'/cache/content_commits/'+last_file, 'r') as f:
+            with open((os.path.dirname(os.path.abspath(__file__)))[:-7]+'/cache/content_commits/'+last_file, 'r') as f:
                 if f.read() != file_content:    # если содержание меняется
                     print('enter 2')
                     repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
