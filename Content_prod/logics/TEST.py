@@ -11,7 +11,7 @@ repo = g.get_repo(repo_name)
 path = 'Content_prod/cache/content_commits/'
 
 # определение содержимого каталога выгрузки
-dir_contents = repo.get_contents("Content_prod")
+dir_contents = repo.get_contents("Content_prod/cache")
 # if file_name in str(dir_contents):       # если в каталоге есть этот файл - сделать его update
 #     contents = repo.get_contents(str(os.path.dirname(os.path.abspath(__file__))[:-20])+path+file_name, ref="master")
 #     repo.update_file(contents.path, file_name+" update", file_content, contents.sha, branch="master")
