@@ -20,7 +20,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         import datetime     # модуль для определния текущей даты для формирования имени bug_file
         CreateDate = str(datetime.datetime.utcnow())[:19].replace(":", "-").replace(' ','_')    # текущая дата по UTC, отформатированная под строку
         if file_name == 'bug_file':
-            file_name = CreateDate+'_'+str(main_mod)+".txt"
+            file_name = CreateDate+' '+str(main_mod)+".txt"
         if file_dir == 'content_commits':
             file_name = file_name[:-4]+' '+CreateDate+".txt"
 
@@ -34,8 +34,25 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         g = Github(auth=auth)   # Public Web Github
         repo = g.get_repo(repo_name)
 
-        # отправка файла в репо
-        repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
+        # определение содержимого каталога выгружамеого файла
+        dir_contents = repo.get_contents(str(os.path.dirname(os.path.abspath(__file__))[:-20])+path)
+        if file_name in str(dir_contents):       # если в каталоге есть этот файл - сделать его update
+            contents = repo.get_contents(str(os.path.dirname(os.path.abspath(__file__))[:-20])+path+file_name, ref="master")
+            repo.update_file(contents.path, file_name+" update", file_content, contents.sha, branch="master")
+        else:   # иначе создать файл
+            repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
+
+        # if file_name in str(dir_contents) or\       # если в репозитории есть этот файл
+        # (file_dir == 'content_commits' and file_name[:-24] in str(dir_contents)):   # или в /content_commits есть файл такого типа
+        #     # достать его содержимое
+        #     contents = repo.get_contents(str(os.path.dirname(os.path.abspath(__file__))[:-20])+path+file_name, ref="master")
+        #     # если 
+        #     repo.update_file(contents.path, "TL standings from current UEFA ranking without >1/365>", TL_standings_str, contents.sha, branch="main")
+        # else:   # иначе создать файл
+        #     repo.create_file("TLstandings_fromUEFAcoef.txt", "TL standings from current UEFA ranking without >1/365>", TL_standings_str, branch="main")
+
+        # # отправка файла в репо
+        # repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
         g.close()
 
