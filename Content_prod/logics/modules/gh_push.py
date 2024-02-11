@@ -16,11 +16,13 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         if file_dir == 'content_commits':       path = 'Content_prod/cache/content_commits/'
         if file_dir == 'content':               path = 'TL_VS_project/TL_flask/static/content/'
 
-        # создание имени bug_file
+        # дата в имени файла
+        import datetime     # модуль для определния текущей даты для формирования имени bug_file
+        CreateDate = str(datetime.datetime.utcnow())[:19].replace(":", "-").replace(' ','_')    # текущая дата по UTC, отформатированная под строку
         if file_name == 'bug_file':
-            import datetime     # модуль для определния текущей даты для формирования имени bug_file
-            BugDate = str(datetime.datetime.utcnow())[:19].replace(":", "-").replace(' ','_')    # текущая дата по UTC, отформатированная под строку
-            file_name = BugDate+'_'+str(main_mod)+".txt"
+            file_name = CreateDate+'_'+str(main_mod)+".txt"
+        if file_dir == 'content_commits':
+            file_name = file_name+' '+CreateDate+".txt"
 
         # настройка выгрузки в репо
         from github import Github
