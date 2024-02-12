@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-22.04
     
     steps:
-      - name: Set up Python 3.12.2  # установка версии окружения
+      - name: Set up Python 3.12.1  # установка версии окружения
         uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c
         with:
-          python-version: "3.12.2"
+          python-version: "3.12.1"
       - name: repo checkout  # загрузка содержимого репозитория на вирт машину
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  
         with:
