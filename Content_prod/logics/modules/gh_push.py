@@ -49,18 +49,19 @@ def gh_push(main_mod, file_dir, file_name, file_content):
                 if file[:-24] == file_name[:-24] and file > last_file:
                     last_file = file   # сохраняем последний выгруженный однотипный файл в переменную
             with open((os.path.abspath(__file__))[:-26]+'/cache/content_commits/'+last_file, 'r') as f:
+                print('enter 2')
                 if f.read() != file_content:    # если содержание меняется
-                    print('enter 2')
+                    print('enter 3')
                     repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
         # для остальных каталогов
         elif file_name in str(dir_contents):       
-            print('enter 3')
+            print('enter 4')
             # если в каталоге есть этот файл - сделать его update
             # GH не переписывает файл, если имя и содеражние не изменились
             contents = repo.get_contents(path+file_name, ref="master")
             repo.update_file(contents.path, "update "+file_name, file_content, contents.sha, branch="master")
         else:   # иначе создать файл
-            print('enter 4')
+            print('enter 5')
             repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
         # # отправка файла в репо
