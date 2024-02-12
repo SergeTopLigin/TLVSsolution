@@ -1,4 +1,4 @@
-content = 'test'
+content = 'changed'
 
 import os
 mod_name = os.path.basename(__file__)[:-3]
