@@ -17,6 +17,7 @@
     <Name>TL_VS_project</Name>
     <RootNamespace>TL_VS_project</RootNamespace>
     <InterpreterId>MSBuild|TL_venv|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
