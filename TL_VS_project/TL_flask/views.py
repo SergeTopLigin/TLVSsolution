@@ -21,7 +21,7 @@ def home():
 @app.route('/standings/')
 def standings():
     with open((os.path.abspath(__file__))[:-8]+'static/content/standings.txt', 'r', newline='\n') as f:
-        standings = '<pre>' + f.read() + '</pre>'
+        standings = '<pre>' + f.read() + '</pre>'   # тэг <pre> передает содержимое без изменений (переносы строк, доп пробелы итд)
     return render_template(
         "standings.html",
         title = "Standings",
