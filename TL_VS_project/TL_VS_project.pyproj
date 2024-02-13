@@ -16,7 +16,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>TL_VS_project</Name>
     <RootNamespace>TL_VS_project</RootNamespace>
-    <InterpreterId>MSBuild|TL_venv|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|TL_venv_3.12.1|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,6 +48,15 @@
       <Id>TL_venv</Id>
       <Version>3.10</Version>
       <Description>TL_venv (Python 3.10 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+    <Interpreter Include="TL_venv_3.12.1\">
+      <Id>TL_venv_3.12.1</Id>
+      <Version>0.0</Version>
+      <Description>TL_venv_3.12.1 (Python 3.12 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
