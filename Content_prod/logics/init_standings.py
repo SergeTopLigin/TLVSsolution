@@ -120,10 +120,11 @@ try:    # обработка исключений для определения 
         #     TL_standings_str += r'["'+club+r'", '+str(TL_standings[club][0])+', '+str(TL_standings[club][1])+'],'
         # TL_standings_str = TL_standings_str[:-1] + ']'      # удаление последней запятой
 
-        # выгрузка standings.txt в /content_commits репо
+        # выгрузка standings.txt в репо: /content и /content_commits
         import os
         mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push
+        gh_push(str(mod_name), 'content', 'standings.txt', TL_standings_str)
         gh_push(str(mod_name), 'content_commits', 'standings.txt', TL_standings_str)
 
         # # for club in TL_standings:
