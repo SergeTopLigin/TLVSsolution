@@ -17,7 +17,9 @@ jobs:
       - name: repo checkout  # загрузка содержимого репозитория на вирт машину
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  
         with:
-          sparse-checkout: Content_prod, TL_VS_project
+          sparse-checkout: |  # только необходимые папки
+            Content_prod
+            TL_VS_project
       - name: list current folder  # проверка загрузки
         run: ls
       
