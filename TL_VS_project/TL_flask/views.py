@@ -1,7 +1,10 @@
 from TL_flask import app
 from datetime import datetime
 from flask import render_template    # функция для вызова шаблонов по адресу \templates
-from flask import send_from_directory   # функция для вызова файлов
+from flask import send_from_directory
+import os
+
+import TL_flask   # функция для вызова файлов
 
 @app.route('/')
 # @app.route('/home/')      # для Frozen-Flask нельзя использовать одну функцию на несколько адресов
@@ -17,10 +20,12 @@ def home():
 
 @app.route('/standings/')
 def standings():
+    with open((os.path.abspath(__file__))[:-8]+'static/content/standings.txt', 'r', newline='\n') as f:
+        standings = '<pre>' + f.read() + '</pre>'
     return render_template(
         "standings.html",
         title = "Standings",
-        content = "Standings")
+        content = standings)
 
 @app.route('/robots.txt/')  # по этому адресу будет показан robots.txt из каталога static
 def robots():

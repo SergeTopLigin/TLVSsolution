@@ -2,7 +2,7 @@ try:    # обработка исключений для определения 
 
     # определение года в веб-адресе
     import datetime
-    adress_year = datetime.datetime.utcnow()
+    adress_year = datetime.datetime.now(datetime.UTC)
     if adress_year.month < 9:
         adress_year = adress_year.year
     else:
@@ -112,8 +112,11 @@ try:    # обработка исключений для определения 
 
         # формирование строки из словаря в читабельном виде
         TL_standings_str = ''   # github принимает только str для записи в файл
+        rank = 1
         for club in TL_standings:
-            TL_standings_str += "{0:20}   {2:3.0f}   {1:5.2f}".format(club, TL_standings[club][0], TL_standings[club][1]) + '\n'
+            TL_standings_str += "{3:>2}  {0:20}   {2:3.0f}   {1:5.2f}".\
+            format(club, TL_standings[club][0], TL_standings[club][1], str(rank)) + '\n'
+            rank += 1
         # # формирование в конце строки списка для передачи в дальнейшие расчеты
         # TL_standings_str += '\noutput list['
         # for club in TL_standings:
