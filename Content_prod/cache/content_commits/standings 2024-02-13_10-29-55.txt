@@ -1,0 +1,50 @@
+ 1  Manchester City        100    2.20
+ 2  Bayern Munich           95    2.04
+ 3  Real Madrid             83    1.62
+ 4  Paris Saint Germain     69    1.13
+ 5  Liverpool               68    1.10
+ 6  Inter                   60    0.84
+ 7  RB Leipzig              57    0.74
+ 8  Chelsea                 57    0.74
+ 9  Manchester United       53    0.61
+10  AS Roma                 52    0.58
+11  Borussia Dortmund       47    0.39
+12  Barcelona               47    0.39
+13  Sevilla                 46    0.35
+14  Atletico Madrid         46    0.35
+15  Villarreal              42    0.22
+16  Juventus                42    0.22
+17  Napoli                  41    0.19
+18  Bayer Leverkusen        40    0.16
+19  FC Porto                37    0.06
+20  Benfica                 34   -0.03
+21  Arsenal                 31   -0.16
+22  Atalanta                31   -0.16
+23  Ajax                    29   -0.23
+24  West Ham                28   -0.26
+25  Shakhtar Donetsk        26   -0.33
+26  Rangers                 25   -0.36
+27  Eintracht Frankfurt     23   -0.42
+28  Feyenoord               20   -0.52
+29  Club Brugge KV          19   -0.55
+30  Tottenham               17   -0.62
+31  PSV Eindhoven           16   -0.65
+32  Slavia Praha            16   -0.65
+33  AC Milan                16   -0.65
+34  Sporting CP             16   -0.67
+35  Lazio                   15   -0.68
+36  FC Basel 1893           15   -0.68
+37  FC Copenhagen           15   -0.70
+38  Real Sociedad           14   -0.71
+39  AZ Alkmaar              13   -0.75
+40  Red Bull Salzburg       13   -0.75
+41  SC Braga                12   -0.78
+42  Dinamo Zagreb           11   -0.81
+43  Gent                     9   -0.91
+44  Lyon                     8   -0.94
+45  Rennes                   7   -0.97
+46  Lille                    6   -1.01
+47  Marseille                4   -1.07
+48  FK Crvena Zvezda         4   -1.07
+49  Lask Linz                1   -1.17
+50  Olympiakos Piraeus       0   -1.20
