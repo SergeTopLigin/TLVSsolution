@@ -18,7 +18,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
 
         # дата в имени файла
         import datetime     # модуль для определния текущей даты для формирования имени bug_file
-        CreateDate = str(datetime.datetime.now(datetime.UTC))[:19].replace(":", "-").replace(' ','_')    # текущая дата по UTC, отформатированная под строку
+        CreateDate = str(datetime.datetime.utcnow())[:19].replace(":", "-").replace(' ','_')    # текущая дата по UTC, отформатированная под строку
         if file_name == 'bug_file':
             file_name = CreateDate+' '+str(main_mod)+".txt"
         if file_dir == 'content_commits':

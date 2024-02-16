@@ -2,7 +2,7 @@ try:    # обработка исключений для определения 
 
     # определение года в веб-адресе
     import datetime
-    adress_year = datetime.datetime.now(datetime.UTC)
+    adress_year = datetime.datetime.utcnow()
     if adress_year.month < 9:
         adress_year = adress_year.year
     else:
