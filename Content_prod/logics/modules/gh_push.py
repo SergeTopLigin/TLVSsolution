@@ -60,7 +60,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
             repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
         g.close()
-        print(file_dir)
+        
     except:
 
         # запись ошибки/исключения в переменную через временный файл
