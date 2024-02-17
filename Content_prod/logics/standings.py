@@ -6,7 +6,6 @@ try:    # обработка исключений для определения 
     import os
     with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/init_standings.json', 'r') as j:
         TL_standings = json.load(j)
-    print(TL_standings)
     # формирование .json из словаря TL-standings
     # и выгрузка standings.json в репо: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
