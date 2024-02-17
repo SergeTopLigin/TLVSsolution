@@ -110,6 +110,15 @@ try:    # обработка исключений для определения 
             visual_rank = round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0)
             TL_standings[club] = [TL_rank, visual_rank]
 
+        # формирование .json из словаря TL-standings
+        # и выгрузка init_standings.json в репо: /sub_results
+        import json
+        import os
+        mod_name = os.path.basename(__file__)[:-3]
+        from modules.gh_push import gh_push
+        gh_push(str(mod_name), 'sub_results', 'init_standings.json', \
+            json.dumps(TL_standings, skipkeys=True, ensure_ascii=False, indent=2))
+
         # формирование строки из словаря в читабельном виде
         TL_standings_str = ''   # github принимает только str для записи в файл
         rank = 1
