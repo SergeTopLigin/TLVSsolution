@@ -109,7 +109,7 @@ try:    # обработка исключений для определения 
             TL_rank = TL_standings[club]
             visual_rank = int(round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0))
             TL_standings[club] = [TL_rank, visual_rank]
-        print(TL_standings)
+            
         # формирование .json из словаря TL-standings
         # и выгрузка init_standings.json в репо: /sub_results
         import json

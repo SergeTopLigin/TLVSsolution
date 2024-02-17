@@ -6,12 +6,11 @@ try:    # обработка исключений для определения 
     import os
     with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/init_standings.json', 'r') as j:
         TL_standings = json.load(j)
-    print(TL_standings)
     # формирование .json из словаря TL-standings
     # и выгрузка standings.json в репо: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
-    gh_push(str(mod_name), 'sub_results', 'standings.json', \
+    gh_push(str(mod_name), 'sub_results', 'TL_standings.json', \
         json.dumps(TL_standings, skipkeys=True, ensure_ascii=False, indent=2))
 
     # формирование строки из словаря в читабельном виде
