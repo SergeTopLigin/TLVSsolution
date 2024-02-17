@@ -36,7 +36,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
 
         # определение содержимого каталога выгрузки
         dir_contents = repo.get_contents(path[:-1])     # последний слэш не нужен
-        print(file_dir)
+        
         # только для каталога content_commits: переписать файл, если содержание изменилось в сравнении с тем же типом последней версии
         # если содержание прежнее (хотя дата в имени другая) - не переписывать файл
         if (file_dir == 'content_commits') and (file_name[:-24] in str(dir_contents)):   # если в /content_commits есть файл такого типа
@@ -60,7 +60,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
             repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
 
         g.close()
-
+        print(file_dir)
     except:
 
         # запись ошибки/исключения в переменную через временный файл
