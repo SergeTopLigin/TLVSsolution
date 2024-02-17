@@ -10,7 +10,6 @@ try:    # обработка исключений для определения 
     # и выгрузка standings.json в репо: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
-    print('enter 1')
     gh_push(str(mod_name), 'sub_results', 'standings.json', \
         json.dumps(TL_standings, skipkeys=True, ensure_ascii=False, indent=2))
 
@@ -26,11 +25,9 @@ try:    # обработка исключений для определения 
     import os
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
-    print('enter 2')
     gh_push(str(mod_name), 'content', 'standings.txt', TL_standings_str)
-    print('enter 3')
     gh_push(str(mod_name), 'content_commits', 'standings.txt', TL_standings_str)
-    print('enter 4')
+
 except: 
 
     # запись ошибки/исключения в переменную через временный файл
