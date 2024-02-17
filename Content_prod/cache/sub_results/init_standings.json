@@ -1,0 +1,202 @@
+{
+  "Manchester City": [
+    2.2,
+    100.0
+  ],
+  "Bayern Munich": [
+    1.98,
+    94.0
+  ],
+  "Real Madrid": [
+    1.63,
+    83.0
+  ],
+  "Paris Saint Germain": [
+    1.15,
+    69.0
+  ],
+  "Liverpool": [
+    1.06,
+    66.0
+  ],
+  "Inter": [
+    0.8,
+    59.0
+  ],
+  "RB Leipzig": [
+    0.71,
+    56.0
+  ],
+  "Chelsea": [
+    0.71,
+    56.0
+  ],
+  "Manchester United": [
+    0.58,
+    52.0
+  ],
+  "AS Roma": [
+    0.55,
+    51.0
+  ],
+  "Borussia Dortmund": [
+    0.36,
+    46.0
+  ],
+  "Barcelona": [
+    0.36,
+    46.0
+  ],
+  "Sevilla": [
+    0.33,
+    45.0
+  ],
+  "Atletico Madrid": [
+    0.33,
+    45.0
+  ],
+  "Villarreal": [
+    0.2,
+    41.0
+  ],
+  "Juventus": [
+    0.2,
+    41.0
+  ],
+  "Napoli": [
+    0.17,
+    40.0
+  ],
+  "Bayer Leverkusen": [
+    0.13,
+    39.0
+  ],
+  "FC Porto": [
+    0.04,
+    36.0
+  ],
+  "Benfica": [
+    -0.06,
+    34.0
+  ],
+  "Arsenal": [
+    -0.18,
+    30.0
+  ],
+  "Atalanta": [
+    -0.18,
+    30.0
+  ],
+  "Ajax": [
+    -0.25,
+    28.0
+  ],
+  "West Ham": [
+    -0.28,
+    27.0
+  ],
+  "Shakhtar Donetsk": [
+    -0.34,
+    25.0
+  ],
+  "Rangers": [
+    -0.37,
+    24.0
+  ],
+  "Eintracht Frankfurt": [
+    -0.44,
+    22.0
+  ],
+  "Feyenoord": [
+    -0.53,
+    20.0
+  ],
+  "Club Brugge KV": [
+    -0.56,
+    19.0
+  ],
+  "Lazio": [
+    -0.63,
+    17.0
+  ],
+  "Tottenham": [
+    -0.63,
+    17.0
+  ],
+  "PSV Eindhoven": [
+    -0.66,
+    16.0
+  ],
+  "Slavia Praha": [
+    -0.66,
+    16.0
+  ],
+  "AC Milan": [
+    -0.66,
+    16.0
+  ],
+  "Sporting CP": [
+    -0.68,
+    15.0
+  ],
+  "FC Basel 1893": [
+    -0.69,
+    15.0
+  ],
+  "FC Copenhagen": [
+    -0.71,
+    14.0
+  ],
+  "Real Sociedad": [
+    -0.72,
+    14.0
+  ],
+  "AZ Alkmaar": [
+    -0.76,
+    13.0
+  ],
+  "Red Bull Salzburg": [
+    -0.76,
+    13.0
+  ],
+  "SC Braga": [
+    -0.79,
+    12.0
+  ],
+  "Dinamo Zagreb": [
+    -0.82,
+    11.0
+  ],
+  "Gent": [
+    -0.91,
+    9.0
+  ],
+  "Lyon": [
+    -0.95,
+    7.0
+  ],
+  "Rennes": [
+    -0.98,
+    6.0
+  ],
+  "Lille": [
+    -1.01,
+    6.0
+  ],
+  "Marseille": [
+    -1.07,
+    4.0
+  ],
+  "FK Crvena Zvezda": [
+    -1.07,
+    4.0
+  ],
+  "Lask Linz": [
+    -1.17,
+    1.0
+  ],
+  "Olympiakos Piraeus": [
+    -1.2,
+    0.0
+  ]
+}
