@@ -24,17 +24,27 @@ jobs:
         run: ls
       
       # init_standings
-      - name: install Dependencies  # установка зависимостей
+      - name: install init_standings Dependencies  # установка зависимостей
         run: pip install -r Content_prod/logics/requirements/req_init_standings.txt
-      - name: Run script init_standings
+      - name: Run script init_standings.py
         env:
           GH_token: ${{ secrets.FILE_UPLOAD }}
           repository: ${{ github.repository }}
           bug_mail_pass: ${{ secrets.BUG_MAIL_PASS }}
         run: python Content_prod/logics/init_standings.py
       
+      # standings
+      - name: install standings Dependencies  # установка зависимостей
+        run: pip install -r Content_prod/logics/requirements/req_standings.txt
+      - name: Run script standings.py
+        env:
+          GH_token: ${{ secrets.FILE_UPLOAD }}
+          repository: ${{ github.repository }}
+          bug_mail_pass: ${{ secrets.BUG_MAIL_PASS }}
+        run: python Content_prod/logics/standings.py
+
       # deploy
-      - name: Install Dependencies  # Установить зависимости
+      - name: Install deploy Dependencies  # Установить зависимости
         run: pip install -r TL_VS_project/requirements_static.txt
       - name: Run script freeze    # запуск frozen-flask, создание /build
         run: python TL_VS_project/freeze.py

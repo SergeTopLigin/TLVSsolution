@@ -59,11 +59,11 @@ try:    # обработка исключений для определения 
 
         # если в словаре есть клуб несоответсвующий ни одному из имен в каталоге /standings - создать bug_file
         import os   # импорт модуля работы с каталогами
-        dir_standings = os.listdir(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/answers/standings')
+        dir_standings = os.listdir((os.path.abspath(__file__))[:-25]+'/cache/answers/standings')
         for club in UEFA50:
             find_club = 0
             for file in dir_standings:
-                with open(os.path.dirname(os.path.abspath(__file__))[:-7]+'/cache/answers/standings/'+file, 'r') as f:
+                with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r') as f:
                     for line in f:  # цикл по строкам
                         end_substr = 0
                         while True:     # бесконечный цикл
@@ -107,7 +107,7 @@ try:    # обработка исключений для определения 
         TL_min = min(TL_standings.values())
         for club in TL_standings:
             TL_rank = TL_standings[club]
-            visual_rank = round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0)
+            visual_rank = int(round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0))
             TL_standings[club] = [TL_rank, visual_rank]
 
         # формирование .json из словаря TL-standings
@@ -119,25 +119,25 @@ try:    # обработка исключений для определения 
         gh_push(str(mod_name), 'sub_results', 'init_standings.json', \
             json.dumps(TL_standings, skipkeys=True, ensure_ascii=False, indent=2))
 
-        # формирование строки из словаря в читабельном виде
-        TL_standings_str = ''   # github принимает только str для записи в файл
-        rank = 1
-        for club in TL_standings:
-            TL_standings_str += "{3:>2}  {0:20}   {2:3.0f}   {1:5.2f}".\
-            format(club, TL_standings[club][0], TL_standings[club][1], str(rank)) + '\n'
-            rank += 1
-        # # формирование в конце строки списка для передачи в дальнейшие расчеты
-        # TL_standings_str += '\noutput list['
+        # # формирование строки из словаря в читабельном виде
+        # TL_standings_str = ''   # github принимает только str для записи в файл
+        # rank = 1
         # for club in TL_standings:
-        #     TL_standings_str += r'["'+club+r'", '+str(TL_standings[club][0])+', '+str(TL_standings[club][1])+'],'
-        # TL_standings_str = TL_standings_str[:-1] + ']'      # удаление последней запятой
+        #     TL_standings_str += "{3:>2}  {0:20}   {2:3.0f}   {1:5.2f}".\
+        #     format(club, TL_standings[club][0], TL_standings[club][1], str(rank)) + '\n'
+        #     rank += 1
+        # # # формирование в конце строки списка для передачи в дальнейшие расчеты
+        # # TL_standings_str += '\noutput list['
+        # # for club in TL_standings:
+        # #     TL_standings_str += r'["'+club+r'", '+str(TL_standings[club][0])+', '+str(TL_standings[club][1])+'],'
+        # # TL_standings_str = TL_standings_str[:-1] + ']'      # удаление последней запятой
 
-        # выгрузка standings.txt в репо: /content и /content_commits
-        import os
-        mod_name = os.path.basename(__file__)[:-3]
-        from modules.gh_push import gh_push
-        gh_push(str(mod_name), 'content', 'standings.txt', TL_standings_str)
-        gh_push(str(mod_name), 'content_commits', 'standings.txt', TL_standings_str)
+        # # выгрузка standings.txt в репо: /content и /content_commits
+        # import os
+        # mod_name = os.path.basename(__file__)[:-3]
+        # from modules.gh_push import gh_push
+        # gh_push(str(mod_name), 'content', 'standings.txt', TL_standings_str)
+        # gh_push(str(mod_name), 'content_commits', 'standings.txt', TL_standings_str)
 
         # # for club in TL_standings:
         # #     print(club,'   ',TL_standings[club])
