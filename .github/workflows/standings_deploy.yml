@@ -1,4 +1,4 @@
-name: init_standings_deploy
+name: standings_deploy
 
 on:
   workflow_dispatch:
