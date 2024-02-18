@@ -15,7 +15,7 @@ try:    # обработка исключений для определения 
     
     if str(response) != '<Response [200]>':     # создание файла ошибки с указанием файла кода и строки в нем
         message = \
-            'init_standings\n'+\
+            'uefa_standings\n'+\
             'ошибка при парсинге UEFA club ranking\n'+\
             'https://kassiesa.net/uefa/data/method5/trank'+str(adress_year)+'.html\n'+\
             'код ответа сервера != 200'
@@ -99,48 +99,48 @@ try:    # обработка исключений для определения 
             UEFA50[club] = round((UEFA50[club] - UEFA_min) * (2.2 - (-1.2)) / (UEFA_max - UEFA_min) - 1.2, 2)
 
         # сортировка TLstandings по убыванию: словаря по значению
-        TL_standings = dict(sorted(UEFA50.items(), key=lambda x: x[1], reverse=True))
+        uefa_standings = dict(sorted(UEFA50.items(), key=lambda x: x[1], reverse=True))
 
-        # приведение словаря TL_standings к виду {club:[TL_rank,visual_rank]} 
+        # приведение словаря uefa_standings к виду {club:[TL_rank,visual_rank]} 
         # с установкой визуально понятного рейтинга - в диапазоне 0-100 между 1-м и последним клубом
-        TL_max = max(TL_standings.values())
-        TL_min = min(TL_standings.values())
-        for club in TL_standings:
-            TL_rank = TL_standings[club]
-            visual_rank = int(round(100 * (TL_standings[club] - TL_min) / (TL_max - TL_min), 0))
-            TL_standings[club] = [TL_rank, visual_rank]
+        TL_max = max(uefa_standings.values())
+        TL_min = min(uefa_standings.values())
+        for club in uefa_standings:
+            TL_rank = uefa_standings[club]
+            visual_rank = int(round(100 * (uefa_standings[club] - TL_min) / (TL_max - TL_min), 0))
+            uefa_standings[club] = [TL_rank, visual_rank]
             
         # формирование .json из словаря TL-standings
-        # и выгрузка init_standings.json в репо: /sub_results
+        # и выгрузка uefa_standings.json в репо: /sub_results
         import json
         import os
         mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push
-        gh_push(str(mod_name), 'sub_results', 'init_standings.json', \
-            json.dumps(TL_standings, skipkeys=True, ensure_ascii=False, indent=2))
+        gh_push(str(mod_name), 'sub_results', 'uefa_standings.json', \
+            json.dumps(uefa_standings, skipkeys=True, ensure_ascii=False, indent=2))
 
         # # формирование строки из словаря в читабельном виде
-        # TL_standings_str = ''   # github принимает только str для записи в файл
+        # uefa_standings_str = ''   # github принимает только str для записи в файл
         # rank = 1
-        # for club in TL_standings:
-        #     TL_standings_str += "{3:>2}  {0:20}   {2:3.0f}   {1:5.2f}".\
-        #     format(club, TL_standings[club][0], TL_standings[club][1], str(rank)) + '\n'
+        # for club in uefa_standings:
+        #     uefa_standings_str += "{3:>2}  {0:20}   {2:3.0f}   {1:5.2f}".\
+        #     format(club, uefa_standings[club][0], uefa_standings[club][1], str(rank)) + '\n'
         #     rank += 1
         # # # формирование в конце строки списка для передачи в дальнейшие расчеты
-        # # TL_standings_str += '\noutput list['
-        # # for club in TL_standings:
-        # #     TL_standings_str += r'["'+club+r'", '+str(TL_standings[club][0])+', '+str(TL_standings[club][1])+'],'
-        # # TL_standings_str = TL_standings_str[:-1] + ']'      # удаление последней запятой
+        # # uefa_standings_str += '\noutput list['
+        # # for club in uefa_standings:
+        # #     uefa_standings_str += r'["'+club+r'", '+str(uefa_standings[club][0])+', '+str(uefa_standings[club][1])+'],'
+        # # uefa_standings_str = uefa_standings_str[:-1] + ']'      # удаление последней запятой
 
         # # выгрузка standings.txt в репо: /content и /content_commits
         # import os
         # mod_name = os.path.basename(__file__)[:-3]
         # from modules.gh_push import gh_push
-        # gh_push(str(mod_name), 'content', 'standings.txt', TL_standings_str)
-        # gh_push(str(mod_name), 'content_commits', 'standings.txt', TL_standings_str)
+        # gh_push(str(mod_name), 'content', 'standings.txt', uefa_standings_str)
+        # gh_push(str(mod_name), 'content_commits', 'standings.txt', uefa_standings_str)
 
-        # # for club in TL_standings:
-        # #     print(club,'   ',TL_standings[club])
+        # # for club in uefa_standings:
+        # #     print(club,'   ',uefa_standings[club])
 
 except: 
 
