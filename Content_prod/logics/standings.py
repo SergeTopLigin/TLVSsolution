@@ -2,7 +2,7 @@ try:    # обработка исключений для определения 
 
     # определение влияния UEFA club rankings на текущий TL standings
     import datetime
-    # TL_start_dates: 100% UEFA club rankings + 0% TL standings
+    # TL_start_date: 100% UEFA club rankings + 0% TL standings
     TL_start_date = datetime.datetime(2025, 1, 1)   # дата начала обработки игр TL
     # каждый следующий день в 0:00 1/365 переходит в standings
     # определение количества полных дней после TL_start_date по UTC
