@@ -1,0 +1,50 @@
+ 1  Manchester City        100    2.20    ENG
+ 2  Bayern Munich           94    1.98    GER
+ 3  Real Madrid             83    1.63    ESP
+ 4  Paris Saint Germain     69    1.15    FRA
+ 5  Liverpool               66    1.06    ENG
+ 6  Inter                   59    0.80    ITA
+ 7  RB Leipzig              56    0.71    GER
+ 8  Chelsea                 56    0.71    ENG
+ 9  Manchester United       52    0.58    ENG
+10  AS Roma                 51    0.55    ITA
+11  Borussia Dortmund       46    0.36    GER
+12  Barcelona               46    0.36    ESP
+13  Sevilla                 45    0.33    ESP
+14  Atletico Madrid         45    0.33    ESP
+15  Villarreal              41    0.20    ESP
+16  Juventus                41    0.20    ITA
+17  Napoli                  40    0.17    ITA
+18  Bayer Leverkusen        39    0.13    GER
+19  FC Porto                36    0.04    POR
+20  Benfica                 34   -0.06    POR
+21  Arsenal                 30   -0.18    ENG
+22  Atalanta                30   -0.18    ITA
+23  Ajax                    28   -0.25    NED
+24  West Ham                27   -0.28    ENG
+25  Shakhtar Donetsk        25   -0.34    UKR
+26  Rangers                 24   -0.37    SCO
+27  Eintracht Frankfurt     22   -0.44    GER
+28  Feyenoord               20   -0.53    NED
+29  Club Brugge KV          19   -0.56    BEL
+30  Lazio                   17   -0.63    ITA
+31  Tottenham               17   -0.63    ENG
+32  PSV Eindhoven           16   -0.66    NED
+33  Slavia Praha            16   -0.66    CZE
+34  AC Milan                16   -0.66    ITA
+35  Sporting CP             15   -0.68    POR
+36  FC Basel 1893           15   -0.69    SUI
+37  FC Copenhagen           14   -0.71    DEN
+38  Real Sociedad           14   -0.72    ESP
+39  AZ Alkmaar              13   -0.76    NED
+40  Red Bull Salzburg       13   -0.76    AUT
+41  SC Braga                12   -0.79    POR
+42  Dinamo Zagreb           11   -0.82    CRO
+43  Gent                     9   -0.91    BEL
+44  Lyon                     7   -0.95    FRA
+45  Rennes                   6   -0.98    FRA
+46  Lille                    6   -1.01    FRA
+47  Marseille                4   -1.07    FRA
+48  FK Crvena Zvezda         4   -1.07    SRB
+49  Lask Linz                1   -1.17    AUT
+50  Olympiakos Piraeus       0   -1.20    GRE
