@@ -59,21 +59,27 @@ try:    # обработка исключений для определения 
 
         # если в словаре есть клуб несоответсвующий ни одному из имен в каталоге /standings - создать bug_file
         import os   # импорт модуля работы с каталогами
+        import json
         dir_standings = os.listdir((os.path.abspath(__file__))[:-25]+'/cache/answers/standings')
         for club in UEFA50:
             find_club = 0
             for file in dir_standings:
-                with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r') as f:
-                    for line in f:  # цикл по строкам
-                        end_substr = 0
-                        while True:     # бесконечный цикл
-                            if line.find('name":"',end_substr) ==-1:
-                                break
-                            kursor = line.find('name":"',end_substr) +7    # переместить курсор перед искомой подстрокой
-                            end_substr = line.find('","',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
-                            if club == line[kursor:end_substr]:
-                                find_club = 1
-                                break
+                with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
+                    standings_dict = json.load(f)
+                for f_club in standings_dict["response"][0]["league"]["standings"][0]:
+                    if f_club["team"]["name"] == club:
+                        find_club = 1
+                        break
+                    # for line in f:  # цикл по строкам
+                    #     end_substr = 0
+                    #     while True:     # бесконечный цикл
+                    #         if line.find('name":"',end_substr) ==-1:
+                    #             break
+                    #         kursor = line.find('name":"',end_substr) +7    # переместить курсор перед искомой подстрокой
+                    #         end_substr = line.find('","',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
+                    #         if club == line[kursor:end_substr]:
+                    #             find_club = 1
+                    #             break
                 if find_club == 1:
                     break
             if find_club == 0:
