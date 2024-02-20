@@ -70,16 +70,6 @@ try:    # обработка исключений для определения 
                     if f_club["team"]["name"] == club:
                         find_club = 1
                         break
-                    # for line in f:  # цикл по строкам
-                    #     end_substr = 0
-                    #     while True:     # бесконечный цикл
-                    #         if line.find('name":"',end_substr) ==-1:
-                    #             break
-                    #         kursor = line.find('name":"',end_substr) +7    # переместить курсор перед искомой подстрокой
-                    #         end_substr = line.find('","',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
-                    #         if club == line[kursor:end_substr]:
-                    #             find_club = 1
-                    #             break
                 if find_club == 1:
                     break
             if find_club == 0:
@@ -116,6 +106,24 @@ try:    # обработка исключений для определения 
             visual_rank = int(round(100 * (uefa_standings[club] - TL_min) / (TL_max - TL_min), 0))
             uefa_standings[club] = [TL_rank, visual_rank]
             
+        # приведение словаря uefa_standings {club:[TL_rank,visual_rank]} 
+        # к виду {club: {IDapi: , nat: , TL_rank: , visual_rank: }}
+        # посредством \Content_prod\cache\answers\standings
+        uefa_standings_upg = {}
+        for club in uefa_standings:
+            find_club = 0
+            for file in dir_standings:
+                with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
+                    standings_dict = json.load(f)
+                for f_club in standings_dict["response"][0]["league"]["standings"][0]:
+                    if f_club["team"]["name"] == club:
+                        uefa_standings_upg[club] = {'IDapi': f_club["team"]["id"], 'nat': file[:3], \
+                        'TL_rank': uefa_standings[club][0], 'visual_rank': uefa_standings[club][1]}
+                        find_club = 1
+                        break
+                if find_club == 1:
+                    break
+
         # формирование .json из словаря TL-standings
         # и выгрузка uefa_standings.json в репо: /sub_results
         import json
@@ -123,7 +131,7 @@ try:    # обработка исключений для определения 
         mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push
         gh_push(str(mod_name), 'sub_results', 'uefa_standings.json', \
-            json.dumps(uefa_standings, skipkeys=True, ensure_ascii=False, indent=2))
+            json.dumps(uefa_standings_upg, skipkeys=True, ensure_ascii=False, indent=2))
 
         # # формирование строки из словаря в читабельном виде
         # uefa_standings_str = ''   # github принимает только str для записи в файл

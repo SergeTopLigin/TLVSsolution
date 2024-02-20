@@ -30,13 +30,12 @@ try:    # обработка исключений для определения 
     if TL_Influence > 0:
         # декодирование из файла TL_standings
         with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/TL_standings.json', 'r') as j:
-            TL_standings = json.load(j) # {club: [IDapi, nat, TL_rank, visual_rank]} 
+            TL_standings = json.load(j) # {club: {IDapi: , nat: , TL_rank: , visual_rank: }} 
     if UEFA_Influence > 0:
         # декодирование из файла uefa_standings
         with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/uefa_standings.json', 'r') as j:
-            uefa_standings = json.load(j)   # {club: [TL_rank, visual_rank]}
-        # приведение к {club: [IDapi, nat, TL_rank, visual_rank]} 
-        # определение IDapi по Content_prod\cache\answers\standings
+            uefa_standings = json.load(j)   # {club: {IDapi: , nat: , TL_rank: , visual_rank: }}
+        
 
 
 
