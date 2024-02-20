@@ -36,18 +36,42 @@ try:    # обработка исключений для определения 
         with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/uefa_standings.json', 'r') as j:
             uefa_standings = json.load(j)   # {club: {IDapi: , nat: , TL_rank: , visual_rank: }}
         
-
-
-
-    
     # формирование словаря final_standings
     if UEFA_Influence == 1:
         final_standings = uefa_standings
     elif TL_Influence == 1:
         final_standings = TL_standings
     else:   # объединение uefa_standings и TL_standings
-    
+        final_standings = {}
+        # объединить клубы из обоих словарей
+        final_standings_list = list(uefa_standings.keys()) + list(TL_standings.keys())  # список клубов обоих standings
+        final_standings_list = list(set(final_standings_list))  # убрать повторы через множество
+        for club in final_standings_list:
+            if club in TL_standings and club in uefa_standings:
+                final_standings[club] = TL_standings[club]
+                final_standings[club]['TL_rank'] = \
+                (TL_standings[club]['TL_rank']+5)*TL_Influence + (uefa_standings[club]['TL_rank']+5)*UEFA_Influence - 5
+            elif club in TL_standings:
+                final_standings[club] = TL_standings[club]
+                final_standings[club]['TL_rank'] = (TL_standings[club]['TL_rank']+5)*TL_Influence - 5
+            elif club in uefa_standings:
+                final_standings[club] = uefa_standings[club]
+                final_standings[club]['TL_rank'] = (uefa_standings[club]['TL_rank']+5)*UEFA_Influence - 5
 
+    # установка визуально понятного рейтинга - в диапазоне 0-100 между 1-м и последним клубом
+    max_rank = -10
+    min_rank = 10
+    for club in final_standings:
+        if final_standings[club]['TL_rank'] > max_rank:
+            max_rank = final_standings[club]['TL_rank']
+        if final_standings[club]['TL_rank'] < min_rank:
+            min_rank = final_standings[club]['TL_rank']
+    for club in final_standings:
+        visual_rank = int(round(100 * (final_standings[club]['TL_rank'] - min_rank) / (max_rank - min_rank), 0))
+        final_standings[club]['visual_rank'] = visual_rank
+
+    # сортировка final_standings по TL_rank
+    final_standings = dict(sorted(final_standings.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
 
     # формирование .json из словаря final_standings
     # и выгрузка final_standings.json в репо: /sub_results
@@ -56,12 +80,13 @@ try:    # обработка исключений для определения 
     gh_push(str(mod_name), 'sub_results', 'final_standings.json', \
         json.dumps(final_standings, skipkeys=True, ensure_ascii=False, indent=2))
 
-    # формирование строки из словаря в читабельном виде
+    # формирование строки из словаря в читабельном виде (ДОБАВИТЬ 'NAT')
     final_standings_str = ''   # github принимает только str для записи в файл
     rank = 1
     for club in final_standings:
-        final_standings_str += "{3:>2}  {0:20}   {2:3.0f}   {1:5.2f}".\
-        format(club, final_standings[club][2], final_standings[club][3], str(rank)) + '\n'
+        final_standings_str += "{0:>2}  {1:20}   {2:3.0f}   {3:5.2f}    {4}".\
+        format(str(rank), club, final_standings[club]['visual_rank'], final_standings[club]['TL_rank'], \
+            final_standings[club]['nat']) + '\n'
         rank += 1
 
     # выгрузка standings.txt в репо: /content и /content_commits
