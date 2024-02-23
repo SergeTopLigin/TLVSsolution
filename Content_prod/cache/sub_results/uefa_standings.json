@@ -32,8 +32,8 @@
   "Inter": {
     "IDapi": 505,
     "nat": "ITA",
-    "TL_rank": 0.8,
-    "visual_rank": 59
+    "TL_rank": 0.87,
+    "visual_rank": 61
   },
   "RB Leipzig": {
     "IDapi": 173,
@@ -47,29 +47,29 @@
     "TL_rank": 0.71,
     "visual_rank": 56
   },
+  "AS Roma": {
+    "IDapi": 497,
+    "nat": "ITA",
+    "TL_rank": 0.58,
+    "visual_rank": 52
+  },
   "Manchester United": {
     "IDapi": 33,
     "nat": "ENG",
     "TL_rank": 0.58,
     "visual_rank": 52
   },
-  "AS Roma": {
-    "IDapi": 497,
-    "nat": "ITA",
-    "TL_rank": 0.55,
-    "visual_rank": 51
-  },
   "Borussia Dortmund": {
     "IDapi": 165,
     "nat": "GER",
-    "TL_rank": 0.36,
-    "visual_rank": 46
+    "TL_rank": 0.39,
+    "visual_rank": 47
   },
   "Barcelona": {
     "IDapi": 529,
     "nat": "ESP",
-    "TL_rank": 0.36,
-    "visual_rank": 46
+    "TL_rank": 0.39,
+    "visual_rank": 47
   },
   "Sevilla": {
     "IDapi": 536,
@@ -83,6 +83,12 @@
     "TL_rank": 0.33,
     "visual_rank": 45
   },
+  "Napoli": {
+    "IDapi": 492,
+    "nat": "ITA",
+    "TL_rank": 0.2,
+    "visual_rank": 41
+  },
   "Villarreal": {
     "IDapi": 533,
     "nat": "ESP",
@@ -95,12 +101,6 @@
     "TL_rank": 0.2,
     "visual_rank": 41
   },
-  "Napoli": {
-    "IDapi": 492,
-    "nat": "ITA",
-    "TL_rank": 0.17,
-    "visual_rank": 40
-  },
   "Bayer Leverkusen": {
     "IDapi": 168,
     "nat": "GER",
@@ -110,14 +110,14 @@
   "FC Porto": {
     "IDapi": 212,
     "nat": "POR",
-    "TL_rank": 0.04,
-    "visual_rank": 36
+    "TL_rank": 0.1,
+    "visual_rank": 38
   },
   "Benfica": {
     "IDapi": 211,
     "nat": "POR",
-    "TL_rank": -0.06,
-    "visual_rank": 34
+    "TL_rank": -0.02,
+    "visual_rank": 35
   },
   "Arsenal": {
     "IDapi": 42,
@@ -179,16 +179,28 @@
     "TL_rank": -0.63,
     "visual_rank": 17
   },
+  "PSV Eindhoven": {
+    "IDapi": 197,
+    "nat": "NED",
+    "TL_rank": -0.63,
+    "visual_rank": 17
+  },
+  "AC Milan": {
+    "IDapi": 489,
+    "nat": "ITA",
+    "TL_rank": -0.63,
+    "visual_rank": 17
+  },
   "Tottenham": {
     "IDapi": 47,
     "nat": "ENG",
     "TL_rank": -0.63,
     "visual_rank": 17
   },
-  "PSV Eindhoven": {
-    "IDapi": 197,
-    "nat": "NED",
-    "TL_rank": -0.66,
+  "Sporting CP": {
+    "IDapi": 228,
+    "nat": "POR",
+    "TL_rank": -0.64,
     "visual_rank": 16
   },
   "Slavia Praha": {
@@ -196,18 +208,6 @@
     "nat": "CZE",
     "TL_rank": -0.66,
     "visual_rank": 16
-  },
-  "AC Milan": {
-    "IDapi": 489,
-    "nat": "ITA",
-    "TL_rank": -0.66,
-    "visual_rank": 16
-  },
-  "Sporting CP": {
-    "IDapi": 228,
-    "nat": "POR",
-    "TL_rank": -0.68,
-    "visual_rank": 15
   },
   "FC Basel 1893": {
     "IDapi": 551,
@@ -278,8 +278,8 @@
   "Marseille": {
     "IDapi": 81,
     "nat": "FRA",
-    "TL_rank": -1.07,
-    "visual_rank": 4
+    "TL_rank": -1.04,
+    "visual_rank": 5
   },
   "FK Crvena Zvezda": {
     "IDapi": 598,
