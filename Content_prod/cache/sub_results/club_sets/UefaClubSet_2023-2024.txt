@@ -1,0 +1,96 @@
+Union Berlin;   id:182.
+SC Braga;   id:217.
+Red Bull Salzburg;   id:571.
+Real Sociedad;   id:548.
+Manchester United;   id:33.
+Galatasaray;   id:645.
+FC Copenhagen;   id:400.
+Bayern Munich;   id:157.
+Lens;   id:116.
+Arsenal;   id:42.
+PSV Eindhoven;   id:197.
+Sevilla;   id:536.
+Napoli;   id:492.
+Real Madrid;   id:541.
+Inter;   id:505.
+Benfica;   id:211.
+Atletico Madrid;   id:530.
+Feyenoord;   id:209.
+Antwerp;   id:740.
+Shakhtar Donetsk;   id:550.
+Celtic;   id:247.
+Lazio;   id:487.
+Borussia Dortmund;   id:165.
+AC Milan;   id:489.
+Newcastle;   id:34.
+Paris Saint Germain;   id:85.
+RB Leipzig;   id:173.
+Manchester City;   id:50.
+FK Crvena Zvezda;   id:598.
+BSC Young Boys;   id:565.
+FC Porto;   id:212.
+Barcelona;   id:529.
+SC Freiburg;   id:160.
+West Ham;   id:48.
+TSC Backa Topola;   id:2646.
+Olympiakos Piraeus;   id:553.
+Marseille;   id:81.
+Brighton;   id:51.
+AEK Athens FC;   id:575.
+Ajax;   id:194.
+Real Betis;   id:543.
+Sparta Praha;   id:628.
+Aris;   id:3408.
+Rangers;   id:257.
+Sporting CP;   id:228.
+Atalanta;   id:499.
+Rak\u00f3w Cz\u0119stochowa;   id:3491.
+Sturm Graz;   id:637.
+Liverpool;   id:40.
+Union St. Gilloise;   id:1393.
+Toulouse;   id:96.
+Lask Linz;   id:1026.
+Villarreal;   id:533.
+Rennes;   id:94.
+Maccabi Haifa;   id:4195.
+Panathinaikos;   id:617.
+AS Roma;   id:497.
+Servette FC;   id:2184.
+Slavia Praha;   id:560.
+Sheriff Tiraspol;   id:568.
+BK Hacken;   id:367.
+Qarabag;   id:556.
+Molde;   id:329.
+Bayer Leverkusen;   id:168.
+FC Astana;   id:562.
+Plzen;   id:567.
+Olimpija Ljubljana;   id:677.
+Slovan Bratislava;   id:656.
+KI Klaksvik;   id:701.
+Lille;   id:79.
+Breidablik;   id:276.
+Zorya Luhansk;   id:599.
+Gent;   id:631.
+Maccabi Tel Aviv;   id:604.
+Ballkani;   id:12733.
+Dinamo Zagreb;   id:620.
+Bodo\/Glimt;   id:327.
+Club Brugge KV;   id:569.
+Besiktas;   id:549.
+FC Lugano;   id:606.
+AZ Alkmaar;   id:201.
+Legia Warszawa;   id:339.
+Aston Villa;   id:66.
+Zrinjski;   id:588.
+Fiorentina;   id:502.
+Ferencvarosi TC;   id:651.
+Cukaricki;   id:2656.
+Genk;   id:742.
+PAOK;   id:619.
+Eintracht Frankfurt;   id:169.
+Aberdeen;   id:252.
+HJK helsinki;   id:649.
+FC Nordsjaelland;   id:398.
+Ludogorets;   id:566.
+Spartak Trnava;   id:1120.
+Fenerbahce;   id:611.
