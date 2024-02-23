@@ -50,8 +50,8 @@ jobs:
         run: python Content_prod/logics/standings.py
 
       # association_rating_quota
-      - name: Run script association_rating_quota.py
-        run: python Content_prod/logics/association_rating_quota.py
+      - name: Run script associations.py
+        run: python Content_prod/logics/associations.py
 
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости

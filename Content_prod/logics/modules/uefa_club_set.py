@@ -56,8 +56,8 @@ def UEFA_club_set(october_year):   # определение текущего UEF
         from modules.gh_push import gh_push
         gh_push(str(mod_name), 'club_sets', 'UefaClubSet_'+str(october_year)+'-'+str(october_year+1)+'.txt', UefaClubSet_str)
         # сохранение UEFA club set на текущем runner (для использования в текущем расчете сразу после его создания)
-        with open((os.path.abspath(__file__))[:-35]+'/cache/sub_results/club_sets/\
-            UefaClubSet_'+str(october_year)+'-'+str(october_year+1)+'.txt', 'w') as f:
+        with open((os.path.abspath(__file__))[:-32]+'/cache/sub_results/club_sets/UefaClubSet_'\
+            +str(october_year)+'-'+str(october_year+1)+'.txt', 'w') as f:
             f.write(UefaClubSet_str)
 
         # # чистка папки cache

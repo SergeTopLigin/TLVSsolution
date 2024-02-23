@@ -18,7 +18,7 @@ try:    # обработка исключений для определения 
     # определить требуется ли API запрос или файл уже есть в базе
     create_flag = 1    # флаг необходимости создания файла
     import os
-    for Set_file in os.listdir((os.path.abspath(__file__))[:-35]+'/cache/sub_results/club_sets'):
+    for Set_file in os.listdir((os.path.abspath(__file__))[:-23]+'/cache/sub_results/club_sets'):
     # прочитать названия файлов из каталога club_sets
         if Set_file.find(filename)!=-1:  # если в каталоге club_set есть текущий UEFA Club Set
             create_flag = 0    # опустить флаг создания файла
@@ -30,7 +30,7 @@ try:    # обработка исключений для определения 
             filename = "UefaClubSet_"+str(DateNow.year-1)+"-"+str(DateNow.year)
     
     UefaClubSetID = []    # создание списка id из файла UefaClubSet
-    with open((os.path.abspath(__file__))[:-35]+'/cache/sub_results/club_sets/'+filename+".txt", 'r') as f:
+    with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/club_sets/'+filename+".txt", 'r') as f:
         for line in f:  # цикл по строкам
             kursor = line.find('id:',0) +3    # переместить курсор перед искомой подстрокой
             end_substr = line.find('.',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
@@ -38,7 +38,7 @@ try:    # обработка исключений для определения 
 
     # Association rating = total club set SUM(pts+1.2) in TL standigs
     import json
-    with open((os.path.abspath(__file__))[:-35]+'/cache/sub_results/final_standings.json', 'r') as j:
+    with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/final_standings.json', 'r') as j:
         standings = json.load(j) # {club: {IDapi: , nat: , TL_rank: , visual_rank: }} 
     # определение UEFA rating
     UEFA_rating = 0
