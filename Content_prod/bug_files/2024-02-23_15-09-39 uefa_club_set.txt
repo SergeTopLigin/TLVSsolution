@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/uefa_club_set.py", line 59, in UEFA_club_set
+    with open((os.path.abspath(__file__))[:-35]+'/cache/sub_results/club_sets/\
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/TLVSsolution/TLVSsolution/Content_p/cache/sub_results/club_sets/            UefaClubSet_2023-2024.txt'
