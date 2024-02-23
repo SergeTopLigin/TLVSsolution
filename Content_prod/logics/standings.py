@@ -80,7 +80,7 @@ try:    # обработка исключений для определения 
     gh_push(str(mod_name), 'sub_results', 'final_standings.json', \
         json.dumps(final_standings, skipkeys=True, ensure_ascii=False, indent=2))
 
-    # формирование строки из словаря в читабельном виде (ДОБАВИТЬ 'NAT')
+    # формирование строки из словаря в читабельном виде
     final_standings_str = ''   # github принимает только str для записи в файл
     rank = 1
     for club in final_standings:

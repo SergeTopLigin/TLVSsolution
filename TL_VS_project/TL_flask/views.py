@@ -27,6 +27,15 @@ def standings():
         title = "Standings",
         content = standings)
 
+@app.route('/associations/')
+def associations():
+    with open((os.path.abspath(__file__))[:-8]+'static/content/ass_rate_quota.txt', 'r', newline='\n') as f:
+        associations = '<pre>' + f.read() + '</pre>'   # тэг <pre> передает содержимое без изменений (переносы строк, доп пробелы итд)
+    return render_template(
+        "associations.html",
+        title = "Associations",
+        content = associations)
+
 @app.route('/robots.txt/')  # по этому адресу будет показан robots.txt из каталога static
 def robots():
     # return app.send_static_file('robots.txt')     # опасный вариант

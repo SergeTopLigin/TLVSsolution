@@ -1,4 +1,4 @@
-name: standings_deploy
+name: init_deploy
 
 on:
   workflow_dispatch:
@@ -48,6 +48,10 @@ jobs:
         run: pip install -r Content_prod/logics/requirements/req_standings.txt
       - name: Run script standings.py
         run: python Content_prod/logics/standings.py
+
+      # association_rating_quota
+      - name: Run script association_rating_quota.py
+        run: python Content_prod/logics/association_rating_quota.py
 
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости

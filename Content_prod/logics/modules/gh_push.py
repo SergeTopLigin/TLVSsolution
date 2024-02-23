@@ -13,6 +13,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         if file_dir == 'bug_files':             path = 'Content_prod/bug_files/'
         if file_dir == 'answers':               path = 'Content_prod/cache/answers/'
         if file_dir == 'sub_results':           path = 'Content_prod/cache/sub_results/'
+        if file_dir == 'club_sets':             path = 'Content_prod/cache/sub_results/club_sets/'
         if file_dir == 'content_commits':       path = 'Content_prod/cache/content_commits/'
         if file_dir == 'content':               path = 'TL_VS_project/TL_flask/static/content/'
 

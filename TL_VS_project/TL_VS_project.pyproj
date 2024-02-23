@@ -41,6 +41,7 @@
     <Content Include="TL_flask\static\robots.txt" />
     <Content Include="TL_flask\static\site.css" />
     <Content Include="TL_flask\templates\page404.html" />
+    <Content Include="TL_flask\templates\associations.html" />
     <Content Include="TL_flask\templates\standings.html" />
     <Content Include="TL_flask\templates\index.html" />
     <Content Include="TL_flask\templates\layout.html" />
