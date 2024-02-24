@@ -31,6 +31,7 @@ jobs:
         run: ls
       
       - run: ls ./Content_prod/cache/sub_results
+      - run: ls ./TL_VS_project/TL_flask/static/content
 
       # uefa_standings
       - name: Put current date into a variable
@@ -46,6 +47,7 @@ jobs:
           fi
       
       - run: ls ./Content_prod/cache/sub_results
+      - run: ls ./TL_VS_project/TL_flask/static/content
 
       # TL_standings
       - name: install standings Dependencies  # установка зависимостей
@@ -54,12 +56,14 @@ jobs:
         run: python Content_prod/logics/standings.py
 
       - run: ls ./Content_prod/cache/sub_results
-      
+      - run: ls ./TL_VS_project/TL_flask/static/content
+
       # association_rating_quota
       - name: Run script associations.py
         run: python Content_prod/logics/associations.py
 
       - run: ls ./Content_prod/cache/sub_results
+      - run: ls ./TL_VS_project/TL_flask/static/content
 
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости
