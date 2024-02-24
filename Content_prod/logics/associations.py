@@ -63,7 +63,6 @@ try:    # обработка исключений для определения 
     # формирование общего словаря рейтингов ассоциаций
     Association_rating = dict(zip(Nations_list, Nations_list_rate))   # объединение списков нац ассоциаций и их рейтингов в одном словаре
     Association_rating["UEFA"] = UEFA_rating     # добавляем в словарь ассоциацию УЕФА
-    Association_rating = dict(sorted(Association_rating.items(), key=lambda x: x[1], reverse=True))   # сортировка словаря рейтинга ассоциаций по убыванию рейтинга
 
     # Association quota = ˻ 50 * Assoiation rating / Σ (Assoiation ratings) ˼
     Associations_rate_sum = 0   # сумма рейтингов ассоциаций
@@ -72,35 +71,41 @@ try:    # обработка исключений для определения 
     Associations_rate_sum = round(Associations_rate_sum, 2)
     import math
     for ass_n in Association_rating:
-        Association_quota = math.floor(50 * Association_rating[ass_n] / Associations_rate_sum)
+        Association_quota = max(math.floor(50 * Association_rating[ass_n] / Associations_rate_sum), 0)
         # увеличение вложенности словаря ассоциаций: {ass:[rate,quota]}
         Association_rating[ass_n] = [Association_rating[ass_n], Association_quota]    
     # учет квоты TL на 10 лидеров
     # искусственное формирование рейтинга TL по пропорции рейтинга и квоты УЕФА
-    TL_rating = 10 * Association_rating["UEFA"][0] / Association_rating["UEFA"][1]
+    TL_rating = round(10 * Association_rating["UEFA"][0] / Association_rating["UEFA"][1], 2)
     Association_rating["TopLiga"] = [TL_rating, 10]
 
-    # сортировка словаря рейтинга ассоциаций по убыванию квот
-    Association_rating = dict(sorted(Association_rating.items(), key=lambda x: x[1][1], reverse=True))   
+    # сортировка словаря рейтинга ассоциаций по убыванию рейтинга
+    Association_rating = dict(sorted(Association_rating.items(), key=lambda x: x[1][0], reverse=True))   
 
     # формирование .json из словаря final_standings
     # и выгрузка final_standings.json в репо: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
-    gh_push(str(mod_name), 'sub_results', 'ass_rate_quota.json', \
+    gh_push(str(mod_name), 'sub_results', 'associations.json', \
         json.dumps(Association_rating, skipkeys=True, ensure_ascii=False, indent=2))
 
     # формирование строки из словаря в читабельном виде
-    ass_rate_quota_str = ''   # github принимает только str для записи в файл
+    from modules.country_codes import country_codes
+    country_codes = country_codes()
+    # github принимает только str для записи в файл
+    ass_rate_quota_str = "{0:>23}  {1:}".format('quota', 'rating') + '\n'  # шапка таблицы
     rank = 1
     for ass in Association_rating:
-        ass_rate_quota_str += "{0:>2}  {1:8.2f}  {2:2}  {3:}".\
-        format(str(rank), Association_rating[ass_n][0], Association_rating[ass_n][1], ass_n) + '\n'
+        # изменение кодов стран на их имена
+        country_name = [country_codes[country_codes.index(elem)]['name'] for elem in country_codes if ass in elem['fifa']]
+        ass_rate_quota_str += "{0:>2}  {1:15}  {3:>2}  {2:5.2f}"\
+        .format(str(rank), country_name, Association_rating[ass][0], Association_rating[ass][1])
+        if rank < len(Association_rating): ass_rate_quota_str += '\n'
         rank += 1
 
     # выгрузка standings.txt в репо: /content и /content_commits
-    gh_push(str(mod_name), 'content', 'ass_rate_quota.txt', ass_rate_quota_str)
-    gh_push(str(mod_name), 'content_commits', 'ass_rate_quota.txt', ass_rate_quota_str)
+    gh_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
+    gh_push(str(mod_name), 'content_commits', 'associations.txt', ass_rate_quota_str)
 
 except: 
 

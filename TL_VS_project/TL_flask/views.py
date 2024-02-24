@@ -29,7 +29,7 @@ def standings():
 
 @app.route('/associations/')
 def associations():
-    with open((os.path.abspath(__file__))[:-8]+'static/content/ass_rate_quota.txt', 'r', newline='\n') as f:
+    with open((os.path.abspath(__file__))[:-8]+'static/content/associations.txt', 'r', newline='\n') as f:
         associations = '<pre>' + f.read() + '</pre>'   # тэг <pre> передает содержимое без изменений (переносы строк, доп пробелы итд)
     return render_template(
         "associations.html",
