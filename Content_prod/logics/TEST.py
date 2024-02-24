@@ -2,6 +2,6 @@
 from modules.country_codes import country_codes
 country_codes = country_codes()
 ass = 'GER'
-print([country_codes[country_codes.index(elem)]['name'] for elem in country_codes if ass in elem['fifa']])
+print(str([country_codes[country_codes.index(elem)]['name'] for elem in country_codes if ass in elem['fifa']])[2:-2])
 
 

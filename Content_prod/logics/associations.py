@@ -97,7 +97,8 @@ try:    # обработка исключений для определения 
     rank = 1
     for ass in Association_rating:
         # изменение кодов стран на их имена
-        country_name = [country_codes[country_codes.index(elem)]['name'] for elem in country_codes if ass in elem['fifa']]
+        country_name = str([country_codes[country_codes.index(elem)]['name'] \
+            for elem in country_codes if ass in elem['fifa']])[2:-2]
         ass_rate_quota_str += "{0:>2}  {1:15}  {3:>2}  {2:5.2f}"\
         .format(str(rank), country_name, Association_rating[ass][0], Association_rating[ass][1])
         if rank < len(Association_rating): ass_rate_quota_str += '\n'
