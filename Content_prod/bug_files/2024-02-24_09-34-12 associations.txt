@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/associations.py", line 102, in <module>
-    .format(str(rank), country_name, Association_rating[ass][0], Association_rating[ass][1])
-TypeError: unsupported format string passed to list.__format__

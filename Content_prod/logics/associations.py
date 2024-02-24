@@ -96,11 +96,13 @@ try:    # обработка исключений для определения 
     ass_rate_quota_str = "{0:>23}  {1:}".format('quota', 'rating') + '\n'  # шапка таблицы
     rank = 1
     for ass in Association_rating:
+        if ass == "UEFA":       ass_name = "UEFA"
+        elif ass == "TopLiga":  ass_name = "TopLiga"
         # изменение кодов стран на их имена
-        country_name = str([country_codes[country_codes.index(elem)]['name'] \
+        else: ass_name = str([country_codes[country_codes.index(elem)]['name'] \
             for elem in country_codes if ass in elem['fifa']])[2:-2]
         ass_rate_quota_str += "{0:>2}  {1:15}  {3:>2}  {2:5.2f}"\
-        .format(str(rank), country_name, Association_rating[ass][0], Association_rating[ass][1])
+        .format(str(rank), ass_name, Association_rating[ass][0], Association_rating[ass][1])
         if rank < len(Association_rating): ass_rate_quota_str += '\n'
         rank += 1
 
