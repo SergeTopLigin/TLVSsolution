@@ -30,6 +30,8 @@ jobs:
       - name: list current folder  # проверка загрузки
         run: ls
       
+      - run: ls ./Content_prod/cache/sub_results
+
       # uefa_standings
       - name: Put current date into a variable
         run: echo "NOW=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
@@ -43,15 +45,21 @@ jobs:
             echo "UEFA ranking influence was canceled"
           fi
       
+      - run: ls ./Content_prod/cache/sub_results
+
       # TL_standings
       - name: install standings Dependencies  # установка зависимостей
         run: pip install -r Content_prod/logics/requirements/req_standings.txt
       - name: Run script standings.py
         run: python Content_prod/logics/standings.py
 
+      - run: ls ./Content_prod/cache/sub_results
+      
       # association_rating_quota
       - name: Run script associations.py
         run: python Content_prod/logics/associations.py
+
+      - run: ls ./Content_prod/cache/sub_results
 
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости
