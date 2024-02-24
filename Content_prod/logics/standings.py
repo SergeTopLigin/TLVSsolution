@@ -74,11 +74,12 @@ try:    # обработка исключений для определения 
     final_standings = dict(sorted(final_standings.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
 
     # формирование .json из словаря final_standings
-    # и выгрузка final_standings.json в репо: /sub_results
+    # и выгрузка final_standings.json в репо и на runner: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
-    gh_push(str(mod_name), 'sub_results', 'final_standings.json', \
-        json.dumps(final_standings, skipkeys=True, ensure_ascii=False, indent=2))
+    gh_push(str(mod_name), 'sub_results', 'final_standings.json', final_standings)
+    from modules.runner_push import runner_push
+    runner_push(str(mod_name), 'sub_results', 'final_standings.json', final_standings)
 
     # формирование строки из словаря в читабельном виде
     final_standings_str = ''   # github принимает только str для записи в файл
@@ -89,11 +90,9 @@ try:    # обработка исключений для определения 
             final_standings[club]['nat']) + '\n'
         rank += 1
 
-    # выгрузка standings.txt в репо: /content и /content_commits
-    import os
-    mod_name = os.path.basename(__file__)[:-3]
-    from modules.gh_push import gh_push
+    # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
+    runner_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
     gh_push(str(mod_name), 'content_commits', 'standings.txt', final_standings_str)
 
 except: 

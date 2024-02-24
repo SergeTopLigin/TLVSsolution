@@ -125,36 +125,14 @@ try:    # обработка исключений для определения 
                     break
 
         # формирование .json из словаря TL-standings
-        # и выгрузка uefa_standings.json в репо: /sub_results
+        # и выгрузка uefa_standings.json в репо и на runner: /sub_results
         import json
         import os
         mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push
-        gh_push(str(mod_name), 'sub_results', 'uefa_standings.json', \
-            json.dumps(uefa_standings_upg, skipkeys=True, ensure_ascii=False, indent=2))
-
-        # # формирование строки из словаря в читабельном виде
-        # uefa_standings_str = ''   # github принимает только str для записи в файл
-        # rank = 1
-        # for club in uefa_standings:
-        #     uefa_standings_str += "{3:>2}  {0:20}   {2:3.0f}   {1:5.2f}".\
-        #     format(club, uefa_standings[club][0], uefa_standings[club][1], str(rank)) + '\n'
-        #     rank += 1
-        # # # формирование в конце строки списка для передачи в дальнейшие расчеты
-        # # uefa_standings_str += '\noutput list['
-        # # for club in uefa_standings:
-        # #     uefa_standings_str += r'["'+club+r'", '+str(uefa_standings[club][0])+', '+str(uefa_standings[club][1])+'],'
-        # # uefa_standings_str = uefa_standings_str[:-1] + ']'      # удаление последней запятой
-
-        # # выгрузка standings.txt в репо: /content и /content_commits
-        # import os
-        # mod_name = os.path.basename(__file__)[:-3]
-        # from modules.gh_push import gh_push
-        # gh_push(str(mod_name), 'content', 'standings.txt', uefa_standings_str)
-        # gh_push(str(mod_name), 'content_commits', 'standings.txt', uefa_standings_str)
-
-        # # for club in uefa_standings:
-        # #     print(club,'   ',uefa_standings[club])
+        gh_push(str(mod_name), 'sub_results', 'uefa_standings.json', uefa_standings_upg)
+        from modules.runner_push import runner_push
+        runner_push(str(mod_name), 'sub_results', 'uefa_standings.json', uefa_standings_upg)
 
 except: 
 

@@ -83,11 +83,12 @@ try:    # обработка исключений для определения 
     Association_rating = dict(sorted(Association_rating.items(), key=lambda x: x[1][0], reverse=True))   
 
     # формирование .json из словаря final_standings
-    # и выгрузка final_standings.json в репо: /sub_results
+    # и выгрузка final_standings.json в репо и на runner: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
-    gh_push(str(mod_name), 'sub_results', 'associations.json', \
-        json.dumps(Association_rating, skipkeys=True, ensure_ascii=False, indent=2))
+    gh_push(str(mod_name), 'sub_results', 'associations.json', Association_rating)
+    from modules.runner_push import runner_push
+    runner_push(str(mod_name), 'sub_results', 'associations.json', Association_rating)
 
     # формирование строки из словаря в читабельном виде
     from modules.country_codes import country_codes
@@ -106,8 +107,9 @@ try:    # обработка исключений для определения 
         if rank < len(Association_rating): ass_rate_quota_str += '\n'
         rank += 1
 
-    # выгрузка standings.txt в репо: /content и /content_commits
+    # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
+    runner_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
     gh_push(str(mod_name), 'content_commits', 'associations.txt', ass_rate_quota_str)
 
 except: 
