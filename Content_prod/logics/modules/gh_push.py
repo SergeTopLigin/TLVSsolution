@@ -61,13 +61,13 @@ def gh_push(main_mod, file_dir, file_name, file_content):
                 repo.update_file(contents.path, "update "+file_name, file_content, contents.sha, branch="master")
             elif file_name[-4:] == 'json':
                 repo.update_file(contents.path, "update "+file_name, \
-                    json.dumps(file_content, f, skipkeys=True, ensure_ascii=False, indent=2), contents.sha, branch="master")
+                    json.dumps(file_content, skipkeys=True, ensure_ascii=False, indent=2), contents.sha, branch="master")
         else:   # иначе создать файл
             if file_name[-3:] == 'txt':
                 repo.update_file(path+file_name, "update "+file_name, file_content, branch="master")
             elif file_name[-4:] == 'json':
                 repo.create_file(path+file_name, "add "+file_name, \
-                    json.dumps(file_content, f, skipkeys=True, ensure_ascii=False, indent=2), branch="master")
+                    json.dumps(file_content, skipkeys=True, ensure_ascii=False, indent=2), branch="master")
 
         g.close()
         
