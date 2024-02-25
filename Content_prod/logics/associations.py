@@ -72,15 +72,15 @@ try:    # обработка исключений для определения 
     import math
     for ass_n in Association_rating:
         Association_quota = max(math.floor(50 * Association_rating[ass_n] / Associations_rate_sum), 0)
-        # увеличение вложенности словаря ассоциаций: {ass:[rate,quota]}
-        Association_rating[ass_n] = [Association_rating[ass_n], Association_quota]    
+        # увеличение вложенности словаря ассоциаций: {ass: {rating: ,quota: }}
+        Association_rating[ass_n] = {'rating': Association_rating[ass_n], 'quota': Association_quota}
     # учет квоты TL на 10 лидеров
     # искусственное формирование рейтинга TL по пропорции рейтинга и квоты УЕФА
-    TL_rating = round(10 * Association_rating["UEFA"][0] / Association_rating["UEFA"][1], 2)
-    Association_rating["TopLiga"] = [TL_rating, 10]
+    TL_rating = round(10 * Association_rating["UEFA"]["rating"] / Association_rating["UEFA"]["quota"], 2)
+    Association_rating["TopLiga"] = {'rating': TL_rating, 'quota': 10}
 
     # сортировка словаря рейтинга ассоциаций по убыванию рейтинга
-    Association_rating = dict(sorted(Association_rating.items(), key=lambda x: x[1][0], reverse=True))   
+    Association_rating = dict(sorted(Association_rating.items(), key=lambda x: x[1].get("rating"), reverse=True))   
 
     # формирование .json из словаря final_standings
     # и выгрузка final_standings.json в репо и на runner: /sub_results
@@ -103,7 +103,7 @@ try:    # обработка исключений для определения 
         else: ass_name = str([country_codes[country_codes.index(elem)]['name'] \
             for elem in country_codes if ass in elem['fifa']])[2:-2]
         ass_rate_quota_str += "{0:>2}  {1:15}  {3:>2}  {2:5.2f}"\
-        .format(str(rank), ass_name, Association_rating[ass][0], Association_rating[ass][1])
+        .format(str(rank), ass_name, Association_rating[ass]["rating"], Association_rating[ass]["quota"])
         if rank < len(Association_rating): ass_rate_quota_str += '\n'
         rank += 1
 
