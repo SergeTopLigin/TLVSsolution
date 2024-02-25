@@ -1,0 +1,9 @@
+основные переменные, списки, словари
+TL_standings_rate = {}  # словарь {id:rate} для сортировки по рейтингу
+TL_standings_data = {}  # словарь {id:[name,nat,...]} - для хранения турнирных данных
+Association_rating = {}     # словарь рейтингов и квот ассоциаций {Association:[Rating,Quota]}
+Ass_TournRateQuot = {}     # общий словарь рейтингов и квот всех турниров {Association:[Tournament,Season,Rating,Quota,TournID,TournType]}
+UEFA_tourn_club_set = []   # список tournament club set
+UEFA_tourn_club_set_ID = {}    # словарь ID клубов из club sets {club_set:[id]}
+Tourn_RateQuot = {}   # словарь рейтингов и квот турниров {Tournament:[Rating,Quota]}
+Cup_dates = {} # словарь дат игр кубков {Cup:{(First/Last):Date}} для отслеживания кубков нужны даты первой и последней несыгранной игры

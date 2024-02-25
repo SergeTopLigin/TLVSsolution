@@ -1,0 +1,227 @@
+try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
+
+    # UEFA tournaments rating & quota
+    # определение UEFA tournaments club set
+    # жеребьевка группового этапа еврокубков проходит в конце августа
+    # для получения group set следует с 01.09 ежедневно делать запрос на игры в октябре, 
+        # пока в папке club set/ не будет сформирован соответсвующий файл
+    # жеребьевка 1 стадии плей-офф еврокубков проходит на следующей неделе после 6-го тура групп.
+        # 1/16 проходит в феврале/марте
+        # победители групп UEL и UECL (до сезона 24/25) или 1-8 места общего этапа (с сезона 24/25) начинают с 1/8, 
+        # жеребьевка которой проходит после 1/16
+    # для получения playoff set (до сезона 24/25) следует с 16.12 ежедневно делать запрос на игры в феврале и марте, 
+        # пока в папке club set/ не будет сформирован соответсвующий файл
+        # а также запрос standings на 1-е места групп для UEL и UECL, если запрос fixtures на февраль-март дал результат
+    # для получения playoff set (с сезона 24/25) с 01.02 запрашивать standings на 1-24 места в общем групповом этапе во всех турнирах 
+    # во время групповой стадии с 01.09 требуются текущий group set и playoff set прошлого сезона; 
+    # после завершения групповой стадии по 31.08 требуется последний playoff set
+
+    Ass_TournRateQuot = {}     # общий словарь рейтингов и квот всех турниров {Association:[Tournament,Rating,Quota]}
+
+    # UEFA tournaments club set
+    # определение имени и наличия необходимого файла, необходимости api-запроса
+    UEFA_tourn_club_set = []   # список tournament club set
+    UEFA_tourn_club_set_ID = {}    # словарь ID клубов из club sets {club_set:[id]}
+    UEFA_leagues = ("UCL", "UEL", "UECL")
+    import datetime
+    DateNow = datetime.datetime.utcnow()    # текущая дата по UTC
+    # определение имен файлов tournament club set, действующих на текущую дату
+    if DateNow < datetime.datetime(2024, 9, 1):    # до сезона 24/25
+        for league in UEFA_leagues:
+            if (DateNow.month > 8 and DateNow.month < 12) or (DateNow.month == 12 and DateNow.day < 16):
+                UEFA_tourn_club_set.append([league, str(DateNow.year-1)+"-"+str(DateNow.year), "playoff set"])
+                UEFA_tourn_club_set.append([league, str(DateNow.year)+"-"+str(DateNow.year+1), "group set"])
+            elif DateNow.month < 9:
+                UEFA_tourn_club_set.append([league, str(DateNow.year-1)+"-"+str(DateNow.year), "playoff set"])
+            elif DateNow.month == 12 and DateNow.day > 15:
+                UEFA_tourn_club_set.append([league, str(DateNow.year)+"-"+str(DateNow.year+1), "playoff set"])
+    elif DateNow > datetime.datetime(2024, 8, 31):    # с сезона 24/25
+        for league in UEFA_leagues:
+            if DateNow.month > 8:
+                UEFA_tourn_club_set.append([league, str(DateNow.year-1)+"-"+str(DateNow.year), "playoff set"])
+                UEFA_tourn_club_set.append([league, str(DateNow.year)+"-"+str(DateNow.year+1), "group set"])
+            elif DateNow.month == 1:
+                UEFA_tourn_club_set.append([league, str(DateNow.year-1)+"-"+str(DateNow.year), "group set"])
+            else:
+                UEFA_tourn_club_set.append([league, str(DateNow.year-1)+"-"+str(DateNow.year), "playoff set"])
+    # определение наличия необходимого файла или необходимости api-запроса
+    import os
+    from modules.UEFAtournaments_club_set import UEFAtournaments_club_set
+    i = 0
+    while i < len(UEFA_tourn_club_set):
+        create_flag = 1    # флаг необходимости создания файла
+        for Set_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/sub_results/club_sets'):
+        # прочитать названия файлов из каталога club_set
+            if Set_file.find(str(UEFA_tourn_club_set[i][0]+" "+UEFA_tourn_club_set[i][1]+" "+UEFA_tourn_club_set[i][2]))!=-1:  
+                # если в каталоге club_set есть необходимый файл
+                create_flag = 0    # опустить флаг создания файла
+        if create_flag == 1:   # если флаг создания файла поднят - 
+            # создать необходимый файл
+            if UEFAtournaments_club_set(UEFA_tourn_club_set[i][0], UEFA_tourn_club_set[i][1], UEFA_tourn_club_set[i][2]) == \
+            "use_prev":   
+            # или использовать предыдущий club set при ошибках
+                if DateNow < datetime.datetime(2024, 9, 1):    # до сезона 24/25
+                    # если ошибка при запросе group set - использовать предыдущий playoff set, который уже есть в UEFA_tourn_club_set
+                    if UEFA_tourn_club_set[i][2] == "group set":
+                        # удалить UT_club_set из UEFA_tourn_club_set
+                        del UEFA_tourn_club_set[i]
+                        i -= 1   # смещение на итерацию назад, тк после удаления элемента номерация смещается
+                    # если ошибка при запросе playoff set, выполненном 01.09-15.12
+                    elif UEFA_tourn_club_set[i][2] == "playoff set" and ((DateNow.month > 8 and DateNow.month < 12) or \
+                    (DateNow.month == 12 and DateNow.day < 16)):
+                        # удалить UT_club_set из UEFA_tourn_club_set
+                        del UEFA_tourn_club_set[i]
+                        i -= 1
+                    # если ошибка при запросе playoff set, выполненном после декабря
+                    elif UEFA_tourn_club_set[i][2] == "playoff set" and DateNow.month < 9:
+                        # изменить его на group set текущего розыгрыша
+                        UEFA_tourn_club_set[i][1] = str(DateNow.year-1)+"-"+str(DateNow.year)
+                        UEFA_tourn_club_set[i][2] = "group set"
+                    # если ошибка при запросе playoff set, выполненном в декабре
+                    elif UEFA_tourn_club_set[i][2] == "playoff set" and (DateNow.month == 12 and DateNow.day > 15):
+                        # изменить его на group set текущего розыгрыша
+                        UEFA_tourn_club_set[i][1] = str(DateNow.year)+"-"+str(DateNow.year+1)
+                        UEFA_tourn_club_set[i][2] = "group set"
+                elif DateNow > datetime.datetime(2024, 8, 31):    # с сезона 24/25
+                    # если ошибка при запросе group set, выполненный до января - использовать предыдущий playoff set, который уже есть в UEFA_tourn_club_set
+                    if UEFA_tourn_club_set[i][2] == "group set":
+                        # удалить UT_club_set из UEFA_tourn_club_set
+                        del UEFA_tourn_club_set[i]
+                        i -= 1   # смещение на итерацию назад, тк после удаления элемента номерация смещается
+                    # если ошибка при запросе playoff set, выполненном с сентября по декабрь
+                    elif UEFA_tourn_club_set[i][2] == "playoff set" and DateNow.month > 8:
+                        # удалить UT_club_set из UEFA_tourn_club_set
+                        del UEFA_tourn_club_set[i]
+                        i -= 1
+                    # если ошибка при запросе group set, выполненном в январе
+                    elif UEFA_tourn_club_set[i][2] == "group set" and DateNow.month == 1:
+                        # изменить его на playoff set прошлого розыгрыша
+                        UEFA_tourn_club_set[i][1] = str(DateNow.year-2)+"-"+str(DateNow.year-1)
+                        UEFA_tourn_club_set[i][2] = "playoff set"
+                    # если ошибка при запросе playoff set, выполненном с февраля по август
+                    elif UEFA_tourn_club_set[i][2] == "playoff set" and (DateNow.month < 9 and DateNow.month > 1):
+                        # изменить его на group set текущего розыгрыша
+                        UEFA_tourn_club_set[i][1] = str(DateNow.year-1)+"-"+str(DateNow.year)
+                        UEFA_tourn_club_set[i][2] = "group set"
+        # заполнение словаря ID клубов из club sets
+        LegueClubSetID = []    # создание списка id из файла UefaTournamentClubSet
+        with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/club_sets/'\
+            +UEFA_tourn_club_set[i][0]+" "+UEFA_tourn_club_set[i][1]+" "+UEFA_tourn_club_set[i][2]+".txt", 'r') as f:
+            for line in f:  # цикл по строкам
+                kursor = line.find('id:',0) +3    # переместить курсор перед искомой подстрокой
+                end_substr = line.find('.',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
+                LegueClubSetID.append(int(line[kursor:end_substr]))
+        UEFA_tourn_club_set_ID[str(UEFA_tourn_club_set[i][0]+" "+UEFA_tourn_club_set[i][1]+" "+UEFA_tourn_club_set[i][2])] =\
+        LegueClubSetID
+        i += 1
+
+    # UEFA Tournament rating = total club set SUM(pts+1.2) in TL standigs / Number of clubs in the set
+    # определение UEFA tournaments rating
+    # определение наличия временного фактора при постепенном перетекании рейтинга из плейофф прошлого турнира 
+        # в групповой этап текущего
+    time_factor = 0     # инициализация временного фактора
+    # и формирование списка UEFA_club_sets
+    UEFA_club_sets = []
+    for club_set in UEFA_tourn_club_set_ID:     # поиск слова group в названии ключа словаря
+        if club_set.find("group") != -1:
+            # при наличии слова group - задействовать временной фактор
+            first_year = club_set[club_set.find(" ")+1:club_set.find(" ")+5]    # определение года начала турнира group set
+            # кол-во дней прошедших с 01.09, деленное на 100 = % использования group set
+            time_factor = min((DateNow - datetime.datetime(int(first_year), 8, 31)) / (datetime.timedelta(days=1) * 100), 1)  
+        UEFA_club_sets.append(club_set)     # заполненине списка названием club set
+    Ass_TournRateQuot["UEFA"] = UEFA_club_sets  # начальное заполнение значений ключа UEFA списком длиной, 
+    # равной количеству турниров UEFA
+    # импорт final_standings.json
+    import json
+    with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/final_standings.json', 'r') as j:
+        standings = json.load(j) # {club: {IDapi: , nat: , TL_rank: , visual_rank: }} 
+    i = 0   # счетчик итераций для индексов списка турниров UEFA в словаре Ass_TournRateQuot
+    for club_set in UEFA_tourn_club_set_ID:     # для каждого ключа словаря (рассматриваемого турнира)
+        tourn_rating = 0    # рейтинг рассмтриваемого турнира
+        for SetID in UEFA_tourn_club_set_ID[club_set]:     # для каждого элемента списка ключа словаря 
+                                                           # (id клуба из club set рассматриваемого турнира)
+            for club in standings:   # для каждого id клуба из TL standings
+                if standings[club]['IDapi'] == SetID:
+                    tourn_rating += standings[club]['TL_rank'] + 1.2
+                    break
+        # определение рейтинга турнира с увеличением вложенности словаря до {Association:[Tournament,Rating]}
+        Ass_TournRateQuot["UEFA"][i] = [club_set, tourn_rating / len(UEFA_tourn_club_set_ID[club_set])]
+        # если задействован временной фактор: уменьшать рейтинг playoff set с 100% до 0% и увеличивать рейтинг group set с 0% до 100% каждый день на 1% с 01.09
+        if time_factor != 0:
+            if club_set.find("group") != -1:
+                Ass_TournRateQuot["UEFA"][i][1] *= time_factor
+            elif club_set.find("playoff") != -1:
+                Ass_TournRateQuot["UEFA"][i][1] *= 1 - time_factor
+        Ass_TournRateQuot["UEFA"][i][1] = round(Ass_TournRateQuot["UEFA"][i][1], 2)
+        i += 1
+
+    # UEFA tournament quota распределяется пропорционально рейтингам турниров
+    # словарь рейтингов и квот каждого турнира {tourn:[rate,quota]}  
+    # (во время групповой стадии: сумма рейтингов playoff set и group set)
+    whole_tourn_rate_quota = {"UCL": [0, 0], "UEL": [0, 0], "UECL": [0, 0]}     
+    # определить рейтинг каждого турнира 
+    for tourn in Ass_TournRateQuot["UEFA"]:
+        for league in whole_tourn_rate_quota:
+            if tourn[0].find(league) != -1:
+                whole_tourn_rate_quota[league][0] += tourn[1]
+    # определить квоту каждого турнира
+    # импорт final_standings.json
+    import json
+    with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/associations.json', 'r') as j:
+        associations = json.load(j) # {ass: [rating, quota]} 
+    for league in whole_tourn_rate_quota:
+        whole_tourn_rate_quota[league][1] = associations["UEFA"][1] * whole_tourn_rate_quota[league][0] / associations["UEFA"][0]
+    # сумма квот турниров УЕФА, округленных до целого в меньшую сторону
+    import math
+    UEFA_tourn_quota_int_sum = 0   
+    for league in whole_tourn_rate_quota:
+        UEFA_tourn_quota_int_sum += math.floor(whole_tourn_rate_quota[league][1])
+    # общая квота УЕФА, отброшенная в качестве дробных частей
+    fractional_quota = associations["UEFA"][1] - UEFA_tourn_quota_int_sum
+    # распределение суммы дробных частей квот между турнирами в качестве целых квот в порядке уменьшения их дробной части
+    if fractional_quota == 1:   # если сумма дробных частей квот равна 1
+        fractional_part = 0   # дробная часть квоты турнира (инициализация)
+        for league in whole_tourn_rate_quota:   # определение макс дробной части среди квот турниров
+            if whole_tourn_rate_quota[league][1] % 1 > fractional_part:
+                fractional_part = whole_tourn_rate_quota[league][1] % 1
+                add_tourn = league
+        whole_tourn_rate_quota[add_tourn][1] += 1   # присвоение целой квоты турниру с макс дробной частью
+    if fractional_quota == 2:   # если сумма дробных частей квот равна 2
+        fractional_part = 1   # дробная часть квоты турнира (инициализация)
+        for league in whole_tourn_rate_quota:   # определение мин дробной части среди квот турниров
+            if whole_tourn_rate_quota[league][1] % 1 < fractional_part:
+                fractional_part = whole_tourn_rate_quota[league][1] % 1
+                not_add_tourn = league
+        for league in whole_tourn_rate_quota:   # присвоение целой квоты двум турнирам с макс дробной частью
+            if league != not_add_tourn:
+                whole_tourn_rate_quota[league][1] += 1
+    # округление до целого квоты каждого турнира
+    for league in whole_tourn_rate_quota:
+        whole_tourn_rate_quota[league][1] = math.floor(whole_tourn_rate_quota[league][1])
+    # во время групповой стадии квота распределяется между playoff set и group set пропорционально их рейтингам 
+    # с округлением до целого в сторону playoff set
+    for tourn in Ass_TournRateQuot["UEFA"]:
+        for league in whole_tourn_rate_quota:
+            if tourn[0].find(league) != -1:
+                if tourn[0].find("group") != -1:
+                    tourn.append(math.floor(round(whole_tourn_rate_quota[league][1] * tourn[1] / whole_tourn_rate_quota[league][0], 3)))
+                if tourn[0].find("playoff") != -1:
+                    tourn.append(math.ceil(round(whole_tourn_rate_quota[league][1] * tourn[1] / whole_tourn_rate_quota[league][0], 3)))
+
+
+except: 
+
+    # запись ошибки/исключения в переменную через временный файл
+    import traceback
+    with open("bug_file.txt", 'w+') as f:
+        traceback.print_exc(file=f)     # создание на вирт машине файла ошибки с указанием файла кода и строки исключения
+        f.seek(0)                       # установка курсора в начало временного файла
+        bug_info = f.read()
+
+    # отправка bug_file в репозиторий GitHub и на почту
+    import os
+    mod_name = os.path.basename(__file__)[:-3]
+    from modules.gh_push import gh_push
+    gh_push(str(mod_name), 'bug_files', 'bug_file', bug_info)
+    from modules.bug_mail import bug_mail
+    bug_mail(str(mod_name), bug_info)
