@@ -208,6 +208,94 @@ try:    # обработка исключений для определения 
                 if tourn[0].find("playoff") != -1:
                     tourn.append(math.ceil(round(whole_tourn_rate_quota[league][1] * tourn[1] / whole_tourn_rate_quota[league][0], 3)))
 
+    # расширить Ass_TournRateQuot до {Association:[Tournament,Season,Rating,Quota,TournID,TournType]} 
+    # изменением первых двух элементов и
+    # добавлением ID турнира и его типа (лига, кубок)
+    for tourn in Ass_TournRateQuot["UEFA"]:
+         if tourn[0].find("UCL") != -1:
+            tourn.insert(1, tourn[0][6:8]+"-"+tourn[0][11:13])
+            tourn[0] = tourn[0][:3]
+            tourn.append(2)
+            tourn.append("Cup")
+         if tourn[0].find("UEL") != -1:
+            tourn.insert(1, tourn[0][6:8]+"-"+tourn[0][11:13])
+            tourn[0] = tourn[0][:3]
+            tourn.append(3)
+            tourn.append("Cup")
+         if tourn[0].find("UECL") != -1:
+            tourn.insert(1, tourn[0][7:9]+"-"+tourn[0][12:14])
+            tourn[0] = tourn[0][:4]
+            tourn.append(848)
+            tourn.append("Cup")
+
+    # учет квоты TL на 10 лидеров
+    Ass_TournRateQuot["TopLiga"] = ["TopLiga", "", associations['TopLiga']['rating'], associations['TopLiga']['quota']]
+
+
+    # National tournaments rating & quota
+
+    # добавить в Ass_TournRateQuot ассоциации с квотой > 0 в качестве ключей
+    # включить в Ass_TournRateQuot турниры нац ассоциаций
+    from modules.nat_tournaments import Nat_Tournaments
+    Ass_TournIdType = Nat_Tournaments()
+    for ass_n in associations:
+        if ass_n not in Ass_TournRateQuot.keys() and associations[ass_n]['quota'] > 0:
+            for Ass in Ass_TournIdType:
+                if ass_n == Ass:
+                    Ass_TournRateQuot[ass_n] = Ass_TournIdType[Ass]
+    for ass_n in Ass_TournRateQuot:
+        Del_tourn = []  # список турниров на удаление
+        for tourn in Ass_TournRateQuot[ass_n]:
+            if tourn[0].find("League") != -1 or tourn[0].find("Cup") != -1: # из нац турниров
+                if tourn[2] == "None" or tourn[0].find("SCup") != -1:   # удалить несуществующие и суперкубки
+                    Del_tourn.append(tourn)
+        for tourn in Del_tourn:
+            Ass_TournRateQuot[ass_n].remove(tourn)    
+    # приведение всех списков турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
+    for ass_n in Ass_TournRateQuot:
+        Del_tourn = []  # список турниров на удаление
+        for tourn in Ass_TournRateQuot[ass_n]:
+            if tourn[0].find("League") != -1:   # для League: если рассматриваемая дата с августа по декабрь - оставить оба турнира, иначе только curr
+                tourn[2] = 0        # изменение элемента на Rating
+                tourn.insert(3, 0)  # добавление элемента Quota
+                if DateNow.month < 8 and tourn[1] == "prev":
+                    Del_tourn.append(tourn)
+                if DateNow.month < 8 and tourn[1] == "curr":
+                    tourn[1] = str(DateNow.year-1)[2:]+"-"+str(DateNow.year)[2:]
+                if DateNow.month > 7 and tourn[1] == "prev":
+                    tourn[1] = str(DateNow.year-1)[2:]+"-"+str(DateNow.year)[2:]
+                if DateNow.month > 7 and tourn[1] == "curr":
+                    tourn[1] = str(DateNow.year)[2:]+"-"+str(DateNow.year+1)[2:]
+            if tourn[0].find("Cup") != -1:  # для всех кубковых турниров учитываются: незавершившийся турнир и предыдущий, если с его финала прошло <150 дней
+                mod_cup_files.func_cup_files(tourn[0], DateNow)   # актуализация файлов кубков
+                tourn[2] = 0        # изменение элемента на Rating
+                tourn.insert(3, 0)  # добавление элемента Quota
+                for tourn_file in os.listdir('tournaments/'):
+                    # проверить файл "prev" на отдаление финала от текущей даты
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "prev":
+                        with open("tournaments\\"+tourn_file, 'r') as f:
+                            for line in f:
+                                if DateNow >= mod_api_request.PrevCupInfluence(line):  # если после финала прошло 150 дней и больше
+                                    Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
+                    # если есть файл "curr" (появляется в каталоге через 400 дней после 1-го матча "prev"), но не наступила дата его 1-го матча - 
+                    # удалить кубок "curr" (только для initial standings, при расчете которого файл curr мб создан заранее)
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "curr":
+                        with open("tournaments\\"+tourn_file, 'r') as f:
+                            for line in f:
+                                if DateNow < mod_api_request.CupFirst(line):
+                                    Del_tourn.append(tourn)
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                        tourn[1] = tourn_file[-14:-9]   # изменение "curr/prev" на сезон
+        for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
+            Ass_TournRateQuot[ass_n].remove(tourn)    
+    # Tournaments rating
+    for ass_n in Ass_TournRateQuot:
+        for tourn in Ass_TournRateQuot[ass_n]:
+            # League reating = total League clubs SUM(pts+1.2) in TL standigs / Number of clubs in the League
+            # prev > curr (1/150 per day from 01.08)
+            if tourn[0].find("League") != -1:
+                mod_league_files.set_league_files(tourn[0], tourn[1], tourn[4], "20"+tourn[1][:2])   # актуализация файла нац лиги
+                # если файл лиги есть: расчет League reating, иначе League reating = 0
 
 except: 
 
