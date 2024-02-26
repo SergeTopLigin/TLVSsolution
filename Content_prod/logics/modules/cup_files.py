@@ -138,9 +138,12 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
         import time # модуль для паузы и определения текущего UEFA club set
         import datetime
         import os   # импорт модуля работы с каталогами
+        mod_name = os.path.basename(__file__)[:-3]
         from modules.apisports_key import api_key    # модуль с ключом аккаунта api
         from modules.nat_tournaments import Nat_Tournaments   # модуль словаря {Association:[AssType,Season,Tournament,TournID,TournType]}
         from modules.api_request import CupIsFinished, CupLast, CupFirst     # модуль поиска информации в запросе
+        from modules.gh_push import gh_push
+        from modules.runner_push import runner_push
 
         Ass_TournIdType = Nat_Tournaments()     # словарь {Association:[AssType,Season,Tournament,TournID,TournType]}
         # определение ID турнира    
@@ -166,14 +169,16 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
             # if results != 0: (запрос до января)
             if api_date_year[api_date_year.find("results")+9 : api_date_year.find("results")+10] != "0":
                 # сохранить запрос в файл "curr"
-                with open("tournaments\\"+Cup+" "+str(calc_date.year)[2:]+"-"+str(calc_date.year+1)[2:]+" curr.txt", 'w') as f:    # "Tourn YY-YY prev/curr"
-                    f.write(api_date_year)
+                file_name = Cup+" "+str(calc_date.year)[2:]+"-"+str(calc_date.year+1)[2:]+" curr.json"
+                gh_push(str(mod_name), 'fixtures', file_name, api_date_year)
+                runner_push(str(mod_name), 'fixtures', file_name, api_date_year)
                 # запрос season = calc_date.year -1
                 api_date_prev_year = api_key("/fixtures?league="+CupID+"&season="+str(calc_date.year-1))
                 time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                 # сохранить запрос в файл "prev"
-                with open("tournaments\\"+Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.txt", 'w') as f:    # "Tourn YY-YY prev/curr"
-                    f.write(api_date_prev_year)
+                file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
+                runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
             # else results == 0: (запрос после января или в межсезонье)
             else:
                 # запрос season = calc_date.year -1
@@ -185,23 +190,26 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     return("pass")
                 elif Cup_status == "finished":
                     # сохранить запрос в файл "prev"
-                    with open("tournaments\\"+Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.txt", 'w') as f:    # "Tourn YY-YY prev/curr"
-                        f.write(api_date_prev_year)
+                    file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                    gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
+                    runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                 elif Cup_status == "in_progress":   # else отсутствует round: Final или его status: short: не FT / AET / PEN / CANC / AWD / WO: (сезон идет)
                     # сохранить запрос в файл "curr"
-                    with open("tournaments\\"+Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" curr.txt", 'w') as f:    # "Tourn YY-YY prev/curr"
-                        f.write(api_date_prev_year)
+                    file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" curr.json"
+                    gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
+                    runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                     # запрос season = calc_date.year -2
                     api_date_2prev_year = api_key("/fixtures?league="+CupID+"&season="+str(calc_date.year-2))
                     time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                     # сохранить запрос в файл "prev"
-                    with open("tournaments\\"+Cup+" "+str(calc_date.year-2)[2:]+"-"+str(calc_date.year-1)[2:]+" prev.txt", 'w') as f:    # "Tourn YY-YY prev/curr"
-                        f.write(api_date_2prev_year)
+                    file_name = Cup+" "+str(calc_date.year-2)[2:]+"-"+str(calc_date.year-1)[2:]+" prev.json"
+                    gh_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
+                    runner_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
 
         # elif в каталоге есть "curr" и "prev" (актуальные или нет)
         elif curr_find != "empty" and prev_find != "empty":
             # if calc_date <= Last из "curr" ("curr" актуальный)
-            with open("tournaments\\"+curr_find, 'r') as f:
+            with open((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+curr_find, 'r') as f:
                 curr_file = f.read()
             Last_date = CupLast(curr_file)
             if Last_date == "pass":   # приводит к ожиданию следующего workflow для перерасчета этого кубка
@@ -210,7 +218,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                 return("pass")  # файлы актуальны, последний известный матч еще не сыгран
             else:   # else calc_date > Last из "curr" (наступила дата Last +1 ИЛИ турнир выпадал из квотообразующих и возобновляется)
                 # запрос season = "curr"
-                api_curr_year = api_key("/fixtures?league="+CupID+"&season=20"+curr_find[-14:-12])
+                api_curr_year = api_key("/fixtures?league="+CupID+"&season=20"+curr_find[-15:-13])
                 time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                 # if отсутствует round: Final или его status: short: не FT / AET / PEN / CANC / AWD / WO
                 Cup_status = CupIsFinished(api_curr_year)
@@ -218,26 +226,38 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     return("pass")
                 elif Cup_status == "in_progress":
                     # сохранить запрос в файл "curr" (при открытии с 'w' - файл перезаписывается)
-                    with open("tournaments\\"+curr_find, 'w') as f:    # "Tourn YY-YY prev/curr"
-                        f.write(api_curr_year)
+                    file_name = curr_find
+                    gh_push(str(mod_name), 'fixtures', file_name, api_curr_year)
+                    runner_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     # if season "curr" -1 > season "prev"
-                    if int(curr_find[-14:-12]) -1 > int(prev_find[-14:-12]):
+                    if int(curr_find[-15:-13]) -1 > int(prev_find[-15:-13]):
                         # удалить из имени файла суффикс "prev"
-                        os.rename("tournaments\\"+prev_find, "tournaments\\"+prev_find[:-9]+".txt")
+                        os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
+                            (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
+                        # переименовать в GH
+
+
                         # запрос season "curr" -1
-                        api_prevcurr_year = api_key("/fixtures?league="+CupID+"&season=20"+str(int(curr_find[-14:-12])-1))
+                        api_prevcurr_year = api_key("/fixtures?league="+CupID+"&season=20"+str(int(curr_find[-15:-13])-1))
                         time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                         # сохранить запрос в файле "prev"
-                        with open("tournaments\\"+Cup+" "+str(int(curr_find[-14:-12])-1)+"-"+str(int(curr_find[-14:-12]))+" prev.txt", 'w') as f:    # "Tourn YY-YY prev/curr"
-                            f.write(api_prevcurr_year)
+                        file_name = Cup+" "+str(int(curr_find[-15:-13])-1)+"-"+str(int(curr_find[-15:-13]))+" prev.json"
+                        gh_push(str(mod_name), 'fixtures', file_name, api_prevcurr_year)
+                        runner_push(str(mod_name), 'fixtures', file_name, api_prevcurr_year)
                 # elif есть round: Final и status: short: FT / AET / PEN / CANC / AWD / WO ("curr" и "prev" НЕ актуальны,турнир выпал из квотообразующих во время одного из прошлых сезонов)
                 elif Cup_status == "finished":
                     # сохранить запрос в файл "curr"
-                    with open("tournaments\\"+curr_find, 'w') as f:    # "Tourn YY-YY prev/curr"
-                        f.write(api_curr_year)
+                    file_name = curr_find
+                    gh_push(str(mod_name), 'fixtures', file_name, api_curr_year)
+                    runner_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     # удалить суффиксы "curr" и "prev" из имен файлов
-                    os.rename("tournaments\\"+prev_find, "tournaments\\"+prev_find[:-9]+".txt")
-                    os.rename("tournaments\\"+curr_find, "tournaments\\"+curr_find[:-9]+".txt")
+                    os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
+                        (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
+                    os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+curr_find, \
+                        (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+curr_find[:-10]+".json")
+                    # переименовать в GH
+
+
                     # выполнить действия из условия: в каталоге нет файлов "curr" и "prev"
                     # 
                     # запрос season = calc_date.year
