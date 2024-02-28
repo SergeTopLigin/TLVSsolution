@@ -256,7 +256,7 @@ try:    # обработка исключений для определения 
         for tourn in Del_tourn:
             Ass_TournRateQuot[ass_n].remove(tourn)    
     
-    # приведение всех списков турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
+    # приведение всех списков нац турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
     for ass_n in Ass_TournRateQuot:
         Del_tourn = []  # список турниров на удаление
         for tourn in Ass_TournRateQuot[ass_n]:
@@ -295,13 +295,14 @@ try:    # обработка исключений для определения 
             Ass_TournRateQuot[ass_n].remove(tourn)    
     
     # Tournaments rating
+    from modules.league_files import set_league_files
     for ass_n in Ass_TournRateQuot:
         for tourn in Ass_TournRateQuot[ass_n]:
             # League reating = total League clubs SUM(pts+1.2) in TL standigs / Number of clubs in the League
             # prev > curr (1/150 per day from 01.08)
             if tourn[0].find("League") != -1:
-                mod_league_files.set_league_files(tourn[0], tourn[1], tourn[4], "20"+tourn[1][:2])   # актуализация файла нац лиги
-                # если файл лиги есть: расчет League reating, иначе League reating = 0
+                set_league_files(tourn[0], tourn[1], tourn[4])   # актуализация файла нац лиги
+                # если файл лиги есть: расчет League rating, иначе League rating = 0
 
 except: 
 
