@@ -1,5 +1,7 @@
-from modules.gh_push import gh_push
 import os
-mod_name = os.path.basename(__file__)[:-3]
-gh_push(str(mod_name), 'answers', 'test.txt', 'rename:NEWtest')
-gh_push(str(mod_name), 'answers', 'test.json', 'rename:NEWtest')
+import json
+with open((os.path.abspath(__file__))[:-15]+'/cache/answers/standings/AUT League 2023.json', 'r') as f:
+    prev_file = f.read()
+answer_dict = json.loads(prev_file)
+
+print(prev_file)

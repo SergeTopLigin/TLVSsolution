@@ -3,7 +3,9 @@ def gh_push(main_mod, file_dir, file_name, file_content):
 # main_mod = имя файла запуска задачи
 # file_dir = каталог размещения файла в репо
 # file_name = имя файла с расширением (пр: example.txt)
-# file_content = содержание файла ИЛИ 'rename:NEWNAME' (без расширения) при переименовании файла
+# file_content = содержание файла 
+    # ИЛИ 'rename:NEWNAME' (без расширения) при переименовании файла
+    # ИЛИ 'delete' для удаления
 # в file_dir досаточно указать папку, в которую надо сохранить файл: функция определит весь путь
 # при отправке в bug_files указать file_name = bug_file: функция составит имя из даты и main_mod
     
@@ -55,6 +57,9 @@ def gh_push(main_mod, file_dir, file_name, file_content):
                 if f.read() != file_content:    # если содержание меняется
                     repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
         # для остальных каталогов
+        elif file_content == 'delete':      # если требуется удалить файл
+            contents = repo.get_contents(path+file_name, ref="master")
+            repo.delete_file(contents.path, "remove "+file_name, contents.sha, branch="master")
         elif file_content[:6] == 'rename':      # если требуется переименовать файл
             new_name = file_content[7:] # новое имя файла
             # извлечь его содержимое, удалить текущий и создать с новым именем
