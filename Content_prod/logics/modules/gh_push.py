@@ -59,13 +59,13 @@ def gh_push(main_mod, file_dir, file_name, file_content):
             new_name = file_content[7:] # новое имя файла
             # извлечь его содержимое, удалить текущий и создать с новым именем
             if file_name[-3:] == 'txt':
-                with open((os.path.abspath(__file__))[:-26]+path+file_name, 'r') as f:
+                with open((os.path.abspath(__file__))[:-38]+path+file_name, 'r') as f:
                     file_content = f.read()
                 contents = repo.get_contents(path+file_name, ref="master")
                 repo.delete_file(contents.path, "remove "+file_name, contents.sha, branch="master")
                 repo.create_file(path+new_name, "add "+new_name, file_content, branch="master")
             elif file_name[-4:] == 'json':
-                with open((os.path.abspath(__file__))[:-26]+path+file_name, 'r') as j:
+                with open((os.path.abspath(__file__))[:-38]+path+file_name, 'r') as j:
                     file_content = json.load(j)
                 contents = repo.get_contents(path+file_name, ref="master")
                 repo.delete_file(contents.path, "remove "+file_name, contents.sha, branch="master")
