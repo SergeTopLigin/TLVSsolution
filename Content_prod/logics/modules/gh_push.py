@@ -3,7 +3,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
 # main_mod = имя файла запуска задачи
 # file_dir = каталог размещения файла в репо
 # file_name = имя файла с расширением (пр: example.txt)
-# file_content = содержание файла ИЛИ 'rename: NEWNAME' при переименовании файла
+# file_content = содержание файла ИЛИ 'rename:NEWNAME' при переименовании файла
 # в file_dir досаточно указать папку, в которую надо сохранить файл: функция определит весь путь
 # при отправке в bug_files указать file_name = bug_file: функция составит имя из даты и main_mod
     
@@ -55,10 +55,22 @@ def gh_push(main_mod, file_dir, file_name, file_content):
                 if f.read() != file_content:    # если содержание меняется
                     repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
         # для остальных каталогов
-        elif file_content[:6] == 'rename':
-            # если требуется переименовать файл
-            
-
+        elif file_content[:6] == 'rename':      # если требуется переименовать файл
+            new_name = file_content[7:] # новое имя файла
+            # извлечь его содержимое, удалить текущий и создать с новым именем
+            if file_name[-3:] == 'txt':
+                with open((os.path.abspath(__file__))[:-26]+path+file_name, 'r') as f:
+                    file_content = f.read()
+                contents = repo.get_contents(path+file_name, ref="master")
+                repo.delete_file(contents.path, "remove "+file_name, contents.sha, branch="master")
+                repo.create_file(path+new_name, "add "+new_name, file_content, branch="master")
+            elif file_name[-4:] == 'json':
+                with open((os.path.abspath(__file__))[:-26]+path+file_name, 'r') as j:
+                    file_content = json.load(j)
+                contents = repo.get_contents(path+file_name, ref="master")
+                repo.delete_file(contents.path, "remove "+file_name, contents.sha, branch="master")
+                repo.create_file(path+new_name, "add "+new_name, \
+                    json.dumps(file_content, skipkeys=True, ensure_ascii=False, indent=2), branch="master")
         elif file_name in str(dir_contents):       
             # если в каталоге есть этот файл - сделать его update
             # GH не переписывает файл, если имя и содеражние не изменились

@@ -21,7 +21,7 @@ jobs:
       - name: list current folder  # проверка загрузки
         run: ls
       - name: install Dependencies  # установка зависимостей
-        run: pip install -r Content_prod/logics/requirements/req_uefa_standings.txt
+        run: pip install -r Content_prod/logics/requirements/req_PyGithub.txt
       - name: Run script
         env:
           GH_token: ${{ secrets.FILE_UPLOAD }}

@@ -44,12 +44,12 @@ jobs:
           fi
       
       # TL_standings
-      - name: install standings Dependencies  # установка зависимостей
-        run: pip install -r Content_prod/logics/requirements/req_standings.txt
+      - run: pip install -r Content_prod/logics/requirements/req_PyGithub.txt
       - name: Run script standings.py
         run: python Content_prod/logics/standings.py
 
       # association_rating_quota
+      - run: pip install -r Content_prod/logics/requirements/req_PyGithub.txt
       - name: Run script associations.py
         run: python Content_prod/logics/associations.py
 
