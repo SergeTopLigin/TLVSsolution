@@ -1,8 +1,12 @@
+# настройка выгрузки в репо
+from github import Github
+from github import Auth     # Authentication is defined via github.Auth
 import os
-import json
-with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/uefa_standings.json', 'r') as j:
-    uefa_standings = json.load(j)   # {club: {IDapi: , nat: , TL_rank: , visual_rank: }}
-# uefa_standings = 'uefa standings'
-mod_name = os.path.basename(__file__)[:-3]
-from modules.runner_push import runner_push
-runner_push(str(mod_name), 'sub_results', 'test.json', uefa_standings)
+token = os.getenv('GH_token')   # обращение к переменной среды (секрету), установленной в .yml 
+repo_name = os.getenv('repository')
+auth = Auth.Token(token)    # using an access token
+g = Github(auth=auth)   # Public Web Github
+repo = g.get_repo(repo_name)
+
+contents = repo.get_contents("Content_prod/cache/sub_results/associations.json")
+print(contents)
