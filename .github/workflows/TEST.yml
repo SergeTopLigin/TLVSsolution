@@ -2,15 +2,15 @@ name: TEST
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '14 9 * * 0-6'  # каждый день в 9:14 UTC
+  schedule:
+    - cron: ${{ env.CRON_SCHEDULE }}
 
 env:
-  UEFAcancel_date: ${{ vars.UEFA_CANCEL_DATE }}
+  CRON_SCHEDULE: ${{ vars.CRON_SCHEDULE }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
     steps:
-      - run: echo "$UEFAcancel_date"
+      - run: echo "hello"
