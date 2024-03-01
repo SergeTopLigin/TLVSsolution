@@ -1,12 +1,12 @@
 name: TEST
 
+env:
+  CRON_SCHEDULE: ${{ vars.CRON_SCHEDULE }}
+  
 on:
   workflow_dispatch:
   schedule:
     - cron: ${{ env.CRON_SCHEDULE }}
-
-env:
-  CRON_SCHEDULE: ${{ vars.CRON_SCHEDULE }}
 
 jobs:
   build:
