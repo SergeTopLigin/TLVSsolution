@@ -1,7 +1,7 @@
 name: TEST
 
 env:
-  CRON_SCHEDULE: ${{ vars.CRON_SCHEDULE }}
+  CRON_SCHEDULE: '*/5 * * * *'
   
 on:
   workflow_dispatch:
