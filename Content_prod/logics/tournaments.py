@@ -296,13 +296,26 @@ try:    # обработка исключений для определения 
     
     # Tournaments rating
     from modules.league_files import set_league_files
+    import json
     for ass_n in Ass_TournRateQuot:
         for tourn in Ass_TournRateQuot[ass_n]:
             # League reating = total League clubs SUM(pts+1.2) in TL standigs / Number of clubs in the League
             # prev > curr (1/150 per day from 01.08)
+            определение рейтинга через запрос standings: тк в нац лигах возможны несколько rounds: регулярный сезон, доп группы или матчи на вылет итд
             if tourn[0].find("League") != -1:
-                set_league_files(tourn[0], tourn[1], tourn[4])   # актуализация файла нац лиги
-                # если файл лиги есть: расчет League rating, иначе League rating = 0
+                # если в каталоге нет файла fixtures этой лиги:
+                file_find = 0   # флаг наличия файла в каталоге
+                import os
+                for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                        file_find = 1
+                if file_find == 0:
+                    set_league_files(tourn[0], tourn[1], tourn[4])   # актуализация файла нац лиги
+                # если файл лиги сформирован: расчет League rating, иначе League rating = 0
+                for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'+tourn_file, 'r', encoding='utf-8') as j:
+                            fixtures_dict = json.load(j)
 
 except: 
 

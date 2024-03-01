@@ -12,11 +12,15 @@ def set_league_files(League, Season, LeagueID):     # League должен соо
                 return("pass")
         from modules.apisports_key import api_key    # модуль с ключом аккаунта api
         FixtSeason = "20"+Season[:2]
-        api_league = api_key("/fixtures?league="+LeagueID+"&season="+FixtSeason)
-        mod_name = os.path.basename(__file__)[:-3]
-        file_name = League+" "+Season+".json"
-        gh_push(str(mod_name), 'fixtures', file_name, api_league)
-        runner_push(str(mod_name), 'fixtures', file_name, api_league)
+        answer = api_key("/fixtures?league="+LeagueID+"&season="+FixtSeason)
+        # если 'results' != 0 - сохранить fixtures
+        import json
+        answer_dict = json.loads(answer)
+        if answer_dict['results'] != 0:
+            mod_name = os.path.basename(__file__)[:-3]
+            file_name = League+" "+Season+".json"
+            gh_push(str(mod_name), 'fixtures', file_name, answer)
+            runner_push(str(mod_name), 'fixtures', file_name, answer)
 
     except: 
 
