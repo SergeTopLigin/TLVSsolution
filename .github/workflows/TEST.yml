@@ -1,11 +1,11 @@
 name: TEST
-  env:
-    UEFAcancel_date: ${{ vars.UEFA_CANCEL_DATE }}
 
 on:
   workflow_dispatch:
   # schedule:
   #   - cron: '14 9 * * 0-6'  # каждый день в 9:14 UTC
+  env:
+    UEFAcancel_date: ${{ vars.UEFA_CANCEL_DATE }}
     
 jobs:
   build:
