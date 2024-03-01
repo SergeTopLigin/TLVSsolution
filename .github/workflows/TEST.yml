@@ -1,6 +1,6 @@
 name: TEST
-  # env:
-  #   UEFAcancel_date: ${{ vars.UEFA_CANCEL_DATE }}
+  env:
+    UEFAcancel_date: ${{ vars.UEFA_CANCEL_DATE }}
 
 on:
   workflow_dispatch:
