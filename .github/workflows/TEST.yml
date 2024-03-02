@@ -1,12 +1,9 @@
 name: TEST
 
-env:
-  CRON_SCHEDULE: '*/5 * * * *'
-  
 on:
   workflow_dispatch:
-  schedule:
-    - cron: $CRON_SCHEDULE
+  # schedule:
+  #   - cron: '*/5 * * * *'
 
 jobs:
   build:
