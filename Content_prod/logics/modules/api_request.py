@@ -10,11 +10,11 @@ def CupIsFinished(answer):    # функция определяет законч
         answer_dict = json.loads(answer)
         completion_status = ["FT", "AET", "PEN", "CANC", "AWD", "WO"]   # список статусов, обозначающих завершение матча
         # сезон закончен, если есть round: Final и его status: short: FT / AET / PEN / CANC / AWD / WO
-        if answer_dict["response"][-1]["league"]["round"] == "Final" and \
-            answer_dict["response"][-1]["fixture"]["status"]["short"] in completion_status:
-            return("finished")
-        else:
-            return("in_progress")
+        for fixture in answer_dict["response"]:
+            if fixture["league"]["round"] == "Final" and \
+                fixture["fixture"]["status"]["short"] in completion_status:
+                return("finished")
+        return("in_progress")
     except: 
         # запись ошибки/исключения в переменную через временный файл
         import traceback

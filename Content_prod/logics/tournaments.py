@@ -294,28 +294,41 @@ try:    # обработка исключений для определения 
         for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
             Ass_TournRateQuot[ass_n].remove(tourn)    
     
+    
     # Tournaments rating
-    from modules.league_files import set_league_files
+    from modules.league_files import league_files
     import json
     for ass_n in Ass_TournRateQuot:
         for tourn in Ass_TournRateQuot[ass_n]:
-            # League reating = total League clubs SUM(pts+1.2) in TL standigs / Number of clubs in the League
-            # prev > curr (1/150 per day from 01.08)
-            определение рейтинга через запрос standings: тк в нац лигах возможны несколько rounds: регулярный сезон, доп группы или матчи на вылет итд
+            
+            # рейтинг National League
             if tourn[0].find("League") != -1:
-                # если в каталоге нет файла fixtures этой лиги:
-                file_find = 0   # флаг наличия файла в каталоге
-                import os
-                for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
+            # определение рейтинга через запрос standings: тк в нац лигах возможны несколько rounds: регулярный сезон, доп группы или матчи на вылет итд
+            # League rating = total League clubs SUM(pts+1.2) in TL standigs / Number of clubs in the League
+            # prev > curr (1/150 per day from 01.08)
+                league_files(tourn[0], tourn[1], tourn[4])   # актуализация файла нац лиги
+                # если файл лиги сформирован: расчет League rating, иначе League rating = 0 (это значение уже задано выше)
+                for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/standings'):
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
-                        file_find = 1
-                if file_find == 0:
-                    set_league_files(tourn[0], tourn[1], tourn[4])   # актуализация файла нац лиги
-                # если файл лиги сформирован: расчет League rating, иначе League rating = 0
-                for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
-                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'+tourn_file, 'r', encoding='utf-8') as j:
-                            fixtures_dict = json.load(j)
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings'+tourn_file, 'r', encoding='utf-8') as j:
+                            standings_dict = json.load(j)
+                # club set лиги из клубов текущего раунда лиги (["group"] которых = ["group"] 1-го ["rank"] в ["standings"])
+                club_number = 0     # инициализация количества клубов в текущем раунде лиги
+                for team in standings_dict['response'][0]['league']['standings'][0]:
+                    club_number += 1
+                    for club in standings:   # для каждого id клуба из TL standings
+                        if standings[club]['IDapi'] == team['team']['id']: 
+                            tourn[2] += standings[club]['TL_rank'] + 1.2
+                tourn[2] /= club_number
+                # временной фактор: prev > curr (1/150 per day from 01.08)
+                if DateNow.month > 7 and tourn[1][3:] == DateNow.year[2:]:     # для прошлого сезона
+                    tourn[2] *= (150 - (DateNow - datetime.datetime(DateNow.year, 7, 31))/datetime.timedelta(days=1)) / 150
+                if DateNow.month > 7 and tourn[1][:2] == DateNow.year[2:]:     # для текущего сезона
+                    tourn[2] *= ((DateNow - datetime.datetime(DateNow.year, 7, 31))/datetime.timedelta(days=1)) / 150
+            
+            # рейтинг National Cup(LCup)
+            if tourn[0].find("Cup") != -1:
+
 
 except: 
 
