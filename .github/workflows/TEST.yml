@@ -1,10 +1,13 @@
 name: TEST
 
+env:
+  CRON_SCHEDULE: '*/5 * * * *'
+  
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '14 9 * * 0-6'  # каждый день в 9:14 UTC
-    
+  schedule:
+    - cron: $CRON_SCHEDULE
+
 jobs:
   build:
     runs-on: ubuntu-latest
