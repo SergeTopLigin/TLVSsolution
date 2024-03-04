@@ -85,7 +85,7 @@ try:    # обработка исключений для определения 
     final_standings_str = ''   # github принимает только str для записи в файл
     rank = 1
     for club in final_standings:
-        final_standings_str += "{0:>2}  {1:20}   {2:3.0f}   {3:5.2f}    {4}".\
+        final_standings_str += "{0:>2}  {1:25}{2:3.0f}   {3:5.2f}    {4}".\
         format(str(rank), club, final_standings[club]['visual_rank'], final_standings[club]['TL_rank'], \
             final_standings[club]['nat']) + '\n'
         rank += 1

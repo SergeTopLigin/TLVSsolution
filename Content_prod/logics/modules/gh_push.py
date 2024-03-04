@@ -18,6 +18,8 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         if file_dir == 'fixtures':              path = 'Content_prod/cache/answers/fixtures/'
         if file_dir == 'sub_results':           path = 'Content_prod/cache/sub_results/'
         if file_dir == 'club_sets':             path = 'Content_prod/cache/sub_results/club_sets/'
+        if file_dir == 'cup_round_ratings':     path = 'Content_prod/cache/sub_results/cup_round_ratings/'
+        if file_dir == 'standings_history':     path = 'Content_prod/cache/sub_results/standings_history/'
         if file_dir == 'content_commits':       path = 'Content_prod/cache/content_commits/'
         if file_dir == 'content':               path = 'TL_VS_project/TL_flask/static/content/'
 
@@ -28,6 +30,9 @@ def gh_push(main_mod, file_dir, file_name, file_content):
             file_name = CreateDate+' '+str(main_mod)+".txt"
         if file_dir == 'content_commits':
             file_name = file_name[:-4]+' '+CreateDate+".txt"
+        if file_dir == 'standings_history':
+            CreateDate = CreateDate[:-9]
+            file_name = file_name[:-5]+' '+CreateDate+".json"
 
         # настройка выгрузки в репо
         from github import Github

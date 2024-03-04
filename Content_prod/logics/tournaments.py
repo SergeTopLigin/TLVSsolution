@@ -278,14 +278,14 @@ try:    # обработка исключений для определения 
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
                     # проверить файл "prev" на отдаление финала от текущей даты
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "prev":
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'+tourn_file, 'r') as f:
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
                             file_content = f.read()
                         if DateNow >= PrevCupInfluence(file_content):  # если после финала прошло 150 дней и больше
                             Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
                     # если есть файл "curr" (появляется в каталоге через 400 дней после 1-го матча "prev"), но не наступила дата его 1-го матча - 
                     # удалить кубок "curr"
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "curr":
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'+tourn_file, 'r') as f:
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
                             file_content = f.read()
                         if DateNow <= CupFirst(file_content):
                             Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
@@ -297,6 +297,8 @@ try:    # обработка исключений для определения 
     
     # Tournaments rating
     from modules.league_files import league_files
+    from modules.gh_push import gh_push
+    from modules.runner_push import runner_push
     import json
     for ass_n in Ass_TournRateQuot:
         for tourn in Ass_TournRateQuot[ass_n]:
@@ -310,7 +312,7 @@ try:    # обработка исключений для определения 
                 # если файл лиги сформирован: расчет League rating, иначе League rating = 0 (это значение уже задано выше)
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/standings'):
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings'+tourn_file, 'r', encoding='utf-8') as j:
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
                             standings_dict = json.load(j)
                         # club set лиги из клубов текущего раунда лиги (["group"] которых = ["group"] 1-го ["rank"] в ["standings"])
                         club_number = 0     # инициализация количества клубов в текущем раунде лиги
@@ -339,35 +341,87 @@ try:    # обработка исключений для определения 
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
                     # для кубка curr
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn_file.find('curr') != -1:
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings'+tourn_file, 'r', encoding='utf-8') as j:
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
                             fixtures_dict = json.load(j)
-                        # определение текущей стадии - ближайшая по времени со статусом NS (участники которой известны и еще не сыгранная полностью)
+                    # определение текущей стадии - ближайшая по времени со статусом NS (участники которой известны и еще не сыгранная полностью)
                         next_match_time = 3000000000
                         for match in fixtures_dict['response']:
-                            if match['fixture']['status']['short'] == 'NS' and match['fixture']['timestamp'] < next_match_time:
+                            if match['fixture']['status']['short'] in ['NS', 'TBD', 'PST', 'ABD'] and match['fixture']['timestamp'] < next_match_time:
                                 next_match_time = match['fixture']['timestamp']
-                                curr_round = match['league']['round'].replace(' Replays', '')   # удалить Replays из названия раунда
-                        # формирование club set текущей стадии (возможны дубликаты ID, так как некоторые стадии проходят в 2 игры и бывают переигровки)
+                                curr_round = match['league']['round'].replace(' Replays', '')   # удалить Replays из названия стадии
+                    # формирование club set текущей стадии (возможны дубликаты ID, так как некоторые стадии проходят в 2 игры и бывают переигровки)
                         curr_round_clubID_set = []
                         for match in fixtures_dict['response']:
                             if curr_round == match['league']['round']:
                                 curr_round_clubID_set.append(match['teams']['home']['id'])
                                 curr_round_clubID_set.append(match['teams']['away']['id'])
                         curr_round_clubID_set = list(set(curr_round_clubID_set))  # избавляемся от повторных элементов преобразованием во множество и обратно
-                        # определение рейтинга текущей стадии: total Cup stage clubs SUM(pts+1.2) in TL standigs / Number of clubs in the Cup stage
-                        club_number = 0     # инициализация количества клубов в текущем раунде кубка
+                    # определение рейтинга текущей стадии: total Cup stage clubs SUM(pts+1.2) in TL standigs / Number of clubs in the Cup stage
+                        club_number = 0     # инициализация количества клубов в текущей стадии кубка
                         for clubID in curr_round_clubID_set:
                             club_number += 1
                             for club in standings:   # для каждого id клуба из TL standings
                                 if standings[club]['IDapi'] == clubID: 
                                     tourn[2] += standings[club]['TL_rank'] + 1.2
-                        tourn[2] /= club_number
-                        # сравнение рейтинга текущей стадии с рейтингами предыдущих стадий из каталога /cup_round_ratings
+                        tourn[2] = round(tourn[2] / club_number, 2)
+                    # запись рейтинга закончившейся стадии в файл каталога /cup_round_ratings
+                        # определение последней закончившейся стадии: последняя по дате стадия, не считая текущей
+                        last_prev_time = 0   # инициализация времени последнего матча предыдущей стадии
+                        for match in fixtures_dict['response']:
+                            if match['fixture']['timestamp'] > last_prev_time and match['league']['round'].replace(' Replays', '') != curr_round:
+                                last_prev_time = match['fixture']['timestamp']
+                                prev_round = match['league']['round'].replace(' Replays', '')
+                        # определение наличия файла и наличия стадии в нем
+                        file_find = 0   # флаг наличия файла
+                        round_find = 0   # флаг наличия стадии
+                        for cup_round_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/sub_results/cup_round_ratings'):
+                            if cup_round_file.find(tourn[0]) != -1 and cup_round_file.find(tourn[1]) != -1:
+                                file_find = 1   # поднять флаг наличия файла
+                                with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/cup_round_ratings/'+cup_round_file, 'r', encoding='utf-8') as j:
+                                    cup_round_dict = json.load(j)
+                                for cup_round in cup_round_dict:
+                                    if cup_round['round'] == prev_round:
+                                        round_find = 1  # поднять флаг наличия стадии
+                        # вписать в файл рейтинг закончившейся стадии, если нет файла или в нем нет этой стадии 
+                        if file_find == 0 or round_find == 0:   
+                            # формирование club set закончившейся стадии (возможны дубликаты ID, так как некоторые стадии проходят в 2 игры и бывают переигровки)
+                            prev_round_clubID_set = []
+                            for match in fixtures_dict['response']:
+                                if prev_round == match['league']['round']:
+                                    prev_round_clubID_set.append(match['teams']['home']['id'])
+                                    prev_round_clubID_set.append(match['teams']['away']['id'])
+                            prev_round_clubID_set = list(set(prev_round_clubID_set))  # избавляемся от повторных элементов преобразованием во множество и обратно
+                            # определение рейтинга закончившейся стадии: total Cup stage clubs SUM(pts+1.2) in TL standigs / Number of clubs in the Cup stage
+                            prev_round_rating = 0   # инициализация рейтинга закончившейся стадии кубка
+                            club_number = 0     # инициализация количества клубов в закончившейся стадии кубка
+                            for clubID in prev_round_clubID_set:
+                                club_number += 1
+                                for club in standings:   # для каждого id клуба из TL standings
+                                    if standings[club]['IDapi'] == clubID: 
+                                        prev_round_rating += standings[club]['TL_rank'] + 1.2
+                            prev_round_rating /= club_number
+                            # вписать рейтинг закончившейся стадии в файл
+                            if file_find == 0:  # если нет файла стадий кубка - создать пустой список рейтингов стадий
+                                cup_round_dict = []
+                            cup_round_dict.append({"round": prev_round, "rating": round(prev_round_rating, 2)})
+                            mod_name = os.path.basename(__file__)[:-3]
+                            file_name = cup_round_file
+                            gh_push(str(mod_name), 'cup_round_ratings', file_name, cup_round_dict)
+                            runner_push(str(mod_name), 'cup_round_ratings', file_name, cup_round_dict)
 
-                        # учет временного фактора
-                        # запись макс рейтинга /5 в словарь Ass_TournRateQuot
+                    # определение макс рейтинга между рейтингами текущей и предыдущих стадий из каталога /cup_round_ratings
+                        for cup_round_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/sub_results/cup_round_ratings'):
+                            if cup_round_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                            # если нет файла рейтингов стадий рассматриваемого кубка - его рейтинг = рейтингу текущей стадии (учтено в предыдущем разделе)
+                                with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/cup_round_ratings/'+cup_round_file, 'r', encoding='utf-8') as j:
+                                    cup_round_dict = json.load(j)
+                                for cup_round in cup_round_dict:
+                                    if cup_round['rating'] > tourn[2]:
+                                        tourn[2] = cup_round['rating']
 
-                        # запись рейтинга закончившейся стадии в файл из каталога /cup_round_ratings
+                    # учет временного фактора
+                    # запись макс рейтинга /5 в словарь Ass_TournRateQuot
+
 
                     # для кубка prev
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn_file.find('prev') != -1:
