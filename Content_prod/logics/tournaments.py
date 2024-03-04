@@ -238,6 +238,7 @@ try:    # обработка исключений для определения 
     from modules.nat_tournaments import Nat_Tournaments
     from modules.cup_files import func_cup_files
     from modules.api_request import PrevCupInfluence, CupFirst
+    from modules.cup_round_ratings import cup_round_ratings
 
     # добавить в Ass_TournRateQuot ассоциации с квотой > 0 в качестве ключей
     # включить в Ass_TournRateQuot турниры нац ассоциаций
@@ -341,8 +342,16 @@ try:    # обработка исключений для определения 
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
                     # для кубка curr
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn_file.find('curr') != -1:
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as j:
                             fixtures_dict = json.load(j)
+                        # актуализация файла рейтингов стадий кубка /cup_round_ratings
+                        cup_round_ratings(tourn[0], tourn[1], fixtures_dict)
+                        # определение макс рейтинга стадии по файлу
+                        # учет временного фактора
+                        # запись рейтинга /5 в словарь Ass_TournRateQuot
+
+
+
                     # определение текущей стадии - ближайшая по времени со статусом NS (участники которой известны и еще не сыгранная полностью)
                         next_match_time = 3000000000
                         for match in fixtures_dict['response']:

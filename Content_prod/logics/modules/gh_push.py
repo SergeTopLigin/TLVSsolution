@@ -31,8 +31,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
         if file_dir == 'content_commits':
             file_name = file_name[:-4]+' '+CreateDate+".txt"
         if file_dir == 'standings_history':
-            CreateDate = CreateDate[:-9]
-            file_name = file_name[:-5]+' '+CreateDate+".json"
+            file_name = file_name[:-5]+' '+CreateDate[:-9]+".json"
 
         # настройка выгрузки в репо
         from github import Github

@@ -78,6 +78,7 @@ try:    # обработка исключений для определения 
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
     gh_push(str(mod_name), 'sub_results', 'final_standings.json', final_standings)
+    gh_push(str(mod_name), 'standings_history', 'standings.json', final_standings)
     from modules.runner_push import runner_push
     runner_push(str(mod_name), 'sub_results', 'final_standings.json', final_standings)
 
