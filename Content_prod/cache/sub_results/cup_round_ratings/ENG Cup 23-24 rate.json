@@ -1,10 +1,16 @@
 [
   {
     "round": "3rd Round",
-    "rating": 1.2
+    "type": "prev",
+    "last_date": "timestamp",
+    "rating": 1.2,
+    "clubID_set": []
   },
   {
     "round": "4th Round",
-    "rating": 1.4
+    "type": "prev",
+    "last_date": "timestamp",
+    "rating": 1.4,
+    "clubID_set": []
   }
 ]  
