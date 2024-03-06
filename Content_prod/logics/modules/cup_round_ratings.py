@@ -9,7 +9,7 @@ def cup_round_ratings(cup, season, fixtures_dict):
     # fixtures_dict - словарь ответа на запрос fixtures кубка
     
     try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
-        cup_round_ratings_list = []     # [{round: 'name', type: 'curr'/'prev' last_date: timestamp, rating: float, club_set: [{name: , ID: }, ...]}, ...]
+        cup_round_ratings_list = []     # [{round: 'name', type: 'curr'/'prev' last_date: timestamp, rating: float, club_set: [{name: , id: }, ...]}, ...]
         import os
         import json
 
@@ -78,6 +78,13 @@ for fixed_round in cup_round_ratings_list:
         with open((os.path.abspath(__file__))[:-13]+'/TL_VS_solution/Content_prod/cache/sub_results/standings_history/standings '\
             +str(use_standings_date)+'.json', 'r', encoding='utf-8') as j:
             standings = json.load(j)
+    club_number = 0     # инициализация количества клубов в стадии кубка
+    for cup_club in fixed_round['club_set']:
+        club_number += 1
+        for stan_club in standings:
+            if cup_club['id'] == standings[stan_club]['IDapi']:
+                fixed_round['rating'] += standings[stan_club]['TL_rank'] + 1.2
+    fixed_round['rating'] = round(fixed_round['rating'] / club_number, 2)
         
 
 # print(json.dumps(cup_round_ratings_list, skipkeys=True, ensure_ascii=False, indent=2))

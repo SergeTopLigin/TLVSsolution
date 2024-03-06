@@ -4,13 +4,13 @@
     "type": "prev",
     "last_date": "timestamp",
     "rating": 1.2,
-    "clubID_set": []
+    "club_set": []
   },
   {
     "round": "4th Round",
     "type": "prev",
     "last_date": "timestamp",
     "rating": 1.4,
-    "clubID_set": []
+    "club_set": []
   }
 ]  
