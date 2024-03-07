@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/api_request.py", line 99, in PrevCupInfluence
+    for elem in answer_dict['response'] if 'Final' in elem['league']['round']])[2:-2]
+TypeError: string indices must be integers
