@@ -168,16 +168,16 @@ try:    # обработка исключений для определения 
     # импорт final_standings.json
     import json
     with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/associations.json', 'r') as j:
-        associations = json.load(j) # {ass: [rating, quota]} 
+        associations = json.load(j) # {ass: {rating: , quota: }} 
     for league in whole_tourn_rate_quota:
-        whole_tourn_rate_quota[league][1] = associations["UEFA"][1] * whole_tourn_rate_quota[league][0] / associations["UEFA"][0]
+        whole_tourn_rate_quota[league][1] = associations["UEFA"]['quota'] * whole_tourn_rate_quota[league][0] / associations["UEFA"]['rating']
     # сумма квот турниров УЕФА, округленных до целого в меньшую сторону
     import math
     UEFA_tourn_quota_int_sum = 0   
     for league in whole_tourn_rate_quota:
         UEFA_tourn_quota_int_sum += math.floor(whole_tourn_rate_quota[league][1])
     # общая квота УЕФА, отброшенная в качестве дробных частей
-    fractional_quota = associations["UEFA"][1] - UEFA_tourn_quota_int_sum
+    fractional_quota = associations["UEFA"]['quota'] - UEFA_tourn_quota_int_sum
     # распределение суммы дробных частей квот между турнирами в качестве целых квот в порядке уменьшения их дробной части
     if fractional_quota == 1:   # если сумма дробных частей квот равна 1
         fractional_part = 0   # дробная часть квоты турнира (инициализация)
