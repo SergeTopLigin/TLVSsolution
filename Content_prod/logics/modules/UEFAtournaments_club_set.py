@@ -193,6 +193,8 @@ def UEFAtournaments_club_set(tournament, season, stage):   # входящие п
 
         # чистка папки cache
         os.remove("cache\\"+tournament+" "+season+" "+stage+" request.txt")
+        # удаление пустой папки cache
+        os.rmdir('cache')
 
     except: 
 
