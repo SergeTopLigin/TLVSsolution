@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/tournaments.py", line 319, in <module>
+    for team in standings_dict['response'][0]['league']['standings'][0]:
+TypeError: string indices must be integers
