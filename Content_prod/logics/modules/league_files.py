@@ -36,7 +36,7 @@ def league_files(League, Season, LeagueID):     # League должен соотв
         # если fixtures турнира нет или время окончания ближайшего несыгранного матча пришло
         if find_fixtures == 0:   # запрос fixtures и standings
             FixtSeason = "20"+Season[:2]
-            answer = api_key("/fixtures?league="+LeagueID+"&season="+FixtSeason)
+            answer = api_key("/fixtures?league="+str(LeagueID)+"&season="+FixtSeason)
             # если 'results' != 0 - сохранить fixtures
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
@@ -44,7 +44,7 @@ def league_files(League, Season, LeagueID):     # League должен соотв
                 file_name = League+" "+Season+" fixt.json"
                 gh_push(str(mod_name), 'fixtures', file_name, answer)
                 runner_push(str(mod_name), 'fixtures', file_name, answer)
-            answer = api_key("/standings?league="+LeagueID+"&season="+FixtSeason)
+            answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
             # если 'results' != 0 - сохранить standings
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
