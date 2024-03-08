@@ -25,7 +25,7 @@ def league_files(League, Season, LeagueID):     # League должен соотв
                 # если наступило время окончания следующего несыгранного матча - обновить fixtures
                 time_now = datetime.datetime.utcnow()    # текущее время UTC
                 # определение окончания самого раннего матча с status short == NS
-                next_match_time = 3000000000
+                next_match_time = 4000000000
                 for match in fixtures_dict['response']:
                     if match['fixture']['status']['short'] == 'NS' and match['fixture']['timestamp'] < next_match_time:
                         next_match_time = match['fixture']['timestamp']

@@ -140,6 +140,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
         import time # модуль для паузы и определения текущего UEFA club set
         import datetime
         import os   # импорт модуля работы с каталогами
+        import json
         mod_name = os.path.basename(__file__)[:-3]
         from modules.apisports_key import api_key    # модуль с ключом аккаунта api
         from modules.nat_tournaments import Nat_Tournaments   # модуль словаря {Association:[AssType,Season,Tournament,TournID,TournType]}
@@ -172,6 +173,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
             if api_date_year[api_date_year.find("results")+9 : api_date_year.find("results")+10] != "0":
                 # сохранить запрос в файл "curr"
                 file_name = Cup+" "+str(calc_date.year)[2:]+"-"+str(calc_date.year+1)[2:]+" curr.json"
+                api_date_year = json.loads(api_date_year)
                 gh_push(str(mod_name), 'fixtures', file_name, api_date_year)
                 runner_push(str(mod_name), 'fixtures', file_name, api_date_year)
                 # запрос season = calc_date.year -1
@@ -179,6 +181,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                 time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                 # сохранить запрос в файл "prev"
                 file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                api_date_prev_year = json.loads(api_date_prev_year)
                 gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                 runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
             # else results == 0: (запрос после января или в межсезонье)
@@ -193,11 +196,13 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                 elif Cup_status == "finished":
                     # сохранить запрос в файл "prev"
                     file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                    api_date_prev_year = json.loads(api_date_prev_year)
                     gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                     runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                 elif Cup_status == "in_progress":   # else отсутствует round: Final или его status: short: не FT / AET / PEN / CANC / AWD / WO: (сезон идет)
                     # сохранить запрос в файл "curr"
                     file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" curr.json"
+                    api_date_prev_year = json.loads(api_date_prev_year)
                     gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                     runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                     # запрос season = calc_date.year -2
@@ -205,6 +210,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                     # сохранить запрос в файл "prev"
                     file_name = Cup+" "+str(calc_date.year-2)[2:]+"-"+str(calc_date.year-1)[2:]+" prev.json"
+                    api_date_2prev_year = json.loads(api_date_2prev_year)
                     gh_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
                     runner_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
 
@@ -229,6 +235,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                 elif Cup_status == "in_progress":
                     # сохранить запрос в файл "curr" (при открытии с 'w' - файл перезаписывается)
                     file_name = curr_find
+                    api_curr_year = json.loads(api_curr_year)
                     gh_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     runner_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     # if season "curr" -1 > season "prev"
@@ -249,6 +256,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                 elif Cup_status == "finished":
                     # сохранить запрос в файл "curr"
                     file_name = curr_find
+                    api_curr_year = json.loads(api_curr_year)
                     gh_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     runner_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     # удалить суффиксы "curr" и "prev" из имен файлов
@@ -268,6 +276,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     if api_date_year[api_date_year.find("results")+9 : api_date_year.find("results")+10] != "0":
                         # сохранить запрос в файл "curr"
                         file_name = Cup+" "+str(calc_date.year)[2:]+"-"+str(calc_date.year+1)[2:]+" curr.json"
+                        api_date_year = json.loads(api_date_year)
                         gh_push(str(mod_name), 'fixtures', file_name, api_date_year)
                         runner_push(str(mod_name), 'fixtures', file_name, api_date_year)
                         # запрос season = calc_date.year -1
@@ -275,6 +284,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                         # сохранить запрос в файл "prev"
                         file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                        api_date_prev_year = json.loads(api_date_prev_year)
                         gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                     # else results == 0: (запрос после января или в межсезонье)
@@ -289,11 +299,13 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         elif Cup_status == "finished":
                             # сохранить запрос в файл "prev"
                             file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                            api_date_prev_year = json.loads(api_date_prev_year)
                             gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                             runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         elif Cup_status == "in_progress":   # else отсутствует round: Final или его status: short: не FT / AET / PEN / CANC / AWD / WO: (сезон идет)
                             # сохранить запрос в файл "curr"
                             file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" curr.json"
+                            api_date_prev_year = json.loads(api_date_prev_year)
                             gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                             runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                             # запрос season = calc_date.year -2
@@ -301,6 +313,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                             time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                             # сохранить запрос в файл "prev"
                             file_name = Cup+" "+str(calc_date.year-2)[2:]+"-"+str(calc_date.year-1)[2:]+" prev.json"
+                            api_date_2prev_year = json.loads(api_date_2prev_year)
                             gh_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
                             runner_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
                     # 
@@ -309,13 +322,13 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         if Cup_file.find(Cup) != -1 and Cup_file.find("prev") != -1:
                             # удалить этот файл без суффикса
                             Del_file = Cup_file[:-10]+".json"
-                            os.remove((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures'+Del_file)
+                            os.remove((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+Del_file)
                             gh_push(str(mod_name), 'fixtures', Del_file, 'delete')
                             break
 
         # elif в каталоге есть только "prev" (актуальный или нет)
         elif curr_find == "empty" and prev_find != "empty":
-            with open((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures'+prev_find, 'r') as f:
+            with open((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, 'r') as f:
                 prev_file = f.read()
             First_date = CupFirst(prev_file)
             # if calc.date < First +год +месяц "prev"
@@ -330,6 +343,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                 if api_date_year[api_date_year.find("results")+9 : api_date_year.find("results")+10] != "0":
                     # сохранить запрос в файл "curr"
                     file_name = Cup+" "+str(calc_date.year)[2:]+"-"+str(calc_date.year+1)[2:]+" curr.json"
+                    api_date_year = json.loads(api_date_year)
                     gh_push(str(mod_name), 'fixtures', file_name, api_date_year)
                     runner_push(str(mod_name), 'fixtures', file_name, api_date_year)
                     # if season "curr" -1 > season "prev"
@@ -343,6 +357,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                         # сохранить запрос в файл "prev"
                         file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                        api_date_prev_year = json.loads(api_date_prev_year)
                         gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                 # else results == 0: (сезон не начался или запрос весной, а файл старого сезона)
@@ -357,6 +372,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     elif Cup_status == "in_progress":
                         # сохранить запрос season = calc_date.year -1 в файл "curr"
                         file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" curr.json"
+                        api_date_prev_year = json.loads(api_date_prev_year)
                         gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         # if season "curr" -1 > season "prev"
@@ -370,6 +386,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                             time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                             # сохранить запрос в файл "prev"
                             file_name = Cup+" "+str(calc_date.year-2)[2:]+"-"+str(calc_date.year-1)[2:]+" prev.json"
+                            api_date_2prev_year = json.loads(api_date_2prev_year)
                             gh_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
                             runner_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
                     # elif есть round: Final и status: short: FT / AET / PEN / CANC / AWD / WO (сезон не начался)
@@ -382,6 +399,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                             gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                         # сохранить запрос в файл "prev"
                         file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
+                        api_date_prev_year = json.loads(api_date_prev_year)
                         gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
 
