@@ -359,8 +359,11 @@ try:    # обработка исключений для определения 
                         file_content = f.read()
                     tourn[2] *= max((150 - (DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 0)
                 if 'curr' in fixtures_file:
-                    with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+fixtures_file.replace('curr', 'prev'), 'r') as f:
-                        file_content = f.read()
+                    for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
+                        if tourn_file.find(tourn[0]) != -1 and tourn_file.find('prev') != -1:
+                            with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
+                                file_content = f.read()
+                        break
                     tourn[2] *= min((DateNow - CupLast(file_content)) / datetime.timedelta(days=1) / 150, 1)
 
 
