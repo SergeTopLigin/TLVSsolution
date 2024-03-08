@@ -128,8 +128,8 @@
                     # удалить из имени файла суффикс "prev"                     +
                     # запрос season "curr" -1                                   +
                     # сохранить запрос в файл "prev"                            +
-            # elif есть round: Final и status: short: FT / AET / PEN / CANC / AWD / WO (сезон не начался)   +
-                # if season "prev" < calc_date.year -1          +
+            # elif есть round: Final и status: short: FT / AET / PEN / CANC / AWD / WO   +
+                # if season "prev" < calc_date.year -2          +
                     # удалить из имени файла суффикс "prev"     +
                 # сохранить запрос в файл "prev"            +
 # ИТОГО: 3 запроса в начале, 1 запрос в 20 дней для поддержания турнира, макс 4 запроса один раз для возобновления турнира
@@ -322,6 +322,8 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         if Cup_file.find(Cup) != -1 and Cup_file.find("prev") != -1:
                             # удалить этот файл без суффикса
                             Del_file = Cup_file[:-10]+".json"
+                    for Cup_file in os.listdir((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures'):
+                        if Cup_file == Del_file:
                             os.remove((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+Del_file)
                             gh_push(str(mod_name), 'fixtures', Del_file, 'delete')
                             break
@@ -376,7 +378,7 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         gh_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         runner_push(str(mod_name), 'fixtures', file_name, api_date_prev_year)
                         # if season "curr" -1 > season "prev"
-                        if calc_date.year -1 > int(prev_find[-15:-13]):
+                        if calc_date.year -2 > int(prev_find[-15:-13]):
                             # удалить из имени файла суффикс "prev"
                             os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
                                 (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
@@ -391,8 +393,8 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                             runner_push(str(mod_name), 'fixtures', file_name, api_date_2prev_year)
                     # elif есть round: Final и status: short: FT / AET / PEN / CANC / AWD / WO (сезон не начался)
                     elif Cup_status == "finished":
-                        # if calc_date.year -1 > season "prev"
-                        if calc_date.year -1 > int(prev_find[-15:-13]):
+                        # if calc_date.year -2 > season "prev"
+                        if calc_date.year -2 > int(prev_find[-15:-13]):
                             # удалить из имени файла суффикс "prev"
                             os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
                                 (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")

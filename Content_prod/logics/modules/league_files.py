@@ -42,16 +42,16 @@ def league_files(League, Season, LeagueID):     # League должен соотв
             if answer_dict['results'] != 0:
                 mod_name = os.path.basename(__file__)[:-3]
                 file_name = League+" "+Season+" fixt.json"
-                gh_push(str(mod_name), 'fixtures', file_name, answer)
-                runner_push(str(mod_name), 'fixtures', file_name, answer)
+                gh_push(str(mod_name), 'fixtures', file_name, answer_dict)
+                runner_push(str(mod_name), 'fixtures', file_name, answer_dict)
             answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
             # если 'results' != 0 - сохранить standings
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
                 mod_name = os.path.basename(__file__)[:-3]
                 file_name = League+" "+Season+" stan.json"
-                gh_push(str(mod_name), 'standings', file_name, answer)
-                runner_push(str(mod_name), 'standings', file_name, answer)
+                gh_push(str(mod_name), 'standings', file_name, answer_dict)
+                runner_push(str(mod_name), 'standings', file_name, answer_dict)
 
     except: 
 
