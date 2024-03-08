@@ -1,0 +1,2531 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "97",
+    "season": "2023"
+  },
+  "errors": [],
+  "results": 37,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1051673,
+        "referee": "Carlos Macedo",
+        "timezone": "UTC",
+        "date": "2023-07-22T19:30:00+00:00",
+        "timestamp": 1690054200,
+        "periods": {
+          "first": 1690054200,
+          "second": 1690057800
+        },
+        "venue": {
+          "id": 1274,
+          "name": "Estádio António Coimbra da Mota",
+          "city": "Estoril"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": true
+        },
+        "away": {
+          "id": 234,
+          "name": "Pacos Ferreira",
+          "logo": "https://media.api-sports.io/football/teams/234.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051674,
+        "referee": "Diogo Rosa",
+        "timezone": "UTC",
+        "date": "2023-07-29T14:30:00+00:00",
+        "timestamp": 1690641000,
+        "periods": {
+          "first": 1690641000,
+          "second": 1690644600
+        },
+        "venue": {
+          "id": 1289,
+          "name": "Estádio de São Miguel",
+          "city": "Ponta Delgada, Ilha de São Miguel, Açores"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png",
+          "winner": false
+        },
+        "away": {
+          "id": 218,
+          "name": "Tondela",
+          "logo": "https://media.api-sports.io/football/teams/218.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 2,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051675,
+        "referee": "João Ferreira",
+        "timezone": "UTC",
+        "date": "2023-07-23T17:00:00+00:00",
+        "timestamp": 1690131600,
+        "periods": {
+          "first": 1690131600,
+          "second": 1690135200
+        },
+        "venue": {
+          "id": 1283,
+          "name": "Estádio da Capital do Móvel",
+          "city": "Paços de Ferreira"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 4814,
+          "name": "Vilaverdense",
+          "logo": "https://media.api-sports.io/football/teams/4814.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051676,
+        "referee": "Bruno Vieira",
+        "timezone": "UTC",
+        "date": "2023-07-22T14:30:00+00:00",
+        "timestamp": 1690036200,
+        "periods": {
+          "first": 1690036200,
+          "second": 1690039800
+        },
+        "venue": {
+          "id": 2817,
+          "name": "Estádio Do Vizela",
+          "city": "Caldas de Vizela"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 810,
+          "name": "Vizela",
+          "logo": "https://media.api-sports.io/football/teams/810.png",
+          "winner": true
+        },
+        "away": {
+          "id": 214,
+          "name": "Maritimo",
+          "logo": "https://media.api-sports.io/football/teams/214.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051677,
+        "referee": "Ricardo Baixinho",
+        "timezone": "UTC",
+        "date": "2023-07-23T19:30:00+00:00",
+        "timestamp": 1690140600,
+        "periods": {
+          "first": 1690140600,
+          "second": 1690144200
+        },
+        "venue": {
+          "id": 1285,
+          "name": "Estádio Municipal de Portimão",
+          "city": "Portimão"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 216,
+          "name": "Portimonense",
+          "logo": "https://media.api-sports.io/football/teams/216.png",
+          "winner": true
+        },
+        "away": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051678,
+        "referee": "João Afonso",
+        "timezone": "UTC",
+        "date": "2023-07-22T14:30:00+00:00",
+        "timestamp": 1690036200,
+        "periods": {
+          "first": 1690036200,
+          "second": 1690039800
+        },
+        "venue": {
+          "id": 1281,
+          "name": "Estádio da Madeira",
+          "city": "Ilha da Madeira"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": true
+        },
+        "away": {
+          "id": 235,
+          "name": "Penafiel",
+          "logo": "https://media.api-sports.io/football/teams/235.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 3
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051679,
+        "referee": "Vitor Ferreira",
+        "timezone": "UTC",
+        "date": "2023-07-23T10:00:00+00:00",
+        "timestamp": 1690106400,
+        "periods": {
+          "first": 1690106400,
+          "second": 1690110000
+        },
+        "venue": {
+          "id": 1278,
+          "name": "Estádio do Mar",
+          "city": "Matosinhos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 244,
+          "name": "Leixoes",
+          "logo": "https://media.api-sports.io/football/teams/244.png",
+          "winner": true
+        },
+        "away": {
+          "id": 213,
+          "name": "Feirense",
+          "logo": "https://media.api-sports.io/football/teams/213.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 3
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051680,
+        "referee": "David Silva",
+        "timezone": "UTC",
+        "date": "2023-07-22T19:30:00+00:00",
+        "timestamp": 1690054200,
+        "periods": {
+          "first": 1690054200,
+          "second": 1690057800
+        },
+        "venue": {
+          "id": 10959,
+          "name": "Estádio Carlos Osório",
+          "city": "Oliveira de Azeméis"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 233,
+          "name": "Oliveirense",
+          "logo": "https://media.api-sports.io/football/teams/233.png",
+          "winner": true
+        },
+        "away": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051681,
+        "referee": "José Bessa",
+        "timezone": "UTC",
+        "date": "2023-07-22T17:00:00+00:00",
+        "timestamp": 1690045200,
+        "periods": {
+          "first": 1690045200,
+          "second": 1690048800
+        },
+        "venue": {
+          "id": 1272,
+          "name": "Estádio Clube Desportivo das Aves",
+          "city": "Vila das Aves"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": true
+        },
+        "away": {
+          "id": 223,
+          "name": "Chaves",
+          "logo": "https://media.api-sports.io/football/teams/223.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 3
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051682,
+        "referee": "Fábio Melo",
+        "timezone": "UTC",
+        "date": "2023-07-23T17:00:00+00:00",
+        "timestamp": 1690131600,
+        "periods": {
+          "first": 1690131600,
+          "second": 1690135200
+        },
+        "venue": {
+          "id": 12376,
+          "name": "Estádio do Restelo",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 17692,
+          "name": "CF Os Belenenses",
+          "logo": "https://media.api-sports.io/football/teams/17692.png",
+          "winner": true
+        },
+        "away": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051683,
+        "referee": "Cláudio Pereira",
+        "timezone": "UTC",
+        "date": "2023-07-23T14:30:00+00:00",
+        "timestamp": 1690122600,
+        "periods": {
+          "first": 1690122600,
+          "second": 1690126200
+        },
+        "venue": {
+          "id": 1280,
+          "name": "Parque Desportivo Comendador Joaquim de Almeida Freitas",
+          "city": "Moreira de Cónegos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png",
+          "winner": false
+        },
+        "away": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051684,
+        "referee": "Bruno José Costa",
+        "timezone": "UTC",
+        "date": "2023-07-24T19:15:00+00:00",
+        "timestamp": 1690226100,
+        "periods": {
+          "first": 1690226100,
+          "second": 1690229700
+        },
+        "venue": {
+          "id": 1267,
+          "name": "Estádio do Bessa Século XXI",
+          "city": "Porto"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 222,
+          "name": "Boavista",
+          "logo": "https://media.api-sports.io/football/teams/222.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4662,
+          "name": "União de Leiria",
+          "logo": "https://media.api-sports.io/football/teams/4662.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 5
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051685,
+        "referee": "Márcio Torres",
+        "timezone": "UTC",
+        "date": "2023-07-21T19:15:00+00:00",
+        "timestamp": 1689966900,
+        "periods": {
+          "first": 1689966900,
+          "second": 1689970500
+        },
+        "venue": {
+          "id": 3638,
+          "name": "Campo Manuel Marques",
+          "city": "Torres Vedras"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 4799,
+          "name": "Torreense",
+          "logo": "https://media.api-sports.io/football/teams/4799.png",
+          "winner": true
+        },
+        "away": {
+          "id": 245,
+          "name": "Mafra",
+          "logo": "https://media.api-sports.io/football/teams/245.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1051686,
+        "referee": "Hélder Carvalho",
+        "timezone": "UTC",
+        "date": "2023-07-22T10:00:00+00:00",
+        "timestamp": 1690020000,
+        "periods": {
+          "first": 1690020000,
+          "second": 1690023600
+        },
+        "venue": {
+          "id": 1288,
+          "name": "Estádio do Rio Ave Futebol Clube",
+          "city": "Vila do Conde"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png",
+          "winner": true
+        },
+        "away": {
+          "id": 238,
+          "name": "Academico Viseu",
+          "logo": "https://media.api-sports.io/football/teams/238.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1092491,
+        "referee": "Flávio Duarte",
+        "timezone": "UTC",
+        "date": "2023-07-30T19:30:00+00:00",
+        "timestamp": 1690745400,
+        "periods": {
+          "first": 1690745400,
+          "second": 1690749000
+        },
+        "venue": {
+          "id": 1275,
+          "name": "Estádio Municipal de Arouca",
+          "city": "Arouca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png",
+          "winner": true
+        },
+        "away": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1093705,
+        "referee": "David Silva",
+        "timezone": "UTC",
+        "date": "2023-07-28T19:15:00+00:00",
+        "timestamp": 1690571700,
+        "periods": {
+          "first": 1690571700,
+          "second": 1690575300
+        },
+        "venue": {
+          "id": 1272,
+          "name": "Estádio Clube Desportivo das Aves",
+          "city": "Vila das Aves"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": true
+        },
+        "away": {
+          "id": 810,
+          "name": "Vizela",
+          "logo": "https://media.api-sports.io/football/teams/810.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1094745,
+        "referee": "Pedro Ramalho",
+        "timezone": "UTC",
+        "date": "2023-07-29T17:00:00+00:00",
+        "timestamp": 1690650000,
+        "periods": {
+          "first": 1690650000,
+          "second": 1690653600
+        },
+        "venue": {
+          "id": 1290,
+          "name": "Estádio de São Lúis",
+          "city": "Faro"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": true
+        },
+        "away": {
+          "id": 233,
+          "name": "Oliveirense",
+          "logo": "https://media.api-sports.io/football/teams/233.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1094746,
+        "referee": "Anzhony Rodrigues",
+        "timezone": "UTC",
+        "date": "2023-07-29T19:30:00+00:00",
+        "timestamp": 1690659000,
+        "periods": {
+          "first": 1690659000,
+          "second": 1690662600
+        },
+        "venue": {
+          "id": 1274,
+          "name": "Estádio António Coimbra da Mota",
+          "city": "Estoril"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": true
+        },
+        "away": {
+          "id": 17692,
+          "name": "CF Os Belenenses",
+          "logo": "https://media.api-sports.io/football/teams/17692.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1094747,
+        "referee": "Márcio Torres",
+        "timezone": "UTC",
+        "date": "2023-07-30T10:00:00+00:00",
+        "timestamp": 1690711200,
+        "periods": {
+          "first": 1690711200,
+          "second": 1690714800
+        },
+        "venue": {
+          "id": 1278,
+          "name": "Estádio do Mar",
+          "city": "Matosinhos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 244,
+          "name": "Leixoes",
+          "logo": "https://media.api-sports.io/football/teams/244.png",
+          "winner": true
+        },
+        "away": {
+          "id": 216,
+          "name": "Portimonense",
+          "logo": "https://media.api-sports.io/football/teams/216.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1094748,
+        "referee": "João Afonso",
+        "timezone": "UTC",
+        "date": "2023-07-30T17:00:00+00:00",
+        "timestamp": 1690736400,
+        "periods": {
+          "first": 1690736400,
+          "second": 1690740000
+        },
+        "venue": {
+          "id": 3638,
+          "name": "Campo Manuel Marques",
+          "city": "Torres Vedras"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 4799,
+          "name": "Torreense",
+          "logo": "https://media.api-sports.io/football/teams/4799.png",
+          "winner": false
+        },
+        "away": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1095646,
+        "referee": "Sérgio Guelho",
+        "timezone": "UTC",
+        "date": "2023-07-30T10:00:00+00:00",
+        "timestamp": 1690711200,
+        "periods": {
+          "first": 1690711200,
+          "second": 1690714800
+        },
+        "venue": {
+          "id": 3514,
+          "name": "Estádio Dr. Magalhães Pessoa",
+          "city": "Leiria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 4662,
+          "name": "União de Leiria",
+          "logo": "https://media.api-sports.io/football/teams/4662.png",
+          "winner": false
+        },
+        "away": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 5
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1100656,
+        "referee": "Manuel Oliveira",
+        "timezone": "UTC",
+        "date": "2023-09-09T19:30:00+00:00",
+        "timestamp": 1694287800,
+        "periods": {
+          "first": 1694287800,
+          "second": 1694291400
+        },
+        "venue": {
+          "id": 1295,
+          "name": "Estádio Dom Afonso Henriques",
+          "city": "Guimarães"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "2nd Round"
+      },
+      "teams": {
+        "home": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        },
+        "away": {
+          "id": 218,
+          "name": "Tondela",
+          "logo": "https://media.api-sports.io/football/teams/218.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132366,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2023-09-28T19:15:00+00:00",
+        "timestamp": 1695928500,
+        "periods": {
+          "first": 1695928500,
+          "second": 1695932100
+        },
+        "venue": {
+          "id": 3565,
+          "name": "Estádio Municipal de Rio Maior",
+          "city": "Rio Maior"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": true
+        },
+        "away": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132367,
+        "referee": "Tiago Martins",
+        "timezone": "UTC",
+        "date": "2023-09-26T19:15:00+00:00",
+        "timestamp": 1695755700,
+        "periods": {
+          "first": 1695755700,
+          "second": 1695759300
+        },
+        "venue": {
+          "id": 1272,
+          "name": "Estádio Clube Desportivo das Aves",
+          "city": "Vila das Aves"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": false
+        },
+        "away": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132368,
+        "referee": "André Narciso",
+        "timezone": "UTC",
+        "date": "2023-09-27T18:00:00+00:00",
+        "timestamp": 1695837600,
+        "periods": {
+          "first": 1695837600,
+          "second": 1695841200
+        },
+        "venue": {
+          "id": 1290,
+          "name": "Estádio de São Lúis",
+          "city": "Faro"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": true
+        },
+        "away": {
+          "id": 218,
+          "name": "Tondela",
+          "logo": "https://media.api-sports.io/football/teams/218.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132369,
+        "referee": "Hélder Carvalho",
+        "timezone": "UTC",
+        "date": "2023-09-27T19:45:00+00:00",
+        "timestamp": 1695843900,
+        "periods": {
+          "first": 1695843900,
+          "second": 1695847500
+        },
+        "venue": {
+          "id": 1278,
+          "name": "Estádio do Mar",
+          "city": "Matosinhos"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 244,
+          "name": "Leixoes",
+          "logo": "https://media.api-sports.io/football/teams/244.png",
+          "winner": false
+        },
+        "away": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132370,
+        "referee": "Hélder Malheiro",
+        "timezone": "UTC",
+        "date": "2023-12-06T18:00:00+00:00",
+        "timestamp": 1701885600,
+        "periods": {
+          "first": 1701885600,
+          "second": 1701889200
+        },
+        "venue": {
+          "id": 1274,
+          "name": "Estádio António Coimbra da Mota",
+          "city": "Estoril"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": true
+        },
+        "away": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132371,
+        "referee": "Gustavo Correia",
+        "timezone": "UTC",
+        "date": "2023-11-02T20:15:00+00:00",
+        "timestamp": 1698956100,
+        "periods": {
+          "first": 1698956100,
+          "second": 1698959700
+        },
+        "venue": {
+          "id": 1293,
+          "name": "Estádio José Alvalade",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": true
+        },
+        "away": {
+          "id": 231,
+          "name": "Farense",
+          "logo": "https://media.api-sports.io/football/teams/231.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132372,
+        "referee": "Hélder Carvalho",
+        "timezone": "UTC",
+        "date": "2023-10-31T20:15:00+00:00",
+        "timestamp": 1698783300,
+        "periods": {
+          "first": 1698783300,
+          "second": 1698786900
+        },
+        "venue": {
+          "id": 1275,
+          "name": "Estádio Municipal de Arouca",
+          "city": "Arouca"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png",
+          "winner": false
+        },
+        "away": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132373,
+        "referee": "André Narciso",
+        "timezone": "UTC",
+        "date": "2023-11-01T20:15:00+00:00",
+        "timestamp": 1698869700,
+        "periods": {
+          "first": 1698869700,
+          "second": 1698873300
+        },
+        "venue": {
+          "id": 1291,
+          "name": "Estádio Municipal de Braga",
+          "city": "Braga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": null
+        },
+        "away": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132374,
+        "referee": "Miguel Nogueira",
+        "timezone": "UTC",
+        "date": "2023-12-22T20:15:00+00:00",
+        "timestamp": 1703276100,
+        "periods": {
+          "first": 1703276100,
+          "second": 1703279700
+        },
+        "venue": {
+          "id": 1281,
+          "name": "Estádio da Madeira",
+          "city": "Ilha da Madeira"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 3"
+      },
+      "teams": {
+        "home": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png",
+          "winner": false
+        },
+        "away": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 3
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132375,
+        "referee": "Carlos Macedo",
+        "timezone": "UTC",
+        "date": "2023-12-21T20:15:00+00:00",
+        "timestamp": 1703189700,
+        "periods": {
+          "first": 1703189700,
+          "second": 1703193300
+        },
+        "venue": {
+          "id": null,
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 3"
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": true
+        },
+        "away": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132376,
+        "referee": "David Silva",
+        "timezone": "UTC",
+        "date": "2023-12-23T18:00:00+00:00",
+        "timestamp": 1703354400,
+        "periods": {
+          "first": 1703354400,
+          "second": 1703358000
+        },
+        "venue": {
+          "id": 1271,
+          "name": "Estádio João Cardoso",
+          "city": "Tondela"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 3"
+      },
+      "teams": {
+        "home": {
+          "id": 218,
+          "name": "Tondela",
+          "logo": "https://media.api-sports.io/football/teams/218.png",
+          "winner": false
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1132377,
+        "referee": "José Bessa",
+        "timezone": "UTC",
+        "date": "2023-12-23T20:30:00+00:00",
+        "timestamp": 1703363400,
+        "periods": {
+          "first": 1703363400,
+          "second": 1703367000
+        },
+        "venue": {
+          "id": 1286,
+          "name": "Estádio Do Dragão",
+          "city": "Porto"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Group Stage - 3"
+      },
+      "teams": {
+        "home": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png",
+          "winner": true
+        },
+        "away": {
+          "id": 244,
+          "name": "Leixoes",
+          "logo": "https://media.api-sports.io/football/teams/244.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1151249,
+        "referee": "Cláudio Pereira",
+        "timezone": "UTC",
+        "date": "2024-01-24T19:45:00+00:00",
+        "timestamp": 1706125500,
+        "periods": {
+          "first": 1706125500,
+          "second": 1706129100
+        },
+        "venue": {
+          "id": 3514,
+          "name": "Estádio Dr. Magalhães Pessoa",
+          "city": "Leiria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Semi-finals"
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png",
+          "winner": false
+        },
+        "away": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 5
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1153030,
+        "referee": "Nuno Miguel Serrano Almeida",
+        "timezone": "UTC",
+        "date": "2024-01-23T19:45:00+00:00",
+        "timestamp": 1706039100,
+        "periods": {
+          "first": 1706039100,
+          "second": 1706042700
+        },
+        "venue": {
+          "id": 3514,
+          "name": "Estádio Dr. Magalhães Pessoa",
+          "city": "Leiria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Semi-finals"
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": true
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1167803,
+        "referee": "Fábio Veríssimo",
+        "timezone": "UTC",
+        "date": "2024-01-27T19:45:00+00:00",
+        "timestamp": 1706384700,
+        "periods": {
+          "first": 1706384700,
+          "second": 1706388300
+        },
+        "venue": {
+          "id": 3514,
+          "name": "Estádio Dr. Magalhães Pessoa",
+          "city": "Leiria"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 97,
+        "name": "Taça da Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/97.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Final"
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": true
+        },
+        "away": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    }
+  ]
+}
