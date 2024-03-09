@@ -64,7 +64,7 @@
                   "against": 9
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -73,30 +73,30 @@
                 "name": "Bayern Munich",
                 "logo": "https://media.api-sports.io/football/teams/157.png"
               },
-              "points": 54,
-              "goalsDiff": 37,
+              "points": 57,
+              "goalsDiff": 44,
               "group": "Bundesliga",
-              "form": "DWLLW",
+              "form": "WDWLL",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 24,
-                "win": 17,
+                "played": 25,
+                "win": 18,
                 "draw": 3,
                 "lose": 4,
                 "goals": {
-                  "for": 65,
-                  "against": 28
+                  "for": 73,
+                  "against": 29
                 }
               },
               "home": {
-                "played": 12,
-                "win": 10,
+                "played": 13,
+                "win": 11,
                 "draw": 1,
                 "lose": 1,
                 "goals": {
-                  "for": 39,
-                  "against": 8
+                  "for": 47,
+                  "against": 9
                 }
               },
               "away": {
@@ -109,7 +109,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -118,29 +118,29 @@
                 "name": "VfB Stuttgart",
                 "logo": "https://media.api-sports.io/football/teams/172.png"
               },
-              "points": 50,
-              "goalsDiff": 24,
+              "points": 53,
+              "goalsDiff": 26,
               "group": "Bundesliga",
-              "form": "WDWWW",
+              "form": "WWDWW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 24,
-                "win": 16,
+                "played": 25,
+                "win": 17,
                 "draw": 2,
                 "lose": 6,
                 "goals": {
-                  "for": 55,
+                  "for": 57,
                   "against": 31
                 }
               },
               "home": {
-                "played": 12,
-                "win": 9,
+                "played": 13,
+                "win": 10,
                 "draw": 2,
                 "lose": 1,
                 "goals": {
-                  "for": 35,
+                  "for": 37,
                   "against": 11
                 }
               },
@@ -154,10 +154,55 @@
                   "against": 20
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 4,
+              "team": {
+                "id": 173,
+                "name": "RB Leipzig",
+                "logo": "https://media.api-sports.io/football/teams/173.png"
+              },
+              "points": 46,
+              "goalsDiff": 24,
+              "group": "Bundesliga",
+              "form": "WWLWD",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage: )",
+              "all": {
+                "played": 25,
+                "win": 14,
+                "draw": 4,
+                "lose": 7,
+                "goals": {
+                  "for": 55,
+                  "against": 31
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 9,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 32,
+                  "against": 10
+                }
+              },
+              "away": {
+                "played": 12,
+                "win": 5,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 23,
+                  "against": 21
+                }
+              },
+              "update": "2024-03-09T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
               "team": {
                 "id": 165,
                 "name": "Borussia Dortmund",
@@ -168,7 +213,7 @@
               "group": "Bundesliga",
               "form": "WLDWD",
               "status": "same",
-              "description": "Promotion - Champions League (Group Stage: )",
+              "description": "Promotion - Europa League (Group Stage: )",
               "all": {
                 "played": 24,
                 "win": 12,
@@ -199,52 +244,7 @@
                   "against": 12
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
-            },
-            {
-              "rank": 5,
-              "team": {
-                "id": 173,
-                "name": "RB Leipzig",
-                "logo": "https://media.api-sports.io/football/teams/173.png"
-              },
-              "points": 43,
-              "goalsDiff": 22,
-              "group": "Bundesliga",
-              "form": "WLWDW",
-              "status": "same",
-              "description": "Promotion - Europa League (Group Stage: )",
-              "all": {
-                "played": 24,
-                "win": 13,
-                "draw": 4,
-                "lose": 7,
-                "goals": {
-                  "for": 53,
-                  "against": 31
-                }
-              },
-              "home": {
-                "played": 12,
-                "win": 8,
-                "draw": 2,
-                "lose": 2,
-                "goals": {
-                  "for": 30,
-                  "against": 10
-                }
-              },
-              "away": {
-                "played": 12,
-                "win": 5,
-                "draw": 2,
-                "lose": 5,
-                "goals": {
-                  "for": 23,
-                  "against": 21
-                }
-              },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -289,7 +289,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -334,10 +334,55 @@
                   "against": 23
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 8,
+              "team": {
+                "id": 170,
+                "name": "FC Augsburg",
+                "logo": "https://media.api-sports.io/football/teams/170.png"
+              },
+              "points": 32,
+              "goalsDiff": -1,
+              "group": "Bundesliga",
+              "form": "WWWLD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 25,
+                "win": 8,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 40,
+                  "against": 41
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 5,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 23,
+                  "against": 21
+                }
+              },
+              "away": {
+                "played": 12,
+                "win": 3,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 17,
+                  "against": 20
+                }
+              },
+              "update": "2024-03-09T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
               "team": {
                 "id": 162,
                 "name": "Werder Bremen",
@@ -379,10 +424,10 @@
                   "against": 19
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "team": {
                 "id": 160,
                 "name": "SC Freiburg",
@@ -424,52 +469,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
-            },
-            {
-              "rank": 10,
-              "team": {
-                "id": 170,
-                "name": "FC Augsburg",
-                "logo": "https://media.api-sports.io/football/teams/170.png"
-              },
-              "points": 29,
-              "goalsDiff": -2,
-              "group": "Bundesliga",
-              "form": "WWLDD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 24,
-                "win": 7,
-                "draw": 8,
-                "lose": 9,
-                "goals": {
-                  "for": 39,
-                  "against": 41
-                }
-              },
-              "home": {
-                "played": 12,
-                "win": 4,
-                "draw": 5,
-                "lose": 3,
-                "goals": {
-                  "for": 22,
-                  "against": 21
-                }
-              },
-              "away": {
-                "played": 12,
-                "win": 3,
-                "draw": 3,
-                "lose": 6,
-                "goals": {
-                  "for": 17,
-                  "against": 20
-                }
-              },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -479,19 +479,19 @@
                 "logo": "https://media.api-sports.io/football/teams/180.png"
               },
               "points": 28,
-              "goalsDiff": -8,
+              "goalsDiff": -9,
               "group": "Bundesliga",
-              "form": "LDLWD",
+              "form": "LLDLW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 7,
                 "draw": 7,
-                "lose": 10,
+                "lose": 11,
                 "goals": {
                   "for": 34,
-                  "against": 42
+                  "against": 43
                 }
               },
               "home": {
@@ -505,16 +505,16 @@
                 }
               },
               "away": {
-                "played": 12,
+                "played": 13,
                 "win": 2,
                 "draw": 4,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
                   "for": 14,
-                  "against": 23
+                  "against": 24
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -523,30 +523,30 @@
                 "name": "Borussia Monchengladbach",
                 "logo": "https://media.api-sports.io/football/teams/163.png"
               },
-              "points": 26,
+              "points": 27,
               "goalsDiff": -4,
               "group": "Bundesliga",
-              "form": "DWLDL",
+              "form": "DDWLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 6,
-                "draw": 8,
+                "draw": 9,
                 "lose": 10,
                 "goals": {
-                  "for": 42,
-                  "against": 46
+                  "for": 45,
+                  "against": 49
                 }
               },
               "home": {
-                "played": 12,
+                "played": 13,
                 "win": 5,
-                "draw": 3,
+                "draw": 4,
                 "lose": 4,
                 "goals": {
-                  "for": 22,
-                  "against": 17
+                  "for": 25,
+                  "against": 20
                 }
               },
               "away": {
@@ -559,7 +559,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -604,7 +604,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -614,19 +614,19 @@
                 "logo": "https://media.api-sports.io/football/teams/182.png"
               },
               "points": 25,
-              "goalsDiff": -16,
+              "goalsDiff": -18,
               "group": "Bundesliga",
-              "form": "LDWWD",
+              "form": "LLDWW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 7,
                 "draw": 4,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
                   "for": 23,
-                  "against": 39
+                  "against": 41
                 }
               },
               "home": {
@@ -640,16 +640,16 @@
                 }
               },
               "away": {
-                "played": 12,
+                "played": 13,
                 "win": 2,
                 "draw": 2,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
                   "for": 9,
-                  "against": 21
+                  "against": 23
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -694,7 +694,7 @@
                   "against": 33
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -703,20 +703,20 @@
                 "name": "1.FC Köln",
                 "logo": "https://media.api-sports.io/football/teams/192.png"
               },
-              "points": 17,
+              "points": 18,
               "goalsDiff": -23,
               "group": "Bundesliga",
-              "form": "LDLDW",
+              "form": "DLDLD",
               "status": "same",
               "description": "Bundesliga (Relegation)",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 3,
-                "draw": 8,
+                "draw": 9,
                 "lose": 13,
                 "goals": {
-                  "for": 16,
-                  "against": 39
+                  "for": 19,
+                  "against": 42
                 }
               },
               "home": {
@@ -730,16 +730,16 @@
                 }
               },
               "away": {
-                "played": 12,
+                "played": 13,
                 "win": 1,
-                "draw": 5,
+                "draw": 6,
                 "lose": 6,
                 "goals": {
-                  "for": 7,
-                  "against": 21
+                  "for": 10,
+                  "against": 24
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -749,19 +749,19 @@
                 "logo": "https://media.api-sports.io/football/teams/164.png"
               },
               "points": 16,
-              "goalsDiff": -19,
+              "goalsDiff": -26,
               "group": "Bundesliga",
-              "form": "DLWLD",
+              "form": "LDLWL",
               "status": "same",
               "description": "Relegation - 2. Bundesliga",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 2,
                 "draw": 10,
-                "lose": 12,
+                "lose": 13,
                 "goals": {
-                  "for": 19,
-                  "against": 38
+                  "for": 20,
+                  "against": 46
                 }
               },
               "home": {
@@ -775,16 +775,16 @@
                 }
               },
               "away": {
-                "played": 12,
+                "played": 13,
                 "win": 0,
                 "draw": 6,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
-                  "for": 10,
-                  "against": 22
+                  "for": 11,
+                  "against": 30
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -794,19 +794,19 @@
                 "logo": "https://media.api-sports.io/football/teams/181.png"
               },
               "points": 13,
-              "goalsDiff": -34,
+              "goalsDiff": -36,
               "group": "Bundesliga",
-              "form": "LDLDL",
+              "form": "LLDLD",
               "status": "same",
               "description": "Relegation - 2. Bundesliga",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 2,
                 "draw": 7,
-                "lose": 15,
+                "lose": 16,
                 "goals": {
                   "for": 24,
-                  "against": 58
+                  "against": 60
                 }
               },
               "home": {
@@ -820,16 +820,16 @@
                 }
               },
               "away": {
-                "played": 11,
+                "played": 12,
                 "win": 1,
                 "draw": 4,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
                   "for": 11,
-                  "against": 27
+                  "against": 29
                 }
               },
-              "update": "2024-03-08T00:00:00+00:00"
+              "update": "2024-03-09T00:00:00+00:00"
             }
           ]
         ]
