@@ -30,7 +30,7 @@ def league_files(League, Season, LeagueID):     # League должен соотв
                     if match['fixture']['status']['short'] == 'NS' and match['fixture']['timestamp'] < next_match_time:
                         next_match_time = match['fixture']['timestamp']
                 next_match_time += 8000
-                if time_now < next_match_time:
+                if time_now < datetime.datetime.utcfromtimestamp(next_match_time):
                     find_fixtures = 1
 
         # если fixtures турнира нет или время окончания ближайшего несыгранного матча пришло
