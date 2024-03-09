@@ -14,7 +14,7 @@
     {
       "fixture": {
         "id": 1048881,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-08-18T18:30:00+00:00",
         "timestamp": 1692383400,
@@ -82,7 +82,7 @@
     {
       "fixture": {
         "id": 1048882,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-08-19T16:30:00+00:00",
         "timestamp": 1692462600,
@@ -150,7 +150,7 @@
     {
       "fixture": {
         "id": 1048883,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-08-20T13:30:00+00:00",
         "timestamp": 1692538200,
@@ -218,7 +218,7 @@
     {
       "fixture": {
         "id": 1048884,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-08-19T13:30:00+00:00",
         "timestamp": 1692451800,
@@ -286,7 +286,7 @@
     {
       "fixture": {
         "id": 1048885,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2023-08-20T15:30:00+00:00",
         "timestamp": 1692545400,
@@ -354,7 +354,7 @@
     {
       "fixture": {
         "id": 1048886,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2023-08-19T13:30:00+00:00",
         "timestamp": 1692451800,
@@ -422,7 +422,7 @@
     {
       "fixture": {
         "id": 1048887,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-08-19T13:30:00+00:00",
         "timestamp": 1692451800,
@@ -490,7 +490,7 @@
     {
       "fixture": {
         "id": 1048888,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2023-08-19T13:30:00+00:00",
         "timestamp": 1692451800,
@@ -558,7 +558,7 @@
     {
       "fixture": {
         "id": 1048889,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-08-19T13:30:00+00:00",
         "timestamp": 1692451800,
@@ -626,7 +626,7 @@
     {
       "fixture": {
         "id": 1048890,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-08-27T15:30:00+00:00",
         "timestamp": 1693150200,
@@ -694,7 +694,7 @@
     {
       "fixture": {
         "id": 1048891,
-        "referee": "F. Willenborg",
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2023-08-25T18:30:00+00:00",
         "timestamp": 1692988200,
@@ -762,7 +762,7 @@
     {
       "fixture": {
         "id": 1048892,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2023-08-26T13:30:00+00:00",
         "timestamp": 1693056600,
@@ -830,7 +830,7 @@
     {
       "fixture": {
         "id": 1048893,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2023-08-27T13:30:00+00:00",
         "timestamp": 1693143000,
@@ -898,7 +898,7 @@
     {
       "fixture": {
         "id": 1048894,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2023-08-26T16:30:00+00:00",
         "timestamp": 1693067400,
@@ -966,7 +966,7 @@
     {
       "fixture": {
         "id": 1048895,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2023-08-26T13:30:00+00:00",
         "timestamp": 1693056600,
@@ -1034,7 +1034,7 @@
     {
       "fixture": {
         "id": 1048896,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2023-08-26T13:30:00+00:00",
         "timestamp": 1693056600,
@@ -1102,7 +1102,7 @@
     {
       "fixture": {
         "id": 1048897,
-        "referee": "R. Hartmann",
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2023-08-26T13:30:00+00:00",
         "timestamp": 1693056600,
@@ -1170,7 +1170,7 @@
     {
       "fixture": {
         "id": 1048898,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2023-08-26T13:30:00+00:00",
         "timestamp": 1693056600,
@@ -1238,7 +1238,7 @@
     {
       "fixture": {
         "id": 1048899,
-        "referee": "T. Reichel",
+        "referee": "Tobias Reichel, Germany",
         "timezone": "UTC",
         "date": "2023-09-01T18:30:00+00:00",
         "timestamp": 1693593000,
@@ -1306,7 +1306,7 @@
     {
       "fixture": {
         "id": 1048900,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2023-09-03T15:30:00+00:00",
         "timestamp": 1693755000,
@@ -1374,7 +1374,7 @@
     {
       "fixture": {
         "id": 1048901,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-09-02T13:30:00+00:00",
         "timestamp": 1693661400,
@@ -1442,7 +1442,7 @@
     {
       "fixture": {
         "id": 1048902,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2023-09-03T13:30:00+00:00",
         "timestamp": 1693747800,
@@ -1510,7 +1510,7 @@
     {
       "fixture": {
         "id": 1048903,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-09-02T16:30:00+00:00",
         "timestamp": 1693672200,
@@ -1578,7 +1578,7 @@
     {
       "fixture": {
         "id": 1048904,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-09-02T13:30:00+00:00",
         "timestamp": 1693661400,
@@ -1646,7 +1646,7 @@
     {
       "fixture": {
         "id": 1048905,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2023-09-02T13:30:00+00:00",
         "timestamp": 1693661400,
@@ -1714,7 +1714,7 @@
     {
       "fixture": {
         "id": 1048906,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2023-09-02T13:30:00+00:00",
         "timestamp": 1693661400,
@@ -1782,7 +1782,7 @@
     {
       "fixture": {
         "id": 1048907,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-09-02T13:30:00+00:00",
         "timestamp": 1693661400,
@@ -1850,7 +1850,7 @@
     {
       "fixture": {
         "id": 1048908,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2023-09-15T18:30:00+00:00",
         "timestamp": 1694802600,
@@ -1918,7 +1918,7 @@
     {
       "fixture": {
         "id": 1048909,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2023-09-16T13:30:00+00:00",
         "timestamp": 1694871000,
@@ -1986,7 +1986,7 @@
     {
       "fixture": {
         "id": 1048910,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-09-16T13:30:00+00:00",
         "timestamp": 1694871000,
@@ -2054,7 +2054,7 @@
     {
       "fixture": {
         "id": 1048911,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-09-16T13:30:00+00:00",
         "timestamp": 1694871000,
@@ -2122,7 +2122,7 @@
     {
       "fixture": {
         "id": 1048912,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2023-09-16T13:30:00+00:00",
         "timestamp": 1694871000,
@@ -2190,7 +2190,7 @@
     {
       "fixture": {
         "id": 1048913,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-09-16T13:30:00+00:00",
         "timestamp": 1694871000,
@@ -2258,7 +2258,7 @@
     {
       "fixture": {
         "id": 1048914,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2023-09-16T16:30:00+00:00",
         "timestamp": 1694881800,
@@ -2326,7 +2326,7 @@
     {
       "fixture": {
         "id": 1048915,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2023-09-17T13:30:00+00:00",
         "timestamp": 1694957400,
@@ -2394,7 +2394,7 @@
     {
       "fixture": {
         "id": 1048916,
-        "referee": "T. Gerach",
+        "referee": "Timo Gerach, Germany",
         "timezone": "UTC",
         "date": "2023-09-17T15:30:00+00:00",
         "timestamp": 1694964600,
@@ -2462,7 +2462,7 @@
     {
       "fixture": {
         "id": 1048917,
-        "referee": "R. Hartmann",
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2023-09-23T13:30:00+00:00",
         "timestamp": 1695475800,
@@ -2530,7 +2530,7 @@
     {
       "fixture": {
         "id": 1048918,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-09-23T13:30:00+00:00",
         "timestamp": 1695475800,
@@ -2598,7 +2598,7 @@
     {
       "fixture": {
         "id": 1048919,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-09-23T13:30:00+00:00",
         "timestamp": 1695475800,
@@ -2666,7 +2666,7 @@
     {
       "fixture": {
         "id": 1048920,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2023-09-24T13:30:00+00:00",
         "timestamp": 1695562200,
@@ -2734,7 +2734,7 @@
     {
       "fixture": {
         "id": 1048921,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-09-24T15:30:00+00:00",
         "timestamp": 1695569400,
@@ -2802,7 +2802,7 @@
     {
       "fixture": {
         "id": 1048922,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2023-09-23T13:30:00+00:00",
         "timestamp": 1695475800,
@@ -2870,7 +2870,7 @@
     {
       "fixture": {
         "id": 1048923,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2023-09-23T16:30:00+00:00",
         "timestamp": 1695486600,
@@ -2938,7 +2938,7 @@
     {
       "fixture": {
         "id": 1048924,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2023-09-23T13:30:00+00:00",
         "timestamp": 1695475800,
@@ -3006,7 +3006,7 @@
     {
       "fixture": {
         "id": 1048925,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2023-09-22T18:30:00+00:00",
         "timestamp": 1695407400,
@@ -3074,7 +3074,7 @@
     {
       "fixture": {
         "id": 1048926,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2023-09-30T16:30:00+00:00",
         "timestamp": 1696091400,
@@ -3142,7 +3142,7 @@
     {
       "fixture": {
         "id": 1048927,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2023-10-01T15:30:00+00:00",
         "timestamp": 1696174200,
@@ -3210,7 +3210,7 @@
     {
       "fixture": {
         "id": 1048928,
-        "referee": "F. Willenborg",
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2023-09-30T13:30:00+00:00",
         "timestamp": 1696080600,
@@ -3278,7 +3278,7 @@
     {
       "fixture": {
         "id": 1048929,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2023-09-30T13:30:00+00:00",
         "timestamp": 1696080600,
@@ -3346,7 +3346,7 @@
     {
       "fixture": {
         "id": 1048930,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-09-30T13:30:00+00:00",
         "timestamp": 1696080600,
@@ -3414,7 +3414,7 @@
     {
       "fixture": {
         "id": 1048931,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2023-09-29T18:30:00+00:00",
         "timestamp": 1696012200,
@@ -3482,7 +3482,7 @@
     {
       "fixture": {
         "id": 1048932,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-09-30T13:30:00+00:00",
         "timestamp": 1696080600,
@@ -3550,7 +3550,7 @@
     {
       "fixture": {
         "id": 1048933,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2023-09-30T13:30:00+00:00",
         "timestamp": 1696080600,
@@ -3618,7 +3618,7 @@
     {
       "fixture": {
         "id": 1048934,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2023-10-01T13:30:00+00:00",
         "timestamp": 1696167000,
@@ -3686,7 +3686,7 @@
     {
       "fixture": {
         "id": 1048935,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2023-10-08T15:30:00+00:00",
         "timestamp": 1696779000,
@@ -3754,7 +3754,7 @@
     {
       "fixture": {
         "id": 1048936,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2023-10-07T13:30:00+00:00",
         "timestamp": 1696685400,
@@ -3822,7 +3822,7 @@
     {
       "fixture": {
         "id": 1048937,
-        "referee": "T. Gerach",
+        "referee": "Timo Gerach, Germany",
         "timezone": "UTC",
         "date": "2023-10-07T13:30:00+00:00",
         "timestamp": 1696685400,
@@ -3890,7 +3890,7 @@
     {
       "fixture": {
         "id": 1048938,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-10-08T13:30:00+00:00",
         "timestamp": 1696771800,
@@ -3958,7 +3958,7 @@
     {
       "fixture": {
         "id": 1048939,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2023-10-08T17:30:00+00:00",
         "timestamp": 1696786200,
@@ -4026,7 +4026,7 @@
     {
       "fixture": {
         "id": 1048940,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-10-06T18:30:00+00:00",
         "timestamp": 1696617000,
@@ -4094,7 +4094,7 @@
     {
       "fixture": {
         "id": 1048941,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2023-10-07T16:30:00+00:00",
         "timestamp": 1696696200,
@@ -4162,7 +4162,7 @@
     {
       "fixture": {
         "id": 1048942,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-10-07T13:30:00+00:00",
         "timestamp": 1696685400,
@@ -4230,7 +4230,7 @@
     {
       "fixture": {
         "id": 1048943,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-10-07T13:30:00+00:00",
         "timestamp": 1696685400,
@@ -4298,7 +4298,7 @@
     {
       "fixture": {
         "id": 1048944,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-10-20T18:30:00+00:00",
         "timestamp": 1697826600,
@@ -4366,7 +4366,7 @@
     {
       "fixture": {
         "id": 1048945,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2023-10-21T13:30:00+00:00",
         "timestamp": 1697895000,
@@ -4434,7 +4434,7 @@
     {
       "fixture": {
         "id": 1048946,
-        "referee": "T. Reichel",
+        "referee": "Tobias Reichel, Germany",
         "timezone": "UTC",
         "date": "2023-10-21T13:30:00+00:00",
         "timestamp": 1697895000,
@@ -4502,7 +4502,7 @@
     {
       "fixture": {
         "id": 1048947,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2023-10-21T13:30:00+00:00",
         "timestamp": 1697895000,
@@ -4570,7 +4570,7 @@
     {
       "fixture": {
         "id": 1048948,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2023-10-21T16:30:00+00:00",
         "timestamp": 1697905800,
@@ -4638,7 +4638,7 @@
     {
       "fixture": {
         "id": 1048949,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-10-22T13:30:00+00:00",
         "timestamp": 1697981400,
@@ -4706,7 +4706,7 @@
     {
       "fixture": {
         "id": 1048950,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2023-10-21T13:30:00+00:00",
         "timestamp": 1697895000,
@@ -4774,7 +4774,7 @@
     {
       "fixture": {
         "id": 1048951,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-10-22T15:30:00+00:00",
         "timestamp": 1697988600,
@@ -4842,7 +4842,7 @@
     {
       "fixture": {
         "id": 1048952,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2023-10-21T13:30:00+00:00",
         "timestamp": 1697895000,
@@ -4910,7 +4910,7 @@
     {
       "fixture": {
         "id": 1048953,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2023-10-28T13:30:00+00:00",
         "timestamp": 1698499800,
@@ -4978,7 +4978,7 @@
     {
       "fixture": {
         "id": 1048954,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2023-10-28T16:30:00+00:00",
         "timestamp": 1698510600,
@@ -5046,7 +5046,7 @@
     {
       "fixture": {
         "id": 1048955,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-10-29T16:30:00+00:00",
         "timestamp": 1698597000,
@@ -5114,7 +5114,7 @@
     {
       "fixture": {
         "id": 1048956,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2023-10-29T14:30:00+00:00",
         "timestamp": 1698589800,
@@ -5182,7 +5182,7 @@
     {
       "fixture": {
         "id": 1048957,
-        "referee": "R. Hartmann",
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2023-10-28T13:30:00+00:00",
         "timestamp": 1698499800,
@@ -5250,7 +5250,7 @@
     {
       "fixture": {
         "id": 1048958,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-10-28T13:30:00+00:00",
         "timestamp": 1698499800,
@@ -5318,7 +5318,7 @@
     {
       "fixture": {
         "id": 1048959,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2023-10-27T18:30:00+00:00",
         "timestamp": 1698431400,
@@ -5386,7 +5386,7 @@
     {
       "fixture": {
         "id": 1048960,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2023-10-28T13:30:00+00:00",
         "timestamp": 1698499800,
@@ -5454,7 +5454,7 @@
     {
       "fixture": {
         "id": 1048961,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-10-28T13:30:00+00:00",
         "timestamp": 1698499800,
@@ -5522,7 +5522,7 @@
     {
       "fixture": {
         "id": 1048962,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-11-04T17:30:00+00:00",
         "timestamp": 1699119000,
@@ -5590,7 +5590,7 @@
     {
       "fixture": {
         "id": 1048963,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-11-04T14:30:00+00:00",
         "timestamp": 1699108200,
@@ -5658,7 +5658,7 @@
     {
       "fixture": {
         "id": 1048964,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-11-04T14:30:00+00:00",
         "timestamp": 1699108200,
@@ -5726,7 +5726,7 @@
     {
       "fixture": {
         "id": 1048965,
-        "referee": "T. Reichel",
+        "referee": "Tobias Reichel, Germany",
         "timezone": "UTC",
         "date": "2023-11-05T14:30:00+00:00",
         "timestamp": 1699194600,
@@ -5794,7 +5794,7 @@
     {
       "fixture": {
         "id": 1048966,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2023-11-04T14:30:00+00:00",
         "timestamp": 1699108200,
@@ -5862,7 +5862,7 @@
     {
       "fixture": {
         "id": 1048967,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2023-11-04T14:30:00+00:00",
         "timestamp": 1699108200,
@@ -5930,7 +5930,7 @@
     {
       "fixture": {
         "id": 1048968,
-        "referee": "F. Willenborg",
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2023-11-04T14:30:00+00:00",
         "timestamp": 1699108200,
@@ -5998,7 +5998,7 @@
     {
       "fixture": {
         "id": 1048969,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2023-11-05T16:30:00+00:00",
         "timestamp": 1699201800,
@@ -6066,7 +6066,7 @@
     {
       "fixture": {
         "id": 1048970,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2023-11-03T19:30:00+00:00",
         "timestamp": 1699039800,
@@ -6134,7 +6134,7 @@
     {
       "fixture": {
         "id": 1048971,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2023-11-11T14:30:00+00:00",
         "timestamp": 1699713000,
@@ -6202,7 +6202,7 @@
     {
       "fixture": {
         "id": 1048972,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2023-11-12T18:30:00+00:00",
         "timestamp": 1699813800,
@@ -6270,7 +6270,7 @@
     {
       "fixture": {
         "id": 1048973,
-        "referee": "T. Gerach",
+        "referee": "Timo Gerach, Germany",
         "timezone": "UTC",
         "date": "2023-11-12T14:30:00+00:00",
         "timestamp": 1699799400,
@@ -6338,7 +6338,7 @@
     {
       "fixture": {
         "id": 1048974,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-11-10T19:30:00+00:00",
         "timestamp": 1699644600,
@@ -6406,7 +6406,7 @@
     {
       "fixture": {
         "id": 1048975,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2023-11-12T16:30:00+00:00",
         "timestamp": 1699806600,
@@ -6474,7 +6474,7 @@
     {
       "fixture": {
         "id": 1048976,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2023-11-11T17:30:00+00:00",
         "timestamp": 1699723800,
@@ -6542,7 +6542,7 @@
     {
       "fixture": {
         "id": 1048977,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-11-11T14:30:00+00:00",
         "timestamp": 1699713000,
@@ -6610,7 +6610,7 @@
     {
       "fixture": {
         "id": 1048978,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-11-11T14:30:00+00:00",
         "timestamp": 1699713000,
@@ -6678,7 +6678,7 @@
     {
       "fixture": {
         "id": 1048979,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-11-11T14:30:00+00:00",
         "timestamp": 1699713000,
@@ -6746,7 +6746,7 @@
     {
       "fixture": {
         "id": 1048980,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-11-25T14:30:00+00:00",
         "timestamp": 1700922600,
@@ -6814,7 +6814,7 @@
     {
       "fixture": {
         "id": 1048981,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2023-11-25T14:30:00+00:00",
         "timestamp": 1700922600,
@@ -6882,7 +6882,7 @@
     {
       "fixture": {
         "id": 1048982,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2023-11-25T14:30:00+00:00",
         "timestamp": 1700922600,
@@ -6950,7 +6950,7 @@
     {
       "fixture": {
         "id": 1048983,
-        "referee": "F. Brych",
+        "referee": "Felix Brych, Germany",
         "timezone": "UTC",
         "date": "2023-11-25T17:30:00+00:00",
         "timestamp": 1700933400,
@@ -7018,7 +7018,7 @@
     {
       "fixture": {
         "id": 1048984,
-        "referee": "R. Hartmann",
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2023-11-25T14:30:00+00:00",
         "timestamp": 1700922600,
@@ -7086,7 +7086,7 @@
     {
       "fixture": {
         "id": 1048985,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2023-11-24T19:30:00+00:00",
         "timestamp": 1700854200,
@@ -7154,7 +7154,7 @@
     {
       "fixture": {
         "id": 1048986,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-11-26T16:30:00+00:00",
         "timestamp": 1701016200,
@@ -7222,7 +7222,7 @@
     {
       "fixture": {
         "id": 1048987,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2023-11-25T14:30:00+00:00",
         "timestamp": 1700922600,
@@ -7290,7 +7290,7 @@
     {
       "fixture": {
         "id": 1048988,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-11-26T14:30:00+00:00",
         "timestamp": 1701009000,
@@ -7358,7 +7358,7 @@
     {
       "fixture": {
         "id": 1048989,
-        "referee": "F. Willenborg",
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2024-01-24T19:30:00+00:00",
         "timestamp": 1706124600,
@@ -7426,7 +7426,7 @@
     {
       "fixture": {
         "id": 1048990,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2023-12-02T14:30:00+00:00",
         "timestamp": 1701527400,
@@ -7494,7 +7494,7 @@
     {
       "fixture": {
         "id": 1048991,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-12-03T16:30:00+00:00",
         "timestamp": 1701621000,
@@ -7562,7 +7562,7 @@
     {
       "fixture": {
         "id": 1048992,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-12-03T14:30:00+00:00",
         "timestamp": 1701613800,
@@ -7630,7 +7630,7 @@
     {
       "fixture": {
         "id": 1048993,
-        "referee": "T. Reichel",
+        "referee": "Tobias Reichel, Germany",
         "timezone": "UTC",
         "date": "2023-12-02T14:30:00+00:00",
         "timestamp": 1701527400,
@@ -7698,7 +7698,7 @@
     {
       "fixture": {
         "id": 1048994,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2023-12-02T14:30:00+00:00",
         "timestamp": 1701527400,
@@ -7766,7 +7766,7 @@
     {
       "fixture": {
         "id": 1048995,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2023-12-03T18:30:00+00:00",
         "timestamp": 1701628200,
@@ -7834,7 +7834,7 @@
     {
       "fixture": {
         "id": 1048996,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2023-12-02T17:30:00+00:00",
         "timestamp": 1701538200,
@@ -7902,7 +7902,7 @@
     {
       "fixture": {
         "id": 1048997,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2023-12-01T19:30:00+00:00",
         "timestamp": 1701459000,
@@ -7970,7 +7970,7 @@
     {
       "fixture": {
         "id": 1048998,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-12-09T17:30:00+00:00",
         "timestamp": 1702143000,
@@ -8038,7 +8038,7 @@
     {
       "fixture": {
         "id": 1048999,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2023-12-09T14:30:00+00:00",
         "timestamp": 1702132200,
@@ -8106,7 +8106,7 @@
     {
       "fixture": {
         "id": 1049000,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-12-09T14:30:00+00:00",
         "timestamp": 1702132200,
@@ -8174,7 +8174,7 @@
     {
       "fixture": {
         "id": 1049001,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2023-12-09T14:30:00+00:00",
         "timestamp": 1702132200,
@@ -8242,7 +8242,7 @@
     {
       "fixture": {
         "id": 1049002,
-        "referee": "F. Willenborg",
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2023-12-10T16:30:00+00:00",
         "timestamp": 1702225800,
@@ -8310,7 +8310,7 @@
     {
       "fixture": {
         "id": 1049003,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2023-12-08T19:30:00+00:00",
         "timestamp": 1702063800,
@@ -8378,7 +8378,7 @@
     {
       "fixture": {
         "id": 1049004,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2023-12-09T14:30:00+00:00",
         "timestamp": 1702132200,
@@ -8446,7 +8446,7 @@
     {
       "fixture": {
         "id": 1049005,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-12-10T14:30:00+00:00",
         "timestamp": 1702218600,
@@ -8514,7 +8514,7 @@
     {
       "fixture": {
         "id": 1049006,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2023-12-09T14:30:00+00:00",
         "timestamp": 1702132200,
@@ -8582,7 +8582,7 @@
     {
       "fixture": {
         "id": 1049007,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-12-17T18:30:00+00:00",
         "timestamp": 1702837800,
@@ -8650,7 +8650,7 @@
     {
       "fixture": {
         "id": 1049008,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2023-12-16T17:30:00+00:00",
         "timestamp": 1702747800,
@@ -8718,7 +8718,7 @@
     {
       "fixture": {
         "id": 1049009,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2023-12-17T14:30:00+00:00",
         "timestamp": 1702823400,
@@ -8786,7 +8786,7 @@
     {
       "fixture": {
         "id": 1049010,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2023-12-17T16:30:00+00:00",
         "timestamp": 1702830600,
@@ -8854,7 +8854,7 @@
     {
       "fixture": {
         "id": 1049011,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2023-12-16T14:30:00+00:00",
         "timestamp": 1702737000,
@@ -8922,7 +8922,7 @@
     {
       "fixture": {
         "id": 1049012,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-12-15T19:30:00+00:00",
         "timestamp": 1702668600,
@@ -8990,7 +8990,7 @@
     {
       "fixture": {
         "id": 1049013,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-12-16T14:30:00+00:00",
         "timestamp": 1702737000,
@@ -9058,7 +9058,7 @@
     {
       "fixture": {
         "id": 1049014,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2023-12-16T14:30:00+00:00",
         "timestamp": 1702737000,
@@ -9126,7 +9126,7 @@
     {
       "fixture": {
         "id": 1049015,
-        "referee": "R. Hartmann",
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2023-12-16T14:30:00+00:00",
         "timestamp": 1702737000,
@@ -9194,7 +9194,7 @@
     {
       "fixture": {
         "id": 1049016,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2023-12-19T19:30:00+00:00",
         "timestamp": 1703014200,
@@ -9262,7 +9262,7 @@
     {
       "fixture": {
         "id": 1049017,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2023-12-20T17:30:00+00:00",
         "timestamp": 1703093400,
@@ -9330,7 +9330,7 @@
     {
       "fixture": {
         "id": 1049018,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2023-12-20T19:30:00+00:00",
         "timestamp": 1703100600,
@@ -9398,7 +9398,7 @@
     {
       "fixture": {
         "id": 1049019,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2023-12-20T19:30:00+00:00",
         "timestamp": 1703100600,
@@ -9466,7 +9466,7 @@
     {
       "fixture": {
         "id": 1049020,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2023-12-20T19:30:00+00:00",
         "timestamp": 1703100600,
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1049021,
-        "referee": "F. Willenborg",
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2023-12-19T19:30:00+00:00",
         "timestamp": 1703014200,
@@ -9602,7 +9602,7 @@
     {
       "fixture": {
         "id": 1049022,
-        "referee": "T. Reichel",
+        "referee": "Tobias Reichel, Germany",
         "timezone": "UTC",
         "date": "2023-12-19T17:30:00+00:00",
         "timestamp": 1703007000,
@@ -9670,7 +9670,7 @@
     {
       "fixture": {
         "id": 1049023,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-12-20T19:30:00+00:00",
         "timestamp": 1703100600,
@@ -9738,7 +9738,7 @@
     {
       "fixture": {
         "id": 1049024,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2023-12-20T19:30:00+00:00",
         "timestamp": 1703100600,
@@ -9806,7 +9806,7 @@
     {
       "fixture": {
         "id": 1049025,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2024-01-12T19:30:00+00:00",
         "timestamp": 1705087800,
@@ -9874,7 +9874,7 @@
     {
       "fixture": {
         "id": 1049026,
-        "referee": "F. Willenborg",
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2024-01-13T14:30:00+00:00",
         "timestamp": 1705156200,
@@ -9942,7 +9942,7 @@
     {
       "fixture": {
         "id": 1049027,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2024-01-13T14:30:00+00:00",
         "timestamp": 1705156200,
@@ -10010,7 +10010,7 @@
     {
       "fixture": {
         "id": 1049028,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2024-01-13T14:30:00+00:00",
         "timestamp": 1705156200,
@@ -10078,7 +10078,7 @@
     {
       "fixture": {
         "id": 1049029,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2024-01-14T16:30:00+00:00",
         "timestamp": 1705249800,
@@ -10146,7 +10146,7 @@
     {
       "fixture": {
         "id": 1049030,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2024-01-13T14:30:00+00:00",
         "timestamp": 1705156200,
@@ -10214,7 +10214,7 @@
     {
       "fixture": {
         "id": 1049031,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2024-01-14T14:30:00+00:00",
         "timestamp": 1705242600,
@@ -10282,7 +10282,7 @@
     {
       "fixture": {
         "id": 1049032,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2024-01-13T14:30:00+00:00",
         "timestamp": 1705156200,
@@ -10350,7 +10350,7 @@
     {
       "fixture": {
         "id": 1049033,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2024-01-13T17:30:00+00:00",
         "timestamp": 1705167000,
@@ -10418,7 +10418,7 @@
     {
       "fixture": {
         "id": 1049034,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2024-01-21T14:30:00+00:00",
         "timestamp": 1705847400,
@@ -10486,7 +10486,7 @@
     {
       "fixture": {
         "id": 1049035,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2024-01-20T17:30:00+00:00",
         "timestamp": 1705771800,
@@ -10554,7 +10554,7 @@
     {
       "fixture": {
         "id": 1049036,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2024-01-20T14:30:00+00:00",
         "timestamp": 1705761000,
@@ -10622,7 +10622,7 @@
     {
       "fixture": {
         "id": 1049037,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2024-02-07T17:30:00+00:00",
         "timestamp": 1707327000,
@@ -10690,7 +10690,7 @@
     {
       "fixture": {
         "id": 1049038,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2024-01-21T16:30:00+00:00",
         "timestamp": 1705854600,
@@ -10758,7 +10758,7 @@
     {
       "fixture": {
         "id": 1049039,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2024-01-20T14:30:00+00:00",
         "timestamp": 1705761000,
@@ -10826,7 +10826,7 @@
     {
       "fixture": {
         "id": 1049040,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2024-01-20T14:30:00+00:00",
         "timestamp": 1705761000,
@@ -10894,7 +10894,7 @@
     {
       "fixture": {
         "id": 1049041,
-        "referee": "T. Gerach",
+        "referee": "Timo Gerach, Germany",
         "timezone": "UTC",
         "date": "2024-01-20T14:30:00+00:00",
         "timestamp": 1705761000,
@@ -10962,7 +10962,7 @@
     {
       "fixture": {
         "id": 1049042,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2024-01-20T14:30:00+00:00",
         "timestamp": 1705761000,
@@ -11030,7 +11030,7 @@
     {
       "fixture": {
         "id": 1049043,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2024-01-28T16:30:00+00:00",
         "timestamp": 1706459400,
@@ -11098,7 +11098,7 @@
     {
       "fixture": {
         "id": 1049044,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2024-01-28T14:30:00+00:00",
         "timestamp": 1706452200,
@@ -11166,7 +11166,7 @@
     {
       "fixture": {
         "id": 1049045,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2024-01-27T17:30:00+00:00",
         "timestamp": 1706376600,
@@ -11234,7 +11234,7 @@
     {
       "fixture": {
         "id": 1049046,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2024-01-26T19:30:00+00:00",
         "timestamp": 1706297400,
@@ -11302,7 +11302,7 @@
     {
       "fixture": {
         "id": 1049047,
-        "referee": "S. Storks",
+        "referee": "Sören Storks, Germany",
         "timezone": "UTC",
         "date": "2024-01-27T14:30:00+00:00",
         "timestamp": 1706365800,
@@ -11370,7 +11370,7 @@
     {
       "fixture": {
         "id": 1049048,
-        "referee": "T. Welz",
+        "referee": "Tobias Welz, Germany",
         "timezone": "UTC",
         "date": "2024-01-27T14:30:00+00:00",
         "timestamp": 1706365800,
@@ -11438,7 +11438,7 @@
     {
       "fixture": {
         "id": 1049049,
-        "referee": "R. Hartmann",
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2024-01-27T14:30:00+00:00",
         "timestamp": 1706365800,
@@ -11506,7 +11506,7 @@
     {
       "fixture": {
         "id": 1049050,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2024-01-27T14:30:00+00:00",
         "timestamp": 1706365800,
@@ -11574,7 +11574,7 @@
     {
       "fixture": {
         "id": 1049051,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2024-01-27T14:30:00+00:00",
         "timestamp": 1706365800,
@@ -11642,7 +11642,7 @@
     {
       "fixture": {
         "id": 1049052,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2024-02-03T14:30:00+00:00",
         "timestamp": 1706970600,
@@ -11710,7 +11710,7 @@
     {
       "fixture": {
         "id": 1049053,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2024-02-04T16:30:00+00:00",
         "timestamp": 1707064200,
@@ -11778,7 +11778,7 @@
     {
       "fixture": {
         "id": 1049054,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2024-02-03T14:30:00+00:00",
         "timestamp": 1706970600,
@@ -11846,7 +11846,7 @@
     {
       "fixture": {
         "id": 1049055,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2024-02-04T14:30:00+00:00",
         "timestamp": 1707057000,
@@ -11914,7 +11914,7 @@
     {
       "fixture": {
         "id": 1049056,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2024-02-03T14:30:00+00:00",
         "timestamp": 1706970600,
@@ -11982,7 +11982,7 @@
     {
       "fixture": {
         "id": 1049057,
-        "referee": "T. Gerach",
+        "referee": "Timo Gerach, Germany",
         "timezone": "UTC",
         "date": "2024-02-03T17:30:00+00:00",
         "timestamp": 1706981400,
@@ -12050,7 +12050,7 @@
     {
       "fixture": {
         "id": 1049058,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2024-02-03T14:30:00+00:00",
         "timestamp": 1706970600,
@@ -12118,7 +12118,7 @@
     {
       "fixture": {
         "id": 1049059,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2024-02-02T19:30:00+00:00",
         "timestamp": 1706902200,
@@ -12186,7 +12186,7 @@
     {
       "fixture": {
         "id": 1049060,
-        "referee": "T. Reichel",
+        "referee": "Tobias Reichel, Germany",
         "timezone": "UTC",
         "date": "2024-02-03T14:30:00+00:00",
         "timestamp": 1706970600,
@@ -12254,7 +12254,7 @@
     {
       "fixture": {
         "id": 1049061,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2024-02-09T19:30:00+00:00",
         "timestamp": 1707507000,
@@ -12322,7 +12322,7 @@
     {
       "fixture": {
         "id": 1049062,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2024-02-10T14:30:00+00:00",
         "timestamp": 1707575400,
@@ -12390,7 +12390,7 @@
     {
       "fixture": {
         "id": 1049063,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2024-02-10T17:30:00+00:00",
         "timestamp": 1707586200,
@@ -12458,7 +12458,7 @@
     {
       "fixture": {
         "id": 1049064,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2024-02-10T14:30:00+00:00",
         "timestamp": 1707575400,
@@ -12526,7 +12526,7 @@
     {
       "fixture": {
         "id": 1049065,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2024-02-10T14:30:00+00:00",
         "timestamp": 1707575400,
@@ -12594,7 +12594,7 @@
     {
       "fixture": {
         "id": 1049066,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2024-02-11T16:30:00+00:00",
         "timestamp": 1707669000,
@@ -12662,7 +12662,7 @@
     {
       "fixture": {
         "id": 1049067,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2024-02-10T14:30:00+00:00",
         "timestamp": 1707575400,
@@ -12730,7 +12730,7 @@
     {
       "fixture": {
         "id": 1049068,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2024-02-10T14:30:00+00:00",
         "timestamp": 1707575400,
@@ -12798,7 +12798,7 @@
     {
       "fixture": {
         "id": 1049069,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2024-02-11T14:30:00+00:00",
         "timestamp": 1707661800,
@@ -12866,7 +12866,7 @@
     {
       "fixture": {
         "id": 1049070,
-        "referee": "S. Storks",
+        "referee": "Sören Storks, Germany",
         "timezone": "UTC",
         "date": "2024-02-17T17:30:00+00:00",
         "timestamp": 1708191000,
@@ -12934,7 +12934,7 @@
     {
       "fixture": {
         "id": 1049071,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2024-02-18T14:30:00+00:00",
         "timestamp": 1708266600,
@@ -13002,7 +13002,7 @@
     {
       "fixture": {
         "id": 1049072,
-        "referee": "M. Petersen",
+        "referee": "Martin Petersen, Germany",
         "timezone": "UTC",
         "date": "2024-02-17T14:30:00+00:00",
         "timestamp": 1708180200,
@@ -13070,7 +13070,7 @@
     {
       "fixture": {
         "id": 1049073,
-        "referee": "T. Reichel",
+        "referee": "Tobias Reichel, Germany",
         "timezone": "UTC",
         "date": "2024-02-17T14:30:00+00:00",
         "timestamp": 1708180200,
@@ -13138,7 +13138,7 @@
     {
       "fixture": {
         "id": 1049074,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2024-02-16T19:30:00+00:00",
         "timestamp": 1708111800,
@@ -13206,7 +13206,7 @@
     {
       "fixture": {
         "id": 1049075,
-        "referee": "R. Hartmann",
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2024-02-17T14:30:00+00:00",
         "timestamp": 1708180200,
@@ -13274,7 +13274,7 @@
     {
       "fixture": {
         "id": 1049076,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2024-02-18T16:30:00+00:00",
         "timestamp": 1708273800,
@@ -13342,7 +13342,7 @@
     {
       "fixture": {
         "id": 1049077,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2024-02-17T14:30:00+00:00",
         "timestamp": 1708180200,
@@ -13410,7 +13410,7 @@
     {
       "fixture": {
         "id": 1049078,
-        "referee": "T. Welz",
+        "referee": "Tobias Welz, Germany",
         "timezone": "UTC",
         "date": "2024-02-17T14:30:00+00:00",
         "timestamp": 1708180200,
@@ -13478,7 +13478,7 @@
     {
       "fixture": {
         "id": 1049079,
-        "referee": "S. Stegemann",
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2024-02-24T17:30:00+00:00",
         "timestamp": 1708795800,
@@ -13546,7 +13546,7 @@
     {
       "fixture": {
         "id": 1049080,
-        "referee": "M. Fritz",
+        "referee": "Marco Fritz, Germany",
         "timezone": "UTC",
         "date": "2024-02-25T16:30:00+00:00",
         "timestamp": 1708878600,
@@ -13614,7 +13614,7 @@
     {
       "fixture": {
         "id": 1049081,
-        "referee": "D. Aytekin",
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2024-02-24T14:30:00+00:00",
         "timestamp": 1708785000,
@@ -13682,7 +13682,7 @@
     {
       "fixture": {
         "id": 1049082,
-        "referee": "T. Gerach",
+        "referee": "Timo Gerach, Germany",
         "timezone": "UTC",
         "date": "2024-02-23T19:30:00+00:00",
         "timestamp": 1708716600,
@@ -13750,7 +13750,7 @@
     {
       "fixture": {
         "id": 1049083,
-        "referee": "D. Schlager",
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2024-02-25T14:30:00+00:00",
         "timestamp": 1708871400,
@@ -13818,7 +13818,7 @@
     {
       "fixture": {
         "id": 1049084,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2024-02-24T14:30:00+00:00",
         "timestamp": 1708785000,
@@ -13886,7 +13886,7 @@
     {
       "fixture": {
         "id": 1049085,
-        "referee": "F. Badstübner",
+        "referee": "Florian Badstubner, Germany",
         "timezone": "UTC",
         "date": "2024-02-24T14:30:00+00:00",
         "timestamp": 1708785000,
@@ -13954,7 +13954,7 @@
     {
       "fixture": {
         "id": 1049086,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2024-02-25T18:30:00+00:00",
         "timestamp": 1708885800,
@@ -14022,7 +14022,7 @@
     {
       "fixture": {
         "id": 1049087,
-        "referee": "P. Ittrich",
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2024-02-24T14:30:00+00:00",
         "timestamp": 1708785000,
@@ -14090,7 +14090,7 @@
     {
       "fixture": {
         "id": 1049088,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2024-03-02T14:30:00+00:00",
         "timestamp": 1709389800,
@@ -14158,7 +14158,7 @@
     {
       "fixture": {
         "id": 1049089,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2024-03-01T19:30:00+00:00",
         "timestamp": 1709321400,
@@ -14226,7 +14226,7 @@
     {
       "fixture": {
         "id": 1049090,
-        "referee": "B. Brand",
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2024-03-02T17:30:00+00:00",
         "timestamp": 1709400600,
@@ -14294,7 +14294,7 @@
     {
       "fixture": {
         "id": 1049091,
-        "referee": "R. Schröder",
+        "referee": "Robert Schroder, Germany",
         "timezone": "UTC",
         "date": "2024-03-02T14:30:00+00:00",
         "timestamp": 1709389800,
@@ -14362,7 +14362,7 @@
     {
       "fixture": {
         "id": 1049092,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2024-03-03T14:30:00+00:00",
         "timestamp": 1709476200,
@@ -14430,7 +14430,7 @@
     {
       "fixture": {
         "id": 1049093,
-        "referee": "M. Jöllenbeck",
+        "referee": "Matthias Jollenbeck, Germany",
         "timezone": "UTC",
         "date": "2024-03-03T16:30:00+00:00",
         "timestamp": 1709483400,
@@ -14498,7 +14498,7 @@
     {
       "fixture": {
         "id": 1049094,
-        "referee": "H. Osmers",
+        "referee": "Harm Osmers, Germany",
         "timezone": "UTC",
         "date": "2024-03-02T14:30:00+00:00",
         "timestamp": 1709389800,
@@ -14566,7 +14566,7 @@
     {
       "fixture": {
         "id": 1049095,
-        "referee": "S. Storks",
+        "referee": "Sören Storks, Germany",
         "timezone": "UTC",
         "date": "2024-03-02T14:30:00+00:00",
         "timestamp": 1709389800,
@@ -14634,7 +14634,7 @@
     {
       "fixture": {
         "id": 1049096,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2024-03-02T14:30:00+00:00",
         "timestamp": 1709389800,
@@ -14702,13 +14702,13 @@
     {
       "fixture": {
         "id": 1049097,
-        "referee": null,
+        "referee": "Patrick Ittrich, Germany",
         "timezone": "UTC",
         "date": "2024-03-09T14:30:00+00:00",
         "timestamp": 1709994600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1709994600,
+          "second": 1709998200
         },
         "venue": {
           "id": 700,
@@ -14716,9 +14716,9 @@
           "city": "München"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -14735,27 +14735,27 @@
           "id": 157,
           "name": "Bayern Munich",
           "logo": "https://media.api-sports.io/football/teams/157.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 164,
           "name": "FSV Mainz 05",
           "logo": "https://media.api-sports.io/football/teams/164.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 8,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 8,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -14770,13 +14770,13 @@
     {
       "fixture": {
         "id": 1049098,
-        "referee": null,
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2024-03-09T14:30:00+00:00",
         "timestamp": 1709994600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1709994600,
+          "second": 1709998200
         },
         "venue": {
           "id": 738,
@@ -14784,9 +14784,9 @@
           "city": "Leipzig"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -14803,27 +14803,27 @@
           "id": 173,
           "name": "RB Leipzig",
           "logo": "https://media.api-sports.io/football/teams/173.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 181,
           "name": "SV Darmstadt 98",
           "logo": "https://media.api-sports.io/football/teams/181.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -14974,13 +14974,13 @@
     {
       "fixture": {
         "id": 1049101,
-        "referee": null,
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2024-03-09T14:30:00+00:00",
         "timestamp": 1709994600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1709994600,
+          "second": 1709998200
         },
         "venue": {
           "id": 20471,
@@ -14988,9 +14988,9 @@
           "city": "Mönchengladbach"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15017,17 +15017,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -15042,12 +15042,12 @@
     {
       "fixture": {
         "id": 1049102,
-        "referee": null,
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2024-03-09T17:30:00+00:00",
         "timestamp": 1710005400,
         "periods": {
-          "first": null,
+          "first": 1710005400,
           "second": null
         },
         "venue": {
@@ -15056,9 +15056,9 @@
           "city": "Bremen"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 44
         }
       },
       "league": {
@@ -15075,23 +15075,23 @@
           "id": 162,
           "name": "Werder Bremen",
           "logo": "https://media.api-sports.io/football/teams/162.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 165,
           "name": "Borussia Dortmund",
           "logo": "https://media.api-sports.io/football/teams/165.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
           "home": null,
@@ -15178,13 +15178,13 @@
     {
       "fixture": {
         "id": 1049104,
-        "referee": null,
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2024-03-09T14:30:00+00:00",
         "timestamp": 1709994600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1709994600,
+          "second": 1709998200
         },
         "venue": {
           "id": 698,
@@ -15192,9 +15192,9 @@
           "city": "Augsburg"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15211,27 +15211,27 @@
           "id": 170,
           "name": "FC Augsburg",
           "logo": "https://media.api-sports.io/football/teams/170.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 180,
           "name": "FC Heidenheim",
           "logo": "https://media.api-sports.io/football/teams/180.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -15252,7 +15252,7 @@
         "timestamp": 1709926200,
         "periods": {
           "first": 1709926200,
-          "second": null
+          "second": 1709929800
         },
         "venue": {
           "id": 20473,
@@ -15260,9 +15260,9 @@
           "city": "Stuttgart"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 45
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15289,7 +15289,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -15298,8 +15298,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
