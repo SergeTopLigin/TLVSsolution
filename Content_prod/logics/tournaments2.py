@@ -259,6 +259,45 @@ try:    # обработка исключений для определения 
                     Del_tourn.append(tourn)
         for tourn in Del_tourn:
             Ass_TournRateQuot[ass_n].remove(tourn)    
+
+    # приведение всех списков нац турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
+    for ass_n in Ass_TournRateQuot:
+        Del_tourn = []  # список турниров на удаление
+        for tourn in Ass_TournRateQuot[ass_n]:
+            if tourn[0].find("League") != -1:   # для League: если рассматриваемая дата с августа по декабрь - оставить оба турнира, иначе только curr
+                tourn[2] = 0        # изменение элемента на Rating
+                tourn.insert(3, 0)  # добавление элемента Quota
+                if DateNow.month < 8 and tourn[1] == "prev":
+                    Del_tourn.append(tourn)
+                if DateNow.month < 8 and tourn[1] == "curr":
+                    tourn[1] = str(DateNow.year-1)[2:]+"-"+str(DateNow.year)[2:]
+                if DateNow.month > 7 and tourn[1] == "prev":
+                    tourn[1] = str(DateNow.year-1)[2:]+"-"+str(DateNow.year)[2:]
+                if DateNow.month > 7 and tourn[1] == "curr":
+                    tourn[1] = str(DateNow.year)[2:]+"-"+str(DateNow.year+1)[2:]
+            if tourn[0].find("Cup") != -1:  # для всех кубковых турниров учитываются: незавершившийся турнир и предыдущий, если с его финала прошло <150 дней
+                func_cup_files(tourn[0], DateNow)   # актуализация файлов кубков
+                tourn[2] = 0        # изменение элемента на Rating
+                tourn.insert(3, 0)  # добавление элемента Quota
+                for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
+                    # проверить файл "prev" на отдаление финала от текущей даты
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "prev":
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
+                            file_content = f.read()
+                        if DateNow >= PrevCupInfluence(file_content):  # если после финала прошло 150 дней и больше
+                            Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
+                    # если есть файл "curr" (появляется в каталоге через 400 дней после 1-го матча "prev"), но не наступила дата его 1-го матча - 
+                    # удалить кубок "curr"
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "curr":
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
+                            file_content = f.read()
+                        if DateNow <= CupFirst(file_content):
+                            Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                        tourn[1] = tourn_file[-15:-10]   # изменение "curr/prev" на сезон
+        for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
+            Ass_TournRateQuot[ass_n].remove(tourn)    
+       
     
     # тест с выгрузкой результата на GH
     mod_name = os.path.basename(__file__)[:-3]
