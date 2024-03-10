@@ -327,9 +327,9 @@ try:    # обработка исключений для определения 
                         tourn[2] /= club_number
                         # временной фактор: prev > curr (1/150 per day from 01.08)
                         if DateNow.month > 7 and tourn[1][3:] == DateNow.year[2:]:     # для прошлого сезона
-                            tourn[2] *= (150 - (DateNow - datetime.datetime(DateNow.year, 7, 31))/datetime.timedelta(days=1)) / 150
+                            tourn[2] *= round((150 - (DateNow - datetime.datetime(DateNow.year, 7, 31))/datetime.timedelta(days=1)) / 150, 2)
                         if DateNow.month > 7 and tourn[1][:2] == DateNow.year[2:]:     # для текущего сезона
-                            tourn[2] *= ((DateNow - datetime.datetime(DateNow.year, 7, 31))/datetime.timedelta(days=1)) / 150
+                            tourn[2] *= round(((DateNow - datetime.datetime(DateNow.year, 7, 31))/datetime.timedelta(days=1)) / 150, 2)
             
             # рейтинг National Cup(LCup)
             if tourn[0].find("Cup") != -1:
@@ -368,7 +368,7 @@ try:    # обработка исключений для определения 
                                 file_content = f.read()
                         break
                     tourn[2] *= min((DateNow - CupLast(file_content)) / datetime.timedelta(days=1) / 150, 1)
-
+                tourn[2] = round(tourn[2], 2)
 
     # тест с выгрузкой результата на GH
     mod_name = os.path.basename(__file__)[:-3]
