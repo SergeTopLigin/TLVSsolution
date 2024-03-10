@@ -1,0 +1,276 @@
+{
+  "UEFA": [
+    [
+      "UCL",
+      "23-24",
+      1.64,
+      16,
+      2,
+      "Cup"
+    ],
+    [
+      "UEL",
+      "23-24",
+      0.61,
+      6,
+      3,
+      "Cup"
+    ],
+    [
+      "UECL",
+      "23-24",
+      0.13,
+      1,
+      848,
+      "Cup"
+    ]
+  ],
+  "TopLiga": [
+    [
+      "TopLiga",
+      null,
+      null,
+      10,
+      null,
+      null
+    ]
+  ],
+  "ENG": [
+    [
+      "ENG League",
+      "curr",
+      "Premier League",
+      39,
+      "League"
+    ],
+    [
+      "ENG League",
+      "prev",
+      "Premier League",
+      39,
+      "League"
+    ],
+    [
+      "ENG Cup",
+      "curr",
+      "FA Cup",
+      45,
+      "Cup"
+    ],
+    [
+      "ENG Cup",
+      "prev",
+      "FA Cup",
+      45,
+      "Cup"
+    ],
+    [
+      "ENG LCup",
+      "curr",
+      "League Cup",
+      48,
+      "Cup"
+    ],
+    [
+      "ENG LCup",
+      "prev",
+      "League Cup",
+      48,
+      "Cup"
+    ]
+  ],
+  "ESP": [
+    [
+      "ESP League",
+      "curr",
+      "La Liga",
+      140,
+      "League"
+    ],
+    [
+      "ESP League",
+      "prev",
+      "La Liga",
+      140,
+      "League"
+    ],
+    [
+      "ESP Cup",
+      "curr",
+      "Copa del Rey",
+      143,
+      "Cup"
+    ],
+    [
+      "ESP Cup",
+      "prev",
+      "Copa del Rey",
+      143,
+      "Cup"
+    ]
+  ],
+  "ITA": [
+    [
+      "ITA League",
+      "curr",
+      "Serie A",
+      135,
+      "League"
+    ],
+    [
+      "ITA League",
+      "prev",
+      "Serie A",
+      135,
+      "League"
+    ],
+    [
+      "ITA Cup",
+      "curr",
+      "Coppa Italia",
+      137,
+      "Cup"
+    ],
+    [
+      "ITA Cup",
+      "prev",
+      "Coppa Italia",
+      137,
+      "Cup"
+    ]
+  ],
+  "GER": [
+    [
+      "GER League",
+      "curr",
+      "Bundesliga",
+      78,
+      "League"
+    ],
+    [
+      "GER League",
+      "prev",
+      "Bundesliga",
+      78,
+      "League"
+    ],
+    [
+      "GER Cup",
+      "curr",
+      "DFB Pokal",
+      81,
+      "Cup"
+    ],
+    [
+      "GER Cup",
+      "prev",
+      "DFB Pokal",
+      81,
+      "Cup"
+    ]
+  ],
+  "POR": [
+    [
+      "POR League",
+      "curr",
+      "Primeira Liga",
+      94,
+      "League"
+    ],
+    [
+      "POR League",
+      "prev",
+      "Primeira Liga",
+      94,
+      "League"
+    ],
+    [
+      "POR Cup",
+      "curr",
+      "Taça de Portugal",
+      96,
+      "Cup"
+    ],
+    [
+      "POR Cup",
+      "prev",
+      "Taça de Portugal",
+      96,
+      "Cup"
+    ],
+    [
+      "POR LCup",
+      "curr",
+      "Taça da Liga",
+      97,
+      "Cup"
+    ],
+    [
+      "POR LCup",
+      "prev",
+      "Taça da Liga",
+      97,
+      "Cup"
+    ]
+  ],
+  "FRA": [
+    [
+      "FRA League",
+      "curr",
+      "Ligue 1",
+      61,
+      "League"
+    ],
+    [
+      "FRA League",
+      "prev",
+      "Ligue 1",
+      61,
+      "League"
+    ],
+    [
+      "FRA Cup",
+      "curr",
+      "Coupe de France",
+      66,
+      "Cup"
+    ],
+    [
+      "FRA Cup",
+      "prev",
+      "Coupe de France",
+      66,
+      "Cup"
+    ]
+  ],
+  "NED": [
+    [
+      "NED League",
+      "curr",
+      "Eredivisie",
+      88,
+      "League"
+    ],
+    [
+      "NED League",
+      "prev",
+      "Eredivisie",
+      88,
+      "League"
+    ],
+    [
+      "NED Cup",
+      "curr",
+      "KNVB Beker",
+      90,
+      "Cup"
+    ],
+    [
+      "NED Cup",
+      "prev",
+      "KNVB Beker",
+      90,
+      "Cup"
+    ]
+  ]
+}
