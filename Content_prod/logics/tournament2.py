@@ -293,13 +293,13 @@ try:    # обработка исключений для определения 
                             Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
                     # если есть файл "curr" (появляется в каталоге через 400 дней после 1-го матча "prev"), но не наступила дата его 1-го матча - 
                     # удалить кубок "curr"
-                 #   if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "curr":
-                  #      with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
-                   #         file_content = f.read()
-                    #    if DateNow <= CupFirst(file_content):
-                  #          Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
-                 #   if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
-                  #      tourn[1] = tourn_file[-15:-10]   # изменение "curr/prev" на сезон
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "curr":
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
+                            file_content = f.read()
+                        if DateNow <= CupFirst(file_content):
+                            Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                        tourn[1] = tourn_file[-15:-10]   # изменение "curr/prev" на сезон
         for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
             Ass_TournRateQuot[ass_n].remove(tourn)    
        
