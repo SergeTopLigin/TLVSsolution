@@ -45,8 +45,24 @@
       "League"
     ],
     [
+      "ENG League",
+      "prev",
+      0,
+      0,
+      39,
+      "League"
+    ],
+    [
       "ENG Cup",
-      "curr",
+      "23-24",
+      0,
+      0,
+      45,
+      "Cup"
+    ],
+    [
+      "ENG Cup",
+      "prev",
       0,
       0,
       45,
@@ -62,7 +78,7 @@
     ],
     [
       "ENG LCup",
-      "prev",
+      "23-24",
       0,
       0,
       48,
@@ -79,8 +95,24 @@
       "League"
     ],
     [
+      "ESP League",
+      "prev",
+      0,
+      0,
+      140,
+      "League"
+    ],
+    [
       "ESP Cup",
-      "curr",
+      "23-24",
+      0,
+      0,
+      143,
+      "Cup"
+    ],
+    [
+      "ESP Cup",
+      "prev",
       0,
       0,
       143,
@@ -97,8 +129,24 @@
       "League"
     ],
     [
+      "ITA League",
+      "prev",
+      0,
+      0,
+      135,
+      "League"
+    ],
+    [
       "ITA Cup",
-      "curr",
+      "23-24",
+      0,
+      0,
+      137,
+      "Cup"
+    ],
+    [
+      "ITA Cup",
+      "prev",
       0,
       0,
       137,
@@ -115,8 +163,24 @@
       "League"
     ],
     [
+      "GER League",
+      "prev",
+      0,
+      0,
+      78,
+      "League"
+    ],
+    [
       "GER Cup",
-      "curr",
+      "23-24",
+      0,
+      0,
+      81,
+      "Cup"
+    ],
+    [
+      "GER Cup",
+      "prev",
       0,
       0,
       81,
@@ -133,8 +197,24 @@
       "League"
     ],
     [
+      "POR League",
+      "prev",
+      0,
+      0,
+      94,
+      "League"
+    ],
+    [
       "POR Cup",
-      "curr",
+      "23-24",
+      0,
+      0,
+      96,
+      "Cup"
+    ],
+    [
+      "POR Cup",
+      "prev",
       0,
       0,
       96,
@@ -150,7 +230,7 @@
     ],
     [
       "POR LCup",
-      "prev",
+      "23-24",
       0,
       0,
       97,
@@ -167,8 +247,24 @@
       "League"
     ],
     [
+      "FRA League",
+      "prev",
+      0,
+      0,
+      61,
+      "League"
+    ],
+    [
       "FRA Cup",
-      "curr",
+      "23-24",
+      0,
+      0,
+      66,
+      "Cup"
+    ],
+    [
+      "FRA Cup",
+      "prev",
       0,
       0,
       66,
@@ -185,8 +281,24 @@
       "League"
     ],
     [
+      "NED League",
+      "prev",
+      0,
+      0,
+      88,
+      "League"
+    ],
+    [
       "NED Cup",
-      "curr",
+      "23-24",
+      0,
+      0,
+      90,
+      "Cup"
+    ],
+    [
+      "NED Cup",
+      "prev",
       0,
       0,
       90,
