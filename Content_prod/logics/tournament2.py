@@ -300,12 +300,10 @@ try:    # обработка исключений для определения 
                             Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn not in Del_tourn:
                         tourn[1] = tourn_file[-15:-10]   # изменение "curr/prev" на сезон
-        for tourn in Ass_TournRateQuot[ass_n]:  # удаление из списка турниров, для которых нет файлов fixtures
-            if tourn[1] == "curr" or tourn[1] == "prev":
-                Del_tourn.append(tourn)
+                if tourn[1] == "curr" or tourn[1] == "prev":    # если нет файла fixtures кубка (при неизмененном сезоне)
+                    Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
         for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
-            # Ass_TournRateQuot[ass_n].remove(tourn)    
-            print(tourn)
+            Ass_TournRateQuot[ass_n].remove(tourn)    
        
     
     # тест с выгрузкой результата на GH
