@@ -169,8 +169,11 @@ try:    # обработка исключений для определения 
     import json
     with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/associations.json', 'r') as j:
         associations = json.load(j) # {ass: {rating: , quota: }} 
+    sum_ratings = 0   # определение суммы рейтингов турниров
     for league in whole_tourn_rate_quota:
-        whole_tourn_rate_quota[league][1] = associations["UEFA"]['quota'] * whole_tourn_rate_quota[league][0] / associations["UEFA"]['rating']
+        sum_ratings += whole_tourn_rate_quota[league][0]
+    for league in whole_tourn_rate_quota:
+        whole_tourn_rate_quota[league][1] = associations["UEFA"]['quota'] * whole_tourn_rate_quota[league][0] / sum_ratings
     # сумма квот турниров УЕФА, округленных до целого в меньшую сторону
     import math
     UEFA_tourn_quota_int_sum = 0   
@@ -229,7 +232,7 @@ try:    # обработка исключений для определения 
             tourn.append("Cup")
 
     # учет квоты TL на 10 лидеров
-    Ass_TournRateQuot["TopLiga"] = [["TopLiga", "", associations['TopLiga']['rating'], associations['TopLiga']['quota'], "", ""]]
+    Ass_TournRateQuot["TopLiga"] = [["TopLiga", None, None, associations['TopLiga']['quota'], None, None]]
 
 
 
