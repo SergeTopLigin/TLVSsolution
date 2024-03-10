@@ -38,43 +38,41 @@
   "ENG": [
     [
       "ENG League",
-      "curr",
-      "Premier League",
-      39,
-      "League"
-    ],
-    [
-      "ENG League",
-      "prev",
-      "Premier League",
+      "23-24",
+      0,
+      0,
       39,
       "League"
     ],
     [
       "ENG Cup",
-      "curr",
-      "FA Cup",
+      "23-24",
+      0,
+      0,
       45,
       "Cup"
     ],
     [
       "ENG Cup",
       "prev",
-      "FA Cup",
+      0,
+      0,
       45,
       "Cup"
     ],
     [
       "ENG LCup",
       "curr",
-      "League Cup",
+      0,
+      0,
       48,
       "Cup"
     ],
     [
       "ENG LCup",
-      "prev",
-      "League Cup",
+      "23-24",
+      0,
+      0,
       48,
       "Cup"
     ]
@@ -82,29 +80,17 @@
   "ESP": [
     [
       "ESP League",
-      "curr",
-      "La Liga",
-      140,
-      "League"
-    ],
-    [
-      "ESP League",
-      "prev",
-      "La Liga",
+      "23-24",
+      0,
+      0,
       140,
       "League"
     ],
     [
       "ESP Cup",
-      "curr",
-      "Copa del Rey",
-      143,
-      "Cup"
-    ],
-    [
-      "ESP Cup",
-      "prev",
-      "Copa del Rey",
+      "23-24",
+      0,
+      0,
       143,
       "Cup"
     ]
@@ -112,29 +98,17 @@
   "ITA": [
     [
       "ITA League",
-      "curr",
-      "Serie A",
-      135,
-      "League"
-    ],
-    [
-      "ITA League",
-      "prev",
-      "Serie A",
+      "23-24",
+      0,
+      0,
       135,
       "League"
     ],
     [
       "ITA Cup",
-      "curr",
-      "Coppa Italia",
-      137,
-      "Cup"
-    ],
-    [
-      "ITA Cup",
-      "prev",
-      "Coppa Italia",
+      "23-24",
+      0,
+      0,
       137,
       "Cup"
     ]
@@ -142,29 +116,17 @@
   "GER": [
     [
       "GER League",
-      "curr",
-      "Bundesliga",
-      78,
-      "League"
-    ],
-    [
-      "GER League",
-      "prev",
-      "Bundesliga",
+      "23-24",
+      0,
+      0,
       78,
       "League"
     ],
     [
       "GER Cup",
-      "curr",
-      "DFB Pokal",
-      81,
-      "Cup"
-    ],
-    [
-      "GER Cup",
-      "prev",
-      "DFB Pokal",
+      "23-24",
+      0,
+      0,
       81,
       "Cup"
     ]
@@ -172,43 +134,33 @@
   "POR": [
     [
       "POR League",
-      "curr",
-      "Primeira Liga",
-      94,
-      "League"
-    ],
-    [
-      "POR League",
-      "prev",
-      "Primeira Liga",
+      "23-24",
+      0,
+      0,
       94,
       "League"
     ],
     [
       "POR Cup",
-      "curr",
-      "Taça de Portugal",
-      96,
-      "Cup"
-    ],
-    [
-      "POR Cup",
-      "prev",
-      "Taça de Portugal",
+      "23-24",
+      0,
+      0,
       96,
       "Cup"
     ],
     [
       "POR LCup",
       "curr",
-      "Taça da Liga",
+      0,
+      0,
       97,
       "Cup"
     ],
     [
       "POR LCup",
-      "prev",
-      "Taça da Liga",
+      "23-24",
+      0,
+      0,
       97,
       "Cup"
     ]
@@ -216,29 +168,17 @@
   "FRA": [
     [
       "FRA League",
-      "curr",
-      "Ligue 1",
-      61,
-      "League"
-    ],
-    [
-      "FRA League",
-      "prev",
-      "Ligue 1",
+      "23-24",
+      0,
+      0,
       61,
       "League"
     ],
     [
       "FRA Cup",
-      "curr",
-      "Coupe de France",
-      66,
-      "Cup"
-    ],
-    [
-      "FRA Cup",
-      "prev",
-      "Coupe de France",
+      "23-24",
+      0,
+      0,
       66,
       "Cup"
     ]
@@ -246,29 +186,17 @@
   "NED": [
     [
       "NED League",
-      "curr",
-      "Eredivisie",
-      88,
-      "League"
-    ],
-    [
-      "NED League",
-      "prev",
-      "Eredivisie",
+      "23-24",
+      0,
+      0,
       88,
       "League"
     ],
     [
       "NED Cup",
-      "curr",
-      "KNVB Beker",
-      90,
-      "Cup"
-    ],
-    [
-      "NED Cup",
-      "prev",
-      "KNVB Beker",
+      "23-24",
+      0,
+      0,
       90,
       "Cup"
     ]
