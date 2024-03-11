@@ -14702,13 +14702,13 @@
     {
       "fixture": {
         "id": 1045097,
-        "referee": "W. Delajod",
+        "referee": "Willy Delajod, France",
         "timezone": "UTC",
         "date": "2024-03-10T12:00:00+00:00",
         "timestamp": 1710072000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710072000,
+          "second": 1710075600
         },
         "venue": {
           "id": 671,
@@ -14716,9 +14716,9 @@
           "city": "Paris"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -14745,17 +14745,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -14770,13 +14770,13 @@
     {
       "fixture": {
         "id": 1045098,
-        "referee": "C. Turpin",
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2024-03-10T14:00:00+00:00",
         "timestamp": 1710079200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710079200,
+          "second": 1710082800
         },
         "venue": {
           "id": 681,
@@ -14784,9 +14784,9 @@
           "city": "Strasbourg"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -14803,27 +14803,27 @@
           "id": 95,
           "name": "Strasbourg",
           "logo": "https://media.api-sports.io/football/teams/95.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 91,
           "name": "Monaco",
           "logo": "https://media.api-sports.io/football/teams/91.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -14838,13 +14838,13 @@
     {
       "fixture": {
         "id": 1045099,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2024-03-10T19:45:00+00:00",
         "timestamp": 1710099900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710099900,
+          "second": 1710103500
         },
         "venue": {
           "id": 667,
@@ -14852,9 +14852,9 @@
           "city": "Marseille"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -14871,27 +14871,27 @@
           "id": 81,
           "name": "Marseille",
           "logo": "https://media.api-sports.io/football/teams/81.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 83,
           "name": "Nantes",
           "logo": "https://media.api-sports.io/football/teams/83.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -14974,13 +14974,13 @@
     {
       "fixture": {
         "id": 1045101,
-        "referee": "B. Millot",
+        "referee": "Benoît Millot, France",
         "timezone": "UTC",
         "date": "2024-03-10T16:05:00+00:00",
         "timestamp": 1710086700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710086700,
+          "second": 1710090300
         },
         "venue": {
           "id": 19207,
@@ -14988,9 +14988,9 @@
           "city": "Villeneuve d'Ascq"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15017,17 +15017,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -15110,13 +15110,13 @@
     {
       "fixture": {
         "id": 1045103,
-        "referee": "S. Frappart",
+        "referee": "Stephanie Frappart, France",
         "timezone": "UTC",
         "date": "2024-03-09T20:00:00+00:00",
         "timestamp": 1710014400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710014400,
+          "second": 1710018000
         },
         "venue": {
           "id": 654,
@@ -15124,9 +15124,9 @@
           "city": "Lens"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15143,27 +15143,27 @@
           "id": 116,
           "name": "Lens",
           "logo": "https://media.api-sports.io/football/teams/116.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 106,
           "name": "Stade Brestois 29",
           "logo": "https://media.api-sports.io/football/teams/106.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -15178,13 +15178,13 @@
     {
       "fixture": {
         "id": 1045104,
-        "referee": "R. Lissorgue",
+        "referee": "Romain Lissorgue, France",
         "timezone": "UTC",
         "date": "2024-03-10T14:00:00+00:00",
         "timestamp": 1710079200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710079200,
+          "second": 1710082800
         },
         "venue": {
           "id": 652,
@@ -15192,9 +15192,9 @@
           "city": "Le Havre"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15211,27 +15211,27 @@
           "id": 111,
           "name": "LE Havre",
           "logo": "https://media.api-sports.io/football/teams/111.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 96,
           "name": "Toulouse",
           "logo": "https://media.api-sports.io/football/teams/96.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -15246,13 +15246,13 @@
     {
       "fixture": {
         "id": 1045105,
-        "referee": "G. Angoula",
+        "referee": "Gael Angoula, France",
         "timezone": "UTC",
         "date": "2024-03-10T14:00:00+00:00",
         "timestamp": 1710079200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710079200,
+          "second": 1710082800
         },
         "venue": {
           "id": 658,
@@ -15260,9 +15260,9 @@
           "city": "Longeville-lès-Metz"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15279,27 +15279,27 @@
           "id": 112,
           "name": "Metz",
           "logo": "https://media.api-sports.io/football/teams/112.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 99,
           "name": "Clermont Foot",
           "logo": "https://media.api-sports.io/football/teams/99.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,

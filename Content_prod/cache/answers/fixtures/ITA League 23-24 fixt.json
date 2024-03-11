@@ -18388,9 +18388,9 @@
           "city": "Bologna"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 57
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18426,8 +18426,8 @@
           "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18510,13 +18510,13 @@
     {
       "fixture": {
         "id": 1052525,
-        "referee": "D. Massa",
+        "referee": "Davide Massa, Italy",
         "timezone": "UTC",
         "date": "2024-03-10T19:45:00+00:00",
         "timestamp": 1710099900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710099900,
+          "second": 1710103500
         },
         "venue": {
           "id": 902,
@@ -18524,9 +18524,9 @@
           "city": "Firenze"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18553,17 +18553,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18578,13 +18578,13 @@
     {
       "fixture": {
         "id": 1052526,
-        "referee": "E. Feliciani",
+        "referee": "Ermanno Feliciani, Italy",
         "timezone": "UTC",
         "date": "2024-03-09T19:45:00+00:00",
         "timestamp": 1710013500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710013500,
+          "second": 1710017100
         },
         "venue": {
           "id": 905,
@@ -18592,9 +18592,9 @@
           "city": "Genova"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18611,27 +18611,27 @@
           "id": 495,
           "name": "Genoa",
           "logo": "https://media.api-sports.io/football/teams/495.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 1579,
           "name": "Monza",
           "logo": "https://media.api-sports.io/football/teams/1579.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -18646,13 +18646,13 @@
     {
       "fixture": {
         "id": 1052527,
-        "referee": "M. Guida",
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2024-03-10T17:00:00+00:00",
         "timestamp": 1710090000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710090000,
+          "second": 1710093600
         },
         "venue": {
           "id": 909,
@@ -18660,9 +18660,9 @@
           "city": "Torino"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18689,17 +18689,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18714,12 +18714,12 @@
     {
       "fixture": {
         "id": 1052528,
-        "referee": "G. Aureliano",
+        "referee": "Gianluca Aureliano, Italy",
         "timezone": "UTC",
         "date": "2024-03-11T19:45:00+00:00",
         "timestamp": 1710186300,
         "periods": {
-          "first": null,
+          "first": 1710186300,
           "second": null
         },
         "venue": {
@@ -18728,9 +18728,9 @@
           "city": "Roma"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 5
         }
       },
       "league": {
@@ -18757,13 +18757,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -18782,13 +18782,13 @@
     {
       "fixture": {
         "id": 1052529,
-        "referee": "D. Chiffi",
+        "referee": "Daniele Chiffi, Italy",
         "timezone": "UTC",
         "date": "2024-03-10T11:30:00+00:00",
         "timestamp": 1710070200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710070200,
+          "second": 1710073800
         },
         "venue": {
           "id": 911,
@@ -18796,9 +18796,9 @@
           "city": "Lecce"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18815,27 +18815,27 @@
           "id": 867,
           "name": "Lecce",
           "logo": "https://media.api-sports.io/football/teams/867.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 504,
           "name": "Verona",
           "logo": "https://media.api-sports.io/football/teams/504.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18850,13 +18850,13 @@
     {
       "fixture": {
         "id": 1052530,
-        "referee": "J. Sacchi",
+        "referee": "Juan Luca Sacchi, Italy",
         "timezone": "UTC",
         "date": "2024-03-10T14:00:00+00:00",
         "timestamp": 1710079200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710079200,
+          "second": 1710082800
         },
         "venue": {
           "id": 907,
@@ -18864,9 +18864,9 @@
           "city": "Milano"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18883,27 +18883,27 @@
           "id": 489,
           "name": "AC Milan",
           "logo": "https://media.api-sports.io/football/teams/489.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 511,
           "name": "Empoli",
           "logo": "https://media.api-sports.io/football/teams/511.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
