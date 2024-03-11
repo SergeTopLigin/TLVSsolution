@@ -293,8 +293,10 @@ try:    # обработка исключений для определения 
                             file_content = f.read()
                         if DateNow <= CupFirst(file_content):
                             Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
-                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                    if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn not in Del_tourn:
                         tourn[1] = tourn_file[-15:-10]   # изменение "curr/prev" на сезон
+                if tourn[1] == "curr":    # если нет файла fixtures кубка curr (сезон не начался - не изменен на YY-YY)
+                    Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
         for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
             Ass_TournRateQuot[ass_n].remove(tourn)    
     
@@ -333,7 +335,7 @@ try:    # обработка исключений для определения 
             
             # рейтинг National Cup(LCup)
             if tourn[0].find("Cup") != -1:
-            # рейтинг кубка curr на протяжении его розыгрыша равен максимальному из своих значений на текущей или предыдущих стадиях
+            # рейтинг кубка на протяжении его розыгрыша равен максимальному из своих значений на текущей или предыдущих стадиях (для prev - только на предыдущих)
                 # для текущей стадии: рейтинг рассчитывается по текущему TL standings
                 # для предыдущей стадии: рейтинг рассчитывается по TL standings, актуальному на момент окончания последнего матча стадии
             # Cup rating = max (total Cup stage clubs SUM(pts+1.2) in TL standigs / Number of clubs in the Cup stage) / 5
