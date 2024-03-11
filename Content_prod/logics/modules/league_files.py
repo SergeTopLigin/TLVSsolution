@@ -1,5 +1,5 @@
 # модуль актуализации файлов нац лиг по запросам fixtures и standings
-# применяется для: 
+# актуальные fixtures и standings применяются для: 
     # расчета рейтинга лиги: формирование club set на любой стадии посредством standings (в некоторых лигах проводится по несколько стадий)
     # поиска матчей TL и их результатов посредством fixtures
 # для актуализации standings необходим актуальный fixtures
@@ -24,10 +24,10 @@ def league_files(League, Season, LeagueID):     # League должен соотв
                     fixtures_dict = json.load(f)
                 # если наступило время окончания следующего несыгранного матча - обновить fixtures
                 time_now = datetime.datetime.utcnow()    # текущее время UTC
-                # определение окончания самого раннего матча с status short == NS
+                # определение окончания самого раннего матча при status short in [NS, 1H, HT, 2H, INT]
                 next_match_time = 4000000000
                 for match in fixtures_dict['response']:
-                    if match['fixture']['status']['short'] == 'NS' and match['fixture']['timestamp'] < next_match_time:
+                    if (match['fixture']['status']['short'] in ['NS', '1H', 'HT', '2H', 'INT']) and (match['fixture']['timestamp'] < next_match_time):
                         next_match_time = match['fixture']['timestamp']
                 next_match_time += 8000
                 if time_now < datetime.datetime.utcfromtimestamp(next_match_time):
