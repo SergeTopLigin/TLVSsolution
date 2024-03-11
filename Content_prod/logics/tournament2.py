@@ -260,11 +260,6 @@ try:    # обработка исключений для определения 
         for tourn in Del_tourn:
             Ass_TournRateQuot[ass_n].remove(tourn)    
     
-    # тест с выгрузкой результата на GH
-    mod_name = os.path.basename(__file__)[:-3]
-    from modules.gh_push import gh_push
-    gh_push(str(mod_name), 'sub_results', 'PREtournaments.json', Ass_TournRateQuot)
-    
     # приведение всех списков нац турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
     for ass_n in Ass_TournRateQuot:
         Del_tourn = []  # список турниров на удаление
@@ -305,7 +300,12 @@ try:    # обработка исключений для определения 
         for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
             Ass_TournRateQuot[ass_n].remove(tourn)    
        
-    
+    # тест с выгрузкой результата на GH
+    mod_name = os.path.basename(__file__)[:-3]
+    from modules.gh_push import gh_push
+    gh_push(str(mod_name), 'sub_results', 'PREtournaments.json', Ass_TournRateQuot)
+
+
     # тест с выгрузкой результата на GH
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
