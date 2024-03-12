@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/tournaments.py", line 383, in <module>
+    sum_ratings += tourn[2]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
