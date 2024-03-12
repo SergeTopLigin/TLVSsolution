@@ -434,19 +434,19 @@
                 "logo": "https://media.api-sports.io/football/teams/34.png"
               },
               "points": 40,
-              "goalsDiff": 12,
+              "goalsDiff": 11,
               "group": "Premier League",
-              "form": "WLDWD",
+              "form": "LWLDW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 12,
                 "draw": 4,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
-                  "for": 57,
-                  "against": 45
+                  "for": 59,
+                  "against": 48
                 }
               },
               "home": {
@@ -460,13 +460,13 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 3,
                 "draw": 2,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
-                  "for": 23,
-                  "against": 29
+                  "for": 25,
+                  "against": 32
                 }
               },
               "update": "2024-03-11T00:00:00+00:00"
@@ -478,30 +478,30 @@
                 "name": "Chelsea",
                 "logo": "https://media.api-sports.io/football/teams/49.png"
               },
-              "points": 36,
-              "goalsDiff": 1,
+              "points": 39,
+              "goalsDiff": 2,
               "group": "Premier League",
-              "form": "DDWLL",
+              "form": "WDDWL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
-                "win": 10,
+                "played": 27,
+                "win": 11,
                 "draw": 6,
                 "lose": 10,
                 "goals": {
-                  "for": 44,
-                  "against": 43
+                  "for": 47,
+                  "against": 45
                 }
               },
               "home": {
-                "played": 12,
-                "win": 5,
+                "played": 13,
+                "win": 6,
                 "draw": 3,
                 "lose": 4,
                 "goals": {
-                  "for": 20,
-                  "against": 18
+                  "for": 23,
+                  "against": 20
                 }
               },
               "away": {
