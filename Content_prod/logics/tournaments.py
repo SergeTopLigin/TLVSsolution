@@ -410,7 +410,7 @@ try:    # обработка исключений для определения 
                         tourn[3] = math.ceil(tourn[3])
                     if len(seasons) > 1 and int(tourn[1][:2]) == max(seasons):  # для текущего сезона лиги
                         tourn[3] = math.floor(tourn[3])
-                tourn[3] = int(tourn[3])    # квота - целое число
+                tourn[3] = int(round(tourn[3]), 0)    # квота - целое число
 
 
     # тест с выгрузкой результата на GH
