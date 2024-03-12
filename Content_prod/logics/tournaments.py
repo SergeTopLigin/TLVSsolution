@@ -373,6 +373,18 @@ try:    # обработка исключений для определения 
                     tourn[2] *= min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1)
                 tourn[2] = round(tourn[2], 2)
 
+    # Tournaments quota
+    for ass_n in Ass_TournRateQuot:
+        # квота ассоциации
+        ass_quota = associations[ass_n]['quota']
+        # сумма рейтингов турниров ассоциации        
+        sum_ratings = 0
+        for tourn in Ass_TournRateQuot[ass_n]:
+            sum_ratings += tourn[2]
+        # квота распределяется прямо пропорционально рейтингам турниров
+        for tourn in Ass_TournRateQuot[ass_n]:
+            tourn[3] = ass_quota * tourn[2] / sum_ratings
+
     # тест с выгрузкой результата на GH
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
