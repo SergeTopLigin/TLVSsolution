@@ -385,6 +385,20 @@ try:    # обработка исключений для определения 
             # квота распределяется прямо пропорционально рейтингам турниров
             for tourn in Ass_TournRateQuot[ass_n]:
                 tourn[3] = ass_quota * tourn[2] / sum_ratings
+            # округление квот кубков до целого в меньшую сторону, сохранение суммы отброшенных дробных частей квот кубков в переменную
+            cup_fract = 0   # сумма дробных частей квот кубков
+            league_sum = 0   # сумма рейтингов учитываемых сезонов лиги
+            for tourn in Ass_TournRateQuot[ass_n]:
+                if 'Cup' in tourn[0]:
+                    cup_fract += tourn[3] % 1
+                    tourn[3] = tourn[3] // 1
+                if 'League' in tourn[0]:
+                    league_sum += tourn[2]
+            # распределеие суммы дробных частей квот кубков между сезонами лиги прямо пропорционально их рейтингам
+            for tourn in Ass_TournRateQuot[ass_n]:
+                if 'League' in tourn[0]:
+                    tourn[3] += cup_fract * tourn[2] / league_sum
+
 
     # тест с выгрузкой результата на GH
     mod_name = os.path.basename(__file__)[:-3]
