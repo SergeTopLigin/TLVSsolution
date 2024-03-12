@@ -398,6 +398,19 @@ try:    # обработка исключений для определения 
             for tourn in Ass_TournRateQuot[ass_n]:
                 if 'League' in tourn[0]:
                     tourn[3] += cup_fract * tourn[2] / league_sum
+            # опредление текущего и предыдущего сезонов лиги
+            seasons = []    # инициализация списка сезонов лиги
+            for tourn in Ass_TournRateQuot[ass_n]:
+                if 'League' in tourn[0]:
+                    seasons.append(int(tourn[1][:2]))
+            # распределение квоты лиги между текущим и предыдущим сезоном: округляется до целого в сторону предыдущего сезона
+            for tourn in Ass_TournRateQuot[ass_n]:
+                if 'League' in tourn[0]:
+                    if len(seasons) > 1 and int(tourn[1][:2]) == min(seasons):  # для предыдущего сезона лиги
+                        tourn[3] = math.ceil(tourn[3])
+                    if len(seasons) > 1 and int(tourn[1][:2]) == max(seasons):  # для текущего сезона лиги
+                        tourn[3] = math.floor(tourn[3])
+                tourn[3] = int(tourn[3])    # квота - целое число
 
 
     # тест с выгрузкой результата на GH
