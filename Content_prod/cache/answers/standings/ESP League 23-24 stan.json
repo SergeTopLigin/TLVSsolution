@@ -613,20 +613,20 @@
                 "name": "Sevilla",
                 "logo": "https://media.api-sports.io/football/teams/536.png"
               },
-              "points": 27,
+              "points": 28,
               "goalsDiff": -7,
               "group": "Primera División",
-              "form": "WLDWW",
+              "form": "DWLDW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 6,
-                "draw": 9,
+                "draw": 10,
                 "lose": 12,
                 "goals": {
-                  "for": 33,
-                  "against": 40
+                  "for": 35,
+                  "against": 42
                 }
               },
               "home": {
@@ -640,13 +640,13 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 2,
-                "draw": 4,
+                "draw": 5,
                 "lose": 7,
                 "goals": {
-                  "for": 13,
-                  "against": 19
+                  "for": 15,
+                  "against": 21
                 }
               },
               "update": "2024-03-11T00:00:00+00:00"
@@ -883,30 +883,30 @@
                 "name": "Almeria",
                 "logo": "https://media.api-sports.io/football/teams/723.png"
               },
-              "points": 9,
+              "points": 10,
               "goalsDiff": -30,
               "group": "Primera División",
-              "form": "LDDDL",
+              "form": "DLDDD",
               "status": "same",
               "description": "Relegation - LaLiga2",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 0,
-                "draw": 9,
+                "draw": 10,
                 "lose": 18,
                 "goals": {
-                  "for": 25,
-                  "against": 55
+                  "for": 27,
+                  "against": 57
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 0,
-                "draw": 7,
+                "draw": 8,
                 "lose": 6,
                 "goals": {
-                  "for": 12,
-                  "against": 23
+                  "for": 14,
+                  "against": 25
                 }
               },
               "away": {

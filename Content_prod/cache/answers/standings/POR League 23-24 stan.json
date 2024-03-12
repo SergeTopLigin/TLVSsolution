@@ -339,6 +339,51 @@
             {
               "rank": 8,
               "team": {
+                "id": 762,
+                "name": "GIL Vicente",
+                "logo": "https://media.api-sports.io/football/teams/762.png"
+              },
+              "points": 28,
+              "goalsDiff": -3,
+              "group": "Primeira Liga",
+              "form": "DDDWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 25,
+                "win": 7,
+                "draw": 7,
+                "lose": 11,
+                "goals": {
+                  "for": 34,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 5,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 23,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 12,
+                "win": 2,
+                "draw": 1,
+                "lose": 9,
+                "goals": {
+                  "for": 11,
+                  "against": 23
+                }
+              },
+              "update": "2024-03-11T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
                 "id": 222,
                 "name": "Boavista",
                 "logo": "https://media.api-sports.io/football/teams/222.png"
@@ -382,7 +427,7 @@
               "update": "2024-03-11T00:00:00+00:00"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "team": {
                 "id": 242,
                 "name": "Famalicao",
@@ -422,51 +467,6 @@
                 "goals": {
                   "for": 11,
                   "against": 16
-                }
-              },
-              "update": "2024-03-11T00:00:00+00:00"
-            },
-            {
-              "rank": 10,
-              "team": {
-                "id": 762,
-                "name": "GIL Vicente",
-                "logo": "https://media.api-sports.io/football/teams/762.png"
-              },
-              "points": 27,
-              "goalsDiff": -3,
-              "group": "Primeira Liga",
-              "form": "DDWLL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 24,
-                "win": 7,
-                "draw": 6,
-                "lose": 11,
-                "goals": {
-                  "for": 34,
-                  "against": 37
-                }
-              },
-              "home": {
-                "played": 12,
-                "win": 5,
-                "draw": 5,
-                "lose": 2,
-                "goals": {
-                  "for": 23,
-                  "against": 14
-                }
-              },
-              "away": {
-                "played": 12,
-                "win": 2,
-                "draw": 1,
-                "lose": 9,
-                "goals": {
-                  "for": 11,
-                  "against": 23
                 }
               },
               "update": "2024-03-11T00:00:00+00:00"
@@ -793,16 +793,16 @@
                 "name": "Chaves",
                 "logo": "https://media.api-sports.io/football/teams/223.png"
               },
-              "points": 18,
+              "points": 19,
               "goalsDiff": -30,
               "group": "Primeira Liga",
-              "form": "LDWLD",
+              "form": "DLDWL",
               "status": "same",
               "description": "Relegation - Liga Portugal 2",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 4,
-                "draw": 6,
+                "draw": 7,
                 "lose": 14,
                 "goals": {
                   "for": 24,
@@ -820,9 +820,9 @@
                 }
               },
               "away": {
-                "played": 12,
+                "played": 13,
                 "win": 1,
-                "draw": 3,
+                "draw": 4,
                 "lose": 8,
                 "goals": {
                   "for": 8,

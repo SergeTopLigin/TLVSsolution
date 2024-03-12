@@ -15251,8 +15251,8 @@
         "date": "2024-03-11T20:15:00+00:00",
         "timestamp": 1710188100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710188100,
+          "second": 1710191700
         },
         "venue": {
           "id": 2811,
@@ -15260,9 +15260,9 @@
           "city": "Barcelos"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15289,17 +15289,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,

@@ -18379,8 +18379,8 @@
         "date": "2024-03-11T20:00:00+00:00",
         "timestamp": 1710187200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710187200,
+          "second": 1710190800
         },
         "venue": {
           "id": 19216,
@@ -18388,9 +18388,9 @@
           "city": "Almería"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18417,17 +18417,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -21436,8 +21436,8 @@
         "id": 1038267,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-21T19:00:00+00:00",
+        "timestamp": 1713726000,
         "periods": {
           "first": null,
           "second": null
@@ -21448,8 +21448,8 @@
           "city": "Madrid"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },

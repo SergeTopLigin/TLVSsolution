@@ -389,29 +389,29 @@
                 "logo": "https://media.api-sports.io/football/teams/487.png"
               },
               "points": 40,
-              "goalsDiff": 3,
+              "goalsDiff": 2,
               "group": "Serie A",
-              "form": "LLWLW",
+              "form": "LLLWL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 12,
                 "draw": 4,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
-                  "for": 32,
-                  "against": 29
+                  "for": 33,
+                  "against": 31
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 6,
                 "draw": 3,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
-                  "for": 13,
-                  "against": 10
+                  "for": 14,
+                  "against": 12
                 }
               },
               "away": {
@@ -564,6 +564,51 @@
             {
               "rank": 13,
               "team": {
+                "id": 494,
+                "name": "Udinese",
+                "logo": "https://media.api-sports.io/football/teams/494.png"
+              },
+              "points": 27,
+              "goalsDiff": -14,
+              "group": "Serie A",
+              "form": "WDLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 4,
+                "draw": 15,
+                "lose": 9,
+                "goals": {
+                  "for": 28,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 1,
+                "draw": 9,
+                "lose": 4,
+                "goals": {
+                  "for": 17,
+                  "against": 21
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 3,
+                "draw": 6,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 21
+                }
+              },
+              "update": "2024-03-11T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
                 "id": 504,
                 "name": "Verona",
                 "logo": "https://media.api-sports.io/football/teams/504.png"
@@ -607,7 +652,7 @@
               "update": "2024-03-11T00:00:00+00:00"
             },
             {
-              "rank": 14,
+              "rank": 15,
               "team": {
                 "id": 490,
                 "name": "Cagliari",
@@ -652,7 +697,7 @@
               "update": "2024-03-11T00:00:00+00:00"
             },
             {
-              "rank": 15,
+              "rank": 16,
               "team": {
                 "id": 867,
                 "name": "Lecce",
@@ -697,7 +742,7 @@
               "update": "2024-03-11T00:00:00+00:00"
             },
             {
-              "rank": 16,
+              "rank": 17,
               "team": {
                 "id": 511,
                 "name": "Empoli",
@@ -737,51 +782,6 @@
                 "goals": {
                   "for": 13,
                   "against": 23
-                }
-              },
-              "update": "2024-03-11T00:00:00+00:00"
-            },
-            {
-              "rank": 17,
-              "team": {
-                "id": 494,
-                "name": "Udinese",
-                "logo": "https://media.api-sports.io/football/teams/494.png"
-              },
-              "points": 24,
-              "goalsDiff": -15,
-              "group": "Serie A",
-              "form": "DLDWD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 27,
-                "win": 3,
-                "draw": 15,
-                "lose": 9,
-                "goals": {
-                  "for": 26,
-                  "against": 41
-                }
-              },
-              "home": {
-                "played": 14,
-                "win": 1,
-                "draw": 9,
-                "lose": 4,
-                "goals": {
-                  "for": 17,
-                  "against": 21
-                }
-              },
-              "away": {
-                "played": 13,
-                "win": 2,
-                "draw": 6,
-                "lose": 5,
-                "goals": {
-                  "for": 9,
-                  "against": 20
                 }
               },
               "update": "2024-03-11T00:00:00+00:00"
