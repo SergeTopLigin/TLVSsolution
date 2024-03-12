@@ -18720,7 +18720,7 @@
         "timestamp": 1710186300,
         "periods": {
           "first": 1710186300,
-          "second": null
+          "second": 1710189900
         },
         "venue": {
           "id": 910,
@@ -18728,9 +18728,9 @@
           "city": "Roma"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 5
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18747,18 +18747,18 @@
           "id": 487,
           "name": "Lazio",
           "logo": "https://media.api-sports.io/football/teams/487.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 494,
           "name": "Udinese",
           "logo": "https://media.api-sports.io/football/teams/494.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -18766,8 +18766,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
