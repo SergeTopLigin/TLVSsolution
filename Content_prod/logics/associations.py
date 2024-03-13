@@ -82,8 +82,8 @@ try:    # обработка исключений для определения 
     # сортировка словаря рейтинга ассоциаций по убыванию рейтинга
     Association_rating = dict(sorted(Association_rating.items(), key=lambda x: x[1].get("rating"), reverse=True))   
 
-    # формирование .json из словаря final_standings
-    # и выгрузка final_standings.json в репо и на runner: /sub_results
+    # формирование .json из словаря Association_rating
+    # и выгрузка Association_rating.json в репо и на runner: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
     gh_push(str(mod_name), 'sub_results', 'associations.json', Association_rating)
