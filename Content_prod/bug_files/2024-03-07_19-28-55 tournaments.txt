@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/tournaments.py", line 284, in <module>
-    if DateNow >= PrevCupInfluence(file_content):  # если после финала прошло 150 дней и больше
-TypeError: '>=' not supported between instances of 'datetime.datetime' and 'str'

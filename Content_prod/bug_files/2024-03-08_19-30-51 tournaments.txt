@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/tournaments.py", line 362, in <module>
-    with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+fixtures_file.replace('curr', 'prev'), 'r') as f:
-FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/cache/answers/fixtures/ENG Cup 23-24 prev.json'

@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/UEFAtournaments_club_set.py", line 18, in UEFAtournaments_club_set
-    os.mkdir('cache')   # создание временного каталога
-FileExistsError: [Errno 17] File exists: 'cache'

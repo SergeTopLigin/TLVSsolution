@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/tournaments.py", line 254, in <module>
-    if tourn[0].find("League") != -1 or tourn[0].find("Cup") != -1: # из нац турниров
-IndexError: string index out of range

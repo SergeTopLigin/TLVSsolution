@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/league_files.py", line 33, in league_files
-    if time_now < next_match_time:
-TypeError: '<' not supported between instances of 'datetime.datetime' and 'int'
