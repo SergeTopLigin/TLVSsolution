@@ -1595,7 +1595,7 @@
       "timestamp": 1710371400,
       "date": "2024-03-13 23:10:00"
     },
-    "rating": 0.35,
+    "rating": 0.36,
     "club_set": [
       {
         "name": "Lyon",
@@ -1626,7 +1626,7 @@
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.15
+        "rating": 1.18
       },
       {
         "name": "Nice",

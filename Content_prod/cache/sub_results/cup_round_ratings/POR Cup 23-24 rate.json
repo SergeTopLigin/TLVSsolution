@@ -1223,17 +1223,17 @@
       "timestamp": 1712163600,
       "date": "2024-04-03 17:00:00"
     },
-    "rating": 0.76,
+    "rating": 0.75,
     "club_set": [
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.64
+        "rating": -0.63
       },
       {
         "name": "Benfica",
         "id": 211,
-        "rating": -0.02
+        "rating": -0.03
       },
       {
         "name": "Guimaraes",
@@ -1242,7 +1242,7 @@
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.1
+        "rating": 0.07
       }
     ]
   }
