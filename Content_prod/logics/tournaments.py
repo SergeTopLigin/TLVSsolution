@@ -458,8 +458,12 @@ try:    # обработка исключений для определения 
     for ass in tournaments:
         tournaments_str += tournaments[ass]['as_short'] + '\n'
         for tourn in tournaments[ass]['tournaments']:
-            tournaments_str += "      {0:20}  {1:>2}"\
-            .format(tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
+            if tourn != 'TopLiga':
+                tournaments_str += "      {0} {1:20}  {2:>2}"\
+                .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
+            elif tourn == 'TopLiga':
+                tournaments_str += "      {0:26}  {1:>2}"\
+                .format(tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
     tournaments_str = tournaments_str[:-1]
 
     # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
