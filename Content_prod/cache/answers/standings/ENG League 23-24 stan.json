@@ -64,7 +64,7 @@
                   "against": 11
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -109,7 +109,7 @@
                   "against": 14
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -154,7 +154,7 @@
                   "against": 16
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -199,7 +199,7 @@
                   "against": 22
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -244,7 +244,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -289,7 +289,7 @@
                   "against": 19
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -334,7 +334,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -379,7 +379,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 9,
@@ -424,7 +424,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -469,7 +469,7 @@
                   "against": 32
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -514,7 +514,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -559,7 +559,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -568,30 +568,30 @@
                 "name": "Bournemouth",
                 "logo": "https://media.api-sports.io/football/teams/35.png"
               },
-              "points": 32,
-              "goalsDiff": -12,
+              "points": 35,
+              "goalsDiff": -11,
               "group": "Premier League",
-              "form": "DWLDL",
+              "form": "WDWLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
-                "win": 8,
+                "played": 28,
+                "win": 9,
                 "draw": 8,
                 "lose": 11,
                 "goals": {
-                  "for": 37,
-                  "against": 49
+                  "for": 41,
+                  "against": 52
                 }
               },
               "home": {
-                "played": 13,
-                "win": 3,
+                "played": 14,
+                "win": 4,
                 "draw": 5,
                 "lose": 5,
                 "goals": {
-                  "for": 14,
-                  "against": 20
+                  "for": 18,
+                  "against": 23
                 }
               },
               "away": {
@@ -604,7 +604,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -649,7 +649,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -694,7 +694,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -739,7 +739,7 @@
                   "against": 21
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -784,7 +784,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -794,19 +794,19 @@
                 "logo": "https://media.api-sports.io/football/teams/1359.png"
               },
               "points": 21,
-              "goalsDiff": -17,
+              "goalsDiff": -18,
               "group": "Premier League",
-              "form": "DLLLL",
+              "form": "LDLLL",
               "status": "same",
               "description": "Relegation - Championship",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 5,
                 "draw": 6,
-                "lose": 16,
+                "lose": 17,
                 "goals": {
-                  "for": 38,
-                  "against": 55
+                  "for": 41,
+                  "against": 59
                 }
               },
               "home": {
@@ -820,16 +820,16 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 2,
                 "draw": 4,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
-                  "for": 17,
-                  "against": 30
+                  "for": 20,
+                  "against": 34
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 19,
@@ -874,7 +874,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             },
             {
               "rank": 20,
@@ -919,7 +919,7 @@
                   "against": 32
                 }
               },
-              "update": "2024-03-11T00:00:00+00:00"
+              "update": "2024-03-13T00:00:00+00:00"
             }
           ]
         ]
