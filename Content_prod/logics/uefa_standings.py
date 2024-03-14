@@ -64,14 +64,15 @@ try:    # обработка исключений для определения 
         for club in UEFA50:
             find_club = 0
             for file in dir_standings:
-                with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
-                    standings_dict = json.load(f)
-                for f_club in standings_dict["response"][0]["league"]["standings"][0]:
-                    if f_club["team"]["name"] == club:
-                        find_club = 1
+                if 'json' in file:
+                    with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
+                        standings_dict = json.load(f)
+                    for f_club in standings_dict["response"][0]["league"]["standings"][0]:
+                        if f_club["team"]["name"] == club:
+                            find_club = 1
+                            break
+                    if find_club == 1:
                         break
-                if find_club == 1:
-                    break
             if find_club == 0:
                 # отправка bug_file в репозиторий GitHub и на почту
                 message = \
@@ -113,16 +114,17 @@ try:    # обработка исключений для определения 
         for club in uefa_standings:
             find_club = 0
             for file in dir_standings:
-                with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
-                    standings_dict = json.load(f)
-                for f_club in standings_dict["response"][0]["league"]["standings"][0]:
-                    if f_club["team"]["name"] == club:
-                        uefa_standings_upg[club] = {'IDapi': f_club["team"]["id"], 'nat': file[:3], \
-                        'TL_rank': uefa_standings[club][0], 'visual_rank': uefa_standings[club][1]}
-                        find_club = 1
+                if 'json' in file:
+                    with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
+                        standings_dict = json.load(f)
+                    for f_club in standings_dict["response"][0]["league"]["standings"][0]:
+                        if f_club["team"]["name"] == club:
+                            uefa_standings_upg[club] = {'IDapi': f_club["team"]["id"], 'nat': file[:3], \
+                            'TL_rank': uefa_standings[club][0], 'visual_rank': uefa_standings[club][1]}
+                            find_club = 1
+                            break
+                    if find_club == 1:
                         break
-                if find_club == 1:
-                    break
 
         # формирование .json из словаря TL-standings
         # и выгрузка uefa_standings.json в репо и на runner: /sub_results
