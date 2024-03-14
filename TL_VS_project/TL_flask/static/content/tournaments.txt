@@ -10,10 +10,10 @@ ENG
       League Cup             1
 ESP
       La Liga                4
-ITA
-      Serie A                4
 GER
       Bundesliga             4
+ITA
+      Serie A                4
 POR
       Primeira Liga          1
 FRA
