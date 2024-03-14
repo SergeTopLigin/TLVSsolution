@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/uefa_standings.py", line 68, in <module>
+    standings_dict = json.load(f)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
