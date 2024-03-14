@@ -5935,7 +5935,7 @@
       "timestamp": 1710700200,
       "date": "2024-03-17 18:30:00"
     },
-    "rating": 1.17,
+    "rating": 1.16,
     "club_set": [
       {
         "name": "Wolves",
@@ -5957,7 +5957,7 @@
       {
         "name": "Chelsea",
         "id": 49,
-        "rating": 0.71
+        "rating": 0.65
       },
       {
         "name": "Leicester",
@@ -5966,7 +5966,7 @@
       {
         "name": "Manchester United",
         "id": 33,
-        "rating": 0.58
+        "rating": 0.53
       },
       {
         "name": "Liverpool",
