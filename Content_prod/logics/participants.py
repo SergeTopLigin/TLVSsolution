@@ -86,36 +86,34 @@ try:    # обработка исключений для определения 
         rank += 1
         if rank == 10:  break
 
-
-    # формирование .json из словаря Association_rating
-    # и выгрузка Association_rating.json в репо и на runner: /sub_results
+    # формирование participants.json из словаря tournaments
+    # и выгрузка participants.json в репо и на runner: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
     from modules.gh_push import gh_push
-    gh_push(str(mod_name), 'sub_results', 'associations.json', Association_rating)
+    gh_push(str(mod_name), 'sub_results', 'participants.json', tournaments)
     from modules.runner_push import runner_push
-    runner_push(str(mod_name), 'sub_results', 'associations.json', Association_rating)
+    runner_push(str(mod_name), 'sub_results', 'participants.json', tournaments)
 
     # формирование строки из словаря в читабельном виде
-    from modules.country_codes import country_codes
-    country_codes = country_codes()
     # github принимает только str для записи в файл
-    ass_rate_quota_str = "{0:>23}  {1:}".format('quota', 'rating') + '\n'  # шапка таблицы
-    rank = 1
-    for ass in Association_rating:
-        if ass == "UEFA":       ass_name = "UEFA"
-        elif ass == "TopLiga":  ass_name = "TopLiga"
-        # изменение кодов стран на их имена
-        else: ass_name = str([country_codes[country_codes.index(elem)]['name'] \
-            for elem in country_codes if ass in elem['fifa']])[2:-2]
-        ass_rate_quota_str += "{0:>2}  {1:15}  {3:>2}  {2:5.2f}"\
-        .format(str(rank), ass_name, Association_rating[ass]["rating"], Association_rating[ass]["quota"])
-        if rank < len(Association_rating): ass_rate_quota_str += '\n'
-        rank += 1
+    participants_str = ""
+    for ass in tournaments:
+        participants_str += tournaments[ass]['as_short'] + '\n'
+        for tourn in tournaments[ass]['tournaments']:
+            if tourn != 'TopLiga':
+                participants_str += "      {0} {1:20}"\
+                .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name']) + '\n'
+            elif tourn == 'TopLiga':
+                participants_str += "      {0:26}"\
+                .format(tournaments[ass]['tournaments'][tourn]['name']) + '\n'
+            for club in tournaments[ass]['tournaments'][tourn]['participants']:
+                participants_str += ' '*20 + club['club'] + '\n'
+    participants_str = participants_str[:-1]
 
     # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
-    gh_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
-    runner_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
-    gh_push(str(mod_name), 'content_commits', 'associations.txt', ass_rate_quota_str)
+    gh_push(str(mod_name), 'content', 'participants.txt', participants_str)
+    runner_push(str(mod_name), 'content', 'participants.txt', participants_str)
+    gh_push(str(mod_name), 'content_commits', 'participants.txt', participants_str)
 
 except: 
 

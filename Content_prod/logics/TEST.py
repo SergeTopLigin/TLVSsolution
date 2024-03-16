@@ -50,4 +50,22 @@ for club in standings:
     # tournaments['TopLiga']['tournaments']['TopLiga']['participants'][rank]['id'] = standings[club]['IDapi']
     rank += 1
     if rank == 10:  break
-print(json.dumps(tournaments, skipkeys=True, ensure_ascii=False, indent=2))
+# print(json.dumps(tournaments, skipkeys=True, ensure_ascii=False, indent=2))
+
+# формирование строки из словаря в читабельном виде
+# github принимает только str для записи в файл
+participants_str = ""
+for ass in tournaments:
+    participants_str += tournaments[ass]['as_short'] + '\n'
+    for tourn in tournaments[ass]['tournaments']:
+        if tourn != 'TopLiga':
+            participants_str += "      {0} {1:20}"\
+            .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name']) + '\n'
+        elif tourn == 'TopLiga':
+            participants_str += "      {0:26}"\
+            .format(tournaments[ass]['tournaments'][tourn]['name']) + '\n'
+            for club in tournaments[ass]['tournaments'][tourn]['participants']:
+                participants_str += ' '*20 + club['club'] + '\n'
+participants_str = participants_str[:-1]
+
+print(participants_str)

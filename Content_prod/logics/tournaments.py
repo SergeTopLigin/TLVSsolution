@@ -456,7 +456,6 @@ try:    # обработка исключений для определения 
     # формирование строки из словаря в читабельном виде
     # github принимает только str для записи в файл
     tournaments_str = "{0:>36}".format('quota') + '\n'  # шапка таблицы
-    rank = 1
     for ass in tournaments:
         tournaments_str += tournaments[ass]['as_short'] + '\n'
         for tourn in tournaments[ass]['tournaments']:
