@@ -44,6 +44,7 @@ try:    # обработка исключений для определения 
                 UEFA_tourn_club_set.append([league, str(DateNow.year-1)+"-"+str(DateNow.year), "group set"])
             else:
                 UEFA_tourn_club_set.append([league, str(DateNow.year-1)+"-"+str(DateNow.year), "playoff set"])
+    # UEFA_tourn_club_set = [league("UCL", "UEL", "UECL"), season YYYY-YYYY, set('group', 'playoff')]
     # определение наличия необходимого файла или необходимости api-запроса
     import os
     from modules.UEFAtournaments_club_set import UEFAtournaments_club_set
@@ -114,6 +115,7 @@ try:    # обработка исключений для определения 
         UEFA_tourn_club_set_ID[str(UEFA_tourn_club_set[i][0]+" "+UEFA_tourn_club_set[i][1]+" "+UEFA_tourn_club_set[i][2])] =\
         LegueClubSetID
         i += 1
+        # LegueClubSetID = {club_set:[id]}
 
     # UEFA Tournament rating = total club set SUM(pts+1.2) in TL standigs / Number of clubs in the set
     # определение UEFA tournaments rating
@@ -453,7 +455,7 @@ try:    # обработка исключений для определения 
 
     # формирование строки из словаря в читабельном виде
     # github принимает только str для записи в файл
-    tournaments_str = "{0:>30}".format('quota') + '\n'  # шапка таблицы
+    tournaments_str = "{0:>36}".format('quota') + '\n'  # шапка таблицы
     rank = 1
     for ass in tournaments:
         tournaments_str += tournaments[ass]['as_short'] + '\n'

@@ -1,47 +1,53 @@
 import os
 import json
-from modules.nat_tournaments import Nat_Tournaments
-from modules.country_codes import country_codes
-
 with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/tournaments.json', 'r') as j:
-    tournaments = json.load(j) # {ass: {rating: , quota: }} 
-country_codes = country_codes()
-Nat_Tournaments = Nat_Tournaments()
-# # {as_short:{'as_short': , 'as_full': , 'tournaments': {tytle:{'tytle': , 'season': , 'quota': , 'id': , 'type': , 'name': }}}}
-# tournaments = {}
-# for ass_n in Ass_TournRateQuot:
-#     # as_short
-#     if ass_n == 'TopLiga':      short = 'TL'
-#     else:                       short = ass_n
-#     # as_full
-#     if ass_n == 'UEFA':         full = 'UEFA'
-#     elif ass_n == 'TopLiga':    full = 'TopLiga'
-#     else:                       full = [country_codes[country_codes.index(elem)]['name'] for elem in country_codes if ass_n in elem['fifa']][0]
-#     # tournaments
-#     tourns = {}
-#     for tourn in Ass_TournRateQuot[ass_n]:
-#         if tourn[3] > 0:
-#             # tourn name
-#             if tourn[0] == 'UCL':       name = 'Champions League'
-#             elif tourn[0] == 'UEL':     name = 'Europa League'
-#             elif tourn[0] == 'UECL':    name = 'Conference League'
-#             elif tourn[0] == 'TopLiga': name = 'TopLiga'
-#             else:       name = [Nat_Tournaments[ass_n][Nat_Tournaments[ass_n].index(elem)][2] for elem in Nat_Tournaments[ass_n] if tourn[0] in elem[0]][0]
-#             tourns[tourn[0]] = {'tytle': tourn[0], 'season': tourn[1], 'quota': tourn[3], 'id': tourn[4], 'type': tourn[5], 'name': name}
-#     tournaments[ass_n] = {'as_short': short, 'as_full': full, 'tournaments': tourns}
+    tournaments = json.load(j)
 
-# формирование строки из словаря в читабельном виде
-# github принимает только str для записи в файл
-tournaments_str = "{0:>36}".format('quota') + '\n'  # шапка таблицы
-rank = 1
-for ass in tournaments:
-    tournaments_str += tournaments[ass]['as_short'] + '\n'
-    for tourn in tournaments[ass]['tournaments']:
-        if tourn != 'TopLiga':
-            tournaments_str += "      {0} {1:20}  {2:>2}"\
-            .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
-        elif tourn == 'TopLiga':
-            tournaments_str += "      {0:26}  {1:>2}"\
-            .format(tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
-tournaments_str = tournaments_str[:-1]
-print(tournaments_str)
+# # if 'UEFA' in tournaments:
+# #     for tourn in tournaments['UEFA']['tournaments']:
+# #         print(tourn)
+
+# # dir_sets = os.listdir((os.path.abspath(__file__))[:-15]+'/cache/sub_results/club_sets')
+# dir_sets = ['UCL 2023-2024 playoff set.txt', 'UCL 2023-2024 group set.txt']
+# # print([file_name for file_name in dir_sets if 'UCL' in file_name and '2023-2024' in file_name])
+
+# if 'UEFA' in tournaments:
+#     for tourn in tournaments['UEFA']['tournaments']:
+#         season = tournaments['UEFA']['tournaments'][tourn]['season']
+#         set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
+#         file_set = [file_name for file_name in dir_sets if tourn in file_name and set_season in file_name]
+#         for file_name in file_set:
+#             if 'playoff' in file_name:
+#                 print(tourn, season, 'playoff')
+#                 # tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_playoff(tourn, season, quota)
+#             else:   # турнир CURR на групповой стадии, его участники CURR по uefa tourn season group set
+#                 prev_season = str(int(season[:2])-1) + '-' + str(int(season[3:])-1)
+#                 prev_quota = 0
+#                 if prev_season in [tournaments['UEFA']['tournaments'][tournP]['season'] for tournP in tournaments['UEFA']['tournaments'] \
+#                     if tournaments['UEFA']['tournaments'][tournP]['tytle'] == tournaments['UEFA']['tournaments'][tourn]['tytle']]:
+#                     prev_quota = [tournaments['UEFA']['tournaments'][tournP]['quota'] for tournP in tournaments['UEFA']['tournaments'] \
+#                         if tournaments['UEFA']['tournaments'][tournP]['tytle'] == tournaments['UEFA']['tournaments'][tourn]['tytle'] \
+#                         and tournaments['UEFA']['tournaments'][tournP]['season'] == prev_season][0]
+#                 # prev = participants_uefa_playoff(tourn, prev_season, prev_quota)   # список участников турнира PREV
+#                 # tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_group(tourn, season, quota, prev)
+#                 print(prev_quota)
+
+# from modules.country_codes import country_codes
+# country_codes = country_codes()
+# for ass in tournaments:
+#     if ass in [country['fifa'] for country in country_codes if ass == country['fifa']]:
+#         print(ass)
+
+
+
+# TL participants
+with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/final_standings.json', 'r') as j:
+    standings = json.load(j)
+tournaments['TopLiga']['tournaments']['TopLiga']['participants'] = []
+rank = 0
+for club in standings:
+    tournaments['TopLiga']['tournaments']['TopLiga']['participants'].append({'club': club, 'id': standings[club]['IDapi']})
+    # tournaments['TopLiga']['tournaments']['TopLiga']['participants'][rank]['id'] = standings[club]['IDapi']
+    rank += 1
+    if rank == 10:  break
+print(json.dumps(tournaments, skipkeys=True, ensure_ascii=False, indent=2))
