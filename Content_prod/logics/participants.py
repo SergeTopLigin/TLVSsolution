@@ -8,7 +8,7 @@
     # nat cup season [quota, prev_list]
 # main:
     # вызов модулей, передавая квоту
-    # при вызове модуля сезона curr передает еще список участников prev для исключения дублирования
+    # при вызове модуля сезона curr передает еще список участников prev (всех турниров УЕФА или конкретного нац турнира) для исключения дублирования
     # формирует словарь participants.json = tournaments.json + {participants: [{club: , id: }]}
 
 try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
@@ -31,6 +31,7 @@ try:    # обработка исключений для определения 
         # участники CURR из uefa tourn season group set
         # участники PREV из uefa tourn prev season playoff set, если он есть
     if 'UEFA' in tournaments:
+        prev = []   # список участников турниров PREV (участники playoff set всех турниров УЕФА), используется во время групповой стадии следующего сезона
         dir_sets = os.listdir((os.path.abspath(__file__))[:-23]+'/cache/sub_results/club_sets')
         for tourn in tournaments['UEFA']['tournaments']:
             season = tournaments['UEFA']['tournaments'][tourn]['season']
@@ -40,18 +41,38 @@ try:    # обработка исключений для определения 
             for file_name in file_set:
                 if 'playoff' in file_name:  # турнир CURR на стадии playoff или турнир PREV, его участники CURR/PREV по uefa tourn season playoff set
                     tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_playoff(tourn, season, quota)
-                else:   # турнир CURR на групповой стадии, его участники CURR по uefa tourn season group set
-                    # предварительно определить участников из playoff турнира PREV
-                    prev = []   # список участников турнира PREV
-                    prev_season = str(int(season[:2])-1) + '-' + str(int(season[3:])-1)
-                    # если в tournaments есть турнир PREV
-                    if prev_season in [tournaments['UEFA']['tournaments'][tournP]['season'] for tournP in tournaments['UEFA']['tournaments'] \
-                    if tournaments['UEFA']['tournaments'][tournP]['tytle'] == tournaments['UEFA']['tournaments'][tourn]['tytle']]:
-                        prev_quota = [tournaments['UEFA']['tournaments'][tournP]['quota'] for tournP in tournaments['UEFA']['tournaments'] \
-                            if tournaments['UEFA']['tournaments'][tournP]['tytle'] == tournaments['UEFA']['tournaments'][tourn]['tytle'] \
-                            and tournaments['UEFA']['tournaments'][tournP]['season'] == prev_season][0]
-                        prev = participants_uefa_playoff(tourn, prev_season, prev_quota)   # список участников турнира PREV
+                    for club in tournaments['UEFA']['tournaments'][tourn]['participants']:
+                        prev.append(club)
+        for tourn in tournaments['UEFA']['tournaments']:
+            season = tournaments['UEFA']['tournaments'][tourn]['season']
+            quota = tournaments['UEFA']['tournaments'][tourn]['quota']
+            set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
+            file_set = [file_name for file_name in dir_sets if tourn in file_name and set_season in file_name]
+            for file_name in file_set:
+                if 'group' in file_name:  # турнир CURR на групповой стадии, его участники CURR по uefa tourn season group set
                     tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_group(tourn, season, quota, prev)
+    # if 'UEFA' in tournaments:
+    #     dir_sets = os.listdir((os.path.abspath(__file__))[:-23]+'/cache/sub_results/club_sets')
+    #     for tourn in tournaments['UEFA']['tournaments']:
+    #         season = tournaments['UEFA']['tournaments'][tourn]['season']
+    #         quota = tournaments['UEFA']['tournaments'][tourn]['quota']
+    #         set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
+    #         file_set = [file_name for file_name in dir_sets if tourn in file_name and set_season in file_name]
+    #         for file_name in file_set:
+    #             if 'playoff' in file_name:  # турнир CURR на стадии playoff или турнир PREV, его участники CURR/PREV по uefa tourn season playoff set
+    #                 tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_playoff(tourn, season, quota)
+    #             else:   # турнир CURR на групповой стадии, его участники CURR по uefa tourn season group set
+    #                 # предварительно определить участников из playoff турнира PREV
+    #                 prev = []   # список участников турнира PREV
+    #                 prev_season = str(int(season[:2])-1) + '-' + str(int(season[3:])-1)
+    #                 # если в tournaments есть турнир PREV
+    #                 if prev_season in [tournaments['UEFA']['tournaments'][tournP]['season'] for tournP in tournaments['UEFA']['tournaments'] \
+    #                 if tournaments['UEFA']['tournaments'][tournP]['tytle'] == tournaments['UEFA']['tournaments'][tourn]['tytle']]:
+    #                     prev_quota = [tournaments['UEFA']['tournaments'][tournP]['quota'] for tournP in tournaments['UEFA']['tournaments'] \
+    #                         if tournaments['UEFA']['tournaments'][tournP]['tytle'] == tournaments['UEFA']['tournaments'][tourn]['tytle'] \
+    #                         and tournaments['UEFA']['tournaments'][tournP]['season'] == prev_season][0]
+    #                     prev = participants_uefa_playoff(tourn, prev_season, prev_quota)   # список участников турнира PREV
+    #                 tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_group(tourn, season, quota, prev)
 
     # Nat participants
     from modules.country_codes import country_codes
