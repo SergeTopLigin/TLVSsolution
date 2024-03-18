@@ -7,12 +7,19 @@
     # 4. random
 # if tourn N curr.season participant == UCL/UEL/UECL tourn prev.season participant => next tourn N curr.season participant
 
+# определение участников происходит по standings 
+# для актуализации standings необходим актуальный fixtures
+
 def participants_uefa_group(tourn, season, quota, prev):
     # tourn = tournaments.json['UEFA']['tournaments'][tourn]['tytle']
     # season = tournaments.json['UEFA']['tournaments'][tourn]['season']
     # quota = tournaments.json['UEFA']['tournaments'][tourn]['quota']
     # prev = список участников турниров УЕФА PREV playoff = [{club: , id: }, ...]
+
     try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
+
+        # если файла нет - определить по TL standings (3 критерий)
+        # если для сезона curr турнира есть рейтинг, но он еще не начался (results = 0): определение участников по TL standings (3 критерий)
 
 
 
