@@ -5,8 +5,9 @@
 # для актуализации standings на групповой стадии необходим актуальный fixtures
 # для актуализации fixtures следует делать запросы fixtures по окончании ближайшего несыгранного матча (не чаще)
 # если по api запросу results != 0 - сохранить файл лиги, иначе - pass
-def uefa_tourn_files(Tourn, Season, LeagueID):     # Tourn должен соответствовать названию турнира в ("UCL", "UEL", "UECL")
+def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен соответствовать названию турнира в ("UCL", "UEL", "UECL")
                                                                 # Season = YY-YY (как в названии файла)
+                                                                # Stage = 'group' / 'playoff'
     try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
         import os   # импорт модуля работы с каталогами
@@ -22,7 +23,7 @@ def uefa_tourn_files(Tourn, Season, LeagueID):     # Tourn должен соот
             if League_file.find(Tourn) != -1 and League_file.find(Season) != -1:
                 with open((os.path.abspath(__file__))[:-35]+'/cache/answers/fixtures/'+League_file, 'r', encoding='utf-8') as f:
                     fixtures_dict = json.load(f)
-                # если наступило время окончания следующего несыгранного матча - обновить fixtures
+                # если наступило время окончания следующего несыгранного матча и сезон не закончен - обновить fixtures
                 time_now = datetime.datetime.utcnow()    # текущее время UTC
                 # определение окончания самого раннего матча при status short in ['NS', '1H', 'HT', '2H', 'ET', 'BT', 'P', 'INT']
                 next_match_time = 4000000000
@@ -31,7 +32,7 @@ def uefa_tourn_files(Tourn, Season, LeagueID):     # Tourn должен соот
                     and (match['fixture']['timestamp'] < next_match_time):
                         next_match_time = match['fixture']['timestamp']
                 next_match_time += 8000
-                if time_now < datetime.datetime.utcfromtimestamp(next_match_time):
+                if time_now < datetime.datetime.utcfromtimestamp(next_match_time) or next_match_time > 4000000000:
                     find_fixtures = 1
 
         # если fixtures турнира нет или время окончания ближайшего несыгранного матча пришло
@@ -47,6 +48,7 @@ def uefa_tourn_files(Tourn, Season, LeagueID):     # Tourn должен соот
                 runner_push(str(mod_name), 'fixtures', file_name, answer_dict)
             
             # если вызов из групповой стадии - обновить standings
+            if Stage == 'group':
             answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
             # если 'results' != 0 - сохранить standings
             answer_dict = json.loads(answer)
