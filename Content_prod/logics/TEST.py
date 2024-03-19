@@ -15,11 +15,15 @@ with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/final_standings.
 
 participants = []
 
+season = '23-24'
+tourn = 'UCL'
+quota = 11
+
 set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
 LeagueClubSetID = []    # создание списка id из файла UefaTournamentClubSet
-dir_sets = os.listdir((os.path.abspath(__file__))[:-42]+'/cache/sub_results/club_sets')
-set_file = [file_name for file_name in dir_sets if tourn in file_name and set_season in file_name and 'group' in file_name][0]
-with open((os.path.abspath(__file__))[:-42]+'/cache/sub_results/club_sets/'+set_file, 'r') as f:
+dir_sets = os.listdir((os.path.abspath(__file__))[:-15]+'/cache/sub_results/club_sets')
+set_file = [file_name for file_name in dir_sets if tourn in file_name and set_season in file_name and 'playoff' in file_name][0]
+with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/club_sets/'+set_file, 'r') as f:
     for line in f:  # цикл по строкам
         kursor = line.find('id:',0) +3    # переместить курсор перед искомой подстрокой
         end_substr = line.find('.',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
@@ -33,3 +37,5 @@ for club in standings:
 # учет 4-го критерия (рандом) при прочих равных
 last_participant = participants[-1]['club']
 random_list = [{'club': club, 'id': standings[club]['IDapi']} for club in standings if standings[club]['TL_rank'] == standings[last_participant]['TL_rank']]
+
+print(random_list)
