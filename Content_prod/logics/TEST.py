@@ -17,7 +17,7 @@ participants = []
 
 season = '23-24'
 tourn = 'UCL'
-quota = 11
+quota = 7
 
 set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
 LeagueClubSetID = []    # создание списка id из файла UefaTournamentClubSet
