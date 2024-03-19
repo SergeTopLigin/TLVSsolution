@@ -11,3 +11,4 @@ for club in standings:
 for rank in range(0, len(all_ranks)-2):
     if all_ranks[rank] == all_ranks[rank+1] and all_ranks[rank] not in same_ranks:
         same_ranks.append(all_ranks[rank])
+print(same_ranks)
