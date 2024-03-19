@@ -43,13 +43,14 @@ if len(random_list) > 0:
     for club in random_list:
         if club in participants:
             slots += 1
-    participants -= random_list
-    # fills = 0    # счётчик заполнений рандомом
-    # import random
-    # while fills < slots:
-        # fill_club = random.choice(random_list)
-        # participants.append(fill_club)
-        # random_list.remove(fill_club)
+            participants.remove(club)
+    fills = 0    # счётчик заполнений слотов рандомом
+    import random
+    while fills < slots:
+        fills += 1
+        fill_club = random.choice(random_list)
+        participants.append(fill_club)
+        random_list.remove(fill_club)
 
 print(participants)
 print(random_list)
