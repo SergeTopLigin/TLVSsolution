@@ -52,7 +52,7 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
                     participants.append({'club': club, 'id': standings[club]['IDapi']})
             # учет 4-го критерия (рандом) при прочих равных
             last_participant = participants[-1]['club']
-            random_list = [standings[club] for club in standings if standings[club]['TL_rank'] == standings[last_participant]]
+            random_list = [{'club': club, 'id': standings[club]['IDapi']} for club in standings if standings[club]['TL_rank'] == standings[last_participant]['TL_rank']]
 
 
 
