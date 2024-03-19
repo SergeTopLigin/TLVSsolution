@@ -29,7 +29,7 @@ jobs:
       - name: list current folder  # проверка загрузки
         run: ls
 
-      # tournaments
+      # TEST
       - run: pip install -r Content_prod/logics/requirements/req_PyGithub.txt
-      - name: Run script tournaments.py
-        run: python Content_prod/logics/tournaments.py
+      - name: Run script TEST.py
+        run: python Content_prod/logics/TEST.py
