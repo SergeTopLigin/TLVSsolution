@@ -47,7 +47,7 @@ try:    # обработка исключений для определения 
     # UEFA_tourn_club_set = [league("UCL", "UEL", "UECL"), season YYYY-YYYY, set('group', 'playoff')]
     # определение наличия необходимого файла или необходимости api-запроса
     import os
-    from modules.UEFAtournaments_club_set import UEFAtournaments_club_set
+    from modules.UEFAtournaments_club_set import UEFAtournaments_club_set    
     i = 0
     while i < len(UEFA_tourn_club_set):
         create_flag = 1    # флаг необходимости создания файла

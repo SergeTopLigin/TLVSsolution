@@ -36,21 +36,23 @@ try:    # обработка исключений для определения 
         for tourn in tournaments['UEFA']['tournaments']:
             season = tournaments['UEFA']['tournaments'][tourn]['season']
             quota = tournaments['UEFA']['tournaments'][tourn]['quota']
+            tourn_id = tournaments['UEFA']['tournaments'][tourn]['id']
             set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
             file_set = [file_name for file_name in dir_sets if tourn in file_name and set_season in file_name]
             for file_name in file_set:
                 if 'playoff' in file_name:  # турнир CURR на стадии playoff или турнир PREV, его участники CURR/PREV по uefa tourn season playoff set
-                    tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_playoff(tourn, season, quota)
+                    tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_playoff(tourn, tourn_id, season, quota)
                     for club in tournaments['UEFA']['tournaments'][tourn]['participants']:
                         prev.append(club)
         for tourn in tournaments['UEFA']['tournaments']:
             season = tournaments['UEFA']['tournaments'][tourn]['season']
             quota = tournaments['UEFA']['tournaments'][tourn]['quota']
+            tourn_id = tournaments['UEFA']['tournaments'][tourn]['id']
             set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
             file_set = [file_name for file_name in dir_sets if tourn in file_name and set_season in file_name]
             for file_name in file_set:
                 if 'group' in file_name:  # турнир CURR на групповой стадии, его участники CURR по uefa tourn season group set
-                    tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_group(tourn, season, quota, prev)
+                    tournaments['UEFA']['tournaments'][tourn]['participants'] = participants_uefa_group(tourn, tourn_id, season, quota, prev)
     # if 'UEFA' in tournaments:
     #     dir_sets = os.listdir((os.path.abspath(__file__))[:-23]+'/cache/sub_results/club_sets')
     #     for tourn in tournaments['UEFA']['tournaments']:
@@ -82,6 +84,7 @@ try:    # обработка исключений для определения 
             for tourn in tournaments[ass]['tournaments']:
                 season = tournaments[ass]['tournaments'][tourn]['season']
                 quota = tournaments[ass]['tournaments'][tourn]['quota']
+                tourn_id = tournaments['UEFA']['tournaments'][tourn]['id']
                 prev = []   # список участников турнира PREV
                 prev_season = str(int(season[:2])-1) + '-' + str(int(season[3:])-1)
                 # если в tournaments есть турнир PREV
@@ -92,10 +95,10 @@ try:    # обработка исключений для определения 
                         and tournaments[ass]['tournaments'][tournP]['season'] == prev_season][0]
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'League':
                     prev = participants_nat_league(tourn, prev_season, prev_quota)   # список участников турнира PREV
-                    tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_league(tourn, season, quota, prev)
+                    tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_league(tourn, tourn_id, season, quota, prev)
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'Cup':
                     prev = participants_nat_cup(tourn, prev_season, prev_quota)   # список участников турнира PREV
-                    tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_cup(tourn, season, quota, prev)
+                    tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_cup(tourn, tourn_id, season, quota, prev)
 
     # TL participants
     with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/final_standings.json', 'r') as j:

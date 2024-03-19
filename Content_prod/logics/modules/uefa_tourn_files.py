@@ -49,14 +49,14 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
             
             # если вызов из групповой стадии - обновить standings
             if Stage == 'group':
-            answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
-            # если 'results' != 0 - сохранить standings
-            answer_dict = json.loads(answer)
-            if answer_dict['results'] != 0:
-                mod_name = os.path.basename(__file__)[:-3]
-                file_name = Tourn+" "+Season+" stan.json"
-                gh_push(str(mod_name), 'standings', file_name, answer_dict)
-                runner_push(str(mod_name), 'standings', file_name, answer_dict)
+                answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
+                # если 'results' != 0 - сохранить standings
+                answer_dict = json.loads(answer)
+                if answer_dict['results'] != 0:
+                    mod_name = os.path.basename(__file__)[:-3]
+                    file_name = Tourn+" "+Season+" stan.json"
+                    gh_push(str(mod_name), 'standings', file_name, answer_dict)
+                    runner_push(str(mod_name), 'standings', file_name, answer_dict)
 
     except: 
 
