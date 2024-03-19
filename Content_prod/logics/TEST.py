@@ -36,7 +36,14 @@ for club in standings:
         participants.append({'club': club, 'id': standings[club]['IDapi']})
 # учет 4-го критерия (рандом) при прочих равных
 last_participant = participants[-1]['club']
+# список для рандома: из клубов, TL rank которых = TL rank последнего по квоте участника
 random_list = [{'club': club, 'id': standings[club]['IDapi']} for club in standings if standings[club]['TL_rank'] == standings[last_participant]['TL_rank']]
+if len(random_list) > 0:
+    slots = 0   # инициализация количества слотов в списке участников, занятых клубами с одинаковыми TL rank
+    for club in random_list:
+        if club in participants:
+            slots += 1
 
 print(participants)
 print(random_list)
+print(slots)
