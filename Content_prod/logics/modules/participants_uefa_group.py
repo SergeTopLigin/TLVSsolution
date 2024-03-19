@@ -24,6 +24,15 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
         with open((os.path.abspath(__file__))[:-42]+'/cache/sub_results/final_standings.json', 'r') as j:
             standings = json.load(j)
 
+        # подготовка учета 4-го критерия (рандом) при прочих равных
+        all_ranks = []
+        same_ranks = []     # список одинаковых рейтингов
+        for club in standings:
+            all_ranks.append(standings[club]['TL_rank'])
+        for rank in range(0, len(all_ranks)-2):
+            if all_ranks[rank] == all_ranks[rank+1] and all_ranks[rank] not in same_ranks:
+                same_ranks.append(all_ranks[rank])
+
         # актуализация fixtures и standings турнира
         from modules.uefa_tourn_files import uefa_tourn_files
         uefa_tourn_files(tourn, season, tourn_id, 'group')
@@ -50,9 +59,9 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
                 if standings[club]['IDapi'] in LeagueClubSetID and number < quota:
                     number += 1
                     # учет 4-го критерия (рандом) при прочих равных
-                    if standings[club]['TL_rank']
-                    
-                    participants.append({'club': club, 'id': standings[club]['IDapi']})
+                    if standings[club]['TL_rank'] not in same_ranks:
+                        participants.append({'club': club, 'id': standings[club]['IDapi']})
+                    else:
 
 
 
