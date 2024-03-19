@@ -38,4 +38,5 @@ for club in standings:
 last_participant = participants[-1]['club']
 random_list = [{'club': club, 'id': standings[club]['IDapi']} for club in standings if standings[club]['TL_rank'] == standings[last_participant]['TL_rank']]
 
+print(participants)
 print(random_list)
