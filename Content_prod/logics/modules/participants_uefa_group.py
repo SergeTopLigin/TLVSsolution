@@ -47,12 +47,26 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
                     LeagueClubSetID.append(int(line[kursor:end_substr]))
             number = 0
             for club in standings:
-                if standings[club]['IDapi'] in LeagueClubSetID and number < quota:
+                if standings[club]['IDapi'] in LeagueClubSetID and number < quota and club not in [prev_club['club'] for prev_club in prev]:
                     number += 1
                     participants.append({'club': club, 'id': standings[club]['IDapi']})
             # учет 4-го критерия (рандом) при прочих равных
             last_participant = participants[-1]['club']
+            # список для рандома: из клубов, TL rank которых = TL rank последнего по квоте участника
             random_list = [{'club': club, 'id': standings[club]['IDapi']} for club in standings if standings[club]['TL_rank'] == standings[last_participant]['TL_rank']]
+            if len(random_list) > 0:
+                slots = 0   # инициализация количества слотов в списке участников, занятых клубами с одинаковыми TL rank
+                for club in random_list:
+                    if club in participants:
+                        slots += 1
+                        participants.remove(club)
+                fills = 0    # счётчик заполнений слотов рандомом
+                import random
+                while fills < slots:
+                    fills += 1
+                    fill_club = random.choice(random_list)
+                    participants.append(fill_club)
+                    random_list.remove(fill_club)
 
 
 
