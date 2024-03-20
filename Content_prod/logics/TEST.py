@@ -17,8 +17,8 @@ participants = []
 
 season = '23-24'
 tourn = 'UCL'
-quota = 6
-prev = [{'club': 'Inter', 'id': 505}]
+quota = 5
+prev = [{'club': 'Inter', 'id': 505}, {'club': 'Real Madrid', 'id': 541}]
 
 set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
 LeagueClubSetID = []    # создание списка id из файла UefaTournamentClubSet
