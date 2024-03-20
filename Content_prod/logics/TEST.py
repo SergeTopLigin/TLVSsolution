@@ -32,7 +32,7 @@ with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/club_sets/'+set_
 
 number = 0
 for club in standings:
-    if standings[club]['IDapi'] in LeagueClubSetID and number < quota and club not in [prev[prev_club]['club'] for prev_club in prev]:
+    if standings[club]['IDapi'] in LeagueClubSetID and number < quota and club not in [prev_club['club'] for prev_club in prev]:
         number += 1
         participants.append({'club': club, 'id': standings[club]['IDapi']})
 # учет 4-го критерия (рандом) при прочих равных
