@@ -13,7 +13,7 @@ with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/final_standings.
 #     if all_ranks[rank] == all_ranks[rank+1] and all_ranks[rank] not in same_ranks:
 #         same_ranks.append(all_ranks[rank])
 # print(same_ranks)
-
+best_define = []
 participants = []
 
 season = '23-24'
