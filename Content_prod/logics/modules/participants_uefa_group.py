@@ -101,4 +101,5 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
         gh_push(str(mod_name), 'bug_files', 'bug_file', bug_info)
         from modules.bug_mail import bug_mail
         bug_mail(str(mod_name), bug_info)
-        return("pass")     # приводит к ожиданию следующего workflow для перерасчета этого кубка
+        
+        return([])
