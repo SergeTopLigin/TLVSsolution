@@ -19,6 +19,7 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
     try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
         participants = []   # результирующий список участников от турнира
+        best_define = []    # список с критериями определения лучших best_define = [{'club': , 'id': , 'pts/pl': , 'dif/pl': , 'TL_rank': , 'random_rank': }]
         import os
         import json
         import random
@@ -38,8 +39,6 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
                 break
         
         if file_find == 1:
-            # список с критериями определения лучших best_define = [{'club': , 'id': , 'pts/pl': , 'dif/pl': , 'TL_rank': , 'random_rank': }]
-            best_define = []
             for group in tourn_standings['response'][0]['league']['standings']:
                 for club in group:
                     club_name = club['team']['name']
