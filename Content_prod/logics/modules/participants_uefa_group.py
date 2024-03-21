@@ -59,8 +59,6 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
                     number += 1
                     participants.append({'club': club['club'], 'id': club['id']})
 
-        
-
         if file_find == 0:    # если файла нет - определить по TL standings (3 критерий) по /club_sets и random (4 критерий)
             set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
             LeagueClubSetID = []    # создание списка id из файла UefaTournamentClubSet
@@ -71,28 +69,21 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
                     kursor = line.find('id:',0) +3    # переместить курсор перед искомой подстрокой
                     end_substr = line.find('.',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
                     LeagueClubSetID.append(int(line[kursor:end_substr]))
+            for clubID in LeagueClubSetID:
+                club_name = [TL_club for TL_club in TL_standings if clubID == TL_standings[TL_club]['IDapi']][0]
+                club_id = clubID
+                if clubID in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings]:
+                    TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_standings[TL_club]['IDapi'] == clubID][0]
+                else:
+                    TL_rank = -5
+                random_rank = random.random()
+                best_define.append({'club': club_name, 'id': club_id, 'TL_rank': TL_rank, 'random_rank': random_rank})
+            best_define.sort(key=lambda crit: (crit['TL_rank'], crit['random_rank']), reverse=True)
             number = 0
-            for club in TL_standings:
-                if TL_standings[club]['IDapi'] in LeagueClubSetID and number < quota and club not in [prev_club['club'] for prev_club in prev]:
+            for club in best_define:
+                if number < quota and club['club'] not in [prev_club['club'] for prev_club in prev]:
                     number += 1
-                    participants.append({'club': club, 'id': TL_standings[club]['IDapi']})
-            # учет 4-го критерия (рандом) при прочих равных
-            last_participant = participants[-1]['club']
-            # список для рандома: из клубов, TL rank которых = TL rank последнего по квоте участника
-            random_list = [{'club': club, 'id': TL_standings[club]['IDapi']} for club in TL_standings if \
-            TL_standings[club]['TL_rank'] == TL_standings[last_participant]['TL_rank']]
-            if len(random_list) > 0:
-                slots = 0   # инициализация количества слотов в списке участников, занятых клубами с одинаковыми TL rank
-                for club in random_list:
-                    if club in participants:
-                        slots += 1
-                        participants.remove(club)
-                fills = 0    # счётчик заполнений слотов рандомом
-                while fills < slots:
-                    fills += 1
-                    fill_club = random.choice(random_list)
-                    participants.append(fill_club)
-                    random_list.remove(fill_club)
+                    participants.append({'club': club['club'], 'id': club['id']})
 
         return(participants)
 
