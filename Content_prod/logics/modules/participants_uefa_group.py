@@ -34,7 +34,7 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
         for tourn_file in os.listdir((os.path.abspath(__file__))[:-42]+'/cache/answers/standings'):
             if tourn in tourn_file and season in tourn_file:
                 file_find = 1
-                with open((os.path.abspath(__file__))[:-42]+'/cache/sub_results/'+tourn, 'r') as j:
+                with open((os.path.abspath(__file__))[:-42]+'/cache/answers/standings/'+tourn, 'r') as j:
                     tourn_standings = json.load(j)
                 break
         
