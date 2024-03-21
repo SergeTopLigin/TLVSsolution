@@ -32,45 +32,18 @@ with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/club_sets/'+set_
 
 for clubID in LeagueClubSetID:
     club_name = [TL_club for TL_club in TL_standings if clubID == TL_standings[TL_club]['IDapi']][0]
-                    club_id = club['team']['id']
-                    pts_pl = round(club['points'] / club['all']['played'], 2)
-                    dif_pl = round(club['goalsDiff'] / club['all']['played'], 2)
-                    if club['team']['name'] in TL_standings:
-                        TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club['team']['name']][0]
-                    else:
-                        TL_rank = -5
-                    random_rank = random.random()
-                    best_define.append({'club': club_name, 'id': club_id, 'pts/pl': pts_pl, 'dif/pl': dif_pl, 'TL_rank': TL_rank, 'random_rank': random_rank})
-            best_define.sort(key=lambda crit: (crit['pts/pl'], crit['dif/pl'], crit['TL_rank'], crit['random_rank']), reverse=True)
-            number = 0
-            for club in best_define:
-                if number < quota and club['club'] not in [prev_club['club'] for prev_club in prev]:
-                    number += 1
-                    participants.append({'club': club['club'], 'id': club['id']})
-
+    club_id = clubID
+    if clubID in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings]:
+        TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_standings[TL_club]['IDapi'] == clubID][0]
+    else:
+        TL_rank = -5
+    random_rank = random.random()
+    best_define.append({'club': club_name, 'id': club_id, 'TL_rank': TL_rank, 'random_rank': random_rank})
+best_define.sort(key=lambda crit: (crit['TL_rank'], crit['random_rank']), reverse=True)
 number = 0
-for club in standings:
-    if standings[club]['IDapi'] in LeagueClubSetID and number < quota and club not in [prev_club['club'] for prev_club in prev]:
-        number += 1
-        participants.append({'club': club, 'id': standings[club]['IDapi']})
-# учет 4-го критерия (рандом) при прочих равных
-last_participant = participants[-1]['club']
-# список для рандома: из клубов, TL rank которых = TL rank последнего по квоте участника
-random_list = [{'club': club, 'id': standings[club]['IDapi']} for club in standings if standings[club]['TL_rank'] == standings[last_participant]['TL_rank']]
-if len(random_list) > 0:
-    slots = 0   # инициализация количества слотов в списке участников, занятых клубами с одинаковыми TL rank
-    for club in random_list:
-        if club in participants:
-            slots += 1
-            participants.remove(club)
-    fills = 0    # счётчик заполнений слотов рандомом
-    import random
-    while fills < slots:
-        fills += 1
-        fill_club = random.choice(random_list)
-        participants.append(fill_club)
-        random_list.remove(fill_club)
+for club in best_define:
+    if number < quota and club['club'] not in [prev_club['club'] for prev_club in prev]:
+    number += 1
+    participants.append({'club': club['club'], 'id': club['id']})
 
 print(participants)
-print(random_list)
-print(slots)
