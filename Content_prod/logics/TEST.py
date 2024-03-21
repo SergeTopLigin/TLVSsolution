@@ -47,4 +47,5 @@ for club in best_define:
         number += 1
         participants.append({'club': club['club'], 'id': club['id']})
 
+print(best_define)
 print(participants)
