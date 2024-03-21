@@ -43,7 +43,7 @@ best_define.sort(key=lambda crit: (crit['TL_rank'], crit['random_rank']), revers
 number = 0
 for club in best_define:
     if number < quota and club['club'] not in [prev_club['club'] for prev_club in prev]:
-    number += 1
-    participants.append({'club': club['club'], 'id': club['id']})
+        number += 1
+        participants.append({'club': club['club'], 'id': club['id']})
 
 print(participants)
