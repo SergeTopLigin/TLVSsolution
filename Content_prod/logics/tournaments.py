@@ -307,6 +307,7 @@ try:    # обработка исключений для определения 
     # Tournaments rating
     from modules.league_files import league_files
     from modules.api_request import CupLast
+    from modules.nat_league_groups import nat_league_groups
     import json
     for ass_n in Ass_TournRateQuot:
         for tourn in Ass_TournRateQuot[ass_n]:
@@ -322,7 +323,10 @@ try:    # обработка исключений для определения 
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
                         with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
                             standings_dict = json.load(j)
-                        # club set лиги из клубов текущего раунда лиги (["group"] которых = ["group"] 1-го ["rank"] в ["standings"])
+                        # определение текущего раунда лиги ["group"], в котором играют лидеры
+                        nat_league_groups(tourn[0], tourn[1], tourn[4], standings_dict)
+                        
+                        # club set лиги из клубов текущего раунда лиги 
                         club_number = 0     # инициализация количества клубов в текущем раунде лиги
                         for team in standings_dict['response'][0]['league']['standings'][0]:
                             club_number += 1
