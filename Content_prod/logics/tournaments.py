@@ -324,7 +324,7 @@ try:    # обработка исключений для определения 
                         with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
                             standings_dict = json.load(j)
                         # определение текущего раунда лиги ["group"], в котором играют лидеры
-                        nat_league_groups(tourn[0], tourn[1], tourn[4], standings_dict)
+                        nat_league_groups(tourn[0], tourn[1], standings_dict)
                         
                         # club set лиги из клубов текущего раунда лиги 
                         club_number = 0     # инициализация количества клубов в текущем раунде лиги
