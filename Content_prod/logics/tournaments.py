@@ -323,8 +323,9 @@ try:    # обработка исключений для определения 
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
                         with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
                             standings_dict = json.load(j)
-                        # определение текущего раунда лиги ["group"], в котором играют лидеры
+                        # определение стадии лиги ["group"] с макс приоритетом
                         nat_league_groups(tourn[0], tourn[1], standings_dict)
+                        max(qwe, key=qwe.get)
                         
                         # club set лиги из клубов текущего раунда лиги 
                         club_number = 0     # инициализация количества клубов в текущем раунде лиги
