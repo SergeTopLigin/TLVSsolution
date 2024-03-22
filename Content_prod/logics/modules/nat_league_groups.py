@@ -3,8 +3,9 @@
     # добавить ассоциацию в sub_results в nat_league_groups.json и 
     # отправить на mail уведомление о необходимости сортировки groups
 # формировать club_set в tournaments.py и набирать participants из groups в порядке их сортировки
-# результат: json: названия стадий и их порядковые номера в списке standings_dict['response'][0]['league']['standings']
+# результат: json: названия стадий и их индексы в списке standings_dict['response'][0]['league']['standings']
     # в порядке набора участников; club set для определения рейтинга турнира определяется по стадии [0]
+    # [{'league': [{'season': [{'group': 'индекс'}, ...]}, ...}, ...]
 
 def nat_league_groups(league, season, standings_dict):
 # league должен соответствовать названию турнира в Nat_tournaments.Nat_Tournaments[ass][0]
@@ -16,9 +17,9 @@ def nat_league_groups(league, season, standings_dict):
         import os   # импорт модуля работы с каталогами
         import json
 
-        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
+        with open((os.path.abspath(__file__))[:-36]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
             groups_dict = json.load(j)
-
+                
 
 
     except: 
