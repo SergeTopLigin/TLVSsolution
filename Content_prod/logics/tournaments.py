@@ -327,15 +327,18 @@ try:    # обработка исключений для определения 
                         nat_league_groups(tourn[0], tourn[1], standings_dict)
                         with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
                             groups_dict = json.load(j)
-                        max(qwe, key=qwe.get)   # ключ словаря qwe c макс значением
-
-                        # club set лиги из клубов текущего раунда лиги 
+                        for league in groups_dict:
+                            if tourn[0] in league and tourn[1] in league:
+                                stage_prior = max(groups_dict[league], key=groups_dict[league].get)
+                        # club set лиги из клубов стадии лиги с макс приоритетом
                         club_number = 0     # инициализация количества клубов в текущем раунде лиги
-                        for team in standings_dict['response'][0]['league']['standings'][0]:
-                            club_number += 1
-                            for club in standings:   # для каждого id клуба из TL standings
-                                if standings[club]['IDapi'] == team['team']['id']: 
-                                    tourn[2] += standings[club]['TL_rank'] + 1.2
+                        for stage in standings_dict['response'][0]['league']['standings']:
+                            for team in stage:
+                                if team['group'] == stage_prior:
+                                    club_number += 1
+                                    for club in standings:   # для каждого id клуба из TL standings
+                                        if standings[club]['IDapi'] == team['team']['id']: 
+                                            tourn[2] += standings[club]['TL_rank'] + 1.2
                         tourn[2] /= club_number
                         # временной фактор: prev > curr (1/150 per day from 01.08)
                         if DateNow.month > 7 and tourn[1][3:] == DateNow.year[2:]:     # для прошлого сезона
