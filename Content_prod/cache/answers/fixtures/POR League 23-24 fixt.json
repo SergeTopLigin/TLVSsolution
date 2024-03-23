@@ -14,7 +14,7 @@
     {
       "fixture": {
         "id": 1063476,
-        "referee": "Ricardo Baixinho, Portugal",
+        "referee": "Ricardo Baixinho",
         "timezone": "UTC",
         "date": "2023-08-13T14:30:00+00:00",
         "timestamp": 1691937000,
@@ -82,7 +82,7 @@
     {
       "fixture": {
         "id": 1063477,
-        "referee": "Bruno Vieira, Portugal",
+        "referee": "Bruno Vieira",
         "timezone": "UTC",
         "date": "2023-08-12T17:00:00+00:00",
         "timestamp": 1691859600,
@@ -150,7 +150,7 @@
     {
       "fixture": {
         "id": 1063478,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2023-08-11T19:15:00+00:00",
         "timestamp": 1691781300,
@@ -218,7 +218,7 @@
     {
       "fixture": {
         "id": 1063479,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2023-08-14T17:45:00+00:00",
         "timestamp": 1692035100,
@@ -286,7 +286,7 @@
     {
       "fixture": {
         "id": 1063480,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2023-08-14T19:45:00+00:00",
         "timestamp": 1692042300,
@@ -354,7 +354,7 @@
     {
       "fixture": {
         "id": 1063481,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2023-08-12T19:30:00+00:00",
         "timestamp": 1691868600,
@@ -422,7 +422,7 @@
     {
       "fixture": {
         "id": 1063482,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2023-08-13T17:00:00+00:00",
         "timestamp": 1691946000,
@@ -490,7 +490,7 @@
     {
       "fixture": {
         "id": 1063483,
-        "referee": "Helder Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2023-08-13T19:30:00+00:00",
         "timestamp": 1691955000,
@@ -558,7 +558,7 @@
     {
       "fixture": {
         "id": 1063484,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-08-12T14:30:00+00:00",
         "timestamp": 1691850600,
@@ -626,7 +626,7 @@
     {
       "fixture": {
         "id": 1063485,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2023-08-20T19:30:00+00:00",
         "timestamp": 1692559800,
@@ -694,7 +694,7 @@
     {
       "fixture": {
         "id": 1063486,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-08-19T19:30:00+00:00",
         "timestamp": 1692473400,
@@ -762,7 +762,7 @@
     {
       "fixture": {
         "id": 1063487,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-08-20T17:00:00+00:00",
         "timestamp": 1692550800,
@@ -830,7 +830,7 @@
     {
       "fixture": {
         "id": 1063488,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2023-08-19T17:00:00+00:00",
         "timestamp": 1692464400,
@@ -898,7 +898,7 @@
     {
       "fixture": {
         "id": 1063489,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-08-19T14:30:00+00:00",
         "timestamp": 1692455400,
@@ -966,7 +966,7 @@
     {
       "fixture": {
         "id": 1063490,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2023-08-19T19:30:00+00:00",
         "timestamp": 1692473400,
@@ -976,8 +976,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -1034,7 +1034,7 @@
     {
       "fixture": {
         "id": 1063491,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2023-08-20T14:30:00+00:00",
         "timestamp": 1692541800,
@@ -1102,7 +1102,7 @@
     {
       "fixture": {
         "id": 1063492,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2023-08-21T19:15:00+00:00",
         "timestamp": 1692645300,
@@ -1170,7 +1170,7 @@
     {
       "fixture": {
         "id": 1063493,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-08-18T19:15:00+00:00",
         "timestamp": 1692386100,
@@ -1238,7 +1238,7 @@
     {
       "fixture": {
         "id": 1063494,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-09-09T17:00:00+00:00",
         "timestamp": 1694278800,
@@ -1306,7 +1306,7 @@
     {
       "fixture": {
         "id": 1063495,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luis Godinho",
         "timezone": "UTC",
         "date": "2023-08-26T17:00:00+00:00",
         "timestamp": 1693069200,
@@ -1374,7 +1374,7 @@
     {
       "fixture": {
         "id": 1063496,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2023-08-28T19:15:00+00:00",
         "timestamp": 1693250100,
@@ -1442,7 +1442,7 @@
     {
       "fixture": {
         "id": 1063497,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-08-27T19:30:00+00:00",
         "timestamp": 1693164600,
@@ -1510,7 +1510,7 @@
     {
       "fixture": {
         "id": 1063498,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2023-08-27T17:00:00+00:00",
         "timestamp": 1693155600,
@@ -1578,7 +1578,7 @@
     {
       "fixture": {
         "id": 1063499,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-08-26T19:30:00+00:00",
         "timestamp": 1693078200,
@@ -1646,7 +1646,7 @@
     {
       "fixture": {
         "id": 1063500,
-        "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+        "referee": "Bruno José Costa",
         "timezone": "UTC",
         "date": "2023-08-27T14:30:00+00:00",
         "timestamp": 1693146600,
@@ -1714,7 +1714,7 @@
     {
       "fixture": {
         "id": 1063501,
-        "referee": "Carlos Macedo, Portugal",
+        "referee": "Carlos Macedo",
         "timezone": "UTC",
         "date": "2023-08-26T14:30:00+00:00",
         "timestamp": 1693060200,
@@ -1782,7 +1782,7 @@
     {
       "fixture": {
         "id": 1063502,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2023-08-25T19:15:00+00:00",
         "timestamp": 1692990900,
@@ -1850,7 +1850,7 @@
     {
       "fixture": {
         "id": 1063503,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2023-09-03T17:00:00+00:00",
         "timestamp": 1693760400,
@@ -1918,7 +1918,7 @@
     {
       "fixture": {
         "id": 1063504,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-09-03T14:30:00+00:00",
         "timestamp": 1693751400,
@@ -1986,7 +1986,7 @@
     {
       "fixture": {
         "id": 1063505,
-        "referee": "Bruno Costa, Portugal",
+        "referee": "Bruno José Costa",
         "timezone": "UTC",
         "date": "2023-09-01T19:15:00+00:00",
         "timestamp": 1693595700,
@@ -2054,7 +2054,7 @@
     {
       "fixture": {
         "id": 1063506,
-        "referee": "Bruno Vieira, Portugal",
+        "referee": "Bruno Vieira",
         "timezone": "UTC",
         "date": "2023-09-02T17:00:00+00:00",
         "timestamp": 1693674000,
@@ -2122,7 +2122,7 @@
     {
       "fixture": {
         "id": 1063507,
-        "referee": "David Rafael Oliveira da Silva, Portugal",
+        "referee": "David Silva",
         "timezone": "UTC",
         "date": "2023-09-02T14:30:00+00:00",
         "timestamp": 1693665000,
@@ -2190,7 +2190,7 @@
     {
       "fixture": {
         "id": 1063508,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2023-09-02T17:00:00+00:00",
         "timestamp": 1693674000,
@@ -2258,7 +2258,7 @@
     {
       "fixture": {
         "id": 1063509,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luis Godinho",
         "timezone": "UTC",
         "date": "2023-09-03T19:30:00+00:00",
         "timestamp": 1693769400,
@@ -2326,7 +2326,7 @@
     {
       "fixture": {
         "id": 1063510,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-09-02T19:30:00+00:00",
         "timestamp": 1693683000,
@@ -2336,8 +2336,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -2394,7 +2394,7 @@
     {
       "fixture": {
         "id": 1063511,
-        "referee": "Helder Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2023-09-03T14:30:00+00:00",
         "timestamp": 1693751400,
@@ -2462,7 +2462,7 @@
     {
       "fixture": {
         "id": 1063512,
-        "referee": "Bruno Costa, Portugal",
+        "referee": "Bruno José Costa",
         "timezone": "UTC",
         "date": "2023-09-16T14:30:00+00:00",
         "timestamp": 1694874600,
@@ -2530,7 +2530,7 @@
     {
       "fixture": {
         "id": 1063513,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2023-09-17T14:30:00+00:00",
         "timestamp": 1694961000,
@@ -2598,7 +2598,7 @@
     {
       "fixture": {
         "id": 1063514,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2023-09-17T19:30:00+00:00",
         "timestamp": 1694979000,
@@ -2666,7 +2666,7 @@
     {
       "fixture": {
         "id": 1063515,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2023-09-16T17:00:00+00:00",
         "timestamp": 1694883600,
@@ -2734,7 +2734,7 @@
     {
       "fixture": {
         "id": 1063516,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2023-09-17T17:00:00+00:00",
         "timestamp": 1694970000,
@@ -2802,7 +2802,7 @@
     {
       "fixture": {
         "id": 1063517,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luis Branco",
         "timezone": "UTC",
         "date": "2023-09-16T19:30:00+00:00",
         "timestamp": 1694892600,
@@ -2870,7 +2870,7 @@
     {
       "fixture": {
         "id": 1063518,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-09-18T19:15:00+00:00",
         "timestamp": 1695064500,
@@ -2938,7 +2938,7 @@
     {
       "fixture": {
         "id": 1063519,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-09-17T14:30:00+00:00",
         "timestamp": 1694961000,
@@ -3006,7 +3006,7 @@
     {
       "fixture": {
         "id": 1063520,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-09-15T18:15:00+00:00",
         "timestamp": 1694801700,
@@ -3074,7 +3074,7 @@
     {
       "fixture": {
         "id": 1063521,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2023-09-24T19:30:00+00:00",
         "timestamp": 1695583800,
@@ -3142,7 +3142,7 @@
     {
       "fixture": {
         "id": 1063522,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-09-25T19:15:00+00:00",
         "timestamp": 1695669300,
@@ -3210,7 +3210,7 @@
     {
       "fixture": {
         "id": 1063523,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2023-09-23T19:30:00+00:00",
         "timestamp": 1695497400,
@@ -3278,7 +3278,7 @@
     {
       "fixture": {
         "id": 1063524,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2023-09-23T14:30:00+00:00",
         "timestamp": 1695479400,
@@ -3346,7 +3346,7 @@
     {
       "fixture": {
         "id": 1063525,
-        "referee": "Bruno Vieira, Portugal",
+        "referee": "Bruno Vieira",
         "timezone": "UTC",
         "date": "2023-09-22T19:15:00+00:00",
         "timestamp": 1695410100,
@@ -3414,7 +3414,7 @@
     {
       "fixture": {
         "id": 1063526,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2023-09-24T17:00:00+00:00",
         "timestamp": 1695574800,
@@ -3482,7 +3482,7 @@
     {
       "fixture": {
         "id": 1063527,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-09-23T17:00:00+00:00",
         "timestamp": 1695488400,
@@ -3550,7 +3550,7 @@
     {
       "fixture": {
         "id": 1063528,
-        "referee": "Ricardo Baixinho, Portugal",
+        "referee": "Ricardo Baixinho",
         "timezone": "UTC",
         "date": "2023-09-24T14:30:00+00:00",
         "timestamp": 1695565800,
@@ -3618,7 +3618,7 @@
     {
       "fixture": {
         "id": 1063529,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2023-09-23T14:30:00+00:00",
         "timestamp": 1695479400,
@@ -3686,7 +3686,7 @@
     {
       "fixture": {
         "id": 1063530,
-        "referee": "Helder Filipe Claudio Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2023-10-02T19:15:00+00:00",
         "timestamp": 1696274100,
@@ -3754,7 +3754,7 @@
     {
       "fixture": {
         "id": 1063531,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2023-10-01T17:00:00+00:00",
         "timestamp": 1696179600,
@@ -3822,7 +3822,7 @@
     {
       "fixture": {
         "id": 1063532,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2023-09-30T14:30:00+00:00",
         "timestamp": 1696084200,
@@ -3890,7 +3890,7 @@
     {
       "fixture": {
         "id": 1063533,
-        "referee": "Carlos Macedo, Portugal",
+        "referee": "Carlos Macedo",
         "timezone": "UTC",
         "date": "2023-10-01T19:30:00+00:00",
         "timestamp": 1696188600,
@@ -3958,7 +3958,7 @@
     {
       "fixture": {
         "id": 1063534,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-09-28T19:15:00+00:00",
         "timestamp": 1695928500,
@@ -4026,7 +4026,7 @@
     {
       "fixture": {
         "id": 1063535,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2023-09-30T19:30:00+00:00",
         "timestamp": 1696102200,
@@ -4094,7 +4094,7 @@
     {
       "fixture": {
         "id": 1063536,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2023-10-01T14:30:00+00:00",
         "timestamp": 1696170600,
@@ -4162,7 +4162,7 @@
     {
       "fixture": {
         "id": 1063537,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-09-29T19:15:00+00:00",
         "timestamp": 1696014900,
@@ -4172,8 +4172,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -4230,7 +4230,7 @@
     {
       "fixture": {
         "id": 1063538,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2023-09-30T17:00:00+00:00",
         "timestamp": 1696093200,
@@ -4298,7 +4298,7 @@
     {
       "fixture": {
         "id": 1063539,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-10-07T14:30:00+00:00",
         "timestamp": 1696689000,
@@ -4366,7 +4366,7 @@
     {
       "fixture": {
         "id": 1063540,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-10-07T19:30:00+00:00",
         "timestamp": 1696707000,
@@ -4434,7 +4434,7 @@
     {
       "fixture": {
         "id": 1063541,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2023-10-08T19:30:00+00:00",
         "timestamp": 1696793400,
@@ -4502,7 +4502,7 @@
     {
       "fixture": {
         "id": 1063542,
-        "referee": "David Rafael Oliveira da Silva, Portugal",
+        "referee": "David Silva",
         "timezone": "UTC",
         "date": "2023-10-06T19:15:00+00:00",
         "timestamp": 1696619700,
@@ -4570,7 +4570,7 @@
     {
       "fixture": {
         "id": 1063543,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2023-10-08T14:30:00+00:00",
         "timestamp": 1696775400,
@@ -4638,7 +4638,7 @@
     {
       "fixture": {
         "id": 1063544,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2023-10-08T14:30:00+00:00",
         "timestamp": 1696775400,
@@ -4706,7 +4706,7 @@
     {
       "fixture": {
         "id": 1063545,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2023-10-07T17:00:00+00:00",
         "timestamp": 1696698000,
@@ -4774,7 +4774,7 @@
     {
       "fixture": {
         "id": 1063546,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-10-08T17:00:00+00:00",
         "timestamp": 1696784400,
@@ -4842,7 +4842,7 @@
     {
       "fixture": {
         "id": 1063547,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2023-10-07T14:30:00+00:00",
         "timestamp": 1696689000,
@@ -4910,7 +4910,7 @@
     {
       "fixture": {
         "id": 1063548,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2023-10-28T17:00:00+00:00",
         "timestamp": 1698512400,
@@ -4978,7 +4978,7 @@
     {
       "fixture": {
         "id": 1063549,
-        "referee": "Ricardo Baixinho, Portugal",
+        "referee": "Ricardo Baixinho",
         "timezone": "UTC",
         "date": "2023-10-28T14:30:00+00:00",
         "timestamp": 1698503400,
@@ -5046,7 +5046,7 @@
     {
       "fixture": {
         "id": 1063550,
-        "referee": "Tiago Martins, Portugal",
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2023-10-29T15:30:00+00:00",
         "timestamp": 1698593400,
@@ -5114,7 +5114,7 @@
     {
       "fixture": {
         "id": 1063551,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2023-10-28T19:30:00+00:00",
         "timestamp": 1698521400,
@@ -5182,7 +5182,7 @@
     {
       "fixture": {
         "id": 1063552,
-        "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+        "referee": "Bruno Pires Costa",
         "timezone": "UTC",
         "date": "2023-10-27T19:15:00+00:00",
         "timestamp": 1698434100,
@@ -5250,7 +5250,7 @@
     {
       "fixture": {
         "id": 1063553,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2023-10-29T20:30:00+00:00",
         "timestamp": 1698611400,
@@ -5318,7 +5318,7 @@
     {
       "fixture": {
         "id": 1063554,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-10-30T20:15:00+00:00",
         "timestamp": 1698696900,
@@ -5386,7 +5386,7 @@
     {
       "fixture": {
         "id": 1063555,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-10-28T17:00:00+00:00",
         "timestamp": 1698512400,
@@ -5396,8 +5396,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -5454,7 +5454,7 @@
     {
       "fixture": {
         "id": 1063556,
-        "referee": "Carlos Macedo, Portugal",
+        "referee": "Carlos Macedo",
         "timezone": "UTC",
         "date": "2023-10-29T18:00:00+00:00",
         "timestamp": 1698602400,
@@ -5522,7 +5522,7 @@
     {
       "fixture": {
         "id": 1063557,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2023-11-05T15:30:00+00:00",
         "timestamp": 1699198200,
@@ -5590,7 +5590,7 @@
     {
       "fixture": {
         "id": 1063558,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-11-05T18:00:00+00:00",
         "timestamp": 1699207200,
@@ -5658,7 +5658,7 @@
     {
       "fixture": {
         "id": 1063559,
-        "referee": "Tiago Martins, Portugal",
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2023-11-03T20:15:00+00:00",
         "timestamp": 1699042500,
@@ -5726,7 +5726,7 @@
     {
       "fixture": {
         "id": 1063560,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-11-05T20:30:00+00:00",
         "timestamp": 1699216200,
@@ -5794,7 +5794,7 @@
     {
       "fixture": {
         "id": 1063561,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2023-11-06T20:15:00+00:00",
         "timestamp": 1699301700,
@@ -5862,7 +5862,7 @@
     {
       "fixture": {
         "id": 1063562,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2023-11-04T15:30:00+00:00",
         "timestamp": 1699111800,
@@ -5930,7 +5930,7 @@
     {
       "fixture": {
         "id": 1063563,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2023-11-04T18:00:00+00:00",
         "timestamp": 1699120800,
@@ -5998,7 +5998,7 @@
     {
       "fixture": {
         "id": 1063564,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2023-11-04T20:30:00+00:00",
         "timestamp": 1699129800,
@@ -6066,7 +6066,7 @@
     {
       "fixture": {
         "id": 1063565,
-        "referee": "David Rafael Oliveira da Silva, Portugal",
+        "referee": "David Silva",
         "timezone": "UTC",
         "date": "2023-11-05T15:30:00+00:00",
         "timestamp": 1699198200,
@@ -6134,7 +6134,7 @@
     {
       "fixture": {
         "id": 1063566,
-        "referee": "Helder Filipe Claudio Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2023-11-11T18:00:00+00:00",
         "timestamp": 1699725600,
@@ -6202,7 +6202,7 @@
     {
       "fixture": {
         "id": 1063567,
-        "referee": "David Rafael Oliveira da Silva, Portugal",
+        "referee": "David Silva",
         "timezone": "UTC",
         "date": "2023-11-11T15:30:00+00:00",
         "timestamp": 1699716600,
@@ -6270,7 +6270,7 @@
     {
       "fixture": {
         "id": 1063568,
-        "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+        "referee": "Bruno Pires Costa",
         "timezone": "UTC",
         "date": "2023-11-11T18:00:00+00:00",
         "timestamp": 1699725600,
@@ -6338,7 +6338,7 @@
     {
       "fixture": {
         "id": 1063569,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2023-11-10T20:15:00+00:00",
         "timestamp": 1699647300,
@@ -6406,7 +6406,7 @@
     {
       "fixture": {
         "id": 1063570,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2023-11-12T15:30:00+00:00",
         "timestamp": 1699803000,
@@ -6474,7 +6474,7 @@
     {
       "fixture": {
         "id": 1063571,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-11-12T15:30:00+00:00",
         "timestamp": 1699803000,
@@ -6542,7 +6542,7 @@
     {
       "fixture": {
         "id": 1063572,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2023-11-12T18:00:00+00:00",
         "timestamp": 1699812000,
@@ -6610,7 +6610,7 @@
     {
       "fixture": {
         "id": 1063573,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2023-11-12T20:30:00+00:00",
         "timestamp": 1699821000,
@@ -6620,8 +6620,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -6678,7 +6678,7 @@
     {
       "fixture": {
         "id": 1063574,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-11-11T20:30:00+00:00",
         "timestamp": 1699734600,
@@ -6746,7 +6746,7 @@
     {
       "fixture": {
         "id": 1063575,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2023-12-03T18:00:00+00:00",
         "timestamp": 1701626400,
@@ -6814,7 +6814,7 @@
     {
       "fixture": {
         "id": 1063576,
-        "referee": "Tiago Martins, Portugal",
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2023-12-03T20:30:00+00:00",
         "timestamp": 1701635400,
@@ -6882,7 +6882,7 @@
     {
       "fixture": {
         "id": 1063577,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-12-04T20:15:00+00:00",
         "timestamp": 1701720900,
@@ -6950,7 +6950,7 @@
     {
       "fixture": {
         "id": 1063578,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-12-02T15:30:00+00:00",
         "timestamp": 1701531000,
@@ -7018,7 +7018,7 @@
     {
       "fixture": {
         "id": 1063579,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2023-12-02T15:30:00+00:00",
         "timestamp": 1701531000,
@@ -7086,7 +7086,7 @@
     {
       "fixture": {
         "id": 1063580,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2023-12-02T20:30:00+00:00",
         "timestamp": 1701549000,
@@ -7154,7 +7154,7 @@
     {
       "fixture": {
         "id": 1063581,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2023-12-01T20:30:00+00:00",
         "timestamp": 1701462600,
@@ -7222,7 +7222,7 @@
     {
       "fixture": {
         "id": 1063582,
-        "referee": "Bruno Vieira, Portugal",
+        "referee": "Bruno Vieira",
         "timezone": "UTC",
         "date": "2023-12-03T15:30:00+00:00",
         "timestamp": 1701617400,
@@ -7290,7 +7290,7 @@
     {
       "fixture": {
         "id": 1063583,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2023-12-02T18:00:00+00:00",
         "timestamp": 1701540000,
@@ -7358,7 +7358,7 @@
     {
       "fixture": {
         "id": 1063584,
-        "referee": "Carlos Macedo, Portugal",
+        "referee": "Carlos Macedo",
         "timezone": "UTC",
         "date": "2023-12-10T20:30:00+00:00",
         "timestamp": 1702240200,
@@ -7426,7 +7426,7 @@
     {
       "fixture": {
         "id": 1063585,
-        "referee": "Helder Filipe Claudio Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2023-12-09T15:30:00+00:00",
         "timestamp": 1702135800,
@@ -7494,7 +7494,7 @@
     {
       "fixture": {
         "id": 1063586,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2023-12-10T15:30:00+00:00",
         "timestamp": 1702222200,
@@ -7562,7 +7562,7 @@
     {
       "fixture": {
         "id": 1063587,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2023-12-09T20:30:00+00:00",
         "timestamp": 1702153800,
@@ -7630,7 +7630,7 @@
     {
       "fixture": {
         "id": 1063588,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-12-08T15:30:00+00:00",
         "timestamp": 1702049400,
@@ -7698,7 +7698,7 @@
     {
       "fixture": {
         "id": 1063589,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2023-12-11T20:15:00+00:00",
         "timestamp": 1702325700,
@@ -7766,7 +7766,7 @@
     {
       "fixture": {
         "id": 1063590,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-12-10T18:00:00+00:00",
         "timestamp": 1702231200,
@@ -7834,7 +7834,7 @@
     {
       "fixture": {
         "id": 1063591,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2023-12-08T18:00:00+00:00",
         "timestamp": 1702058400,
@@ -7844,8 +7844,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -7902,7 +7902,7 @@
     {
       "fixture": {
         "id": 1063592,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-12-09T18:00:00+00:00",
         "timestamp": 1702144800,
@@ -7970,7 +7970,7 @@
     {
       "fixture": {
         "id": 1063593,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2023-12-17T20:30:00+00:00",
         "timestamp": 1702845000,
@@ -8038,7 +8038,7 @@
     {
       "fixture": {
         "id": 1063594,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2023-12-18T20:15:00+00:00",
         "timestamp": 1702930500,
@@ -8106,7 +8106,7 @@
     {
       "fixture": {
         "id": 1063595,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2023-12-17T18:00:00+00:00",
         "timestamp": 1702836000,
@@ -8174,7 +8174,7 @@
     {
       "fixture": {
         "id": 1063596,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2023-12-15T20:15:00+00:00",
         "timestamp": 1702671300,
@@ -8242,7 +8242,7 @@
     {
       "fixture": {
         "id": 1063597,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-12-17T15:30:00+00:00",
         "timestamp": 1702827000,
@@ -8310,7 +8310,7 @@
     {
       "fixture": {
         "id": 1063598,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2023-12-16T15:30:00+00:00",
         "timestamp": 1702740600,
@@ -8378,7 +8378,7 @@
     {
       "fixture": {
         "id": 1063599,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2023-12-17T15:30:00+00:00",
         "timestamp": 1702827000,
@@ -8446,7 +8446,7 @@
     {
       "fixture": {
         "id": 1063600,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2023-12-16T18:00:00+00:00",
         "timestamp": 1702749600,
@@ -8514,7 +8514,7 @@
     {
       "fixture": {
         "id": 1063601,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2023-12-16T20:30:00+00:00",
         "timestamp": 1702758600,
@@ -8582,7 +8582,7 @@
     {
       "fixture": {
         "id": 1063602,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2023-12-28T20:15:00+00:00",
         "timestamp": 1703794500,
@@ -8650,7 +8650,7 @@
     {
       "fixture": {
         "id": 1063603,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2023-12-29T20:45:00+00:00",
         "timestamp": 1703882700,
@@ -8718,7 +8718,7 @@
     {
       "fixture": {
         "id": 1063604,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2023-12-30T15:30:00+00:00",
         "timestamp": 1703950200,
@@ -8786,7 +8786,7 @@
     {
       "fixture": {
         "id": 1063605,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2023-12-23T15:30:00+00:00",
         "timestamp": 1703345400,
@@ -8854,7 +8854,7 @@
     {
       "fixture": {
         "id": 1063606,
-        "referee": "Tiago Martins, Portugal",
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2023-12-30T18:00:00+00:00",
         "timestamp": 1703959200,
@@ -8922,7 +8922,7 @@
     {
       "fixture": {
         "id": 1063607,
-        "referee": "Jorge Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2023-12-30T20:30:00+00:00",
         "timestamp": 1703968200,
@@ -8990,7 +8990,7 @@
     {
       "fixture": {
         "id": 1063608,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2023-12-23T15:30:00+00:00",
         "timestamp": 1703345400,
@@ -9058,7 +9058,7 @@
     {
       "fixture": {
         "id": 1063609,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2023-12-29T18:45:00+00:00",
         "timestamp": 1703875500,
@@ -9068,8 +9068,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -9126,7 +9126,7 @@
     {
       "fixture": {
         "id": 1063610,
-        "referee": "Ricardo Baixinho, Portugal",
+        "referee": "Ricardo Baixinho",
         "timezone": "UTC",
         "date": "2023-12-30T15:30:00+00:00",
         "timestamp": 1703950200,
@@ -9194,7 +9194,7 @@
     {
       "fixture": {
         "id": 1063611,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2024-01-07T20:30:00+00:00",
         "timestamp": 1704659400,
@@ -9262,7 +9262,7 @@
     {
       "fixture": {
         "id": 1063612,
-        "referee": "Ricardo Baixinho, Portugal",
+        "referee": "Ricardo Baixinho",
         "timezone": "UTC",
         "date": "2024-01-08T20:15:00+00:00",
         "timestamp": 1704744900,
@@ -9330,7 +9330,7 @@
     {
       "fixture": {
         "id": 1063613,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2024-01-05T18:45:00+00:00",
         "timestamp": 1704480300,
@@ -9398,7 +9398,7 @@
     {
       "fixture": {
         "id": 1063614,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-01-07T18:00:00+00:00",
         "timestamp": 1704650400,
@@ -9466,7 +9466,7 @@
     {
       "fixture": {
         "id": 1063615,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2024-01-06T15:30:00+00:00",
         "timestamp": 1704555000,
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1063616,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-01-06T15:30:00+00:00",
         "timestamp": 1704555000,
@@ -9602,7 +9602,7 @@
     {
       "fixture": {
         "id": 1063617,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-01-06T18:00:00+00:00",
         "timestamp": 1704564000,
@@ -9670,7 +9670,7 @@
     {
       "fixture": {
         "id": 1063618,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-01-06T20:30:00+00:00",
         "timestamp": 1704573000,
@@ -9738,7 +9738,7 @@
     {
       "fixture": {
         "id": 1063619,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2024-01-05T20:45:00+00:00",
         "timestamp": 1704487500,
@@ -9806,7 +9806,7 @@
     {
       "fixture": {
         "id": 1063620,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2024-01-15T20:15:00+00:00",
         "timestamp": 1705349700,
@@ -9874,7 +9874,7 @@
     {
       "fixture": {
         "id": 1063621,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2024-01-14T18:00:00+00:00",
         "timestamp": 1705255200,
@@ -9942,7 +9942,7 @@
     {
       "fixture": {
         "id": 1063622,
-        "referee": "Helder Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2024-01-14T15:30:00+00:00",
         "timestamp": 1705246200,
@@ -10010,7 +10010,7 @@
     {
       "fixture": {
         "id": 1063623,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2024-01-14T20:30:00+00:00",
         "timestamp": 1705264200,
@@ -10078,7 +10078,7 @@
     {
       "fixture": {
         "id": 1063624,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-01-12T20:15:00+00:00",
         "timestamp": 1705090500,
@@ -10146,7 +10146,7 @@
     {
       "fixture": {
         "id": 1063625,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2024-01-13T20:30:00+00:00",
         "timestamp": 1705177800,
@@ -10214,7 +10214,7 @@
     {
       "fixture": {
         "id": 1063626,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-01-13T18:00:00+00:00",
         "timestamp": 1705168800,
@@ -10282,7 +10282,7 @@
     {
       "fixture": {
         "id": 1063627,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2024-01-14T18:00:00+00:00",
         "timestamp": 1705255200,
@@ -10292,8 +10292,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -10350,7 +10350,7 @@
     {
       "fixture": {
         "id": 1063628,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2024-01-13T15:30:00+00:00",
         "timestamp": 1705159800,
@@ -10418,7 +10418,7 @@
     {
       "fixture": {
         "id": 1063629,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2024-01-19T20:15:00+00:00",
         "timestamp": 1705695300,
@@ -10428,8 +10428,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -10486,7 +10486,7 @@
     {
       "fixture": {
         "id": 1063630,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2024-01-21T18:00:00+00:00",
         "timestamp": 1705860000,
@@ -10554,7 +10554,7 @@
     {
       "fixture": {
         "id": 1063631,
-        "referee": "Carlos Macedo, Portugal",
+        "referee": "Carlos Macedo",
         "timezone": "UTC",
         "date": "2024-01-20T18:00:00+00:00",
         "timestamp": 1705773600,
@@ -10622,7 +10622,7 @@
     {
       "fixture": {
         "id": 1063632,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-01-20T20:30:00+00:00",
         "timestamp": 1705782600,
@@ -10690,7 +10690,7 @@
     {
       "fixture": {
         "id": 1063633,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2024-01-21T20:30:00+00:00",
         "timestamp": 1705869000,
@@ -10758,7 +10758,7 @@
     {
       "fixture": {
         "id": 1063634,
-        "referee": "Jorge Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2024-01-18T18:45:00+00:00",
         "timestamp": 1705603500,
@@ -10826,7 +10826,7 @@
     {
       "fixture": {
         "id": 1063635,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2024-01-20T15:30:00+00:00",
         "timestamp": 1705764600,
@@ -10894,7 +10894,7 @@
     {
       "fixture": {
         "id": 1063636,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2024-01-18T20:45:00+00:00",
         "timestamp": 1705610700,
@@ -10962,7 +10962,7 @@
     {
       "fixture": {
         "id": 1063637,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2024-01-21T15:30:00+00:00",
         "timestamp": 1705851000,
@@ -11030,7 +11030,7 @@
     {
       "fixture": {
         "id": 1063638,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-01-28T20:30:00+00:00",
         "timestamp": 1706473800,
@@ -11098,7 +11098,7 @@
     {
       "fixture": {
         "id": 1063639,
-        "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+        "referee": "Bruno Pires Costa",
         "timezone": "UTC",
         "date": "2024-01-28T15:30:00+00:00",
         "timestamp": 1706455800,
@@ -11166,7 +11166,7 @@
     {
       "fixture": {
         "id": 1063640,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-01-28T18:00:00+00:00",
         "timestamp": 1706464800,
@@ -11234,7 +11234,7 @@
     {
       "fixture": {
         "id": 1063641,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2024-01-31T20:45:00+00:00",
         "timestamp": 1706733900,
@@ -11302,7 +11302,7 @@
     {
       "fixture": {
         "id": 1063642,
-        "referee": "Bruno Vieira, Portugal",
+        "referee": "Bruno Vieira",
         "timezone": "UTC",
         "date": "2024-01-31T18:45:00+00:00",
         "timestamp": 1706726700,
@@ -11370,7 +11370,7 @@
     {
       "fixture": {
         "id": 1063643,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2024-01-29T18:45:00+00:00",
         "timestamp": 1706553900,
@@ -11438,7 +11438,7 @@
     {
       "fixture": {
         "id": 1063644,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-01-28T15:30:00+00:00",
         "timestamp": 1706455800,
@@ -11506,7 +11506,7 @@
     {
       "fixture": {
         "id": 1063645,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2024-01-28T20:30:00+00:00",
         "timestamp": 1706473800,
@@ -11574,7 +11574,7 @@
     {
       "fixture": {
         "id": 1063646,
-        "referee": "Helder Filipe Claudio Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2024-01-29T20:45:00+00:00",
         "timestamp": 1706561100,
@@ -11642,7 +11642,7 @@
     {
       "fixture": {
         "id": 1063647,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-02-04T20:30:00+00:00",
         "timestamp": 1707078600,
@@ -11710,7 +11710,7 @@
     {
       "fixture": {
         "id": 1063648,
-        "referee": "Ricardo Baixinho, Portugal",
+        "referee": "Ricardo Baixinho",
         "timezone": "UTC",
         "date": "2024-02-04T15:30:00+00:00",
         "timestamp": 1707060600,
@@ -11780,8 +11780,8 @@
         "id": 1063649,
         "referee": "Fábio Veríssimo",
         "timezone": "UTC",
-        "date": "2024-02-03T18:00:00+00:00",
-        "timestamp": 1706983200,
+        "date": "2024-04-16T19:15:00+00:00",
+        "timestamp": 1713294900,
         "periods": {
           "first": null,
           "second": null
@@ -11792,8 +11792,8 @@
           "city": "Vila Nova de Famalicão"
         },
         "status": {
-          "long": "Match Postponed",
-          "short": "PST",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -11846,7 +11846,7 @@
     {
       "fixture": {
         "id": 1063650,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2024-02-03T20:30:00+00:00",
         "timestamp": 1706992200,
@@ -11914,7 +11914,7 @@
     {
       "fixture": {
         "id": 1063651,
-        "referee": "Tiago Martins, Portugal",
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2024-02-04T18:00:00+00:00",
         "timestamp": 1707069600,
@@ -11924,8 +11924,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -11982,7 +11982,7 @@
     {
       "fixture": {
         "id": 1063652,
-        "referee": "David Rafael Oliveira da Silva, Portugal",
+        "referee": "David Silva",
         "timezone": "UTC",
         "date": "2024-02-03T15:30:00+00:00",
         "timestamp": 1706974200,
@@ -12050,7 +12050,7 @@
     {
       "fixture": {
         "id": 1063653,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2024-02-05T20:15:00+00:00",
         "timestamp": 1707164100,
@@ -12118,7 +12118,7 @@
     {
       "fixture": {
         "id": 1063654,
-        "referee": "Jorge Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2024-02-04T15:30:00+00:00",
         "timestamp": 1707060600,
@@ -12186,7 +12186,7 @@
     {
       "fixture": {
         "id": 1063655,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2024-02-04T18:00:00+00:00",
         "timestamp": 1707069600,
@@ -12254,7 +12254,7 @@
     {
       "fixture": {
         "id": 1063656,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-02-12T20:15:00+00:00",
         "timestamp": 1707768900,
@@ -12322,7 +12322,7 @@
     {
       "fixture": {
         "id": 1063657,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-02-10T20:30:00+00:00",
         "timestamp": 1707597000,
@@ -12390,7 +12390,7 @@
     {
       "fixture": {
         "id": 1063658,
-        "referee": "Ricardo Baixinho, Portugal",
+        "referee": "Ricardo Baixinho",
         "timezone": "UTC",
         "date": "2024-02-13T15:30:00+00:00",
         "timestamp": 1707838200,
@@ -12458,7 +12458,7 @@
     {
       "fixture": {
         "id": 1063659,
-        "referee": "Carlos Macedo, Portugal",
+        "referee": "Carlos Macedo",
         "timezone": "UTC",
         "date": "2024-02-11T15:30:00+00:00",
         "timestamp": 1707665400,
@@ -12526,7 +12526,7 @@
     {
       "fixture": {
         "id": 1063660,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-02-09T20:15:00+00:00",
         "timestamp": 1707509700,
@@ -12594,7 +12594,7 @@
     {
       "fixture": {
         "id": 1063661,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2024-02-10T15:30:00+00:00",
         "timestamp": 1707579000,
@@ -12662,7 +12662,7 @@
     {
       "fixture": {
         "id": 1063662,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2024-02-11T18:00:00+00:00",
         "timestamp": 1707674400,
@@ -12730,7 +12730,7 @@
     {
       "fixture": {
         "id": 1063663,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-02-11T20:30:00+00:00",
         "timestamp": 1707683400,
@@ -12798,7 +12798,7 @@
     {
       "fixture": {
         "id": 1063664,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2024-02-10T18:00:00+00:00",
         "timestamp": 1707588000,
@@ -12866,7 +12866,7 @@
     {
       "fixture": {
         "id": 1063665,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2024-02-16T20:15:00+00:00",
         "timestamp": 1708114500,
@@ -12934,7 +12934,7 @@
     {
       "fixture": {
         "id": 1063666,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2024-02-18T18:00:00+00:00",
         "timestamp": 1708279200,
@@ -13002,7 +13002,7 @@
     {
       "fixture": {
         "id": 1063667,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-02-19T20:15:00+00:00",
         "timestamp": 1708373700,
@@ -13070,7 +13070,7 @@
     {
       "fixture": {
         "id": 1063668,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2024-02-18T20:30:00+00:00",
         "timestamp": 1708288200,
@@ -13138,7 +13138,7 @@
     {
       "fixture": {
         "id": 1063669,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2024-02-18T18:00:00+00:00",
         "timestamp": 1708279200,
@@ -13148,8 +13148,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -13206,7 +13206,7 @@
     {
       "fixture": {
         "id": 1063670,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2024-02-18T15:30:00+00:00",
         "timestamp": 1708270200,
@@ -13274,7 +13274,7 @@
     {
       "fixture": {
         "id": 1063671,
-        "referee": "Helder Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2024-02-17T15:30:00+00:00",
         "timestamp": 1708183800,
@@ -13342,7 +13342,7 @@
     {
       "fixture": {
         "id": 1063672,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2024-02-17T18:00:00+00:00",
         "timestamp": 1708192800,
@@ -13410,7 +13410,7 @@
     {
       "fixture": {
         "id": 1063673,
-        "referee": "Tiago Martins, Portugal",
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2024-02-17T20:30:00+00:00",
         "timestamp": 1708201800,
@@ -13478,7 +13478,7 @@
     {
       "fixture": {
         "id": 1063674,
-        "referee": "Gustavo Correia, Portugal",
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2024-02-26T20:15:00+00:00",
         "timestamp": 1708978500,
@@ -13546,7 +13546,7 @@
     {
       "fixture": {
         "id": 1063675,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2024-02-25T20:30:00+00:00",
         "timestamp": 1708893000,
@@ -13614,7 +13614,7 @@
     {
       "fixture": {
         "id": 1063676,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-02-25T18:00:00+00:00",
         "timestamp": 1708884000,
@@ -13682,7 +13682,7 @@
     {
       "fixture": {
         "id": 1063677,
-        "referee": "Luís Godinho, Portugal",
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-02-23T20:15:00+00:00",
         "timestamp": 1708719300,
@@ -13750,7 +13750,7 @@
     {
       "fixture": {
         "id": 1063678,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-02-24T15:30:00+00:00",
         "timestamp": 1708788600,
@@ -13818,7 +13818,7 @@
     {
       "fixture": {
         "id": 1063679,
-        "referee": "Miguel Nogueira, Portugal",
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2024-02-25T18:00:00+00:00",
         "timestamp": 1708884000,
@@ -13828,8 +13828,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -13886,7 +13886,7 @@
     {
       "fixture": {
         "id": 1063680,
-        "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+        "referee": "Bruno Pires Costa",
         "timezone": "UTC",
         "date": "2024-02-24T20:30:00+00:00",
         "timestamp": 1708806600,
@@ -13954,7 +13954,7 @@
     {
       "fixture": {
         "id": 1063681,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2024-02-24T18:00:00+00:00",
         "timestamp": 1708797600,
@@ -14022,7 +14022,7 @@
     {
       "fixture": {
         "id": 1063682,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2024-02-25T15:30:00+00:00",
         "timestamp": 1708875000,
@@ -14090,7 +14090,7 @@
     {
       "fixture": {
         "id": 1063683,
-        "referee": "Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2024-03-03T15:30:00+00:00",
         "timestamp": 1709479800,
@@ -14158,7 +14158,7 @@
     {
       "fixture": {
         "id": 1063684,
-        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2024-03-02T18:00:00+00:00",
         "timestamp": 1709402400,
@@ -14226,7 +14226,7 @@
     {
       "fixture": {
         "id": 1063685,
-        "referee": "Jose Bessa, Portugal",
+        "referee": "José Bessa",
         "timezone": "UTC",
         "date": "2024-03-03T15:30:00+00:00",
         "timestamp": 1709479800,
@@ -14294,7 +14294,7 @@
     {
       "fixture": {
         "id": 1063686,
-        "referee": "Helder Malheiro, Portugal",
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2024-03-02T20:30:00+00:00",
         "timestamp": 1709411400,
@@ -14362,7 +14362,7 @@
     {
       "fixture": {
         "id": 1063687,
-        "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+        "referee": "Bruno Pires Costa",
         "timezone": "UTC",
         "date": "2024-03-02T15:30:00+00:00",
         "timestamp": 1709393400,
@@ -14430,7 +14430,7 @@
     {
       "fixture": {
         "id": 1063688,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2024-03-03T18:00:00+00:00",
         "timestamp": 1709488800,
@@ -14498,7 +14498,7 @@
     {
       "fixture": {
         "id": 1063689,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2024-03-01T20:15:00+00:00",
         "timestamp": 1709324100,
@@ -14566,7 +14566,7 @@
     {
       "fixture": {
         "id": 1063690,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-03-03T20:30:00+00:00",
         "timestamp": 1709497800,
@@ -14634,7 +14634,7 @@
     {
       "fixture": {
         "id": 1063691,
-        "referee": "Fabio Melo, Portugal",
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2024-03-04T20:15:00+00:00",
         "timestamp": 1709583300,
@@ -14702,7 +14702,7 @@
     {
       "fixture": {
         "id": 1063692,
-        "referee": "Bruno Jose Ribeiro Pires Costa, Portugal",
+        "referee": "Bruno Pires Costa",
         "timezone": "UTC",
         "date": "2024-03-09T15:30:00+00:00",
         "timestamp": 1709998200,
@@ -14770,7 +14770,7 @@
     {
       "fixture": {
         "id": 1063693,
-        "referee": "Jorge Manuel Oliveira, Portugal",
+        "referee": "Manuel Oliveira",
         "timezone": "UTC",
         "date": "2024-03-10T20:30:00+00:00",
         "timestamp": 1710102600,
@@ -14780,8 +14780,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio da Luz",
-          "city": "Lisbon"
+          "name": "Estádio do Sport Lisboa e Benfica",
+          "city": "Lisboa"
         },
         "status": {
           "long": "Match Finished",
@@ -14838,7 +14838,7 @@
     {
       "fixture": {
         "id": 1063694,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-03-10T18:00:00+00:00",
         "timestamp": 1710093600,
@@ -14906,7 +14906,7 @@
     {
       "fixture": {
         "id": 1063695,
-        "referee": "Bruno Vieira, Portugal",
+        "referee": "Bruno Vieira",
         "timezone": "UTC",
         "date": "2024-03-09T18:00:00+00:00",
         "timestamp": 1710007200,
@@ -14974,7 +14974,7 @@
     {
       "fixture": {
         "id": 1063696,
-        "referee": "Antonio Nobre, Portugal",
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2024-03-08T20:45:00+00:00",
         "timestamp": 1709930700,
@@ -15042,7 +15042,7 @@
     {
       "fixture": {
         "id": 1063697,
-        "referee": "Iancu Vasilica, Portugal",
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2024-03-09T20:30:00+00:00",
         "timestamp": 1710016200,
@@ -15178,7 +15178,7 @@
     {
       "fixture": {
         "id": 1063699,
-        "referee": "Artur Soares Dias, Portugal",
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2024-03-08T18:45:00+00:00",
         "timestamp": 1709923500,
@@ -15246,7 +15246,7 @@
     {
       "fixture": {
         "id": 1063700,
-        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2024-03-11T20:15:00+00:00",
         "timestamp": 1710188100,
@@ -15314,13 +15314,13 @@
     {
       "fixture": {
         "id": 1063701,
-        "referee": null,
+        "referee": "Gustavo Correia",
         "timezone": "UTC",
         "date": "2024-03-17T15:30:00+00:00",
         "timestamp": 1710689400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710689400,
+          "second": 1710693000
         },
         "venue": {
           "id": 1273,
@@ -15328,9 +15328,9 @@
           "city": "Chaves"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15347,27 +15347,27 @@
           "id": 223,
           "name": "Chaves",
           "logo": "https://media.api-sports.io/football/teams/223.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 224,
           "name": "Guimaraes",
           "logo": "https://media.api-sports.io/football/teams/224.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -15382,13 +15382,13 @@
     {
       "fixture": {
         "id": 1063702,
-        "referee": null,
+        "referee": "Iancu Vasilica",
         "timezone": "UTC",
         "date": "2024-03-16T18:00:00+00:00",
         "timestamp": 1710612000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710612000,
+          "second": 1710615600
         },
         "venue": {
           "id": 1291,
@@ -15396,9 +15396,9 @@
           "city": "Braga"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15415,27 +15415,27 @@
           "id": 217,
           "name": "SC Braga",
           "logo": "https://media.api-sports.io/football/teams/217.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 762,
           "name": "GIL Vicente",
           "logo": "https://media.api-sports.io/football/teams/762.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -15450,13 +15450,13 @@
     {
       "fixture": {
         "id": 1063703,
-        "referee": null,
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-03-15T20:15:00+00:00",
         "timestamp": 1710533700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710533700,
+          "second": 1710537300
         },
         "venue": {
           "id": 1274,
@@ -15464,9 +15464,9 @@
           "city": "Estoril"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15483,27 +15483,27 @@
           "id": 230,
           "name": "Estoril",
           "logo": "https://media.api-sports.io/football/teams/230.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 216,
           "name": "Portimonense",
           "logo": "https://media.api-sports.io/football/teams/216.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -15518,13 +15518,13 @@
     {
       "fixture": {
         "id": 1063704,
-        "referee": null,
+        "referee": "Miguel Nogueira",
         "timezone": "UTC",
         "date": "2024-03-16T18:00:00+00:00",
         "timestamp": 1710612000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710612000,
+          "second": 1710615600
         },
         "venue": {
           "id": 1290,
@@ -15532,9 +15532,9 @@
           "city": "Faro"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15561,17 +15561,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -15586,13 +15586,13 @@
     {
       "fixture": {
         "id": 1063705,
-        "referee": null,
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2024-03-17T20:30:00+00:00",
         "timestamp": 1710707400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710707400,
+          "second": 1710711000
         },
         "venue": {
           "id": 1293,
@@ -15600,9 +15600,9 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15619,27 +15619,27 @@
           "id": 228,
           "name": "Sporting CP",
           "logo": "https://media.api-sports.io/football/teams/228.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 222,
           "name": "Boavista",
           "logo": "https://media.api-sports.io/football/teams/222.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 6,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 6,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -15654,13 +15654,13 @@
     {
       "fixture": {
         "id": 1063706,
-        "referee": null,
+        "referee": "João Ferreira",
         "timezone": "UTC",
         "date": "2024-03-16T20:30:00+00:00",
         "timestamp": 1710621000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710621000,
+          "second": 1710624600
         },
         "venue": {
           "id": 1286,
@@ -15668,9 +15668,9 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15687,27 +15687,27 @@
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 810,
           "name": "Vizela",
           "logo": "https://media.api-sports.io/football/teams/810.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -15722,13 +15722,13 @@
     {
       "fixture": {
         "id": 1063707,
-        "referee": null,
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2024-03-17T15:30:00+00:00",
         "timestamp": 1710689400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710689400,
+          "second": 1710693000
         },
         "venue": {
           "id": 1280,
@@ -15736,9 +15736,9 @@
           "city": "Moreira de Cónegos"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15755,27 +15755,27 @@
           "id": 215,
           "name": "Moreirense",
           "logo": "https://media.api-sports.io/football/teams/215.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 240,
           "name": "Arouca",
           "logo": "https://media.api-sports.io/football/teams/240.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -15790,13 +15790,13 @@
     {
       "fixture": {
         "id": 1063708,
-        "referee": null,
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2024-03-17T18:00:00+00:00",
         "timestamp": 1710698400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710698400,
+          "second": 1710702000
         },
         "venue": {
           "id": 3565,
@@ -15804,9 +15804,9 @@
           "city": "Rio Maior"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15823,27 +15823,27 @@
           "id": 4716,
           "name": "Casa Pia",
           "logo": "https://media.api-sports.io/football/teams/4716.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 211,
           "name": "Benfica",
           "logo": "https://media.api-sports.io/football/teams/211.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -15858,13 +15858,13 @@
     {
       "fixture": {
         "id": 1063709,
-        "referee": null,
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-03-16T15:30:00+00:00",
         "timestamp": 1710603000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710603000,
+          "second": 1710606600
         },
         "venue": {
           "id": 1276,
@@ -15872,9 +15872,9 @@
           "city": "Vila Nova de Famalicão"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15901,17 +15901,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -15928,8 +15928,8 @@
         "id": 1063710,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-30T18:00:00+00:00",
+        "timestamp": 1711821600,
         "periods": {
           "first": null,
           "second": null
@@ -15940,8 +15940,8 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -15996,8 +15996,8 @@
         "id": 1063711,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-30T20:30:00+00:00",
+        "timestamp": 1711830600,
         "periods": {
           "first": null,
           "second": null
@@ -16008,8 +16008,8 @@
           "city": "Estoril"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16064,8 +16064,8 @@
         "id": 1063712,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-29T20:30:00+00:00",
+        "timestamp": 1711744200,
         "periods": {
           "first": null,
           "second": null
@@ -16076,8 +16076,8 @@
           "city": "Amadora"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16132,8 +16132,8 @@
         "id": 1063713,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-30T15:30:00+00:00",
+        "timestamp": 1711812600,
         "periods": {
           "first": null,
           "second": null
@@ -16144,8 +16144,8 @@
           "city": "Guimarães"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16200,8 +16200,8 @@
         "id": 1063714,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-30T15:30:00+00:00",
+        "timestamp": 1711812600,
         "periods": {
           "first": null,
           "second": null
@@ -16212,8 +16212,8 @@
           "city": "Arouca"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16268,8 +16268,8 @@
         "id": 1063715,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-04-01T19:15:00+00:00",
+        "timestamp": 1711998900,
         "periods": {
           "first": null,
           "second": null
@@ -16280,8 +16280,8 @@
           "city": "Portimão"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16336,8 +16336,8 @@
         "id": 1063716,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-31T17:00:00+00:00",
+        "timestamp": 1711904400,
         "periods": {
           "first": null,
           "second": null
@@ -16348,8 +16348,8 @@
           "city": "Caldas de Vizela"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16404,8 +16404,8 @@
         "id": 1063717,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-29T15:30:00+00:00",
+        "timestamp": 1711726200,
         "periods": {
           "first": null,
           "second": null
@@ -16416,8 +16416,8 @@
           "city": "Barcelos"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16472,8 +16472,8 @@
         "id": 1063718,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-30T00:00:00+00:00",
-        "timestamp": 1711756800,
+        "date": "2024-03-29T18:00:00+00:00",
+        "timestamp": 1711735200,
         "periods": {
           "first": null,
           "second": null
@@ -16484,8 +16484,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16540,8 +16540,8 @@
         "id": 1063719,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-07T14:30:00+00:00",
+        "timestamp": 1712500200,
         "periods": {
           "first": null,
           "second": null
@@ -16552,8 +16552,8 @@
           "city": "Chaves"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16608,8 +16608,8 @@
         "id": 1063720,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-06T14:30:00+00:00",
+        "timestamp": 1712413800,
         "periods": {
           "first": null,
           "second": null
@@ -16620,8 +16620,8 @@
           "city": "Vila Nova de Famalicão"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16676,8 +16676,8 @@
         "id": 1063721,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-08T19:15:00+00:00",
+        "timestamp": 1712603700,
         "periods": {
           "first": null,
           "second": null
@@ -16688,8 +16688,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16744,8 +16744,8 @@
         "id": 1063722,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-07T17:00:00+00:00",
+        "timestamp": 1712509200,
         "periods": {
           "first": null,
           "second": null
@@ -16756,8 +16756,8 @@
           "city": "Moreira de Cónegos"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16812,8 +16812,8 @@
         "id": 1063723,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-06T14:30:00+00:00",
+        "timestamp": 1712413800,
         "periods": {
           "first": null,
           "second": null
@@ -16824,8 +16824,8 @@
           "city": "Vila do Conde"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16880,8 +16880,8 @@
         "id": 1063724,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-06T19:30:00+00:00",
+        "timestamp": 1712431800,
         "periods": {
           "first": null,
           "second": null
@@ -16892,8 +16892,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -16948,8 +16948,8 @@
         "id": 1063725,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-07T19:30:00+00:00",
+        "timestamp": 1712518200,
         "periods": {
           "first": null,
           "second": null
@@ -16960,8 +16960,8 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17016,8 +17016,8 @@
         "id": 1063726,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-06T17:00:00+00:00",
+        "timestamp": 1712422800,
         "periods": {
           "first": null,
           "second": null
@@ -17028,8 +17028,8 @@
           "city": "Braga"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17084,8 +17084,8 @@
         "id": 1063727,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-07T00:00:00+00:00",
-        "timestamp": 1712448000,
+        "date": "2024-04-05T19:15:00+00:00",
+        "timestamp": 1712344500,
         "periods": {
           "first": null,
           "second": null
@@ -17096,8 +17096,8 @@
           "city": "Faro"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17152,8 +17152,8 @@
         "id": 1063728,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-14T17:00:00+00:00",
+        "timestamp": 1713114000,
         "periods": {
           "first": null,
           "second": null
@@ -17164,8 +17164,8 @@
           "city": "Arouca"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17220,8 +17220,8 @@
         "id": 1063729,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-12T19:15:00+00:00",
+        "timestamp": 1712949300,
         "periods": {
           "first": null,
           "second": null
@@ -17232,8 +17232,8 @@
           "city": "Barcelos"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17288,8 +17288,8 @@
         "id": 1063730,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-14T14:30:00+00:00",
+        "timestamp": 1713105000,
         "periods": {
           "first": null,
           "second": null
@@ -17300,8 +17300,8 @@
           "city": "Amadora"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17356,8 +17356,8 @@
         "id": 1063731,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-14T19:30:00+00:00",
+        "timestamp": 1713123000,
         "periods": {
           "first": null,
           "second": null
@@ -17368,8 +17368,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17424,8 +17424,8 @@
         "id": 1063732,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-13T14:30:00+00:00",
+        "timestamp": 1713018600,
         "periods": {
           "first": null,
           "second": null
@@ -17436,8 +17436,8 @@
           "city": "Guimarães"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17492,8 +17492,8 @@
         "id": 1063733,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-13T19:30:00+00:00",
+        "timestamp": 1713036600,
         "periods": {
           "first": null,
           "second": null
@@ -17504,8 +17504,8 @@
           "city": "Estoril"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17560,8 +17560,8 @@
         "id": 1063734,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-13T17:00:00+00:00",
+        "timestamp": 1713027600,
         "periods": {
           "first": null,
           "second": null
@@ -17572,8 +17572,8 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17628,8 +17628,8 @@
         "id": 1063735,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-15T19:15:00+00:00",
+        "timestamp": 1713208500,
         "periods": {
           "first": null,
           "second": null
@@ -17640,8 +17640,8 @@
           "city": "Caldas de Vizela"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17696,8 +17696,8 @@
         "id": 1063736,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-14T00:00:00+00:00",
-        "timestamp": 1713052800,
+        "date": "2024-04-14T17:00:00+00:00",
+        "timestamp": 1713114000,
         "periods": {
           "first": null,
           "second": null
@@ -17708,8 +17708,8 @@
           "city": "Portimão"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17764,8 +17764,8 @@
         "id": 1063737,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-21T14:30:00+00:00",
+        "timestamp": 1713709800,
         "periods": {
           "first": null,
           "second": null
@@ -17776,8 +17776,8 @@
           "city": "Chaves"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17832,8 +17832,8 @@
         "id": 1063738,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-20T17:00:00+00:00",
+        "timestamp": 1713632400,
         "periods": {
           "first": null,
           "second": null
@@ -17844,8 +17844,8 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17900,8 +17900,8 @@
         "id": 1063739,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-21T17:00:00+00:00",
+        "timestamp": 1713718800,
         "periods": {
           "first": null,
           "second": null
@@ -17912,8 +17912,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -17968,8 +17968,8 @@
         "id": 1063740,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-20T19:30:00+00:00",
+        "timestamp": 1713641400,
         "periods": {
           "first": null,
           "second": null
@@ -17980,8 +17980,8 @@
           "city": "Braga"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18036,8 +18036,8 @@
         "id": 1063741,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-21T14:30:00+00:00",
+        "timestamp": 1713709800,
         "periods": {
           "first": null,
           "second": null
@@ -18048,8 +18048,8 @@
           "city": "Vila Nova de Famalicão"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18104,8 +18104,8 @@
         "id": 1063742,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-20T14:30:00+00:00",
+        "timestamp": 1713623400,
         "periods": {
           "first": null,
           "second": null
@@ -18116,8 +18116,8 @@
           "city": "Moreira de Cónegos"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18172,8 +18172,8 @@
         "id": 1063743,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-19T19:15:00+00:00",
+        "timestamp": 1713554100,
         "periods": {
           "first": null,
           "second": null
@@ -18184,8 +18184,8 @@
           "city": "Vila do Conde"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18240,8 +18240,8 @@
         "id": 1063744,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-22T19:15:00+00:00",
+        "timestamp": 1713813300,
         "periods": {
           "first": null,
           "second": null
@@ -18252,8 +18252,8 @@
           "city": "Faro"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18308,8 +18308,8 @@
         "id": 1063745,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-21T00:00:00+00:00",
-        "timestamp": 1713657600,
+        "date": "2024-04-21T19:30:00+00:00",
+        "timestamp": 1713727800,
         "periods": {
           "first": null,
           "second": null
@@ -18320,8 +18320,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18376,8 +18376,8 @@
         "id": 1063746,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-28T19:30:00+00:00",
+        "timestamp": 1714332600,
         "periods": {
           "first": null,
           "second": null
@@ -18388,8 +18388,8 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18444,8 +18444,8 @@
         "id": 1063747,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-28T17:00:00+00:00",
+        "timestamp": 1714323600,
         "periods": {
           "first": null,
           "second": null
@@ -18456,8 +18456,8 @@
           "city": "Estoril"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18512,8 +18512,8 @@
         "id": 1063748,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-29T19:15:00+00:00",
+        "timestamp": 1714418100,
         "periods": {
           "first": null,
           "second": null
@@ -18524,8 +18524,8 @@
           "city": "Amadora"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18580,8 +18580,8 @@
         "id": 1063749,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-27T17:00:00+00:00",
+        "timestamp": 1714237200,
         "periods": {
           "first": null,
           "second": null
@@ -18592,8 +18592,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18648,8 +18648,8 @@
         "id": 1063750,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-28T14:30:00+00:00",
+        "timestamp": 1714314600,
         "periods": {
           "first": null,
           "second": null
@@ -18660,8 +18660,8 @@
           "city": "Portimão"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18716,8 +18716,8 @@
         "id": 1063751,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-26T19:15:00+00:00",
+        "timestamp": 1714158900,
         "periods": {
           "first": null,
           "second": null
@@ -18728,8 +18728,8 @@
           "city": "Barcelos"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18784,8 +18784,8 @@
         "id": 1063752,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-27T19:30:00+00:00",
+        "timestamp": 1714246200,
         "periods": {
           "first": null,
           "second": null
@@ -18796,8 +18796,8 @@
           "city": "Guimarães"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18852,8 +18852,8 @@
         "id": 1063753,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-27T14:30:00+00:00",
+        "timestamp": 1714228200,
         "periods": {
           "first": null,
           "second": null
@@ -18864,8 +18864,8 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -18920,8 +18920,8 @@
         "id": 1063754,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-27T14:30:00+00:00",
+        "timestamp": 1714228200,
         "periods": {
           "first": null,
           "second": null
@@ -18932,8 +18932,8 @@
           "city": "Caldas de Vizela"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
