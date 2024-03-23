@@ -32,4 +32,4 @@ jobs:
       # TEST
       - run: pip install -r Content_prod/logics/requirements/req_PyGithub.txt
       - name: Run script TEST.py
-        run: python Content_prod/logics/TEST.py
+        run: python Content_prod/logics/tournaments.py
