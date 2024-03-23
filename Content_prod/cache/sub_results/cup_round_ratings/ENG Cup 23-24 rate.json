@@ -5930,7 +5930,7 @@
   },
   {
     "round": "Quarter-finals",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
       "timestamp": 1710700200,
       "date": "2024-03-17 18:30:00"
@@ -5972,6 +5972,36 @@
         "name": "Liverpool",
         "id": 40,
         "rating": 1.06
+      }
+    ]
+  },
+  {
+    "round": "Semi-finals",
+    "type": "curr",
+    "last_date": {
+      "timestamp": 1713582000,
+      "date": "2024-04-20 03:00:00"
+    },
+    "rating": 1.75,
+    "club_set": [
+      {
+        "name": "Coventry",
+        "id": 1346
+      },
+      {
+        "name": "Manchester United",
+        "id": 33,
+        "rating": 0.53
+      },
+      {
+        "name": "Manchester City",
+        "id": 50,
+        "rating": 2.2
+      },
+      {
+        "name": "Chelsea",
+        "id": 49,
+        "rating": 0.65
       }
     ]
   }
