@@ -94,10 +94,10 @@ try:    # обработка исключений для определения 
                         if tournaments[ass]['tournaments'][tournP]['tytle'] == tournaments[ass]['tournaments'][tourn]['tytle'] \
                         and tournaments[ass]['tournaments'][tournP]['season'] == prev_season][0]
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'League':
-                    prev = participants_nat_league(tourn, prev_season, prev_quota)   # список участников турнира PREV
+                    prev = participants_nat_league(tourn, tourn_id, prev_season, prev_quota, [])   # список участников турнира PREV
                     tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_league(tourn, tourn_id, season, quota, prev)
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'Cup':
-                    prev = participants_nat_cup(tourn, prev_season, prev_quota)   # список участников турнира PREV
+                    prev = participants_nat_cup(tourn, tourn_id, prev_season, prev_quota, [])   # список участников турнира PREV
                     tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_cup(tourn, tourn_id, season, quota, prev)
 
     # TL participants
