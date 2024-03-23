@@ -5,7 +5,7 @@
     "season": "2023"
   },
   "errors": [],
-  "results": 876,
+  "results": 878,
   "paging": {
     "current": 1,
     "total": 1
@@ -53122,7 +53122,7 @@
     {
       "fixture": {
         "id": 1141461,
-        "referee": "S. Allison",
+        "referee": "Sam Allison, England",
         "timezone": "UTC",
         "date": "2023-12-05T19:45:00+00:00",
         "timestamp": 1701805500,
@@ -53530,7 +53530,7 @@
     {
       "fixture": {
         "id": 1141467,
-        "referee": "C. Pollard",
+        "referee": "Christopher Pollard, England",
         "timezone": "UTC",
         "date": "2023-12-04T19:45:00+00:00",
         "timestamp": 1701719100,
@@ -53734,7 +53734,7 @@
     {
       "fixture": {
         "id": 1141470,
-        "referee": "C. Breakspear",
+        "referee": "Charles Breakspear, England",
         "timezone": "UTC",
         "date": "2023-11-15T19:45:00+00:00",
         "timestamp": 1700077500,
@@ -54482,7 +54482,7 @@
     {
       "fixture": {
         "id": 1145548,
-        "referee": "A. Madley",
+        "referee": "Andy Madley, England",
         "timezone": "UTC",
         "date": "2024-01-07T14:00:00+00:00",
         "timestamp": 1704636000,
@@ -54550,7 +54550,7 @@
     {
       "fixture": {
         "id": 1145549,
-        "referee": "J. Brooks",
+        "referee": "John Brooks, England",
         "timezone": "UTC",
         "date": "2024-01-07T16:30:00+00:00",
         "timestamp": 1704645000,
@@ -54618,7 +54618,7 @@
     {
       "fixture": {
         "id": 1145550,
-        "referee": "A. Kitchen",
+        "referee": "Andrew Kitchen, England",
         "timezone": "UTC",
         "date": "2024-01-07T14:00:00+00:00",
         "timestamp": 1704636000,
@@ -54686,7 +54686,7 @@
     {
       "fixture": {
         "id": 1145551,
-        "referee": "P. Tierney",
+        "referee": "Paul Tierney, England",
         "timezone": "UTC",
         "date": "2024-01-06T15:00:00+00:00",
         "timestamp": 1704553200,
@@ -54754,7 +54754,7 @@
     {
       "fixture": {
         "id": 1145552,
-        "referee": "G. Scott",
+        "referee": "Graham Scott, England",
         "timezone": "UTC",
         "date": "2024-01-07T14:00:00+00:00",
         "timestamp": 1704636000,
@@ -54822,7 +54822,7 @@
     {
       "fixture": {
         "id": 1145553,
-        "referee": "S. Barrott",
+        "referee": "Samuel Barrott, England",
         "timezone": "UTC",
         "date": "2024-01-05T20:00:00+00:00",
         "timestamp": 1704484800,
@@ -54890,7 +54890,7 @@
     {
       "fixture": {
         "id": 1145554,
-        "referee": "S. Hooper",
+        "referee": "Dean Whitestone, England",
         "timezone": "UTC",
         "date": "2024-01-05T19:30:00+00:00",
         "timestamp": 1704483000,
@@ -54958,7 +54958,7 @@
     {
       "fixture": {
         "id": 1145555,
-        "referee": "S. Allison",
+        "referee": "Sam Allison, England",
         "timezone": "UTC",
         "date": "2024-01-07T14:00:00+00:00",
         "timestamp": 1704636000,
@@ -55026,7 +55026,7 @@
     {
       "fixture": {
         "id": 1145556,
-        "referee": "O. Langford",
+        "referee": "Oliver Langford, England",
         "timezone": "UTC",
         "date": "2024-01-06T12:30:00+00:00",
         "timestamp": 1704544200,
@@ -55162,7 +55162,7 @@
     {
       "fixture": {
         "id": 1145558,
-        "referee": "C. Pawson",
+        "referee": "Craig Pawson, England",
         "timezone": "UTC",
         "date": "2024-01-06T12:45:00+00:00",
         "timestamp": 1704545100,
@@ -55230,7 +55230,7 @@
     {
       "fixture": {
         "id": 1145559,
-        "referee": "T. Kirk",
+        "referee": "Thomas Kirk, England",
         "timezone": "UTC",
         "date": "2024-01-06T17:30:00+00:00",
         "timestamp": 1704562200,
@@ -55298,7 +55298,7 @@
     {
       "fixture": {
         "id": 1145560,
-        "referee": "C. Kavanagh",
+        "referee": "Chris Kavanagh, England",
         "timezone": "UTC",
         "date": "2024-01-04T20:00:00+00:00",
         "timestamp": 1704398400,
@@ -55366,7 +55366,7 @@
     {
       "fixture": {
         "id": 1145561,
-        "referee": "R. Jones",
+        "referee": "Robert Jones, England",
         "timezone": "UTC",
         "date": "2024-01-06T17:30:00+00:00",
         "timestamp": 1704562200,
@@ -55434,7 +55434,7 @@
     {
       "fixture": {
         "id": 1145562,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2024-01-08T20:15:00+00:00",
         "timestamp": 1704744900,
@@ -55502,7 +55502,7 @@
     {
       "fixture": {
         "id": 1145563,
-        "referee": "M. Salisbury",
+        "referee": "Salisbury Michael, England",
         "timezone": "UTC",
         "date": "2024-01-07T14:00:00+00:00",
         "timestamp": 1704636000,
@@ -55570,7 +55570,7 @@
     {
       "fixture": {
         "id": 1145564,
-        "referee": "G. Eltringham",
+        "referee": "Geoff Eltringham, England",
         "timezone": "UTC",
         "date": "2024-01-06T15:00:00+00:00",
         "timestamp": 1704553200,
@@ -55638,7 +55638,7 @@
     {
       "fixture": {
         "id": 1145565,
-        "referee": "D. Bond",
+        "referee": "Darren Bond, England",
         "timezone": "UTC",
         "date": "2024-01-06T15:00:00+00:00",
         "timestamp": 1704553200,
@@ -55706,7 +55706,7 @@
     {
       "fixture": {
         "id": 1145566,
-        "referee": "T. Nield",
+        "referee": "Tom Nield, England",
         "timezone": "UTC",
         "date": "2024-01-06T17:30:00+00:00",
         "timestamp": 1704562200,
@@ -55774,7 +55774,7 @@
     {
       "fixture": {
         "id": 1145567,
-        "referee": "T. Bramall",
+        "referee": "Thomas Bramall, England",
         "timezone": "UTC",
         "date": "2024-01-06T17:30:00+00:00",
         "timestamp": 1704562200,
@@ -55842,7 +55842,7 @@
     {
       "fixture": {
         "id": 1145568,
-        "referee": "R. Welch",
+        "referee": "Rebecca Welch, England",
         "timezone": "UTC",
         "date": "2024-01-06T15:00:00+00:00",
         "timestamp": 1704553200,
@@ -55978,7 +55978,7 @@
     {
       "fixture": {
         "id": 1145570,
-        "referee": "T. Harrington",
+        "referee": "Tony Harrington, England",
         "timezone": "UTC",
         "date": "2024-01-05T19:15:00+00:00",
         "timestamp": 1704482100,
@@ -56182,7 +56182,7 @@
     {
       "fixture": {
         "id": 1145609,
-        "referee": "M. Donohue",
+        "referee": "Matt Donohue, England",
         "timezone": "UTC",
         "date": "2024-01-06T12:30:00+00:00",
         "timestamp": 1704544200,
@@ -56386,7 +56386,7 @@
     {
       "fixture": {
         "id": 1147359,
-        "referee": "S. Martin",
+        "referee": "Stephen Martin, England",
         "timezone": "UTC",
         "date": "2024-01-06T12:30:00+00:00",
         "timestamp": 1704544200,
@@ -56522,7 +56522,7 @@
     {
       "fixture": {
         "id": 1147361,
-        "referee": "D. Webb",
+        "referee": "David Webb, England",
         "timezone": "UTC",
         "date": "2024-01-06T15:00:00+00:00",
         "timestamp": 1704553200,
@@ -56726,7 +56726,7 @@
     {
       "fixture": {
         "id": 1150208,
-        "referee": "S. Gill",
+        "referee": "Sunny Singh Gill, England",
         "timezone": "UTC",
         "date": "2024-01-07T14:00:00+00:00",
         "timestamp": 1704636000,
@@ -56794,7 +56794,7 @@
     {
       "fixture": {
         "id": 1155572,
-        "referee": "T. Harrington",
+        "referee": "Tony Harrington, England",
         "timezone": "UTC",
         "date": "2024-01-17T19:45:00+00:00",
         "timestamp": 1705520700,
@@ -56862,7 +56862,7 @@
     {
       "fixture": {
         "id": 1155955,
-        "referee": "A. Madley",
+        "referee": "Andy Madley, England",
         "timezone": "UTC",
         "date": "2024-01-16T19:30:00+00:00",
         "timestamp": 1705433400,
@@ -56930,7 +56930,7 @@
     {
       "fixture": {
         "id": 1156155,
-        "referee": "S. Allison",
+        "referee": "Sam Allison, England",
         "timezone": "UTC",
         "date": "2024-01-16T19:45:00+00:00",
         "timestamp": 1705434300,
@@ -56998,7 +56998,7 @@
     {
       "fixture": {
         "id": 1156178,
-        "referee": "A. Davies",
+        "referee": "Andy Davies, England",
         "timezone": "UTC",
         "date": "2024-01-17T19:45:00+00:00",
         "timestamp": 1705520700,
@@ -57066,7 +57066,7 @@
     {
       "fixture": {
         "id": 1156179,
-        "referee": "L. Smith",
+        "referee": "Lewis Smith, England",
         "timezone": "UTC",
         "date": "2024-01-16T19:45:00+00:00",
         "timestamp": 1705434300,
@@ -57134,7 +57134,7 @@
     {
       "fixture": {
         "id": 1156180,
-        "referee": "T. Bramall",
+        "referee": "Thomas Bramall, England",
         "timezone": "UTC",
         "date": "2024-01-16T19:45:00+00:00",
         "timestamp": 1705434300,
@@ -57202,7 +57202,7 @@
     {
       "fixture": {
         "id": 1156181,
-        "referee": "D. Bond",
+        "referee": "Darren Bond, England",
         "timezone": "UTC",
         "date": "2024-01-17T19:45:00+00:00",
         "timestamp": 1705520700,
@@ -57270,7 +57270,7 @@
     {
       "fixture": {
         "id": 1156182,
-        "referee": "D. England",
+        "referee": "England Darren, England",
         "timezone": "UTC",
         "date": "2024-01-16T19:45:00+00:00",
         "timestamp": 1705434300,
@@ -57338,7 +57338,7 @@
     {
       "fixture": {
         "id": 1156200,
-        "referee": "M. Salisbury",
+        "referee": "Salisbury Michael, England",
         "timezone": "UTC",
         "date": "2024-01-28T14:00:00+00:00",
         "timestamp": 1706450400,
@@ -57406,7 +57406,7 @@
     {
       "fixture": {
         "id": 1156201,
-        "referee": "A. Madley",
+        "referee": "Andy Madley, England",
         "timezone": "UTC",
         "date": "2024-01-29T19:30:00+00:00",
         "timestamp": 1706556600,
@@ -57474,7 +57474,7 @@
     {
       "fixture": {
         "id": 1156202,
-        "referee": "D. England",
+        "referee": "Darren England, England",
         "timezone": "UTC",
         "date": "2024-01-25T19:45:00+00:00",
         "timestamp": 1706211900,
@@ -57542,7 +57542,7 @@
     {
       "fixture": {
         "id": 1156203,
-        "referee": "D. Bond",
+        "referee": "Darren Bond, England",
         "timezone": "UTC",
         "date": "2024-01-26T19:45:00+00:00",
         "timestamp": 1706298300,
@@ -57610,7 +57610,7 @@
     {
       "fixture": {
         "id": 1156204,
-        "referee": "R. Jones",
+        "referee": "Robert Jones, England",
         "timezone": "UTC",
         "date": "2024-01-26T19:45:00+00:00",
         "timestamp": 1706298300,
@@ -57678,7 +57678,7 @@
     {
       "fixture": {
         "id": 1156205,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2024-01-27T12:30:00+00:00",
         "timestamp": 1706358600,
@@ -57746,7 +57746,7 @@
     {
       "fixture": {
         "id": 1156206,
-        "referee": "P. Tierney",
+        "referee": "Paul Tierney, England",
         "timezone": "UTC",
         "date": "2024-01-26T20:00:00+00:00",
         "timestamp": 1706299200,
@@ -57814,7 +57814,7 @@
     {
       "fixture": {
         "id": 1156207,
-        "referee": "L. Smith",
+        "referee": "Lewis Smith, England",
         "timezone": "UTC",
         "date": "2024-01-27T15:00:00+00:00",
         "timestamp": 1706367600,
@@ -57882,7 +57882,7 @@
     {
       "fixture": {
         "id": 1156208,
-        "referee": "S. Gill",
+        "referee": "Sunny Singh Gill, England",
         "timezone": "UTC",
         "date": "2024-01-27T15:00:00+00:00",
         "timestamp": 1706367600,
@@ -57950,7 +57950,7 @@
     {
       "fixture": {
         "id": 1156209,
-        "referee": "J. Gillett",
+        "referee": "Jarred Gillett, Australia",
         "timezone": "UTC",
         "date": "2024-01-27T19:00:00+00:00",
         "timestamp": 1706382000,
@@ -58018,7 +58018,7 @@
     {
       "fixture": {
         "id": 1160762,
-        "referee": "C. Pawson",
+        "referee": "Craig Pawson, England",
         "timezone": "UTC",
         "date": "2024-01-27T15:00:00+00:00",
         "timestamp": 1706367600,
@@ -58086,7 +58086,7 @@
     {
       "fixture": {
         "id": 1160763,
-        "referee": "T. Bramall",
+        "referee": "Thomas Bramall, England",
         "timezone": "UTC",
         "date": "2024-01-28T11:45:00+00:00",
         "timestamp": 1706442300,
@@ -58154,7 +58154,7 @@
     {
       "fixture": {
         "id": 1160764,
-        "referee": "D. Coote",
+        "referee": "David Coote, England",
         "timezone": "UTC",
         "date": "2024-01-28T16:30:00+00:00",
         "timestamp": 1706459400,
@@ -58222,7 +58222,7 @@
     {
       "fixture": {
         "id": 1161123,
-        "referee": "S. Attwell",
+        "referee": "Stuart Attwell, England",
         "timezone": "UTC",
         "date": "2024-01-26T19:45:00+00:00",
         "timestamp": 1706298300,
@@ -58290,7 +58290,7 @@
     {
       "fixture": {
         "id": 1161124,
-        "referee": "S. Hooper",
+        "referee": "Simon Hooper, England",
         "timezone": "UTC",
         "date": "2024-01-27T15:00:00+00:00",
         "timestamp": 1706367600,
@@ -58358,7 +58358,7 @@
     {
       "fixture": {
         "id": 1161125,
-        "referee": "S. Barrott",
+        "referee": "Samuel Barrott, England",
         "timezone": "UTC",
         "date": "2024-01-28T14:30:00+00:00",
         "timestamp": 1706452200,
@@ -58426,7 +58426,7 @@
     {
       "fixture": {
         "id": 1168363,
-        "referee": "M. Salisbury",
+        "referee": "Salisbury Michael, England",
         "timezone": "UTC",
         "date": "2024-02-07T19:45:00+00:00",
         "timestamp": 1707335100,
@@ -58494,7 +58494,7 @@
     {
       "fixture": {
         "id": 1169251,
-        "referee": "P. Tierney",
+        "referee": "Paul Tierney, England",
         "timezone": "UTC",
         "date": "2024-02-27T19:30:00+00:00",
         "timestamp": 1709062200,
@@ -58562,7 +58562,7 @@
     {
       "fixture": {
         "id": 1169252,
-        "referee": "A. Madley",
+        "referee": "Andy Madley, England",
         "timezone": "UTC",
         "date": "2024-02-28T19:45:00+00:00",
         "timestamp": 1709149500,
@@ -58630,7 +58630,7 @@
     {
       "fixture": {
         "id": 1169253,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2024-02-27T20:00:00+00:00",
         "timestamp": 1709064000,
@@ -58698,7 +58698,7 @@
     {
       "fixture": {
         "id": 1169254,
-        "referee": "C. Kavanagh",
+        "referee": "Chris Kavanagh, England",
         "timezone": "UTC",
         "date": "2024-02-06T19:45:00+00:00",
         "timestamp": 1707248700,
@@ -58766,7 +58766,7 @@
     {
       "fixture": {
         "id": 1169255,
-        "referee": "R. Jones",
+        "referee": "Robert Jones, England",
         "timezone": "UTC",
         "date": "2024-02-06T19:45:00+00:00",
         "timestamp": 1707248700,
@@ -58834,7 +58834,7 @@
     {
       "fixture": {
         "id": 1169256,
-        "referee": "D. Bond",
+        "referee": "Darren Bond, England",
         "timezone": "UTC",
         "date": "2024-02-06T19:45:00+00:00",
         "timestamp": 1707248700,
@@ -58902,7 +58902,7 @@
     {
       "fixture": {
         "id": 1169257,
-        "referee": "T. Bramall",
+        "referee": "Thomas Bramall, England",
         "timezone": "UTC",
         "date": "2024-02-07T20:00:00+00:00",
         "timestamp": 1707336000,
@@ -58970,7 +58970,7 @@
     {
       "fixture": {
         "id": 1169386,
-        "referee": "J. Gillett",
+        "referee": "Jarred Gillett, Australia",
         "timezone": "UTC",
         "date": "2024-02-27T19:45:00+00:00",
         "timestamp": 1709063100,
@@ -59038,7 +59038,7 @@
     {
       "fixture": {
         "id": 1171747,
-        "referee": "M. Salisbury",
+        "referee": "Salisbury Michael, England",
         "timezone": "UTC",
         "date": "2024-02-26T19:45:00+00:00",
         "timestamp": 1708976700,
@@ -59106,7 +59106,7 @@
     {
       "fixture": {
         "id": 1171748,
-        "referee": "C. Pawson",
+        "referee": "Craig Pawson, England",
         "timezone": "UTC",
         "date": "2024-02-28T20:00:00+00:00",
         "timestamp": 1709150400,
@@ -59174,7 +59174,7 @@
     {
       "fixture": {
         "id": 1172435,
-        "referee": "D. Coote",
+        "referee": "David Coote, England",
         "timezone": "UTC",
         "date": "2024-02-28T19:30:00+00:00",
         "timestamp": 1709148600,
@@ -59242,7 +59242,7 @@
     {
       "fixture": {
         "id": 1172436,
-        "referee": "C. Kavanagh",
+        "referee": "Chris Kavanagh, England",
         "timezone": "UTC",
         "date": "2024-02-28T19:45:00+00:00",
         "timestamp": 1709149500,
@@ -59310,13 +59310,13 @@
     {
       "fixture": {
         "id": 1180022,
-        "referee": null,
+        "referee": "Samuel Barrott, England",
         "timezone": "UTC",
         "date": "2024-03-16T12:15:00+00:00",
         "timestamp": 1710591300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710591300,
+          "second": 1710594900
         },
         "venue": {
           "id": 600,
@@ -59324,9 +59324,9 @@
           "city": "Wolverhampton, West Midlands"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -59343,27 +59343,27 @@
           "id": 39,
           "name": "Wolves",
           "logo": "https://media.api-sports.io/football/teams/39.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 1346,
           "name": "Coventry",
           "logo": "https://media.api-sports.io/football/teams/1346.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -59378,13 +59378,13 @@
     {
       "fixture": {
         "id": 1180023,
-        "referee": null,
+        "referee": "Simon Hooper, England",
         "timezone": "UTC",
         "date": "2024-03-16T17:30:00+00:00",
         "timestamp": 1710610200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710610200,
+          "second": 1710613800
         },
         "venue": {
           "id": 555,
@@ -59392,9 +59392,9 @@
           "city": "Manchester"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -59411,27 +59411,27 @@
           "id": 50,
           "name": "Manchester City",
           "logo": "https://media.api-sports.io/football/teams/50.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 34,
           "name": "Newcastle",
           "logo": "https://media.api-sports.io/football/teams/34.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -59446,13 +59446,13 @@
     {
       "fixture": {
         "id": 1180024,
-        "referee": null,
+        "referee": "Andy Madley, England",
         "timezone": "UTC",
         "date": "2024-03-17T12:45:00+00:00",
         "timestamp": 1710679500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710679500,
+          "second": 1710683100
         },
         "venue": {
           "id": 519,
@@ -59460,9 +59460,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -59479,12 +59479,148 @@
           "id": 49,
           "name": "Chelsea",
           "logo": "https://media.api-sports.io/football/teams/49.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 46,
           "name": "Leicester",
           "logo": "https://media.api-sports.io/football/teams/46.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1180025,
+        "referee": "John Brooks, England",
+        "timezone": "UTC",
+        "date": "2024-03-17T15:30:00+00:00",
+        "timestamp": 1710689400,
+        "periods": {
+          "first": 1710689400,
+          "second": 1710693000
+        },
+        "venue": {
+          "id": 556,
+          "name": "Old Trafford",
+          "city": "Manchester"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Quarter-finals"
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "winner": true
+        },
+        "away": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": 2,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1185654,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-04-20T00:00:00+00:00",
+        "timestamp": 1713571200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 489,
+          "name": "Wembley Stadium",
+          "city": "London"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Semi-finals"
+      },
+      "teams": {
+        "home": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png",
+          "winner": null
+        },
+        "away": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png",
           "winner": null
         }
       },
@@ -59513,23 +59649,23 @@
     },
     {
       "fixture": {
-        "id": 1180025,
+        "id": 1185655,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-03-17T15:30:00+00:00",
-        "timestamp": 1710689400,
+        "date": "2024-04-20T00:00:00+00:00",
+        "timestamp": 1713571200,
         "periods": {
           "first": null,
           "second": null
         },
         "venue": {
-          "id": 556,
-          "name": "Old Trafford",
-          "city": "Manchester"
+          "id": 489,
+          "name": "Wembley Stadium",
+          "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
+          "long": "Time to be defined",
+          "short": "TBD",
           "elapsed": null
         }
       },
@@ -59540,19 +59676,19 @@
         "logo": "https://media.api-sports.io/football/leagues/45.png",
         "flag": "https://media.api-sports.io/flags/gb.svg",
         "season": 2023,
-        "round": "Quarter-finals"
+        "round": "Semi-finals"
       },
       "teams": {
         "home": {
-          "id": 33,
-          "name": "Manchester United",
-          "logo": "https://media.api-sports.io/football/teams/33.png",
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media.api-sports.io/football/teams/50.png",
           "winner": null
         },
         "away": {
-          "id": 40,
-          "name": "Liverpool",
-          "logo": "https://media.api-sports.io/football/teams/40.png",
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media.api-sports.io/football/teams/49.png",
           "winner": null
         }
       },
