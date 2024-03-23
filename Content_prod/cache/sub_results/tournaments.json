@@ -55,15 +55,24 @@
         "tytle": "ENG League",
         "season": "23-24",
         "rating": 0.59,
-        "quota": 4,
+        "quota": 3,
         "id": 39,
         "type": "League",
         "name": "Premier League"
       },
+      "ENG Cup": {
+        "tytle": "ENG Cup",
+        "season": "23-24",
+        "rating": 0.35,
+        "quota": 1,
+        "id": 45,
+        "type": "Cup",
+        "name": "FA Cup"
+      },
       "ENG LCup": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.37,
+        "rating": 0.34,
         "quota": 1,
         "id": 48,
         "type": "Cup",
