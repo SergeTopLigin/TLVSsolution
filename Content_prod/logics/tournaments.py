@@ -325,8 +325,10 @@ try:    # обработка исключений для определения 
                             standings_dict = json.load(j)
                         # определение стадии лиги ["group"] с макс приоритетом
                         nat_league_groups(tourn[0], tourn[1], standings_dict)
-                        max(qwe, key=qwe.get)
-                        
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
+                            groups_dict = json.load(j)
+                        max(qwe, key=qwe.get)   # ключ словаря qwe c макс значением
+
                         # club set лиги из клубов текущего раунда лиги 
                         club_number = 0     # инициализация количества клубов в текущем раунде лиги
                         for team in standings_dict['response'][0]['league']['standings'][0]:

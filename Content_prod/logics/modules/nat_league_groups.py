@@ -21,7 +21,9 @@ def nat_league_groups(league, season, standings_dict):
                 
         for group in standings_dict['response'][0]['league']['standings']:
             for rank in group:
-                if league+' '+season not in groups_dict or rank['group'] not in groups_dict[league+' '+season]:
+                if league+' '+season not in groups_dict:
+                    groups_dict[league+' '+season] = {}
+                if rank['group'] not in groups_dict[league+' '+season]:
                     groups_dict[league+' '+season][rank['group']] = 0
                     
                     # выгрузка nat_league_groups.json в репо и на runner: /sub_results
