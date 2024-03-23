@@ -26,6 +26,9 @@ def nat_league_groups(league, season, standings_dict):
                 if rank['group'] not in groups_dict[league+' '+season]:
                     groups_dict[league+' '+season][rank['group']] = 0
                     
+                    # сортировка groups_dict по ключам по алфавиту (для расположения турниров одной нац лиги рядом)
+                    groups_dict = dict(sorted(groups_dict.items()))
+
                     # выгрузка nat_league_groups.json в репо и на runner: /sub_results
                     mod_name = os.path.basename(__file__)[:-3]
                     from modules.gh_push import gh_push
@@ -38,7 +41,7 @@ def nat_league_groups(league, season, standings_dict):
                         # отправить на mail уведомление о необходимости расстановки приоритетов вручную
                         from modules.bug_mail import bug_mail
                         bug_mail(str(mod_name), 'необходимо расставить приоритеты стадий '+league+' '+season+' в /sub_results/nat_league_groups.json: \
-                            макс лига[стадия: приоритет] для стадий, определяющих рейтинг турнира и участников от него')
+                            макс приоритет в лига[стадия: приоритет] для стадий, определяющих рейтинг турнира и участников от него')
 
     except: 
 

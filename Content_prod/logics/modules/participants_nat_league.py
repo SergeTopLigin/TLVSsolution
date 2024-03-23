@@ -1,16 +1,28 @@
-# определение участников group set турнира UEFA
+# определение участников от нац лиги
 # возвращает список участников = [{club: , id: }, ...]
-# best from group stage by
-    # 1. PTS/PL (only in group, without qualifing)
-    # 2. DIF/PL (only in group, without qualifing)
+# если стадия лиги одна:
+    # 1. PTS/PL
+    # 2. DIF/PL
     # 3. TL standings
     # 4. random
-# if tourn N curr.season participant == UCL/UEL/UECL tourn prev.season participant => next tourn N curr.season participant
+# если стадий лиги больше одной:
+    # если количество участников стадии с макс приоритетом равно квоте: все участники этой стадии
+    # если количество участников стадии с макс приоритетом больше квоты: среди участников этой стадии по:
+        # 1. rank этой стадии
+        # 2. TL standings
+        # 3. random
+    # если количество участников стадии с макс приоритетом меньше квоты: все участники этой стадии + среди участников следующей стадии по:
+        # 1. rank следующей стадии
+        # 2. TL standings
+        # 3. random
+# если участник от текущего сезона лиги входит в квоту предыдущего сезона: 
+    # в квоту текущего сезона вместо этого участника включается следущий по критериям участник текущего сезона
 
 # определение участников происходит по standings 
 # для актуализации standings необходим актуальный fixtures
+# актуализированы при расчете tournaments.py
 
-def participants_uefa_group(tourn, tourn_id, season, quota, prev):
+def participants_nat_league(tourn, tourn_id, season, quota, prev):
     # tourn = tournaments.json['UEFA']['tournaments'][tourn]['tytle']
     # tourn_id = tournaments.json['UEFA']['tournaments'][tourn]['id']
     # season = tournaments.json['UEFA']['tournaments'][tourn]['season']   YY-YY
@@ -27,10 +39,6 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
         with open((os.path.abspath(__file__))[:-42]+'/cache/sub_results/final_standings.json', 'r') as j:
             TL_standings = json.load(j)
 
-        # актуализация fixtures и standings турнира
-        from modules.uefa_tourn_files import uefa_tourn_files
-        uefa_tourn_files(tourn, season, tourn_id, 'group')
-        
         file_find = 0   # флаг наличия файла турнира
         for tourn_file in os.listdir((os.path.abspath(__file__))[:-42]+'/cache/answers/standings'):
             if tourn in tourn_file and season in tourn_file:
@@ -40,24 +48,35 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
                 break
         
         if file_find == 1:
-            for group in tourn_standings['response'][0]['league']['standings']:
-                for club in group:
+            # если стадия лиги одна
+            if len(tourn_standings['response'][0]['league']['standings']) == 1:
+                for club in tourn_standings['response'][0]['league']['standings'][0]:
                     club_name = club['team']['name']
                     club_id = club['team']['id']
                     pts_pl = round(club['points'] / club['all']['played'], 2)
                     dif_pl = round(club['goalsDiff'] / club['all']['played'], 2)
                     if club['team']['name'] in TL_standings:
-                        TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club['team']['name']][0]
+                        TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club_name][0]
                     else:
                         TL_rank = -5
                     random_rank = random.random()
                     best_define.append({'club': club_name, 'id': club_id, 'pts/pl': pts_pl, 'dif/pl': dif_pl, 'TL_rank': TL_rank, 'random_rank': random_rank})
-            best_define.sort(key=lambda crit: (crit['pts/pl'], crit['dif/pl'], crit['TL_rank'], crit['random_rank']), reverse=True)
-            number = 0
-            for club in best_define:
-                if number < quota and club['club'] not in [prev_club['club'] for prev_club in prev]:
-                    number += 1
-                    participants.append({'club': club['club'], 'id': club['id']})
+                best_define.sort(key=lambda crit: (crit['pts/pl'], crit['dif/pl'], crit['TL_rank'], crit['random_rank']), reverse=True)
+                number = 0
+                for club in best_define:
+                    if number < quota and club['club'] not in [prev_club['club'] for prev_club in prev]:
+                        number += 1
+                        participants.append({'club': club['club'], 'id': club['id']})
+            # если стадий лиги больше одной:
+            else:    
+                # составить список стадий лиги ["group"] с сортировкой по приоритету
+                with open((os.path.abspath(__file__))[:-42]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
+                    groups_dict = json.load(j)
+                for league in groups_dict:
+                    if tourn[0] in league and tourn[1] in league:
+                        # список стадий лиги ["group"] с сортировкой по приоритету
+                        stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
+            
 
         if file_find == 0:    # если файла нет - определить по TL standings (3 критерий) по /club_sets и random (4 критерий)
             set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
