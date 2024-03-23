@@ -1,22 +1,23 @@
-                          quota
+                               quota
 UEFA
-      Champions League      16
-      Europa League          6
-      Conference League      1
+      23-24 Champions League      16
+      23-24 Europa League          6
+      23-24 Conference League      1
 TL
-      TopLiga               10
+      TopLiga                     10
 ENG
-      Premier League         4
-      League Cup             1
+      23-24 Premier League         3
+      23-24 FA Cup                 1
+      23-24 League Cup             1
 ESP
-      La Liga                4
+      23-24 La Liga                4
 GER
-      Bundesliga             4
+      23-24 Bundesliga             4
 ITA
-      Serie A                4
+      23-24 Serie A                4
 POR
-      Primeira Liga          1
+      23-24 Primeira Liga          1
 FRA
-      Ligue 1                1
+      23-24 Ligue 1                1
 NED
-      Eredivisie             1
+      23-24 Eredivisie             1
