@@ -83,9 +83,10 @@ try:    # обработка исключений для определения 
             for tourn in tournaments[ass]['tournaments']:
                 season = tournaments[ass]['tournaments'][tourn]['season']
                 quota = tournaments[ass]['tournaments'][tourn]['quota']
-                tourn_id = tournaments['UEFA']['tournaments'][tourn]['id']
+                tourn_id = tournaments[ass]['tournaments'][tourn]['id']
                 prev = []   # список участников турнира PREV
                 prev_season = str(int(season[:2])-1) + '-' + str(int(season[3:])-1)
+                prev_quota = 0   # инициализация квоты турнира PREV
                 # если в tournaments есть турнир PREV
                 if prev_season in [tournaments[ass]['tournaments'][tournP]['season'] for tournP in tournaments[ass]['tournaments'] \
                 if tournaments[ass]['tournaments'][tournP]['tytle'] == tournaments[ass]['tournaments'][tourn]['tytle']]:
@@ -93,10 +94,12 @@ try:    # обработка исключений для определения 
                         if tournaments[ass]['tournaments'][tournP]['tytle'] == tournaments[ass]['tournaments'][tourn]['tytle'] \
                         and tournaments[ass]['tournaments'][tournP]['season'] == prev_season][0]
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'League':
-                    prev = participants_nat_league(tourn, tourn_id, prev_season, prev_quota, [])   # список участников турнира PREV
+                    if prev_quota > 0:
+                        prev = participants_nat_league(tourn, tourn_id, prev_season, prev_quota, [])   # список участников турнира PREV
                     tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_league(tourn, tourn_id, season, quota, prev)
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'Cup':
-                    prev = participants_nat_cup(tourn, tourn_id, prev_season, prev_quota, [])   # список участников турнира PREV
+                    if prev_quota > 0:
+                        prev = participants_nat_cup(tourn, tourn_id, prev_season, prev_quota, [])   # список участников турнира PREV
                     tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_cup(tourn, tourn_id, season, quota, prev)
 
     # TL participants
