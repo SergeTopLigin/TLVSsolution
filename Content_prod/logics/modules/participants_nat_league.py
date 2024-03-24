@@ -56,10 +56,8 @@ def participants_nat_league(tourn, tourn_id, season, quota, prev):
                     random_rank = random.random()
                     best_define.append({'club': club_name, 'id': club_id, 'pts/pl': pts_pl, 'dif/pl': dif_pl, 'TL_rank': TL_rank, 'random_rank': random_rank})
                 best_define.sort(key=lambda crit: (crit['pts/pl'], crit['dif/pl'], crit['TL_rank'], crit['random_rank']), reverse=True)
-                number = 0
                 for club in best_define:
-                    if number < quota and club['id'] not in [prev_club['id'] for prev_club in prev]:
-                        number += 1
+                    if len(participants) < quota and club['id'] not in [prev_club['id'] for prev_club in prev]:
                         participants.append({'club': club['club'], 'id': club['id']})
             # если стадий лиги больше одной:
             else:    
