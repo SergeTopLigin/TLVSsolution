@@ -7,14 +7,8 @@
     # 4. random
 # если стадий лиги больше одной:
     # если количество участников стадии с макс приоритетом равно квоте: все участники этой стадии
-    # если количество участников стадии с макс приоритетом больше квоты: среди участников этой стадии по:
-        # 1. rank этой стадии
-        # 2. TL standings
-        # 3. random
-    # если количество участников стадии с макс приоритетом меньше квоты: все участники этой стадии + среди участников следующей стадии по:
-        # 1. rank следующей стадии
-        # 2. TL standings
-        # 3. random
+    # если количество участников стадии с макс приоритетом больше квоты: среди участников этой стадии по rank этой стадии
+    # если количество участников стадии с макс приоритетом меньше квоты: все участники этой стадии + среди участников следующей стадии по rank следующей стадии
 # если участник от текущего сезона лиги входит в квоту предыдущего сезона: 
     # в квоту текущего сезона вместо этого участника включается следущий по критериям участник текущего сезона
 
@@ -64,7 +58,7 @@ def participants_nat_league(tourn, tourn_id, season, quota, prev):
                 best_define.sort(key=lambda crit: (crit['pts/pl'], crit['dif/pl'], crit['TL_rank'], crit['random_rank']), reverse=True)
                 number = 0
                 for club in best_define:
-                    if number < quota and club['club'] not in [prev_club['club'] for prev_club in prev]:
+                    if number < quota and club['id'] not in [prev_club['id'] for prev_club in prev]:
                         number += 1
                         participants.append({'club': club['club'], 'id': club['id']})
             # если стадий лиги больше одной:
@@ -76,7 +70,14 @@ def participants_nat_league(tourn, tourn_id, season, quota, prev):
                     if tourn[0] in league and tourn[1] in league:
                         # список стадий лиги ["group"] с сортировкой по приоритету
                         stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
-            
+                for stage in stage_prior:
+                    for group in tourn_standings['response'][0]['league']['standings']:
+                        for club in group:
+                            if club['group'] == stage and club['team']['id'] not in [prev_club['id'] for prev_club in prev]:
+                                participants.append({'club': club['team']['name'], 'id': club['team']['id']})
+                                if len(participants) == quota:   break
+                        if len(participants) == quota:   break
+                    if len(participants) == quota:   break
 
         if file_find == 0:    # если файла нет - определить по TL standings (3 критерий) по /club_sets и random (4 критерий)
             set_season = '20'+season[:2]+'-20'+season[3:]    # YYYY-YYYY
