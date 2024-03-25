@@ -44,7 +44,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                     tourn_fixtures = json.load(j)
                 break
         
-        # словарь стадий в порядке отдаления во времени от текущей
+        # словарь стадий
         rounds = {}    # {round: {'last_date': , 'status': }}
         for fixture in tourn_fixtures['response']:
             if fixture['league']['round'] not in rounds or\
