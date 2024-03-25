@@ -32,12 +32,12 @@ def cup_round_ratings(cup, season, fixtures_dict):
             fixed_round['last_date']['date'] = str(datetime.datetime.utcfromtimestamp(last_date))
 
         # определение type раунда: (возможно, что календарь всех стадий будет опубликован заранее или следующая стадия начнется до конца предыдущей)
-        # curr: мин last_date при short status in ['NS', 'TBD', 'PST', 'ABD']
+        # curr: мин last_date при short status not in ['FT', 'AET', 'PEN', 'CANC', 'AWD', 'WO']
         # если curr нет: все раунды - prev
         curr_last_date = 4000000000
         curr_round = None
         for match in fixtures_dict['response']:
-            if match['fixture']['status']['short'] in ['NS', 'TBD', 'PST', 'ABD'] and match['fixture']['timestamp'] < curr_last_date:
+            if match['fixture']['status']['short'] not in ['FT', 'AET', 'PEN', 'CANC', 'AWD', 'WO'] and match['fixture']['timestamp'] < curr_last_date:
                 curr_last_date = match['fixture']['timestamp']
                 curr_round = match['league']['round'].replace(' Replays', '')   # удалить Replays из названия стадии
         for fixed_round in cup_round_ratings_list:
