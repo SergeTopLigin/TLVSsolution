@@ -24,7 +24,29 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
 
     try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
+        participants = []   # результирующий список участников от турнира
+        best_define = []    # список с критериями определения лучших best_define = [{'club': , 'id': , 'pts/pl': , 'dif/pl': , 'TL_rank': , 'random_rank': }]
+        import os
+        import json
+        import random
+        with open((os.path.abspath(__file__))[:-44]+'/cache/sub_results/final_standings.json', 'r') as j:
+            TL_standings = json.load(j)
 
+        # актуализация fixtures и standings турнира
+        from modules.uefa_tourn_files import uefa_tourn_files
+        uefa_tourn_files(tourn, season, tourn_id, 'playoff')
+        
+        file_find = 0   # флаг наличия файла турнира
+        for tourn_file in os.listdir((os.path.abspath(__file__))[:-44]+'/cache/answers/fixtures'):
+            if tourn in tourn_file and season in tourn_file:
+                file_find = 1
+                with open((os.path.abspath(__file__))[:-44]+'/cache/answers/fixtures/'+tourn_file, 'r') as j:
+                    tourn_fixtures = json.load(j)
+                break
+        
+        # словарь стадий в порядке отдаления во времени от текущей
+        rounds = {}    # {round: last_date}
+        for fixture in tourn_fixtures['response']:
 
         return(participants)
 
