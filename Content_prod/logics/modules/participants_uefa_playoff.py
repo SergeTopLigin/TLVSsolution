@@ -45,8 +45,12 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                 break
         
         # словарь стадий в порядке отдаления во времени от текущей
-        rounds = {}    # {round: last_date}
+        rounds = {}    # {round: {'last_date': , 'status': }}
         for fixture in tourn_fixtures['response']:
+            if fixture['league']['round'] not in rounds or\
+            fixture['fixture']['timestamp'] > [rounds[stage]['last_date'] for stage in rounds if fixture['league']['round'] == stage][0]:
+                rounds[fixture['league']['round']] = {'last_date': fixture['fixture']['timestamp'], 'status': fixture['fixture']['status']['short']}
+
 
         return(participants)
 
