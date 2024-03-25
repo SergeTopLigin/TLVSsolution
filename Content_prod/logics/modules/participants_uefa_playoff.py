@@ -52,8 +52,8 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                 rounds[fixture['league']['round']] = {'last_date': fixture['fixture']['timestamp'], 'status': fixture['fixture']['status']['short']}
 
         cancelled = ['FT', 'AET', 'PEN', 'CANC', 'AWD', 'WO']   # список статусов завершения
-        rounds_cont = [stage for stage in rounds if rounds[stage]['status'] not in cancelled]   # незавершенные стадии
-        # текущая стадия - ранняя из незавершенных
+        rounds_cont = [{stage: rounds[stage]['last_date']} for stage in rounds if rounds[stage]['status'] not in cancelled]   # незавершенные стадии [{round: last_date}, ]
+        curr_round = min(rounds_cont, key = rounds_cont.get)    # текущая стадия - ранняя из незавершенных
 
 
         return(participants)
