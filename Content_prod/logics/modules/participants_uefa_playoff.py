@@ -51,6 +51,10 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
             fixture['fixture']['timestamp'] > [rounds[stage]['last_date'] for stage in rounds if fixture['league']['round'] == stage][0]:
                 rounds[fixture['league']['round']] = {'last_date': fixture['fixture']['timestamp'], 'status': fixture['fixture']['status']['short']}
 
+        cancelled = ['FT', 'AET', 'PEN', 'CANC', 'AWD', 'WO']   # список статусов завершения
+        rounds_cont = [stage for stage in rounds if rounds[stage]['status'] not in cancelled]   # незавершенные стадии
+        # текущая стадия - ранняя из незавершенных
+
 
         return(participants)
 
