@@ -101,7 +101,28 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
             with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/'+tourn+' '+season+' stan.json', 'r') as j:
                 tourn_standings = json.load(j)
             
-            
+            # для сезонов 23-24 и ранее, для UEL и UECL в 1/16 учесть в первую очередь победителей групп
+            if int(season[:2]) < 24 and ('UEL' in tourn or 'UECL' in tourn) and len(playoff_rounds) == 1:
+                stage_set = []
+                for group in tourn_standings['response'][0]['league']['standings']:
+                    pts_pl = group[0]['points'] / group[0]['all']['played']
+                    dif_pl = group[0]['goalsDiff'] / group[0]['all']['played']
+                    if group[0]['team']['name'] in TL_standings:
+                        TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == group[0]['team']['name']][0]
+                    else:
+                        TL_rank = -5
+                    random_rank = random.random()
+                    stage_set.append({'club': group[0]['team']['name'], 'id': group[0]['team']['id'],\
+                     'pts/pl': pts_pl, 'dif/pl': dif_pl, 'TL_rank': TL_rank, 'random_rank': random_rank})
+                stage_set.sort(key=lambda crit: (crit['pts/pl'], crit['dif/pl'], crit['TL_rank'], crit['random_rank']), reverse=True)
+                # набор квоты турнира
+                club_from_stage = 0
+                while len(participants) < quota and club_from_stage < len(stage_set):
+                    participants.append(stage_set[club_from_stage])
+                    club_from_stage += 1
+                if quota == len(participants):
+                    return(participants)
+
             # набор и сортировка клубов стадий для заполнения квоты турнира
             reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']  # список статусов окончания основного времени
             for stage in playoff_rounds:
