@@ -17,11 +17,11 @@
 # актуализированы при расчете tournaments.py
 
 def participants_nat_league(tourn, tourn_id, season, quota, prev):
-    # tourn = tournaments.json['UEFA']['tournaments'][tourn]['tytle']
-    # tourn_id = tournaments.json['UEFA']['tournaments'][tourn]['id']
-    # season = tournaments.json['UEFA']['tournaments'][tourn]['season']   YY-YY
-    # quota = tournaments.json['UEFA']['tournaments'][tourn]['quota']
-    # prev = список участников турниров УЕФА PREV playoff = [{club: , id: }, ...]
+    # tourn = tournaments.json[nat]['tournaments'][tourn]['tytle']
+    # tourn_id = tournaments.json[nat]['tournaments'][tourn]['id']
+    # season = tournaments.json[nat]['tournaments'][tourn]['season']   YY-YY
+    # quota = tournaments.json[nat]['tournaments'][tourn]['quota']
+    # prev = список участников от league PREV season = [{club: , id: }, ...]
 
     try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 

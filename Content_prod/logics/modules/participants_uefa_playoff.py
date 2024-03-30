@@ -29,9 +29,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
         import json
         import random
         mod_name = os.path.basename(__file__)[:-3]
-        from modules.gh_push import gh_push
-        from modules.runner_push import runner_push
-        from modules.apisports_key import api_key    # модуль с ключом аккаунта api
+        from modules.participants_uefa_group import participants_uefa_group
         with open((os.path.abspath(__file__))[:-44]+'/cache/sub_results/final_standings.json', 'r') as j:
             TL_standings = json.load(j)
 
@@ -80,25 +78,13 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
             # формирование standings турниров из которых возможны переходы клубов с 3-х мест групп и
             if int(season[:2]) < 24:
                 if 'UEL' in tourn:
-                    if 'UCL '+season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-44]+'/cache/answers/standings'):
-                        UCLstan = api_key("/standings?league=2&season=20"+season[:2])
-                        gh_push(str(mod_name), 'standings', 'UCL '+season+' stan.json', UCLstan)
-                        runner_push(str(mod_name), 'standings', 'UCL '+season+' stan.json', UCLstan)
                     with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/UCL '+season+' stan.json', 'r') as j:
                         drop_tourn_standings = json.load(j)
                 if 'UECL' in tourn:
-                    if 'UEL '+season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-44]+'/cache/answers/standings'):
-                        UELstan = api_key("/standings?league=3&season=20"+season[:2])
-                        gh_push(str(mod_name), 'standings', 'UEL '+season+' stan.json', UELstan)
-                        runner_push(str(mod_name), 'standings', 'UEL '+season+' stan.json', UELstan)
                     with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/UEL '+season+' stan.json', 'r') as j:
                         drop_tourn_standings = json.load(j)
             # standings UEL, UECL для учета 1-х мест групп в 1/16 (тк они начинают плейофф с 1/8), 
             # standings турнира, если квота > количества участников 1-й стадии плейофф
-            if tourn+' '+season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-44]+'/cache/answers/standings'):
-                tourn_stan = api_key("/standings?league="+tourn_id+"&season=20"+season[:2])
-                gh_push(str(mod_name), 'standings', tourn+' '+season+' stan.json', tourn_stan)
-                runner_push(str(mod_name), 'standings', tourn+' '+season+' stan.json', tourn_stan)
             with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/'+tourn+' '+season+' stan.json', 'r') as j:
                 tourn_standings = json.load(j)
             
@@ -223,6 +209,9 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                         participants.append(group_set[club_from_group])
                         club_from_group += 1
                     
+        if file_find == 0:
+            participants = participants_uefa_group(tourn, tourn_id, season, quota, [])
+
 
         return(participants)
 

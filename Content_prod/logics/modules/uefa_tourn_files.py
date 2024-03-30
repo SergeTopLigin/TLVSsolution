@@ -13,9 +13,11 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
         import os   # импорт модуля работы с каталогами
         import json
         import datetime
+        mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push
         from modules.runner_push import runner_push
         from modules.apisports_key import api_key    # модуль с ключом аккаунта api
+        from modules.bug_mail import bug_mail
 
         # проверка актуальности fixtures с возможным обновлением fixtures и standings
         find_fixtures = 0
@@ -42,10 +44,12 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
             # если 'results' != 0 - сохранить fixtures
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
-                mod_name = os.path.basename(__file__)[:-3]
                 file_name = Tourn+" "+Season+" fixt.json"
                 gh_push(str(mod_name), 'fixtures', file_name, answer_dict)
                 runner_push(str(mod_name), 'fixtures', file_name, answer_dict)
+            else:
+                gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
+                bug_mail(str(mod_name), "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
             
             # если вызов из групповой стадии - обновить standings
             if Stage == 'group':
@@ -53,10 +57,45 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
                 # если 'results' != 0 - сохранить standings
                 answer_dict = json.loads(answer)
                 if answer_dict['results'] != 0:
-                    mod_name = os.path.basename(__file__)[:-3]
                     file_name = Tourn+" "+Season+" stan.json"
                     gh_push(str(mod_name), 'standings', file_name, answer_dict)
                     runner_push(str(mod_name), 'standings', file_name, answer_dict)
+                else:
+                    gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу standings?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
+                    bug_mail(str(mod_name), "по запросу standings?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
+
+    # дополнительные файлы для стадии плейофф
+        # для сезонов 23-24 и ранее
+        # формирование standings турниров из которых возможны переходы клубов с 3-х мест групп и
+        if Stage == 'playoff' and int(Season[:2]) < 24:
+            if 'UEL' in Tourn:
+                if 'UCL '+Season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-35]+'/cache/answers/standings'):
+                    UCLstan = api_key("/standings?league=2&season=20"+Season[:2])
+                    if UCLstan['results'] != 0:
+                        gh_push(str(mod_name), 'standings', 'UCL '+Season+' stan.json', UCLstan)
+                        runner_push(str(mod_name), 'standings', 'UCL '+Season+' stan.json', UCLstan)
+                    else:
+                        gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу standings?league=2&season=20"+Season[:2]+" results=0")
+                        bug_mail(str(mod_name), "по запросу standings?league=2&season=20"+Season[:2]+" results=0")
+            if 'UECL' in Tourn:
+                if 'UEL '+Season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-35]+'/cache/answers/standings'):
+                    UELstan = api_key("/standings?league=3&season=20"+Season[:2])
+                    if UELstan['results'] != 0:
+                        gh_push(str(mod_name), 'standings', 'UEL '+Season+' stan.json', UELstan)
+                        runner_push(str(mod_name), 'standings', 'UEL '+Season+' stan.json', UELstan)
+                    else:
+                        gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу standings?league=3&season=20"+Season[:2]+" results=0")
+                        bug_mail(str(mod_name), "по запросу standings?league=3&season=20"+Season[:2]+" results=0")
+        # standings UEL, UECL для учета 1-х мест групп в 1/16 (тк они начинают плейофф с 1/8), 
+        # standings турнира, если квота > количества участников 1-й стадии плейофф
+        if Tourn+' '+Season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-35]+'/cache/answers/standings'):
+            tourn_stan = api_key("/standings?league="+LeagueID+"&season=20"+Season[:2])
+            if tourn_stan['results'] != 0:
+                gh_push(str(mod_name), 'standings', Tourn+' '+Season+' stan.json', tourn_stan)
+                runner_push(str(mod_name), 'standings', Tourn+' '+Season+' stan.json', tourn_stan)
+            else:
+                gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу standings?league="+LeagueID+"&season=20"+Season[:2]+" results=0")
+                bug_mail(str(mod_name), "по запросу standings?league="+LeagueID+"&season=20"+Season[:2]+" results=0")
 
     except: 
 

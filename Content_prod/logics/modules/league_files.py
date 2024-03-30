@@ -16,6 +16,8 @@ def league_files(League, Season, LeagueID):     # League должен соотв
         from modules.gh_push import gh_push
         from modules.runner_push import runner_push
         from modules.apisports_key import api_key    # модуль с ключом аккаунта api
+        mod_name = os.path.basename(__file__)[:-3]
+        from modules.bug_mail import bug_mail
         
         # проверка актуальности fixtures с возможным обновлением fixtures и standings
         find_fixtures = 0
@@ -41,18 +43,22 @@ def league_files(League, Season, LeagueID):     # League должен соотв
             # если 'results' != 0 - сохранить fixtures
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
-                mod_name = os.path.basename(__file__)[:-3]
                 file_name = League+" "+Season+" fixt.json"
                 gh_push(str(mod_name), 'fixtures', file_name, answer_dict)
                 runner_push(str(mod_name), 'fixtures', file_name, answer_dict)
+            else:
+                gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
+                bug_mail(str(mod_name), "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
             answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
             # если 'results' != 0 - сохранить standings
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
-                mod_name = os.path.basename(__file__)[:-3]
                 file_name = League+" "+Season+" stan.json"
                 gh_push(str(mod_name), 'standings', file_name, answer_dict)
                 runner_push(str(mod_name), 'standings', file_name, answer_dict)
+            else:
+                gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу standings?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
+                bug_mail(str(mod_name), "по запросу standings?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
 
     except: 
 
