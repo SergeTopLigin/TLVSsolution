@@ -36,7 +36,7 @@ try:    # обработка исключений для определения 
             end_substr = line.find('.',kursor)    # определение конца искомой подстроки (поиск символа "." после позиции курсора)
             UefaClubSetID.append(int(line[kursor:end_substr]))
 
-    # Association rating = total club set SUM(pts+1.2) in TL standigs
+    # Association rating = total club set SUM(pts+1.2>=0) in TL standigs
     import json
     with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/final_standings.json', 'r') as j:
         standings = json.load(j) # {club: {IDapi: , nat: , TL_rank: , visual_rank: }} 
@@ -45,7 +45,7 @@ try:    # обработка исключений для определения 
     for club in standings:
         for SetID in UefaClubSetID:
             if standings[club]['IDapi'] == SetID:
-                UEFA_rating += standings[club]['TL_rank'] + 1.2
+                UEFA_rating += max(standings[club]['TL_rank'] + 1.2, 0)
                 break
     UEFA_rating = round(UEFA_rating, 2)
     # определение National ratings
@@ -58,7 +58,7 @@ try:    # обработка исключений для определения 
         Nation_rate = 0   # инициализация рейтинга конкретной ассоциации
         for club in standings:
             if country == standings[club]['nat']:
-                Nation_rate += standings[club]['TL_rank'] + 1.2
+                Nation_rate += max(standings[club]['TL_rank'] + 1.2, 0)
         Nations_list_rate.append(round(Nation_rate, 2))
     # формирование общего словаря рейтингов ассоциаций
     Association_rating = dict(zip(Nations_list, Nations_list_rate))   # объединение списков нац ассоциаций и их рейтингов в одном словаре

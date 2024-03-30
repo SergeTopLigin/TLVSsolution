@@ -117,7 +117,7 @@ try:    # обработка исключений для определения 
         i += 1
         # LegueClubSetID = {club_set:[id]}
 
-    # UEFA Tournament rating = total club set SUM(pts+1.2) in TL standigs / Number of clubs in the set
+    # UEFA Tournament rating = total club set SUM(pts+1.2>=0) in TL standigs / Number of clubs in the set
     # определение UEFA tournaments rating
     # определение наличия временного фактора при постепенном перетекании рейтинга из плейофф прошлого турнира 
         # в групповой этап текущего
@@ -144,7 +144,7 @@ try:    # обработка исключений для определения 
                                                            # (id клуба из club set рассматриваемого турнира)
             for club in standings:   # для каждого id клуба из TL standings
                 if standings[club]['IDapi'] == SetID:
-                    tourn_rating += standings[club]['TL_rank'] + 1.2
+                    tourn_rating += max(standings[club]['TL_rank'] + 1.2, 0)
                     break
         # определение рейтинга турнира с увеличением вложенности словаря до {Association:[Tournament,Rating]}
         Ass_TournRateQuot["UEFA"][i] = [club_set, tourn_rating / len(UEFA_tourn_club_set_ID[club_set])]
@@ -315,7 +315,7 @@ try:    # обработка исключений для определения 
             # рейтинг National League
             if tourn[0].find("League") != -1:
             # определение рейтинга через запрос standings: тк в нац лигах возможны несколько rounds: регулярный сезон, доп группы или матчи на вылет итд
-            # League rating = total League clubs SUM(pts+1.2) in TL standigs / Number of clubs in the League
+            # League rating = total League clubs SUM(pts+1.2>=0) in TL standigs / Number of clubs in the League
             # prev > curr (1/150 per day from 01.08)
                 league_files(tourn[0], tourn[1], tourn[4])   # актуализация файла нац лиги
                 # если файл лиги сформирован: расчет League rating, иначе League rating = 0 (это значение уже задано выше)
@@ -338,7 +338,7 @@ try:    # обработка исключений для определения 
                                     club_number += 1
                                     for club in standings:   # для каждого id клуба из TL standings
                                         if standings[club]['IDapi'] == team['team']['id']: 
-                                            tourn[2] += standings[club]['TL_rank'] + 1.2
+                                            tourn[2] += max(standings[club]['TL_rank'] + 1.2, 0)
                         tourn[2] /= club_number
                         # временной фактор: prev > curr (1/150 per day from 01.08)
                         if DateNow.month > 7 and tourn[1][3:] == DateNow.year[2:]:     # для прошлого сезона
@@ -352,7 +352,7 @@ try:    # обработка исключений для определения 
             # рейтинг кубка на протяжении его розыгрыша равен максимальному из своих значений на текущей или предыдущих стадиях (для prev - только на предыдущих)
                 # для текущей стадии: рейтинг рассчитывается по текущему TL standings
                 # для предыдущей стадии: рейтинг рассчитывается по TL standings, актуальному на момент окончания последнего матча стадии
-            # Cup rating = max (total Cup stage clubs SUM(pts+1.2) in TL standigs / Number of clubs in the Cup stage) / 5
+            # Cup rating = max (total Cup stage clubs SUM(pts+1.2>=0) in TL standigs / Number of clubs in the Cup stage) / 5
             # prev > curr (1/150 per day from prev final)
                 # формирование словаря из файла fixtures
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):

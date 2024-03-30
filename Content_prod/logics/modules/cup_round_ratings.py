@@ -59,7 +59,7 @@ def cup_round_ratings(cup, season, fixtures_dict):
                     if {'name': match['teams']['away']['name'], 'id': match['teams']['away']['id']} not in fixed_round['club_set']:
                         fixed_round['club_set'].append({'name': match['teams']['away']['name'], 'id': match['teams']['away']['id']})
 
-        # определение рейтинга стадии: total Cup stage clubs SUM(pts+1.2) in TL standigs / Number of clubs in the Cup stage
+        # определение рейтинга стадии: total Cup stage clubs SUM(pts+1.2>=0) in TL standigs / Number of clubs in the Cup stage
         # для curr: по текущим standings
         # для prev: по standings, актуальным на момент окончания последнего матча стадии
         for fixed_round in cup_round_ratings_list:
@@ -87,7 +87,7 @@ def cup_round_ratings(cup, season, fixtures_dict):
                     for stan_club in standings:
                         if cup_club['id'] == standings[stan_club]['IDapi']:
                             cup_club['rating'] = standings[stan_club]['TL_rank']
-                            fixed_round['rating'] += standings[stan_club]['TL_rank'] + 1.2
+                            fixed_round['rating'] += max(standings[stan_club]['TL_rank'] + 1.2, 0)
                 fixed_round['rating'] = round(fixed_round['rating'] / club_number, 2)
 
         # запись данных в файл /cup_round_ratings
