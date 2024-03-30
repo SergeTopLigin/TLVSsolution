@@ -6,12 +6,14 @@
 # если количество участников текущей стадии больше квоты: победитель турнира или лучшие среди участников текущей стадии
 # если количество участников текущей стадии меньше квоты: все участники текущей стадии + лучшие среди участников предыдущей стадии
 # критерии определения лучших участников стадии:
-    # 1. TL_rank +1.2 (own + passed rivals on round date) >=0
+    # 1. TL_rank (own curr + passed rivals on round date) +1.2 >=0
     # 2. PTS/PL
     # 3. DIF/PL
     # 4. TL standings
     # 5. random
 
+# определение участников происходит по fixtures
+# актуализация fixtures в cup_files, вызываемого из tournaments
 
 def participants_nat_cup(tourn, tourn_id, season, quota, prev):
     # tourn = tournaments.json[nat]['tournaments'][tourn]['tytle']
@@ -26,7 +28,18 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
         import os
         import json
         import random
+        with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/final_standings.json', 'r') as j:
+            TL_standings = json.load(j)
 
+        file_find = 0   # флаг наличия файла турнира
+        for tourn_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures'):
+            if tourn in tourn_file and season in tourn_file:
+                file_find = 1
+                with open((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures/'+tourn_file, 'r') as j:
+                    tourn_fixtures = json.load(j)
+                break
+        
+        if file_find == 1:
 
 
 

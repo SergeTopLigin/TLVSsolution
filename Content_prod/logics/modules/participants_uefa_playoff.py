@@ -28,7 +28,6 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
         import os
         import json
         import random
-        mod_name = os.path.basename(__file__)[:-3]
         from modules.participants_uefa_group import participants_uefa_group
         with open((os.path.abspath(__file__))[:-44]+'/cache/sub_results/final_standings.json', 'r') as j:
             TL_standings = json.load(j)
