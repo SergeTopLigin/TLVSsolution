@@ -75,6 +75,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
             if curr_round_time == 4000000000 and playoff_rounds[0] != 'Final':  
                 playoff_rounds.insert(0, 'next round')
 
+        # дополнительные файлы
             # для сезонов 23-24 и ранее
             # формирование standings турниров из которых возможны переходы клубов с 3-х мест групп и
             if int(season[:2]) < 24:
@@ -203,8 +204,25 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                 if quota == len(participants):
                     break
                 # если квота больше количества участников плейофф: добирать из групп
-
-        
+                if playoff_rounds.index(stage) == len(playoff_rounds) - 1:  # если в цикле последняя стадия плейофф
+                    group_set = []  # набор участников групп, невышедших в плейофф
+                    for group in tourn_standings['response'][0]['league']['standings']:
+                        for club in group:
+                            if club['team']['id'] not in [p_club['id'] for p_club in participants]:
+                                if club['team']['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings]:
+                                    TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_standings[TL_club]['IDapi'] == club['team']['id']][0]
+                                else:
+                                    TL_rank = -5
+                                random_rank = random.random()
+                                group_set.append({'club': club['team']['name'], 'id': club['team']['id'], 'pts': club['points'], 'dif': club['goalsDiff'], \
+                                    'TL_rank': TL_rank, 'random_rank': random_rank})
+                    group_set.sort(key=lambda crit: (crit['pts'], crit['dif'], crit['TL_rank'], crit['random_rank']), reverse=True)
+                    # набор квоты из групп
+                    club_from_group = 0
+                    while len(participants) < quota:
+                        participants.append(group_set[club_from_group])
+                        club_from_group += 1
+                    
 
         return(participants)
 
