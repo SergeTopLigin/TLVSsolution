@@ -2,6 +2,8 @@
 # возвращает список участников = [{club: , id: }, ...]
 
 # текущая стадия (1/8, 1/4 итд): последняя несыгранная, если известны все ее участники, или финал
+# стадии с Replays объединяются с основными стадиями (пр: ENG Cup)
+# бывают групповые стадии (пр: POR LCup): все матчи групп объединяются в одну стадию
 # если количество участников текущей стадии равно квоте: все участники текущей стадии
 # если количество участников текущей стадии больше квоты: победитель турнира или лучшие среди участников текущей стадии
 # если количество участников текущей стадии меньше квоты: все участники текущей стадии + лучшие среди участников предыдущей стадии
@@ -38,8 +40,10 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
                 with open((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures/'+tourn_file, 'r') as j:
                     tourn_fixtures = json.load(j)
                 break
-        
-        if file_find == 1:
+        if file_find == 0:  # если fixtures не найден - расчет по fixtures предыдущего сезона
+            tourn_file = tourn+' '+str(int(season[:2])-1)+'-'+str(int(season[3:])-1)+' prev.json'
+            with open((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures/'+tourn_file, 'r') as j:
+                tourn_fixtures = json.load(j)
 
 
 
