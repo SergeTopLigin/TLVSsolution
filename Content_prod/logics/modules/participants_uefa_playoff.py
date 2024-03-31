@@ -72,6 +72,15 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
             if curr_round_time == 4000000000 and playoff_rounds[0] != 'Final':  
                 playoff_rounds.insert(0, 'next round')
 
+            # добавить в квоту победителя кубка, если сыгран финал
+            if curr_round_time == 4000000000 and playoff_rounds[0] == 'Final':
+                for fixture in tourn_fixtures['response']:
+                    if fixture['league']['round'] == 'Final':
+                        participants.append({'club': fixture['teams']['home']['name'] if fixture['teams']['home']['winner'] else fixture['teams']['away']['name'],\
+                            'id': fixture['teams']['home']['id'] if fixture['teams']['home']['winner'] else fixture['teams']['away']['id']})
+                if quota == 1:
+                    return(participants)
+
         # дополнительные файлы
             # для сезонов 23-24 и ранее
             # формирование standings турниров из которых возможны переходы клубов с 3-х мест групп и
@@ -174,7 +183,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                                     else:                       club['dif'] += rank['goalsDiff'] /2
                     club['pts/pl'] = club['pts'] / club['pl']
                     club['dif/pl'] = club['dif'] / club['pl']
-                    if club['club'] in TL_standings:
+                    if club['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings]:
                         club['TL_rank'] = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club['club']][0]
                     else:
                         club['TL_rank'] = -5
@@ -205,7 +214,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                     # набор квоты из групп
                     club_from_group = 0
                     while len(participants) < quota:
-                        participants.append(group_set[club_from_group])
+                        participants.append({'club': group_set[club_from_group]['club'], 'id': group_set[club_from_group]['id']})
                         club_from_group += 1
                     
         if file_find == 0:
