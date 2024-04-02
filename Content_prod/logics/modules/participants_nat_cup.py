@@ -87,8 +87,8 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
                 if fixture['league']['round'] == 'Final':
                     participants.append({'club': fixture['teams']['home']['name'] if fixture['teams']['home']['winner'] else fixture['teams']['away']['name'],\
                         'id': fixture['teams']['home']['id'] if fixture['teams']['home']['winner'] else fixture['teams']['away']['id']})
-            # if quota == 1:
-            #     return(participants)
+            if quota == 1:
+                return(participants)
 
         reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']  # список статусов окончания основного времени
         for stage in actual_rounds:
