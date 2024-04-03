@@ -90,6 +90,56 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
             if quota == 1:
                 return(participants)
 
+        # расчет rivals_rank для стадии 'Group', если она есть
+        if 'Group' in actual_rounds:
+            # все участники групповой стадии
+            group_set_home_id = [fixture['teams']['home']['id'] for fixture in tourn_fixtures['response'] if 'Group' in fixture['league']['round']]
+            group_set_away_id = [fixture['teams']['away']['id'] for fixture in tourn_fixtures['response'] if 'Group' in fixture['league']['round']]
+            group_set_id = list(set(group_set_home_id + group_set_away_id))
+            # прошедшие в следующую стадию
+            after_group = actual_rounds[actual_rounds.index('Group')-1]   # стадия, следующая после групповой
+            next_set_home_id = [fixture['teams']['home']['id'] for fixture in tourn_fixtures['response'] if after_group in fixture['league']['round']]
+            next_set_away_id = [fixture['teams']['away']['id'] for fixture in tourn_fixtures['response'] if after_group in fixture['league']['round']]
+            next_set_id = list(set(next_set_home_id + next_set_away_id))
+            # непрошедшие в следующую стадию
+            group_loose_set_id = list(set(group_set_id)-set(next_set_id))
+            # найти соперников прошедших
+            # найти TL_rank соперников на дату игр с прошедшими
+            # добавить TL_rank соперников в основной критерий прошедшего
+            stage_winners = {}  # инициализация словаря вышедших из групп {id: {rival_id: [rival_TLranks]}} если в группе играется по два матча между соперниками дома и в гостях
+            for club in next_set_id:
+                stage_winners[club] = {}
+                for fixture in tourn_fixtures['response']:
+                    if 'Group' in fixture['league']['round'] and (club == fixture['teams']['home']['id'] or club == fixture['teams']['away']['id']) and\
+                    (fixture['teams']['home']['id'] in group_loose_set_id or fixture['teams']['away']['id'] in group_loose_set_id):
+                        # найти TL-standings на дату окончания стадии (ее последнего матча с участием прошедшего клуба)
+                        round_last_date = fixture['fixture']['date'][:10]
+                            # установить дату первого TL_standings в /standings_history
+                        use_standings_date = '2100-01-01'    # инициализация
+                        for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
+                            standings_date = standings_file[10:20]
+                            if 'standings' in standings_file and standings_date < use_standings_date:
+                                use_standings_date = standings_date
+                            # определение даты TL_standings, действовавших на момент окончания стадии
+                        for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
+                            standings_date = standings_file[10:20]
+                            if 'standings' in standings_file and standings_date < round_last_date and standings_date > use_standings_date:
+                                use_standings_date = standings_date
+                        with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history/standings '\
+                            +str(use_standings_date)+'.json', 'r', encoding='utf-8') as j:
+                            hist_standings = json.load(j)
+                        # и добавить TL-rank непрошедшего в основной критерий прошедшего, если проигравший в hist_standings
+                        if club == fixture['teams']['home']['id'] and\
+                        fixture['teams']['away']['id'] in [hist_standings[hist_club]['IDapi'] for hist_club in hist_standings]:
+                            stage_winners[club] = {fixture['teams']['away']['id']: []}
+                            stage_winners[club][fixture['teams']['away']['id']].append(max([hist_standings[hist_club]['TL_rank'] for hist_club in hist_standings \
+                                if hist_standings[hist_club]['IDapi'] == fixture['teams']['away']['id']][0] +1.2, 0))
+                        if club == fixture['teams']['away']['id'] and\
+                        fixture['teams']['home']['id'] in [hist_standings[hist_club]['IDapi'] for hist_club in hist_standings]:
+                            stage_winners[club] = {fixture['teams']['home']['id']: []}
+                            stage_winners[club][fixture['teams']['home']['id']].append(max([hist_standings[hist_club]['TL_rank'] for hist_club in hist_standings \
+                                if hist_standings[hist_club]['IDapi'] == fixture['teams']['home']['id']][0] +1.2, 0))
+
         reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']  # список статусов окончания основного времени
         for stage in actual_rounds:
             # набор stage_set [{'club': , 'id': , 'pts': , 'dif': , 'pl': , 'pts/pl': , 'dif/pl': , 'TL_rank': , 'random_rank': }]
@@ -201,8 +251,19 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
                 else:
                     club['TL_rank'] = -5
                 club['own_rivals_TLrank'] += max(club['TL_rank']+1.2, 0) if club['TL_rank'] >-5 else 0
+        
+                # если участник групповой стадии прошел дальше, добавить TL_rank соперников из группы участника, если они не вышли дальше
+                # и внести id рассмотренного участника в group_set_calc
+                if 'Group' in actual_rounds and club['id'] in next_set_id:
+                    # при двух играх с одним соперником (дома и в гостях) берется среднее значение TL-rank пройденного соперника между датами игр
+                    # {id: {rival_id: [rival_TLranks]}}
+                    if stage_winners[club['id']]:
+                        club['own_rivals_TLrank'] += [sum([sum(rival_rank)/len(rival_rank) for rival_rank in list(stage_winners[winner_id].values())]) \
+                        for winner_id in stage_winners if winner_id == club['id']][0]
+
                 club['own_rivals_TLrank'] = round(club['own_rivals_TLrank'], 2)
                 club['random_rank'] = random.random()
+            
             stage_set.sort(key=lambda crit: (crit['own_rivals_TLrank'], crit['pts/pl'], crit['dif/pl'], crit['TL_rank'], crit['random_rank']), reverse=True)
 
             # набор квоты турнира
