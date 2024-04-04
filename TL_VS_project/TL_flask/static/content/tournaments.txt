@@ -11,10 +11,11 @@ ENG
       23-24 League Cup             1
 ESP
       23-24 La Liga                4
+ITA
+      23-24 Serie A                3
+      23-24 Coppa Italia           1
 GER
       23-24 Bundesliga             4
-ITA
-      23-24 Serie A                4
 POR
       23-24 Primeira Liga          1
 FRA
