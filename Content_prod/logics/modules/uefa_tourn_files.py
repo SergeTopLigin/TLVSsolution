@@ -13,6 +13,7 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
         import os   # импорт модуля работы с каталогами
         import json
         import datetime
+        import time # модуль для паузы
         mod_name = os.path.basename(__file__)[:-3]
         from modules.gh_push import gh_push
         from modules.runner_push import runner_push
@@ -41,6 +42,7 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
         if find_fixtures == 0:   # запрос fixtures и standings
             FixtSeason = "20"+Season[:2]
             answer = api_key("/fixtures?league="+str(LeagueID)+"&season="+FixtSeason)
+            time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
             # если 'results' != 0 - сохранить fixtures
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
@@ -54,6 +56,7 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
             # если вызов из групповой стадии - обновить standings
             if Stage == 'group':
                 answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
+                time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
                 # если 'results' != 0 - сохранить standings
                 answer_dict = json.loads(answer)
                 if answer_dict['results'] != 0:
@@ -70,7 +73,9 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
         if Stage == 'playoff' and int(Season[:2]) < 24:
             if 'UEL' in Tourn:
                 if 'UCL '+Season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-35]+'/cache/answers/standings'):
-                    UCLstan = api_key("/standings?league=2&season=20"+Season[:2])
+                    answer = api_key("/standings?league=2&season=20"+Season[:2])
+                    time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
+                    UCLstan = json.loads(answer)
                     if UCLstan['results'] != 0:
                         gh_push(str(mod_name), 'standings', 'UCL '+Season+' stan.json', UCLstan)
                         runner_push(str(mod_name), 'standings', 'UCL '+Season+' stan.json', UCLstan)
@@ -79,7 +84,9 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
                         bug_mail(str(mod_name), "по запросу standings?league=2&season=20"+Season[:2]+" results=0")
             if 'UECL' in Tourn:
                 if 'UEL '+Season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-35]+'/cache/answers/standings'):
-                    UELstan = api_key("/standings?league=3&season=20"+Season[:2])
+                    answer = api_key("/standings?league=3&season=20"+Season[:2])
+                    time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
+                    UELstan = json.loads(answer)
                     if UELstan['results'] != 0:
                         gh_push(str(mod_name), 'standings', 'UEL '+Season+' stan.json', UELstan)
                         runner_push(str(mod_name), 'standings', 'UEL '+Season+' stan.json', UELstan)
@@ -89,7 +96,9 @@ def uefa_tourn_files(Tourn, Season, LeagueID, Stage):     # Tourn должен �
         # standings UEL, UECL для учета 1-х мест групп в 1/16 (тк они начинают плейофф с 1/8), 
         # standings турнира, если квота > количества участников 1-й стадии плейофф
         if Tourn+' '+Season+' stan.json' not in os.listdir((os.path.abspath(__file__))[:-35]+'/cache/answers/standings'):
-            tourn_stan = api_key("/standings?league="+LeagueID+"&season=20"+Season[:2])
+            answer = api_key("/standings?league="+str(LeagueID)+"&season=20"+Season[:2])
+            time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
+            tourn_stan = json.loads(answer)
             if tourn_stan['results'] != 0:
                 gh_push(str(mod_name), 'standings', Tourn+' '+Season+' stan.json', tourn_stan)
                 runner_push(str(mod_name), 'standings', Tourn+' '+Season+' stan.json', tourn_stan)

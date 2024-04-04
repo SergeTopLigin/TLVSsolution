@@ -13,6 +13,7 @@ def league_files(League, Season, LeagueID):     # League должен соотв
         import os   # импорт модуля работы с каталогами
         import json
         import datetime
+        import time # модуль для паузы и определения текущего UEFA club set
         from modules.gh_push import gh_push
         from modules.runner_push import runner_push
         from modules.apisports_key import api_key    # модуль с ключом аккаунта api
@@ -40,6 +41,7 @@ def league_files(League, Season, LeagueID):     # League должен соотв
         if find_fixtures == 0:   # запрос fixtures и standings
             FixtSeason = "20"+Season[:2]
             answer = api_key("/fixtures?league="+str(LeagueID)+"&season="+FixtSeason)
+            time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
             # если 'results' != 0 - сохранить fixtures
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
@@ -50,6 +52,7 @@ def league_files(League, Season, LeagueID):     # League должен соотв
                 gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
                 bug_mail(str(mod_name), "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
             answer = api_key("/standings?league="+str(LeagueID)+"&season="+FixtSeason)
+            time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
             # если 'results' != 0 - сохранить standings
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:

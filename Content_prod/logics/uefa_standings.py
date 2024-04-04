@@ -67,9 +67,12 @@ try:    # обработка исключений для определения 
                 if 'json' in file:
                     with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
                         standings_dict = json.load(f)
-                    for f_club in standings_dict["response"][0]["league"]["standings"][0]:
-                        if f_club["team"]["name"] == club:
-                            find_club = 1
+                    for stage in standings_dict["response"][0]["league"]["standings"]:
+                        for f_club in stage:
+                            if f_club["team"]["name"] == club:
+                                find_club = 1
+                                break
+                        if find_club == 1:
                             break
                     if find_club == 1:
                         break
@@ -117,11 +120,14 @@ try:    # обработка исключений для определения 
                 if 'json' in file:
                     with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
                         standings_dict = json.load(f)
-                    for f_club in standings_dict["response"][0]["league"]["standings"][0]:
-                        if f_club["team"]["name"] == club:
-                            uefa_standings_upg[club] = {'IDapi': f_club["team"]["id"], 'nat': file[:3], \
-                            'TL_rank': uefa_standings[club][0], 'visual_rank': uefa_standings[club][1]}
-                            find_club = 1
+                    for stage in standings_dict["response"][0]["league"]["standings"]:
+                        for f_club in stage:
+                            if f_club["team"]["name"] == club:
+                                uefa_standings_upg[club] = {'IDapi': f_club["team"]["id"], 'nat': file[:3], \
+                                'TL_rank': uefa_standings[club][0], 'visual_rank': uefa_standings[club][1]}
+                                find_club = 1
+                                break
+                        if find_club == 1:
                             break
                     if find_club == 1:
                         break

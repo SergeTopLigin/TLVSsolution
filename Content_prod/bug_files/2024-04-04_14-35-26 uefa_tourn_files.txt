@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/uefa_tourn_files.py", line 92, in uefa_tourn_files
-    tourn_stan = api_key("/standings?league="+LeagueID+"&season=20"+Season[:2])
-TypeError: can only concatenate str (not "int") to str

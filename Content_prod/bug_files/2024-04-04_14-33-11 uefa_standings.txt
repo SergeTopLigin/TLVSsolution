@@ -1,1 +1,0 @@
-Club Brugge KV   имя клуба не соответсвует apisports, внести в clubname_fix или добавить лигу в Content_prod/cache/answers/standings

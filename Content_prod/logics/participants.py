@@ -103,7 +103,7 @@ try:    # обработка исключений для определения 
                     tournaments[ass]['tournaments'][tourn]['participants'] = participants_nat_cup(tourn, tourn_id, season, quota, prev)
 
     # TL participants
-    with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/final_standings.json', 'r') as j:
+    with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/final_standings.json', 'r') as j:
         standings = json.load(j)
     tournaments['TopLiga']['tournaments']['TopLiga']['participants'] = []
     rank = 0
