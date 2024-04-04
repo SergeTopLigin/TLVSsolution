@@ -393,7 +393,7 @@
       "timestamp": 1713927600,
       "date": "2024-04-24 03:00:00"
     },
-    "rating": 0.73,
+    "rating": 0.74,
     "club_set": [
       {
         "name": "Fiorentina",
@@ -402,17 +402,17 @@
       {
         "name": "Atalanta",
         "id": 499,
-        "rating": -0.18
+        "rating": -0.11
       },
       {
         "name": "Lazio",
         "id": 487,
-        "rating": -0.64
+        "rating": -0.67
       },
       {
         "name": "Juventus",
         "id": 496,
-        "rating": 0.16
+        "rating": 0.14
       }
     ]
   }
