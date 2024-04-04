@@ -9398,7 +9398,7 @@
     {
       "fixture": {
         "id": 1160847,
-        "referee": "André Narciso",
+        "referee": "Andre Filipe Domingues Narciso, Portugal",
         "timezone": "UTC",
         "date": "2024-02-08T18:45:00+00:00",
         "timestamp": 1707417900,
@@ -9466,7 +9466,7 @@
     {
       "fixture": {
         "id": 1160848,
-        "referee": "Hélder Carvalho",
+        "referee": "Helder Carvalho, Portugal",
         "timezone": "UTC",
         "date": "2024-02-08T20:45:00+00:00",
         "timestamp": 1707425100,
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1160849,
-        "referee": "Tiago Martins",
+        "referee": "Tiago Martins, Portugal",
         "timezone": "UTC",
         "date": "2024-02-07T20:45:00+00:00",
         "timestamp": 1707338700,
@@ -9602,7 +9602,7 @@
     {
       "fixture": {
         "id": 1160850,
-        "referee": "Gustavo Correia",
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2024-02-29T16:00:00+00:00",
         "timestamp": 1709222400,
@@ -9670,7 +9670,7 @@
     {
       "fixture": {
         "id": 1172712,
-        "referee": "Fábio Veríssimo",
+        "referee": "Fabio Jose Costa Verissimo, Portugal",
         "timezone": "UTC",
         "date": "2024-02-29T20:45:00+00:00",
         "timestamp": 1709239500,
@@ -9738,13 +9738,13 @@
     {
       "fixture": {
         "id": 1172713,
-        "referee": null,
+        "referee": "Joao Pedro Pinheiro, Portugal",
         "timezone": "UTC",
-        "date": "2024-04-03T14:00:00+00:00",
-        "timestamp": 1712152800,
+        "date": "2024-04-02T19:45:00+00:00",
+        "timestamp": 1712087100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712087100,
+          "second": 1712090700
         },
         "venue": {
           "id": null,
@@ -9752,9 +9752,9 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -9781,17 +9781,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -9806,13 +9806,13 @@
     {
       "fixture": {
         "id": 1180029,
-        "referee": null,
+        "referee": "Nuno Miguel Serrano Almeida, Portugal",
         "timezone": "UTC",
-        "date": "2024-04-02T19:45:00+00:00",
-        "timestamp": 1712087100,
+        "date": "2024-04-03T19:15:00+00:00",
+        "timestamp": 1712171700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712171700,
+          "second": 1712175300
         },
         "venue": {
           "id": 1295,
@@ -9820,9 +9820,9 @@
           "city": "Guimarães"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -9839,27 +9839,27 @@
           "id": 224,
           "name": "Guimaraes",
           "logo": "https://media.api-sports.io/football/teams/224.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -9876,20 +9876,20 @@
         "id": 1180030,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-03T00:00:00+00:00",
-        "timestamp": 1712102400,
+        "date": "2024-04-17T19:15:00+00:00",
+        "timestamp": 1713381300,
         "periods": {
           "first": null,
           "second": null
         },
         "venue": {
-          "id": null,
-          "name": null,
-          "city": null
+          "id": 1286,
+          "name": "Estádio Do Dragão",
+          "city": "Porto"
         },
         "status": {
-          "long": "Match Postponed",
-          "short": "PST",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
