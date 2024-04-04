@@ -957,12 +957,12 @@
       "timestamp": 1713726000,
       "date": "2024-04-21 19:00:00"
     },
-    "rating": 0.32,
+    "rating": 0.31,
     "club_set": [
       {
         "name": "Feyenoord",
         "id": 209,
-        "rating": -0.55
+        "rating": -0.58
       },
       {
         "name": "NEC Nijmegen",
