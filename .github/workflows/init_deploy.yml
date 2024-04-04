@@ -58,6 +58,10 @@ jobs:
       - name: Run script tournaments.py
         run: python Content_prod/logics/tournaments.py
 
+      # participants
+      - name: Run script participants.py
+        run: python Content_prod/logics/participants.py
+
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости
         run: pip install -r TL_VS_project/requirements_static.txt

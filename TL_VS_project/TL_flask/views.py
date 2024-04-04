@@ -45,6 +45,15 @@ def tournaments():
         title = "Tournaments",
         content = tournaments)
 
+@app.route('/participants/')
+def participants():
+    with open((os.path.abspath(__file__))[:-8]+'static/content/participants.txt', 'r', newline='\n') as f:
+        participants = '<pre>' + f.read() + '</pre>'   # тэг <pre> передает содержимое без изменений (переносы строк, доп пробелы итд)
+    return render_template(
+        "participants.html",
+        title = "Participants",
+        content = participants)
+
 @app.route('/robots.txt/')  # по этому адресу будет показан robots.txt из каталога static
 def robots():
     # return app.send_static_file('robots.txt')     # опасный вариант

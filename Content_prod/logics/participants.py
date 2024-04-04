@@ -136,7 +136,7 @@ try:    # обработка исключений для определения 
                 participants_str += ' '*20 + club['club'] + '\n'
     participants_str = participants_str[:-1]
 
-    # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
+    # выгрузка participants.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'participants.txt', participants_str)
     runner_push(str(mod_name), 'content', 'participants.txt', participants_str)
     gh_push(str(mod_name), 'content_commits', 'participants.txt', participants_str)
