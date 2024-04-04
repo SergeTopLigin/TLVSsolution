@@ -495,7 +495,7 @@
   },
   {
     "round": "Quarter-finals",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
       "timestamp": 1710282600,
       "date": "2024-03-12 22:30:00"
@@ -539,20 +539,29 @@
   },
   {
     "round": "Semi-finals",
-    "type": null,
+    "type": "prev",
     "last_date": {
       "timestamp": 1712180700,
       "date": "2024-04-03 21:45:00"
     },
-    "rating": 0,
+    "rating": 0.33,
     "club_set": [
       {
         "name": "Bayer Leverkusen",
-        "id": 168
+        "id": 168,
+        "rating": 0.13
       },
       {
         "name": "Fortuna Dusseldorf",
         "id": 158
+      },
+      {
+        "name": "FC Saarbrücken",
+        "id": 1639
+      },
+      {
+        "name": "FC Kaiserslautern",
+        "id": 745
       }
     ]
   }
