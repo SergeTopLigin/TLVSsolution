@@ -15926,13 +15926,13 @@
     {
       "fixture": {
         "id": 1063710,
-        "referee": null,
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-03-30T18:00:00+00:00",
         "timestamp": 1711821600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711821600,
+          "second": 1711825200
         },
         "venue": {
           "id": 1267,
@@ -15940,9 +15940,9 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -15969,17 +15969,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -15994,13 +15994,13 @@
     {
       "fixture": {
         "id": 1063711,
-        "referee": null,
+        "referee": "António Nobre",
         "timezone": "UTC",
         "date": "2024-03-30T20:30:00+00:00",
         "timestamp": 1711830600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711830600,
+          "second": 1711834200
         },
         "venue": {
           "id": 1274,
@@ -16008,9 +16008,9 @@
           "city": "Estoril"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16027,27 +16027,27 @@
           "id": 230,
           "name": "Estoril",
           "logo": "https://media.api-sports.io/football/teams/230.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -16062,13 +16062,13 @@
     {
       "fixture": {
         "id": 1063712,
-        "referee": null,
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-03-29T20:30:00+00:00",
         "timestamp": 1711744200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711744200,
+          "second": 1711747800
         },
         "venue": {
           "id": 19187,
@@ -16076,9 +16076,9 @@
           "city": "Amadora"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16095,27 +16095,27 @@
           "id": 15130,
           "name": "Estrela",
           "logo": "https://media.api-sports.io/football/teams/15130.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 228,
           "name": "Sporting CP",
           "logo": "https://media.api-sports.io/football/teams/228.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -16130,13 +16130,13 @@
     {
       "fixture": {
         "id": 1063713,
-        "referee": null,
+        "referee": "João Morte",
         "timezone": "UTC",
         "date": "2024-03-30T15:30:00+00:00",
         "timestamp": 1711812600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711812600,
+          "second": 1711816200
         },
         "venue": {
           "id": 1295,
@@ -16144,9 +16144,9 @@
           "city": "Guimarães"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16163,27 +16163,27 @@
           "id": 224,
           "name": "Guimaraes",
           "logo": "https://media.api-sports.io/football/teams/224.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 215,
           "name": "Moreirense",
           "logo": "https://media.api-sports.io/football/teams/215.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -16198,13 +16198,13 @@
     {
       "fixture": {
         "id": 1063714,
-        "referee": null,
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-03-30T15:30:00+00:00",
         "timestamp": 1711812600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711812600,
+          "second": 1711816200
         },
         "venue": {
           "id": 1275,
@@ -16212,9 +16212,9 @@
           "city": "Arouca"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16231,27 +16231,27 @@
           "id": 240,
           "name": "Arouca",
           "logo": "https://media.api-sports.io/football/teams/240.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 231,
           "name": "Farense",
           "logo": "https://media.api-sports.io/football/teams/231.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -16266,13 +16266,13 @@
     {
       "fixture": {
         "id": 1063715,
-        "referee": null,
+        "referee": "Cláudio Pereira",
         "timezone": "UTC",
         "date": "2024-04-01T19:15:00+00:00",
         "timestamp": 1711998900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711998900,
+          "second": 1712002500
         },
         "venue": {
           "id": 1285,
@@ -16280,9 +16280,9 @@
           "city": "Portimão"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16299,27 +16299,27 @@
           "id": 216,
           "name": "Portimonense",
           "logo": "https://media.api-sports.io/football/teams/216.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 217,
           "name": "SC Braga",
           "logo": "https://media.api-sports.io/football/teams/217.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 5
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 5
         },
         "extratime": {
           "home": null,
@@ -16334,13 +16334,13 @@
     {
       "fixture": {
         "id": 1063716,
-        "referee": null,
+        "referee": "Fábio Melo",
         "timezone": "UTC",
         "date": "2024-03-31T17:00:00+00:00",
         "timestamp": 1711904400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711904400,
+          "second": 1711908000
         },
         "venue": {
           "id": 2817,
@@ -16348,9 +16348,9 @@
           "city": "Caldas de Vizela"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16367,27 +16367,27 @@
           "id": 810,
           "name": "Vizela",
           "logo": "https://media.api-sports.io/football/teams/810.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 4716,
           "name": "Casa Pia",
           "logo": "https://media.api-sports.io/football/teams/4716.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 4
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 4
         },
         "extratime": {
           "home": null,
@@ -16402,13 +16402,13 @@
     {
       "fixture": {
         "id": 1063717,
-        "referee": null,
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2024-03-29T15:30:00+00:00",
         "timestamp": 1711726200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711726200,
+          "second": 1711729800
         },
         "venue": {
           "id": 2811,
@@ -16416,9 +16416,9 @@
           "city": "Barcelos"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16435,27 +16435,27 @@
           "id": 762,
           "name": "GIL Vicente",
           "logo": "https://media.api-sports.io/football/teams/762.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 242,
           "name": "Famalicao",
           "logo": "https://media.api-sports.io/football/teams/242.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -16470,13 +16470,13 @@
     {
       "fixture": {
         "id": 1063718,
-        "referee": null,
+        "referee": "Hélder Malheiro",
         "timezone": "UTC",
         "date": "2024-03-29T18:00:00+00:00",
         "timestamp": 1711735200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1711735200,
+          "second": 1711738800
         },
         "venue": {
           "id": null,
@@ -16484,9 +16484,9 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16503,27 +16503,27 @@
           "id": 211,
           "name": "Benfica",
           "logo": "https://media.api-sports.io/football/teams/211.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 223,
           "name": "Chaves",
           "logo": "https://media.api-sports.io/football/teams/223.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -16683,9 +16683,9 @@
           "second": null
         },
         "venue": {
-          "id": 3564,
-          "name": "Estádio Pina Manique",
-          "city": "Lisboa"
+          "id": 3565,
+          "name": "Estádio Municipal de Rio Maior",
+          "city": "Rio Maior"
         },
         "status": {
           "long": "Not Started",
