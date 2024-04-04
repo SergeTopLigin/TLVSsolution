@@ -167,6 +167,12 @@
     "TL_rank": -0.51,
     "visual_rank": 20
   },
+  "Club Brugge KV": {
+    "IDapi": 569,
+    "nat": "BEL",
+    "TL_rank": -0.54,
+    "visual_rank": 19
+  },
   "Feyenoord": {
     "IDapi": 209,
     "nat": "NED",
@@ -248,6 +254,12 @@
   "Lille": {
     "IDapi": 79,
     "nat": "FRA",
+    "TL_rank": -0.95,
+    "visual_rank": 7
+  },
+  "Gent": {
+    "IDapi": 631,
+    "nat": "BEL",
     "TL_rank": -0.95,
     "visual_rank": 7
   },
