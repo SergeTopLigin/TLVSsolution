@@ -28,29 +28,29 @@
                 "name": "Real Madrid",
                 "logo": "https://media.api-sports.io/football/teams/541.png"
               },
-              "points": 72,
-              "goalsDiff": 44,
+              "points": 75,
+              "goalsDiff": 46,
               "group": "Primera División",
-              "form": "WWDWD",
+              "form": "WWWDW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 29,
-                "win": 22,
+                "played": 30,
+                "win": 23,
                 "draw": 6,
                 "lose": 1,
                 "goals": {
-                  "for": 64,
+                  "for": 66,
                   "against": 20
                 }
               },
               "home": {
-                "played": 14,
-                "win": 12,
+                "played": 15,
+                "win": 13,
                 "draw": 2,
                 "lose": 0,
                 "goals": {
-                  "for": 35,
+                  "for": 37,
                   "against": 7
                 }
               },
@@ -64,7 +64,7 @@
                   "against": 13
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -73,29 +73,29 @@
                 "name": "Barcelona",
                 "logo": "https://media.api-sports.io/football/teams/529.png"
               },
-              "points": 64,
-              "goalsDiff": 26,
+              "points": 67,
+              "goalsDiff": 27,
               "group": "Primera División",
-              "form": "WWDWW",
+              "form": "WWWDW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 29,
-                "win": 19,
+                "played": 30,
+                "win": 20,
                 "draw": 7,
                 "lose": 3,
                 "goals": {
-                  "for": 60,
+                  "for": 61,
                   "against": 34
                 }
               },
               "home": {
-                "played": 15,
-                "win": 11,
+                "played": 16,
+                "win": 12,
                 "draw": 1,
                 "lose": 3,
                 "goals": {
-                  "for": 33,
+                  "for": 34,
                   "against": 19
                 }
               },
@@ -109,7 +109,7 @@
                   "against": 15
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -118,30 +118,30 @@
                 "name": "Girona",
                 "logo": "https://media.api-sports.io/football/teams/547.png"
               },
-              "points": 62,
-              "goalsDiff": 25,
+              "points": 65,
+              "goalsDiff": 26,
               "group": "Primera División",
-              "form": "LWLWL",
+              "form": "WLWLW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 29,
-                "win": 19,
+                "played": 30,
+                "win": 20,
                 "draw": 5,
                 "lose": 5,
                 "goals": {
-                  "for": 59,
-                  "against": 34
+                  "for": 62,
+                  "against": 36
                 }
               },
               "home": {
-                "played": 14,
-                "win": 11,
+                "played": 15,
+                "win": 12,
                 "draw": 2,
                 "lose": 1,
                 "goals": {
-                  "for": 35,
-                  "against": 14
+                  "for": 38,
+                  "against": 16
                 }
               },
               "away": {
@@ -154,74 +154,29 @@
                   "against": 20
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 4,
-              "team": {
-                "id": 531,
-                "name": "Athletic Club",
-                "logo": "https://media.api-sports.io/football/teams/531.png"
-              },
-              "points": 56,
-              "goalsDiff": 24,
-              "group": "Primera División",
-              "form": "WWDLW",
-              "status": "same",
-              "description": "Promotion - Champions League (Group Stage: )",
-              "all": {
-                "played": 29,
-                "win": 16,
-                "draw": 8,
-                "lose": 5,
-                "goals": {
-                  "for": 50,
-                  "against": 26
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 11,
-                "draw": 3,
-                "lose": 1,
-                "goals": {
-                  "for": 36,
-                  "against": 14
-                }
-              },
-              "away": {
-                "played": 14,
-                "win": 5,
-                "draw": 5,
-                "lose": 4,
-                "goals": {
-                  "for": 14,
-                  "against": 12
-                }
-              },
-              "update": "2024-03-20T00:00:00+00:00"
-            },
-            {
-              "rank": 5,
               "team": {
                 "id": 530,
                 "name": "Atletico Madrid",
                 "logo": "https://media.api-sports.io/football/teams/530.png"
               },
-              "points": 55,
-              "goalsDiff": 20,
+              "points": 58,
+              "goalsDiff": 21,
               "group": "Primera División",
-              "form": "LLWDW",
+              "form": "WLLWD",
               "status": "same",
-              "description": "Promotion - Europa League (Group Stage: )",
+              "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 29,
-                "win": 17,
+                "played": 30,
+                "win": 18,
                 "draw": 4,
                 "lose": 8,
                 "goals": {
-                  "for": 54,
-                  "against": 34
+                  "for": 56,
+                  "against": 35
                 }
               },
               "home": {
@@ -235,16 +190,61 @@
                 }
               },
               "away": {
-                "played": 14,
-                "win": 4,
+                "played": 15,
+                "win": 5,
                 "draw": 3,
                 "lose": 7,
                 "goals": {
-                  "for": 20,
-                  "against": 18
+                  "for": 22,
+                  "against": 19
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 531,
+                "name": "Athletic Club",
+                "logo": "https://media.api-sports.io/football/teams/531.png"
+              },
+              "points": 56,
+              "goalsDiff": 22,
+              "group": "Primera División",
+              "form": "LWWDL",
+              "status": "same",
+              "description": "Promotion - Europa League (Group Stage: )",
+              "all": {
+                "played": 30,
+                "win": 16,
+                "draw": 8,
+                "lose": 6,
+                "goals": {
+                  "for": 50,
+                  "against": 28
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 11,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 36,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 5,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 14,
+                  "against": 14
+                }
+              },
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -253,19 +253,19 @@
                 "name": "Real Sociedad",
                 "logo": "https://media.api-sports.io/football/teams/548.png"
               },
-              "points": 46,
-              "goalsDiff": 11,
+              "points": 49,
+              "goalsDiff": 12,
               "group": "Primera División",
-              "form": "WWLLW",
+              "form": "WWWLL",
               "status": "same",
               "description": "Promotion - Europa Conference League (Qualification: )",
               "all": {
-                "played": 29,
-                "win": 12,
+                "played": 30,
+                "win": 13,
                 "draw": 10,
                 "lose": 7,
                 "goals": {
-                  "for": 42,
+                  "for": 43,
                   "against": 31
                 }
               },
@@ -280,16 +280,16 @@
                 }
               },
               "away": {
-                "played": 15,
-                "win": 6,
+                "played": 16,
+                "win": 7,
                 "draw": 5,
                 "lose": 4,
                 "goals": {
-                  "for": 21,
+                  "for": 22,
                   "against": 16
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -299,19 +299,19 @@
                 "logo": "https://media.api-sports.io/football/teams/543.png"
               },
               "points": 42,
-              "goalsDiff": 1,
+              "goalsDiff": 0,
               "group": "Primera División",
-              "form": "LLLWD",
+              "form": "LLLLW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 10,
                 "draw": 12,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
-                  "for": 34,
-                  "against": 33
+                  "for": 36,
+                  "against": 36
                 }
               },
               "home": {
@@ -325,16 +325,16 @@
                 }
               },
               "away": {
-                "played": 14,
+                "played": 15,
                 "win": 3,
                 "draw": 6,
-                "lose": 5,
+                "lose": 6,
                 "goals": {
-                  "for": 13,
-                  "against": 20
+                  "for": 15,
+                  "against": 23
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -343,16 +343,16 @@
                 "name": "Valencia",
                 "logo": "https://media.api-sports.io/football/teams/532.png"
               },
-              "points": 40,
+              "points": 41,
               "goalsDiff": 0,
               "group": "Primera División",
-              "form": "LWDDL",
+              "form": "DLWDD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 11,
-                "draw": 7,
+                "draw": 8,
                 "lose": 10,
                 "goals": {
                   "for": 32,
@@ -360,9 +360,9 @@
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 8,
-                "draw": 4,
+                "draw": 5,
                 "lose": 2,
                 "goals": {
                   "for": 18,
@@ -379,163 +379,28 @@
                   "against": 24
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 9,
-              "team": {
-                "id": 533,
-                "name": "Villarreal",
-                "logo": "https://media.api-sports.io/football/teams/533.png"
-              },
-              "points": 38,
-              "goalsDiff": -4,
-              "group": "Primera División",
-              "form": "WWWWD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 29,
-                "win": 10,
-                "draw": 8,
-                "lose": 11,
-                "goals": {
-                  "for": 47,
-                  "against": 51
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 5,
-                "draw": 4,
-                "lose": 6,
-                "goals": {
-                  "for": 25,
-                  "against": 24
-                }
-              },
-              "away": {
-                "played": 14,
-                "win": 5,
-                "draw": 4,
-                "lose": 5,
-                "goals": {
-                  "for": 22,
-                  "against": 27
-                }
-              },
-              "update": "2024-03-20T00:00:00+00:00"
-            },
-            {
-              "rank": 10,
-              "team": {
-                "id": 546,
-                "name": "Getafe",
-                "logo": "https://media.api-sports.io/football/teams/546.png"
-              },
-              "points": 38,
-              "goalsDiff": -5,
-              "group": "Primera División",
-              "form": "WLDLD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 29,
-                "win": 9,
-                "draw": 11,
-                "lose": 9,
-                "goals": {
-                  "for": 37,
-                  "against": 42
-                }
-              },
-              "home": {
-                "played": 14,
-                "win": 8,
-                "draw": 4,
-                "lose": 2,
-                "goals": {
-                  "for": 18,
-                  "against": 13
-                }
-              },
-              "away": {
-                "played": 15,
-                "win": 1,
-                "draw": 7,
-                "lose": 7,
-                "goals": {
-                  "for": 19,
-                  "against": 29
-                }
-              },
-              "update": "2024-03-20T00:00:00+00:00"
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 534,
-                "name": "Las Palmas",
-                "logo": "https://media.api-sports.io/football/teams/534.png"
-              },
-              "points": 37,
-              "goalsDiff": -3,
-              "group": "Primera División",
-              "form": "LLDDL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 29,
-                "win": 10,
-                "draw": 7,
-                "lose": 12,
-                "goals": {
-                  "for": 29,
-                  "against": 32
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 6,
-                "draw": 4,
-                "lose": 5,
-                "goals": {
-                  "for": 17,
-                  "against": 13
-                }
-              },
-              "away": {
-                "played": 14,
-                "win": 4,
-                "draw": 3,
-                "lose": 7,
-                "goals": {
-                  "for": 12,
-                  "against": 19
-                }
-              },
-              "update": "2024-03-20T00:00:00+00:00"
-            },
-            {
-              "rank": 12,
               "team": {
                 "id": 727,
                 "name": "Osasuna",
                 "logo": "https://media.api-sports.io/football/teams/727.png"
               },
-              "points": 36,
-              "goalsDiff": -10,
+              "points": 39,
+              "goalsDiff": -7,
               "group": "Primera División",
-              "form": "LLWDW",
+              "form": "WLLWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 29,
-                "win": 10,
+                "played": 30,
+                "win": 11,
                 "draw": 6,
                 "lose": 13,
                 "goals": {
-                  "for": 33,
+                  "for": 36,
                   "against": 43
                 }
               },
@@ -550,16 +415,151 @@
                 }
               },
               "away": {
-                "played": 14,
-                "win": 4,
+                "played": 15,
+                "win": 5,
                 "draw": 3,
                 "lose": 7,
                 "goals": {
-                  "for": 16,
+                  "for": 19,
                   "against": 22
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 533,
+                "name": "Villarreal",
+                "logo": "https://media.api-sports.io/football/teams/533.png"
+              },
+              "points": 38,
+              "goalsDiff": -5,
+              "group": "Primera División",
+              "form": "LWWWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 30,
+                "win": 10,
+                "draw": 8,
+                "lose": 12,
+                "goals": {
+                  "for": 48,
+                  "against": 53
+                }
+              },
+              "home": {
+                "played": 16,
+                "win": 5,
+                "draw": 4,
+                "lose": 7,
+                "goals": {
+                  "for": 26,
+                  "against": 26
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 5,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 22,
+                  "against": 27
+                }
+              },
+              "update": "2024-04-04T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 546,
+                "name": "Getafe",
+                "logo": "https://media.api-sports.io/football/teams/546.png"
+              },
+              "points": 38,
+              "goalsDiff": -6,
+              "group": "Primera División",
+              "form": "LWLDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 30,
+                "win": 9,
+                "draw": 11,
+                "lose": 10,
+                "goals": {
+                  "for": 37,
+                  "against": 43
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 8,
+                "draw": 4,
+                "lose": 3,
+                "goals": {
+                  "for": 18,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 1,
+                "draw": 7,
+                "lose": 7,
+                "goals": {
+                  "for": 19,
+                  "against": 29
+                }
+              },
+              "update": "2024-04-04T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 534,
+                "name": "Las Palmas",
+                "logo": "https://media.api-sports.io/football/teams/534.png"
+              },
+              "points": 37,
+              "goalsDiff": -4,
+              "group": "Primera División",
+              "form": "LLLDD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 30,
+                "win": 10,
+                "draw": 7,
+                "lose": 13,
+                "goals": {
+                  "for": 29,
+                  "against": 33
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 6,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 17,
+                  "against": 13
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 4,
+                "draw": 3,
+                "lose": 8,
+                "goals": {
+                  "for": 12,
+                  "against": 20
+                }
+              },
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -569,29 +569,29 @@
                 "logo": "https://media.api-sports.io/football/teams/542.png"
               },
               "points": 32,
-              "goalsDiff": -9,
+              "goalsDiff": -10,
               "group": "Primera División",
-              "form": "LWLDD",
+              "form": "LLWLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 8,
                 "draw": 8,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
                   "for": 26,
-                  "against": 35
+                  "against": 36
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 6,
                 "draw": 3,
-                "lose": 5,
+                "lose": 6,
                 "goals": {
                   "for": 15,
-                  "against": 16
+                  "against": 17
                 }
               },
               "away": {
@@ -604,25 +604,70 @@
                   "against": 19
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 14,
+              "team": {
+                "id": 536,
+                "name": "Sevilla",
+                "logo": "https://media.api-sports.io/football/teams/536.png"
+              },
+              "points": 31,
+              "goalsDiff": -7,
+              "group": "Primera División",
+              "form": "WLDWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 30,
+                "win": 7,
+                "draw": 10,
+                "lose": 13,
+                "goals": {
+                  "for": 37,
+                  "against": 44
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 4,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 21,
+                  "against": 23
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 3,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 16,
+                  "against": 21
+                }
+              },
+              "update": "2024-04-04T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
               "team": {
                 "id": 798,
                 "name": "Mallorca",
                 "logo": "https://media.api-sports.io/football/teams/798.png"
               },
-              "points": 30,
+              "points": 31,
               "goalsDiff": -10,
               "group": "Primera División",
-              "form": "WLWDL",
+              "form": "DWLWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 6,
-                "draw": 12,
+                "draw": 13,
                 "lose": 11,
                 "goals": {
                   "for": 25,
@@ -640,34 +685,34 @@
                 }
               },
               "away": {
-                "played": 14,
+                "played": 15,
                 "win": 1,
-                "draw": 5,
+                "draw": 6,
                 "lose": 8,
                 "goals": {
                   "for": 11,
                   "against": 23
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
-              "rank": 15,
+              "rank": 16,
               "team": {
                 "id": 728,
                 "name": "Rayo Vallecano",
                 "logo": "https://media.api-sports.io/football/teams/728.png"
               },
-              "points": 29,
+              "points": 30,
               "goalsDiff": -13,
               "group": "Primera División",
-              "form": "WLDLD",
+              "form": "DWLDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 6,
-                "draw": 11,
+                "draw": 12,
                 "lose": 12,
                 "goals": {
                   "for": 25,
@@ -685,61 +730,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 4,
-                "draw": 4,
+                "draw": 5,
                 "lose": 7,
                 "goals": {
                   "for": 11,
                   "against": 16
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
-            },
-            {
-              "rank": 16,
-              "team": {
-                "id": 536,
-                "name": "Sevilla",
-                "logo": "https://media.api-sports.io/football/teams/536.png"
-              },
-              "points": 28,
-              "goalsDiff": -8,
-              "group": "Primera División",
-              "form": "LDWLD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 29,
-                "win": 6,
-                "draw": 10,
-                "lose": 13,
-                "goals": {
-                  "for": 36,
-                  "against": 44
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 4,
-                "draw": 5,
-                "lose": 6,
-                "goals": {
-                  "for": 21,
-                  "against": 23
-                }
-              },
-              "away": {
-                "played": 14,
-                "win": 2,
-                "draw": 5,
-                "lose": 7,
-                "goals": {
-                  "for": 15,
-                  "against": 21
-                }
-              },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -748,16 +748,16 @@
                 "name": "Celta Vigo",
                 "logo": "https://media.api-sports.io/football/teams/538.png"
               },
-              "points": 27,
+              "points": 28,
               "goalsDiff": -12,
               "group": "Primera División",
-              "form": "WLWDL",
+              "form": "DWLWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 6,
-                "draw": 9,
+                "draw": 10,
                 "lose": 14,
                 "goals": {
                   "for": 32,
@@ -765,9 +765,9 @@
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 3,
-                "draw": 4,
+                "draw": 5,
                 "lose": 7,
                 "goals": {
                   "for": 10,
@@ -784,7 +784,7 @@
                   "against": 27
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -793,29 +793,29 @@
                 "name": "Cadiz",
                 "logo": "https://media.api-sports.io/football/teams/724.png"
               },
-              "points": 22,
-              "goalsDiff": -20,
+              "points": 25,
+              "goalsDiff": -19,
               "group": "Primera División",
-              "form": "LWDDL",
+              "form": "WLWDD",
               "status": "same",
               "description": "Relegation - LaLiga2",
               "all": {
-                "played": 29,
-                "win": 3,
+                "played": 30,
+                "win": 4,
                 "draw": 13,
                 "lose": 13,
                 "goals": {
-                  "for": 20,
+                  "for": 21,
                   "against": 40
                 }
               },
               "home": {
-                "played": 14,
-                "win": 3,
+                "played": 15,
+                "win": 4,
                 "draw": 7,
                 "lose": 4,
                 "goals": {
-                  "for": 13,
+                  "for": 14,
                   "against": 17
                 }
               },
@@ -829,7 +829,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 19,
@@ -839,19 +839,19 @@
                 "logo": "https://media.api-sports.io/football/teams/715.png"
               },
               "points": 14,
-              "goalsDiff": -28,
+              "goalsDiff": -29,
               "group": "Primera División",
-              "form": "LLLDD",
+              "form": "LLLLD",
               "status": "same",
               "description": "Relegation - LaLiga2",
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 2,
                 "draw": 8,
-                "lose": 18,
+                "lose": 19,
                 "goals": {
                   "for": 30,
-                  "against": 58
+                  "against": 59
                 }
               },
               "home": {
@@ -865,16 +865,16 @@
                 }
               },
               "away": {
-                "played": 14,
+                "played": 15,
                 "win": 0,
                 "draw": 2,
-                "lose": 12,
+                "lose": 13,
                 "goals": {
                   "for": 12,
-                  "against": 33
+                  "against": 34
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             },
             {
               "rank": 20,
@@ -884,29 +884,29 @@
                 "logo": "https://media.api-sports.io/football/teams/723.png"
               },
               "points": 13,
-              "goalsDiff": -29,
+              "goalsDiff": -32,
               "group": "Primera División",
-              "form": "WDLDD",
+              "form": "LWDLD",
               "status": "same",
               "description": "Relegation - LaLiga2",
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 1,
                 "draw": 10,
-                "lose": 18,
+                "lose": 19,
                 "goals": {
                   "for": 28,
-                  "against": 57
+                  "against": 60
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 0,
                 "draw": 8,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
                   "for": 14,
-                  "against": 25
+                  "against": 28
                 }
               },
               "away": {
@@ -919,7 +919,7 @@
                   "against": 32
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-04T00:00:00+00:00"
             }
           ]
         ]
