@@ -30,6 +30,7 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
         import os
         import json
         import random
+        from modules.history_standings import history_standings
         with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/final_standings.json', 'r') as j:
             TL_standings = json.load(j)
 
@@ -114,20 +115,7 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
                     (fixture['teams']['home']['id'] in group_loose_set_id or fixture['teams']['away']['id'] in group_loose_set_id):
                         # найти TL-standings на дату окончания стадии (ее последнего матча с участием прошедшего клуба)
                         round_last_date = fixture['fixture']['date'][:10]
-                            # установить дату первого TL_standings в /standings_history
-                        use_standings_date = '2100-01-01'    # инициализация
-                        for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
-                            standings_date = standings_file[10:20]
-                            if 'standings' in standings_file and standings_date < use_standings_date:
-                                use_standings_date = standings_date
-                            # определение даты TL_standings, действовавших на момент окончания стадии
-                        for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
-                            standings_date = standings_file[10:20]
-                            if 'standings' in standings_file and standings_date < round_last_date and standings_date > use_standings_date:
-                                use_standings_date = standings_date
-                        with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history/standings '\
-                            +str(use_standings_date)+'.json', 'r', encoding='utf-8') as j:
-                            hist_standings = json.load(j)
+                        hist_standings = history_standings(round_last_date)
                         # и добавить TL-rank непрошедшего в основной критерий прошедшего, если проигравший в hist_standings
                         if club == fixture['teams']['home']['id'] and\
                         fixture['teams']['away']['id'] in [hist_standings[hist_club]['IDapi'] for hist_club in hist_standings]:
@@ -197,20 +185,7 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
                         if fixture['teams']['home']['winner'] and 'Group' not in fixture['league']['round']:    
                             # найти TL-standings на дату окончания стадии (ее последнего матча с участием прошедшего клуба)
                             round_last_date = fixture['fixture']['date'][:10]
-                                # установить дату первого TL_standings в /standings_history
-                            use_standings_date = '2100-01-01'    # инициализация
-                            for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
-                                standings_date = standings_file[10:20]
-                                if 'standings' in standings_file and standings_date < use_standings_date:
-                                    use_standings_date = standings_date
-                                # определение даты TL_standings, действовавших на момент окончания стадии
-                            for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
-                                standings_date = standings_file[10:20]
-                                if 'standings' in standings_file and standings_date < round_last_date and standings_date > use_standings_date:
-                                    use_standings_date = standings_date
-                            with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history/standings '\
-                                +str(use_standings_date)+'.json', 'r', encoding='utf-8') as j:
-                                hist_standings = json.load(j)
+                            hist_standings = history_standings(round_last_date)
                             # и добавить TL-rank проигравшего в основной критерий победителя, если проигравший в hist_standings
                             if fixture['teams']['away']['id'] in [hist_standings[hist_club]['IDapi'] for hist_club in hist_standings]:
                                 club['own_rivals_TLrank'] += max([hist_standings[hist_club]['TL_rank'] for hist_club in hist_standings if \
@@ -226,20 +201,7 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
                         if fixture['teams']['away']['winner'] and 'Group' not in fixture['league']['round']:    
                             # найти TL-standings на дату окончания стадии (ее последнего матча с участием прошедшего клуба)
                             round_last_date = fixture['fixture']['date'][:10]
-                                # установить дату первого TL_standings в /standings_history
-                            use_standings_date = '2100-01-01'    # инициализация
-                            for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
-                                standings_date = standings_file[10:20]
-                                if 'standings' in standings_file and standings_date < use_standings_date:
-                                    use_standings_date = standings_date
-                                # определение даты TL_standings, действовавших на момент окончания стадии
-                            for standings_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history'):
-                                standings_date = standings_file[10:20]
-                                if 'standings' in standings_file and standings_date < round_last_date and standings_date > use_standings_date:
-                                    use_standings_date = standings_date
-                            with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/standings_history/standings '\
-                                +str(use_standings_date)+'.json', 'r', encoding='utf-8') as j:
-                                hist_standings = json.load(j)
+                            hist_standings = history_standings(round_last_date)
                             # и добавить TL-rank проигравшего в основной критерий победителя, если проигравший в hist_standings
                             if fixture['teams']['home']['id'] in [hist_standings[hist_club]['IDapi'] for hist_club in hist_standings]:
                                 club['own_rivals_TLrank'] += max([hist_standings[hist_club]['TL_rank'] for hist_club in hist_standings if \
