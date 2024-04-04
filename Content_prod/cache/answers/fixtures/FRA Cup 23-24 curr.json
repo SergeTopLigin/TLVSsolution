@@ -5,7 +5,7 @@
     "season": "2023"
   },
   "errors": [],
-  "results": 195,
+  "results": 196,
   "paging": {
     "current": 1,
     "total": 1
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1147266,
-        "referee": "J. Brisard",
+        "referee": "Jérôme Brisard, France",
         "timezone": "UTC",
         "date": "2024-01-07T13:30:00+00:00",
         "timestamp": 1704634200,
@@ -11302,7 +11302,7 @@
     {
       "fixture": {
         "id": 1157508,
-        "referee": "F. Batta",
+        "referee": "Florent Batta, France",
         "timezone": "UTC",
         "date": "2024-01-19T19:45:00+00:00",
         "timestamp": 1705693500,
@@ -11642,7 +11642,7 @@
     {
       "fixture": {
         "id": 1157513,
-        "referee": "B. Bastien",
+        "referee": "Benoît Bastien, France",
         "timezone": "UTC",
         "date": "2024-01-20T16:30:00+00:00",
         "timestamp": 1705768200,
@@ -11778,7 +11778,7 @@
     {
       "fixture": {
         "id": 1157515,
-        "referee": "T. Léonard",
+        "referee": "Thomas Leonard, France",
         "timezone": "UTC",
         "date": "2024-01-20T16:30:00+00:00",
         "timestamp": 1705768200,
@@ -11846,7 +11846,7 @@
     {
       "fixture": {
         "id": 1157516,
-        "referee": "M. Bollengier",
+        "referee": "Marc Bollengier, France",
         "timezone": "UTC",
         "date": "2024-01-20T19:45:00+00:00",
         "timestamp": 1705779900,
@@ -11914,7 +11914,7 @@
     {
       "fixture": {
         "id": 1157517,
-        "referee": "E. Wattellier",
+        "referee": "Eric Wattellier, France",
         "timezone": "UTC",
         "date": "2024-01-21T16:30:00+00:00",
         "timestamp": 1705854600,
@@ -11982,7 +11982,7 @@
     {
       "fixture": {
         "id": 1157518,
-        "referee": "M. Vernice",
+        "referee": "Mathieu Vernice, France",
         "timezone": "UTC",
         "date": "2024-01-21T16:30:00+00:00",
         "timestamp": 1705854600,
@@ -12050,7 +12050,7 @@
     {
       "fixture": {
         "id": 1157519,
-        "referee": "H. Ben El Hadj",
+        "referee": "Hakim Ben el Salem Hadj, France",
         "timezone": "UTC",
         "date": "2024-01-21T16:30:00+00:00",
         "timestamp": 1705854600,
@@ -12118,7 +12118,7 @@
     {
       "fixture": {
         "id": 1157520,
-        "referee": "B. Dechepy",
+        "referee": "Bastien Dechepy, France",
         "timezone": "UTC",
         "date": "2024-01-21T16:30:00+00:00",
         "timestamp": 1705854600,
@@ -12186,7 +12186,7 @@
     {
       "fixture": {
         "id": 1157521,
-        "referee": "N. Rainville",
+        "referee": "Nicolas Rainville, France",
         "timezone": "UTC",
         "date": "2024-01-21T16:30:00+00:00",
         "timestamp": 1705854600,
@@ -12254,7 +12254,7 @@
     {
       "fixture": {
         "id": 1157522,
-        "referee": "P. Gaillouste",
+        "referee": "Pierre Gaillouste, France",
         "timezone": "UTC",
         "date": "2024-01-21T16:30:00+00:00",
         "timestamp": 1705854600,
@@ -12322,7 +12322,7 @@
     {
       "fixture": {
         "id": 1157523,
-        "referee": "J. Pignard",
+        "referee": "Jeremie Pignard, France",
         "timezone": "UTC",
         "date": "2024-01-21T20:05:00+00:00",
         "timestamp": 1705867500,
@@ -12390,7 +12390,7 @@
     {
       "fixture": {
         "id": 1162552,
-        "referee": "J. Stinat",
+        "referee": "Jeremy Stinat, France",
         "timezone": "UTC",
         "date": "2024-02-06T19:45:00+00:00",
         "timestamp": 1707248700,
@@ -12458,7 +12458,7 @@
     {
       "fixture": {
         "id": 1162553,
-        "referee": "B. Millot",
+        "referee": "Benoît Millot, France",
         "timezone": "UTC",
         "date": "2024-02-07T17:30:00+00:00",
         "timestamp": 1707327000,
@@ -12526,7 +12526,7 @@
     {
       "fixture": {
         "id": 1162554,
-        "referee": "T. Léonard",
+        "referee": "Thomas Leonard, France",
         "timezone": "UTC",
         "date": "2024-02-07T19:30:00+00:00",
         "timestamp": 1707334200,
@@ -12594,7 +12594,7 @@
     {
       "fixture": {
         "id": 1162555,
-        "referee": "C. Turpin",
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2024-02-07T19:30:00+00:00",
         "timestamp": 1707334200,
@@ -12662,7 +12662,7 @@
     {
       "fixture": {
         "id": 1162556,
-        "referee": "F. Batta",
+        "referee": "Florent Batta, France",
         "timezone": "UTC",
         "date": "2024-02-07T19:30:00+00:00",
         "timestamp": 1707334200,
@@ -12730,7 +12730,7 @@
     {
       "fixture": {
         "id": 1162557,
-        "referee": "B. Bastien",
+        "referee": "Benoît Bastien, France",
         "timezone": "UTC",
         "date": "2024-02-07T20:10:00+00:00",
         "timestamp": 1707336600,
@@ -12798,7 +12798,7 @@
     {
       "fixture": {
         "id": 1162558,
-        "referee": "R. Buquet",
+        "referee": "Ruddy Buquet, France",
         "timezone": "UTC",
         "date": "2024-02-08T19:45:00+00:00",
         "timestamp": 1707421500,
@@ -12866,7 +12866,7 @@
     {
       "fixture": {
         "id": 1167794,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2024-02-07T19:30:00+00:00",
         "timestamp": 1707334200,
@@ -12934,7 +12934,7 @@
     {
       "fixture": {
         "id": 1172708,
-        "referee": "B. Bastien",
+        "referee": "Benoît Bastien, France",
         "timezone": "UTC",
         "date": "2024-02-27T19:45:00+00:00",
         "timestamp": 1709063100,
@@ -13002,7 +13002,7 @@
     {
       "fixture": {
         "id": 1172709,
-        "referee": "J. Pignard",
+        "referee": "Jeremie Pignard, France",
         "timezone": "UTC",
         "date": "2024-02-28T20:00:00+00:00",
         "timestamp": 1709150400,
@@ -13070,7 +13070,7 @@
     {
       "fixture": {
         "id": 1172710,
-        "referee": "H. Ben El Hadj",
+        "referee": "Hakim Ben el Salem Hadj, France",
         "timezone": "UTC",
         "date": "2024-02-29T19:45:00+00:00",
         "timestamp": 1709235900,
@@ -13138,13 +13138,13 @@
     {
       "fixture": {
         "id": 1172711,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2024-03-13T20:10:00+00:00",
         "timestamp": 1710360600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1710360600,
+          "second": 1710364200
         },
         "venue": {
           "id": 671,
@@ -13152,9 +13152,9 @@
           "city": "Paris"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -13171,27 +13171,27 @@
           "id": 85,
           "name": "Paris Saint Germain",
           "logo": "https://media.api-sports.io/football/teams/85.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 84,
           "name": "Nice",
           "logo": "https://media.api-sports.io/football/teams/84.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -13206,23 +13206,23 @@
     {
       "fixture": {
         "id": 1180282,
-        "referee": null,
+        "referee": "Stephanie Frappart, France",
         "timezone": "UTC",
-        "date": "2024-04-03T00:00:00+00:00",
-        "timestamp": 1712102400,
+        "date": "2024-04-02T18:45:00+00:00",
+        "timestamp": 1712083500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712083500,
+          "second": 1712087100
         },
         "venue": {
-          "id": null,
-          "name": null,
-          "city": null
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "Décines-Charpieu"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -13239,27 +13239,95 @@
           "id": 80,
           "name": "Lyon",
           "logo": "https://media.api-sports.io/football/teams/80.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 105,
           "name": "Valenciennes",
           "logo": "https://media.api-sports.io/football/teams/105.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
           "home": null,
           "away": null
         },
-        "fulltime": {
+        "penalty": {
           "home": null,
           "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1184698,
+        "referee": "Ruddy Buquet, France",
+        "timezone": "UTC",
+        "date": "2024-04-03T19:10:00+00:00",
+        "timestamp": 1712171400,
+        "periods": {
+          "first": 1712171400,
+          "second": 1712175000
+        },
+        "venue": {
+          "id": 671,
+          "name": "Parc des Princes",
+          "city": "Paris"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 66,
+        "name": "Coupe de France",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/66.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Semi-finals"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media.api-sports.io/football/teams/85.png",
+          "winner": true
+        },
+        "away": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
