@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/uefa_tourn_files.py", line 74, in uefa_tourn_files
+    if UCLstan['results'] != 0:
+TypeError: string indices must be integers
