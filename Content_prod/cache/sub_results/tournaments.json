@@ -6,7 +6,7 @@
       "UCL": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 1.64,
+        "rating": 1.63,
         "quota": 16,
         "id": 2,
         "type": "Cup",
@@ -15,7 +15,7 @@
       "UEL": {
         "tytle": "UEL",
         "season": "23-24",
-        "rating": 0.61,
+        "rating": 0.63,
         "quota": 6,
         "id": 3,
         "type": "Cup",
@@ -24,7 +24,7 @@
       "UECL": {
         "tytle": "UECL",
         "season": "23-24",
-        "rating": 0.14,
+        "rating": 0.1,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -72,7 +72,7 @@
       "ENG LCup": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.34,
+        "rating": 0.31,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -95,6 +95,30 @@
       }
     }
   },
+  "ITA": {
+    "as_short": "ITA",
+    "as_full": "Italy",
+    "tournaments": {
+      "ITA League": {
+        "tytle": "ITA League",
+        "season": "23-24",
+        "rating": 0.44,
+        "quota": 3,
+        "id": 135,
+        "type": "League",
+        "name": "Serie A"
+      },
+      "ITA Cup": {
+        "tytle": "ITA Cup",
+        "season": "23-24",
+        "rating": 0.15,
+        "quota": 1,
+        "id": 137,
+        "type": "Cup",
+        "name": "Coppa Italia"
+      }
+    }
+  },
   "GER": {
     "as_short": "GER",
     "as_full": "Germany",
@@ -107,21 +131,6 @@
         "id": 78,
         "type": "League",
         "name": "Bundesliga"
-      }
-    }
-  },
-  "ITA": {
-    "as_short": "ITA",
-    "as_full": "Italy",
-    "tournaments": {
-      "ITA League": {
-        "tytle": "ITA League",
-        "season": "23-24",
-        "rating": 0.44,
-        "quota": 4,
-        "id": 135,
-        "type": "League",
-        "name": "Serie A"
       }
     }
   },
