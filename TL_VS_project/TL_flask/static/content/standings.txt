@@ -26,23 +26,25 @@
 26  Rangers                   24   -0.39    SCO
 27  Eintracht Frankfurt       21   -0.48    GER
 28  AC Milan                  20   -0.51    ITA
-29  Feyenoord                 18   -0.58    NED
-30  Sporting CP               16   -0.65    POR
-31  Lazio                     16   -0.67    ITA
-32  PSV Eindhoven             16   -0.67    NED
-33  Tottenham                 16   -0.67    ENG
-34  Slavia Praha              15   -0.70    CZE
-35  FC Basel 1893             14   -0.73    SUI
-36  FC Copenhagen             13   -0.75    DEN
-37  Real Sociedad             13   -0.76    ESP
-38  Dinamo Zagreb             12   -0.79    CRO
-39  AZ Alkmaar                12   -0.79    NED
-40  Red Bull Salzburg         12   -0.79    AUT
-41  SC Braga                  11   -0.83    POR
-42  Lille                      7   -0.95    FRA
-43  Marseille                  6   -0.98    FRA
-44  Lyon                       6   -0.98    FRA
-45  Rennes                     6   -1.01    FRA
-46  FK Crvena Zvezda           3   -1.11    SRB
-47  Olympiakos Piraeus         1   -1.17    GRE
-48  PAOK                       0   -1.20    GRE
+29  Club Brugge KV            19   -0.54    BEL
+30  Feyenoord                 18   -0.58    NED
+31  Sporting CP               16   -0.65    POR
+32  Lazio                     16   -0.67    ITA
+33  PSV Eindhoven             16   -0.67    NED
+34  Tottenham                 16   -0.67    ENG
+35  Slavia Praha              15   -0.70    CZE
+36  FC Basel 1893             14   -0.73    SUI
+37  FC Copenhagen             13   -0.75    DEN
+38  Real Sociedad             13   -0.76    ESP
+39  Dinamo Zagreb             12   -0.79    CRO
+40  AZ Alkmaar                12   -0.79    NED
+41  Red Bull Salzburg         12   -0.79    AUT
+42  SC Braga                  11   -0.83    POR
+43  Lille                      7   -0.95    FRA
+44  Gent                       7   -0.95    BEL
+45  Marseille                  6   -0.98    FRA
+46  Lyon                       6   -0.98    FRA
+47  Rennes                     6   -1.01    FRA
+48  FK Crvena Zvezda           3   -1.11    SRB
+49  Olympiakos Piraeus         1   -1.17    GRE
+50  PAOK                       0   -1.20    GRE
