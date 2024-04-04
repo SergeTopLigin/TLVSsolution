@@ -1,10 +1,10 @@
 {
   "UEFA": {
-    "rating": 47.5,
+    "rating": 48.41,
     "quota": 23
   },
   "TopLiga": {
-    "rating": 20.65,
+    "rating": 21.05,
     "quota": 10
   },
   "ENG": {
@@ -34,6 +34,10 @@
   "NED": {
     "rating": 2.5,
     "quota": 1
+  },
+  "BEL": {
+    "rating": 0.91,
+    "quota": 0
   },
   "SCO": {
     "rating": 0.81,
