@@ -1,6 +1,6 @@
                   quota  rating
- 1  UEFA             23  47.50
- 2  TopLiga          10  20.65
+ 1  UEFA             23  48.41
+ 2  TopLiga          10  21.05
  3  England           5  11.86
  4  Spain             4   9.30
  5  Italy             4   8.80
@@ -8,12 +8,13 @@
  7  Portugal          1   3.42
  8  France            1   3.25
  9  Netherlands       1   2.50
-10  Scotland          0   0.81
-11  Ukraine           0   0.81
-12  Czech Republic    0   0.50
-13  Switzerland       0   0.47
-14  Denmark           0   0.45
-15  Austria           0   0.41
-16  Croatia           0   0.41
-17  Serbia            0   0.09
-18  Greece            0   0.03
+10  Belgium           0   0.91
+11  Scotland          0   0.81
+12  Ukraine           0   0.81
+13  Czech Republic    0   0.50
+14  Switzerland       0   0.47
+15  Denmark           0   0.45
+16  Austria           0   0.41
+17  Croatia           0   0.41
+18  Serbia            0   0.09
+19  Greece            0   0.03
