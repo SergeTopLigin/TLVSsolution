@@ -1590,12 +1590,12 @@
   },
   {
     "round": "Quarter-finals",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
       "timestamp": 1710371400,
       "date": "2024-03-13 23:10:00"
     },
-    "rating": 0.36,
+    "rating": 0.35,
     "club_set": [
       {
         "name": "Lyon",
@@ -1626,7 +1626,7 @@
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.18
+        "rating": 1.15
       },
       {
         "name": "Nice",
@@ -1636,20 +1636,31 @@
   },
   {
     "round": "Semi-finals",
-    "type": null,
+    "type": "prev",
     "last_date": {
-      "timestamp": 1712113200,
-      "date": "2024-04-03 03:00:00"
+      "timestamp": 1712182200,
+      "date": "2024-04-03 22:10:00"
     },
-    "rating": 0,
+    "rating": 0.71,
     "club_set": [
       {
         "name": "Lyon",
-        "id": 80
+        "id": 80,
+        "rating": -0.95
       },
       {
         "name": "Valenciennes",
         "id": 105
+      },
+      {
+        "name": "Paris Saint Germain",
+        "id": 85,
+        "rating": 1.18
+      },
+      {
+        "name": "Rennes",
+        "id": 94,
+        "rating": -0.98
       }
     ]
   }
