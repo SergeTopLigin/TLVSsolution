@@ -28,20 +28,20 @@
                 "name": "Sporting CP",
                 "logo": "https://media.api-sports.io/football/teams/228.png"
               },
-              "points": 65,
-              "goalsDiff": 50,
+              "points": 68,
+              "goalsDiff": 51,
               "group": "Primeira Liga",
-              "form": "WWWDW",
+              "form": "WWWWD",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 25,
-                "win": 21,
+                "played": 26,
+                "win": 22,
                 "draw": 2,
                 "lose": 2,
                 "goals": {
-                  "for": 75,
-                  "against": 25
+                  "for": 77,
+                  "against": 26
                 }
               },
               "home": {
@@ -55,16 +55,16 @@
                 }
               },
               "away": {
-                "played": 12,
-                "win": 8,
+                "played": 13,
+                "win": 9,
                 "draw": 2,
                 "lose": 2,
                 "goals": {
-                  "for": 29,
-                  "against": 15
+                  "for": 31,
+                  "against": 16
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -73,29 +73,29 @@
                 "name": "Benfica",
                 "logo": "https://media.api-sports.io/football/teams/211.png"
               },
-              "points": 64,
-              "goalsDiff": 39,
+              "points": 67,
+              "goalsDiff": 40,
               "group": "Primeira Liga",
-              "form": "WWLWW",
+              "form": "WWWLW",
               "status": "same",
               "description": "Promotion - Champions League (Qualification: )",
               "all": {
-                "played": 26,
-                "win": 20,
+                "played": 27,
+                "win": 21,
                 "draw": 4,
                 "lose": 2,
                 "goals": {
-                  "for": 60,
+                  "for": 61,
                   "against": 21
                 }
               },
               "home": {
-                "played": 13,
-                "win": 11,
+                "played": 14,
+                "win": 12,
                 "draw": 2,
                 "lose": 0,
                 "goals": {
-                  "for": 36,
+                  "for": 37,
                   "against": 6
                 }
               },
@@ -109,7 +109,7 @@
                   "against": 15
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -119,19 +119,19 @@
                 "logo": "https://media.api-sports.io/football/teams/212.png"
               },
               "points": 58,
-              "goalsDiff": 32,
+              "goalsDiff": 31,
               "group": "Primeira Liga",
-              "form": "WWWDW",
+              "form": "LWWWD",
               "status": "same",
               "description": "Promotion - Europa League (Qualification: )",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 18,
                 "draw": 4,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
                   "for": 50,
-                  "against": 18
+                  "against": 19
                 }
               },
               "home": {
@@ -145,16 +145,16 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 8,
                 "draw": 2,
-                "lose": 3,
+                "lose": 4,
                 "goals": {
                   "for": 22,
-                  "against": 12
+                  "against": 13
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -163,20 +163,20 @@
                 "name": "SC Braga",
                 "logo": "https://media.api-sports.io/football/teams/217.png"
               },
-              "points": 53,
-              "goalsDiff": 21,
+              "points": 56,
+              "goalsDiff": 23,
               "group": "Primeira Liga",
-              "form": "WDWWW",
+              "form": "WWDWW",
               "status": "same",
               "description": "Promotion - Europa Conference League (Qualification: )",
               "all": {
-                "played": 26,
-                "win": 16,
+                "played": 27,
+                "win": 17,
                 "draw": 5,
                 "lose": 5,
                 "goals": {
-                  "for": 55,
-                  "against": 34
+                  "for": 60,
+                  "against": 37
                 }
               },
               "home": {
@@ -190,16 +190,16 @@
                 }
               },
               "away": {
-                "played": 13,
-                "win": 8,
+                "played": 14,
+                "win": 9,
                 "draw": 2,
                 "lose": 3,
                 "goals": {
-                  "for": 28,
-                  "against": 22
+                  "for": 33,
+                  "against": 25
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -208,29 +208,29 @@
                 "name": "Guimaraes",
                 "logo": "https://media.api-sports.io/football/teams/224.png"
               },
-              "points": 50,
-              "goalsDiff": 14,
+              "points": 53,
+              "goalsDiff": 15,
               "group": "Primeira Liga",
-              "form": "WWWLD",
+              "form": "WWWWL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
-                "win": 15,
+                "played": 27,
+                "win": 16,
                 "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 41,
+                  "for": 42,
                   "against": 27
                 }
               },
               "home": {
-                "played": 13,
-                "win": 9,
+                "played": 14,
+                "win": 10,
                 "draw": 1,
                 "lose": 3,
                 "goals": {
-                  "for": 26,
+                  "for": 27,
                   "against": 14
                 }
               },
@@ -244,7 +244,7 @@
                   "against": 13
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -254,19 +254,19 @@
                 "logo": "https://media.api-sports.io/football/teams/215.png"
               },
               "points": 42,
-              "goalsDiff": 1,
+              "goalsDiff": 0,
               "group": "Primeira Liga",
-              "form": "WLDWL",
+              "form": "LWLDW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 12,
                 "draw": 6,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
                   "for": 28,
-                  "against": 27
+                  "against": 28
                 }
               },
               "home": {
@@ -280,16 +280,16 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 6,
                 "draw": 3,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
                   "for": 13,
-                  "against": 13
+                  "against": 14
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -298,30 +298,30 @@
                 "name": "Arouca",
                 "logo": "https://media.api-sports.io/football/teams/240.png"
               },
-              "points": 34,
-              "goalsDiff": 6,
+              "points": 37,
+              "goalsDiff": 7,
               "group": "Primeira Liga",
-              "form": "LLWWL",
+              "form": "WLLWW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
-                "win": 10,
+                "played": 27,
+                "win": 11,
                 "draw": 4,
                 "lose": 12,
                 "goals": {
-                  "for": 43,
-                  "against": 37
+                  "for": 45,
+                  "against": 38
                 }
               },
               "home": {
-                "played": 13,
-                "win": 5,
+                "played": 14,
+                "win": 6,
                 "draw": 2,
                 "lose": 6,
                 "goals": {
-                  "for": 21,
-                  "against": 21
+                  "for": 23,
+                  "against": 22
                 }
               },
               "away": {
@@ -334,7 +334,7 @@
                   "against": 16
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -343,20 +343,20 @@
                 "name": "Famalicao",
                 "logo": "https://media.api-sports.io/football/teams/242.png"
               },
-              "points": 28,
-              "goalsDiff": -6,
+              "points": 31,
+              "goalsDiff": -5,
               "group": "Primeira Liga",
-              "form": "DLDLW",
+              "form": "WDLDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 25,
-                "win": 6,
+                "played": 26,
+                "win": 7,
                 "draw": 10,
                 "lose": 9,
                 "goals": {
-                  "for": 24,
-                  "against": 30
+                  "for": 26,
+                  "against": 31
                 }
               },
               "home": {
@@ -370,61 +370,61 @@
                 }
               },
               "away": {
-                "played": 13,
-                "win": 2,
+                "played": 14,
+                "win": 3,
                 "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 11,
-                  "against": 16
+                  "for": 13,
+                  "against": 17
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 9,
               "team": {
-                "id": 762,
-                "name": "GIL Vicente",
-                "logo": "https://media.api-sports.io/football/teams/762.png"
+                "id": 4716,
+                "name": "Casa Pia",
+                "logo": "https://media.api-sports.io/football/teams/4716.png"
               },
-              "points": 28,
-              "goalsDiff": -4,
+              "points": 30,
+              "goalsDiff": -12,
               "group": "Primeira Liga",
-              "form": "LDDDW",
+              "form": "WLLDW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
-                "win": 7,
-                "draw": 7,
-                "lose": 12,
+                "played": 27,
+                "win": 8,
+                "draw": 6,
+                "lose": 13,
                 "goals": {
-                  "for": 35,
+                  "for": 27,
                   "against": 39
                 }
               },
               "home": {
                 "played": 13,
-                "win": 5,
-                "draw": 6,
-                "lose": 2,
+                "win": 2,
+                "draw": 4,
+                "lose": 7,
                 "goals": {
-                  "for": 23,
+                  "for": 6,
                   "against": 14
                 }
               },
               "away": {
-                "played": 13,
-                "win": 2,
-                "draw": 1,
-                "lose": 10,
+                "played": 14,
+                "win": 6,
+                "draw": 2,
+                "lose": 6,
                 "goals": {
-                  "for": 12,
+                  "for": 21,
                   "against": 25
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -433,16 +433,16 @@
                 "name": "Boavista",
                 "logo": "https://media.api-sports.io/football/teams/222.png"
               },
-              "points": 28,
+              "points": 29,
               "goalsDiff": -18,
               "group": "Primeira Liga",
-              "form": "LWDLL",
+              "form": "DLWDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 7,
-                "draw": 7,
+                "draw": 8,
                 "lose": 12,
                 "goals": {
                   "for": 33,
@@ -450,9 +450,9 @@
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 4,
-                "draw": 4,
+                "draw": 5,
                 "lose": 5,
                 "goals": {
                   "for": 17,
@@ -469,173 +469,83 @@
                   "against": 25
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 11,
               "team": {
-                "id": 4716,
-                "name": "Casa Pia",
-                "logo": "https://media.api-sports.io/football/teams/4716.png"
+                "id": 762,
+                "name": "GIL Vicente",
+                "logo": "https://media.api-sports.io/football/teams/762.png"
               },
-              "points": 27,
-              "goalsDiff": -16,
+              "points": 28,
+              "goalsDiff": -5,
               "group": "Primeira Liga",
-              "form": "LLDWW",
+              "form": "LLDDD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 7,
-                "draw": 6,
+                "draw": 7,
                 "lose": 13,
                 "goals": {
-                  "for": 23,
-                  "against": 39
+                  "for": 36,
+                  "against": 41
                 }
               },
               "home": {
-                "played": 13,
-                "win": 2,
-                "draw": 4,
-                "lose": 7,
+                "played": 14,
+                "win": 5,
+                "draw": 6,
+                "lose": 3,
                 "goals": {
-                  "for": 6,
-                  "against": 14
+                  "for": 24,
+                  "against": 16
                 }
               },
               "away": {
                 "played": 13,
-                "win": 5,
-                "draw": 2,
-                "lose": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 10,
                 "goals": {
-                  "for": 17,
+                  "for": 12,
                   "against": 25
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 12,
-              "team": {
-                "id": 231,
-                "name": "Farense",
-                "logo": "https://media.api-sports.io/football/teams/231.png"
-              },
-              "points": 27,
-              "goalsDiff": -4,
-              "group": "Primeira Liga",
-              "form": "DLLLL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 26,
-                "win": 7,
-                "draw": 6,
-                "lose": 13,
-                "goals": {
-                  "for": 34,
-                  "against": 38
-                }
-              },
-              "home": {
-                "played": 13,
-                "win": 4,
-                "draw": 4,
-                "lose": 5,
-                "goals": {
-                  "for": 17,
-                  "against": 15
-                }
-              },
-              "away": {
-                "played": 13,
-                "win": 3,
-                "draw": 2,
-                "lose": 8,
-                "goals": {
-                  "for": 17,
-                  "against": 23
-                }
-              },
-              "update": "2024-03-20T00:00:00+00:00"
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 15130,
-                "name": "Estrela",
-                "logo": "https://media.api-sports.io/football/teams/15130.png"
-              },
-              "points": 26,
-              "goalsDiff": -13,
-              "group": "Primeira Liga",
-              "form": "DWLDL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 26,
-                "win": 6,
-                "draw": 8,
-                "lose": 12,
-                "goals": {
-                  "for": 26,
-                  "against": 39
-                }
-              },
-              "home": {
-                "played": 13,
-                "win": 5,
-                "draw": 2,
-                "lose": 6,
-                "goals": {
-                  "for": 18,
-                  "against": 20
-                }
-              },
-              "away": {
-                "played": 13,
-                "win": 1,
-                "draw": 6,
-                "lose": 6,
-                "goals": {
-                  "for": 8,
-                  "against": 19
-                }
-              },
-              "update": "2024-03-20T00:00:00+00:00"
-            },
-            {
-              "rank": 14,
               "team": {
                 "id": 230,
                 "name": "Estoril",
                 "logo": "https://media.api-sports.io/football/teams/230.png"
               },
-              "points": 25,
-              "goalsDiff": -7,
+              "points": 28,
+              "goalsDiff": -6,
               "group": "Primeira Liga",
-              "form": "WLLDL",
+              "form": "WWLLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
-                "win": 7,
+                "played": 27,
+                "win": 8,
                 "draw": 4,
                 "lose": 15,
                 "goals": {
-                  "for": 42,
+                  "for": 43,
                   "against": 49
                 }
               },
               "home": {
-                "played": 13,
-                "win": 6,
+                "played": 14,
+                "win": 7,
                 "draw": 1,
                 "lose": 6,
                 "goals": {
-                  "for": 23,
+                  "for": 24,
                   "against": 16
                 }
               },
@@ -649,25 +559,70 @@
                   "against": 33
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
-              "rank": 15,
+              "rank": 13,
+              "team": {
+                "id": 231,
+                "name": "Farense",
+                "logo": "https://media.api-sports.io/football/teams/231.png"
+              },
+              "points": 27,
+              "goalsDiff": -5,
+              "group": "Primeira Liga",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 7,
+                "draw": 6,
+                "lose": 14,
+                "goals": {
+                  "for": 35,
+                  "against": 40
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 4,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 17,
+                  "against": 15
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 3,
+                "draw": 2,
+                "lose": 9,
+                "goals": {
+                  "for": 18,
+                  "against": 25
+                }
+              },
+              "update": "2024-04-03T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
               "team": {
                 "id": 226,
                 "name": "Rio Ave",
                 "logo": "https://media.api-sports.io/football/teams/226.png"
               },
-              "points": 25,
+              "points": 26,
               "goalsDiff": -9,
               "group": "Primeira Liga",
-              "form": "DDDDL",
+              "form": "DDDDD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 4,
-                "draw": 13,
+                "draw": 14,
                 "lose": 9,
                 "goals": {
                   "for": 26,
@@ -685,16 +640,61 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 0,
-                "draw": 7,
+                "draw": 8,
                 "lose": 6,
                 "goals": {
                   "for": 8,
                   "against": 18
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 15130,
+                "name": "Estrela",
+                "logo": "https://media.api-sports.io/football/teams/15130.png"
+              },
+              "points": 26,
+              "goalsDiff": -14,
+              "group": "Primeira Liga",
+              "form": "LDWLD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 6,
+                "draw": 8,
+                "lose": 13,
+                "goals": {
+                  "for": 27,
+                  "against": 41
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 5,
+                "draw": 2,
+                "lose": 7,
+                "goals": {
+                  "for": 19,
+                  "against": 22
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 1,
+                "draw": 6,
+                "lose": 6,
+                "goals": {
+                  "for": 8,
+                  "against": 19
+                }
+              },
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -704,29 +704,29 @@
                 "logo": "https://media.api-sports.io/football/teams/216.png"
               },
               "points": 23,
-              "goalsDiff": -29,
+              "goalsDiff": -31,
               "group": "Primeira Liga",
-              "form": "LLDLD",
+              "form": "LLLDL",
               "status": "same",
               "description": "Liga Portugal (Relegation)",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 6,
                 "draw": 5,
-                "lose": 15,
+                "lose": 16,
                 "goals": {
-                  "for": 24,
-                  "against": 53
+                  "for": 27,
+                  "against": 58
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 3,
                 "draw": 4,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
-                  "for": 11,
-                  "against": 20
+                  "for": 14,
+                  "against": 25
                 }
               },
               "away": {
@@ -739,7 +739,7 @@
                   "against": 33
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -749,29 +749,29 @@
                 "logo": "https://media.api-sports.io/football/teams/810.png"
               },
               "points": 21,
-              "goalsDiff": -26,
+              "goalsDiff": -30,
               "group": "Primeira Liga",
-              "form": "LWDDL",
+              "form": "LLWDD",
               "status": "same",
               "description": "Relegation - Liga Portugal 2",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 4,
                 "draw": 9,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
                   "for": 26,
-                  "against": 52
+                  "against": 56
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 2,
                 "draw": 4,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
                   "for": 15,
-                  "against": 26
+                  "against": 30
                 }
               },
               "away": {
@@ -784,7 +784,7 @@
                   "against": 26
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -794,19 +794,19 @@
                 "logo": "https://media.api-sports.io/football/teams/223.png"
               },
               "points": 19,
-              "goalsDiff": -31,
+              "goalsDiff": -32,
               "group": "Primeira Liga",
-              "form": "LDLDW",
+              "form": "LLDLD",
               "status": "same",
               "description": "Relegation - Liga Portugal 2",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 4,
                 "draw": 7,
-                "lose": 15,
+                "lose": 16,
                 "goals": {
                   "for": 25,
-                  "against": 56
+                  "against": 57
                 }
               },
               "home": {
@@ -820,16 +820,16 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 1,
                 "draw": 4,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
                   "for": 8,
-                  "against": 28
+                  "against": 29
                 }
               },
-              "update": "2024-03-20T00:00:00+00:00"
+              "update": "2024-04-03T00:00:00+00:00"
             }
           ]
         ]
