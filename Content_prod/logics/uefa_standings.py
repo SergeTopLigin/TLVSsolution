@@ -113,11 +113,13 @@ try:    # обработка исключений для определения 
         # приведение словаря uefa_standings {club:[TL_rank,visual_rank]} 
         # к виду {club: {IDapi: , nat: , TL_rank: , visual_rank: }}
         # посредством \Content_prod\cache\answers\standings
+        from modules.country_codes import country_codes
+        country_codes = country_codes()
         uefa_standings_upg = {}
         for club in uefa_standings:
             find_club = 0
             for file in dir_standings:
-                if 'json' in file:
+                if 'json' in file and file[:3] in [nat['fifa'] for nat in country_codes]:
                     with open((os.path.abspath(__file__))[:-25]+'/cache/answers/standings/'+file, 'r', encoding='utf-8') as f:
                         standings_dict = json.load(f)
                     for stage in standings_dict["response"][0]["league"]["standings"]:
