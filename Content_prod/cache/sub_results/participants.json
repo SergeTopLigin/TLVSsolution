@@ -233,14 +233,14 @@
             "pts/pl": 2.5,
             "dif/pl": 1.25,
             "TL_rank": 0.52,
-            "random_rank": 0.3730631726907502
+            "random_rank": 0.6370596960832134
           }
         ]
       },
       "ENG LCup": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.31,
+        "rating": 0.3,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -249,72 +249,6 @@
           {
             "club": "Liverpool",
             "id": 40
-          }
-        ]
-      }
-    }
-  },
-  "ESP": {
-    "as_short": "ESP",
-    "as_full": "Spain",
-    "tournaments": {
-      "ESP League": {
-        "tytle": "ESP League",
-        "season": "23-24",
-        "rating": 0.47,
-        "quota": 4,
-        "id": 140,
-        "type": "League",
-        "name": "La Liga",
-        "participants": [
-          {
-            "club": "Real Madrid",
-            "id": 541
-          },
-          {
-            "club": "Barcelona",
-            "id": 529
-          },
-          {
-            "club": "Girona",
-            "id": 547
-          },
-          {
-            "club": "Atletico Madrid",
-            "id": 530
-          }
-        ]
-      }
-    }
-  },
-  "ITA": {
-    "as_short": "ITA",
-    "as_full": "Italy",
-    "tournaments": {
-      "ITA League": {
-        "tytle": "ITA League",
-        "season": "23-24",
-        "rating": 0.44,
-        "quota": 4,
-        "id": 135,
-        "type": "League",
-        "name": "Serie A",
-        "participants": [
-          {
-            "club": "Inter",
-            "id": 505
-          },
-          {
-            "club": "AC Milan",
-            "id": 489
-          },
-          {
-            "club": "Juventus",
-            "id": 496
-          },
-          {
-            "club": "Bologna",
-            "id": 500
           }
         ]
       }
@@ -390,27 +324,6 @@
           {
             "club": "Paris Saint Germain",
             "id": 85
-          }
-        ]
-      }
-    }
-  },
-  "NED": {
-    "as_short": "NED",
-    "as_full": "Netherlands",
-    "tournaments": {
-      "NED League": {
-        "tytle": "NED League",
-        "season": "23-24",
-        "rating": 0.14,
-        "quota": 1,
-        "id": 88,
-        "type": "League",
-        "name": "Eredivisie",
-        "participants": [
-          {
-            "club": "PSV Eindhoven",
-            "id": 197
           }
         ]
       }
