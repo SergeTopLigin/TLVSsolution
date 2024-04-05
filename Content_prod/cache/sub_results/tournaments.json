@@ -72,41 +72,11 @@
       "ENG LCup": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.31,
+        "rating": 0.3,
         "quota": 1,
         "id": 48,
         "type": "Cup",
         "name": "League Cup"
-      }
-    }
-  },
-  "ESP": {
-    "as_short": "ESP",
-    "as_full": "Spain",
-    "tournaments": {
-      "ESP League": {
-        "tytle": "ESP League",
-        "season": "23-24",
-        "rating": 0.47,
-        "quota": 4,
-        "id": 140,
-        "type": "League",
-        "name": "La Liga"
-      }
-    }
-  },
-  "ITA": {
-    "as_short": "ITA",
-    "as_full": "Italy",
-    "tournaments": {
-      "ITA League": {
-        "tytle": "ITA League",
-        "season": "23-24",
-        "rating": 0.44,
-        "quota": 4,
-        "id": 135,
-        "type": "League",
-        "name": "Serie A"
       }
     }
   },
@@ -152,21 +122,6 @@
         "id": 61,
         "type": "League",
         "name": "Ligue 1"
-      }
-    }
-  },
-  "NED": {
-    "as_short": "NED",
-    "as_full": "Netherlands",
-    "tournaments": {
-      "NED League": {
-        "tytle": "NED League",
-        "season": "23-24",
-        "rating": 0.14,
-        "quota": 1,
-        "id": 88,
-        "type": "League",
-        "name": "Eredivisie"
       }
     }
   }
