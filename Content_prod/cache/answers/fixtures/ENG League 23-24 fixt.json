@@ -20822,13 +20822,13 @@
     {
       "fixture": {
         "id": 1035480,
-        "referee": "J. Gillett",
+        "referee": "Jarred Gillett, Australia",
         "timezone": "UTC",
         "date": "2024-04-04T19:15:00+00:00",
         "timestamp": 1712258100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712258100,
+          "second": 1712261700
         },
         "venue": {
           "id": 519,
@@ -20836,9 +20836,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20855,27 +20855,27 @@
           "id": 49,
           "name": "Chelsea",
           "logo": "https://media.api-sports.io/football/teams/49.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 33,
           "name": "Manchester United",
           "logo": "https://media.api-sports.io/football/teams/33.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -20958,13 +20958,13 @@
     {
       "fixture": {
         "id": 1035482,
-        "referee": "S. Attwell",
+        "referee": "Stuart Attwell, England",
         "timezone": "UTC",
         "date": "2024-04-04T18:30:00+00:00",
         "timestamp": 1712255400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712255400,
+          "second": 1712259000
         },
         "venue": {
           "id": 550,
@@ -20972,9 +20972,9 @@
           "city": "Liverpool"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20991,27 +20991,27 @@
           "id": 40,
           "name": "Liverpool",
           "logo": "https://media.api-sports.io/football/teams/40.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 62,
           "name": "Sheffield Utd",
           "logo": "https://media.api-sports.io/football/teams/62.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
