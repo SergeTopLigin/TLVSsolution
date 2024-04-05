@@ -7,44 +7,40 @@
     "rating": 21.05,
     "quota": 10
   },
+  "UCL": {
+    "rating": 13.77,
+    "quota": 6
+  },
   "ENG": {
     "rating": 11.86,
     "quota": 5
   },
-  "ESP": {
-    "rating": 9.3,
-    "quota": 4
-  },
-  "ITA": {
-    "rating": 8.8,
-    "quota": 4
-  },
   "GER": {
     "rating": 8.79,
     "quota": 4
+  },
+  "UEL": {
+    "rating": 6.49,
+    "quota": 3
   },
   "POR": {
     "rating": 3.42,
     "quota": 1
   },
   "FRA": {
-    "rating": 3.25,
+    "rating": 2.84,
     "quota": 1
   },
   "NED": {
-    "rating": 2.5,
-    "quota": 1
+    "rating": 1.56,
+    "quota": 0
+  },
+  "ITA": {
+    "rating": 1.34,
+    "quota": 0
   },
   "BEL": {
     "rating": 0.91,
-    "quota": 0
-  },
-  "SCO": {
-    "rating": 0.81,
-    "quota": 0
-  },
-  "UKR": {
-    "rating": 0.81,
     "quota": 0
   },
   "CZE": {
@@ -59,20 +55,12 @@
     "rating": 0.45,
     "quota": 0
   },
-  "AUT": {
-    "rating": 0.41,
-    "quota": 0
-  },
   "CRO": {
     "rating": 0.41,
     "quota": 0
   },
-  "SRB": {
-    "rating": 0.09,
-    "quota": 0
-  },
-  "GRE": {
-    "rating": 0.03,
+  "UEC": {
+    "rating": 0.0,
     "quota": 0
   }
 }
