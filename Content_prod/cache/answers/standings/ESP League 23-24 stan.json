@@ -294,6 +294,51 @@
             {
               "rank": 7,
               "team": {
+                "id": 532,
+                "name": "Valencia",
+                "logo": "https://media.api-sports.io/football/teams/532.png"
+              },
+              "points": 44,
+              "goalsDiff": 1,
+              "group": "Primera División",
+              "form": "WDLWD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 30,
+                "win": 12,
+                "draw": 8,
+                "lose": 10,
+                "goals": {
+                  "for": 33,
+                  "against": 32
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 8,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 18,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 4,
+                "draw": 3,
+                "lose": 8,
+                "goals": {
+                  "for": 15,
+                  "against": 24
+                }
+              },
+              "update": "2024-04-04T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
                 "id": 543,
                 "name": "Real Betis",
                 "logo": "https://media.api-sports.io/football/teams/543.png"
@@ -332,51 +377,6 @@
                 "goals": {
                   "for": 15,
                   "against": 23
-                }
-              },
-              "update": "2024-04-04T00:00:00+00:00"
-            },
-            {
-              "rank": 8,
-              "team": {
-                "id": 532,
-                "name": "Valencia",
-                "logo": "https://media.api-sports.io/football/teams/532.png"
-              },
-              "points": 41,
-              "goalsDiff": 0,
-              "group": "Primera División",
-              "form": "DLWDD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 29,
-                "win": 11,
-                "draw": 8,
-                "lose": 10,
-                "goals": {
-                  "for": 32,
-                  "against": 32
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 8,
-                "draw": 5,
-                "lose": 2,
-                "goals": {
-                  "for": 18,
-                  "against": 8
-                }
-              },
-              "away": {
-                "played": 14,
-                "win": 3,
-                "draw": 3,
-                "lose": 8,
-                "goals": {
-                  "for": 14,
-                  "against": 24
                 }
               },
               "update": "2024-04-04T00:00:00+00:00"
@@ -839,29 +839,29 @@
                 "logo": "https://media.api-sports.io/football/teams/715.png"
               },
               "points": 14,
-              "goalsDiff": -29,
+              "goalsDiff": -30,
               "group": "Primera División",
-              "form": "LLLLD",
+              "form": "LLLLL",
               "status": "same",
               "description": "Relegation - LaLiga2",
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 2,
                 "draw": 8,
-                "lose": 19,
+                "lose": 20,
                 "goals": {
                   "for": 30,
-                  "against": 59
+                  "against": 60
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 2,
                 "draw": 6,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
                   "for": 18,
-                  "against": 25
+                  "against": 26
                 }
               },
               "away": {
