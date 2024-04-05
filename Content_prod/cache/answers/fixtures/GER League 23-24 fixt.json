@@ -16742,13 +16742,13 @@
     {
       "fixture": {
         "id": 1049127,
-        "referee": null,
+        "referee": "Robert Hartmann, Germany",
         "timezone": "UTC",
         "date": "2024-04-05T18:30:00+00:00",
         "timestamp": 1712341800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712341800,
+          "second": 1712345400
         },
         "venue": {
           "id": 10491,
@@ -16756,9 +16756,9 @@
           "city": "Frankfurt am Main"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16785,17 +16785,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
