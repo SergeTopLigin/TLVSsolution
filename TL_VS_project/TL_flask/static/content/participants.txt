@@ -46,18 +46,6 @@ ENG
                     Manchester United
       23-24 League Cup          
                     Liverpool
-ESP
-      23-24 La Liga             
-                    Real Madrid
-                    Barcelona
-                    Girona
-                    Atletico Madrid
-ITA
-      23-24 Serie A             
-                    Inter
-                    AC Milan
-                    Juventus
-                    Bologna
 GER
       23-24 Bundesliga          
                     Bayer Leverkusen
@@ -70,6 +58,3 @@ POR
 FRA
       23-24 Ligue 1             
                     Paris Saint Germain
-NED
-      23-24 Eredivisie          
-                    PSV Eindhoven
