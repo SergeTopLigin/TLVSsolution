@@ -1,0 +1,13 @@
+                               quota
+UEFA
+      23-24 Champions League      16
+      23-24 Europa League          6
+      23-24 Conference League      1
+TL
+      TopLiga                     10
+ESP
+      23-24 La Liga                4
+NED
+      23-24 Eredivisie             1
+ENG
+      23-24 Premier League         1
