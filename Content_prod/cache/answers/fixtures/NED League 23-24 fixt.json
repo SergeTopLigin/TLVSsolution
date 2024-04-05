@@ -16538,13 +16538,13 @@
     {
       "fixture": {
         "id": 1055313,
-        "referee": "I. Oostrom",
+        "referee": "Ingmar Oostrom, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-04T16:45:00+00:00",
         "timestamp": 1712249100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712249100,
+          "second": 1712252700
         },
         "venue": {
           "id": 1156,
@@ -16552,9 +16552,9 @@
           "city": "Volendam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16581,17 +16581,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -16606,13 +16606,13 @@
     {
       "fixture": {
         "id": 1055314,
-        "referee": "M. van den Kerkhof",
+        "referee": "Martin Van den Kerkhof, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-04T18:00:00+00:00",
         "timestamp": 1712253600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712253600,
+          "second": 1712257200
         },
         "venue": {
           "id": 1144,
@@ -16620,9 +16620,9 @@
           "city": "Waalwijk"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16649,17 +16649,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -16878,13 +16878,13 @@
     {
       "fixture": {
         "id": 1055318,
-        "referee": "M. Nagtegaal",
+        "referee": "Marc Nagtegaal, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-04T19:00:00+00:00",
         "timestamp": 1712257200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712257200,
+          "second": 1712260800
         },
         "venue": {
           "id": 1117,
@@ -16892,9 +16892,9 @@
           "city": "Amsterdam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16921,17 +16921,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
