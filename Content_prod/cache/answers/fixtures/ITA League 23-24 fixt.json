@@ -20414,7 +20414,7 @@
     {
       "fixture": {
         "id": 1052553,
-        "referee": null,
+        "referee": "A. Rapuano",
         "timezone": "UTC",
         "date": "2024-04-07T16:00:00+00:00",
         "timestamp": 1712505600,
@@ -20482,7 +20482,7 @@
     {
       "fixture": {
         "id": 1052554,
-        "referee": null,
+        "referee": "D. Massa",
         "timezone": "UTC",
         "date": "2024-04-06T18:45:00+00:00",
         "timestamp": 1712429100,
@@ -20550,7 +20550,7 @@
     {
       "fixture": {
         "id": 1052555,
-        "referee": null,
+        "referee": "D. Orsato",
         "timezone": "UTC",
         "date": "2024-04-07T10:30:00+00:00",
         "timestamp": 1712485800,
@@ -20618,7 +20618,7 @@
     {
       "fixture": {
         "id": 1052556,
-        "referee": null,
+        "referee": "G. Manganiello",
         "timezone": "UTC",
         "date": "2024-04-07T16:00:00+00:00",
         "timestamp": 1712505600,
@@ -20686,7 +20686,7 @@
     {
       "fixture": {
         "id": 1052557,
-        "referee": null,
+        "referee": "F. La Penna",
         "timezone": "UTC",
         "date": "2024-04-07T18:45:00+00:00",
         "timestamp": 1712515500,
@@ -20754,7 +20754,7 @@
     {
       "fixture": {
         "id": 1052558,
-        "referee": null,
+        "referee": "L. Massimi",
         "timezone": "UTC",
         "date": "2024-04-06T13:00:00+00:00",
         "timestamp": 1712408400,
@@ -20822,7 +20822,7 @@
     {
       "fixture": {
         "id": 1052559,
-        "referee": null,
+        "referee": "D. Doveri",
         "timezone": "UTC",
         "date": "2024-04-07T13:00:00+00:00",
         "timestamp": 1712494800,
@@ -20890,7 +20890,7 @@
     {
       "fixture": {
         "id": 1052560,
-        "referee": null,
+        "referee": "M. Guida",
         "timezone": "UTC",
         "date": "2024-04-06T16:00:00+00:00",
         "timestamp": 1712419200,
@@ -20958,13 +20958,13 @@
     {
       "fixture": {
         "id": 1052561,
-        "referee": null,
+        "referee": "Simone Sozza, Italy",
         "timezone": "UTC",
         "date": "2024-04-05T18:45:00+00:00",
         "timestamp": 1712342700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712342700,
+          "second": 1712346300
         },
         "venue": {
           "id": 933,
@@ -20972,9 +20972,9 @@
           "city": "Salerno"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21001,17 +21001,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -21026,7 +21026,7 @@
     {
       "fixture": {
         "id": 1052562,
-        "referee": null,
+        "referee": "M. Piccinini",
         "timezone": "UTC",
         "date": "2024-04-08T18:45:00+00:00",
         "timestamp": 1712601900,
