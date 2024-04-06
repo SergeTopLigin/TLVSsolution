@@ -60,6 +60,18 @@ def gh_push(main_mod, file_dir, file_name, file_content):
             with open((os.path.abspath(__file__))[:-26]+'/cache/content_commits/'+last_file, 'r') as f:
                 if f.read() != file_content:    # если содержание меняется
                     repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
+        elif file_dir == 'standings_history':
+            # список файлов в /standings_history
+            dir_standings_history = os.listdir((os.path.abspath(__file__))[:-26]+'/cache/sub_results/standings_history')
+            last_file = 'standings'     # инициализация имени последнего коммита для цикла
+            for file in dir_standings_history:
+                # если файл - последний из выгруженных по дате
+                if 'json' in file and file > last_file:
+                    last_file = file   # сохраняем последний выгруженный однотипный файл в переменную
+            with open((os.path.abspath(__file__))[:-26]+'/cache/sub_results/standings_history/'+last_file, 'r') as j:
+                last_file_dict = json.load(j)
+            if last_file_dict != file_content:    # если содержание меняется
+                repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
         # для остальных каталогов
         elif type(file_content) is str and file_content == 'delete':      # если требуется удалить файл
             contents = repo.get_contents(path+file_name, ref="master")

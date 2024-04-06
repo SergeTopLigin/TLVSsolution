@@ -57,3 +57,7 @@ jobs:
       # tournaments
       - name: Run script tournaments.py
         run: python Content_prod/logics/tournaments.py
+
+      # participants
+      - name: Run script participants.py
+        run: python Content_prod/logics/participants.py

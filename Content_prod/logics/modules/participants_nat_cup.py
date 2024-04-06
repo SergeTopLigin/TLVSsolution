@@ -231,7 +231,7 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
             # набор квоты турнира
             club_from_stage = 0
             while len(participants) < quota and club_from_stage < len(stage_set):
-                participants.append(stage_set[club_from_stage])
+                participants.append({'club': stage_set[club_from_stage]['club'], 'id': stage_set[club_from_stage]['id']})
                 club_from_stage += 1
             if quota == len(participants):
                 break
