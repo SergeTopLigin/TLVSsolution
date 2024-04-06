@@ -46,15 +46,31 @@ ENG
                     Manchester United
       23-24 League Cup          
                     Liverpool
+ESP
+      23-24 La Liga             
+                    Real Madrid
+                    Barcelona
+                    Girona
+                    Atletico Madrid
+ITA
+      23-24 Serie A             
+                    Inter
+                    AC Milan
+                    Juventus
+      23-24 Coppa Italia        
+                    Lazio
 GER
       23-24 Bundesliga          
                     Bayer Leverkusen
                     Bayern Munich
                     VfB Stuttgart
-                    Borussia Dortmund
+                    RB Leipzig
 POR
       23-24 Primeira Liga       
                     Sporting CP
 FRA
       23-24 Ligue 1             
                     Paris Saint Germain
+NED
+      23-24 Eredivisie          
+                    PSV Eindhoven
