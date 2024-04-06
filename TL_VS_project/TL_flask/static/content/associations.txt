@@ -7,4 +7,4 @@
  6  Germany           4   8.79
  7  Portugal          1   3.42
  8  France            1   3.25
- 9  Netherlands       1   2.5
+ 9  Netherlands       1   2.50
