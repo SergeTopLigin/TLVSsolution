@@ -8514,12 +8514,12 @@
     {
       "fixture": {
         "id": 1180037,
-        "referee": null,
+        "referee": "José Luis Munuera Montero, Spain",
         "timezone": "UTC",
-        "date": "2024-04-06T00:00:00+00:00",
-        "timestamp": 1712361600,
+        "date": "2024-04-06T20:00:00+00:00",
+        "timestamp": 1712433600,
         "periods": {
-          "first": null,
+          "first": 1712433600,
           "second": null
         },
         "venue": {
@@ -8528,9 +8528,9 @@
           "city": "Sevilla"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 3
         }
       },
       "league": {
@@ -8557,13 +8557,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
