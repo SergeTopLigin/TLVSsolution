@@ -107,7 +107,7 @@ try:    # обработка исключений для определения 
             .format(str(rank), ass_name, Association_rating[ass]["rating"], Association_rating[ass]["quota"])
             ass_rate_quota_str += '\n'
             rank += 1
-    ass_rate_quota_str = ass_rate_quota_str[:-2]
+    ass_rate_quota_str = ass_rate_quota_str[:-1]
     
     # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
