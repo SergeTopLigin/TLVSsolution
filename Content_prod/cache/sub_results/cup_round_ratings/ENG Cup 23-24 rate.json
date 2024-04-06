@@ -5957,7 +5957,7 @@
       {
         "name": "Chelsea",
         "id": 49,
-        "rating": 0.65
+        "rating": 0.64
       },
       {
         "name": "Leicester",
@@ -5966,12 +5966,12 @@
       {
         "name": "Manchester United",
         "id": 33,
-        "rating": 0.53
+        "rating": 0.52
       },
       {
         "name": "Liverpool",
         "id": 40,
-        "rating": 1.06
+        "rating": 1.14
       }
     ]
   },
