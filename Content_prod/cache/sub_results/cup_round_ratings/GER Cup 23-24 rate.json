@@ -544,12 +544,12 @@
       "timestamp": 1712180700,
       "date": "2024-04-03 21:45:00"
     },
-    "rating": 0.33,
+    "rating": 0.35,
     "club_set": [
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.13
+        "rating": 0.2
       },
       {
         "name": "Fortuna Dusseldorf",
