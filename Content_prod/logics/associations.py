@@ -97,16 +97,18 @@ try:    # обработка исключений для определения 
     ass_rate_quota_str = "{0:>23}  {1:}".format('quota', 'rating') + '\n'  # шапка таблицы
     rank = 1
     for ass in Association_rating:
-        if ass == "UEFA":       ass_name = "UEFA"
-        elif ass == "TopLiga":  ass_name = "TopLiga"
-        # изменение кодов стран на их имена
-        else: ass_name = str([country_codes[country_codes.index(elem)]['name'] \
-            for elem in country_codes if ass in elem['fifa']])[2:-2]
-        ass_rate_quota_str += "{0:>2}  {1:15}  {3:>2}  {2:5.2f}"\
-        .format(str(rank), ass_name, Association_rating[ass]["rating"], Association_rating[ass]["quota"])
-        if rank < len(Association_rating): ass_rate_quota_str += '\n'
-        rank += 1
-
+        if Association_rating[ass]["quota"] > 0:
+            if ass == "UEFA":       ass_name = "UEFA"
+            elif ass == "TopLiga":  ass_name = "TopLiga"
+            # изменение кодов стран на их имена
+            else: ass_name = str([country_codes[country_codes.index(elem)]['name'] \
+                for elem in country_codes if ass in elem['fifa']])[2:-2]
+            ass_rate_quota_str += "{0:>2}  {1:15}  {3:>2}  {2:5.2f}"\
+            .format(str(rank), ass_name, Association_rating[ass]["rating"], Association_rating[ass]["quota"])
+            ass_rate_quota_str += '\n'
+            rank += 1
+    ass_rate_quota_str = ass_rate_quota_str[:-2]
+    
     # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
     runner_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
