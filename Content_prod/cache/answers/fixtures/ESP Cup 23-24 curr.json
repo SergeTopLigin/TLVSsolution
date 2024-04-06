@@ -8530,7 +8530,7 @@
         "status": {
           "long": "First Half",
           "short": "1H",
-          "elapsed": 3
+          "elapsed": 40
         }
       },
       "league": {
@@ -8547,23 +8547,23 @@
           "id": 531,
           "name": "Athletic Club",
           "logo": "https://media.api-sports.io/football/teams/531.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 798,
           "name": "Mallorca",
           "logo": "https://media.api-sports.io/football/teams/798.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
           "home": 0,
-          "away": 0
+          "away": 1
         },
         "fulltime": {
           "home": null,
