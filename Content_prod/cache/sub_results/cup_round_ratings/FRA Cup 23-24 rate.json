@@ -1641,12 +1641,12 @@
       "timestamp": 1712182200,
       "date": "2024-04-03 22:10:00"
     },
-    "rating": 0.71,
+    "rating": 0.69,
     "club_set": [
       {
         "name": "Lyon",
         "id": 80,
-        "rating": -0.95
+        "rating": -0.98
       },
       {
         "name": "Valenciennes",
@@ -1655,12 +1655,12 @@
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.18
+        "rating": 1.17
       },
       {
         "name": "Rennes",
         "id": 94,
-        "rating": -0.98
+        "rating": -1.01
       }
     ]
   },
