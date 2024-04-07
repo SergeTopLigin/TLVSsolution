@@ -16810,13 +16810,13 @@
     {
       "fixture": {
         "id": 1049128,
-        "referee": null,
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2024-04-07T15:30:00+00:00",
         "timestamp": 1712503800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712503800,
+          "second": 1712507400
         },
         "venue": {
           "id": 752,
@@ -16824,9 +16824,9 @@
           "city": "Wolfsburg"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 54
         }
       },
       "league": {
@@ -16853,13 +16853,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -17014,13 +17014,13 @@
     {
       "fixture": {
         "id": 1049131,
-        "referee": null,
+        "referee": "Florian Exner, Germany",
         "timezone": "UTC",
         "date": "2024-04-07T13:30:00+00:00",
         "timestamp": 1712496600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712496600,
+          "second": 1712500200
         },
         "venue": {
           "id": 724,
@@ -17028,9 +17028,9 @@
           "city": "Sinsheim"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17047,27 +17047,27 @@
           "id": 167,
           "name": "1899 Hoffenheim",
           "logo": "https://media.api-sports.io/football/teams/167.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 170,
           "name": "FC Augsburg",
           "logo": "https://media.api-sports.io/football/teams/170.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
