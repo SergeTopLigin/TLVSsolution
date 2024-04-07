@@ -64,7 +64,7 @@
                   "against": 9
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -109,7 +109,7 @@
                   "against": 13
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -118,29 +118,29 @@
                 "name": "Twente",
                 "logo": "https://media.api-sports.io/football/teams/415.png"
               },
-              "points": 57,
-              "goalsDiff": 25,
+              "points": 60,
+              "goalsDiff": 27,
               "group": "Eredivisie",
-              "form": "DWLWW",
+              "form": "WDWLW",
               "status": "same",
               "description": "Promotion - Champions League (Qualification: )",
               "all": {
-                "played": 28,
-                "win": 17,
+                "played": 29,
+                "win": 18,
                 "draw": 6,
                 "lose": 5,
                 "goals": {
-                  "for": 53,
+                  "for": 55,
                   "against": 28
                 }
               },
               "home": {
-                "played": 14,
-                "win": 11,
+                "played": 15,
+                "win": 12,
                 "draw": 1,
                 "lose": 2,
                 "goals": {
-                  "for": 28,
+                  "for": 30,
                   "against": 14
                 }
               },
@@ -154,7 +154,7 @@
                   "against": 14
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -199,7 +199,7 @@
                   "against": 21
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -244,7 +244,7 @@
                   "against": 31
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -289,7 +289,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -334,7 +334,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -379,7 +379,7 @@
                   "against": 17
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 9,
@@ -424,7 +424,7 @@
                   "against": 17
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -434,19 +434,19 @@
                 "logo": "https://media.api-sports.io/football/teams/205.png"
               },
               "points": 35,
-              "goalsDiff": -15,
+              "goalsDiff": -17,
               "group": "Eredivisie",
-              "form": "DLWDW",
+              "form": "LDLWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 9,
                 "draw": 8,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
                   "for": 34,
-                  "against": 49
+                  "against": 51
                 }
               },
               "home": {
@@ -460,16 +460,16 @@
                 }
               },
               "away": {
-                "played": 14,
+                "played": 15,
                 "win": 2,
                 "draw": 4,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
                   "for": 8,
-                  "against": 31
+                  "against": 33
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -514,7 +514,7 @@
                   "against": 31
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -559,7 +559,7 @@
                   "against": 22
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -604,7 +604,7 @@
                   "against": 32
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -613,30 +613,30 @@
                 "name": "PEC Zwolle",
                 "logo": "https://media.api-sports.io/football/teams/193.png"
               },
-              "points": 28,
-              "goalsDiff": -19,
+              "points": 31,
+              "goalsDiff": -18,
               "group": "Eredivisie",
-              "form": "LLLDL",
+              "form": "WLLLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 28,
-                "win": 7,
+                "played": 29,
+                "win": 8,
                 "draw": 7,
                 "lose": 14,
                 "goals": {
-                  "for": 36,
-                  "against": 55
+                  "for": 38,
+                  "against": 56
                 }
               },
               "home": {
-                "played": 14,
-                "win": 3,
+                "played": 15,
+                "win": 4,
                 "draw": 3,
                 "lose": 8,
                 "goals": {
-                  "for": 13,
-                  "against": 27
+                  "for": 15,
+                  "against": 28
                 }
               },
               "away": {
@@ -649,7 +649,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -694,7 +694,7 @@
                   "against": 22
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -704,19 +704,19 @@
                 "logo": "https://media.api-sports.io/football/teams/196.png"
               },
               "points": 22,
-              "goalsDiff": -23,
+              "goalsDiff": -24,
               "group": "Eredivisie",
-              "form": "LLDLL",
+              "form": "LLLDL",
               "status": "same",
               "description": "Eredivisie (Relegation - Play Offs: )",
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 4,
                 "draw": 10,
-                "lose": 14,
+                "lose": 15,
                 "goals": {
-                  "for": 39,
-                  "against": 62
+                  "for": 40,
+                  "against": 64
                 }
               },
               "home": {
@@ -730,16 +730,16 @@
                 }
               },
               "away": {
-                "played": 14,
+                "played": 15,
                 "win": 2,
                 "draw": 3,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
-                  "for": 21,
-                  "against": 38
+                  "for": 22,
+                  "against": 40
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -784,7 +784,7 @@
                   "against": 36
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -829,7 +829,7 @@
                   "against": 32
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             }
           ]
         ]
