@@ -16544,7 +16544,7 @@
         "timestamp": 1712430000,
         "periods": {
           "first": 1712430000,
-          "second": null
+          "second": 1712433600
         },
         "venue": {
           "id": 671,
@@ -16552,9 +16552,9 @@
           "city": "Paris"
         },
         "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16571,17 +16571,17 @@
           "id": 85,
           "name": "Paris Saint Germain",
           "logo": "https://media.api-sports.io/football/teams/85.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 99,
           "name": "Clermont Foot",
           "logo": "https://media.api-sports.io/football/teams/99.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "score": {
@@ -16590,8 +16590,8 @@
           "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
