@@ -8529,7 +8529,7 @@
         },
         "status": {
           "long": "Match Finished",
-          "short": "NS",
+          "short": "PEN",
           "elapsed": 120
         }
       },
