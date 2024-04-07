@@ -1,8 +1,7 @@
-from modules.country_codes import country_codes
-country_codes = country_codes()
+from modules.nat_tournaments import Nat_Tournaments
 
-import os
-dir_standings = os.listdir((os.path.abspath(__file__))[:-15]+'/cache/answers/standings')
-for file in dir_standings:
-    if 'json' in file:
-        print(file)
+Nat_Tournaments = Nat_Tournaments()
+
+for ass in Nat_Tournaments:
+    for tourn in Nat_Tournaments[ass]:
+        print(ord(tourn[0][4:5]))

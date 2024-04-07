@@ -242,10 +242,9 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     # if season "curr" -1 > season "prev"
                     if int(curr_find[-15:-13]) -1 > int(prev_find[-15:-13]):
                         # удалить из имени файла суффикс "prev"
+                        gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                         os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
                             (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
-                        # переименовать в GH
-                        gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                         # запрос season "curr" -1
                         api_prevcurr_year = api_key("/fixtures?league="+CupID+"&season=20"+str(int(curr_find[-15:-13])-1))
                         time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
@@ -261,13 +260,12 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     gh_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     runner_push(str(mod_name), 'fixtures', file_name, api_curr_year)
                     # удалить суффиксы "curr" и "prev" из имен файлов
+                    gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
+                    gh_push(str(mod_name), 'fixtures', curr_find, 'rename:'+curr_find[:-10])
                     os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
                         (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
                     os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+curr_find, \
                         (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+curr_find[:-10]+".json")
-                    # переименовать в GH
-                    gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
-                    gh_push(str(mod_name), 'fixtures', curr_find, 'rename:'+curr_find[:-10])
                     # выполнить действия из условия: в каталоге нет файлов "curr" и "prev"
                     # 
                     # запрос season = calc_date.year
@@ -325,8 +323,8 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                             Del_file = Cup_file[:-10]+".json"
                     for Cup_file in os.listdir((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures'):
                         if Cup_file == Del_file:
-                            os.remove((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+Del_file)
                             gh_push(str(mod_name), 'fixtures', Del_file, 'delete')
+                            os.remove((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+Del_file)
                             break
 
         # elif в каталоге есть только "prev" (актуальный или нет)
@@ -352,9 +350,9 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                     # if season "curr" -1 > season "prev"
                     if calc_date.year -1 > int(prev_find[-15:-13]):
                         # удалить из имени файла суффикс "prev"
+                        gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                         os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
                             (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
-                        gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                         # запрос season "curr" -1
                         api_date_prev_year = api_key("/fixtures?league="+CupID+"&season="+str(calc_date.year-1))
                         time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
@@ -381,9 +379,9 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         # if season "curr" -1 > season "prev"
                         if calc_date.year -2 > int(prev_find[-15:-13]):
                             # удалить из имени файла суффикс "prev"
+                            gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                             os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
                                 (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
-                            gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                             # запрос season "curr" -1
                             api_date_2prev_year = api_key("/fixtures?league="+CupID+"&season="+str(calc_date.year-2))
                             time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
@@ -397,9 +395,9 @@ def func_cup_files(Cup, calc_date):     # Cup должен соответств�
                         # if calc_date.year -2 > season "prev"
                         if calc_date.year -2 > int(prev_find[-15:-13]):
                             # удалить из имени файла суффикс "prev"
+                            gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                             os.rename((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find, \
                                 (os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'+prev_find[:-10]+".json")
-                            gh_push(str(mod_name), 'fixtures', prev_find, 'rename:'+prev_find[:-10])
                         # сохранить запрос в файл "prev"
                         file_name = Cup+" "+str(calc_date.year-1)[2:]+"-"+str(calc_date.year)[2:]+" prev.json"
                         api_date_prev_year = json.loads(api_date_prev_year)
