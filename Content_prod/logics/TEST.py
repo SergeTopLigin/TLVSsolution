@@ -19,4 +19,4 @@ import json
 with open((os.path.abspath(__file__))[:-27]+path+file_name, 'r') as j:
     file_content = json.load(j)
 
-print(file_content[0:100])
+print(file_content)
