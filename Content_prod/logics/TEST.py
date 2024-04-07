@@ -1,8 +1,22 @@
-from modules.country_codes import country_codes
-country_codes = country_codes()
+file_dir = 'fixtures'
+file_name = 'ESP Cup 22-23 prev.json'
+path = 'Content_prod/cache/answers/fixtures/'
 
+# настройка выгрузки в репо
+from github import Github
+from github import Auth     # Authentication is defined via github.Auth
 import os
-dir_standings = os.listdir((os.path.abspath(__file__))[:-15]+'/cache/answers/standings')
-for file in dir_standings:
-    if 'json' in file:
-        print(file)
+token = os.getenv('GH_token')   # обращение к переменной среды (секрету), установленной в .yml 
+repo_name = os.getenv('repository')
+auth = Auth.Token(token)    # using an access token
+g = Github(auth=auth)   # Public Web Github
+repo = g.get_repo(repo_name)
+
+# определение содержимого каталога выгрузки
+dir_contents = repo.get_contents(path[:-1])     # последний слэш не нужен
+
+import json
+with open((os.path.abspath(__file__))[:-15]+path+file_name, 'r') as j:
+    file_content = json.load(j)
+
+print(file_content[0:100])
