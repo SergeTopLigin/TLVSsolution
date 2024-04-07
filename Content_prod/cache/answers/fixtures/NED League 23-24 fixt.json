@@ -17632,7 +17632,7 @@
         "timestamp": 1712430000,
         "periods": {
           "first": 1712430000,
-          "second": null
+          "second": 1712433600
         },
         "venue": {
           "id": 1153,
@@ -17640,9 +17640,9 @@
           "city": "Enschede"
         },
         "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17659,17 +17659,17 @@
           "id": 415,
           "name": "Twente",
           "logo": "https://media.api-sports.io/football/teams/415.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 205,
           "name": "Fortuna Sittard",
           "logo": "https://media.api-sports.io/football/teams/205.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -17678,8 +17678,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
