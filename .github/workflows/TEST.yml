@@ -31,33 +31,6 @@ jobs:
         run: ls
       # common requirements
       - run: pip install -r Content_prod/logics/requirements/req_PyGithub.txt
-
-
-      # uefa_standings
-      - name: Put current date into a variable
-        run: echo "NOW=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
-      - name: Run script uefa_standings.py with Dependencies only before UEFAcancel_date
-        run: |
-          if ${{ env.NOW < env.UEFAcancel_date }}
-          then 
-            pip install -r Content_prod/logics/requirements/req_uefa_standings.txt
-            python Content_prod/logics/uefa_standings.py
-          else
-            echo "UEFA ranking influence was canceled"
-          fi
       
-      # TL_standings
-      - name: Run script standings.py
-        run: python Content_prod/logics/standings.py
-
-      # associations
-      - name: Run script associations.py
-        run: python Content_prod/logics/associations.py
-
-      # tournaments
-      - name: Run script tournaments.py
-        run: python Content_prod/logics/tournaments.py
-
-      # participants
-      - name: Run script participants.py
-        run: python Content_prod/logics/participants.py
+ 
+      - run: python Content_prod/logics/TEST.py
