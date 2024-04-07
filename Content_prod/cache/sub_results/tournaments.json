@@ -103,19 +103,10 @@
         "tytle": "ITA League",
         "season": "23-24",
         "rating": 0.44,
-        "quota": 3,
+        "quota": 4,
         "id": 135,
         "type": "League",
         "name": "Serie A"
-      },
-      "ITA Cup": {
-        "tytle": "ITA Cup",
-        "season": "23-24",
-        "rating": 0.15,
-        "quota": 1,
-        "id": 137,
-        "type": "Cup",
-        "name": "Coppa Italia"
       }
     }
   },
