@@ -64,7 +64,7 @@
                   "against": 11
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -109,7 +109,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -154,7 +154,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -199,7 +199,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -244,7 +244,7 @@
                   "against": 13
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -289,7 +289,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -299,19 +299,19 @@
                 "logo": "https://media.api-sports.io/football/teams/170.png"
               },
               "points": 36,
-              "goalsDiff": 1,
+              "goalsDiff": -1,
               "group": "Bundesliga",
-              "form": "DWWWW",
+              "form": "LDWWW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 9,
                 "draw": 9,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
-                  "for": 44,
-                  "against": 43
+                  "for": 45,
+                  "against": 46
                 }
               },
               "home": {
@@ -325,19 +325,64 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 4,
                 "draw": 3,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
-                  "for": 20,
-                  "against": 21
+                  "for": 21,
+                  "against": 24
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 8,
+              "team": {
+                "id": 167,
+                "name": "1899 Hoffenheim",
+                "logo": "https://media.api-sports.io/football/teams/167.png"
+              },
+              "points": 36,
+              "goalsDiff": -5,
+              "group": "Bundesliga",
+              "form": "WLLLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 10,
+                "draw": 6,
+                "lose": 12,
+                "goals": {
+                  "for": 48,
+                  "against": 53
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 4,
+                "draw": 4,
+                "lose": 6,
+                "goals": {
+                  "for": 22,
+                  "against": 25
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 6,
+                "draw": 2,
+                "lose": 6,
+                "goals": {
+                  "for": 26,
+                  "against": 28
+                }
+              },
+              "update": "2024-04-07T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
               "team": {
                 "id": 160,
                 "name": "SC Freiburg",
@@ -379,52 +424,7 @@
                   "against": 26
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
-            },
-            {
-              "rank": 9,
-              "team": {
-                "id": 167,
-                "name": "1899 Hoffenheim",
-                "logo": "https://media.api-sports.io/football/teams/167.png"
-              },
-              "points": 33,
-              "goalsDiff": -7,
-              "group": "Bundesliga",
-              "form": "LLLWW",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 27,
-                "win": 9,
-                "draw": 6,
-                "lose": 12,
-                "goals": {
-                  "for": 45,
-                  "against": 52
-                }
-              },
-              "home": {
-                "played": 13,
-                "win": 3,
-                "draw": 4,
-                "lose": 6,
-                "goals": {
-                  "for": 19,
-                  "against": 24
-                }
-              },
-              "away": {
-                "played": 14,
-                "win": 6,
-                "draw": 2,
-                "lose": 6,
-                "goals": {
-                  "for": 26,
-                  "against": 28
-                }
-              },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -469,7 +469,7 @@
                   "against": 27
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -514,7 +514,7 @@
                   "against": 22
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -559,7 +559,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -604,7 +604,7 @@
                   "against": 30
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -649,7 +649,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -694,7 +694,7 @@
                   "against": 37
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -739,7 +739,7 @@
                   "against": 30
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -784,7 +784,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -829,7 +829,7 @@
                   "against": 35
                 }
               },
-              "update": "2024-04-06T00:00:00+00:00"
+              "update": "2024-04-07T00:00:00+00:00"
             }
           ]
         ]
