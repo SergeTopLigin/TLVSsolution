@@ -20496,9 +20496,9 @@
           "city": "Empoli"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 62
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20515,18 +20515,18 @@
           "id": 511,
           "name": "Empoli",
           "logo": "https://media.api-sports.io/football/teams/511.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 503,
           "name": "Torino",
           "logo": "https://media.api-sports.io/football/teams/503.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": 1,
-        "away": 1
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -20534,8 +20534,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "extratime": {
           "home": null,
