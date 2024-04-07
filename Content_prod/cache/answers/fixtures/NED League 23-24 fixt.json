@@ -17150,13 +17150,13 @@
     {
       "fixture": {
         "id": 1055322,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-07T12:30:00+00:00",
         "timestamp": 1712493000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712493000,
+          "second": 1712496600
         },
         "venue": {
           "id": 1128,
@@ -17164,9 +17164,9 @@
           "city": "Rotterdam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17183,27 +17183,27 @@
           "id": 209,
           "name": "Feyenoord",
           "logo": "https://media.api-sports.io/football/teams/209.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 194,
           "name": "Ajax",
           "logo": "https://media.api-sports.io/football/teams/194.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 6,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 6,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -17218,13 +17218,13 @@
     {
       "fixture": {
         "id": 1055323,
-        "referee": "S. Gözübüyük",
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-07T14:45:00+00:00",
         "timestamp": 1712501100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712501100,
+          "second": 1712504700
         },
         "venue": {
           "id": 1156,
@@ -17232,9 +17232,9 @@
           "city": "Volendam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17251,27 +17251,27 @@
           "id": 416,
           "name": "FC Volendam",
           "logo": "https://media.api-sports.io/football/teams/416.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 417,
           "name": "Waalwijk",
           "logo": "https://media.api-sports.io/football/teams/417.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -17490,13 +17490,13 @@
     {
       "fixture": {
         "id": 1055327,
-        "referee": "A. Lindhout",
+        "referee": "Allard Lindhout, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-07T10:15:00+00:00",
         "timestamp": 1712484900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712484900,
+          "second": 1712488500
         },
         "venue": {
           "id": 1155,
@@ -17504,9 +17504,9 @@
           "city": "Arnhem"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17523,27 +17523,27 @@
           "id": 200,
           "name": "Vitesse",
           "logo": "https://media.api-sports.io/football/teams/200.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 413,
           "name": "NEC Nijmegen",
           "logo": "https://media.api-sports.io/football/teams/413.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -17558,13 +17558,13 @@
     {
       "fixture": {
         "id": 1055328,
-        "referee": "B. Nijhuis",
+        "referee": "Bas Nijhuis, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-07T12:30:00+00:00",
         "timestamp": 1712493000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712493000,
+          "second": 1712496600
         },
         "venue": {
           "id": 1130,
@@ -17572,9 +17572,9 @@
           "city": "Deventer"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17601,17 +17601,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
