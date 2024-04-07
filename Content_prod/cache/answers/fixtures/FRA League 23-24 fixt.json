@@ -16606,13 +16606,13 @@
     {
       "fixture": {
         "id": 1045125,
-        "referee": "R. Buquet",
+        "referee": "Ruddy Buquet, France",
         "timezone": "UTC",
         "date": "2024-04-07T13:00:00+00:00",
         "timestamp": 1712494800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712494800,
+          "second": 1712498400
         },
         "venue": {
           "id": 682,
@@ -16620,9 +16620,9 @@
           "city": "Toulouse"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16649,17 +16649,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -16674,13 +16674,13 @@
     {
       "fixture": {
         "id": 1045126,
-        "referee": "S. Frappart",
+        "referee": "Stephanie Frappart, France",
         "timezone": "UTC",
         "date": "2024-04-07T15:05:00+00:00",
         "timestamp": 1712502300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712502300,
+          "second": 1712505900
         },
         "venue": {
           "id": 20470,
@@ -16688,9 +16688,9 @@
           "city": "Monaco"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 79
         }
       },
       "league": {
@@ -16707,23 +16707,23 @@
           "id": 91,
           "name": "Monaco",
           "logo": "https://media.api-sports.io/football/teams/91.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 94,
           "name": "Rennes",
           "logo": "https://media.api-sports.io/football/teams/94.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -16810,13 +16810,13 @@
     {
       "fixture": {
         "id": 1045128,
-        "referee": "E. Wattellier",
+        "referee": "Eric Wattellier, France",
         "timezone": "UTC",
         "date": "2024-04-07T13:00:00+00:00",
         "timestamp": 1712494800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712494800,
+          "second": 1712498400
         },
         "venue": {
           "id": 674,
@@ -16824,9 +16824,9 @@
           "city": "Reims"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16853,17 +16853,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -17014,13 +17014,13 @@
     {
       "fixture": {
         "id": 1045131,
-        "referee": "R. Lissorgue",
+        "referee": "Romain Lissorgue, France",
         "timezone": "UTC",
         "date": "2024-04-07T13:00:00+00:00",
         "timestamp": 1712494800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712494800,
+          "second": 1712498400
         },
         "venue": {
           "id": 20107,
@@ -17028,9 +17028,9 @@
           "city": "Montpellier"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17047,27 +17047,27 @@
           "id": 82,
           "name": "Montpellier",
           "logo": "https://media.api-sports.io/football/teams/82.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 97,
           "name": "Lorient",
           "logo": "https://media.api-sports.io/football/teams/97.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -17082,13 +17082,13 @@
     {
       "fixture": {
         "id": 1045132,
-        "referee": "B. Millot",
+        "referee": "Benoît Millot, France",
         "timezone": "UTC",
         "date": "2024-04-07T11:00:00+00:00",
         "timestamp": 1712487600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712487600,
+          "second": 1712491200
         },
         "venue": {
           "id": 641,
@@ -17096,9 +17096,9 @@
           "city": "Brest"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17115,27 +17115,27 @@
           "id": 106,
           "name": "Stade Brestois 29",
           "logo": "https://media.api-sports.io/football/teams/106.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 112,
           "name": "Metz",
           "logo": "https://media.api-sports.io/football/teams/112.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 3
         },
         "extratime": {
           "home": null,
