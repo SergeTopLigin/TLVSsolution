@@ -349,6 +349,7 @@ try:    # обработка исключений для определения 
             
             # рейтинг National Cup(LCup)
             if tourn[0].find("Cup") != -1:
+                print(tourn[0], tourn[1])
             # рейтинг кубка на протяжении его розыгрыша равен максимальному из своих значений на текущей или предыдущих стадиях (для prev - только на предыдущих)
                 # для текущей стадии: рейтинг рассчитывается по текущему TL standings
                 # для предыдущей стадии: рейтинг рассчитывается по TL standings, актуальному на момент окончания последнего матча стадии
@@ -357,6 +358,7 @@ try:    # обработка исключений для определения 
                 # формирование словаря из файла fixtures
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
+                        print(tourn[0], tourn[1])
                         with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as j:
                             fixtures_dict = json.load(j)
                         fixtures_file = tourn_file
@@ -370,6 +372,7 @@ try:    # обработка исключений для определения 
                 for cup_round in cup_round_dict:
                     if cup_round['rating'] > tourn[2]:
                         tourn[2] = cup_round['rating']
+                print(tourn[2])
                 # приведение рейтинга кубка к сложности лиги (/5)
                 tourn[2] /= 5
                 # учет временного фактора  prev > curr (1/150 per day from prev final)
@@ -385,6 +388,7 @@ try:    # обработка исключений для определения 
                         break
                     tourn[2] *= min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1)
                 tourn[2] = round(tourn[2], 2)
+                print(tourn[2])
 
     # Tournaments quota
     for ass_n in Ass_TournRateQuot:
