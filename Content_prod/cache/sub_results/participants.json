@@ -232,7 +232,7 @@
       "ENG LCup": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.3,
+        "rating": 0.29,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -448,7 +448,7 @@
       "FRA Cup": {
         "tytle": "FRA Cup",
         "season": "23-24",
-        "rating": 0.12,
+        "rating": 0.13,
         "quota": 0,
         "id": 66,
         "type": "Cup",
