@@ -387,7 +387,7 @@ try:    # обработка исключений для определения 
                         if tourn_file.find(tourn[0]) != -1 and tourn_file.find('prev') != -1:
                             with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
                                 file_content = f.read()
-                        break
+                            break
                     tourn[2] *= min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1)
                     print((DateNow - CupLast(file_content)) / datetime.timedelta(days=1))
                     print(min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1))
