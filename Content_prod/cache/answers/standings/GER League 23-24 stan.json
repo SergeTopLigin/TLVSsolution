@@ -474,6 +474,51 @@
             {
               "rank": 11,
               "team": {
+                "id": 163,
+                "name": "Borussia Monchengladbach",
+                "logo": "https://media.api-sports.io/football/teams/163.png"
+              },
+              "points": 31,
+              "goalsDiff": -5,
+              "group": "Bundesliga",
+              "form": "WLDDD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 7,
+                "draw": 10,
+                "lose": 11,
+                "goals": {
+                  "for": 49,
+                  "against": 54
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 5,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 25,
+                  "against": 23
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 2,
+                "draw": 6,
+                "lose": 6,
+                "goals": {
+                  "for": 24,
+                  "against": 31
+                }
+              },
+              "update": "2024-04-07T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 162,
                 "name": "Werder Bremen",
                 "logo": "https://media.api-sports.io/football/teams/162.png"
@@ -517,7 +562,7 @@
               "update": "2024-04-07T00:00:00+00:00"
             },
             {
-              "rank": 12,
+              "rank": 13,
               "team": {
                 "id": 182,
                 "name": "Union Berlin",
@@ -562,51 +607,6 @@
               "update": "2024-04-07T00:00:00+00:00"
             },
             {
-              "rank": 13,
-              "team": {
-                "id": 163,
-                "name": "Borussia Monchengladbach",
-                "logo": "https://media.api-sports.io/football/teams/163.png"
-              },
-              "points": 28,
-              "goalsDiff": -7,
-              "group": "Bundesliga",
-              "form": "LDDDW",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 27,
-                "win": 6,
-                "draw": 10,
-                "lose": 11,
-                "goals": {
-                  "for": 46,
-                  "against": 53
-                }
-              },
-              "home": {
-                "played": 14,
-                "win": 5,
-                "draw": 4,
-                "lose": 5,
-                "goals": {
-                  "for": 25,
-                  "against": 23
-                }
-              },
-              "away": {
-                "played": 13,
-                "win": 1,
-                "draw": 6,
-                "lose": 6,
-                "goals": {
-                  "for": 21,
-                  "against": 30
-                }
-              },
-              "update": "2024-04-07T00:00:00+00:00"
-            },
-            {
               "rank": 14,
               "team": {
                 "id": 161,
@@ -614,29 +614,29 @@
                 "logo": "https://media.api-sports.io/football/teams/161.png"
               },
               "points": 28,
-              "goalsDiff": -11,
+              "goalsDiff": -13,
               "group": "Bundesliga",
-              "form": "WLLLD",
+              "form": "LWLLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 7,
                 "draw": 7,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
-                  "for": 33,
-                  "against": 44
+                  "for": 34,
+                  "against": 47
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 4,
                 "draw": 4,
-                "lose": 5,
+                "lose": 6,
                 "goals": {
-                  "for": 19,
-                  "against": 19
+                  "for": 20,
+                  "against": 22
                 }
               },
               "away": {
