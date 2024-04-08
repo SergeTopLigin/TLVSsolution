@@ -16824,9 +16824,9 @@
           "city": "Wolfsburg"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 54
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16843,18 +16843,18 @@
           "id": 161,
           "name": "VfL Wolfsburg",
           "logo": "https://media.api-sports.io/football/teams/161.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 163,
           "name": "Borussia Monchengladbach",
           "logo": "https://media.api-sports.io/football/teams/163.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
         "home": 1,
-        "away": 1
+        "away": 3
       },
       "score": {
         "halftime": {
@@ -16862,8 +16862,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         },
         "extratime": {
           "home": null,
