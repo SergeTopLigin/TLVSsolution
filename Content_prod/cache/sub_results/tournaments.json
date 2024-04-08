@@ -39,7 +39,7 @@
       "TopLiga": {
         "tytle": "TopLiga",
         "season": null,
-        "rating": null,
+        "rating": 10,
         "quota": 10,
         "id": null,
         "type": null,
@@ -92,6 +92,15 @@
         "id": 140,
         "type": "League",
         "name": "La Liga"
+      },
+      "ESP Cup": {
+        "tytle": "ESP Cup",
+        "season": "23-24",
+        "rating": 0.13,
+        "quota": 0,
+        "id": 143,
+        "type": "Cup",
+        "name": "Copa del Rey"
       }
     }
   },
@@ -137,6 +146,15 @@
         "id": 94,
         "type": "League",
         "name": "Primeira Liga"
+      },
+      "POR LCup": {
+        "tytle": "POR LCup",
+        "season": "23-24",
+        "rating": 0.06,
+        "quota": 0,
+        "id": 97,
+        "type": "Cup",
+        "name": "Taça da Liga"
       }
     }
   },
@@ -152,6 +170,15 @@
         "id": 61,
         "type": "League",
         "name": "Ligue 1"
+      },
+      "FRA Cup": {
+        "tytle": "FRA Cup",
+        "season": "23-24",
+        "rating": 0.12,
+        "quota": 0,
+        "id": 66,
+        "type": "Cup",
+        "name": "Coupe de France"
       }
     }
   },
@@ -167,6 +194,15 @@
         "id": 88,
         "type": "League",
         "name": "Eredivisie"
+      },
+      "NED Cup": {
+        "tytle": "NED Cup",
+        "season": "23-24",
+        "rating": 0.03,
+        "quota": 0,
+        "id": 90,
+        "type": "Cup",
+        "name": "KNVB Beker"
       }
     }
   }
