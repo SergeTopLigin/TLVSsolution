@@ -234,7 +234,7 @@ try:    # обработка исключений для определения 
             tourn.append("Cup")
 
     # учет квоты TL на 10 лидеров
-    Ass_TournRateQuot["TopLiga"] = [["TopLiga", None, None, associations['TopLiga']['quota'], None, None]]
+    Ass_TournRateQuot["TopLiga"] = [["TopLiga", None, 10, associations['TopLiga']['quota'], None, None]]
 
 
 
