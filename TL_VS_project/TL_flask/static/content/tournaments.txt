@@ -12,7 +12,8 @@ ENG
 ESP
       23-24 La Liga                4
 ITA
-      23-24 Serie A                4
+      23-24 Serie A                3
+      23-24 Coppa Italia           1
 GER
       23-24 Bundesliga             4
 POR
