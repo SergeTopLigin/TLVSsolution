@@ -21502,13 +21502,13 @@
     {
       "fixture": {
         "id": 1035490,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2024-04-07T14:30:00+00:00",
         "timestamp": 1712500200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712500200,
+          "second": 1712503800
         },
         "venue": {
           "id": 556,
@@ -21516,9 +21516,9 @@
           "city": "Manchester"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21545,17 +21545,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -21570,13 +21570,13 @@
     {
       "fixture": {
         "id": 1035491,
-        "referee": "R. Jones",
+        "referee": "Robert Jones, England",
         "timezone": "UTC",
         "date": "2024-04-07T16:30:00+00:00",
         "timestamp": 1712507400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712507400,
+          "second": 1712511000
         },
         "venue": {
           "id": 581,
@@ -21584,9 +21584,9 @@
           "city": "Sheffield"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21613,17 +21613,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -21638,13 +21638,13 @@
     {
       "fixture": {
         "id": 1035492,
-        "referee": "S. Hooper",
+        "referee": "Simon Hooper, England",
         "timezone": "UTC",
         "date": "2024-04-07T17:00:00+00:00",
         "timestamp": 1712509200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712509200,
+          "second": 1712512800
         },
         "venue": {
           "id": 593,
@@ -21652,9 +21652,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21671,27 +21671,27 @@
           "id": 47,
           "name": "Tottenham",
           "logo": "https://media.api-sports.io/football/teams/47.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 65,
           "name": "Nottingham Forest",
           "logo": "https://media.api-sports.io/football/teams/65.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
