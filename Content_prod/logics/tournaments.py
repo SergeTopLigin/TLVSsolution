@@ -443,7 +443,7 @@ try:    # обработка исключений для определения 
         # tournaments
         tourns = {}
         for tourn in Ass_TournRateQuot[ass_n]:
-            if tourn[3] > 0:
+            if tourn[2] > 0:
                 # tourn name
                 if tourn[0] == 'UCL':       name = 'Champions League'
                 elif tourn[0] == 'UEL':     name = 'Europa League'
@@ -469,12 +469,13 @@ try:    # обработка исключений для определения 
     for ass in tournaments:
         tournaments_str += tournaments[ass]['as_short'] + '\n'
         for tourn in tournaments[ass]['tournaments']:
-            if tourn != 'TopLiga':
-                tournaments_str += "      {0} {1:20}  {2:>2}"\
-                .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
-            elif tourn == 'TopLiga':
-                tournaments_str += "      {0:26}  {1:>2}"\
-                .format(tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
+            if tournaments[ass]['tournaments'][tourn]['quota'] > 0:
+                if tourn != 'TopLiga':
+                    tournaments_str += "      {0} {1:20}  {2:>2}"\
+                    .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
+                elif tourn == 'TopLiga':
+                    tournaments_str += "      {0:26}  {1:>2}"\
+                    .format(tournaments[ass]['tournaments'][tourn]['name'], tournaments[ass]['tournaments'][tourn]['quota']) + '\n'
     tournaments_str = tournaments_str[:-1]
 
     # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
