@@ -119,29 +119,29 @@
                 "logo": "https://media.api-sports.io/football/teams/212.png"
               },
               "points": 58,
-              "goalsDiff": 31,
+              "goalsDiff": 30,
               "group": "Primeira Liga",
-              "form": "LWWWD",
+              "form": "LLWWW",
               "status": "same",
               "description": "Promotion - Europa League (Qualification: )",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 18,
                 "draw": 4,
-                "lose": 5,
+                "lose": 6,
                 "goals": {
-                  "for": 50,
-                  "against": 19
+                  "for": 51,
+                  "against": 21
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 10,
                 "draw": 2,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 28,
-                  "against": 6
+                  "for": 29,
+                  "against": 8
                 }
               },
               "away": {
@@ -208,20 +208,20 @@
                 "name": "Guimaraes",
                 "logo": "https://media.api-sports.io/football/teams/224.png"
               },
-              "points": 53,
-              "goalsDiff": 15,
+              "points": 56,
+              "goalsDiff": 16,
               "group": "Primeira Liga",
-              "form": "WWWWL",
+              "form": "WWWWW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
-                "win": 16,
+                "played": 28,
+                "win": 17,
                 "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 42,
-                  "against": 27
+                  "for": 44,
+                  "against": 28
                 }
               },
               "home": {
@@ -235,13 +235,13 @@
                 }
               },
               "away": {
-                "played": 13,
-                "win": 6,
+                "played": 14,
+                "win": 7,
                 "draw": 4,
                 "lose": 3,
                 "goals": {
-                  "for": 15,
-                  "against": 13
+                  "for": 17,
+                  "against": 14
                 }
               },
               "update": "2024-04-07T00:00:00+00:00"
@@ -253,30 +253,30 @@
                 "name": "Moreirense",
                 "logo": "https://media.api-sports.io/football/teams/215.png"
               },
-              "points": 42,
+              "points": 43,
               "goalsDiff": 0,
               "group": "Primeira Liga",
-              "form": "LWLDW",
+              "form": "DLWLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 12,
-                "draw": 6,
+                "draw": 7,
                 "lose": 9,
                 "goals": {
-                  "for": 28,
-                  "against": 28
+                  "for": 30,
+                  "against": 30
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 6,
-                "draw": 3,
+                "draw": 4,
                 "lose": 4,
                 "goals": {
-                  "for": 15,
-                  "against": 14
+                  "for": 17,
+                  "against": 16
                 }
               },
               "away": {
@@ -658,20 +658,20 @@
                 "name": "Estrela",
                 "logo": "https://media.api-sports.io/football/teams/15130.png"
               },
-              "points": 26,
+              "points": 27,
               "goalsDiff": -14,
               "group": "Primeira Liga",
-              "form": "LDWLD",
+              "form": "DLDWL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 6,
-                "draw": 8,
+                "draw": 9,
                 "lose": 13,
                 "goals": {
-                  "for": 27,
-                  "against": 41
+                  "for": 29,
+                  "against": 43
                 }
               },
               "home": {
@@ -685,13 +685,13 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 1,
-                "draw": 6,
+                "draw": 7,
                 "lose": 6,
                 "goals": {
-                  "for": 8,
-                  "against": 19
+                  "for": 10,
+                  "against": 21
                 }
               },
               "update": "2024-04-07T00:00:00+00:00"
@@ -703,20 +703,20 @@
                 "name": "Portimonense",
                 "logo": "https://media.api-sports.io/football/teams/216.png"
               },
-              "points": 23,
-              "goalsDiff": -31,
+              "points": 26,
+              "goalsDiff": -30,
               "group": "Primeira Liga",
-              "form": "LLLDL",
+              "form": "WLLLD",
               "status": "same",
               "description": "Liga Portugal (Relegation)",
               "all": {
-                "played": 27,
-                "win": 6,
+                "played": 28,
+                "win": 7,
                 "draw": 5,
                 "lose": 16,
                 "goals": {
-                  "for": 27,
-                  "against": 58
+                  "for": 30,
+                  "against": 60
                 }
               },
               "home": {
@@ -730,13 +730,13 @@
                 }
               },
               "away": {
-                "played": 13,
-                "win": 3,
+                "played": 14,
+                "win": 4,
                 "draw": 1,
                 "lose": 9,
                 "goals": {
-                  "for": 13,
-                  "against": 33
+                  "for": 16,
+                  "against": 35
                 }
               },
               "update": "2024-04-07T00:00:00+00:00"
@@ -794,29 +794,29 @@
                 "logo": "https://media.api-sports.io/football/teams/223.png"
               },
               "points": 19,
-              "goalsDiff": -32,
+              "goalsDiff": -33,
               "group": "Primeira Liga",
-              "form": "LLDLD",
+              "form": "LLLDL",
               "status": "same",
               "description": "Relegation - Liga Portugal 2",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 4,
                 "draw": 7,
-                "lose": 16,
+                "lose": 17,
                 "goals": {
-                  "for": 25,
-                  "against": 57
+                  "for": 27,
+                  "against": 60
                 }
               },
               "home": {
-                "played": 13,
+                "played": 14,
                 "win": 3,
                 "draw": 3,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
-                  "for": 17,
-                  "against": 28
+                  "for": 19,
+                  "against": 31
                 }
               },
               "away": {
