@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/tournaments.py", line 446, in <module>
+    if tourn[2] > 0:
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
