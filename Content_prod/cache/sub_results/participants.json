@@ -137,7 +137,7 @@
       "TopLiga": {
         "tytle": "TopLiga",
         "season": null,
-        "rating": null,
+        "rating": 10,
         "quota": 10,
         "id": null,
         "type": null,
@@ -276,6 +276,21 @@
             "id": 530
           }
         ]
+      },
+      "ESP Cup": {
+        "tytle": "ESP Cup",
+        "season": "23-24",
+        "rating": 0.13,
+        "quota": 0,
+        "id": 143,
+        "type": "Cup",
+        "name": "Copa del Rey",
+        "participants": [
+          {
+            "club": "Athletic Club",
+            "id": 531
+          }
+        ]
       }
     }
   },
@@ -363,6 +378,21 @@
             "id": 228
           }
         ]
+      },
+      "POR LCup": {
+        "tytle": "POR LCup",
+        "season": "23-24",
+        "rating": 0.06,
+        "quota": 0,
+        "id": 97,
+        "type": "Cup",
+        "name": "Taça da Liga",
+        "participants": [
+          {
+            "club": "SC Braga",
+            "id": 217
+          }
+        ]
       }
     }
   },
@@ -384,6 +414,16 @@
             "id": 85
           }
         ]
+      },
+      "FRA Cup": {
+        "tytle": "FRA Cup",
+        "season": "23-24",
+        "rating": 0.12,
+        "quota": 0,
+        "id": 66,
+        "type": "Cup",
+        "name": "Coupe de France",
+        "participants": []
       }
     }
   },
@@ -405,6 +445,16 @@
             "id": 197
           }
         ]
+      },
+      "NED Cup": {
+        "tytle": "NED Cup",
+        "season": "23-24",
+        "rating": 0.03,
+        "quota": 0,
+        "id": 90,
+        "type": "Cup",
+        "name": "KNVB Beker",
+        "participants": []
       }
     }
   }
