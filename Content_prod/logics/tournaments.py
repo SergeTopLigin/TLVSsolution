@@ -380,6 +380,7 @@ try:    # обработка исключений для определения 
                     with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+fixtures_file, 'r') as f:
                         file_content = f.read()
                     tourn[2] *= max((150 - (DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 0)
+                    print((DateNow - CupLast(file_content)) / datetime.timedelta(days=1))
                     print(max((150 - (DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 0))
                 if 'curr' in fixtures_file:
                     for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
@@ -388,6 +389,7 @@ try:    # обработка исключений для определения 
                                 file_content = f.read()
                         break
                     tourn[2] *= min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1)
+                    print((DateNow - CupLast(file_content)) / datetime.timedelta(days=1))
                     print(min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1))
                 tourn[2] = round(tourn[2], 2)
                 print(tourn[2])
