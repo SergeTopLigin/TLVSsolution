@@ -358,7 +358,7 @@ try:    # обработка исключений для определения 
                 # формирование словаря из файла fixtures
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1:
-                        print(tourn[0], tourn[1])
+                        print(tourn_file)
                         with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as j:
                             fixtures_dict = json.load(j)
                         fixtures_file = tourn_file
@@ -380,6 +380,7 @@ try:    # обработка исключений для определения 
                     with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+fixtures_file, 'r') as f:
                         file_content = f.read()
                     tourn[2] *= max((150 - (DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 0)
+                    print(max((150 - (DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 0))
                 if 'curr' in fixtures_file:
                     for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
                         if tourn_file.find(tourn[0]) != -1 and tourn_file.find('prev') != -1:
@@ -387,6 +388,7 @@ try:    # обработка исключений для определения 
                                 file_content = f.read()
                         break
                     tourn[2] *= min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1)
+                    print(min(((DateNow - CupLast(file_content)) / datetime.timedelta(days=1)) / 150, 1))
                 tourn[2] = round(tourn[2], 2)
                 print(tourn[2])
 
