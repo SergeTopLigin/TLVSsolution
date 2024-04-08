@@ -52,6 +52,8 @@ ESP
                     Barcelona
                     Girona
                     Atletico Madrid
+      23-24 Copa del Rey        
+                    Athletic Club
 ITA
       23-24 Serie A             
                     Inter
@@ -67,9 +69,13 @@ GER
 POR
       23-24 Primeira Liga       
                     Sporting CP
+      23-24 Taça da Liga        
+                    SC Braga
 FRA
       23-24 Ligue 1             
                     Paris Saint Germain
+      23-24 Coupe de France     
 NED
       23-24 Eredivisie          
                     PSV Eindhoven
+      23-24 KNVB Beker          
