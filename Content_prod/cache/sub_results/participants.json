@@ -201,12 +201,12 @@
         "name": "Premier League",
         "participants": [
           {
-            "club": "Liverpool",
-            "id": 40
-          },
-          {
             "club": "Arsenal",
             "id": 42
+          },
+          {
+            "club": "Liverpool",
+            "id": 40
           },
           {
             "club": "Manchester City",
