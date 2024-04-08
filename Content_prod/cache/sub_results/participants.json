@@ -324,6 +324,16 @@
             "id": 500
           }
         ]
+      },
+      "ITA Cup": {
+        "tytle": "ITA Cup",
+        "season": "23-24",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 137,
+        "type": "Cup",
+        "name": "Coppa Italia",
+        "participants": []
       }
     }
   },
@@ -357,6 +367,16 @@
             "id": 173
           }
         ]
+      },
+      "GER Cup": {
+        "tytle": "GER Cup",
+        "season": "23-24",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 81,
+        "type": "Cup",
+        "name": "DFB Pokal",
+        "participants": []
       }
     }
   },
@@ -378,6 +398,16 @@
             "id": 228
           }
         ]
+      },
+      "POR Cup": {
+        "tytle": "POR Cup",
+        "season": "23-24",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 96,
+        "type": "Cup",
+        "name": "Taça de Portugal",
+        "participants": []
       },
       "POR LCup": {
         "tytle": "POR LCup",
