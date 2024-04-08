@@ -112,7 +112,7 @@
         "tytle": "ITA League",
         "season": "23-24",
         "rating": 0.44,
-        "quota": 4,
+        "quota": 3,
         "id": 135,
         "type": "League",
         "name": "Serie A"
@@ -120,8 +120,8 @@
       "ITA Cup": {
         "tytle": "ITA Cup",
         "season": "23-24",
-        "rating": 0.0,
-        "quota": 0,
+        "rating": 0.15,
+        "quota": 1,
         "id": 137,
         "type": "Cup",
         "name": "Coppa Italia"
@@ -144,7 +144,7 @@
       "GER Cup": {
         "tytle": "GER Cup",
         "season": "23-24",
-        "rating": 0.0,
+        "rating": 0.14,
         "quota": 0,
         "id": 81,
         "type": "Cup",
@@ -168,7 +168,7 @@
       "POR Cup": {
         "tytle": "POR Cup",
         "season": "23-24",
-        "rating": 0.0,
+        "rating": 0.15,
         "quota": 0,
         "id": 96,
         "type": "Cup",
@@ -201,7 +201,7 @@
       "FRA Cup": {
         "tytle": "FRA Cup",
         "season": "23-24",
-        "rating": 0.13,
+        "rating": 0.26,
         "quota": 0,
         "id": 66,
         "type": "Cup",
@@ -225,7 +225,7 @@
       "NED Cup": {
         "tytle": "NED Cup",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.06,
         "quota": 0,
         "id": 90,
         "type": "Cup",
