@@ -22,6 +22,11 @@ try:    # обработка исключений для определения 
     from modules.participants_nat_league import participants_nat_league
     from modules.participants_nat_cup import participants_nat_cup
 
+    # инициализация списка participants для турниров:
+    for ass in tournaments:
+        for tourn in tournaments[ass]['tournaments']:
+            tournaments[ass]['tournaments'][tourn]['participants'] = []
+
     # UEFA participants
     # ОПРЕДЕЛИТЬ PLAYOFF/GROUP SET ПО КАТАЛОГУ CLUB_SETS
     # в tournaments есть 'tytle' и 'season'
