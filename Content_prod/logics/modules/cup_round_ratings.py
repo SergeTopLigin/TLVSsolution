@@ -59,6 +59,28 @@ def cup_round_ratings(cup, season, fixtures_dict):
                     if {'name': match['teams']['away']['name'], 'id': match['teams']['away']['id']} not in fixed_round['club_set']:
                         fixed_round['club_set'].append({'name': match['teams']['away']['name'], 'id': match['teams']['away']['id']})
 
+        # объединение групповой стадии в Group из нескольких Group Stage (туров)
+        group_stage = {'round': 'Group', 'type': 'prev', 'last_date': {'timestamp': 0, 'date': None}, 'rating': 0, 'club_set': []}    # инициализация словаря групповой стадии
+        del_stage = []      # список стадий туров групп на удаление
+        for stage in cup_round_ratings_list:
+            if 'Group' in stage['round']:
+                del_stage.append(stage)
+                if stage['type'] == 'curr':
+                    group_stage['type'] = 'curr'
+                if stage['last_date']['timestamp'] > group_stage['last_date']['timestamp']:
+                    group_stage['last_date']['timestamp'] = stage['last_date']['timestamp']
+                    group_stage['last_date']['date'] = stage['last_date']['date']
+                for club in stage['club_set']:
+                    if club not in group_stage['club_set']:
+                        group_stage['club_set'].append(club)
+        for stage in del_stage:
+            cup_round_ratings_list.remove(stage)
+        if len(group_stage['club_set']) > 0:
+            cup_round_ratings_list.append(group_stage)
+
+        # сортировка стадий по дате
+        cup_round_ratings_list.sort(key=lambda crit: (crit['last_date']['timestamp']), reverse=False)
+
         # определение рейтинга стадии: total Cup stage clubs SUM(pts+1.2>=0) in TL standigs / Number of clubs in the Cup stage
         # для curr: по текущим standings
         # для prev: по standings, актуальным на момент окончания последнего матча стадии
