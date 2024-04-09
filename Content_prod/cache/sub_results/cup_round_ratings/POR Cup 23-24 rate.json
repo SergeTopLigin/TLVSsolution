@@ -1,5 +1,304 @@
 [
   {
+    "round": "1st Round",
+    "type": "prev",
+    "last_date": {
+      "timestamp": 1694466000,
+      "date": "2023-09-11 21:00:00"
+    },
+    "rating": 0.0,
+    "club_set": [
+      {
+        "name": "Sintrense",
+        "id": 4796
+      },
+      {
+        "name": "Operário",
+        "id": 4852
+      },
+      {
+        "name": "Amora",
+        "id": 4726
+      },
+      {
+        "name": "Vitória do Pico",
+        "id": 22170
+      },
+      {
+        "name": "Peniche",
+        "id": 4782
+      },
+      {
+        "name": "Marinhense",
+        "id": 4845
+      },
+      {
+        "name": "Amiense",
+        "id": 22159
+      },
+      {
+        "name": "Benfica Castelo Branco",
+        "id": 4731
+      },
+      {
+        "name": "União Santarém",
+        "id": 6369
+      },
+      {
+        "name": "Proença-a-Nova",
+        "id": 22167
+      },
+      {
+        "name": "Alverca",
+        "id": 4724
+      },
+      {
+        "name": "Gavionenses",
+        "id": 4884
+      },
+      {
+        "name": "Alqueidão da Serra",
+        "id": 15202
+      },
+      {
+        "name": "CD Torres Novas",
+        "id": 4732
+      },
+      {
+        "name": "Real",
+        "id": 10149
+      },
+      {
+        "name": "CD Olivais e Moscavide",
+        "id": 17776
+      },
+      {
+        "name": "Juventude Évora",
+        "id": 4755
+      },
+      {
+        "name": "Portel",
+        "id": 22166
+      },
+      {
+        "name": "Atlético Reguengos",
+        "id": 20035
+      },
+      {
+        "name": "Quarteirense SAD",
+        "id": 22168
+      },
+      {
+        "name": "Louletano",
+        "id": 4758
+      },
+      {
+        "name": "Imortal Albufeira",
+        "id": 17385
+      },
+      {
+        "name": "Lusitano Évora 1911",
+        "id": 15207
+      },
+      {
+        "name": "Comércio Indústria",
+        "id": 17985
+      },
+      {
+        "name": "Padernense",
+        "id": 22164
+      },
+      {
+        "name": "FC Serpa",
+        "id": 17442
+      },
+      {
+        "name": "Castrense",
+        "id": 4830
+      },
+      {
+        "name": "Penedo Gordo",
+        "id": 6361
+      },
+      {
+        "name": "Pêro Pinheiro",
+        "id": 4854
+      },
+      {
+        "name": "Caldas",
+        "id": 4733
+      },
+      {
+        "name": "Anadia",
+        "id": 4727
+      },
+      {
+        "name": "Sanjoanense",
+        "id": 4792
+      },
+      {
+        "name": "Fafe",
+        "id": 809
+      },
+      {
+        "name": "Felgueiras 1932",
+        "id": 4744
+      },
+      {
+        "name": "Rebordosa",
+        "id": 6365
+      },
+      {
+        "name": "Lobão",
+        "id": 22161
+      },
+      {
+        "name": "Salgueiros",
+        "id": 4859
+      },
+      {
+        "name": "Foz",
+        "id": 15206
+      },
+      {
+        "name": "Aliados Lordelo",
+        "id": 22158
+      },
+      {
+        "name": "Vianense",
+        "id": 4809
+      },
+      {
+        "name": "Os Limianos",
+        "id": 4776
+      },
+      {
+        "name": "Varzim",
+        "id": 237
+      },
+      {
+        "name": "Mondinense",
+        "id": 4848
+      },
+      {
+        "name": "Montalegre",
+        "id": 4770
+      },
+      {
+        "name": "Rebordelo",
+        "id": 6364
+      },
+      {
+        "name": "Sandinenses",
+        "id": 22088
+      },
+      {
+        "name": "União Lamas",
+        "id": 4864
+      },
+      {
+        "name": "Paredes",
+        "id": 4778
+      },
+      {
+        "name": "Lusitânia Lourosa",
+        "id": 6358
+      },
+      {
+        "name": "Régua",
+        "id": 4790
+      },
+      {
+        "name": "Lusitano FCV",
+        "id": 4761
+      },
+      {
+        "name": "Tocha",
+        "id": 4863
+      },
+      {
+        "name": "Florgrade",
+        "id": 22091
+      },
+      {
+        "name": "Beira-Mar",
+        "id": 4661
+      },
+      {
+        "name": "Os Vilanovenses",
+        "id": 22163
+      },
+      {
+        "name": "Pombal",
+        "id": 4853
+      },
+      {
+        "name": "AD Fornos Algodres",
+        "id": 4819
+      },
+      {
+        "name": "Oliveira Hospital",
+        "id": 4773
+      },
+      {
+        "name": "Academica",
+        "id": 239
+      },
+      {
+        "name": "União de Coimbra",
+        "id": 17391
+      },
+      {
+        "name": "Portosantense",
+        "id": 22087
+      },
+      {
+        "name": "Gondomar",
+        "id": 4750
+      },
+      {
+        "name": "Valadares Gaia",
+        "id": 4805
+      },
+      {
+        "name": "Torre de Moncorvo",
+        "id": 4893
+      },
+      {
+        "name": "Vila Real",
+        "id": 4812
+      },
+      {
+        "name": "Ribeirão",
+        "id": 17778
+      },
+      {
+        "name": "Flamengos",
+        "id": 4841
+      },
+      {
+        "name": "Fontinhas",
+        "id": 6355
+      },
+      {
+        "name": "Guadalupe",
+        "id": 4842
+      },
+      {
+        "name": "Fabril Barreiro",
+        "id": 4882
+      },
+      {
+        "name": "União Micaelense",
+        "id": 22169
+      },
+      {
+        "name": "Alcochetense",
+        "id": 6348
+      }
+    ]
+  },
+  {
     "round": "2nd Round",
     "type": "prev",
     "last_date": {
@@ -375,305 +674,6 @@
       {
         "name": "Santa Maria FC",
         "id": 22495
-      }
-    ]
-  },
-  {
-    "round": "1st Round",
-    "type": "prev",
-    "last_date": {
-      "timestamp": 1694466000,
-      "date": "2023-09-11 21:00:00"
-    },
-    "rating": 0.0,
-    "club_set": [
-      {
-        "name": "Sintrense",
-        "id": 4796
-      },
-      {
-        "name": "Operário",
-        "id": 4852
-      },
-      {
-        "name": "Amora",
-        "id": 4726
-      },
-      {
-        "name": "Vitória do Pico",
-        "id": 22170
-      },
-      {
-        "name": "Peniche",
-        "id": 4782
-      },
-      {
-        "name": "Marinhense",
-        "id": 4845
-      },
-      {
-        "name": "Amiense",
-        "id": 22159
-      },
-      {
-        "name": "Benfica Castelo Branco",
-        "id": 4731
-      },
-      {
-        "name": "União Santarém",
-        "id": 6369
-      },
-      {
-        "name": "Proença-a-Nova",
-        "id": 22167
-      },
-      {
-        "name": "Alverca",
-        "id": 4724
-      },
-      {
-        "name": "Gavionenses",
-        "id": 4884
-      },
-      {
-        "name": "Alqueidão da Serra",
-        "id": 15202
-      },
-      {
-        "name": "CD Torres Novas",
-        "id": 4732
-      },
-      {
-        "name": "Real",
-        "id": 10149
-      },
-      {
-        "name": "CD Olivais e Moscavide",
-        "id": 17776
-      },
-      {
-        "name": "Juventude Évora",
-        "id": 4755
-      },
-      {
-        "name": "Portel",
-        "id": 22166
-      },
-      {
-        "name": "Atlético Reguengos",
-        "id": 20035
-      },
-      {
-        "name": "Quarteirense SAD",
-        "id": 22168
-      },
-      {
-        "name": "Louletano",
-        "id": 4758
-      },
-      {
-        "name": "Imortal Albufeira",
-        "id": 17385
-      },
-      {
-        "name": "Lusitano Évora 1911",
-        "id": 15207
-      },
-      {
-        "name": "Comércio Indústria",
-        "id": 17985
-      },
-      {
-        "name": "Padernense",
-        "id": 22164
-      },
-      {
-        "name": "FC Serpa",
-        "id": 17442
-      },
-      {
-        "name": "Castrense",
-        "id": 4830
-      },
-      {
-        "name": "Penedo Gordo",
-        "id": 6361
-      },
-      {
-        "name": "Pêro Pinheiro",
-        "id": 4854
-      },
-      {
-        "name": "Caldas",
-        "id": 4733
-      },
-      {
-        "name": "Anadia",
-        "id": 4727
-      },
-      {
-        "name": "Sanjoanense",
-        "id": 4792
-      },
-      {
-        "name": "Fafe",
-        "id": 809
-      },
-      {
-        "name": "Felgueiras 1932",
-        "id": 4744
-      },
-      {
-        "name": "Rebordosa",
-        "id": 6365
-      },
-      {
-        "name": "Lobão",
-        "id": 22161
-      },
-      {
-        "name": "Salgueiros",
-        "id": 4859
-      },
-      {
-        "name": "Foz",
-        "id": 15206
-      },
-      {
-        "name": "Aliados Lordelo",
-        "id": 22158
-      },
-      {
-        "name": "Vianense",
-        "id": 4809
-      },
-      {
-        "name": "Os Limianos",
-        "id": 4776
-      },
-      {
-        "name": "Varzim",
-        "id": 237
-      },
-      {
-        "name": "Mondinense",
-        "id": 4848
-      },
-      {
-        "name": "Montalegre",
-        "id": 4770
-      },
-      {
-        "name": "Rebordelo",
-        "id": 6364
-      },
-      {
-        "name": "Sandinenses",
-        "id": 22088
-      },
-      {
-        "name": "União Lamas",
-        "id": 4864
-      },
-      {
-        "name": "Paredes",
-        "id": 4778
-      },
-      {
-        "name": "Lusitânia Lourosa",
-        "id": 6358
-      },
-      {
-        "name": "Régua",
-        "id": 4790
-      },
-      {
-        "name": "Lusitano FCV",
-        "id": 4761
-      },
-      {
-        "name": "Tocha",
-        "id": 4863
-      },
-      {
-        "name": "Florgrade",
-        "id": 22091
-      },
-      {
-        "name": "Beira-Mar",
-        "id": 4661
-      },
-      {
-        "name": "Os Vilanovenses",
-        "id": 22163
-      },
-      {
-        "name": "Pombal",
-        "id": 4853
-      },
-      {
-        "name": "AD Fornos Algodres",
-        "id": 4819
-      },
-      {
-        "name": "Oliveira Hospital",
-        "id": 4773
-      },
-      {
-        "name": "Academica",
-        "id": 239
-      },
-      {
-        "name": "União de Coimbra",
-        "id": 17391
-      },
-      {
-        "name": "Portosantense",
-        "id": 22087
-      },
-      {
-        "name": "Gondomar",
-        "id": 4750
-      },
-      {
-        "name": "Valadares Gaia",
-        "id": 4805
-      },
-      {
-        "name": "Torre de Moncorvo",
-        "id": 4893
-      },
-      {
-        "name": "Vila Real",
-        "id": 4812
-      },
-      {
-        "name": "Ribeirão",
-        "id": 17778
-      },
-      {
-        "name": "Flamengos",
-        "id": 4841
-      },
-      {
-        "name": "Fontinhas",
-        "id": 6355
-      },
-      {
-        "name": "Guadalupe",
-        "id": 4842
-      },
-      {
-        "name": "Fabril Barreiro",
-        "id": 4882
-      },
-      {
-        "name": "União Micaelense",
-        "id": 22169
-      },
-      {
-        "name": "Alcochetense",
-        "id": 6348
       }
     ]
   },
