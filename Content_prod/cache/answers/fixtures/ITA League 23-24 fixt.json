@@ -21026,13 +21026,13 @@
     {
       "fixture": {
         "id": 1052562,
-        "referee": "M. Piccinini",
+        "referee": "Marco Piccinini, Italy",
         "timezone": "UTC",
         "date": "2024-04-08T18:45:00+00:00",
         "timestamp": 1712601900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712601900,
+          "second": 1712605500
         },
         "venue": {
           "id": 20416,
@@ -21040,9 +21040,9 @@
           "city": "Udine"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21059,27 +21059,27 @@
           "id": 494,
           "name": "Udinese",
           "logo": "https://media.api-sports.io/football/teams/494.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 505,
           "name": "Inter",
           "logo": "https://media.api-sports.io/football/teams/505.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -23008,7 +23008,7 @@
         },
         "venue": {
           "id": 911,
-          "name": "Stadio Comunale Via del Mare",
+          "name": "Stadio Ettore Giardiniero - Via del Mare",
           "city": "Lecce"
         },
         "status": {
