@@ -16674,13 +16674,13 @@
     {
       "fixture": {
         "id": 1063721,
-        "referee": "Miguel Nogueira",
+        "referee": "Miguel Nogueira, Portugal",
         "timezone": "UTC",
         "date": "2024-04-08T19:15:00+00:00",
         "timestamp": 1712603700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712603700,
+          "second": 1712607300
         },
         "venue": {
           "id": 3565,
@@ -16688,9 +16688,9 @@
           "city": "Rio Maior"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -16717,17 +16717,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
