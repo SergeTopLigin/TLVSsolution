@@ -198,130 +198,45 @@
     ]
   },
   {
-    "round": "Group Stage - 1",
-    "type": "prev",
-    "last_date": {
-      "timestamp": 1695939300,
-      "date": "2023-09-28 22:15:00"
-    },
-    "rating": 0.0,
-    "club_set": [
-      {
-        "name": "Casa Pia",
-        "id": 4716
-      },
-      {
-        "name": "Nacional",
-        "id": 225
-      },
-      {
-        "name": "AVS",
-        "id": 21595
-      },
-      {
-        "name": "Arouca",
-        "id": 240
-      },
-      {
-        "name": "Farense",
-        "id": 231
-      },
-      {
-        "name": "Tondela",
-        "id": 218
-      },
-      {
-        "name": "Leixoes",
-        "id": 244
-      },
-      {
-        "name": "Estoril",
-        "id": 230
-      }
-    ]
-  },
-  {
-    "round": "Group Stage - 2",
-    "type": "prev",
-    "last_date": {
-      "timestamp": 1701896400,
-      "date": "2023-12-06 21:00:00"
-    },
-    "rating": 0.43,
-    "club_set": [
-      {
-        "name": "Estoril",
-        "id": 230
-      },
-      {
-        "name": "FC Porto",
-        "id": 212,
-        "rating": 0.1
-      },
-      {
-        "name": "Sporting CP",
-        "id": 228,
-        "rating": -0.64
-      },
-      {
-        "name": "Farense",
-        "id": 231
-      },
-      {
-        "name": "Arouca",
-        "id": 240
-      },
-      {
-        "name": "Benfica",
-        "id": 211,
-        "rating": -0.02
-      },
-      {
-        "name": "SC Braga",
-        "id": 217,
-        "rating": -0.79
-      },
-      {
-        "name": "Casa Pia",
-        "id": 4716
-      }
-    ]
-  },
-  {
-    "round": "Group Stage - 3",
+    "round": "Group",
     "type": "prev",
     "last_date": {
       "timestamp": 1703374200,
       "date": "2023-12-23 23:30:00"
     },
-    "rating": 0.43,
+    "rating": 0.29,
     "club_set": [
+      {
+        "name": "Casa Pia",
+        "id": 4716
+      },
       {
         "name": "Nacional",
         "id": 225
-      },
-      {
-        "name": "SC Braga",
-        "id": 217,
-        "rating": -0.79
-      },
-      {
-        "name": "Benfica",
-        "id": 211,
-        "rating": -0.02
       },
       {
         "name": "AVS",
         "id": 21595
       },
       {
+        "name": "Arouca",
+        "id": 240
+      },
+      {
+        "name": "Farense",
+        "id": 231
+      },
+      {
         "name": "Tondela",
         "id": 218
       },
       {
-        "name": "Sporting CP",
-        "id": 228,
-        "rating": -0.64
+        "name": "Leixoes",
+        "id": 244
+      },
+      {
+        "name": "Estoril",
+        "id": 230
       },
       {
         "name": "FC Porto",
@@ -329,8 +244,19 @@
         "rating": 0.1
       },
       {
-        "name": "Leixoes",
-        "id": 244
+        "name": "Sporting CP",
+        "id": 228,
+        "rating": -0.64
+      },
+      {
+        "name": "Benfica",
+        "id": 211,
+        "rating": -0.02
+      },
+      {
+        "name": "SC Braga",
+        "id": 217,
+        "rating": -0.79
       }
     ]
   },
