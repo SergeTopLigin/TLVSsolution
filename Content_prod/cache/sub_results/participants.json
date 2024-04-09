@@ -284,7 +284,8 @@
         "quota": 0,
         "id": 143,
         "type": "Cup",
-        "name": "Copa del Rey"
+        "name": "Copa del Rey",
+        "participants": []
       }
     }
   },
@@ -370,7 +371,8 @@
         "quota": 0,
         "id": 81,
         "type": "Cup",
-        "name": "DFB Pokal"
+        "name": "DFB Pokal",
+        "participants": []
       }
     }
   },
@@ -400,7 +402,8 @@
         "quota": 0,
         "id": 96,
         "type": "Cup",
-        "name": "Taça de Portugal"
+        "name": "Taça de Portugal",
+        "participants": []
       },
       "POR LCup": {
         "tytle": "POR LCup",
@@ -409,7 +412,8 @@
         "quota": 0,
         "id": 97,
         "type": "Cup",
-        "name": "Taça da Liga"
+        "name": "Taça da Liga",
+        "participants": []
       }
     }
   },
@@ -439,7 +443,8 @@
         "quota": 0,
         "id": 66,
         "type": "Cup",
-        "name": "Coupe de France"
+        "name": "Coupe de France",
+        "participants": []
       }
     }
   },
@@ -469,7 +474,8 @@
         "quota": 0,
         "id": 90,
         "type": "Cup",
-        "name": "KNVB Beker"
+        "name": "KNVB Beker",
+        "participants": []
       }
     }
   }
