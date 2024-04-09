@@ -1,5 +1,48 @@
 [
   {
+    "round": "Preliminary Round",
+    "type": "prev",
+    "last_date": {
+      "timestamp": 1691357400,
+      "date": "2023-08-06 21:30:00"
+    },
+    "rating": 0.0,
+    "club_set": [
+      {
+        "name": "Catanzaro",
+        "id": 1687
+      },
+      {
+        "name": "Foggia",
+        "id": 521
+      },
+      {
+        "name": "Reggiana",
+        "id": 880
+      },
+      {
+        "name": "Pescara",
+        "id": 525
+      },
+      {
+        "name": "Feralpisalo",
+        "id": 884
+      },
+      {
+        "name": "Vicenza Virtus",
+        "id": 1584
+      },
+      {
+        "name": "Cesena",
+        "id": 509
+      },
+      {
+        "name": "Virtus Entella",
+        "id": 527
+      }
+    ]
+  },
+  {
     "round": "1st Round",
     "type": "prev",
     "last_date": {
@@ -135,49 +178,6 @@
       {
         "name": "Feralpisalo",
         "id": 884
-      }
-    ]
-  },
-  {
-    "round": "Preliminary Round",
-    "type": "prev",
-    "last_date": {
-      "timestamp": 1691357400,
-      "date": "2023-08-06 21:30:00"
-    },
-    "rating": 0.0,
-    "club_set": [
-      {
-        "name": "Catanzaro",
-        "id": 1687
-      },
-      {
-        "name": "Foggia",
-        "id": 521
-      },
-      {
-        "name": "Reggiana",
-        "id": 880
-      },
-      {
-        "name": "Pescara",
-        "id": 525
-      },
-      {
-        "name": "Feralpisalo",
-        "id": 884
-      },
-      {
-        "name": "Vicenza Virtus",
-        "id": 1584
-      },
-      {
-        "name": "Cesena",
-        "id": 509
-      },
-      {
-        "name": "Virtus Entella",
-        "id": 527
       }
     ]
   },
