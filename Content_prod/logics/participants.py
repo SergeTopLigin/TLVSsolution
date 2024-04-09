@@ -134,14 +134,15 @@ try:    # обработка исключений для определения 
     for ass in tournaments:
         participants_str += tournaments[ass]['as_short'] + '\n'
         for tourn in tournaments[ass]['tournaments']:
-            if tourn != 'TopLiga':
-                participants_str += "      {0} {1:20}"\
-                .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name']) + '\n'
-            elif tourn == 'TopLiga':
-                participants_str += "      {0:26}"\
-                .format(tournaments[ass]['tournaments'][tourn]['name']) + '\n'
-            for club in tournaments[ass]['tournaments'][tourn]['participants']:
-                participants_str += ' '*20 + club['club'] + '\n'
+            if tournaments[ass]['tournaments'][tourn]['quota'] > 0:
+                if tourn != 'TopLiga':
+                    participants_str += "      {0} {1:20}"\
+                    .format(tournaments[ass]['tournaments'][tourn]['season'], tournaments[ass]['tournaments'][tourn]['name']) + '\n'
+                elif tourn == 'TopLiga':
+                    participants_str += "      {0:26}"\
+                    .format(tournaments[ass]['tournaments'][tourn]['name']) + '\n'
+                for club in tournaments[ass]['tournaments'][tourn]['participants']:
+                    participants_str += ' '*30 + club['club'] + '\n'
     participants_str = participants_str[:-1]
 
     # выгрузка participants.txt в репо: /content и /content_commits  и на runner: /content
