@@ -21094,7 +21094,7 @@
     {
       "fixture": {
         "id": 1052563,
-        "referee": null,
+        "referee": "J. Sacchi",
         "timezone": "UTC",
         "date": "2024-04-15T18:45:00+00:00",
         "timestamp": 1713206700,
@@ -21162,7 +21162,7 @@
     {
       "fixture": {
         "id": 1052564,
-        "referee": null,
+        "referee": "F. La Penna",
         "timezone": "UTC",
         "date": "2024-04-13T18:45:00+00:00",
         "timestamp": 1713033900,
@@ -21230,7 +21230,7 @@
     {
       "fixture": {
         "id": 1052565,
-        "referee": null,
+        "referee": "D. Di Marco",
         "timezone": "UTC",
         "date": "2024-04-15T16:30:00+00:00",
         "timestamp": 1713198600,
@@ -21298,7 +21298,7 @@
     {
       "fixture": {
         "id": 1052566,
-        "referee": null,
+        "referee": "F. Fourneau",
         "timezone": "UTC",
         "date": "2024-04-14T18:45:00+00:00",
         "timestamp": 1713120300,
@@ -21366,13 +21366,13 @@
     {
       "fixture": {
         "id": 1052567,
-        "referee": null,
+        "referee": "Luca Zufferli, Italy",
         "timezone": "UTC",
         "date": "2024-04-12T18:45:00+00:00",
         "timestamp": 1712947500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712947500,
+          "second": 1712951100
         },
         "venue": {
           "id": 910,
@@ -21380,9 +21380,9 @@
           "city": "Roma"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21399,27 +21399,27 @@
           "id": 487,
           "name": "Lazio",
           "logo": "https://media.api-sports.io/football/teams/487.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 514,
           "name": "Salernitana",
           "logo": "https://media.api-sports.io/football/teams/514.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -21434,13 +21434,13 @@
     {
       "fixture": {
         "id": 1052568,
-        "referee": null,
+        "referee": "Maurizio Mariani, Italy",
         "timezone": "UTC",
         "date": "2024-04-13T13:00:00+00:00",
         "timestamp": 1713013200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713013200,
+          "second": 1713016800
         },
         "venue": {
           "id": 911,
@@ -21448,9 +21448,9 @@
           "city": "Lecce"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21467,27 +21467,27 @@
           "id": 867,
           "name": "Lecce",
           "logo": "https://media.api-sports.io/football/teams/867.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 511,
           "name": "Empoli",
           "logo": "https://media.api-sports.io/football/teams/511.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -21502,7 +21502,7 @@
     {
       "fixture": {
         "id": 1052569,
-        "referee": null,
+        "referee": "M. Fabbri",
         "timezone": "UTC",
         "date": "2024-04-14T10:30:00+00:00",
         "timestamp": 1713090600,
@@ -21570,7 +21570,7 @@
     {
       "fixture": {
         "id": 1052570,
-        "referee": null,
+        "referee": "D. Massa",
         "timezone": "UTC",
         "date": "2024-04-14T13:00:00+00:00",
         "timestamp": 1713099600,
@@ -21638,13 +21638,13 @@
     {
       "fixture": {
         "id": 1052571,
-        "referee": null,
+        "referee": "Fabio Maresca, Italy",
         "timezone": "UTC",
         "date": "2024-04-13T16:00:00+00:00",
         "timestamp": 1713024000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713024000,
+          "second": 1713027600
         },
         "venue": {
           "id": 943,
@@ -21652,9 +21652,9 @@
           "city": "Torino"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21681,17 +21681,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -21706,7 +21706,7 @@
     {
       "fixture": {
         "id": 1052572,
-        "referee": null,
+        "referee": "L. Pairetto",
         "timezone": "UTC",
         "date": "2024-04-14T16:00:00+00:00",
         "timestamp": 1713110400,
