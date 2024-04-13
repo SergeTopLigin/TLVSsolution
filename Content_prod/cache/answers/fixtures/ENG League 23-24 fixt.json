@@ -21788,9 +21788,9 @@
           "city": "Bournemouth, Dorset"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 84
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21826,8 +21826,8 @@
           "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
