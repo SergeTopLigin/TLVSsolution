@@ -17762,13 +17762,13 @@
     {
       "fixture": {
         "id": 1055331,
-        "referee": null,
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-12T18:00:00+00:00",
         "timestamp": 1712944800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712944800,
+          "second": 1712948400
         },
         "venue": {
           "id": 2901,
@@ -17776,9 +17776,9 @@
           "city": "Rotterdam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17795,27 +17795,27 @@
           "id": 196,
           "name": "Excelsior",
           "logo": "https://media.api-sports.io/football/teams/196.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 416,
           "name": "FC Volendam",
           "logo": "https://media.api-sports.io/football/teams/416.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -17830,7 +17830,7 @@
     {
       "fixture": {
         "id": 1055332,
-        "referee": null,
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-04-14T12:30:00+00:00",
         "timestamp": 1713097800,
@@ -17898,13 +17898,13 @@
     {
       "fixture": {
         "id": 1055333,
-        "referee": null,
+        "referee": "Jeroen Manschot, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-13T14:30:00+00:00",
         "timestamp": 1713018600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713018600,
+          "second": 1713022200
         },
         "venue": {
           "id": 1143,
@@ -17912,9 +17912,9 @@
           "city": "Eindhoven"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17931,27 +17931,27 @@
           "id": 197,
           "name": "PSV Eindhoven",
           "logo": "https://media.api-sports.io/football/teams/197.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 200,
           "name": "Vitesse",
           "logo": "https://media.api-sports.io/football/teams/200.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 6,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 6,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -17966,7 +17966,7 @@
     {
       "fixture": {
         "id": 1055334,
-        "referee": null,
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-04-13T19:00:00+00:00",
         "timestamp": 1713034800,
@@ -18034,7 +18034,7 @@
     {
       "fixture": {
         "id": 1055335,
-        "referee": null,
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-04-14T18:00:00+00:00",
         "timestamp": 1713117600,
@@ -18102,13 +18102,13 @@
     {
       "fixture": {
         "id": 1055336,
-        "referee": null,
+        "referee": "Marc Nagtegaal, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-13T16:45:00+00:00",
         "timestamp": 1713026700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713026700,
+          "second": 1713030300
         },
         "venue": {
           "id": 1119,
@@ -18116,9 +18116,9 @@
           "city": "Alkmaar"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 78
         }
       },
       "league": {
@@ -18135,23 +18135,23 @@
           "id": 201,
           "name": "AZ Alkmaar",
           "logo": "https://media.api-sports.io/football/teams/201.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 417,
           "name": "Waalwijk",
           "logo": "https://media.api-sports.io/football/teams/417.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
           "home": null,
@@ -18170,7 +18170,7 @@
     {
       "fixture": {
         "id": 1055337,
-        "referee": null,
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-04-14T10:15:00+00:00",
         "timestamp": 1713089700,
@@ -18238,7 +18238,7 @@
     {
       "fixture": {
         "id": 1055338,
-        "referee": null,
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-04-14T12:30:00+00:00",
         "timestamp": 1713097800,
@@ -18306,7 +18306,7 @@
     {
       "fixture": {
         "id": 1055339,
-        "referee": null,
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-04-14T14:45:00+00:00",
         "timestamp": 1713105900,
