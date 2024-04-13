@@ -1,0 +1,53 @@
+UEFA
+      23-24 Champions League    
+      23-24 Europa League       
+      23-24 Conference League   
+TL
+      TopLiga                   
+                              Manchester City
+                              Bayern Munich
+                              Real Madrid
+                              Paris Saint Germain
+                              Liverpool
+                              Inter
+                              RB Leipzig
+                              AS Roma
+                              Chelsea
+                              Manchester United
+ENG
+      23-24 Premier League      
+                              Arsenal
+                              Liverpool
+                              Manchester City
+      23-24 FA Cup              
+                              Manchester United
+      23-24 League Cup          
+                              Liverpool
+ESP
+      23-24 La Liga             
+                              Real Madrid
+                              Barcelona
+                              Girona
+                              Atletico Madrid
+ITA
+      23-24 Serie A             
+                              Inter
+                              AC Milan
+                              Juventus
+      23-24 Coppa Italia        
+                              Lazio
+GER
+      23-24 Bundesliga          
+                              Bayer Leverkusen
+                              Bayern Munich
+                              VfB Stuttgart
+                              RB Leipzig
+POR
+      23-24 Primeira Liga       
+                              Sporting CP
+FRA
+      23-24 Ligue 1             
+                              Paris Saint Germain
+NED
+      23-24 Eredivisie          
+                              PSV Eindhoven
