@@ -20632,8 +20632,8 @@
           "city": "Palma de Mallorca"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
+          "long": "Match Finished",
+          "short": "FT",
           "elapsed": 90
         }
       },
@@ -20670,8 +20670,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -20890,7 +20890,7 @@
     {
       "fixture": {
         "id": 1038259,
-        "referee": "Juan Pulido",
+        "referee": "Juan Luis Pulido Santana, Spain",
         "timezone": "UTC",
         "date": "2024-04-13T19:00:00+00:00",
         "timestamp": 1713034800,
