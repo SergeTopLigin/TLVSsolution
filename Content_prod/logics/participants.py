@@ -91,7 +91,7 @@ try:    # обработка исключений для определения 
         if ass in [country['fifa'] for country in country_codes if ass == country['fifa']]:
             for tourn in tournaments[ass]['tournaments']:
                 if tournaments[ass]['tournaments'][tourn]['quota'] > 0:
-                    tourn_tytle = tournaments['UEFA']['tournaments'][tourn]['tytle']
+                    tourn_tytle = tournaments[ass]['tournaments'][tourn]['tytle']
                     season = tournaments[ass]['tournaments'][tourn]['season']
                     quota = tournaments[ass]['tournaments'][tourn]['quota']
                     tourn_id = tournaments[ass]['tournaments'][tourn]['id']
