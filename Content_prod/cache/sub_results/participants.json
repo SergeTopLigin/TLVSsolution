@@ -11,7 +11,72 @@
         "id": 2,
         "type": "Cup",
         "name": "Champions League",
-        "participants": []
+        "participants": [
+          {
+            "club": "Manchester City",
+            "id": 50
+          },
+          {
+            "club": "Real Madrid",
+            "id": 541
+          },
+          {
+            "club": "Atletico Madrid",
+            "id": 530
+          },
+          {
+            "club": "Bayern Munich",
+            "id": 157
+          },
+          {
+            "club": "Barcelona",
+            "id": 529
+          },
+          {
+            "club": "Arsenal",
+            "id": 42
+          },
+          {
+            "club": "Borussia Dortmund",
+            "id": 165
+          },
+          {
+            "club": "Paris Saint Germain",
+            "id": 85
+          },
+          {
+            "club": "FC Porto",
+            "id": 212
+          },
+          {
+            "club": "Inter",
+            "id": 505
+          },
+          {
+            "club": "RB Leipzig",
+            "id": 173
+          },
+          {
+            "club": "Lazio",
+            "id": 487
+          },
+          {
+            "club": "Real Sociedad",
+            "id": 548
+          },
+          {
+            "club": "Napoli",
+            "id": 492
+          },
+          {
+            "club": "PSV Eindhoven",
+            "id": 197
+          },
+          {
+            "club": "FC Copenhagen",
+            "id": 400
+          }
+        ]
       },
       "UEL 23-24": {
         "tytle": "UEL",
@@ -21,7 +86,32 @@
         "id": 3,
         "type": "Cup",
         "name": "Europa League",
-        "participants": []
+        "participants": [
+          {
+            "club": "Bayer Leverkusen",
+            "id": 168
+          },
+          {
+            "club": "Atalanta",
+            "id": 499
+          },
+          {
+            "club": "AC Milan",
+            "id": 489
+          },
+          {
+            "club": "Liverpool",
+            "id": 40
+          },
+          {
+            "club": "West Ham",
+            "id": 48
+          },
+          {
+            "club": "AS Roma",
+            "id": 497
+          }
+        ]
       },
       "UECL 23-24": {
         "tytle": "UECL",
@@ -31,7 +121,12 @@
         "id": 848,
         "type": "Cup",
         "name": "Conference League",
-        "participants": []
+        "participants": [
+          {
+            "club": "Club Brugge KV",
+            "id": 569
+          }
+        ]
       }
     }
   },
