@@ -71,7 +71,8 @@ def gh_push(main_mod, file_dir, file_name, file_content):
             with open((os.path.abspath(__file__))[:-26]+'/cache/sub_results/standings_history/'+last_file, 'r') as j:
                 last_file_dict = json.load(j)
             if last_file_dict != file_content:    # если содержание меняется
-                repo.create_file(path+file_name, "add "+file_name, file_content, branch="master")
+                repo.create_file(path+file_name, "add "+file_name, \
+                    json.dumps(file_content, skipkeys=True, ensure_ascii=False, indent=2), branch="master")
         # для остальных каталогов
         elif type(file_content) is str and file_content == 'delete':      # если требуется удалить файл
             contents = repo.get_contents(path+file_name, ref="master")
