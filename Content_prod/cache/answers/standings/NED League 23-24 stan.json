@@ -163,30 +163,30 @@
                 "name": "AZ Alkmaar",
                 "logo": "https://media.api-sports.io/football/teams/201.png"
               },
-              "points": 52,
-              "goalsDiff": 23,
+              "points": 55,
+              "goalsDiff": 24,
               "group": "Eredivisie",
-              "form": "LLWWW",
+              "form": "WLLWW",
               "status": "same",
               "description": "Promotion - Europa League (Qualification: )",
               "all": {
-                "played": 29,
-                "win": 15,
+                "played": 30,
+                "win": 16,
                 "draw": 7,
                 "lose": 7,
                 "goals": {
-                  "for": 56,
-                  "against": 33
+                  "for": 59,
+                  "against": 35
                 }
               },
               "home": {
-                "played": 14,
-                "win": 9,
+                "played": 15,
+                "win": 10,
                 "draw": 2,
                 "lose": 3,
                 "goals": {
-                  "for": 33,
-                  "against": 12
+                  "for": 36,
+                  "against": 14
                 }
               },
               "away": {
@@ -704,19 +704,19 @@
                 "logo": "https://media.api-sports.io/football/teams/417.png"
               },
               "points": 24,
-              "goalsDiff": -20,
+              "goalsDiff": -21,
               "group": "Eredivisie",
-              "form": "LDDDW",
+              "form": "LLDDD",
               "status": "same",
               "description": "Eredivisie (Relegation - Play Offs: )",
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 6,
                 "draw": 6,
-                "lose": 17,
+                "lose": 18,
                 "goals": {
-                  "for": 27,
-                  "against": 47
+                  "for": 29,
+                  "against": 50
                 }
               },
               "home": {
@@ -730,13 +730,13 @@
                 }
               },
               "away": {
-                "played": 14,
+                "played": 15,
                 "win": 2,
                 "draw": 2,
-                "lose": 10,
+                "lose": 11,
                 "goals": {
-                  "for": 10,
-                  "against": 25
+                  "for": 12,
+                  "against": 28
                 }
               },
               "update": "2024-04-13T00:00:00+00:00"
