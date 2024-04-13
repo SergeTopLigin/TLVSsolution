@@ -17150,7 +17150,7 @@
     {
       "fixture": {
         "id": 1063728,
-        "referee": null,
+        "referee": "Carlos Macedo",
         "timezone": "UTC",
         "date": "2024-04-14T17:00:00+00:00",
         "timestamp": 1713114000,
@@ -17218,13 +17218,13 @@
     {
       "fixture": {
         "id": 1063729,
-        "referee": null,
+        "referee": "Manuel Oliveira, Portugal",
         "timezone": "UTC",
         "date": "2024-04-12T19:15:00+00:00",
         "timestamp": 1712949300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712949300,
+          "second": 1712952900
         },
         "venue": {
           "id": 2811,
@@ -17232,9 +17232,9 @@
           "city": "Barcelos"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17251,27 +17251,27 @@
           "id": 762,
           "name": "GIL Vicente",
           "logo": "https://media.api-sports.io/football/teams/762.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 228,
           "name": "Sporting CP",
           "logo": "https://media.api-sports.io/football/teams/228.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 4
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 4
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 4
         },
         "extratime": {
           "home": null,
@@ -17286,7 +17286,7 @@
     {
       "fixture": {
         "id": 1063730,
-        "referee": null,
+        "referee": "Luís Godinho",
         "timezone": "UTC",
         "date": "2024-04-14T14:30:00+00:00",
         "timestamp": 1713105000,
@@ -17354,7 +17354,7 @@
     {
       "fixture": {
         "id": 1063731,
-        "referee": null,
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2024-04-14T19:30:00+00:00",
         "timestamp": 1713123000,
@@ -17422,13 +17422,13 @@
     {
       "fixture": {
         "id": 1063732,
-        "referee": null,
+        "referee": "David Rafael Oliveira da Silva, Portugal",
         "timezone": "UTC",
         "date": "2024-04-13T14:30:00+00:00",
         "timestamp": 1713018600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713018600,
+          "second": 1713022200
         },
         "venue": {
           "id": 1295,
@@ -17436,9 +17436,9 @@
           "city": "Guimarães"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17465,17 +17465,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -17490,7 +17490,7 @@
     {
       "fixture": {
         "id": 1063733,
-        "referee": null,
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-04-13T19:30:00+00:00",
         "timestamp": 1713036600,
@@ -17558,13 +17558,13 @@
     {
       "fixture": {
         "id": 1063734,
-        "referee": null,
+        "referee": "Gustavo Correia, Portugal",
         "timezone": "UTC",
         "date": "2024-04-13T17:00:00+00:00",
         "timestamp": 1713027600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713027600,
+          "second": 1713031200
         },
         "venue": {
           "id": 1286,
@@ -17572,9 +17572,9 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 56
         }
       },
       "league": {
@@ -17591,23 +17591,23 @@
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 242,
           "name": "Famalicao",
           "logo": "https://media.api-sports.io/football/teams/242.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
           "home": null,
@@ -17626,7 +17626,7 @@
     {
       "fixture": {
         "id": 1063735,
-        "referee": null,
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-04-15T19:15:00+00:00",
         "timestamp": 1713208500,
@@ -17694,7 +17694,7 @@
     {
       "fixture": {
         "id": 1063736,
-        "referee": null,
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2024-04-14T17:00:00+00:00",
         "timestamp": 1713114000,
