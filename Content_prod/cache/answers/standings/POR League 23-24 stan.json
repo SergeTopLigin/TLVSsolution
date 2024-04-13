@@ -118,30 +118,30 @@
                 "name": "FC Porto",
                 "logo": "https://media.api-sports.io/football/teams/212.png"
               },
-              "points": 58,
+              "points": 59,
               "goalsDiff": 30,
               "group": "Primeira Liga",
-              "form": "LLWWW",
+              "form": "DLLWW",
               "status": "same",
               "description": "Promotion - Europa League (Qualification: )",
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 18,
-                "draw": 4,
+                "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 51,
-                  "against": 21
+                  "for": 53,
+                  "against": 23
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 10,
-                "draw": 2,
+                "draw": 3,
                 "lose": 2,
                 "goals": {
-                  "for": 29,
-                  "against": 8
+                  "for": 31,
+                  "against": 10
                 }
               },
               "away": {
@@ -343,20 +343,20 @@
                 "name": "Famalicao",
                 "logo": "https://media.api-sports.io/football/teams/242.png"
               },
-              "points": 34,
+              "points": 35,
               "goalsDiff": -4,
               "group": "Primeira Liga",
-              "form": "WWDLD",
+              "form": "DWWDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 8,
-                "draw": 10,
+                "draw": 11,
                 "lose": 9,
                 "goals": {
-                  "for": 29,
-                  "against": 33
+                  "for": 31,
+                  "against": 35
                 }
               },
               "home": {
@@ -370,13 +370,13 @@
                 }
               },
               "away": {
-                "played": 14,
+                "played": 15,
                 "win": 3,
-                "draw": 5,
+                "draw": 6,
                 "lose": 6,
                 "goals": {
-                  "for": 13,
-                  "against": 17
+                  "for": 15,
+                  "against": 19
                 }
               },
               "update": "2024-04-13T00:00:00+00:00"
