@@ -17150,13 +17150,13 @@
     {
       "fixture": {
         "id": 1045133,
-        "referee": null,
+        "referee": "Willy Delajod, France",
         "timezone": "UTC",
         "date": "2024-04-13T15:00:00+00:00",
         "timestamp": 1713020400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713020400,
+          "second": 1713024000
         },
         "venue": {
           "id": 681,
@@ -17164,9 +17164,9 @@
           "city": "Strasbourg"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17183,27 +17183,27 @@
           "id": 95,
           "name": "Strasbourg",
           "logo": "https://media.api-sports.io/football/teams/95.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 93,
           "name": "Reims",
           "logo": "https://media.api-sports.io/football/teams/93.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -17218,7 +17218,7 @@
     {
       "fixture": {
         "id": 1045134,
-        "referee": null,
+        "referee": "F. Batta",
         "timezone": "UTC",
         "date": "2024-04-13T19:00:00+00:00",
         "timestamp": 1713034800,
@@ -17490,7 +17490,7 @@
     {
       "fixture": {
         "id": 1045138,
-        "referee": null,
+        "referee": "M. Vernice",
         "timezone": "UTC",
         "date": "2024-04-14T18:45:00+00:00",
         "timestamp": 1713120300,
@@ -17558,7 +17558,7 @@
     {
       "fixture": {
         "id": 1045139,
-        "referee": null,
+        "referee": "T. Léonard",
         "timezone": "UTC",
         "date": "2024-04-14T13:00:00+00:00",
         "timestamp": 1713099600,
@@ -17626,7 +17626,7 @@
     {
       "fixture": {
         "id": 1045140,
-        "referee": null,
+        "referee": "H. Ben El Hadj",
         "timezone": "UTC",
         "date": "2024-04-14T11:00:00+00:00",
         "timestamp": 1713092400,
@@ -17694,13 +17694,13 @@
     {
       "fixture": {
         "id": 1045141,
-        "referee": null,
+        "referee": "Romain Lissorgue, France",
         "timezone": "UTC",
         "date": "2024-04-12T19:00:00+00:00",
         "timestamp": 1712948400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712948400,
+          "second": 1712952000
         },
         "venue": {
           "id": 658,
@@ -17708,9 +17708,9 @@
           "city": "Longeville-lès-Metz"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17727,27 +17727,27 @@
           "id": 112,
           "name": "Metz",
           "logo": "https://media.api-sports.io/football/teams/112.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 116,
           "name": "Lens",
           "logo": "https://media.api-sports.io/football/teams/116.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18376,8 +18376,8 @@
         "id": 1045151,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-04-28T00:00:00+00:00",
-        "timestamp": 1714262400,
+        "date": "2024-04-27T19:00:00+00:00",
+        "timestamp": 1714244400,
         "periods": {
           "first": null,
           "second": null
@@ -18388,8 +18388,8 @@
           "city": "Paris"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
