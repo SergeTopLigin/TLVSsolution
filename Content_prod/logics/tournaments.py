@@ -430,7 +430,7 @@ try:    # обработка исключений для определения 
     # формирование словаря для выгрузки
     country_codes = country_codes()
     Nat_Tournaments = Nat_Tournaments()
-    # {as_short:{'as_short': , 'as_full': , 'tournaments': {tytle:{'tytle': , 'season': , 'rating': , 'quota': , 'id': , 'type': , 'name': }}}}
+    # {as_short:{'as_short': , 'as_full': , 'tournaments': {tytle_season:{'tytle': , 'season': , 'rating': , 'quota': , 'id': , 'type': , 'name': }}}}
     tournaments = {}
     for ass_n in Ass_TournRateQuot:
         # as_short
@@ -451,8 +451,12 @@ try:    # обработка исключений для определения 
             elif tourn[0] == 'TopLiga': name = 'TopLiga'
             else:       name = [Nat_Tournaments[ass_n][Nat_Tournaments[ass_n].index(elem)][2] \
                                 for elem in Nat_Tournaments[ass_n] if tourn[0] in elem[0]][0]
-            tourns[tourn[0]] = {'tytle': tourn[0], 'season': tourn[1], 'rating': tourn[2], 'quota': tourn[3], 'id': tourn[4], 'type': tourn[5], \
-                                'name': name}
+            if ass_n != 'TopLiga':
+                tourns[tourn[0]+' '+tourn[1]] = {'tytle': tourn[0], 'season': tourn[1], 'rating': tourn[2], 'quota': tourn[3], 'id': tourn[4], \
+                'type': tourn[5], 'name': name}
+            else:
+                tourns[tourn[0]] = {'tytle': tourn[0], 'season': tourn[1], 'rating': tourn[2], 'quota': tourn[3], 'id': tourn[4], \
+                'type': tourn[5], 'name': name}
         tournaments[ass_n] = {'as_short': short, 'as_full': full, 'tournaments': tourns}
 
     # формирование .json из словаря tournaments

@@ -145,6 +145,57 @@ try:    # обработка исключений для определения 
                     participants_str += ' '*30 + club['club'] + '\n'
     participants_str = participants_str[:-1]
 
+    # представление participants по нац ассоциациям в порядке рейтинга ассоциаций
+    # строка ассоциации
+    # список квоты nat_league prev season с позициями перед клубами
+    # список квоты nat_league curr season с позициями перед клубами
+    # список невошедших в квоту nat_league без позиций но в порядке nat_league curr season
+    # поставить слева от клуба short_name турниров, в квоту которых он попал
+
+    # # набрать список всех клубов участников
+    # participants_id = []
+    # for ass in tournaments:
+    #     for tourn in tournaments[ass]['tournaments']:
+    #         for club in tournaments[ass]['tournaments'][tourn]['participants']:
+    #             participants_id.append(club['id'])
+    # # разбить по нац ассоциациям
+    # # сортировать ассоциации по рейтингу
+    # # сортировать клубы в ассоциациях по нац лиге (standings)
+    # dir_standings = os.listdir((os.path.abspath(__file__))[:-23]+'/cache/answers/standings')
+    # with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/associations.json', 'r') as j:
+    #     associations = json.load(j)
+    # with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
+    #     groups_dict = json.load(j)
+    # # для клубов из нац ассоциаций с квотой > 0
+    # for ass in associations:
+    #     if ass in [country['fifa'] for country in country_codes if ass == country['fifa']] and ass['quota'] > 0:
+    #         file_standings = ass+' League'
+    #         for file in dir_standings:
+    #             if ass in file and file > file_standings:
+    #                 file_standings = file
+    #         with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r') as j:
+    #             league_standings = json.load(j)
+    #         for league in groups_dict:
+    #             if file_standings[:16] in league:
+    #                 # список стадий лиги ["league"] с сортировкой по приоритету
+    #                 stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
+    #         for stage in stage_prior:
+    #             for group in league_standings['response'][0]['league']['standings']:
+    #                 for club in group:
+    #                     if club['group'] == stage and club['team']['id'] in participants_id:
+    #                         league_quot_pos = club['rank'] if club['rank'] <= [tournaments[ass]['tournaments'][file_standings[:10]]['quota'] for tournaments[ass]['tournaments'] in \
+    #                         tournaments[ass]['tournaments'] if tournaments[ass]['tournaments'][file_standings[:10]]['season'] == file_standings[11:16]][0]\ 
+    #                         else ''
+    #                         club_name = club['team']['name']
+
+    #         for tourn in tournaments[ass]['tournaments']:
+    #             for club in tournaments[ass]['tournaments'][tourn]['participants']:
+
+    # # если остались клубы, которых нет в associations.json - добавить их в конец
+
+    # # поставить справа от клуба позицию в нац лиге, если клуб в квоте нац лиги
+    # # поставить слева от клуба short_name турниров, в квоту еоторых он попал
+
     # выгрузка participants.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'participants.txt', participants_str)
     runner_push(str(mod_name), 'content', 'participants.txt', participants_str)
