@@ -17966,12 +17966,12 @@
     {
       "fixture": {
         "id": 1055334,
-        "referee": "A. Bos",
+        "referee": "Alex Bos, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-13T19:00:00+00:00",
         "timestamp": 1713034800,
         "periods": {
-          "first": null,
+          "first": 1713034800,
           "second": null
         },
         "venue": {
@@ -17980,9 +17980,9 @@
           "city": "Almere"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 35
         }
       },
       "league": {
@@ -17999,23 +17999,23 @@
           "id": 419,
           "name": "Almere City FC",
           "logo": "https://media.api-sports.io/football/teams/419.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 426,
           "name": "Sparta Rotterdam",
           "logo": "https://media.api-sports.io/football/teams/426.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
           "home": null,
@@ -18116,9 +18116,9 @@
           "city": "Alkmaar"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 78
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18154,8 +18154,8 @@
           "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "extratime": {
           "home": null,
