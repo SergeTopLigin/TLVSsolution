@@ -64,7 +64,7 @@
                   "against": 9
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -109,7 +109,7 @@
                   "against": 12
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -154,7 +154,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -199,7 +199,7 @@
                   "against": 17
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -244,7 +244,7 @@
                   "against": 13
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -289,7 +289,7 @@
                   "against": 16
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -334,7 +334,7 @@
                   "against": 24
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -379,7 +379,7 @@
                   "against": 24
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 9,
@@ -389,29 +389,29 @@
                 "logo": "https://media.api-sports.io/football/teams/94.png"
               },
               "points": 39,
-              "goalsDiff": 6,
+              "goalsDiff": 5,
               "group": "Ligue 1",
-              "form": "LLWDL",
+              "form": "LLLWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 10,
                 "draw": 9,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
-                  "for": 40,
-                  "against": 34
+                  "for": 41,
+                  "against": 36
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 7,
                 "draw": 3,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
-                  "for": 28,
-                  "against": 18
+                  "for": 29,
+                  "against": 20
                 }
               },
               "away": {
@@ -424,7 +424,7 @@
                   "against": 16
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -469,10 +469,55 @@
                   "against": 19
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 11,
+              "team": {
+                "id": 96,
+                "name": "Toulouse",
+                "logo": "https://media.api-sports.io/football/teams/96.png"
+              },
+              "points": 36,
+              "goalsDiff": -3,
+              "group": "Ligue 1",
+              "form": "WDWLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 29,
+                "win": 9,
+                "draw": 9,
+                "lose": 11,
+                "goals": {
+                  "for": 34,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 3,
+                "draw": 6,
+                "lose": 5,
+                "goals": {
+                  "for": 18,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 6,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 16,
+                  "against": 19
+                }
+              },
+              "update": "2024-04-14T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
               "team": {
                 "id": 95,
                 "name": "Strasbourg",
@@ -514,52 +559,7 @@
                   "against": 21
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
-            },
-            {
-              "rank": 12,
-              "team": {
-                "id": 96,
-                "name": "Toulouse",
-                "logo": "https://media.api-sports.io/football/teams/96.png"
-              },
-              "points": 33,
-              "goalsDiff": -4,
-              "group": "Ligue 1",
-              "form": "DWLLW",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 28,
-                "win": 8,
-                "draw": 9,
-                "lose": 11,
-                "goals": {
-                  "for": 32,
-                  "against": 36
-                }
-              },
-              "home": {
-                "played": 14,
-                "win": 3,
-                "draw": 6,
-                "lose": 5,
-                "goals": {
-                  "for": 18,
-                  "against": 18
-                }
-              },
-              "away": {
-                "played": 14,
-                "win": 5,
-                "draw": 3,
-                "lose": 6,
-                "goals": {
-                  "for": 14,
-                  "against": 18
-                }
-              },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -568,20 +568,20 @@
                 "name": "Montpellier",
                 "logo": "https://media.api-sports.io/football/teams/82.png"
               },
-              "points": 32,
+              "points": 33,
               "goalsDiff": -5,
               "group": "Ligue 1",
-              "form": "WWLWD",
+              "form": "DWWLW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 8,
-                "draw": 9,
+                "draw": 10,
                 "lose": 11,
                 "goals": {
-                  "for": 35,
-                  "against": 40
+                  "for": 36,
+                  "against": 41
                 }
               },
               "home": {
@@ -595,82 +595,37 @@
                 }
               },
               "away": {
-                "played": 13,
+                "played": 14,
                 "win": 5,
-                "draw": 1,
+                "draw": 2,
                 "lose": 7,
                 "goals": {
-                  "for": 16,
-                  "against": 20
+                  "for": 17,
+                  "against": 21
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 14,
-              "team": {
-                "id": 111,
-                "name": "LE Havre",
-                "logo": "https://media.api-sports.io/football/teams/111.png"
-              },
-              "points": 28,
-              "goalsDiff": -9,
-              "group": "Ligue 1",
-              "form": "DLLWL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 28,
-                "win": 6,
-                "draw": 10,
-                "lose": 12,
-                "goals": {
-                  "for": 27,
-                  "against": 36
-                }
-              },
-              "home": {
-                "played": 13,
-                "win": 5,
-                "draw": 2,
-                "lose": 6,
-                "goals": {
-                  "for": 14,
-                  "against": 14
-                }
-              },
-              "away": {
-                "played": 15,
-                "win": 1,
-                "draw": 8,
-                "lose": 6,
-                "goals": {
-                  "for": 13,
-                  "against": 22
-                }
-              },
-              "update": "2024-04-13T00:00:00+00:00"
-            },
-            {
-              "rank": 15,
               "team": {
                 "id": 83,
                 "name": "Nantes",
                 "logo": "https://media.api-sports.io/football/teams/83.png"
               },
-              "points": 28,
-              "goalsDiff": -18,
+              "points": 31,
+              "goalsDiff": -17,
               "group": "Ligue 1",
-              "form": "LWLLL",
+              "form": "WLWLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 28,
-                "win": 8,
+                "played": 29,
+                "win": 9,
                 "draw": 4,
                 "lose": 16,
                 "goals": {
-                  "for": 27,
+                  "for": 28,
                   "against": 45
                 }
               },
@@ -685,16 +640,61 @@
                 }
               },
               "away": {
-                "played": 13,
-                "win": 5,
+                "played": 14,
+                "win": 6,
                 "draw": 1,
                 "lose": 7,
                 "goals": {
-                  "for": 11,
+                  "for": 12,
                   "against": 20
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 111,
+                "name": "LE Havre",
+                "logo": "https://media.api-sports.io/football/teams/111.png"
+              },
+              "points": 28,
+              "goalsDiff": -10,
+              "group": "Ligue 1",
+              "form": "LDLLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 29,
+                "win": 6,
+                "draw": 10,
+                "lose": 13,
+                "goals": {
+                  "for": 27,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 5,
+                "draw": 2,
+                "lose": 7,
+                "goals": {
+                  "for": 14,
+                  "against": 15
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 1,
+                "draw": 8,
+                "lose": 6,
+                "goals": {
+                  "for": 13,
+                  "against": 22
+                }
+              },
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -739,7 +739,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -784,7 +784,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -793,30 +793,30 @@
                 "name": "Clermont Foot",
                 "logo": "https://media.api-sports.io/football/teams/99.png"
               },
-              "points": 21,
+              "points": 22,
               "goalsDiff": -27,
               "group": "Ligue 1",
-              "form": "DLWLL",
+              "form": "DDLWL",
               "status": "same",
               "description": "Relegation - Ligue 2",
               "all": {
-                "played": 28,
+                "played": 29,
                 "win": 4,
-                "draw": 9,
+                "draw": 10,
                 "lose": 15,
                 "goals": {
-                  "for": 20,
-                  "against": 47
+                  "for": 21,
+                  "against": 48
                 }
               },
               "home": {
-                "played": 14,
+                "played": 15,
                 "win": 2,
-                "draw": 4,
+                "draw": 5,
                 "lose": 8,
                 "goals": {
-                  "for": 9,
-                  "against": 24
+                  "for": 10,
+                  "against": 25
                 }
               },
               "away": {
@@ -829,7 +829,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-04-13T00:00:00+00:00"
+              "update": "2024-04-14T00:00:00+00:00"
             }
           ]
         ]
