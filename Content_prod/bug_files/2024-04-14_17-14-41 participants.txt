@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/participants.py", line 167, in <module>
-    dir_standings = os.listdir((os.path.abspath(__file__))[:-15]+'/cache/answers/standings')
-FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics//cache/answers/standings'

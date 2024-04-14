@@ -164,10 +164,10 @@ try:    # обработка исключений для определения 
             for club in tournaments[ass]['tournaments'][tourn]['participants']:
                 participants_id.append(club['id'])
     club_account = []  # список учтеных клубов
-    dir_standings = os.listdir((os.path.abspath(__file__))[:-15]+'/cache/answers/standings')
-    with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/associations.json', 'r', encoding='utf-8') as j:
+    dir_standings = os.listdir((os.path.abspath(__file__))[:-23]+'/cache/answers/standings')
+    with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/associations.json', 'r', encoding='utf-8') as j:
         associations = json.load(j)
-    with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
+    with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
         groups_dict = json.load(j)
     for ass in tournaments:
         # представление participants по нац ассоциациям в порядке рейтинга ассоциаций
@@ -235,7 +235,7 @@ try:    # обработка исключений для определения 
             for file in dir_standings:
                 if ass in file and file > file_standings:
                     file_standings = file
-            with open((os.path.abspath(__file__))[:-15]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
+            with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
                 league_standings = json.load(j)
             for league in groups_dict:
                 if file_standings[:16] in league:
@@ -272,7 +272,7 @@ try:    # обработка исключений для определения 
             for file in dir_standings:
                 if ass in file and file > file_standings:
                     file_standings = file
-            with open((os.path.abspath(__file__))[:-15]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
+            with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
                 league_standings = json.load(j)
             ass_str = ''
             for group in league_standings['response'][0]['league']['standings']:
