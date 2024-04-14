@@ -205,12 +205,12 @@
             "id": 42
           },
           {
-            "club": "Liverpool",
-            "id": 40
-          },
-          {
             "club": "Manchester City",
             "id": 50
+          },
+          {
+            "club": "Liverpool",
+            "id": 40
           }
         ]
       },
