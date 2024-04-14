@@ -1,76 +1,45 @@
-UEFA
-      23-24 Champions League    
-                              Manchester City
-                              Real Madrid
-                              Atletico Madrid
-                              Bayern Munich
-                              Barcelona
-                              Arsenal
-                              Borussia Dortmund
-                              Paris Saint Germain
-                              FC Porto
-                              Inter
-                              RB Leipzig
-                              Lazio
-                              Real Sociedad
-                              Napoli
-                              PSV Eindhoven
-                              FC Copenhagen
-      23-24 Europa League       
-                              Bayer Leverkusen
-                              Atalanta
-                              AC Milan
-                              Liverpool
-                              West Ham
-                              AS Roma
-      23-24 Conference League   
-                              Club Brugge KV
-TL
-      TopLiga                   
-                              Manchester City
-                              Bayern Munich
-                              Real Madrid
-                              Paris Saint Germain
-                              Liverpool
-                              Inter
-                              RB Leipzig
-                              AS Roma
-                              Chelsea
-                              Manchester United
 ENG
       23-24 Premier League      
-                              Arsenal
-                              Liverpool
-                              Manchester City
-      23-24 FA Cup              
-                              Manchester United
-      23-24 League Cup          
-                              Liverpool
+                           1  Arsenal                          UCL       
+                           2  Manchester City            TL    UCL       
+                           3  Liverpool                  TL    UEL   LCup
+                              Manchester United          TL          Cup 
+                              West Ham                         UEL       
+                              Chelsea                    TL              
 ESP
       23-24 La Liga             
-                              Real Madrid
-                              Barcelona
-                              Girona
-                              Atletico Madrid
+                           1  Real Madrid                TL    UCL       
+                           2  Barcelona                        UCL       
+                           3  Girona                                     
+                           4  Atletico Madrid                  UCL       
+                              Real Sociedad                    UCL       
 ITA
       23-24 Serie A             
-                              Inter
-                              AC Milan
-                              Juventus
-      23-24 Coppa Italia        
-                              Lazio
+                           1  Inter                      TL    UCL       
+                           2  AC Milan                         UEL       
+                           3  Juventus                                   
+                              AS Roma                    TL    UEL       
+                              Atalanta                         UEL       
+                              Lazio                            UCL   Cup 
+                              Napoli                           UCL       
 GER
       23-24 Bundesliga          
-                              Bayer Leverkusen
-                              Bayern Munich
-                              VfB Stuttgart
-                              RB Leipzig
+                           1  Bayer Leverkusen                 UEL       
+                           2  Bayern Munich              TL    UCL       
+                           3  VfB Stuttgart                              
+                           4  RB Leipzig                 TL    UCL       
+                              Borussia Dortmund                UCL       
 POR
       23-24 Primeira Liga       
-                              Sporting CP
+                           1  Sporting CP                                
+                              FC Porto                         UCL       
 FRA
       23-24 Ligue 1             
-                              Paris Saint Germain
+                           1  Paris Saint Germain        TL    UCL       
 NED
       23-24 Eredivisie          
-                              PSV Eindhoven
+                           1  PSV Eindhoven                    UCL       
+BEL
+                              Club Brugge KV                   UECL
+DEN
+                              FC Copenhagen                    UCL 
