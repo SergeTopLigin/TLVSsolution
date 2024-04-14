@@ -24,7 +24,7 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
         import os
         import json
         import random
-        with open((os.path.abspath(__file__))[:-42]+'/cache/sub_results/final_standings.json', 'r') as j:
+        with open((os.path.abspath(__file__))[:-42]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
             TL_standings = json.load(j)
 
         # актуализация fixtures и standings турнира
@@ -35,7 +35,7 @@ def participants_uefa_group(tourn, tourn_id, season, quota, prev):
         for tourn_file in os.listdir((os.path.abspath(__file__))[:-42]+'/cache/answers/standings'):
             if tourn in tourn_file and season in tourn_file:
                 file_find = 1
-                with open((os.path.abspath(__file__))[:-42]+'/cache/answers/standings/'+tourn_file, 'r') as j:
+                with open((os.path.abspath(__file__))[:-42]+'/cache/answers/standings/'+tourn_file, 'r', encoding='utf-8') as j:
                     tourn_standings = json.load(j)
                 break
         

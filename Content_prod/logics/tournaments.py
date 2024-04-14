@@ -135,7 +135,7 @@ try:    # обработка исключений для определения 
     # равной количеству турниров UEFA
     # импорт final_standings.json
     import json
-    with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/final_standings.json', 'r') as j:
+    with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
         standings = json.load(j) # {club: {IDapi: , nat: , TL_rank: , visual_rank: }} 
     i = 0   # счетчик итераций для индексов списка турниров UEFA в словаре Ass_TournRateQuot
     for club_set in UEFA_tourn_club_set_ID:     # для каждого ключа словаря (рассматриваемого турнира)
@@ -169,7 +169,7 @@ try:    # обработка исключений для определения 
     # определить квоту каждого турнира
     # импорт final_standings.json
     import json
-    with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/associations.json', 'r') as j:
+    with open((os.path.abspath(__file__))[:-22]+'/cache/sub_results/associations.json', 'r', encoding='utf-8') as j:
         associations = json.load(j) # {ass: {rating: , quota: }} 
     sum_ratings = 0   # определение суммы рейтингов турниров
     for league in whole_tourn_rate_quota:

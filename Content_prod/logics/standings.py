@@ -29,11 +29,11 @@ try:    # обработка исключений для определения 
     import os
     if TL_Influence > 0:
         # декодирование из файла TL_standings
-        with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/TL_standings.json', 'r') as j:
+        with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/TL_standings.json', 'r', encoding='utf-8') as j:
             TL_standings = json.load(j) # {club: {IDapi: , nat: , TL_rank: , visual_rank: }} 
     if UEFA_Influence > 0:
         # декодирование из файла uefa_standings
-        with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/uefa_standings.json', 'r') as j:
+        with open((os.path.abspath(__file__))[:-20]+'/cache/sub_results/uefa_standings.json', 'r', encoding='utf-8') as j:
             uefa_standings = json.load(j)   # {club: {IDapi: , nat: , TL_rank: , visual_rank: }}
         
     # формирование словаря final_standings

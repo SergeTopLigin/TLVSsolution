@@ -31,19 +31,19 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
         import json
         import random
         from modules.history_standings import history_standings
-        with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/final_standings.json', 'r') as j:
+        with open((os.path.abspath(__file__))[:-39]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
             TL_standings = json.load(j)
 
         file_find = 0   # флаг наличия файла турнира
         for tourn_file in os.listdir((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures'):
             if tourn in tourn_file and season in tourn_file:
                 file_find = 1
-                with open((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures/'+tourn_file, 'r') as j:
+                with open((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as j:
                     tourn_fixtures = json.load(j)
                 break
         if file_find == 0:  # если fixtures не найден - расчет по fixtures предыдущего сезона
             tourn_file = tourn+' '+str(int(season[:2])-1)+'-'+str(int(season[3:])-1)+' prev.json'
-            with open((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures/'+tourn_file, 'r') as j:
+            with open((os.path.abspath(__file__))[:-39]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as j:
                 tourn_fixtures = json.load(j)
 
         # список всех стадий

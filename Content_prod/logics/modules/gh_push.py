@@ -68,7 +68,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
                 # если файл - последний из выгруженных по дате
                 if 'json' in file and file > last_file:
                     last_file = file   # сохраняем последний выгруженный однотипный файл в переменную
-            with open((os.path.abspath(__file__))[:-26]+'/cache/sub_results/standings_history/'+last_file, 'r') as j:
+            with open((os.path.abspath(__file__))[:-26]+'/cache/sub_results/standings_history/'+last_file, 'r', encoding='utf-8') as j:
                 last_file_dict = json.load(j)
             if last_file_dict != file_content:    # если содержание меняется
                 repo.create_file(path+file_name, "add "+file_name, \
@@ -87,7 +87,7 @@ def gh_push(main_mod, file_dir, file_name, file_content):
                 repo.delete_file(contents.path, "remove "+file_name, contents.sha, branch="master")
                 repo.create_file(path+new_name+'.txt', "add "+new_name+'.txt', file_content, branch="master")
             elif file_name[-4:] == 'json':
-                with open((os.path.abspath(__file__))[:-38]+path+file_name, 'r') as j:
+                with open((os.path.abspath(__file__))[:-38]+path+file_name, 'r', encoding='utf-8') as j:
                     file_content = json.load(j)
                 contents = repo.get_contents(path+file_name, ref="master")
                 repo.delete_file(contents.path, "remove "+file_name, contents.sha, branch="master")

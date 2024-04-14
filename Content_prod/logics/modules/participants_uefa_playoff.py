@@ -29,7 +29,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
         import json
         import random
         from modules.participants_uefa_group import participants_uefa_group
-        with open((os.path.abspath(__file__))[:-44]+'/cache/sub_results/final_standings.json', 'r') as j:
+        with open((os.path.abspath(__file__))[:-44]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
             TL_standings = json.load(j)
 
         # актуализация fixtures и standings турнира
@@ -40,7 +40,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
         for tourn_file in os.listdir((os.path.abspath(__file__))[:-44]+'/cache/answers/fixtures'):
             if tourn in tourn_file and season in tourn_file:
                 file_find = 1
-                with open((os.path.abspath(__file__))[:-44]+'/cache/answers/fixtures/'+tourn_file, 'r') as j:
+                with open((os.path.abspath(__file__))[:-44]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as j:
                     tourn_fixtures = json.load(j)
                 break
         
@@ -86,14 +86,14 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
             # формирование standings турниров из которых возможны переходы клубов с 3-х мест групп и
             if int(season[:2]) < 24:
                 if 'UEL' in tourn:
-                    with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/UCL '+season+' stan.json', 'r') as j:
+                    with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/UCL '+season+' stan.json', 'r', encoding='utf-8') as j:
                         drop_tourn_standings = json.load(j)
                 if 'UECL' in tourn:
-                    with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/UEL '+season+' stan.json', 'r') as j:
+                    with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/UEL '+season+' stan.json', 'r', encoding='utf-8') as j:
                         drop_tourn_standings = json.load(j)
             # standings UEL, UECL для учета 1-х мест групп в 1/16 (тк они начинают плейофф с 1/8), 
             # standings турнира, если квота > количества участников 1-й стадии плейофф
-            with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/'+tourn+' '+season+' stan.json', 'r') as j:
+            with open((os.path.abspath(__file__))[:-44]+'/cache/answers/standings/'+tourn+' '+season+' stan.json', 'r', encoding='utf-8') as j:
                 tourn_standings = json.load(j)
             
             # для сезонов 23-24 и ранее, для UEL и UECL в 1/16 учесть в первую очередь победителей групп

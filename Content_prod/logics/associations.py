@@ -38,7 +38,7 @@ try:    # обработка исключений для определения 
 
     # Association rating = total club set SUM(pts+1.2>=0) in TL standigs
     import json
-    with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/final_standings.json', 'r') as j:
+    with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
         standings = json.load(j) # {club: {IDapi: , nat: , TL_rank: , visual_rank: }} 
     # определение UEFA rating
     UEFA_rating = 0
