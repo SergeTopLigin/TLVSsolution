@@ -17218,13 +17218,13 @@
     {
       "fixture": {
         "id": 1045134,
-        "referee": "F. Batta",
+        "referee": "Florent Batta, France",
         "timezone": "UTC",
         "date": "2024-04-13T19:00:00+00:00",
         "timestamp": 1713034800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713034800,
+          "second": 1713038400
         },
         "venue": {
           "id": 680,
@@ -17232,9 +17232,9 @@
           "city": "Rennes"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17251,27 +17251,27 @@
           "id": 94,
           "name": "Rennes",
           "logo": "https://media.api-sports.io/football/teams/94.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 96,
           "name": "Toulouse",
           "logo": "https://media.api-sports.io/football/teams/96.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -17558,13 +17558,13 @@
     {
       "fixture": {
         "id": 1045139,
-        "referee": "T. Léonard",
+        "referee": "Thomas Leonard, France",
         "timezone": "UTC",
         "date": "2024-04-14T13:00:00+00:00",
         "timestamp": 1713099600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713099600,
+          "second": 1713103200
         },
         "venue": {
           "id": 644,
@@ -17572,9 +17572,9 @@
           "city": "Clermont-Ferrand"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17601,17 +17601,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -17626,13 +17626,13 @@
     {
       "fixture": {
         "id": 1045140,
-        "referee": "H. Ben El Hadj",
+        "referee": "Hakim Ben el Salem Hadj, France",
         "timezone": "UTC",
         "date": "2024-04-14T11:00:00+00:00",
         "timestamp": 1713092400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713092400,
+          "second": 1713096000
         },
         "venue": {
           "id": 652,
@@ -17640,9 +17640,9 @@
           "city": "Le Havre"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17659,27 +17659,27 @@
           "id": 111,
           "name": "LE Havre",
           "logo": "https://media.api-sports.io/football/teams/111.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 83,
           "name": "Nantes",
           "logo": "https://media.api-sports.io/football/teams/83.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -19063,8 +19063,8 @@
           "second": null
         },
         "venue": {
-          "id": 659,
-          "name": "Stade Louis II",
+          "id": 20470,
+          "name": "Stade Louis-II",
           "city": "Monaco"
         },
         "status": {
@@ -19132,7 +19132,7 @@
         },
         "venue": {
           "id": 19207,
-          "name": "Decathlon Arena – Stade Pierre-Mauroy",
+          "name": "Decathlon Arena - Stade Pierre-Mauroy",
           "city": "Villeneuve d'Ascq"
         },
         "status": {
@@ -19268,7 +19268,7 @@
         },
         "venue": {
           "id": 674,
-          "name": "Stade Auguste-Delaune II",
+          "name": "Stade Auguste-Delaune",
           "city": "Reims"
         },
         "status": {
