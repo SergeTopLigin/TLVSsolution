@@ -18034,13 +18034,13 @@
     {
       "fixture": {
         "id": 1055335,
-        "referee": "D. Higler",
+        "referee": "Dennis Higler, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-14T18:00:00+00:00",
         "timestamp": 1713117600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713117600,
+          "second": 1713121200
         },
         "venue": {
           "id": 1140,
@@ -18048,9 +18048,9 @@
           "city": "Nijmegen"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18077,17 +18077,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18374,7 +18374,7 @@
     {
       "fixture": {
         "id": 1055340,
-        "referee": null,
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-04-24T16:45:00+00:00",
         "timestamp": 1713977100,
@@ -18442,7 +18442,7 @@
     {
       "fixture": {
         "id": 1055341,
-        "referee": null,
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2024-04-25T19:00:00+00:00",
         "timestamp": 1714071600,
@@ -18510,7 +18510,7 @@
     {
       "fixture": {
         "id": 1055342,
-        "referee": null,
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-04-25T16:45:00+00:00",
         "timestamp": 1714063500,
@@ -18714,7 +18714,7 @@
     {
       "fixture": {
         "id": 1055345,
-        "referee": null,
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-04-24T19:00:00+00:00",
         "timestamp": 1713985200,
