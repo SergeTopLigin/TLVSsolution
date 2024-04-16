@@ -296,7 +296,7 @@ try:    # обработка исключений для определения 
                             # обновить файл standings если standings не обновлялся больше недели
                             if datetime.datetime.utcnow() - datetime.timedelta(days=7) > \
                             datetime.datetime(int(update_time[:4]), int(update_time[5:7]), int(update_time[8:])):
-                                LeagueID = [Nat_Tournaments[ass][tourn][3] for tourn in Nat_Tournaments[ass] if Nat_Tournaments[ass][tourn][0] == ass+' League'][0]
+                                LeagueID = [tourn[3] for tourn in Nat_Tournaments[ass] if tourn[0] == ass+' League'][0]
                                 Season = str(datetime.datetime.utcnow().year if datetime.datetime.utcnow().month > 7 else datetime.datetime.utcnow().year -1)
                                 answer = api_key("/standings?league="+str(LeagueID)+"&season="+Season)
                                 time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
