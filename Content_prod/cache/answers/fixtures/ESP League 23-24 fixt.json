@@ -20420,7 +20420,7 @@
         "timestamp": 1713112200,
         "periods": {
           "first": 1713112200,
-          "second": null
+          "second": 1713115800
         },
         "venue": {
           "id": 1460,
@@ -20428,9 +20428,9 @@
           "city": "Bilbao"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 42
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20457,8 +20457,8 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -20466,8 +20466,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -20686,13 +20686,13 @@
     {
       "fixture": {
         "id": 1038256,
-        "referee": "José Munuera",
+        "referee": "José Luis Munuera Montero, Spain",
         "timezone": "UTC",
         "date": "2024-04-15T19:00:00+00:00",
         "timestamp": 1713207600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713207600,
+          "second": 1713211200
         },
         "venue": {
           "id": 1486,
@@ -20700,9 +20700,9 @@
           "city": "Iruñea"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20719,27 +20719,27 @@
           "id": 727,
           "name": "Osasuna",
           "logo": "https://media.api-sports.io/football/teams/727.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 532,
           "name": "Valencia",
           "logo": "https://media.api-sports.io/football/teams/532.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -20822,13 +20822,13 @@
     {
       "fixture": {
         "id": 1038258,
-        "referee": "Isidro Díaz de Mera",
+        "referee": "Isidro Diaz de Mera Escuderos, Spain",
         "timezone": "UTC",
         "date": "2024-04-14T19:00:00+00:00",
         "timestamp": 1713121200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713121200,
+          "second": 1713124800
         },
         "venue": {
           "id": 1491,
@@ -20836,9 +20836,9 @@
           "city": "Donostia-San Sebastián"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20865,17 +20865,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -23000,8 +23000,8 @@
         "id": 1038290,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-05T00:00:00+00:00",
-        "timestamp": 1714867200,
+        "date": "2024-05-04T12:00:00+00:00",
+        "timestamp": 1714824000,
         "periods": {
           "first": null,
           "second": null
@@ -23012,8 +23012,8 @@
           "city": "Donostia-San Sebastián"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
