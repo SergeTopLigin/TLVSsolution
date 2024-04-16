@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/participants.py", line 299, in <module>
+    LeagueID = [Nat_Tournaments[ass][tourn][3] for tourn in Nat_Tournaments[ass] if Nat_Tournaments[ass][tourn][0] == ass+' League'][0]
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/participants.py", line 299, in <listcomp>
+    LeagueID = [Nat_Tournaments[ass][tourn][3] for tourn in Nat_Tournaments[ass] if Nat_Tournaments[ass][tourn][0] == ass+' League'][0]
+TypeError: list indices must be integers or slices, not list
