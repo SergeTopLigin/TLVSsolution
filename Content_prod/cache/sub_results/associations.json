@@ -59,19 +59,19 @@
     "rating": 0.45,
     "quota": 0
   },
-  "CRO": {
-    "rating": 0.4,
-    "quota": 0
-  },
   "AUT": {
     "rating": 0.4,
     "quota": 0
   },
-  "SRB": {
-    "rating": 0.09,
+  "CRO": {
+    "rating": 0.4,
     "quota": 0
   },
   "GRE": {
+    "rating": 0.09,
+    "quota": 0
+  },
+  "SRB": {
     "rating": 0.09,
     "quota": 0
   }
