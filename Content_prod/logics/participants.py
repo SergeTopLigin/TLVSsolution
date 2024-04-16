@@ -289,8 +289,10 @@ try:    # обработка исключений для определения 
                     league_standings = json.load(j)
                 ass_str = ''
                 update_time = ''
+                print(ass)
                 for group in league_standings['response'][0]['league']['standings']:
                     for club in group:
+                        print(club['team']['name'])
                         if club['team']['id'] in other:
                             update_time = league_standings['response'][0]['league']['standings'][group][club]['update'][:10]
                             # обновить файл standings если standings не обновлялся больше недели
