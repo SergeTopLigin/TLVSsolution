@@ -201,12 +201,12 @@
         "name": "Premier League",
         "participants": [
           {
-            "club": "Arsenal",
-            "id": 42
-          },
-          {
             "club": "Manchester City",
             "id": 50
+          },
+          {
+            "club": "Arsenal",
+            "id": 42
           },
           {
             "club": "Liverpool",
@@ -232,7 +232,7 @@
       "ENG LCup 23-24": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.28,
+        "rating": 0.27,
         "quota": 1,
         "id": 48,
         "type": "Cup",
