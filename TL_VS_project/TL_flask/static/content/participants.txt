@@ -1,7 +1,7 @@
 ENG
       23-24 Premier League      
-                           1  Arsenal                          UCL       
-                           2  Manchester City            TL    UCL       
+                           1  Manchester City            TL    UCL       
+                           2  Arsenal                          UCL       
                            3  Liverpool                  TL    UEL   LCup
                               Manchester United          TL          Cup 
                               West Ham                         UEL       
