@@ -17490,13 +17490,13 @@
     {
       "fixture": {
         "id": 1045138,
-        "referee": "M. Vernice",
+        "referee": "Mathieu Vernice, France",
         "timezone": "UTC",
         "date": "2024-04-14T18:45:00+00:00",
         "timestamp": 1713120300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713120300,
+          "second": 1713123900
         },
         "venue": {
           "id": 666,
@@ -17504,9 +17504,9 @@
           "city": "Décines-Charpieu"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17523,27 +17523,27 @@
           "id": 80,
           "name": "Lyon",
           "logo": "https://media.api-sports.io/football/teams/80.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 106,
           "name": "Stade Brestois 29",
           "logo": "https://media.api-sports.io/football/teams/106.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 3
         },
         "extratime": {
           "home": null,
