@@ -156,6 +156,13 @@ try:    # обработка исключений для определения 
     # список невошедших в квоту nat_league без позиций но в порядке nat_league curr season
     # клубы из ассоциаций без квоты
     # поставить слева от клуба short_name турниров, в квоту которых он попал
+    import time, datetime
+    from modules.gh_push import gh_push
+    from modules.runner_push import runner_push
+    from modules.apisports_key import api_key
+    from modules.nat_tournaments import Nat_Tournaments
+    from modules.bug_mail import bug_mail
+    Nat_Tournaments = Nat_Tournaments()
     participants_str = ""
     # набрать список всех клубов участников
     participants_id = []
@@ -245,7 +252,7 @@ try:    # обработка исключений для определения 
                 for group in league_standings['response'][0]['league']['standings']:
                     for club in group:
                         if club['group'] == stage and club['team']['id'] in participants_id and club['team']['id'] not in club_account:
-                            # поставить слева от клуба short_name турниров, в квоту которых он попал
+                            # поставить справа от клуба short_name турниров, в квоту которых он попал
                             # uefa quota
                             uefa_quota = ''
                             for tourn in tournaments['UEFA']['tournaments']:
@@ -266,39 +273,80 @@ try:    # обработка исключений для определения 
                             club_account.append(club['team']['id'])
     # клубы из ассоциаций без квоты
     other = list(set(participants_id) - set(club_account))
-    for ass in associations:
-        if ass not in tournaments:
-            file_standings = ass+' League'
-            for file in dir_standings:
-                if ass in file and file > file_standings:
-                    file_standings = file
-            with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
-                league_standings = json.load(j)
-            ass_str = ''
-            for group in league_standings['response'][0]['league']['standings']:
-                for club in group:
-                    if club['team']['id'] in other:
-                        # строка асоциаии
-                        if ass_str == '':
-                            participants_str += ass + '\n'
-                            ass_str = ass
-                        # поставить слева от клуба short_name турниров, в квоту которых он попал
-                        # uefa quota
-                        uefa_quota = ''
-                        for tourn in tournaments['UEFA']['tournaments']:
-                            if {'club': club['team']['name'], 'id': club['team']['id']} in tournaments['UEFA']['tournaments'][tourn]['participants']:
-                                uefa_quota = tournaments['UEFA']['tournaments'][tourn]['tytle']
-                        # TL quota
-                        TL_quota = ''
-                        if {'club': club['team']['name'], 'id': club['team']['id']} in tournaments['TopLiga']['tournaments']['TopLiga']['participants']:
-                            TL_quota = tournaments['TopLiga']['as_short']
-                        participants_str += ' '*30 + "{0:25}  {1:4}  {2:4}"\
-                           .format(club['team']['name'], TL_quota, uefa_quota) + '\n'
-                        club_account.append(club['team']['id'])
-                        other = list(set(participants_id) - set(club_account))
-                        if len(other) == 0:     break
-                if len(other) == 0:     break
-        if len(other) == 0:     break
+    if len(other) != 0:
+        for ass in associations:
+            if ass not in tournaments:
+                file_standings = ass+' League'
+                for file in dir_standings:
+                    if ass in file and file > file_standings:
+                        file_standings = file
+                # если нет файла standings ассоциации
+                if file_standings == ass+' League':
+                    # добавить вручную ассоцацию в nat_tournaments.py и в /standings
+                    gh_push(str(mod_name), 'bug_files', 'bug_file', "добавить вручную ассоцацию "+ass+" в nat_tournaments.py и в /standings")
+                    bug_mail(str(mod_name), "добавить вручную ассоцацию "+ass+" в nat_tournaments.py и в /standings")
+                with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
+                    league_standings = json.load(j)
+                ass_str = ''
+                update_time = ''
+                for group in league_standings['response'][0]['league']['standings']:
+                    for club in group:
+                        if club['team']['id'] in other:
+                            update_time = league_standings['response'][0]['league']['standings'][group][club]['update'][:10]
+                            # обновить файл standings если standings не обновлялся больше недели
+                            if datetime.datetime.utcnow() - datetime.timedelta(days=7) > \
+                            datetime.datetime(int(update_time[:4]), int(update_time[5:7]), int(update_time[8:])):
+                                LeagueID = [Nat_Tournaments[ass][tourn][3] for tourn in Nat_Tournaments[ass] if Nat_Tournaments[ass][tourn][0] == ass+' League'][0]
+                                Season = str(datetime.datetime.utcnow().year if datetime.datetime.utcnow().month > 7 else datetime.datetime.utcnow().year -1)
+                                answer = api_key("/standings?league="+str(LeagueID)+"&season="+Season)
+                                time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
+                                # если 'results' != 0 - сохранить standings
+                                answer_dict = json.loads(answer)
+                                if answer_dict['results'] != 0:
+                                    file_name = ass+' League '+Season[2:]+'-'+str(int(Season[2:])+1)+' stan.json'
+                                    gh_push(str(mod_name), 'standings', file_name, answer_dict)
+                                    runner_push(str(mod_name), 'standings', file_name, answer_dict)
+                                else:
+                                    gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу standings?league="+str(LeagueID)+"&season="+Season+" results=0")
+                                    bug_mail(str(mod_name), "по запросу standings?league="+str(LeagueID)+"&season="+Season+" results=0")
+                            break
+                    if update_time != '': break
+                dir_standings = os.listdir((os.path.abspath(__file__))[:-23]+'/cache/answers/standings')
+                file_standings = ass+' League'
+                for file in dir_standings:
+                    if ass in file and file > file_standings:
+                        file_standings = file
+                with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
+                    league_standings = json.load(j)
+                ass_str = ''
+                for group in league_standings['response'][0]['league']['standings']:
+                    for club in group:
+                        if club['team']['id'] in other:
+                            # строка асоциаии
+                            if ass_str == '':
+                                participants_str += ass + '\n'
+                                ass_str = ass
+                            # поставить справа от клуба short_name турниров, в квоту которых он попал
+                            # uefa quota
+                            uefa_quota = ''
+                            for tourn in tournaments['UEFA']['tournaments']:
+                                if {'club': club['team']['name'], 'id': club['team']['id']} in tournaments['UEFA']['tournaments'][tourn]['participants']:
+                                    uefa_quota = tournaments['UEFA']['tournaments'][tourn]['tytle']
+                            # TL quota
+                            TL_quota = ''
+                            if {'club': club['team']['name'], 'id': club['team']['id']} in tournaments['TopLiga']['tournaments']['TopLiga']['participants']:
+                                TL_quota = tournaments['TopLiga']['as_short']
+                            participants_str += ' '*30 + "{0:25}  {1:4}  {2:4}"\
+                               .format(club['team']['name'], TL_quota, uefa_quota) + '\n'
+                            club_account.append(club['team']['id'])
+                            other = list(set(participants_id) - set(club_account))
+                            if len(other) == 0:     break
+                    if len(other) == 0:     break
+            if len(other) == 0:     break
+    # если в участниках не учтены все клубы из ассоциаций без квоты - значит: в associations.json нет ассоциации неучтеных клубов
+    if len(other) != 0:
+        gh_push(str(mod_name), 'bug_files', 'bug_file', "в associations.json нет ассоциации участника")
+        bug_mail(str(mod_name), "в associations.json нет ассоциации участника")
 
     # выгрузка participants.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'participants.txt', participants_str)
