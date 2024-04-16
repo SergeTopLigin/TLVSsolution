@@ -17156,7 +17156,7 @@
         "timestamp": 1713114000,
         "periods": {
           "first": 1713114000,
-          "second": null
+          "second": 1713117600
         },
         "venue": {
           "id": 1275,
@@ -17164,9 +17164,9 @@
           "city": "Arouca"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 12
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17183,27 +17183,27 @@
           "id": 240,
           "name": "Arouca",
           "logo": "https://media.api-sports.io/football/teams/240.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 222,
           "name": "Boavista",
           "logo": "https://media.api-sports.io/football/teams/222.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": 0,
+          "home": 2,
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -17354,23 +17354,23 @@
     {
       "fixture": {
         "id": 1063731,
-        "referee": "Hélder Carvalho",
+        "referee": "Helder Filipe Claudio Carvalho, Portugal",
         "timezone": "UTC",
         "date": "2024-04-14T19:30:00+00:00",
         "timestamp": 1713123000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713123000,
+          "second": 1713126600
         },
         "venue": {
           "id": null,
-          "name": "Estádio do Sport Lisboa e Benfica",
-          "city": "Lisboa"
+          "name": "Estádio da Luz",
+          "city": "Lisbon"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17387,27 +17387,27 @@
           "id": 211,
           "name": "Benfica",
           "logo": "https://media.api-sports.io/football/teams/211.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 215,
           "name": "Moreirense",
           "logo": "https://media.api-sports.io/football/teams/215.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -17626,13 +17626,13 @@
     {
       "fixture": {
         "id": 1063735,
-        "referee": "João Pedro Pinheiro",
+        "referee": "Joao Pedro Pinheiro, Portugal",
         "timezone": "UTC",
         "date": "2024-04-15T19:15:00+00:00",
         "timestamp": 1713208500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713208500,
+          "second": 1713212100
         },
         "venue": {
           "id": 2817,
@@ -17640,9 +17640,9 @@
           "city": "Caldas de Vizela"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17659,27 +17659,27 @@
           "id": 810,
           "name": "Vizela",
           "logo": "https://media.api-sports.io/football/teams/810.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 223,
           "name": "Chaves",
           "logo": "https://media.api-sports.io/football/teams/223.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -17700,7 +17700,7 @@
         "timestamp": 1713114000,
         "periods": {
           "first": 1713114000,
-          "second": null
+          "second": 1713117600
         },
         "venue": {
           "id": 1285,
@@ -17708,9 +17708,9 @@
           "city": "Portimão"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 13
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17727,27 +17727,27 @@
           "id": 216,
           "name": "Portimonense",
           "logo": "https://media.api-sports.io/football/teams/216.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 4716,
           "name": "Casa Pia",
           "logo": "https://media.api-sports.io/football/teams/4716.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
