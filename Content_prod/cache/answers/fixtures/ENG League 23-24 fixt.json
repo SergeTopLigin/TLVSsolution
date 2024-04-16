@@ -21856,9 +21856,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 82
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21875,18 +21875,18 @@
           "id": 42,
           "name": "Arsenal",
           "logo": "https://media.api-sports.io/football/teams/42.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 66,
           "name": "Aston Villa",
           "logo": "https://media.api-sports.io/football/teams/66.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -21894,8 +21894,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -22046,13 +22046,13 @@
     {
       "fixture": {
         "id": 1035498,
-        "referee": "P. Tierney",
+        "referee": "Paul Tierney, England",
         "timezone": "UTC",
         "date": "2024-04-15T19:00:00+00:00",
         "timestamp": 1713207600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713207600,
+          "second": 1713211200
         },
         "venue": {
           "id": 519,
@@ -22060,9 +22060,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22079,27 +22079,27 @@
           "id": 49,
           "name": "Chelsea",
           "logo": "https://media.api-sports.io/football/teams/49.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 45,
           "name": "Everton",
           "logo": "https://media.api-sports.io/football/teams/45.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 6,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 6,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -23960,7 +23960,7 @@
         },
         "venue": {
           "id": 508,
-          "name": "The American Express Community Stadium",
+          "name": "American Express Stadium",
           "city": "Falmer, East Sussex"
         },
         "status": {
