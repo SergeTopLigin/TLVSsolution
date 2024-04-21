@@ -1,6 +1,4 @@
-# games = {1:[{'game_status': 'unfinished'}]}
-games = {}
-for club_list in games:
-    for game in games[club_list]:
-        if game['game_status'] == 'unfinished':
-            print('yes')
+participants_nat = {}
+participants_nat['ENG'] = []
+participants_nat['ENG'].append({'club': 'Manchester City', 'id': 50})
+print(participants_nat)

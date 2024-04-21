@@ -42,19 +42,19 @@ games = {club_id:
     # на момент начала матча оба играющих клуба находятся в списке участников
     # основное время игры завершилось: только с 'game_status' = 'fixed'
 # в словарь games.json занести игры, 
-    # начавшиеся после предыдущего расчета (позже последнего времени в workflows.json):
+    # начавшиеся после предыдущего расчета (позже последнего времени в worktimes.json):
         # 'fixed' - с завершенным основным временем
         # 'unfinished' - с незавершенным основным временем
             # если в них участвуют participants предыдущего расчета
             # нужен каталог /participants_history
-            # после расчета записать текущее время в workflows.json
+            # после расчета записать текущее время в worktimes.json
     # 'expected' - ожидаемые игры по текущему списку участников (для формирования fixtures)
         # могут исчезать и появлятся другие при изменении списка участников
         # на неделю вперед
 # при каждом расчете 
     # из games.json проверять 'unfinished' на завершение основного времени и изменять их на 'fixed'
     # в games.json включать новые игры 'fixed' и 'unfinished', начавшиеся после предыдущего расчета 
-        # (позже последнего времени в workflows.json до текущего времени):
+        # (позже последнего времени в worktimes.json до текущего времени):
     # из games.json удалять игры 'expected'
     # в games.json включать новые игры 'expected' по списку участников текущего расчета
 # расчет standings и формирование results по играм 'fixed'
@@ -63,7 +63,7 @@ games = {club_id:
 
 try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
-    import os, json
+    import os, json, time, datetime
     with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/participants.json', 'r', encoding='utf-8') as j:
         participants = json.load(j)
     with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
@@ -100,6 +100,30 @@ try:    # обработка исключений для определения 
                         break
                     if game['fixture_id'] == fixture['fixture']['id']:
                         break
+
+    # в games.json включать новые игры 'fixed' и 'unfinished', начавшиеся после предыдущего расчета 
+        # (позже последнего времени в worktimes.json до текущего времени):
+    # определение текущего времени
+    curr_timestamp = time.time()
+    curr_datetime = datetime.datetime.utcnow()
+    # извлечение времени последнего расчета
+    with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/worktimes.json', 'r', encoding='utf-8') as j:
+        worktimes = json.load(j)
+    # если worktimes.json пуст - новые игры 'fixed' и 'unfinished' не включаются до следующего расчета
+    if len(worktimes) > 0:
+        prev_timestamp = worktimes[-1][1]   # время предыдущего расчета
+        # поиск игр между участниками, начавшихся между prev_timestamp и curr_timestamp, по fixtures 
+            # всех турниров UEFA и всех турниров нац ассоциаций с participants >1 (по participants_nat.json)
+
+
+    # фиксация в worktimes.json времени текущего расчета
+    worktimes.append([curr_datetime, curr_timestamp])
+    # и выгрузка worktimes.json в репо и на runner: /sub_results
+    mod_name = os.path.basename(__file__)[:-3]
+    from modules.gh_push import gh_push
+    gh_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
+    from modules.runner_push import runner_push
+    runner_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
 
 
 

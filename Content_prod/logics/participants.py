@@ -148,7 +148,8 @@ try:    # обработка исключений для определения 
     #                 participants_str += ' '*30 + club['club'] + '\n'
     # participants_str = participants_str[:-1]
 
-    # формирование строки из словаря в читабельном виде
+    # формирование строки из словаря в читабельном виде и 
+        # participants_nat.json (словарь участников по нац ассоциациям)
     # представление participants по нац ассоциациям в порядке рейтинга ассоциаций
     # строка нац ассоциации
     # список квоты nat_league prev season с позициями перед клубами
@@ -157,13 +158,12 @@ try:    # обработка исключений для определения 
     # клубы из ассоциаций без квоты
     # поставить слева от клуба short_name турниров, в квоту которых он попал
     import time, datetime
-    from modules.gh_push import gh_push
-    from modules.runner_push import runner_push
     from modules.apisports_key import api_key
     from modules.nat_tournaments import Nat_Tournaments
     from modules.bug_mail import bug_mail
     Nat_Tournaments = Nat_Tournaments()
     participants_str = ""
+    participants_nat = {}
     # набрать список всех клубов участников
     participants_id = []
     for ass in tournaments:
@@ -181,6 +181,8 @@ try:    # обработка исключений для определения 
         if ass in [country['fifa'] for country in country_codes if ass == country['fifa']]:
             # вписать строку нац ассоциации
             participants_str += tournaments[ass]['as_short'] + '\n'
+            # добавить ключ в словарь participants_nat
+            participants_nat[tournaments[ass]['as_short']] = []
             # список сезонов нац лиги с квотой > 0 в учитываемых турнирах
             league_seasons = [tournaments[ass]['tournaments'][tourn]['season'] for tourn in tournaments[ass]['tournaments'] \
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'League' and tournaments[ass]['tournaments'][tourn]['quota'] > 0]
@@ -212,6 +214,8 @@ try:    # обработка исключений для определения 
                         .format(club['club'], TL_quota, uefa_quota, nat_cup_quota, rank) + '\n'
                     rank += 1
                     club_account.append(club['id'])
+                    # добавить участника в participants_nat
+                    participants_nat[tournaments[ass]['as_short']].append({'club': club['club'], 'id': club['id']})
             # вписать список квоты nat_league curr season с позициями перед клубами
             curr_parts = [tournaments[ass]['tournaments'][tourn]['participants'] for tourn in tournaments[ass]['tournaments'] \
                 if tournaments[ass]['tournaments'][tourn]['type'] == 'League' and tournaments[ass]['tournaments'][tourn]['season'] == max(league_seasons)][0]
@@ -236,6 +240,8 @@ try:    # обработка исключений для определения 
                     .format(club['club'], TL_quota, uefa_quota, nat_cup_quota, rank) + '\n'
                 rank += 1
                 club_account.append(club['id'])
+                # добавить участника в participants_nat
+                participants_nat[tournaments[ass]['as_short']].append({'club': club['club'], 'id': club['id']})
             # список невошедших в квоту nat_league без позиций но в порядке nat_league curr season
             # по nat standings
             file_standings = ass+' League'
@@ -271,6 +277,8 @@ try:    # обработка исключений для определения 
                             participants_str += ' '*30 + "{0:25}  {1:4}  {2:4}  {3:4}"\
                                .format(club['team']['name'], TL_quota, uefa_quota, nat_cup_quota) + '\n'
                             club_account.append(club['team']['id'])
+                            # добавить участника в participants_nat
+                            participants_nat[tournaments[ass]['as_short']].append({'club': club['club'], 'id': club['id']})
     # клубы из ассоциаций без квоты
     other = list(set(participants_id) - set(club_account))
     if len(other) != 0:
@@ -285,8 +293,10 @@ try:    # обработка исключений для определения 
                     # добавить вручную ассоцацию в nat_tournaments.py и в /standings
                     gh_push(str(mod_name), 'bug_files', 'bug_file', "добавить вручную ассоцацию "+ass+" в nat_tournaments.py и в /standings")
                     bug_mail(str(mod_name), "добавить вручную ассоцацию "+ass+" в nat_tournaments.py и в /standings")
-                with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
-                    league_standings = json.load(j)
+                    league_standings = {'response': [{'league': {'standings': []}}]}    # пустой список групп standings для корректного завершения
+                else:
+                    with open((os.path.abspath(__file__))[:-23]+'/cache/answers/standings/'+file_standings, 'r', encoding='utf-8') as j:
+                        league_standings = json.load(j)
                 ass_str = ''
                 update_time = ''
                 for group in league_standings['response'][0]['league']['standings']:
@@ -326,6 +336,8 @@ try:    # обработка исключений для определения 
                             if ass_str == '':
                                 participants_str += ass + '\n'
                                 ass_str = ass
+                                # добавить ключ в словарь participants_nat
+                                participants_nat[ass] = []
                             # поставить справа от клуба short_name турниров, в квоту которых он попал
                             # uefa quota
                             uefa_quota = ''
@@ -339,6 +351,8 @@ try:    # обработка исключений для определения 
                             participants_str += ' '*30 + "{0:25}  {1:4}  {2:4}"\
                                .format(club['team']['name'], TL_quota, uefa_quota) + '\n'
                             club_account.append(club['team']['id'])
+                            # добавить участника в participants_nat
+                            participants_nat[ass].append({'club': club['team']['name'], 'id': club['team']['id']})
                             other = list(set(participants_id) - set(club_account))
                             if len(other) == 0:     break
                     if len(other) == 0:     break
@@ -352,6 +366,10 @@ try:    # обработка исключений для определения 
     gh_push(str(mod_name), 'content', 'participants.txt', participants_str)
     runner_push(str(mod_name), 'content', 'participants.txt', participants_str)
     gh_push(str(mod_name), 'content_commits', 'participants.txt', participants_str)
+
+    # выгрузка participants_nat.json в репо и на runner: /sub_results
+    gh_push(str(mod_name), 'sub_results', 'participants_nat.json', participants_nat)
+    runner_push(str(mod_name), 'sub_results', 'participants_nat.json', participants_nat)
 
 except: 
 
