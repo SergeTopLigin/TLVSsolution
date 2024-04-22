@@ -8,115 +8,115 @@
   "Bayern Munich": {
     "IDapi": 157,
     "nat": "GER",
-    "TL_rank": 1.98,
-    "visual_rank": 94
+    "TL_rank": 2.05,
+    "visual_rank": 96
   },
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 1.61,
-    "visual_rank": 83
+    "TL_rank": 1.64,
+    "visual_rank": 84
   },
   "Paris Saint Germain": {
     "IDapi": 85,
     "nat": "FRA",
-    "TL_rank": 1.15,
-    "visual_rank": 69
+    "TL_rank": 1.21,
+    "visual_rank": 71
   },
   "Liverpool": {
     "IDapi": 40,
     "nat": "ENG",
-    "TL_rank": 1.12,
-    "visual_rank": 68
+    "TL_rank": 1.15,
+    "visual_rank": 69
   },
   "Inter": {
     "IDapi": 505,
     "nat": "ITA",
-    "TL_rank": 0.78,
-    "visual_rank": 58
-  },
-  "RB Leipzig": {
-    "IDapi": 173,
-    "nat": "GER",
-    "TL_rank": 0.65,
-    "visual_rank": 54
+    "TL_rank": 0.75,
+    "visual_rank": 57
   },
   "AS Roma": {
     "IDapi": 497,
     "nat": "ITA",
-    "TL_rank": 0.65,
+    "TL_rank": 0.72,
+    "visual_rank": 56
+  },
+  "RB Leipzig": {
+    "IDapi": 173,
+    "nat": "GER",
+    "TL_rank": 0.62,
     "visual_rank": 54
   },
   "Chelsea": {
     "IDapi": 49,
     "nat": "ENG",
-    "TL_rank": 0.62,
-    "visual_rank": 54
-  },
-  "Manchester United": {
-    "IDapi": 33,
-    "nat": "ENG",
-    "TL_rank": 0.5,
-    "visual_rank": 50
-  },
-  "Barcelona": {
-    "IDapi": 529,
-    "nat": "ESP",
-    "TL_rank": 0.47,
-    "visual_rank": 49
+    "TL_rank": 0.59,
+    "visual_rank": 53
   },
   "Borussia Dortmund": {
     "IDapi": 165,
     "nat": "GER",
-    "TL_rank": 0.41,
-    "visual_rank": 47
+    "TL_rank": 0.47,
+    "visual_rank": 49
+  },
+  "Manchester United": {
+    "IDapi": 33,
+    "nat": "ENG",
+    "TL_rank": 0.47,
+    "visual_rank": 49
+  },
+  "Barcelona": {
+    "IDapi": 529,
+    "nat": "ESP",
+    "TL_rank": 0.44,
+    "visual_rank": 48
   },
   "Atletico Madrid": {
     "IDapi": 530,
     "nat": "ESP",
-    "TL_rank": 0.41,
-    "visual_rank": 47
+    "TL_rank": 0.38,
+    "visual_rank": 46
   },
   "Bayer Leverkusen": {
     "IDapi": 168,
     "nat": "GER",
-    "TL_rank": 0.25,
-    "visual_rank": 43
+    "TL_rank": 0.28,
+    "visual_rank": 44
   },
   "Sevilla": {
     "IDapi": 536,
     "nat": "ESP",
-    "TL_rank": 0.25,
-    "visual_rank": 43
+    "TL_rank": 0.22,
+    "visual_rank": 42
   },
   "Villarreal": {
     "IDapi": 533,
     "nat": "ESP",
-    "TL_rank": 0.19,
-    "visual_rank": 41
+    "TL_rank": 0.16,
+    "visual_rank": 40
   },
   "Napoli": {
     "IDapi": 492,
     "nat": "ITA",
-    "TL_rank": 0.13,
-    "visual_rank": 39
+    "TL_rank": 0.1,
+    "visual_rank": 38
   },
   "Juventus": {
     "IDapi": 496,
     "nat": "ITA",
-    "TL_rank": 0.13,
-    "visual_rank": 39
+    "TL_rank": 0.1,
+    "visual_rank": 38
   },
   "Benfica": {
     "IDapi": 211,
     "nat": "POR",
-    "TL_rank": 0.1,
-    "visual_rank": 38
+    "TL_rank": 0.07,
+    "visual_rank": 37
   },
   "FC Porto": {
     "IDapi": 212,
     "nat": "POR",
-    "TL_rank": 0.04,
+    "TL_rank": 0.01,
     "visual_rank": 36
   },
   "Atalanta": {
@@ -128,8 +128,8 @@
   "Arsenal": {
     "IDapi": 42,
     "nat": "ENG",
-    "TL_rank": -0.12,
-    "visual_rank": 32
+    "TL_rank": -0.15,
+    "visual_rank": 31
   },
   "West Ham": {
     "IDapi": 48,
@@ -140,146 +140,146 @@
   "Ajax": {
     "IDapi": 194,
     "nat": "NED",
-    "TL_rank": -0.27,
-    "visual_rank": 27
+    "TL_rank": -0.3,
+    "visual_rank": 26
   },
   "Shakhtar Donetsk": {
     "IDapi": 550,
     "nat": "UKR",
-    "TL_rank": -0.4,
-    "visual_rank": 24
-  },
-  "Rangers": {
-    "IDapi": 257,
-    "nat": "SCO",
-    "TL_rank": -0.4,
-    "visual_rank": 24
-  },
-  "Eintracht Frankfurt": {
-    "IDapi": 169,
-    "nat": "GER",
-    "TL_rank": -0.49,
-    "visual_rank": 21
+    "TL_rank": -0.43,
+    "visual_rank": 23
   },
   "Club Brugge KV": {
     "IDapi": 569,
     "nat": "BEL",
-    "TL_rank": -0.49,
-    "visual_rank": 21
+    "TL_rank": -0.43,
+    "visual_rank": 23
+  },
+  "Rangers": {
+    "IDapi": 257,
+    "nat": "SCO",
+    "TL_rank": -0.43,
+    "visual_rank": 23
+  },
+  "Eintracht Frankfurt": {
+    "IDapi": 169,
+    "nat": "GER",
+    "TL_rank": -0.52,
+    "visual_rank": 20
   },
   "AC Milan": {
     "IDapi": 489,
     "nat": "ITA",
-    "TL_rank": -0.52,
-    "visual_rank": 20
+    "TL_rank": -0.55,
+    "visual_rank": 19
   },
   "Feyenoord": {
     "IDapi": 209,
     "nat": "NED",
-    "TL_rank": -0.58,
-    "visual_rank": 18
+    "TL_rank": -0.61,
+    "visual_rank": 17
   },
   "Sporting CP": {
     "IDapi": 228,
     "nat": "POR",
-    "TL_rank": -0.66,
-    "visual_rank": 16
+    "TL_rank": -0.69,
+    "visual_rank": 15
   },
   "Lazio": {
     "IDapi": 487,
     "nat": "ITA",
-    "TL_rank": -0.67,
-    "visual_rank": 16
+    "TL_rank": -0.71,
+    "visual_rank": 14
   },
   "PSV Eindhoven": {
     "IDapi": 197,
     "nat": "NED",
-    "TL_rank": -0.67,
-    "visual_rank": 16
+    "TL_rank": -0.71,
+    "visual_rank": 14
   },
   "Tottenham": {
     "IDapi": 47,
     "nat": "ENG",
-    "TL_rank": -0.67,
-    "visual_rank": 16
+    "TL_rank": -0.71,
+    "visual_rank": 14
   },
   "Slavia Praha": {
     "IDapi": 560,
     "nat": "CZE",
-    "TL_rank": -0.71,
+    "TL_rank": -0.74,
     "visual_rank": 14
   },
   "FC Basel 1893": {
     "IDapi": 551,
     "nat": "SUI",
-    "TL_rank": -0.74,
-    "visual_rank": 14
+    "TL_rank": -0.77,
+    "visual_rank": 13
   },
   "FC Copenhagen": {
     "IDapi": 400,
     "nat": "DEN",
-    "TL_rank": -0.75,
-    "visual_rank": 13
+    "TL_rank": -0.78,
+    "visual_rank": 12
   },
   "Real Sociedad": {
     "IDapi": 548,
     "nat": "ESP",
-    "TL_rank": -0.77,
-    "visual_rank": 13
+    "TL_rank": -0.8,
+    "visual_rank": 12
   },
   "Dinamo Zagreb": {
     "IDapi": 620,
     "nat": "CRO",
-    "TL_rank": -0.8,
-    "visual_rank": 12
+    "TL_rank": -0.83,
+    "visual_rank": 11
   },
   "AZ Alkmaar": {
     "IDapi": 201,
     "nat": "NED",
-    "TL_rank": -0.8,
-    "visual_rank": 12
+    "TL_rank": -0.83,
+    "visual_rank": 11
   },
   "Red Bull Salzburg": {
     "IDapi": 571,
     "nat": "AUT",
-    "TL_rank": -0.8,
-    "visual_rank": 12
+    "TL_rank": -0.83,
+    "visual_rank": 11
   },
   "SC Braga": {
     "IDapi": 217,
     "nat": "POR",
-    "TL_rank": -0.83,
-    "visual_rank": 11
-  },
-  "Lille": {
-    "IDapi": 79,
-    "nat": "FRA",
-    "TL_rank": -0.95,
-    "visual_rank": 7
-  },
-  "Gent": {
-    "IDapi": 631,
-    "nat": "BEL",
-    "TL_rank": -0.95,
-    "visual_rank": 7
+    "TL_rank": -0.86,
+    "visual_rank": 10
   },
   "Marseille": {
     "IDapi": 81,
     "nat": "FRA",
+    "TL_rank": -0.92,
+    "visual_rank": 8
+  },
+  "Lille": {
+    "IDapi": 79,
+    "nat": "FRA",
+    "TL_rank": -0.92,
+    "visual_rank": 8
+  },
+  "Gent": {
+    "IDapi": 631,
+    "nat": "BEL",
     "TL_rank": -0.98,
     "visual_rank": 6
   },
   "Lyon": {
     "IDapi": 80,
     "nat": "FRA",
-    "TL_rank": -0.98,
+    "TL_rank": -1.01,
     "visual_rank": 6
   },
   "Rennes": {
     "IDapi": 94,
     "nat": "FRA",
-    "TL_rank": -1.01,
-    "visual_rank": 6
+    "TL_rank": -1.05,
+    "visual_rank": 4
   },
   "Olympiakos Piraeus": {
     "IDapi": 553,
@@ -290,12 +290,12 @@
   "FK Crvena Zvezda": {
     "IDapi": 598,
     "nat": "SRB",
-    "TL_rank": -1.11,
-    "visual_rank": 3
+    "TL_rank": -1.14,
+    "visual_rank": 2
   },
-  "PAOK": {
-    "IDapi": 619,
-    "nat": "GRE",
+  "Fiorentina": {
+    "IDapi": 502,
+    "nat": "ITA",
     "TL_rank": -1.2,
     "visual_rank": 0
   }
