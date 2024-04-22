@@ -117,11 +117,17 @@ try:    # обработка исключений для определения 
     with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
         standings = json.load(j)
     tournaments['TopLiga']['tournaments']['TopLiga']['participants'] = []
+    # определение рейтинга 10-го места
     rank = 0
     for club in standings:
-        tournaments['TopLiga']['tournaments']['TopLiga']['participants'].append({'club': club, 'id': standings[club]['IDapi']})
         rank += 1
-        if rank == 10:  break
+        if rank == 10:
+            TL_rank_10 = standings[club]['TL_rank']
+            break
+    # включение в participants клубов с рейтингом >= TL_rank_10
+    for club in standings:
+        if standings[club]['TL_rank'] >= TL_rank_10:
+            tournaments['TopLiga']['tournaments']['TopLiga']['participants'].append({'club': club, 'id': standings[club]['IDapi']})
 
     # формирование participants.json из словаря tournaments
     # и выгрузка participants.json в репо и на runner: /sub_results
