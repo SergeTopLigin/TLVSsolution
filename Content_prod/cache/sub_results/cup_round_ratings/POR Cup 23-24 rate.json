@@ -1218,7 +1218,7 @@
   },
   {
     "round": "Semi-finals",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
       "timestamp": 1713392100,
       "date": "2024-04-17 22:15:00"
@@ -1243,6 +1243,27 @@
         "name": "FC Porto",
         "id": 212,
         "rating": 0.04
+      }
+    ]
+  },
+  {
+    "round": "Final",
+    "type": "curr",
+    "last_date": {
+      "timestamp": 1716750900,
+      "date": "2024-05-26 19:15:00"
+    },
+    "rating": 0.86,
+    "club_set": [
+      {
+        "name": "FC Porto",
+        "id": 212,
+        "rating": 0.01
+      },
+      {
+        "name": "Sporting CP",
+        "id": 228,
+        "rating": -0.69
       }
     ]
   }
