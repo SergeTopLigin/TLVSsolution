@@ -5318,7 +5318,7 @@
     {
       "fixture": {
         "id": 1141423,
-        "referee": "P. van Boekel",
+        "referee": "Pol van Boekel, Netherlands",
         "timezone": "UTC",
         "date": "2023-12-20T20:00:00+00:00",
         "timestamp": 1703102400,
@@ -5386,7 +5386,7 @@
     {
       "fixture": {
         "id": 1141424,
-        "referee": "R. Hensgens",
+        "referee": "Robin Hensgens, Netherlands",
         "timezone": "UTC",
         "date": "2023-12-20T19:00:00+00:00",
         "timestamp": 1703098800,
@@ -5794,7 +5794,7 @@
     {
       "fixture": {
         "id": 1141430,
-        "referee": "J. Rozendal",
+        "referee": "Jesse Rozendal, Netherlands",
         "timezone": "UTC",
         "date": "2023-12-20T19:00:00+00:00",
         "timestamp": 1703098800,
@@ -5930,7 +5930,7 @@
     {
       "fixture": {
         "id": 1141432,
-        "referee": "L. Timmer",
+        "referee": "Luuk Timmer, Netherlands",
         "timezone": "UTC",
         "date": "2023-12-20T19:00:00+00:00",
         "timestamp": 1703098800,
@@ -6066,7 +6066,7 @@
     {
       "fixture": {
         "id": 1141434,
-        "referee": "J. Manschot",
+        "referee": "Jeroen Manschot, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-17T20:00:00+00:00",
         "timestamp": 1705521600,
@@ -6270,7 +6270,7 @@
     {
       "fixture": {
         "id": 1141437,
-        "referee": "I. Oostrom",
+        "referee": "Ingmar Oostrom, Netherlands",
         "timezone": "UTC",
         "date": "2023-12-20T17:45:00+00:00",
         "timestamp": 1703094300,
@@ -6406,7 +6406,7 @@
     {
       "fixture": {
         "id": 1151454,
-        "referee": "R. Martens",
+        "referee": "Richard Martens, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-25T19:00:00+00:00",
         "timestamp": 1706209200,
@@ -6474,7 +6474,7 @@
     {
       "fixture": {
         "id": 1151455,
-        "referee": "E. van de Graaf",
+        "referee": "Edwin Van de Graaf, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-16T20:00:00+00:00",
         "timestamp": 1705435200,
@@ -6542,7 +6542,7 @@
     {
       "fixture": {
         "id": 1151456,
-        "referee": "M. Vos",
+        "referee": "Martijn Vos, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-16T17:45:00+00:00",
         "timestamp": 1705427100,
@@ -6610,7 +6610,7 @@
     {
       "fixture": {
         "id": 1151457,
-        "referee": "A. Bos",
+        "referee": "Alex Bos, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-18T17:45:00+00:00",
         "timestamp": 1705599900,
@@ -6678,7 +6678,7 @@
     {
       "fixture": {
         "id": 1151458,
-        "referee": "B. Nijhuis",
+        "referee": "Bas Nijhuis, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-17T17:45:00+00:00",
         "timestamp": 1705513500,
@@ -6746,7 +6746,7 @@
     {
       "fixture": {
         "id": 1151459,
-        "referee": "A. Lindhout",
+        "referee": "Allard Lindhout, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-17T19:00:00+00:00",
         "timestamp": 1705518000,
@@ -6814,7 +6814,7 @@
     {
       "fixture": {
         "id": 1151460,
-        "referee": "M. van den Kerkhof",
+        "referee": "Martin Van den Kerkhof, Netherlands",
         "timezone": "UTC",
         "date": "2024-01-16T19:00:00+00:00",
         "timestamp": 1705431600,
@@ -7018,7 +7018,7 @@
     {
       "fixture": {
         "id": 1162485,
-        "referee": "D. Higler",
+        "referee": "Dennis Higler, Netherlands",
         "timezone": "UTC",
         "date": "2024-02-08T19:00:00+00:00",
         "timestamp": 1707418800,
@@ -7086,7 +7086,7 @@
     {
       "fixture": {
         "id": 1167792,
-        "referee": "R. Dieperink",
+        "referee": "Rob Dieperink, Netherlands",
         "timezone": "UTC",
         "date": "2024-02-07T17:45:00+00:00",
         "timestamp": 1707327900,
@@ -7154,7 +7154,7 @@
     {
       "fixture": {
         "id": 1167793,
-        "referee": "B. Nijhuis",
+        "referee": "Bas Nijhuis, Netherlands",
         "timezone": "UTC",
         "date": "2024-02-07T20:00:00+00:00",
         "timestamp": 1707336000,
@@ -7222,7 +7222,7 @@
     {
       "fixture": {
         "id": 1173881,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2024-02-29T19:00:00+00:00",
         "timestamp": 1709233200,
@@ -7290,7 +7290,7 @@
     {
       "fixture": {
         "id": 1173882,
-        "referee": "S. van der Eijk",
+        "referee": "Sander van der Eijk, Netherlands",
         "timezone": "UTC",
         "date": "2024-02-27T19:00:00+00:00",
         "timestamp": 1709060400,
@@ -7358,13 +7358,13 @@
     {
       "fixture": {
         "id": 1180074,
-        "referee": null,
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-21T16:00:00+00:00",
         "timestamp": 1713715200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713715200,
+          "second": 1713718800
         },
         "venue": {
           "id": 1128,
@@ -7372,9 +7372,9 @@
           "city": "Rotterdam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -7391,27 +7391,27 @@
           "id": 209,
           "name": "Feyenoord",
           "logo": "https://media.api-sports.io/football/teams/209.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 413,
           "name": "NEC Nijmegen",
           "logo": "https://media.api-sports.io/football/teams/413.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
