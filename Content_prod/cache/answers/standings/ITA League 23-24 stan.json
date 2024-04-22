@@ -64,7 +64,7 @@
                   "against": 7
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -109,7 +109,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -118,20 +118,20 @@
                 "name": "Juventus",
                 "logo": "https://media.api-sports.io/football/teams/496.png"
               },
-              "points": 63,
+              "points": 64,
               "goalsDiff": 21,
               "group": "Serie A",
-              "form": "DWLDD",
+              "form": "DDWLD",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 18,
-                "draw": 9,
+                "draw": 10,
                 "lose": 5,
                 "goals": {
-                  "for": 45,
-                  "against": 24
+                  "for": 47,
+                  "against": 26
                 }
               },
               "home": {
@@ -145,16 +145,16 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 8,
-                "draw": 4,
+                "draw": 5,
                 "lose": 4,
                 "goals": {
-                  "for": 22,
-                  "against": 14
+                  "for": 24,
+                  "against": 16
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -199,7 +199,7 @@
                   "against": 17
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -211,9 +211,9 @@
               "points": 55,
               "goalsDiff": 21,
               "group": "Serie A",
-              "form": "WDWD",
+              "form": "WDWDW",
               "status": "same",
-              "description": "Promotion - Europa League (Group Stage: )",
+              "description": "Promotion - Champions League (Group Stage: )",
               "all": {
                 "played": 31,
                 "win": 16,
@@ -244,7 +244,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -253,20 +253,20 @@
                 "name": "Atalanta",
                 "logo": "https://media.api-sports.io/football/teams/499.png"
               },
-              "points": 51,
-              "goalsDiff": 21,
+              "points": 54,
+              "goalsDiff": 22,
               "group": "Serie A",
-              "form": "DLWDL",
+              "form": "WDLWD",
               "status": "same",
-              "description": "Promotion - Europa Conference League (Qualification: )",
+              "description": "Promotion - Europa League (Group Stage: )",
               "all": {
-                "played": 31,
-                "win": 15,
+                "played": 32,
+                "win": 16,
                 "draw": 6,
                 "lose": 10,
                 "goals": {
-                  "for": 57,
-                  "against": 36
+                  "for": 59,
+                  "against": 37
                 }
               },
               "home": {
@@ -280,16 +280,16 @@
                 }
               },
               "away": {
-                "played": 16,
-                "win": 5,
+                "played": 17,
+                "win": 6,
                 "draw": 4,
                 "lose": 7,
                 "goals": {
-                  "for": 24,
-                  "against": 24
+                  "for": 26,
+                  "against": 25
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -298,19 +298,19 @@
                 "name": "Lazio",
                 "logo": "https://media.api-sports.io/football/teams/487.png"
               },
-              "points": 49,
-              "goalsDiff": 6,
+              "points": 52,
+              "goalsDiff": 7,
               "group": "Serie A",
-              "form": "WLWWL",
+              "form": "WWLWW",
               "status": "same",
-              "description": null,
+              "description": "Promotion - Europa Conference League (Qualification: )",
               "all": {
-                "played": 32,
-                "win": 15,
+                "played": 33,
+                "win": 16,
                 "draw": 4,
                 "lose": 13,
                 "goals": {
-                  "for": 41,
+                  "for": 42,
                   "against": 35
                 }
               },
@@ -325,16 +325,16 @@
                 }
               },
               "away": {
-                "played": 16,
-                "win": 7,
+                "played": 17,
+                "win": 8,
                 "draw": 1,
                 "lose": 8,
                 "goals": {
-                  "for": 22,
+                  "for": 23,
                   "against": 22
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -344,19 +344,19 @@
                 "logo": "https://media.api-sports.io/football/teams/492.png"
               },
               "points": 49,
-              "goalsDiff": 10,
+              "goalsDiff": 9,
               "group": "Serie A",
-              "form": "DWLDD",
+              "form": "LDWLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 13,
                 "draw": 10,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
                   "for": 50,
-                  "against": 40
+                  "against": 41
                 }
               },
               "home": {
@@ -370,34 +370,79 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 7,
                 "draw": 5,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
                   "for": 28,
-                  "against": 17
+                  "against": 18
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 9,
+              "team": {
+                "id": 502,
+                "name": "Fiorentina",
+                "logo": "https://media.api-sports.io/football/teams/502.png"
+              },
+              "points": 47,
+              "goalsDiff": 9,
+              "group": "Serie A",
+              "form": "WDLLD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 32,
+                "win": 13,
+                "draw": 8,
+                "lose": 11,
+                "goals": {
+                  "for": 45,
+                  "against": 36
+                }
+              },
+              "home": {
+                "played": 16,
+                "win": 8,
+                "draw": 4,
+                "lose": 4,
+                "goals": {
+                  "for": 28,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 16,
+                "win": 5,
+                "draw": 4,
+                "lose": 7,
+                "goals": {
+                  "for": 17,
+                  "against": 18
+                }
+              },
+              "update": "2024-04-22T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
               "team": {
                 "id": 503,
                 "name": "Torino",
                 "logo": "https://media.api-sports.io/football/teams/503.png"
               },
-              "points": 45,
+              "points": 46,
               "goalsDiff": 2,
               "group": "Serie A",
-              "form": "DLWWD",
+              "form": "DDLWW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 11,
-                "draw": 12,
+                "draw": 13,
                 "lose": 9,
                 "goals": {
                   "for": 31,
@@ -405,9 +450,9 @@
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 7,
-                "draw": 7,
+                "draw": 8,
                 "lose": 2,
                 "goals": {
                   "for": 15,
@@ -424,52 +469,7 @@
                   "against": 21
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
-            },
-            {
-              "rank": 10,
-              "team": {
-                "id": 502,
-                "name": "Fiorentina",
-                "logo": "https://media.api-sports.io/football/teams/502.png"
-              },
-              "points": 44,
-              "goalsDiff": 7,
-              "group": "Serie A",
-              "form": "DLLDD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 31,
-                "win": 12,
-                "draw": 8,
-                "lose": 11,
-                "goals": {
-                  "for": 43,
-                  "against": 36
-                }
-              },
-              "home": {
-                "played": 16,
-                "win": 8,
-                "draw": 4,
-                "lose": 4,
-                "goals": {
-                  "for": 28,
-                  "against": 18
-                }
-              },
-              "away": {
-                "played": 15,
-                "win": 4,
-                "draw": 4,
-                "lose": 7,
-                "goals": {
-                  "for": 15,
-                  "against": 18
-                }
-              },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -479,29 +479,29 @@
                 "logo": "https://media.api-sports.io/football/teams/1579.png"
               },
               "points": 43,
-              "goalsDiff": -7,
+              "goalsDiff": -8,
               "group": "Serie A",
-              "form": "DLLWW",
+              "form": "LDLLW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 11,
                 "draw": 10,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
-                  "for": 34,
-                  "against": 41
+                  "for": 35,
+                  "against": 43
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 6,
                 "draw": 5,
-                "lose": 5,
+                "lose": 6,
                 "goals": {
-                  "for": 20,
-                  "against": 21
+                  "for": 21,
+                  "against": 23
                 }
               },
               "away": {
@@ -514,7 +514,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -524,29 +524,29 @@
                 "logo": "https://media.api-sports.io/football/teams/495.png"
               },
               "points": 39,
-              "goalsDiff": -4,
+              "goalsDiff": -5,
               "group": "Serie A",
-              "form": "DWDDL",
+              "form": "LDWDD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 9,
                 "draw": 12,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
                   "for": 35,
-                  "against": 39
+                  "against": 40
                 }
               },
               "home": {
-                "played": 15,
+                "played": 16,
                 "win": 5,
                 "draw": 6,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
                   "for": 20,
-                  "against": 20
+                  "against": 21
                 }
               },
               "away": {
@@ -559,7 +559,7 @@
                   "against": 19
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -568,19 +568,19 @@
                 "name": "Lecce",
                 "logo": "https://media.api-sports.io/football/teams/867.png"
               },
-              "points": 32,
-              "goalsDiff": -21,
+              "points": 35,
+              "goalsDiff": -18,
               "group": "Serie A",
-              "form": "WLDWL",
+              "form": "WWLDW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
-                "win": 7,
+                "played": 33,
+                "win": 8,
                 "draw": 11,
                 "lose": 14,
                 "goals": {
-                  "for": 27,
+                  "for": 30,
                   "against": 48
                 }
               },
@@ -595,16 +595,16 @@
                 }
               },
               "away": {
-                "played": 16,
-                "win": 1,
+                "played": 17,
+                "win": 2,
                 "draw": 6,
                 "lose": 9,
                 "goals": {
-                  "for": 11,
+                  "for": 14,
                   "against": 26
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -613,30 +613,30 @@
                 "name": "Cagliari",
                 "logo": "https://media.api-sports.io/football/teams/490.png"
               },
-              "points": 31,
+              "points": 32,
               "goalsDiff": -20,
               "group": "Serie A",
-              "form": "DWDLW",
+              "form": "DDWDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 7,
-                "draw": 10,
+                "draw": 11,
                 "lose": 15,
                 "goals": {
-                  "for": 34,
-                  "against": 54
+                  "for": 36,
+                  "against": 56
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 6,
-                "draw": 5,
+                "draw": 6,
                 "lose": 5,
                 "goals": {
-                  "for": 23,
-                  "against": 26
+                  "for": 25,
+                  "against": 28
                 }
               },
               "away": {
@@ -649,83 +649,38 @@
                   "against": 28
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 15,
-              "team": {
-                "id": 494,
-                "name": "Udinese",
-                "logo": "https://media.api-sports.io/football/teams/494.png"
-              },
-              "points": 28,
-              "goalsDiff": -17,
-              "group": "Serie A",
-              "form": "LDLW",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 31,
-                "win": 4,
-                "draw": 16,
-                "lose": 11,
-                "goals": {
-                  "for": 30,
-                  "against": 47
-                }
-              },
-              "home": {
-                "played": 16,
-                "win": 1,
-                "draw": 9,
-                "lose": 6,
-                "goals": {
-                  "for": 18,
-                  "against": 25
-                }
-              },
-              "away": {
-                "played": 15,
-                "win": 3,
-                "draw": 7,
-                "lose": 5,
-                "goals": {
-                  "for": 12,
-                  "against": 22
-                }
-              },
-              "update": "2024-04-15T00:00:00+00:00"
-            },
-            {
-              "rank": 16,
               "team": {
                 "id": 504,
                 "name": "Verona",
                 "logo": "https://media.api-sports.io/football/teams/504.png"
               },
-              "points": 28,
-              "goalsDiff": -14,
+              "points": 31,
+              "goalsDiff": -13,
               "group": "Serie A",
-              "form": "DLDLW",
+              "form": "WDLDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
-                "win": 6,
+                "played": 33,
+                "win": 7,
                 "draw": 10,
                 "lose": 16,
                 "goals": {
-                  "for": 30,
+                  "for": 31,
                   "against": 44
                 }
               },
               "home": {
-                "played": 15,
-                "win": 4,
+                "played": 16,
+                "win": 5,
                 "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 17,
+                  "for": 18,
                   "against": 21
                 }
               },
@@ -739,38 +694,38 @@
                   "against": 23
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
-              "rank": 17,
+              "rank": 16,
               "team": {
                 "id": 511,
                 "name": "Empoli",
                 "logo": "https://media.api-sports.io/football/teams/511.png"
               },
-              "points": 28,
-              "goalsDiff": -23,
+              "points": 31,
+              "goalsDiff": -22,
               "group": "Serie A",
-              "form": "LWLLL",
+              "form": "WLWLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 32,
-                "win": 7,
+                "played": 33,
+                "win": 8,
                 "draw": 7,
                 "lose": 18,
                 "goals": {
-                  "for": 25,
+                  "for": 26,
                   "against": 48
                 }
               },
               "home": {
-                "played": 16,
-                "win": 3,
+                "played": 17,
+                "win": 4,
                 "draw": 4,
                 "lose": 9,
                 "goals": {
-                  "for": 12,
+                  "for": 13,
                   "against": 22
                 }
               },
@@ -784,7 +739,52 @@
                   "against": 26
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 494,
+                "name": "Udinese",
+                "logo": "https://media.api-sports.io/football/teams/494.png"
+              },
+              "points": 28,
+              "goalsDiff": -18,
+              "group": "Serie A",
+              "form": "LLDLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 32,
+                "win": 4,
+                "draw": 16,
+                "lose": 12,
+                "goals": {
+                  "for": 30,
+                  "against": 48
+                }
+              },
+              "home": {
+                "played": 16,
+                "win": 1,
+                "draw": 9,
+                "lose": 6,
+                "goals": {
+                  "for": 18,
+                  "against": 25
+                }
+              },
+              "away": {
+                "played": 16,
+                "win": 3,
+                "draw": 7,
+                "lose": 6,
+                "goals": {
+                  "for": 12,
+                  "against": 23
+                }
+              },
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -793,16 +793,16 @@
                 "name": "Frosinone",
                 "logo": "https://media.api-sports.io/football/teams/512.png"
               },
-              "points": 27,
+              "points": 28,
               "goalsDiff": -23,
               "group": "Serie A",
-              "form": "DDDLL",
+              "form": "DDDDL",
               "status": "same",
               "description": "Relegation - Serie B",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 6,
-                "draw": 9,
+                "draw": 10,
                 "lose": 17,
                 "goals": {
                   "for": 40,
@@ -820,16 +820,16 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 0,
-                "draw": 5,
+                "draw": 6,
                 "lose": 11,
                 "goals": {
                   "for": 15,
                   "against": 37
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 19,
@@ -839,29 +839,29 @@
                 "logo": "https://media.api-sports.io/football/teams/488.png"
               },
               "points": 26,
-              "goalsDiff": -23,
+              "goalsDiff": -26,
               "group": "Serie A",
-              "form": "DDDLW",
+              "form": "LDDDL",
               "status": "same",
               "description": "Relegation - Serie B",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 6,
                 "draw": 8,
-                "lose": 18,
+                "lose": 19,
                 "goals": {
                   "for": 39,
-                  "against": 62
+                  "against": 65
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 4,
                 "draw": 5,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
                   "for": 22,
-                  "against": 29
+                  "against": 32
                 }
               },
               "away": {
@@ -874,7 +874,7 @@
                   "against": 33
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             },
             {
               "rank": 20,
@@ -884,29 +884,29 @@
                 "logo": "https://media.api-sports.io/football/teams/514.png"
               },
               "points": 15,
-              "goalsDiff": -42,
+              "goalsDiff": -44,
               "group": "Serie A",
-              "form": "LDLLL",
+              "form": "LLDLL",
               "status": "same",
               "description": "Relegation - Serie B",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 2,
                 "draw": 9,
-                "lose": 21,
+                "lose": 22,
                 "goals": {
                   "for": 26,
-                  "against": 68
+                  "against": 70
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 1,
                 "draw": 5,
-                "lose": 10,
+                "lose": 11,
                 "goals": {
                   "for": 15,
-                  "against": 32
+                  "against": 34
                 }
               },
               "away": {
@@ -919,7 +919,7 @@
                   "against": 36
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-22T00:00:00+00:00"
             }
           ]
         ]
