@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/participants.py", line 287, in <module>
+    participants_nat[tournaments[ass]['as_short']].append({'club': club['club'], 'id': club['id']})
+KeyError: 'club'
