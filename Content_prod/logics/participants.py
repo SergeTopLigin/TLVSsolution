@@ -284,7 +284,7 @@ try:    # обработка исключений для определения 
                                .format(club['team']['name'], TL_quota, uefa_quota, nat_cup_quota) + '\n'
                             club_account.append(club['team']['id'])
                             # добавить участника в participants_nat
-                            participants_nat[tournaments[ass]['as_short']].append({'club': club['club'], 'id': club['id']})
+                            participants_nat[tournaments[ass]['as_short']].append({'club': club['team']['name'], 'id': club['team']['id']})
     # клубы из ассоциаций без квоты
     other = list(set(participants_id) - set(club_account))
     if len(other) != 0:
