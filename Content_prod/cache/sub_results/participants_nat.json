@@ -1,1 +1,136 @@
-{}
+{
+  "ENG": [
+    {
+      "club": "Manchester City",
+      "id": 50
+    },
+    {
+      "club": "Arsenal",
+      "id": 42
+    },
+    {
+      "club": "Liverpool",
+      "id": 40
+    },
+    {
+      "club": "Manchester United",
+      "id": 33
+    },
+    {
+      "club": "Chelsea",
+      "id": 49
+    }
+  ],
+  "ESP": [
+    {
+      "club": "Real Madrid",
+      "id": 541
+    },
+    {
+      "club": "Barcelona",
+      "id": 529
+    },
+    {
+      "club": "Girona",
+      "id": 547
+    },
+    {
+      "club": "Atletico Madrid",
+      "id": 530
+    },
+    {
+      "club": "Real Sociedad",
+      "id": 548
+    }
+  ],
+  "GER": [
+    {
+      "club": "Bayer Leverkusen",
+      "id": 168
+    },
+    {
+      "club": "Bayern Munich",
+      "id": 157
+    },
+    {
+      "club": "VfB Stuttgart",
+      "id": 172
+    },
+    {
+      "club": "RB Leipzig",
+      "id": 173
+    },
+    {
+      "club": "Borussia Dortmund",
+      "id": 165
+    }
+  ],
+  "ITA": [
+    {
+      "club": "Inter",
+      "id": 505
+    },
+    {
+      "club": "AC Milan",
+      "id": 489
+    },
+    {
+      "club": "Juventus",
+      "id": 496
+    },
+    {
+      "club": "AS Roma",
+      "id": 497
+    },
+    {
+      "club": "Atalanta",
+      "id": 499
+    },
+    {
+      "club": "Lazio",
+      "id": 487
+    },
+    {
+      "club": "Napoli",
+      "id": 492
+    }
+  ],
+  "POR": [
+    {
+      "club": "Sporting CP",
+      "id": 228
+    },
+    {
+      "club": "FC Porto",
+      "id": 212
+    }
+  ],
+  "FRA": [
+    {
+      "club": "Paris Saint Germain",
+      "id": 85
+    },
+    {
+      "club": "Marseille",
+      "id": 81
+    }
+  ],
+  "NED": [
+    {
+      "club": "PSV Eindhoven",
+      "id": 197
+    }
+  ],
+  "BEL": [
+    {
+      "club": "Club Brugge KV",
+      "id": 569
+    }
+  ],
+  "DEN": [
+    {
+      "club": "FC Copenhagen",
+      "id": 400
+    }
+  ]
+}
