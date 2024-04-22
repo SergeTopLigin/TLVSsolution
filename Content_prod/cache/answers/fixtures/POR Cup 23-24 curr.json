@@ -5,7 +5,7 @@
     "season": "2023"
   },
   "errors": [],
-  "results": 146,
+  "results": 147,
   "paging": {
     "current": 1,
     "total": 1
@@ -9398,7 +9398,7 @@
     {
       "fixture": {
         "id": 1160847,
-        "referee": "Andre Filipe Domingues Narciso, Portugal",
+        "referee": "André Narciso",
         "timezone": "UTC",
         "date": "2024-02-08T18:45:00+00:00",
         "timestamp": 1707417900,
@@ -9466,7 +9466,7 @@
     {
       "fixture": {
         "id": 1160848,
-        "referee": "Helder Carvalho, Portugal",
+        "referee": "Hélder Carvalho",
         "timezone": "UTC",
         "date": "2024-02-08T20:45:00+00:00",
         "timestamp": 1707425100,
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1160849,
-        "referee": "Tiago Martins, Portugal",
+        "referee": "Tiago Martins",
         "timezone": "UTC",
         "date": "2024-02-07T20:45:00+00:00",
         "timestamp": 1707338700,
@@ -9670,7 +9670,7 @@
     {
       "fixture": {
         "id": 1172712,
-        "referee": "Fabio Jose Costa Verissimo, Portugal",
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-02-29T20:45:00+00:00",
         "timestamp": 1709239500,
@@ -9738,7 +9738,7 @@
     {
       "fixture": {
         "id": 1172713,
-        "referee": "Joao Pedro Pinheiro, Portugal",
+        "referee": "João Pedro Pinheiro",
         "timezone": "UTC",
         "date": "2024-04-02T19:45:00+00:00",
         "timestamp": 1712087100,
@@ -9806,7 +9806,7 @@
     {
       "fixture": {
         "id": 1180029,
-        "referee": "Nuno Miguel Serrano Almeida, Portugal",
+        "referee": "Nuno Miguel Serrano Almeida",
         "timezone": "UTC",
         "date": "2024-04-03T19:15:00+00:00",
         "timestamp": 1712171700,
@@ -9874,13 +9874,13 @@
     {
       "fixture": {
         "id": 1180030,
-        "referee": null,
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2024-04-17T19:15:00+00:00",
         "timestamp": 1713381300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713381300,
+          "second": 1713384900
         },
         "venue": {
           "id": 1286,
@@ -9888,9 +9888,9 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -9907,12 +9907,80 @@
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 224,
           "name": "Guimaraes",
           "logo": "https://media.api-sports.io/football/teams/224.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1196805,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-05-26T16:15:00+00:00",
+        "timestamp": 1716740100,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 1262,
+          "name": "Estádio Nacional",
+          "city": "Jamor, Oeiras"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 96,
+        "name": "Taça de Portugal",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/96.png",
+        "flag": "https://media.api-sports.io/flags/pt.svg",
+        "season": 2023,
+        "round": "Final"
+      },
+      "teams": {
+        "home": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png",
+          "winner": null
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png",
           "winner": null
         }
       },
