@@ -1,4 +1,11 @@
-participants_nat = {}
-participants_nat['ENG'] = []
-participants_nat['ENG'].append({'club': 'Manchester City', 'id': 50})
-print(participants_nat)
+games = {
+    1:[
+        {
+        'proba'
+        }
+    ]
+}
+
+games[1].append({'doba'})
+
+print(games)

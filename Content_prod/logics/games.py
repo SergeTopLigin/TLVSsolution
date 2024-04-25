@@ -64,11 +64,20 @@ games = {club_id:
 try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
     import os, json, time, datetime
-    with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/participants.json', 'r', encoding='utf-8') as j:
+    from modules.gh_push import gh_push
+    from modules.runner_push import runner_push
+    mod_name = os.path.basename(__file__)[:-3]
+    from modules.fixture_files import fixture_files
+    from modules.add_game import add_game
+    with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/participants_nat.json', 'r', encoding='utf-8') as j:
         participants = json.load(j)
     with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
         games = json.load(j)
     dir_fixtures = os.listdir((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures')
+    participants_id = []    # список id участников
+    for ass in participants:
+        for club in participants[ass]:
+            participants_id.append(club['id'])
 
     # из games.json проверять 'unfinished' на завершение основного времени и изменять их на 'fixed'
     for club_id in games:
@@ -112,17 +121,37 @@ try:    # обработка исключений для определения 
     # если worktimes.json пуст - новые игры 'fixed' и 'unfinished' не включаются до следующего расчета
     if len(worktimes) > 0:
         prev_timestamp = worktimes[-1][1]   # время предыдущего расчета
+        # определение текущего сезона
+        season = curr_datetime.year if curr_datetime.month > 7 else curr_datetime.year - 1
+        season = str(season)[2:]+'-'+str(season+1)[2:]
         # поиск игр между участниками, начавшихся между prev_timestamp и curr_timestamp, по fixtures 
             # всех турниров UEFA и всех турниров нац ассоциаций с participants >1 (по participants_nat.json)
+        # турниры UEFA
+        from modules.int_tournaments import int_tournaments
+        int_tournaments = int_tournaments()
+        for ass in int_tournaments:
+            for tourn in ass:
+                # актуализация fixtures турнира
+                fixture_files(tourn[0], season, tourn[2])
+                # открытие fixtures
+                with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+' fixt.json', 'r', encoding='utf-8') as j:
+                    fixtures = json.load(j)
+                for match in fixtures['response']:
+                    if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp and\
+                    match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
+                        if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
+                            games[match['teams']['home']['id']] = []
+                        if match['teams']['away']['id'] not in list(games.keys()):  # создание ключа
+                            games[match['teams']['away']['id']] = []
+                        # добавить игру в games
+                        games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id']))
+                        games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id']))
 
 
     # фиксация в worktimes.json времени текущего расчета
     worktimes.append([curr_datetime, curr_timestamp])
     # и выгрузка worktimes.json в репо и на runner: /sub_results
-    mod_name = os.path.basename(__file__)[:-3]
-    from modules.gh_push import gh_push
     gh_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
-    from modules.runner_push import runner_push
     runner_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
 
 
