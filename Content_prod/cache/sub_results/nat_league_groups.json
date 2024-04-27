@@ -19,5 +19,11 @@
   },
   "NED League 23-24": {
     "Eredivisie": 0
+  },
+  "BEL League 23-24": {
+    "First Division A: Relegation Round": 1,
+    "First Division A: Championship Round": 3,
+    "First Division A: Conference League Play-off Group": 2,
+    "First Division A: Regular Season": 0
   }
 }

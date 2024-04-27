@@ -22,7 +22,8 @@ games = {club_id:
         
         'fixture_id': int           id api sport
         'tourn_id': int             id api sport
-        'tourn_nat_type': str       nat_tournaments[ass][0]
+        'tourn_name':
+        'tourn_short': str          nat_tournaments[ass][0]
         'season': YY-YY
         'tourn_round': str
         'club_nat':
@@ -144,8 +145,8 @@ try:    # обработка исключений для определения 
                         if match['teams']['away']['id'] not in list(games.keys()):  # создание ключа
                             games[match['teams']['away']['id']] = []
                         # добавить игру в games
-                        games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id']))
-                        games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id']))
+                        games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
+                        games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
 
 
     # фиксация в worktimes.json времени текущего расчета

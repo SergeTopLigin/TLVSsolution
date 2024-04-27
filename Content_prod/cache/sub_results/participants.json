@@ -199,7 +199,7 @@
         "tytle": "ENG League",
         "season": "23-24",
         "rating": 0.59,
-        "quota": 3,
+        "quota": 4,
         "id": 39,
         "type": "League",
         "name": "Premier League",
@@ -215,13 +215,17 @@
           {
             "club": "Liverpool",
             "id": 40
+          },
+          {
+            "club": "Aston Villa",
+            "id": 66
           }
         ]
       },
       "ENG Cup 23-24": {
         "tytle": "ENG Cup",
         "season": "23-24",
-        "rating": 0.35,
+        "rating": 0.51,
         "quota": 1,
         "id": 45,
         "type": "Cup",
@@ -236,17 +240,12 @@
       "ENG LCup 23-24": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.26,
-        "quota": 1,
+        "rating": 0.25,
+        "quota": 0,
         "id": 48,
         "type": "Cup",
         "name": "League Cup",
-        "participants": [
-          {
-            "club": "Liverpool",
-            "id": 40
-          }
-        ]
+        "participants": []
       }
     }
   },
@@ -366,15 +365,15 @@
       "ITA Cup 23-24": {
         "tytle": "ITA Cup",
         "season": "23-24",
-        "rating": 0.15,
+        "rating": 0.24,
         "quota": 1,
         "id": 137,
         "type": "Cup",
         "name": "Coppa Italia",
         "participants": [
           {
-            "club": "Lazio",
-            "id": 487
+            "club": "Juventus",
+            "id": 496
           }
         ]
       }
@@ -412,7 +411,7 @@
       "POR LCup 23-24": {
         "tytle": "POR LCup",
         "season": "23-24",
-        "rating": 0.05,
+        "rating": 0.04,
         "quota": 0,
         "id": 97,
         "type": "Cup",
