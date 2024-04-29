@@ -148,7 +148,7 @@ try:    # обработка исключений для определения 
                 with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+' fixt.json', 'r', encoding='utf-8') as j:
                     fixtures = json.load(j)
                 for match in fixtures['response']:
-                    if match['fixture']['timestamp'] > prev_timestamp and\ # match['fixture']['timestamp'] < curr_timestamp and\
+                    if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp + 2500000 and\
                     match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
                         if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
                             games[match['teams']['home']['id']] = []
@@ -177,7 +177,7 @@ try:    # обработка исключений для определения 
             with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+last_word+'.json', 'r', encoding='utf-8') as j:
                 fixtures = json.load(j)
             for match in fixtures['response']:
-                if match['fixture']['timestamp'] > prev_timestamp and\ # match['fixture']['timestamp'] < curr_timestamp and\
+                if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp + 2500000 and\
                 match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
                     if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
                         games[match['teams']['home']['id']] = []
