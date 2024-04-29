@@ -17286,7 +17286,7 @@
     {
       "fixture": {
         "id": 1035428,
-        "referee": null,
+        "referee": "R. Jones",
         "timezone": "UTC",
         "date": "2024-05-02T18:30:00+00:00",
         "timestamp": 1714674600,
@@ -19054,13 +19054,13 @@
     {
       "fixture": {
         "id": 1035454,
-        "referee": "S. Hooper",
+        "referee": "Simon Hooper, England",
         "timezone": "UTC",
         "date": "2024-04-23T19:00:00+00:00",
         "timestamp": 1713898800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713898800,
+          "second": 1713902400
         },
         "venue": {
           "id": 494,
@@ -19068,9 +19068,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19087,27 +19087,27 @@
           "id": 42,
           "name": "Arsenal",
           "logo": "https://media.api-sports.io/football/teams/42.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 49,
           "name": "Chelsea",
           "logo": "https://media.api-sports.io/football/teams/49.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 5,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -19122,23 +19122,23 @@
     {
       "fixture": {
         "id": 1035455,
-        "referee": "J. Gillett",
+        "referee": "Jarred Gillett, Australia",
         "timezone": "UTC",
         "date": "2024-04-25T19:00:00+00:00",
         "timestamp": 1714071600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714071600,
+          "second": 1714075200
         },
         "venue": {
           "id": null,
-          "name": "American Express Stadium",
-          "city": "Falmer, East Sussex"
+          "name": "American Express Community's Stadium",
+          "city": "Falmer"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19155,27 +19155,27 @@
           "id": 51,
           "name": "Brighton",
           "logo": "https://media.api-sports.io/football/teams/51.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 50,
           "name": "Manchester City",
           "logo": "https://media.api-sports.io/football/teams/50.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 4
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 4
         },
         "extratime": {
           "home": null,
@@ -19258,13 +19258,13 @@
     {
       "fixture": {
         "id": 1035457,
-        "referee": "T. Bramall",
+        "referee": "Thomas Bramall, England",
         "timezone": "UTC",
         "date": "2024-04-24T19:00:00+00:00",
         "timestamp": 1713985200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713985200,
+          "second": 1713988800
         },
         "venue": {
           "id": 525,
@@ -19272,9 +19272,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19291,27 +19291,27 @@
           "id": 52,
           "name": "Crystal Palace",
           "logo": "https://media.api-sports.io/football/teams/52.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 34,
           "name": "Newcastle",
           "logo": "https://media.api-sports.io/football/teams/34.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -19326,13 +19326,13 @@
     {
       "fixture": {
         "id": 1035458,
-        "referee": "A. Madley",
+        "referee": "Andy Madley, England",
         "timezone": "UTC",
         "date": "2024-04-24T19:00:00+00:00",
         "timestamp": 1713985200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713985200,
+          "second": 1713988800
         },
         "venue": {
           "id": 8560,
@@ -19340,9 +19340,9 @@
           "city": "Liverpool"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19359,27 +19359,27 @@
           "id": 45,
           "name": "Everton",
           "logo": "https://media.api-sports.io/football/teams/45.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 40,
           "name": "Liverpool",
           "logo": "https://media.api-sports.io/football/teams/40.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -19530,13 +19530,13 @@
     {
       "fixture": {
         "id": 1035461,
-        "referee": "M. Salisbury",
+        "referee": "Salisbury Michael, England",
         "timezone": "UTC",
         "date": "2024-04-24T19:00:00+00:00",
         "timestamp": 1713985200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713985200,
+          "second": 1713988800
         },
         "venue": {
           "id": 556,
@@ -19544,9 +19544,9 @@
           "city": "Manchester"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19563,27 +19563,27 @@
           "id": 33,
           "name": "Manchester United",
           "logo": "https://media.api-sports.io/football/teams/33.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 62,
           "name": "Sheffield Utd",
           "logo": "https://media.api-sports.io/football/teams/62.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -19666,13 +19666,13 @@
     {
       "fixture": {
         "id": 1035463,
-        "referee": "S. Attwell",
+        "referee": "Stuart Attwell, England",
         "timezone": "UTC",
         "date": "2024-04-24T18:45:00+00:00",
         "timestamp": 1713984300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713984300,
+          "second": 1713987900
         },
         "venue": {
           "id": 600,
@@ -19680,9 +19680,9 @@
           "city": "Wolverhampton, West Midlands"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19699,27 +19699,27 @@
           "id": 39,
           "name": "Wolves",
           "logo": "https://media.api-sports.io/football/teams/39.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 35,
           "name": "Bournemouth",
           "logo": "https://media.api-sports.io/football/teams/35.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23134,13 +23134,13 @@
     {
       "fixture": {
         "id": 1035514,
-        "referee": null,
+        "referee": "Paul Tierney, England",
         "timezone": "UTC",
         "date": "2024-04-28T13:00:00+00:00",
         "timestamp": 1714309200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714309200,
+          "second": 1714312800
         },
         "venue": {
           "id": 504,
@@ -23148,9 +23148,9 @@
           "city": "Bournemouth, Dorset"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23167,27 +23167,27 @@
           "id": 35,
           "name": "Bournemouth",
           "logo": "https://media.api-sports.io/football/teams/35.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 51,
           "name": "Brighton",
           "logo": "https://media.api-sports.io/football/teams/51.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -23202,13 +23202,13 @@
     {
       "fixture": {
         "id": 1035515,
-        "referee": null,
+        "referee": "Craig Pawson, England",
         "timezone": "UTC",
         "date": "2024-04-27T19:00:00+00:00",
         "timestamp": 1714244400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714244400,
+          "second": 1714248000
         },
         "venue": {
           "id": 495,
@@ -23216,9 +23216,9 @@
           "city": "Birmingham"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23245,17 +23245,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -23270,13 +23270,13 @@
     {
       "fixture": {
         "id": 1035516,
-        "referee": null,
+        "referee": "Darren England, England",
         "timezone": "UTC",
         "date": "2024-04-27T16:30:00+00:00",
         "timestamp": 1714235400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714235400,
+          "second": 1714239000
         },
         "venue": {
           "id": 8560,
@@ -23284,9 +23284,9 @@
           "city": "Liverpool"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23303,27 +23303,27 @@
           "id": 45,
           "name": "Everton",
           "logo": "https://media.api-sports.io/football/teams/45.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 55,
           "name": "Brentford",
           "logo": "https://media.api-sports.io/football/teams/55.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -23338,13 +23338,13 @@
     {
       "fixture": {
         "id": 1035517,
-        "referee": null,
+        "referee": "Stuart Attwell, England",
         "timezone": "UTC",
         "date": "2024-04-27T14:00:00+00:00",
         "timestamp": 1714226400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714226400,
+          "second": 1714230000
         },
         "venue": {
           "id": 535,
@@ -23352,9 +23352,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23381,17 +23381,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23406,13 +23406,13 @@
     {
       "fixture": {
         "id": 1035518,
-        "referee": null,
+        "referee": "John Brooks, England",
         "timezone": "UTC",
         "date": "2024-04-27T14:00:00+00:00",
         "timestamp": 1714226400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714226400,
+          "second": 1714230000
         },
         "venue": {
           "id": 556,
@@ -23420,9 +23420,9 @@
           "city": "Manchester"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23449,17 +23449,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23474,13 +23474,13 @@
     {
       "fixture": {
         "id": 1035519,
-        "referee": null,
+        "referee": "Tony Harrington, England",
         "timezone": "UTC",
         "date": "2024-04-27T14:00:00+00:00",
         "timestamp": 1714226400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714226400,
+          "second": 1714230000
         },
         "venue": {
           "id": 562,
@@ -23488,9 +23488,9 @@
           "city": "Newcastle upon Tyne"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23507,27 +23507,27 @@
           "id": 34,
           "name": "Newcastle",
           "logo": "https://media.api-sports.io/football/teams/34.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 62,
           "name": "Sheffield Utd",
           "logo": "https://media.api-sports.io/football/teams/62.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 5,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23542,13 +23542,13 @@
     {
       "fixture": {
         "id": 1035520,
-        "referee": null,
+        "referee": "Simon Hooper, England",
         "timezone": "UTC",
         "date": "2024-04-28T15:30:00+00:00",
         "timestamp": 1714318200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714318200,
+          "second": 1714321800
         },
         "venue": {
           "id": 566,
@@ -23556,9 +23556,9 @@
           "city": "Nottingham, Nottinghamshire"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23575,27 +23575,27 @@
           "id": 65,
           "name": "Nottingham Forest",
           "logo": "https://media.api-sports.io/football/teams/65.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 50,
           "name": "Manchester City",
           "logo": "https://media.api-sports.io/football/teams/50.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -23610,13 +23610,13 @@
     {
       "fixture": {
         "id": 1035521,
-        "referee": null,
+        "referee": "Michael Oliver, England",
         "timezone": "UTC",
         "date": "2024-04-28T13:00:00+00:00",
         "timestamp": 1714309200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714309200,
+          "second": 1714312800
         },
         "venue": {
           "id": 593,
@@ -23624,9 +23624,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23643,27 +23643,27 @@
           "id": 47,
           "name": "Tottenham",
           "logo": "https://media.api-sports.io/football/teams/47.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 42,
           "name": "Arsenal",
           "logo": "https://media.api-sports.io/football/teams/42.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -23678,13 +23678,13 @@
     {
       "fixture": {
         "id": 1035522,
-        "referee": null,
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2024-04-27T11:30:00+00:00",
         "timestamp": 1714217400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714217400,
+          "second": 1714221000
         },
         "venue": {
           "id": 598,
@@ -23692,9 +23692,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23721,17 +23721,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -23746,13 +23746,13 @@
     {
       "fixture": {
         "id": 1035523,
-        "referee": null,
+        "referee": "David Coote, England",
         "timezone": "UTC",
         "date": "2024-04-27T14:00:00+00:00",
         "timestamp": 1714226400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714226400,
+          "second": 1714230000
         },
         "venue": {
           "id": 600,
@@ -23760,9 +23760,9 @@
           "city": "Wolverhampton, West Midlands"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23779,27 +23779,27 @@
           "id": 39,
           "name": "Wolves",
           "logo": "https://media.api-sports.io/football/teams/39.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 1359,
           "name": "Luton",
           "logo": "https://media.api-sports.io/football/teams/1359.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
