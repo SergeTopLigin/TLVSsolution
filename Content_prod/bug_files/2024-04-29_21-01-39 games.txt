@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/games.py", line 143, in <module>
+    if fixture_files(tourn[0], season, tourn[2]) == 'pass':     # если турнир не начался и нет расписания
+IndexError: string index out of range
