@@ -28,19 +28,19 @@
                 "name": "PSV Eindhoven",
                 "logo": "https://media.api-sports.io/football/teams/197.png"
               },
-              "points": 81,
-              "goalsDiff": 78,
+              "points": 84,
+              "goalsDiff": 86,
               "group": "Eredivisie",
-              "form": "WWWLW",
+              "form": "WWWWL",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 30,
-                "win": 26,
+                "played": 31,
+                "win": 27,
                 "draw": 3,
                 "lose": 1,
                 "goals": {
-                  "for": 95,
+                  "for": 103,
                   "against": 17
                 }
               },
@@ -55,16 +55,16 @@
                 }
               },
               "away": {
-                "played": 15,
-                "win": 12,
+                "played": 16,
+                "win": 13,
                 "draw": 2,
                 "lose": 1,
                 "goals": {
-                  "for": 48,
+                  "for": 56,
                   "against": 9
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -73,20 +73,20 @@
                 "name": "Feyenoord",
                 "logo": "https://media.api-sports.io/football/teams/209.png"
               },
-              "points": 72,
-              "goalsDiff": 54,
+              "points": 75,
+              "goalsDiff": 56,
               "group": "Eredivisie",
-              "form": "WWDWW",
+              "form": "WWWDW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 30,
-                "win": 22,
+                "played": 31,
+                "win": 23,
                 "draw": 6,
                 "lose": 2,
                 "goals": {
-                  "for": 77,
-                  "against": 23
+                  "for": 80,
+                  "against": 24
                 }
               },
               "home": {
@@ -100,16 +100,16 @@
                 }
               },
               "away": {
-                "played": 15,
-                "win": 11,
+                "played": 16,
+                "win": 12,
                 "draw": 3,
                 "lose": 1,
                 "goals": {
-                  "for": 35,
-                  "against": 13
+                  "for": 38,
+                  "against": 14
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -118,30 +118,30 @@
                 "name": "Twente",
                 "logo": "https://media.api-sports.io/football/teams/415.png"
               },
-              "points": 60,
-              "goalsDiff": 26,
+              "points": 63,
+              "goalsDiff": 28,
               "group": "Eredivisie",
-              "form": "LWDWL",
+              "form": "WLWDW",
               "status": "same",
               "description": "Promotion - Champions League (Qualification: )",
               "all": {
-                "played": 30,
-                "win": 18,
+                "played": 31,
+                "win": 19,
                 "draw": 6,
                 "lose": 6,
                 "goals": {
-                  "for": 56,
-                  "against": 30
+                  "for": 59,
+                  "against": 31
                 }
               },
               "home": {
-                "played": 15,
-                "win": 12,
+                "played": 16,
+                "win": 13,
                 "draw": 1,
                 "lose": 2,
                 "goals": {
-                  "for": 30,
-                  "against": 14
+                  "for": 33,
+                  "against": 15
                 }
               },
               "away": {
@@ -154,7 +154,7 @@
                   "against": 16
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -163,19 +163,19 @@
                 "name": "AZ Alkmaar",
                 "logo": "https://media.api-sports.io/football/teams/201.png"
               },
-              "points": 55,
-              "goalsDiff": 24,
+              "points": 58,
+              "goalsDiff": 27,
               "group": "Eredivisie",
-              "form": "WLLWW",
+              "form": "WWLLW",
               "status": "same",
-              "description": "Promotion - Europa League (Qualification: )",
+              "description": "Promotion - Europa League (Group Stage: )",
               "all": {
-                "played": 30,
-                "win": 16,
+                "played": 31,
+                "win": 17,
                 "draw": 7,
                 "lose": 7,
                 "goals": {
-                  "for": 59,
+                  "for": 62,
                   "against": 35
                 }
               },
@@ -190,16 +190,16 @@
                 }
               },
               "away": {
-                "played": 15,
-                "win": 6,
+                "played": 16,
+                "win": 7,
                 "draw": 5,
                 "lose": 4,
                 "goals": {
-                  "for": 23,
+                  "for": 26,
                   "against": 21
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -208,30 +208,30 @@
                 "name": "Ajax",
                 "logo": "https://media.api-sports.io/football/teams/194.png"
               },
-              "points": 48,
+              "points": 49,
               "goalsDiff": 7,
               "group": "Eredivisie",
-              "form": "WLDWD",
+              "form": "DWLDW",
               "status": "same",
-              "description": "Promotion - Eredivisie (Conference League - Play Offs: )",
+              "description": "Promotion - Europa League (Qualification: )",
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 13,
-                "draw": 9,
+                "draw": 10,
                 "lose": 8,
                 "goals": {
-                  "for": 63,
-                  "against": 56
+                  "for": 65,
+                  "against": 58
                 }
               },
               "home": {
-                "played": 15,
+                "played": 16,
                 "win": 8,
-                "draw": 5,
+                "draw": 6,
                 "lose": 2,
                 "goals": {
-                  "for": 34,
-                  "against": 19
+                  "for": 36,
+                  "against": 21
                 }
               },
               "away": {
@@ -244,7 +244,7 @@
                   "against": 37
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -254,29 +254,29 @@
                 "logo": "https://media.api-sports.io/football/teams/413.png"
               },
               "points": 47,
-              "goalsDiff": 15,
+              "goalsDiff": 12,
               "group": "Eredivisie",
-              "form": "DWDWL",
+              "form": "LDWDW",
               "status": "same",
               "description": "Promotion - Eredivisie (Conference League - Play Offs: )",
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 12,
                 "draw": 11,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
                   "for": 59,
-                  "against": 44
+                  "against": 47
                 }
               },
               "home": {
-                "played": 15,
+                "played": 16,
                 "win": 8,
                 "draw": 4,
-                "lose": 3,
+                "lose": 4,
                 "goals": {
                   "for": 33,
-                  "against": 19
+                  "against": 22
                 }
               },
               "away": {
@@ -289,7 +289,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -298,20 +298,20 @@
                 "name": "Utrecht",
                 "logo": "https://media.api-sports.io/football/teams/207.png"
               },
-              "points": 45,
+              "points": 46,
               "goalsDiff": 2,
               "group": "Eredivisie",
-              "form": "WWWLW",
+              "form": "DWWWL",
               "status": "same",
               "description": "Promotion - Eredivisie (Conference League - Play Offs: )",
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 12,
-                "draw": 9,
+                "draw": 10,
                 "lose": 9,
                 "goals": {
-                  "for": 43,
-                  "against": 41
+                  "for": 45,
+                  "against": 43
                 }
               },
               "home": {
@@ -325,92 +325,47 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 5,
-                "draw": 4,
-                "lose": 6,
-                "goals": {
-                  "for": 15,
-                  "against": 19
-                }
-              },
-              "update": "2024-04-15T00:00:00+00:00"
-            },
-            {
-              "rank": 8,
-              "team": {
-                "id": 410,
-                "name": "GO Ahead Eagles",
-                "logo": "https://media.api-sports.io/football/teams/410.png"
-              },
-              "points": 42,
-              "goalsDiff": 5,
-              "group": "Eredivisie",
-              "form": "LDDWL",
-              "status": "same",
-              "description": "Promotion - Eredivisie (Conference League - Play Offs: )",
-              "all": {
-                "played": 30,
-                "win": 11,
-                "draw": 9,
-                "lose": 10,
-                "goals": {
-                  "for": 44,
-                  "against": 39
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 7,
-                "draw": 4,
-                "lose": 4,
-                "goals": {
-                  "for": 30,
-                  "against": 17
-                }
-              },
-              "away": {
-                "played": 15,
-                "win": 4,
                 "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 14,
-                  "against": 22
+                  "for": 17,
+                  "against": 21
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
-              "rank": 9,
+              "rank": 8,
               "team": {
                 "id": 426,
                 "name": "Sparta Rotterdam",
                 "logo": "https://media.api-sports.io/football/teams/426.png"
               },
-              "points": 40,
-              "goalsDiff": 2,
+              "points": 43,
+              "goalsDiff": 3,
               "group": "Eredivisie",
-              "form": "WLWWD",
+              "form": "WWLWW",
               "status": "same",
-              "description": null,
+              "description": "Promotion - Eredivisie (Conference League - Play Offs: )",
               "all": {
-                "played": 30,
-                "win": 11,
+                "played": 31,
+                "win": 12,
                 "draw": 7,
                 "lose": 12,
                 "goals": {
-                  "for": 45,
+                  "for": 46,
                   "against": 43
                 }
               },
               "home": {
-                "played": 15,
-                "win": 4,
+                "played": 16,
+                "win": 5,
                 "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 22,
+                  "for": 23,
                   "against": 24
                 }
               },
@@ -424,7 +379,52 @@
                   "against": 19
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 410,
+                "name": "GO Ahead Eagles",
+                "logo": "https://media.api-sports.io/football/teams/410.png"
+              },
+              "points": 42,
+              "goalsDiff": 3,
+              "group": "Eredivisie",
+              "form": "LLDDW",
+              "status": "same",
+              "description": "Promotion - Eredivisie (Conference League - Play Offs: )",
+              "all": {
+                "played": 31,
+                "win": 11,
+                "draw": 9,
+                "lose": 11,
+                "goals": {
+                  "for": 45,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 16,
+                "win": 7,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 31,
+                  "against": 20
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 4,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 14,
+                  "against": 22
+                }
+              },
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -434,29 +434,29 @@
                 "logo": "https://media.api-sports.io/football/teams/210.png"
               },
               "points": 36,
-              "goalsDiff": -6,
+              "goalsDiff": -14,
               "group": "Eredivisie",
-              "form": "WLDDL",
+              "form": "LWLDD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 10,
                 "draw": 6,
-                "lose": 14,
+                "lose": 15,
                 "goals": {
                   "for": 50,
-                  "against": 56
+                  "against": 64
                 }
               },
               "home": {
-                "played": 15,
+                "played": 16,
                 "win": 6,
                 "draw": 3,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
                   "for": 29,
-                  "against": 25
+                  "against": 33
                 }
               },
               "away": {
@@ -469,29 +469,74 @@
                   "against": 31
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 11,
+              "team": {
+                "id": 193,
+                "name": "PEC Zwolle",
+                "logo": "https://media.api-sports.io/football/teams/193.png"
+              },
+              "points": 35,
+              "goalsDiff": -16,
+              "group": "Eredivisie",
+              "form": "WDWLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 31,
+                "win": 9,
+                "draw": 8,
+                "lose": 14,
+                "goals": {
+                  "for": 43,
+                  "against": 59
+                }
+              },
+              "home": {
+                "played": 16,
+                "win": 5,
+                "draw": 3,
+                "lose": 8,
+                "goals": {
+                  "for": 18,
+                  "against": 29
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 4,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 25,
+                  "against": 30
+                }
+              },
+              "update": "2024-04-28T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
               "team": {
                 "id": 205,
                 "name": "Fortuna Sittard",
                 "logo": "https://media.api-sports.io/football/teams/205.png"
               },
               "points": 35,
-              "goalsDiff": -18,
+              "goalsDiff": -19,
               "group": "Eredivisie",
-              "form": "LLDLW",
+              "form": "LLLDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 9,
                 "draw": 8,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
-                  "for": 34,
-                  "against": 52
+                  "for": 36,
+                  "against": 55
                 }
               },
               "home": {
@@ -505,38 +550,38 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 2,
                 "draw": 4,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
-                  "for": 8,
-                  "against": 33
+                  "for": 10,
+                  "against": 36
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
-              "rank": 12,
+              "rank": 13,
               "team": {
                 "id": 419,
                 "name": "Almere City FC",
                 "logo": "https://media.api-sports.io/football/teams/419.png"
               },
               "points": 33,
-              "goalsDiff": -18,
+              "goalsDiff": -20,
               "group": "Eredivisie",
-              "form": "LDDDD",
+              "form": "LLDDD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 7,
                 "draw": 12,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
-                  "for": 30,
-                  "against": 48
+                  "for": 31,
+                  "against": 51
                 }
               },
               "home": {
@@ -550,61 +595,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 4,
                 "draw": 6,
-                "lose": 5,
-                "goals": {
-                  "for": 14,
-                  "against": 23
-                }
-              },
-              "update": "2024-04-15T00:00:00+00:00"
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 193,
-                "name": "PEC Zwolle",
-                "logo": "https://media.api-sports.io/football/teams/193.png"
-              },
-              "points": 32,
-              "goalsDiff": -18,
-              "group": "Eredivisie",
-              "form": "DWLLL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 30,
-                "win": 8,
-                "draw": 8,
-                "lose": 14,
-                "goals": {
-                  "for": 40,
-                  "against": 58
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 4,
-                "draw": 3,
-                "lose": 8,
-                "goals": {
-                  "for": 15,
-                  "against": 28
-                }
-              },
-              "away": {
-                "played": 15,
-                "win": 4,
-                "draw": 5,
                 "lose": 6,
                 "goals": {
-                  "for": 25,
-                  "against": 30
+                  "for": 15,
+                  "against": 26
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -614,19 +614,19 @@
                 "logo": "https://media.api-sports.io/football/teams/206.png"
               },
               "points": 32,
-              "goalsDiff": -22,
+              "goalsDiff": -24,
               "group": "Eredivisie",
-              "form": "LWWLW",
+              "form": "LLWWL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 9,
                 "draw": 5,
-                "lose": 16,
+                "lose": 17,
                 "goals": {
-                  "for": 40,
-                  "against": 62
+                  "for": 41,
+                  "against": 65
                 }
               },
               "home": {
@@ -640,16 +640,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 3,
                 "draw": 2,
-                "lose": 10,
+                "lose": 11,
                 "goals": {
-                  "for": 15,
-                  "against": 32
+                  "for": 16,
+                  "against": 35
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -658,20 +658,20 @@
                 "name": "Excelsior",
                 "logo": "https://media.api-sports.io/football/teams/196.png"
               },
-              "points": 25,
+              "points": 26,
               "goalsDiff": -20,
               "group": "Eredivisie",
-              "form": "WLLLD",
+              "form": "DWLLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 5,
-                "draw": 10,
+                "draw": 11,
                 "lose": 15,
                 "goals": {
-                  "for": 44,
-                  "against": 64
+                  "for": 46,
+                  "against": 66
                 }
               },
               "home": {
@@ -685,16 +685,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 2,
-                "draw": 3,
+                "draw": 4,
                 "lose": 10,
                 "goals": {
-                  "for": 22,
-                  "against": 40
+                  "for": 24,
+                  "against": 42
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -703,30 +703,30 @@
                 "name": "Waalwijk",
                 "logo": "https://media.api-sports.io/football/teams/417.png"
               },
-              "points": 24,
+              "points": 25,
               "goalsDiff": -21,
               "group": "Eredivisie",
-              "form": "LLDDD",
+              "form": "DLLDD",
               "status": "same",
               "description": "Eredivisie (Relegation - Play Offs: )",
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 6,
-                "draw": 6,
+                "draw": 7,
                 "lose": 18,
                 "goals": {
-                  "for": 29,
-                  "against": 50
+                  "for": 31,
+                  "against": 52
                 }
               },
               "home": {
-                "played": 15,
+                "played": 16,
                 "win": 4,
-                "draw": 4,
+                "draw": 5,
                 "lose": 7,
                 "goals": {
-                  "for": 17,
-                  "against": 22
+                  "for": 19,
+                  "against": 24
                 }
               },
               "away": {
@@ -739,7 +739,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -749,19 +749,19 @@
                 "logo": "https://media.api-sports.io/football/teams/416.png"
               },
               "points": 19,
-              "goalsDiff": -44,
+              "goalsDiff": -45,
               "group": "Eredivisie",
-              "form": "LWDDL",
+              "form": "LLWDD",
               "status": "same",
               "description": "Relegation - Eerste Divisie",
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 4,
                 "draw": 7,
-                "lose": 19,
+                "lose": 20,
                 "goals": {
                   "for": 30,
-                  "against": 74
+                  "against": 75
                 }
               },
               "home": {
@@ -775,16 +775,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 1,
                 "draw": 5,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
                   "for": 16,
-                  "against": 36
+                  "against": 37
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -793,30 +793,30 @@
                 "name": "Vitesse",
                 "logo": "https://media.api-sports.io/football/teams/200.png"
               },
-              "points": 17,
-              "goalsDiff": -46,
+              "points": 2,
+              "goalsDiff": -45,
               "group": "Eredivisie",
-              "form": "LLLLD",
+              "form": "WLLLL",
               "status": "same",
               "description": "Relegation - Eerste Divisie",
               "all": {
-                "played": 30,
-                "win": 4,
+                "played": 31,
+                "win": 5,
                 "draw": 5,
                 "lose": 21,
                 "goals": {
-                  "for": 22,
-                  "against": 68
+                  "for": 25,
+                  "against": 70
                 }
               },
               "home": {
-                "played": 15,
-                "win": 1,
+                "played": 16,
+                "win": 2,
                 "draw": 5,
                 "lose": 9,
                 "goals": {
-                  "for": 10,
-                  "against": 26
+                  "for": 13,
+                  "against": 28
                 }
               },
               "away": {
@@ -829,7 +829,7 @@
                   "against": 42
                 }
               },
-              "update": "2024-04-15T00:00:00+00:00"
+              "update": "2024-04-28T00:00:00+00:00"
             }
           ]
         ]
