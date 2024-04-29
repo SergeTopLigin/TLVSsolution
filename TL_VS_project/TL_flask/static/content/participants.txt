@@ -2,7 +2,8 @@ ENG
       23-24 Premier League      
                            1  Manchester City            TL    UCL   Cup 
                            2  Arsenal                          UCL       
-                           3  Liverpool                  TL    UEL   LCup
+                           3  Liverpool                  TL    UEL       
+                           4  Aston Villa                                
                               Manchester United          TL              
                               Chelsea                    TL              
 ESP
@@ -23,10 +24,10 @@ ITA
       23-24 Serie A             
                            1  Inter                      TL    UCL       
                            2  AC Milan                         UEL       
-                           3  Juventus                                   
+                           3  Juventus                               Cup 
                               AS Roma                    TL    UEL       
                               Atalanta                         UEL       
-                              Lazio                            UCL   Cup 
+                              Lazio                            UCL       
                               Napoli                           UCL       
 POR
       23-24 Primeira Liga       
