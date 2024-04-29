@@ -388,10 +388,10 @@
   },
   {
     "round": "Semi-finals",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
-      "timestamp": 1713927600,
-      "date": "2024-04-24 03:00:00"
+      "timestamp": 1713996000,
+      "date": "2024-04-24 22:00:00"
     },
     "rating": 0.73,
     "club_set": [
@@ -406,9 +406,30 @@
         "rating": -0.06
       },
       {
+        "name": "Juventus",
+        "id": 496,
+        "rating": 0.1
+      },
+      {
         "name": "Lazio",
         "id": 487,
         "rating": -0.71
+      }
+    ]
+  },
+  {
+    "round": "Final",
+    "type": "curr",
+    "last_date": {
+      "timestamp": 1715810400,
+      "date": "2024-05-15 22:00:00"
+    },
+    "rating": 1.22,
+    "club_set": [
+      {
+        "name": "Atalanta",
+        "id": 499,
+        "rating": -0.06
       },
       {
         "name": "Juventus",
