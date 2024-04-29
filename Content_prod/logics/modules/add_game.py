@@ -167,6 +167,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                 if game['opp_NATpos'] != 0: break
             if game['opp_NATpos'] != 0: break
 
+        return(game)
 
     except: 
 

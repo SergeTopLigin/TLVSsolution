@@ -133,7 +133,8 @@ try:    # обработка исключений для определения 
         for ass in int_tournaments:
             for tourn in ass:
                 # актуализация fixtures турнира
-                fixture_files(tourn[0], season, tourn[2])
+                if fixture_files(tourn[0], season, tourn[2]) == 'pass':     # если турнир не начался и нет расписания
+                    continue
                 # открытие fixtures
                 with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+' fixt.json', 'r', encoding='utf-8') as j:
                     fixtures = json.load(j)
@@ -147,14 +148,43 @@ try:    # обработка исключений для определения 
                         # добавить игру в games
                         games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
                         games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
-
-
+        # нац турниры
+        from modules.nat_tournaments import Nat_Tournaments
+        nat_tournaments = Nat_Tournaments()
+        tourns = []     # список всех нац турниров [ENG League, id]
+        for ass in participants:
+            if len(participants[ass])>1:
+                for nat_ass in nat_tournaments:
+                    if nat_ass == ass:
+                        for tourn in nat_tournaments[nat_ass]:
+                            if [tourn[0], tourn[3]] not in tourns and tourn[3] != -1:
+                                tourns.append([tourn[0], tourn[3]])
+        for tourn in tourns:
+            # актуализация fixtures турнира
+            if fixture_files(tourn[0], season, tourn[1]) == 'pass':     # если турнир не начался и нет расписания
+                continue
+            # открытие fixtures
+            last_word = ' fixt' if 'League' in tourn[0] else ' curr'
+            with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+last_word+'.json', 'r', encoding='utf-8') as j:
+                fixtures = json.load(j)
+            for match in fixtures['response']:
+                if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp and\
+                match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
+                    if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
+                        games[match['teams']['home']['id']] = []
+                    if match['teams']['away']['id'] not in list(games.keys()):  # создание ключа
+                        games[match['teams']['away']['id']] = []
+                    # добавить игру в games
+                    games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
+                    games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
     # фиксация в worktimes.json времени текущего расчета
     worktimes.append([curr_datetime, curr_timestamp])
     # и выгрузка worktimes.json в репо и на runner: /sub_results
     gh_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
     runner_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
 
+    # из games.json удалять игры 'expected'
+    # в games.json включать новые игры 'expected' по списку участников текущего расчета
 
 
 

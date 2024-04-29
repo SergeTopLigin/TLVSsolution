@@ -43,12 +43,14 @@ def fixture_files(Tourn, Season, LeagueID):     # Tourn должен соотв�
             # если 'results' != 0 - сохранить fixtures
             answer_dict = json.loads(answer)
             if answer_dict['results'] != 0:
-                file_name = Tourn+" "+Season+" fixt.json"
+                last_word = ' curr' if 'Cup' in Tourn else ' fixt'
+                file_name = Tourn+" "+Season+last_word+".json"
                 gh_push(str(mod_name), 'fixtures', file_name, answer_dict)
                 runner_push(str(mod_name), 'fixtures', file_name, answer_dict)
             else:
                 gh_push(str(mod_name), 'bug_files', 'bug_file', "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
                 bug_mail(str(mod_name), "по запросу fixtures?league="+str(LeagueID)+"&season="+FixtSeason+" results=0")
+                return("pass")     # приводит к ожиданию следующего workflow для перерасчета этой лиги
 
     except: 
 
