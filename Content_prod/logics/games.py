@@ -184,7 +184,14 @@ try:    # обработка исключений для определения 
     runner_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
 
     # из games.json удалять игры 'expected'
-    # в games.json включать новые игры 'expected' по списку участников текущего расчета
+    for club_id in games:
+        new_game_set = []
+        for game in games[club_id]:
+            if game['game_status'] != 'expected':
+                new_game_set.append(game)
+        games[club_id] = new_game_set
+
+    # в games.json включать новые игры 'expected' по списку участников текущего расчета на месяц вперёд
 
 
 
