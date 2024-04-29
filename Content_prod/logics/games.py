@@ -138,7 +138,7 @@ try:    # обработка исключений для определения 
         from modules.int_tournaments import int_tournaments
         int_tournaments = int_tournaments()
         for ass in int_tournaments:
-            for tourn in ass:
+            for tourn in int_tournaments[ass]:
                 # актуализация fixtures турнира
                 if fixture_files(tourn[0], season, tourn[2]) == 'pass':     # если турнир не начался и нет расписания
                     continue
