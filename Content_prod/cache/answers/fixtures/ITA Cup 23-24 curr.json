@@ -5,7 +5,7 @@
     "season": "2023"
   },
   "errors": [],
-  "results": 44,
+  "results": 45,
   "paging": {
     "current": 1,
     "total": 1
@@ -626,7 +626,7 @@
     {
       "fixture": {
         "id": 1099024,
-        "referee": "Luca Zufferli, Italy",
+        "referee": "L. Zufferli",
         "timezone": "UTC",
         "date": "2023-08-14T15:45:00+00:00",
         "timestamp": 1692027900,
@@ -694,7 +694,7 @@
     {
       "fixture": {
         "id": 1099025,
-        "referee": "Kevin Bonacina, Italy",
+        "referee": "K. Bonacina",
         "timezone": "UTC",
         "date": "2023-08-14T16:00:00+00:00",
         "timestamp": 1692028800,
@@ -762,7 +762,7 @@
     {
       "fixture": {
         "id": 1099026,
-        "referee": "Niccolò Baroni, Italy",
+        "referee": "N. Baroni",
         "timezone": "UTC",
         "date": "2023-08-14T19:00:00+00:00",
         "timestamp": 1692039600,
@@ -1306,7 +1306,7 @@
     {
       "fixture": {
         "id": 1108426,
-        "referee": "Paride Tremolada, Italy",
+        "referee": "P. Tremolada",
         "timezone": "UTC",
         "date": "2023-08-14T19:15:00+00:00",
         "timestamp": 1692040500,
@@ -1374,7 +1374,7 @@
     {
       "fixture": {
         "id": 1117765,
-        "referee": "Federico Dionisi, Italy",
+        "referee": "F. Dionisi",
         "timezone": "UTC",
         "date": "2023-10-31T20:00:00+00:00",
         "timestamp": 1698782400,
@@ -1442,7 +1442,7 @@
     {
       "fixture": {
         "id": 1117766,
-        "referee": "Daniele Minelli, Italy",
+        "referee": "D. Minelli",
         "timezone": "UTC",
         "date": "2023-11-01T17:00:00+00:00",
         "timestamp": 1698858000,
@@ -1510,7 +1510,7 @@
     {
       "fixture": {
         "id": 1117767,
-        "referee": "Francesco Cosso, Italy",
+        "referee": "F. Cosso",
         "timezone": "UTC",
         "date": "2023-11-01T20:00:00+00:00",
         "timestamp": 1698868800,
@@ -1578,7 +1578,7 @@
     {
       "fixture": {
         "id": 1117768,
-        "referee": "Alberto Santoro, Italy",
+        "referee": "A. Santoro",
         "timezone": "UTC",
         "date": "2023-11-01T14:00:00+00:00",
         "timestamp": 1698847200,
@@ -1646,7 +1646,7 @@
     {
       "fixture": {
         "id": 1119494,
-        "referee": "Luca Zufferli, Italy",
+        "referee": "L. Zufferli",
         "timezone": "UTC",
         "date": "2023-11-02T17:00:00+00:00",
         "timestamp": 1698944400,
@@ -1714,7 +1714,7 @@
     {
       "fixture": {
         "id": 1119495,
-        "referee": "Paride Tremolada, Italy",
+        "referee": "P. Tremolada",
         "timezone": "UTC",
         "date": "2023-10-31T14:00:00+00:00",
         "timestamp": 1698760800,
@@ -1782,7 +1782,7 @@
     {
       "fixture": {
         "id": 1119496,
-        "referee": "Gianluca Manganiello, Italy",
+        "referee": "G. Manganiello",
         "timezone": "UTC",
         "date": "2023-10-31T17:00:00+00:00",
         "timestamp": 1698771600,
@@ -1850,7 +1850,7 @@
     {
       "fixture": {
         "id": 1119497,
-        "referee": "Francesco Fourneau, Italy",
+        "referee": "F. Fourneau",
         "timezone": "UTC",
         "date": "2023-11-02T20:00:00+00:00",
         "timestamp": 1698955200,
@@ -1918,7 +1918,7 @@
     {
       "fixture": {
         "id": 1140932,
-        "referee": "Juan Luca Sacchi, Italy",
+        "referee": "J. Sacchi",
         "timezone": "UTC",
         "date": "2023-12-05T20:00:00+00:00",
         "timestamp": 1701806400,
@@ -1986,7 +1986,7 @@
     {
       "fixture": {
         "id": 1140933,
-        "referee": "Livio Marinelli, Italy",
+        "referee": "L. Marinelli",
         "timezone": "UTC",
         "date": "2023-12-06T20:00:00+00:00",
         "timestamp": 1701892800,
@@ -2054,7 +2054,7 @@
     {
       "fixture": {
         "id": 1140934,
-        "referee": "Federico La Penna, Italy",
+        "referee": "F. La Penna",
         "timezone": "UTC",
         "date": "2023-12-20T20:00:00+00:00",
         "timestamp": 1703102400,
@@ -2122,7 +2122,7 @@
     {
       "fixture": {
         "id": 1140935,
-        "referee": "Luca J. Pairetto, Italy",
+        "referee": "L. Pairetto",
         "timezone": "UTC",
         "date": "2024-01-03T20:00:00+00:00",
         "timestamp": 1704312000,
@@ -2190,7 +2190,7 @@
     {
       "fixture": {
         "id": 1140936,
-        "referee": "Davide Ghersini, Italy",
+        "referee": "D. Ghersini",
         "timezone": "UTC",
         "date": "2024-01-04T20:00:00+00:00",
         "timestamp": 1704398400,
@@ -2258,7 +2258,7 @@
     {
       "fixture": {
         "id": 1140937,
-        "referee": "Alessandro Prontera, Italy",
+        "referee": "A. Prontera",
         "timezone": "UTC",
         "date": "2024-01-02T20:00:00+00:00",
         "timestamp": 1704225600,
@@ -2326,7 +2326,7 @@
     {
       "fixture": {
         "id": 1141349,
-        "referee": "Rosario Abisso, Italy",
+        "referee": "R. Abisso",
         "timezone": "UTC",
         "date": "2023-12-19T20:00:00+00:00",
         "timestamp": 1703016000,
@@ -2394,7 +2394,7 @@
     {
       "fixture": {
         "id": 1141350,
-        "referee": "Alberto Santoro, Italy",
+        "referee": "A. Santoro",
         "timezone": "UTC",
         "date": "2024-01-03T17:00:00+00:00",
         "timestamp": 1704301200,
@@ -2462,7 +2462,7 @@
     {
       "fixture": {
         "id": 1150524,
-        "referee": "Matteo Marchetti, Italy",
+        "referee": "M. Marchetti",
         "timezone": "UTC",
         "date": "2024-01-09T20:00:00+00:00",
         "timestamp": 1704830400,
@@ -2530,7 +2530,7 @@
     {
       "fixture": {
         "id": 1155569,
-        "referee": "Daniele Orsato, Italy",
+        "referee": "D. Orsato",
         "timezone": "UTC",
         "date": "2024-01-10T17:00:00+00:00",
         "timestamp": 1704906000,
@@ -2598,7 +2598,7 @@
     {
       "fixture": {
         "id": 1155570,
-        "referee": "Marco Di Bello, Italy",
+        "referee": "M. Di Bello",
         "timezone": "UTC",
         "date": "2024-01-10T20:00:00+00:00",
         "timestamp": 1704916800,
@@ -2666,7 +2666,7 @@
     {
       "fixture": {
         "id": 1155571,
-        "referee": "Juan Luca Sacchi, Italy",
+        "referee": "J. Sacchi",
         "timezone": "UTC",
         "date": "2024-01-11T20:00:00+00:00",
         "timestamp": 1705003200,
@@ -2734,23 +2734,23 @@
     {
       "fixture": {
         "id": 1159310,
-        "referee": null,
+        "referee": "M. Mariani",
         "timezone": "UTC",
-        "date": "2024-04-03T00:00:00+00:00",
-        "timestamp": 1712102400,
+        "date": "2024-04-03T19:00:00+00:00",
+        "timestamp": 1712170800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712170800,
+          "second": 1712174400
         },
         "venue": {
-          "id": null,
-          "name": null,
-          "city": null
+          "id": 902,
+          "name": "Stadio Artemio Franchi",
+          "city": "Firenze"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2767,27 +2767,27 @@
           "id": 502,
           "name": "Fiorentina",
           "logo": "https://media.api-sports.io/football/teams/502.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 499,
           "name": "Atalanta",
           "logo": "https://media.api-sports.io/football/teams/499.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -2802,23 +2802,23 @@
     {
       "fixture": {
         "id": 1159311,
-        "referee": null,
+        "referee": "F. La Penna",
         "timezone": "UTC",
-        "date": "2024-04-24T00:00:00+00:00",
-        "timestamp": 1713916800,
+        "date": "2024-04-24T19:00:00+00:00",
+        "timestamp": 1713985200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713985200,
+          "second": 1713988800
         },
         "venue": {
-          "id": null,
-          "name": null,
-          "city": null
+          "id": 879,
+          "name": "Gewiss Stadium",
+          "city": "Bergamo"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2835,27 +2835,27 @@
           "id": 499,
           "name": "Atalanta",
           "logo": "https://media.api-sports.io/football/teams/499.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 502,
           "name": "Fiorentina",
           "logo": "https://media.api-sports.io/football/teams/502.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -2870,23 +2870,23 @@
     {
       "fixture": {
         "id": 1159312,
-        "referee": null,
+        "referee": "D. Massa",
         "timezone": "UTC",
-        "date": "2024-04-03T00:00:00+00:00",
-        "timestamp": 1712102400,
+        "date": "2024-04-02T19:00:00+00:00",
+        "timestamp": 1712084400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1712084400,
+          "second": 1712088000
         },
         "venue": {
-          "id": null,
-          "name": null,
-          "city": null
+          "id": 909,
+          "name": "Allianz Stadium",
+          "city": "Torino"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2900,30 +2900,30 @@
       },
       "teams": {
         "home": {
-          "id": 487,
-          "name": "Lazio",
-          "logo": "https://media.api-sports.io/football/teams/487.png",
-          "winner": null
-        },
-        "away": {
           "id": 496,
           "name": "Juventus",
           "logo": "https://media.api-sports.io/football/teams/496.png",
-          "winner": null
+          "winner": true
+        },
+        "away": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png",
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -2938,23 +2938,23 @@
     {
       "fixture": {
         "id": 1159313,
-        "referee": null,
+        "referee": "D. Orsato",
         "timezone": "UTC",
-        "date": "2024-04-24T00:00:00+00:00",
-        "timestamp": 1713916800,
+        "date": "2024-04-23T19:00:00+00:00",
+        "timestamp": 1713898800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713898800,
+          "second": 1713902400
         },
         "venue": {
-          "id": null,
-          "name": null,
-          "city": null
+          "id": 910,
+          "name": "Stadio Olimpico",
+          "city": "Roma"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2968,15 +2968,83 @@
       },
       "teams": {
         "home": {
-          "id": 496,
-          "name": "Juventus",
-          "logo": "https://media.api-sports.io/football/teams/496.png",
-          "winner": null
-        },
-        "away": {
           "id": 487,
           "name": "Lazio",
           "logo": "https://media.api-sports.io/football/teams/487.png",
+          "winner": true
+        },
+        "away": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1197545,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-05-15T19:00:00+00:00",
+        "timestamp": 1715799600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 910,
+          "name": "Stadio Olimpico",
+          "city": "Roma"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 137,
+        "name": "Coppa Italia",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/137.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2023,
+        "round": "Final"
+      },
+      "teams": {
+        "home": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png",
+          "winner": null
+        },
+        "away": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png",
           "winner": null
         }
       },
