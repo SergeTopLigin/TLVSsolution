@@ -18374,13 +18374,13 @@
     {
       "fixture": {
         "id": 1055340,
-        "referee": "I. Oostrom",
+        "referee": "Ingmar Oostrom, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-24T16:45:00+00:00",
         "timestamp": 1713977100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713977100,
+          "second": 1713980700
         },
         "venue": {
           "id": 1153,
@@ -18388,9 +18388,9 @@
           "city": "Enschede"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18407,27 +18407,27 @@
           "id": 415,
           "name": "Twente",
           "logo": "https://media.api-sports.io/football/teams/415.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 419,
           "name": "Almere City FC",
           "logo": "https://media.api-sports.io/football/teams/419.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18442,13 +18442,13 @@
     {
       "fixture": {
         "id": 1055341,
-        "referee": "E. Blank",
+        "referee": "Erwin Blank, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-25T19:00:00+00:00",
         "timestamp": 1714071600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714071600,
+          "second": 1714075200
         },
         "venue": {
           "id": 1130,
@@ -18456,9 +18456,9 @@
           "city": "Deventer"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18475,27 +18475,27 @@
           "id": 410,
           "name": "GO Ahead Eagles",
           "logo": "https://media.api-sports.io/football/teams/410.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 209,
           "name": "Feyenoord",
           "logo": "https://media.api-sports.io/football/teams/209.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -18510,13 +18510,13 @@
     {
       "fixture": {
         "id": 1055342,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-25T16:45:00+00:00",
         "timestamp": 1714063500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714063500,
+          "second": 1714067100
         },
         "venue": {
           "id": 1132,
@@ -18524,9 +18524,9 @@
           "city": "Heerenveen"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18543,27 +18543,27 @@
           "id": 210,
           "name": "Heerenveen",
           "logo": "https://media.api-sports.io/football/teams/210.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 197,
           "name": "PSV Eindhoven",
           "logo": "https://media.api-sports.io/football/teams/197.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 8
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 5
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 8
         },
         "extratime": {
           "home": null,
@@ -18578,13 +18578,13 @@
     {
       "fixture": {
         "id": 1055343,
-        "referee": null,
+        "referee": "Martin Van den Kerkhof, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-28T10:15:00+00:00",
         "timestamp": 1714299300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714299300,
+          "second": 1714302900
         },
         "venue": {
           "id": 1140,
@@ -18592,9 +18592,9 @@
           "city": "Nijmegen"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18611,27 +18611,27 @@
           "id": 413,
           "name": "NEC Nijmegen",
           "logo": "https://media.api-sports.io/football/teams/413.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 201,
           "name": "AZ Alkmaar",
           "logo": "https://media.api-sports.io/football/teams/201.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -18646,13 +18646,13 @@
     {
       "fixture": {
         "id": 1055344,
-        "referee": null,
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-28T10:15:00+00:00",
         "timestamp": 1714299300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714299300,
+          "second": 1714302900
         },
         "venue": {
           "id": 1160,
@@ -18660,9 +18660,9 @@
           "city": "Zwolle"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18679,27 +18679,27 @@
           "id": 193,
           "name": "PEC Zwolle",
           "logo": "https://media.api-sports.io/football/teams/193.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 206,
           "name": "Heracles",
           "logo": "https://media.api-sports.io/football/teams/206.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18714,13 +18714,13 @@
     {
       "fixture": {
         "id": 1055345,
-        "referee": "S. van der Eijk",
+        "referee": "Sander van der Eijk, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-24T19:00:00+00:00",
         "timestamp": 1713985200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713985200,
+          "second": 1713988800
         },
         "venue": {
           "id": 1117,
@@ -18728,9 +18728,9 @@
           "city": "Amsterdam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18757,17 +18757,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18782,13 +18782,13 @@
     {
       "fixture": {
         "id": 1055346,
-        "referee": null,
+        "referee": "Robin Hensgens, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-28T14:45:00+00:00",
         "timestamp": 1714315500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714315500,
+          "second": 1714319100
         },
         "venue": {
           "id": 1155,
@@ -18796,9 +18796,9 @@
           "city": "Arnhem"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18815,27 +18815,27 @@
           "id": 200,
           "name": "Vitesse",
           "logo": "https://media.api-sports.io/football/teams/200.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 205,
           "name": "Fortuna Sittard",
           "logo": "https://media.api-sports.io/football/teams/205.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18850,13 +18850,13 @@
     {
       "fixture": {
         "id": 1055347,
-        "referee": null,
+        "referee": "Jeroen Manschot, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-28T12:30:00+00:00",
         "timestamp": 1714307400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714307400,
+          "second": 1714311000
         },
         "venue": {
           "id": 10505,
@@ -18864,9 +18864,9 @@
           "city": "Rotterdam"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18883,27 +18883,27 @@
           "id": 426,
           "name": "Sparta Rotterdam",
           "logo": "https://media.api-sports.io/football/teams/426.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 416,
           "name": "FC Volendam",
           "logo": "https://media.api-sports.io/football/teams/416.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -18918,13 +18918,13 @@
     {
       "fixture": {
         "id": 1055348,
-        "referee": null,
+        "referee": "Dennis Higler, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-28T12:30:00+00:00",
         "timestamp": 1714307400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714307400,
+          "second": 1714311000
         },
         "venue": {
           "id": 1144,
@@ -18932,9 +18932,9 @@
           "city": "Waalwijk"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18961,17 +18961,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
