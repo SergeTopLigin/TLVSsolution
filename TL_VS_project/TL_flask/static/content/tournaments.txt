@@ -6,9 +6,8 @@ UEFA
 TL
       TopLiga                     10
 ENG
-      23-24 Premier League         3
+      23-24 Premier League         4
       23-24 FA Cup                 1
-      23-24 League Cup             1
 ESP
       23-24 La Liga                4
 GER
