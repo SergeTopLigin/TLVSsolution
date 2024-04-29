@@ -21856,9 +21856,9 @@
           "city": "Barcelona"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 62
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21875,17 +21875,17 @@
           "id": 529,
           "name": "Barcelona",
           "logo": "https://media.api-sports.io/football/teams/529.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 532,
           "name": "Valencia",
           "logo": "https://media.api-sports.io/football/teams/532.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": 2,
+        "home": 4,
         "away": 2
       },
       "score": {
@@ -21894,8 +21894,8 @@
           "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 2
         },
         "extratime": {
           "home": null,
