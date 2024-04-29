@@ -62,6 +62,10 @@ jobs:
       - name: Run script participants.py
         run: python Content_prod/logics/participants.py
 
+      # games
+      - name: Run script games.py
+        run: python Content_prod/logics/games.py
+
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости
         run: pip install -r TL_VS_project/requirements_static.txt
