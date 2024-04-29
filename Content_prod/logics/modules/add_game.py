@@ -52,7 +52,11 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
             else '')
     # game_status
         reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']  # список статусов окончания основного времени
-        game['game_status'] = 'fixed' if fixture['fixture']['status']['short'] in reg_time else 'unfinished'
+        in_play = []
+        if fixture['fixture']['status']['short'] in reg_time:
+            game['game_status'] = 'fixed'
+        elif 
+        'unfinished'
     # opponent
         game['opponent'] = fixture['teams']['away']['name'] if fixture['teams']['home']['id'] == club_id else fixture['teams']['home']['name']
     # opp_id
