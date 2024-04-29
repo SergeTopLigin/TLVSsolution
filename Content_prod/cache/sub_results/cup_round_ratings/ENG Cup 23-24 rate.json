@@ -6004,5 +6004,26 @@
         "rating": 0.62
       }
     ]
+  },
+  {
+    "round": "Final",
+    "type": "curr",
+    "last_date": {
+      "timestamp": 1716606000,
+      "date": "2024-05-25 03:00:00"
+    },
+    "rating": 2.54,
+    "club_set": [
+      {
+        "name": "Manchester City",
+        "id": 50,
+        "rating": 2.2
+      },
+      {
+        "name": "Manchester United",
+        "id": 33,
+        "rating": 0.47
+      }
+    ]
   }
 ]
