@@ -21638,13 +21638,13 @@
     {
       "fixture": {
         "id": 1038270,
-        "referee": "Alejandro Hernández",
+        "referee": "Alejandro Hernandez, Spain",
         "timezone": "UTC",
         "date": "2024-04-22T19:00:00+00:00",
         "timestamp": 1713812400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1713812400,
+          "second": 1713816000
         },
         "venue": {
           "id": 1494,
@@ -21652,9 +21652,9 @@
           "city": "Sevilla"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21671,27 +21671,27 @@
           "id": 536,
           "name": "Sevilla",
           "logo": "https://media.api-sports.io/football/teams/536.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 798,
           "name": "Mallorca",
           "logo": "https://media.api-sports.io/football/teams/798.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -21774,13 +21774,13 @@
     {
       "fixture": {
         "id": 1038272,
-        "referee": null,
+        "referee": "Guillermo Cuadra Fernandez, Spain",
         "timezone": "UTC",
         "date": "2024-04-27T14:15:00+00:00",
         "timestamp": 1714227300,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714227300,
+          "second": 1714230900
         },
         "venue": {
           "id": 19216,
@@ -21788,9 +21788,9 @@
           "city": "Almería"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21807,27 +21807,27 @@
           "id": 723,
           "name": "Almeria",
           "logo": "https://media.api-sports.io/football/teams/723.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 546,
           "name": "Getafe",
           "logo": "https://media.api-sports.io/football/teams/546.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -21842,13 +21842,13 @@
     {
       "fixture": {
         "id": 1038273,
-        "referee": null,
+        "referee": "Ricardo De Burgos Bengoetxea, Spain",
         "timezone": "UTC",
         "date": "2024-04-29T19:00:00+00:00",
         "timestamp": 1714417200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714417200,
+          "second": 1714420800
         },
         "venue": {
           "id": 19939,
@@ -21856,9 +21856,9 @@
           "city": "Barcelona"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 62
         }
       },
       "league": {
@@ -21885,13 +21885,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
           "home": null,
@@ -21910,13 +21910,13 @@
     {
       "fixture": {
         "id": 1038274,
-        "referee": null,
+        "referee": "Jose Maria Sanchez Martinez, Spain",
         "timezone": "UTC",
         "date": "2024-04-28T19:00:00+00:00",
         "timestamp": 1714330800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714330800,
+          "second": 1714334400
         },
         "venue": {
           "id": 1489,
@@ -21924,9 +21924,9 @@
           "city": "Sevilla"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21953,17 +21953,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -21978,13 +21978,13 @@
     {
       "fixture": {
         "id": 1038275,
-        "referee": null,
+        "referee": "Isidro Diaz de Mera Escuderos, Spain",
         "timezone": "UTC",
         "date": "2024-04-28T12:00:00+00:00",
         "timestamp": 1714305600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714305600,
+          "second": 1714309200
         },
         "venue": {
           "id": 11915,
@@ -21992,9 +21992,9 @@
           "city": "Cádiz"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22021,17 +22021,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -22046,13 +22046,13 @@
     {
       "fixture": {
         "id": 1038276,
-        "referee": null,
+        "referee": "Alejandro Muniz Ruiz, Spain",
         "timezone": "UTC",
         "date": "2024-04-28T14:15:00+00:00",
         "timestamp": 1714313700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714313700,
+          "second": 1714317300
         },
         "venue": {
           "id": 1479,
@@ -22060,9 +22060,9 @@
           "city": "Granada"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22079,27 +22079,27 @@
           "id": 715,
           "name": "Granada CF",
           "logo": "https://media.api-sports.io/football/teams/715.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 727,
           "name": "Osasuna",
           "logo": "https://media.api-sports.io/football/teams/727.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -22114,13 +22114,13 @@
     {
       "fixture": {
         "id": 1038277,
-        "referee": null,
+        "referee": "Juan Luis Pulido Santana, Spain",
         "timezone": "UTC",
         "date": "2024-04-27T16:30:00+00:00",
         "timestamp": 1714235400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714235400,
+          "second": 1714239000
         },
         "venue": {
           "id": 1470,
@@ -22128,9 +22128,9 @@
           "city": "Vitoria-Gasteiz"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22147,27 +22147,27 @@
           "id": 542,
           "name": "Alaves",
           "logo": "https://media.api-sports.io/football/teams/542.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 538,
           "name": "Celta Vigo",
           "logo": "https://media.api-sports.io/football/teams/538.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -22182,13 +22182,13 @@
     {
       "fixture": {
         "id": 1038278,
-        "referee": null,
+        "referee": "Juan Martinez Munuera, Spain",
         "timezone": "UTC",
         "date": "2024-04-27T19:00:00+00:00",
         "timestamp": 1714244400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714244400,
+          "second": 1714248000
         },
         "venue": {
           "id": 19217,
@@ -22196,9 +22196,9 @@
           "city": "Madrid"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22215,27 +22215,27 @@
           "id": 530,
           "name": "Atletico Madrid",
           "logo": "https://media.api-sports.io/football/teams/530.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 531,
           "name": "Athletic Club",
           "logo": "https://media.api-sports.io/football/teams/531.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -22250,13 +22250,13 @@
     {
       "fixture": {
         "id": 1038279,
-        "referee": null,
+        "referee": "Jorge Figueroa Vazquez, Spain",
         "timezone": "UTC",
         "date": "2024-04-27T12:00:00+00:00",
         "timestamp": 1714219200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714219200,
+          "second": 1714222800
         },
         "venue": {
           "id": 1481,
@@ -22264,9 +22264,9 @@
           "city": "Las Palmas de Gran Canaria"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22283,27 +22283,27 @@
           "id": 534,
           "name": "Las Palmas",
           "logo": "https://media.api-sports.io/football/teams/534.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 547,
           "name": "Girona",
           "logo": "https://media.api-sports.io/football/teams/547.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -22318,13 +22318,13 @@
     {
       "fixture": {
         "id": 1038280,
-        "referee": null,
+        "referee": "Pablo González Fuertes, Spain",
         "timezone": "UTC",
         "date": "2024-04-28T16:30:00+00:00",
         "timestamp": 1714321800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714321800,
+          "second": 1714325400
         },
         "venue": {
           "id": 1498,
@@ -22332,9 +22332,9 @@
           "city": "Villarreal"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22351,27 +22351,27 @@
           "id": 533,
           "name": "Villarreal",
           "logo": "https://media.api-sports.io/football/teams/533.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 728,
           "name": "Rayo Vallecano",
           "logo": "https://media.api-sports.io/football/teams/728.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -22386,13 +22386,13 @@
     {
       "fixture": {
         "id": 1038281,
-        "referee": null,
+        "referee": "José Luis Munuera Montero, Spain",
         "timezone": "UTC",
         "date": "2024-04-26T19:00:00+00:00",
         "timestamp": 1714158000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714158000,
+          "second": 1714161600
         },
         "venue": {
           "id": 1491,
@@ -22400,9 +22400,9 @@
           "city": "Donostia-San Sebastián"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22419,27 +22419,27 @@
           "id": 548,
           "name": "Real Sociedad",
           "logo": "https://media.api-sports.io/football/teams/548.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 541,
           "name": "Real Madrid",
           "logo": "https://media.api-sports.io/football/teams/541.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23136,8 +23136,8 @@
         "id": 1038292,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-11T19:00:00+00:00",
+        "timestamp": 1715454000,
         "periods": {
           "first": null,
           "second": null
@@ -23148,8 +23148,8 @@
           "city": "Bilbao"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23204,8 +23204,8 @@
         "id": 1038293,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-12T14:15:00+00:00",
+        "timestamp": 1715523300,
         "periods": {
           "first": null,
           "second": null
@@ -23216,8 +23216,8 @@
           "city": "Madrid"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23272,8 +23272,8 @@
         "id": 1038294,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-13T19:00:00+00:00",
+        "timestamp": 1715626800,
         "periods": {
           "first": null,
           "second": null
@@ -23284,8 +23284,8 @@
           "city": "Barcelona"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23340,8 +23340,8 @@
         "id": 1038295,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-12T12:00:00+00:00",
+        "timestamp": 1715515200,
         "periods": {
           "first": null,
           "second": null
@@ -23352,8 +23352,8 @@
           "city": "Cádiz"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23408,8 +23408,8 @@
         "id": 1038296,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-11T16:30:00+00:00",
+        "timestamp": 1715445000,
         "periods": {
           "first": null,
           "second": null
@@ -23420,8 +23420,8 @@
           "city": "Granada"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23476,8 +23476,8 @@
         "id": 1038297,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-10T19:00:00+00:00",
+        "timestamp": 1715367600,
         "periods": {
           "first": null,
           "second": null
@@ -23488,8 +23488,8 @@
           "city": "Vitoria-Gasteiz"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23544,8 +23544,8 @@
         "id": 1038298,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-12T19:00:00+00:00",
+        "timestamp": 1715540400,
         "periods": {
           "first": null,
           "second": null
@@ -23556,8 +23556,8 @@
           "city": "Sevilla"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23612,8 +23612,8 @@
         "id": 1038299,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-12T16:30:00+00:00",
+        "timestamp": 1715531400,
         "periods": {
           "first": null,
           "second": null
@@ -23624,8 +23624,8 @@
           "city": "Valencia"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23680,8 +23680,8 @@
         "id": 1038300,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-11T14:15:00+00:00",
+        "timestamp": 1715436900,
         "periods": {
           "first": null,
           "second": null
@@ -23692,8 +23692,8 @@
           "city": "Villarreal"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23748,8 +23748,8 @@
         "id": 1038301,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-12T00:00:00+00:00",
-        "timestamp": 1715472000,
+        "date": "2024-05-11T12:00:00+00:00",
+        "timestamp": 1715428800,
         "periods": {
           "first": null,
           "second": null
@@ -23760,8 +23760,8 @@
           "city": "Palma de Mallorca"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23816,20 +23816,20 @@
         "id": 1038302,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-16T19:30:00+00:00",
+        "timestamp": 1715887800,
         "periods": {
           "first": null,
           "second": null
         },
         "venue": {
           "id": 19216,
-          "name": "Power Horse Stadium – Estadio de los Juegos Mediterráneos",
+          "name": "Power Horse Stadium",
           "city": "Almería"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23884,8 +23884,8 @@
         "id": 1038303,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-14T20:00:00+00:00",
+        "timestamp": 1715716800,
         "periods": {
           "first": null,
           "second": null
@@ -23896,8 +23896,8 @@
           "city": "Girona"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23952,8 +23952,8 @@
         "id": 1038304,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-16T20:00:00+00:00",
+        "timestamp": 1715889600,
         "periods": {
           "first": null,
           "second": null
@@ -23964,8 +23964,8 @@
           "city": "Donostia-San Sebastián"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24020,8 +24020,8 @@
         "id": 1038305,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-15T20:00:00+00:00",
+        "timestamp": 1715803200,
         "periods": {
           "first": null,
           "second": null
@@ -24032,8 +24032,8 @@
           "city": "Vigo"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24088,20 +24088,20 @@
         "id": 1038306,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-15T20:00:00+00:00",
+        "timestamp": 1715803200,
         "periods": {
           "first": null,
           "second": null
         },
         "venue": {
-          "id": 1476,
-          "name": "Coliseum Alfonso Pérez",
+          "id": 20422,
+          "name": "Estadio Coliseum",
           "city": "Getafe"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24156,8 +24156,8 @@
         "id": 1038307,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-16T17:30:00+00:00",
+        "timestamp": 1715880600,
         "periods": {
           "first": null,
           "second": null
@@ -24168,8 +24168,8 @@
           "city": "Las Palmas de Gran Canaria"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24224,8 +24224,8 @@
         "id": 1038308,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-15T17:30:00+00:00",
+        "timestamp": 1715794200,
         "periods": {
           "first": null,
           "second": null
@@ -24236,8 +24236,8 @@
           "city": "Sevilla"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24292,8 +24292,8 @@
         "id": 1038309,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-14T17:30:00+00:00",
+        "timestamp": 1715707800,
         "periods": {
           "first": null,
           "second": null
@@ -24304,8 +24304,8 @@
           "city": "Iruñea"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24360,8 +24360,8 @@
         "id": 1038310,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-15T17:30:00+00:00",
+        "timestamp": 1715794200,
         "periods": {
           "first": null,
           "second": null
@@ -24372,8 +24372,8 @@
           "city": "Madrid"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24428,8 +24428,8 @@
         "id": 1038311,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-15T00:00:00+00:00",
-        "timestamp": 1715731200,
+        "date": "2024-05-14T19:30:00+00:00",
+        "timestamp": 1715715000,
         "periods": {
           "first": null,
           "second": null
@@ -24440,8 +24440,8 @@
           "city": "Madrid"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
