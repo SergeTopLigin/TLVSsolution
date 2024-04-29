@@ -185,7 +185,7 @@ try:    # обработка исключений для определения 
                     games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
                     games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
     # фиксация в worktimes.json времени текущего расчета
-    worktimes.append([curr_datetime, curr_timestamp])
+    worktimes.append([str(curr_datetime), curr_timestamp])
     # и выгрузка worktimes.json в репо и на runner: /sub_results
     gh_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
     runner_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
