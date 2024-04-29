@@ -1,9 +1,18 @@
 {
+  "BEL League 23-24": {
+    "First Division A: Relegation Round": 1,
+    "First Division A: Championship Round": 3,
+    "First Division A: Conference League Play-off Group": 2,
+    "First Division A: Regular Season": 0
+  },
   "ENG League 23-24": {
     "Premier League": 0
   },
   "ESP League 23-24": {
     "Primera División": 0
+  },
+  "FRA League 23-24": {
+    "Ligue 1": 0
   },
   "GER League 23-24": {
     "Bundesliga": 0
@@ -11,19 +20,13 @@
   "ITA League 23-24": {
     "Serie A": 0
   },
-  "POR League 23-24": {
-    "Primeira Liga": 0
-  },
-  "FRA League 23-24": {
-    "Ligue 1": 0
+  "NED Cup 23-24 23-24": {
+    "Bundesliga": 0
   },
   "NED League 23-24": {
     "Eredivisie": 0
   },
-  "BEL League 23-24": {
-    "First Division A: Relegation Round": 1,
-    "First Division A: Championship Round": 3,
-    "First Division A: Conference League Play-off Group": 2,
-    "First Division A: Regular Season": 0
+  "POR League 23-24": {
+    "Primeira Liga": 0
   }
 }
