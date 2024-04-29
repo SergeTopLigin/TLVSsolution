@@ -1,0 +1,83 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "531",
+    "season": "2023"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1031882,
+        "referee": "F. Letexier",
+        "timezone": "UTC",
+        "date": "2023-08-16T19:00:00+00:00",
+        "timestamp": 1692212400,
+        "periods": {
+          "first": 1692212400,
+          "second": 1692216000
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Georgios Karaiskáki",
+          "city": "Piraeus"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 531,
+        "name": "UEFA Super Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/531.png",
+        "flag": null,
+        "season": 2023,
+        "round": "Final"
+      },
+      "teams": {
+        "home": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media.api-sports.io/football/teams/50.png",
+          "winner": true
+        },
+        "away": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 5,
+          "away": 4
+        }
+      }
+    }
+  ]
+}
