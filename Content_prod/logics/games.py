@@ -80,6 +80,14 @@ try:    # обработка исключений для определения 
         for club in participants[ass]:
             participants_id.append(club['id'])
 
+    # из games.json удалить игры 'expected'
+    for club_id in games:
+        new_game_set = []
+        for game in games[club_id]:
+            if game['game_status'] != 'expected':
+                new_game_set.append(game)
+        games[club_id] = new_game_set
+    
     # из games.json проверять 'unfinished' на завершение основного времени и изменять их на 'fixed'
     for club_id in games:
         for game in games[club_id]:
@@ -113,6 +121,7 @@ try:    # обработка исключений для определения 
 
     # в games.json включать новые игры 'fixed' и 'unfinished', начавшиеся после предыдущего расчета 
         # (позже последнего времени в worktimes.json до текущего времени):
+    # в games.json включать новые игры 'expected' по списку участников текущего расчета на месяц вперёд
     # определение текущего времени
     curr_timestamp = time.time()
     curr_datetime = datetime.datetime.utcnow()
@@ -139,7 +148,7 @@ try:    # обработка исключений для определения 
                 with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+' fixt.json', 'r', encoding='utf-8') as j:
                     fixtures = json.load(j)
                 for match in fixtures['response']:
-                    if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp and\
+                    if match['fixture']['timestamp'] > prev_timestamp and\ # match['fixture']['timestamp'] < curr_timestamp and\
                     match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
                         if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
                             games[match['teams']['home']['id']] = []
@@ -168,7 +177,7 @@ try:    # обработка исключений для определения 
             with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+last_word+'.json', 'r', encoding='utf-8') as j:
                 fixtures = json.load(j)
             for match in fixtures['response']:
-                if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp and\
+                if match['fixture']['timestamp'] > prev_timestamp and\ # match['fixture']['timestamp'] < curr_timestamp and\
                 match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
                     if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
                         games[match['teams']['home']['id']] = []
@@ -182,18 +191,6 @@ try:    # обработка исключений для определения 
     # и выгрузка worktimes.json в репо и на runner: /sub_results
     gh_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
     runner_push(str(mod_name), 'sub_results', 'worktimes.json', worktimes)
-
-    # из games.json удалять игры 'expected'
-    for club_id in games:
-        new_game_set = []
-        for game in games[club_id]:
-            if game['game_status'] != 'expected':
-                new_game_set.append(game)
-        games[club_id] = new_game_set
-
-    # в games.json включать новые игры 'expected' по списку участников текущего расчета на месяц вперёд
-
-
 
 
 except: 
