@@ -18374,13 +18374,13 @@
     {
       "fixture": {
         "id": 1049151,
-        "referee": null,
+        "referee": "Daniel Schlager, Germany",
         "timezone": "UTC",
         "date": "2024-04-27T13:30:00+00:00",
         "timestamp": 1714224600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714224600,
+          "second": 1714228200
         },
         "venue": {
           "id": 700,
@@ -18388,9 +18388,9 @@
           "city": "München"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18407,27 +18407,27 @@
           "id": 157,
           "name": "Bayern Munich",
           "logo": "https://media.api-sports.io/football/teams/157.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 169,
           "name": "Eintracht Frankfurt",
           "logo": "https://media.api-sports.io/football/teams/169.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18442,13 +18442,13 @@
     {
       "fixture": {
         "id": 1049152,
-        "referee": null,
+        "referee": "Deniz Aytekin, Germany",
         "timezone": "UTC",
         "date": "2024-04-27T13:30:00+00:00",
         "timestamp": 1714224600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714224600,
+          "second": 1714228200
         },
         "venue": {
           "id": 738,
@@ -18456,9 +18456,9 @@
           "city": "Leipzig"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18475,27 +18475,27 @@
           "id": 173,
           "name": "RB Leipzig",
           "logo": "https://media.api-sports.io/football/teams/173.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 165,
           "name": "Borussia Dortmund",
           "logo": "https://media.api-sports.io/football/teams/165.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18510,13 +18510,13 @@
     {
       "fixture": {
         "id": 1049153,
-        "referee": null,
+        "referee": "Frank Willenborg, Germany",
         "timezone": "UTC",
         "date": "2024-04-27T13:30:00+00:00",
         "timestamp": 1714224600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714224600,
+          "second": 1714228200
         },
         "venue": {
           "id": 12717,
@@ -18524,9 +18524,9 @@
           "city": "Freiburg im Breisgau"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18543,27 +18543,27 @@
           "id": 160,
           "name": "SC Freiburg",
           "logo": "https://media.api-sports.io/football/teams/160.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 161,
           "name": "VfL Wolfsburg",
           "logo": "https://media.api-sports.io/football/teams/161.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18578,13 +18578,13 @@
     {
       "fixture": {
         "id": 1049154,
-        "referee": null,
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2024-04-27T16:30:00+00:00",
         "timestamp": 1714235400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714235400,
+          "second": 1714239000
         },
         "venue": {
           "id": 699,
@@ -18592,9 +18592,9 @@
           "city": "Leverkusen"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18621,17 +18621,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18646,13 +18646,13 @@
     {
       "fixture": {
         "id": 1049155,
-        "referee": null,
+        "referee": "Benjamin Brand, Germany",
         "timezone": "UTC",
         "date": "2024-04-28T15:30:00+00:00",
         "timestamp": 1714318200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714318200,
+          "second": 1714321800
         },
         "venue": {
           "id": 11899,
@@ -18660,9 +18660,9 @@
           "city": "Mainz"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18689,17 +18689,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -18714,13 +18714,13 @@
     {
       "fixture": {
         "id": 1049156,
-        "referee": null,
+        "referee": "Sascha Stegemann, Germany",
         "timezone": "UTC",
         "date": "2024-04-28T13:30:00+00:00",
         "timestamp": 1714311000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714311000,
+          "second": 1714314600
         },
         "venue": {
           "id": 20471,
@@ -18728,9 +18728,9 @@
           "city": "Mönchengladbach"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18757,17 +18757,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -18782,13 +18782,13 @@
     {
       "fixture": {
         "id": 1049157,
-        "referee": null,
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2024-04-26T18:30:00+00:00",
         "timestamp": 1714156200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714156200,
+          "second": 1714159800
         },
         "venue": {
           "id": 751,
@@ -18796,9 +18796,9 @@
           "city": "Bochum"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18815,27 +18815,27 @@
           "id": 176,
           "name": "Vfl Bochum",
           "logo": "https://media.api-sports.io/football/teams/176.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 167,
           "name": "1899 Hoffenheim",
           "logo": "https://media.api-sports.io/football/teams/167.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -18850,13 +18850,13 @@
     {
       "fixture": {
         "id": 1049158,
-        "referee": null,
+        "referee": "Tobias Welz, Germany",
         "timezone": "UTC",
         "date": "2024-04-27T13:30:00+00:00",
         "timestamp": 1714224600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714224600,
+          "second": 1714228200
         },
         "venue": {
           "id": 698,
@@ -18864,9 +18864,9 @@
           "city": "Augsburg"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18883,27 +18883,27 @@
           "id": 170,
           "name": "FC Augsburg",
           "logo": "https://media.api-sports.io/football/teams/170.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 162,
           "name": "Werder Bremen",
           "logo": "https://media.api-sports.io/football/teams/162.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -18918,13 +18918,13 @@
     {
       "fixture": {
         "id": 1049159,
-        "referee": null,
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2024-04-28T17:30:00+00:00",
         "timestamp": 1714325400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714325400,
+          "second": 1714329000
         },
         "venue": {
           "id": 705,
@@ -18932,9 +18932,9 @@
           "city": "Darmstadt"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18951,27 +18951,27 @@
           "id": 181,
           "name": "SV Darmstadt 98",
           "logo": "https://media.api-sports.io/football/teams/181.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 180,
           "name": "FC Heidenheim",
           "logo": "https://media.api-sports.io/football/teams/180.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -20492,7 +20492,7 @@
         },
         "venue": {
           "id": 752,
-          "name": "VOLKSWAGEN ARENA",
+          "name": "Volkswagen Arena",
           "city": "Wolfsburg"
         },
         "status": {
@@ -20695,8 +20695,8 @@
           "second": null
         },
         "venue": {
-          "id": 750,
-          "name": "Mercedes-Benz-Arena",
+          "id": 20473,
+          "name": "MHPArena",
           "city": "Stuttgart"
         },
         "status": {
