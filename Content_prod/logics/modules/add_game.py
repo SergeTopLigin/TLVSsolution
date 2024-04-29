@@ -53,9 +53,11 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
     # game_status
         reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']  # список статусов окончания основного времени
         in_play = ['1H', 'HT', '2H']   # список статусов внутри основного времени
-        if fixture['fixture']['status']['short'] in reg_time:
+        if fixture['fixture']['status']['short'] in reg_time or \
+        (fixture['fixture']['status']['short'] in ['SUSP', 'INT'] and fixture['fixture']['status']['elapsed'] >= 90):
             game['game_status'] = 'fixed'
-        elif fixture['fixture']['status']['short'] in in_play:
+        elif fixture['fixture']['status']['short'] in in_play or \
+        (fixture['fixture']['status']['short'] in ['SUSP', 'INT'] and fixture['fixture']['status']['elapsed'] < 90):
             game['game_status'] = 'unfinished'
         elif fixture['fixture']['status']['short'] == 'NS':
             game['game_status'] = 'expected'
@@ -64,7 +66,8 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
     # opp_id
         game['opp_id'] = fixture['teams']['away']['id'] if fixture['teams']['home']['id'] == club_id else fixture['teams']['home']['id']
     # result
-        if fixture['fixture']['status']['short'] in reg_time:
+        if fixture['fixture']['status']['short'] in reg_time or \
+        (fixture['fixture']['status']['short'] in ['SUSP', 'INT'] and fixture['fixture']['status']['elapsed'] >= 90):
             if (club_id == fixture['teams']['home']['id'] and fixture['score']['fulltime']['home'] > fixture['score']['fulltime']['away'])\
             or (club_id == fixture['teams']['away']['id'] and fixture['score']['fulltime']['home'] < fixture['score']['fulltime']['away']):
                 game['result'] = 'win'
@@ -80,7 +83,8 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
             TL_standings = json.load(j)
         game['opp_TLrate'] = [TL_standings[club]['TL_rank'] for club in TL_standings if TL_standings[club]['IDapi'] == game['opp_id']][0]
     # goalDiff
-        if fixture['fixture']['status']['short'] in reg_time:
+        if fixture['fixture']['status']['short'] in reg_time or \
+        (fixture['fixture']['status']['short'] in ['SUSP', 'INT'] and fixture['fixture']['status']['elapsed'] >= 90):
             if club_id == fixture['teams']['home']['id']:
                 game['goalDiff'] = fixture['score']['fulltime']['home'] - fixture['score']['fulltime']['away']
             if club_id == fixture['teams']['away']['id']:
