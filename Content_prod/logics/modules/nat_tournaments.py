@@ -48,8 +48,8 @@ def Nat_Tournaments():
                             ["FRA League", "prev", "Ligue 1", 61, "League"],
                             ["FRA Cup", "curr", "Coupe de France", 66, "Cup"],
                             ["FRA Cup", "prev", "Coupe de France", 66, "Cup"],
-                            ["FRA LCup", "curr", "None", 65, "Cup"],
-                            ["FRA LCup", "prev", "None", 65, "Cup"],
+                            ["FRA LCup", "curr", "None", -1, "Cup"],
+                            ["FRA LCup", "prev", "None", -1, "Cup"],
                             ["FRA SCup", "curr", "Trophée des Champions", 526, "Cup"]
                         ],
                         "NED": 
