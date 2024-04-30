@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/add_game.py", line 109, in add_game
+    game['club_nat'] = [TL_standings[club]['nat'] for club in TL_standings if TL_standings[club]['IDapi'] == club_id][0]
+IndexError: list index out of range
