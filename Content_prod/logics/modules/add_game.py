@@ -124,11 +124,11 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
         with open((os.path.abspath(__file__))[:-27]+'/cache/answers/standings/'+stand_file, 'r', encoding='utf-8') as j:
             nat_standings = json.load(j)
         from modules.nat_league_groups import nat_league_groups
-        nat_league_groups(tourn, file_season, nat_standings)
+        nat_league_groups(game['club_nat']+' League', file_season, nat_standings)
         with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
             groups_dict = json.load(j)
         for league in groups_dict:
-            if tourn+' '+file_season in league:
+            if game['club_nat']+' League '+file_season in league:
                 # список стадий лиги ["league"] с сортировкой по приоритету
                 stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
         rank = 0
@@ -158,11 +158,11 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
         with open((os.path.abspath(__file__))[:-27]+'/cache/answers/standings/'+stand_file, 'r', encoding='utf-8') as j:
             nat_standings = json.load(j)
         from modules.nat_league_groups import nat_league_groups
-        nat_league_groups(tourn, file_season, nat_standings)
+        nat_league_groups(game['opp_nat'] + ' League', file_season, nat_standings)
         with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
             groups_dict = json.load(j)
         for league in groups_dict:
-            if tourn+' '+file_season in league:
+            if game['opp_nat'] + ' League '+file_season in league:
                 # список стадий лиги ["league"] с сортировкой по приоритету
                 stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
         rank = 0
