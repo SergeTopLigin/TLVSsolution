@@ -81,7 +81,10 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
     # opp_TLrate
         with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
             TL_standings = json.load(j)
-        game['opp_TLrate'] = [TL_standings[club]['TL_rank'] for club in TL_standings if TL_standings[club]['IDapi'] == game['opp_id']][0]
+        if game['opp_id'] in [TL_standings[club]['IDapi'] for club in TL_standings]:
+            game['opp_TLrate'] = [TL_standings[club]['TL_rank'] for club in TL_standings if TL_standings[club]['IDapi'] == game['opp_id']][0]
+        else:
+            game['opp_TLrate'] = None
     # goalDiff
         if fixture['fixture']['status']['short'] in reg_time or \
         (fixture['fixture']['status']['short'] in ['SUSP', 'INT'] and fixture['fixture']['status']['elapsed'] >= 90):
@@ -106,7 +109,18 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
     # 'tourn_round': str
         game['tourn_round'] = fixture['league']['round']
     # 'club_nat':
-        game['club_nat'] = [TL_standings[club]['nat'] for club in TL_standings if TL_standings[club]['IDapi'] == club_id][0]
+        dir_standings = os.listdir((os.path.abspath(__file__))[:-27]+'/cache/answers/standings')
+        for stand_file in dir_standings:
+            if 'League' in stand_file:
+                with open((os.path.abspath(__file__))[:-27]+'/cache/answers/standings/'+stand_file, 'r', encoding='utf-8') as j:
+                    standings = json.load(j)
+                for group in standings['response'][0]['league']['standings']:
+                    for club in group:
+                        if club['team']['id'] == club_id:
+                            game['club_nat'] = stand_file[:3]
+                            break
+                    if game['club_nat'] == stand_file[:3]:   break
+                if game['club_nat'] == stand_file[:3]:   break
     # 'club_TLpos':
         game['club_TLpos'] = [list(TL_standings.values()).index(club)+1 for club in list(TL_standings.values()) if club['IDapi'] == club_id][0]
     # 'club_qouta':               TL, UEFA, League, Cup
@@ -118,7 +132,6 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                 if club_id in [club['id'] for club in participants[ass]['tournaments'][tourn]['participants']]:
                     game['club_qouta'].append(participants[ass]['tournaments'][tourn]['tytle'])
     # 'club_NATpos'
-        dir_standings = os.listdir((os.path.abspath(__file__))[:-27]+'/cache/answers/standings')
         file_season = season if game['club_nat']+' League '+season+' stan.json' in dir_standings else str(int(season[:2])-1)+'-'+season[:2]
         stand_file = game['club_nat'] + ' League ' + file_season + ' stan.json'
         with open((os.path.abspath(__file__))[:-27]+'/cache/answers/standings/'+stand_file, 'r', encoding='utf-8') as j:
@@ -143,7 +156,17 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                 if game['club_NATpos'] != 0: break
             if game['club_NATpos'] != 0: break
     # 'opp_nat':
-        game['opp_nat'] = [TL_standings[club]['nat'] for club in TL_standings if TL_standings[club]['IDapi'] == game['opp_id']][0]
+        for stand_file in dir_standings:
+            if 'League' in stand_file:
+                with open((os.path.abspath(__file__))[:-27]+'/cache/answers/standings/'+stand_file, 'r', encoding='utf-8') as j:
+                    standings = json.load(j)
+                for group in standings['response'][0]['league']['standings']:
+                    for club in group:
+                        if club['team']['id'] == club_id:
+                            game['opp_nat'] = stand_file[:3]
+                            break
+                    if game['opp_nat'] == stand_file[:3]:   break
+                if game['opp_nat'] == stand_file[:3]:   break
     # 'opp_TLpos':
         game['opp_TLpos'] = [list(TL_standings.values()).index(club)+1 for club in list(TL_standings.values()) if club['IDapi'] == game['opp_id']][0]
     # 'opp_qouta':          TL, UEFA, League, Cup
