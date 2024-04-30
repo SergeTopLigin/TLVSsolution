@@ -172,6 +172,8 @@ try:    # обработка исключений для определения 
                 continue
             # открытие fixtures
             last_word = ' fixt' if 'League' in tourn[0] else ' curr'
+            if tourn[0]+' '+season+last_word+'.json' not in dir_fixtures:
+                continue
             with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+last_word+'.json', 'r', encoding='utf-8') as j:
                 fixtures = json.load(j)
             for match in fixtures['response']:
