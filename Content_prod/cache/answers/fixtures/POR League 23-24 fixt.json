@@ -18524,9 +18524,9 @@
           "city": "Amadora"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 56
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -18554,7 +18554,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 2
+        "away": 3
       },
       "score": {
         "halftime": {
@@ -18562,8 +18562,8 @@
           "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         },
         "extratime": {
           "home": null,
