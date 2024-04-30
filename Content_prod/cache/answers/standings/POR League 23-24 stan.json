@@ -429,6 +429,51 @@
             {
               "rank": 10,
               "team": {
+                "id": 231,
+                "name": "Farense",
+                "logo": "https://media.api-sports.io/football/teams/231.png"
+              },
+              "points": 34,
+              "goalsDiff": -2,
+              "group": "Primeira Liga",
+              "form": "WLDWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 31,
+                "win": 9,
+                "draw": 7,
+                "lose": 15,
+                "goals": {
+                  "for": 42,
+                  "against": 44
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 5,
+                "draw": 4,
+                "lose": 6,
+                "goals": {
+                  "for": 20,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 16,
+                "win": 4,
+                "draw": 3,
+                "lose": 9,
+                "goals": {
+                  "for": 22,
+                  "against": 26
+                }
+              },
+              "update": "2024-04-29T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
                 "id": 230,
                 "name": "Estoril",
                 "logo": "https://media.api-sports.io/football/teams/230.png"
@@ -472,7 +517,7 @@
               "update": "2024-04-29T00:00:00+00:00"
             },
             {
-              "rank": 11,
+              "rank": 12,
               "team": {
                 "id": 226,
                 "name": "Rio Ave",
@@ -517,7 +562,7 @@
               "update": "2024-04-29T00:00:00+00:00"
             },
             {
-              "rank": 12,
+              "rank": 13,
               "team": {
                 "id": 762,
                 "name": "GIL Vicente",
@@ -557,51 +602,6 @@
                 "goals": {
                   "for": 13,
                   "against": 28
-                }
-              },
-              "update": "2024-04-29T00:00:00+00:00"
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 231,
-                "name": "Farense",
-                "logo": "https://media.api-sports.io/football/teams/231.png"
-              },
-              "points": 31,
-              "goalsDiff": -5,
-              "group": "Primeira Liga",
-              "form": "LDWLD",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 30,
-                "win": 8,
-                "draw": 7,
-                "lose": 15,
-                "goals": {
-                  "for": 39,
-                  "against": 44
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 5,
-                "draw": 4,
-                "lose": 6,
-                "goals": {
-                  "for": 20,
-                  "against": 18
-                }
-              },
-              "away": {
-                "played": 15,
-                "win": 3,
-                "draw": 3,
-                "lose": 9,
-                "goals": {
-                  "for": 19,
-                  "against": 26
                 }
               },
               "update": "2024-04-29T00:00:00+00:00"
@@ -659,29 +659,29 @@
                 "logo": "https://media.api-sports.io/football/teams/15130.png"
               },
               "points": 29,
-              "goalsDiff": -14,
+              "goalsDiff": -17,
               "group": "Primeira Liga",
-              "form": "DDDLD",
+              "form": "LDDDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 6,
                 "draw": 11,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
                   "for": 32,
-                  "against": 46
+                  "against": 49
                 }
               },
               "home": {
-                "played": 15,
+                "played": 16,
                 "win": 5,
                 "draw": 3,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
                   "for": 21,
-                  "against": 24
+                  "against": 27
                 }
               },
               "away": {
