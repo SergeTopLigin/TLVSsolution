@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/add_game.py", line 122, in add_game
+    if game['club_nat'] == stand_file[:3]:   break
+KeyError: 'club_nat'
