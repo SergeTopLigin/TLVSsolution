@@ -1,6 +1,6 @@
  1  Manchester City          100    2.20    ENG
- 2  Bayern Munich             96    2.05    GER
- 3  Real Madrid               84    1.64    ESP
+ 2  Bayern Munich             96    2.08    GER
+ 3  Real Madrid               84    1.67    ESP
  4  Paris Saint Germain       71    1.21    FRA
  5  Liverpool                 69    1.15    ENG
  6  Inter                     57    0.75    ITA
