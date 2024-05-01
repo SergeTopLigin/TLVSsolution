@@ -109,6 +109,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
     # 'tourn_round': str
         game['tourn_round'] = fixture['league']['round']
     # 'club_nat':
+        game['club_nat'] = ''
         dir_standings = os.listdir((os.path.abspath(__file__))[:-27]+'/cache/answers/standings')
         for stand_file in dir_standings:
             if 'League' in stand_file:
@@ -145,6 +146,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                 # список стадий лиги ["league"] с сортировкой по приоритету
                 stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
         rank = 0
+        game['club_NATpos'] = 0
         for stage in stage_prior:
             for group in nat_standings['response'][0]['league']['standings']:
                 for club in group:
@@ -156,6 +158,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                 if game['club_NATpos'] != 0: break
             if game['club_NATpos'] != 0: break
     # 'opp_nat':
+        game['opp_nat'] = ''
         for stand_file in dir_standings:
             if 'League' in stand_file:
                 with open((os.path.abspath(__file__))[:-27]+'/cache/answers/standings/'+stand_file, 'r', encoding='utf-8') as j:
@@ -189,6 +192,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                 # список стадий лиги ["league"] с сортировкой по приоритету
                 stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
         rank = 0
+        game['opp_NATpos'] = 0
         for stage in stage_prior:
             for group in nat_standings['response'][0]['league']['standings']:
                 for club in group:
