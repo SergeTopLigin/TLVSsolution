@@ -150,7 +150,7 @@
     {
       "fixture": {
         "id": 1036614,
-        "referee": "H. Nalbandyan",
+        "referee": "Henrik Nalbandyan, Armenia",
         "timezone": "UTC",
         "date": "2023-07-12T17:00:00+00:00",
         "timestamp": 1689181200,
@@ -218,7 +218,7 @@
     {
       "fixture": {
         "id": 1036615,
-        "referee": "D. Bel",
+        "referee": "Dario Bel, Croatia",
         "timezone": "UTC",
         "date": "2023-07-18T18:00:00+00:00",
         "timestamp": 1689703200,
@@ -286,7 +286,7 @@
     {
       "fixture": {
         "id": 1036616,
-        "referee": "G. Laibuvitz",
+        "referee": "Gal Leibovitz, Israel",
         "timezone": "UTC",
         "date": "2023-07-11T18:45:00+00:00",
         "timestamp": 1689101100,
@@ -296,8 +296,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Stadiumi Fadil Vokrri",
-          "city": "Pristina"
+          "name": "Suhareka City Stadium",
+          "city": "Suva Reka"
         },
         "status": {
           "long": "Match Finished",
@@ -354,7 +354,7 @@
     {
       "fixture": {
         "id": 1036617,
-        "referee": "L. Pairetto",
+        "referee": "Luca J. Pairetto, Italy",
         "timezone": "UTC",
         "date": "2023-07-19T18:00:00+00:00",
         "timestamp": 1689789600,
@@ -422,7 +422,7 @@
     {
       "fixture": {
         "id": 1036618,
-        "referee": "E. Məsiyev",
+        "referee": "Elcin Masiyev, Azerbaijan",
         "timezone": "UTC",
         "date": "2023-07-11T16:00:00+00:00",
         "timestamp": 1689091200,
@@ -490,7 +490,7 @@
     {
       "fixture": {
         "id": 1036619,
-        "referee": "D. England",
+        "referee": "England Darren, England",
         "timezone": "UTC",
         "date": "2023-07-18T15:00:00+00:00",
         "timestamp": 1689692400,
@@ -558,7 +558,7 @@
     {
       "fixture": {
         "id": 1036620,
-        "referee": "J. Frischer",
+        "referee": "Juri Frischer, Estonia",
         "timezone": "UTC",
         "date": "2023-07-11T18:45:00+00:00",
         "timestamp": 1689101100,
@@ -568,8 +568,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Við Djúpumýrar",
-          "city": "Klaksvík, Borðoy"
+          "name": "Djúpumýra",
+          "city": "Klaksvík"
         },
         "status": {
           "long": "Match Finished",
@@ -626,7 +626,7 @@
     {
       "fixture": {
         "id": 1036621,
-        "referee": "D. Šmajc",
+        "referee": "David Smajc, Slovenia",
         "timezone": "UTC",
         "date": "2023-07-19T16:00:00+00:00",
         "timestamp": 1689782400,
@@ -694,7 +694,7 @@
     {
       "fixture": {
         "id": 1036622,
-        "referee": "A. Chivulete",
+        "referee": "Andrei Florin Chivulete, Romania",
         "timezone": "UTC",
         "date": "2023-07-11T18:00:00+00:00",
         "timestamp": 1689098400,
@@ -762,7 +762,7 @@
     {
       "fixture": {
         "id": 1036623,
-        "referee": "César Soto",
+        "referee": "Cesar Soto Grado, Spain",
         "timezone": "UTC",
         "date": "2023-07-19T15:00:00+00:00",
         "timestamp": 1689778800,
@@ -772,8 +772,8 @@
         },
         "venue": {
           "id": null,
-          "name": "J. Daliņa stadions",
-          "city": "Valmierā"
+          "name": "Janis Dalins stadium",
+          "city": "Valmiera"
         },
         "status": {
           "long": "Match Finished",
@@ -830,7 +830,7 @@
     {
       "fixture": {
         "id": 1036624,
-        "referee": "G. Kikacheishvili",
+        "referee": "Goga Kikacheishvili, Georgia",
         "timezone": "UTC",
         "date": "2023-07-12T16:00:00+00:00",
         "timestamp": 1689177600,
@@ -898,7 +898,7 @@
     {
       "fixture": {
         "id": 1036625,
-        "referee": "A. Diamantopoulos",
+        "referee": "Aristotelis Diamantopoulos, Greece",
         "timezone": "UTC",
         "date": "2023-07-19T18:30:00+00:00",
         "timestamp": 1689791400,
@@ -966,7 +966,7 @@
     {
       "fixture": {
         "id": 1036626,
-        "referee": "V. Spasjoņņikovs",
+        "referee": "Vitalijs Spasjonnikovs, Latvia",
         "timezone": "UTC",
         "date": "2023-07-11T15:30:00+00:00",
         "timestamp": 1689089400,
@@ -1034,7 +1034,7 @@
     {
       "fixture": {
         "id": 1036627,
-        "referee": "E. Hamiti",
+        "referee": "Eldorjan Hamiti, Albania",
         "timezone": "UTC",
         "date": "2023-07-19T16:00:00+00:00",
         "timestamp": 1689782400,
@@ -1102,7 +1102,7 @@
     {
       "fixture": {
         "id": 1036628,
-        "referee": "A. Kardeşler",
+        "referee": "Arda Kardesler, Turkey",
         "timezone": "UTC",
         "date": "2023-07-11T18:00:00+00:00",
         "timestamp": 1689098400,
@@ -1170,7 +1170,7 @@
     {
       "fixture": {
         "id": 1036629,
-        "referee": "M. Barbu",
+        "referee": "Marian Alexandru Barbu, Romania",
         "timezone": "UTC",
         "date": "2023-07-18T17:00:00+00:00",
         "timestamp": 1689699600,
@@ -1238,7 +1238,7 @@
     {
       "fixture": {
         "id": 1036630,
-        "referee": "V. Kopievskiy",
+        "referee": "Viktor Kopiievskyi, Ukraine",
         "timezone": "UTC",
         "date": "2023-07-12T18:30:00+00:00",
         "timestamp": 1689186600,
@@ -1306,7 +1306,7 @@
     {
       "fixture": {
         "id": 1036631,
-        "referee": "A. Bitigen",
+        "referee": "Abdulkadir Bitigen, Turkey",
         "timezone": "UTC",
         "date": "2023-07-19T18:00:00+00:00",
         "timestamp": 1689789600,
@@ -1316,8 +1316,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Stade de Luxembourg",
-          "city": "Luxembourg"
+          "name": "Stade Alphonse Theis",
+          "city": "Hesperange"
         },
         "status": {
           "long": "Match Finished",
@@ -1374,7 +1374,7 @@
     {
       "fixture": {
         "id": 1036632,
-        "referee": "S. van der Eijk",
+        "referee": "Sander van der Eijk, Netherlands",
         "timezone": "UTC",
         "date": "2023-07-12T17:30:00+00:00",
         "timestamp": 1689183000,
@@ -1442,7 +1442,7 @@
     {
       "fixture": {
         "id": 1036633,
-        "referee": "Miguel Nogueira",
+        "referee": "Miguel Nogueira, Portugal",
         "timezone": "UTC",
         "date": "2023-07-18T17:00:00+00:00",
         "timestamp": 1689699600,
@@ -1510,7 +1510,7 @@
     {
       "fixture": {
         "id": 1036634,
-        "referee": "D. Robertson",
+        "referee": "Don Robertson, Scotland",
         "timezone": "UTC",
         "date": "2023-07-11T18:00:00+00:00",
         "timestamp": 1689098400,
@@ -1578,7 +1578,7 @@
     {
       "fixture": {
         "id": 1036635,
-        "referee": "I. Pajač",
+        "referee": "Igor Pajač, Croatia",
         "timezone": "UTC",
         "date": "2023-07-18T17:00:00+00:00",
         "timestamp": 1689699600,
@@ -1646,7 +1646,7 @@
     {
       "fixture": {
         "id": 1036636,
-        "referee": "P. Farrugia",
+        "referee": "Philip Farrugia, Malta",
         "timezone": "UTC",
         "date": "2023-07-11T15:00:00+00:00",
         "timestamp": 1689087600,
@@ -1714,7 +1714,7 @@
     {
       "fixture": {
         "id": 1036637,
-        "referee": "P. Kjærsgaard-Andersen",
+        "referee": "Peter Kjaersgaard-Andersen, Denmark",
         "timezone": "UTC",
         "date": "2023-07-18T18:00:00+00:00",
         "timestamp": 1689703200,
@@ -1782,7 +1782,7 @@
     {
       "fixture": {
         "id": 1036638,
-        "referee": "N. Verboomen",
+        "referee": "Nathan Verboomen, Belgium",
         "timezone": "UTC",
         "date": "2023-07-11T18:45:00+00:00",
         "timestamp": 1689101100,
@@ -1792,7 +1792,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Air Albania Stadium",
+          "name": "Selman Stërmasi",
           "city": "Tirana"
         },
         "status": {
@@ -1850,7 +1850,7 @@
     {
       "fixture": {
         "id": 1036639,
-        "referee": "K. Clancy",
+        "referee": "Kevin Clancy, Scotland",
         "timezone": "UTC",
         "date": "2023-07-18T18:00:00+00:00",
         "timestamp": 1689703200,
@@ -1918,7 +1918,7 @@
     {
       "fixture": {
         "id": 1036640,
-        "referee": "C. Ciochirca",
+        "referee": "Christian-Petru Ciochirca, Austria",
         "timezone": "UTC",
         "date": "2023-07-12T14:00:00+00:00",
         "timestamp": 1689170400,
@@ -1986,7 +1986,7 @@
     {
       "fixture": {
         "id": 1036641,
-        "referee": "S. Attwell",
+        "referee": "Stuart Attwell, England",
         "timezone": "UTC",
         "date": "2023-07-19T16:00:00+00:00",
         "timestamp": 1689782400,
@@ -2054,7 +2054,7 @@
     {
       "fixture": {
         "id": 1037423,
-        "referee": "D. Chiffi",
+        "referee": "Daniele Chiffi, Italy",
         "timezone": "UTC",
         "date": "2023-07-25T18:00:00+00:00",
         "timestamp": 1690308000,
@@ -2122,7 +2122,7 @@
     {
       "fixture": {
         "id": 1037424,
-        "referee": "B. Dankert",
+        "referee": "Bastian Dankert, Germany",
         "timezone": "UTC",
         "date": "2023-08-01T17:30:00+00:00",
         "timestamp": 1690911000,
@@ -2132,7 +2132,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Stadio Apóstolos Nikolaidis",
+          "name": "Apostolos Nikolaidis Stadium",
           "city": "Athens"
         },
         "status": {
@@ -2190,7 +2190,7 @@
     {
       "fixture": {
         "id": 1037425,
-        "referee": "I. Vad II",
+        "referee": "István Vad, Hungary",
         "timezone": "UTC",
         "date": "2023-07-25T18:30:00+00:00",
         "timestamp": 1690309800,
@@ -2200,8 +2200,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Stade de Genève",
-          "city": "Lancy"
+          "name": "Stade de Genéve",
+          "city": "Geneva"
         },
         "status": {
           "long": "Match Finished",
@@ -2258,7 +2258,7 @@
     {
       "fixture": {
         "id": 1037426,
-        "referee": "N. Simović",
+        "referee": "Novak Simovic, Serbia",
         "timezone": "UTC",
         "date": "2023-08-02T17:00:00+00:00",
         "timestamp": 1690995600,
@@ -2394,7 +2394,7 @@
     {
       "fixture": {
         "id": 1047017,
-        "referee": "C. Theouli",
+        "referee": "Chrysovalantis Theouli, Cyprus",
         "timezone": "UTC",
         "date": "2023-07-11T18:45:00+00:00",
         "timestamp": 1689101100,
@@ -2462,7 +2462,7 @@
     {
       "fixture": {
         "id": 1047018,
-        "referee": "A. Ladebäck",
+        "referee": "Adam Ladeback, Sweden",
         "timezone": "UTC",
         "date": "2023-07-18T19:15:00+00:00",
         "timestamp": 1689707700,
@@ -2530,7 +2530,7 @@
     {
       "fixture": {
         "id": 1074580,
-        "referee": "Luis Godinho",
+        "referee": "Luis Godinho, Portugal",
         "timezone": "UTC",
         "date": "2023-07-25T16:00:00+00:00",
         "timestamp": 1690300800,
@@ -2598,7 +2598,7 @@
     {
       "fixture": {
         "id": 1074581,
-        "referee": "W. Delajod",
+        "referee": "Willy Delajod, France",
         "timezone": "UTC",
         "date": "2023-08-02T18:30:00+00:00",
         "timestamp": 1691001000,
@@ -2666,7 +2666,7 @@
     {
       "fixture": {
         "id": 1074582,
-        "referee": "Guillermo Cuadra",
+        "referee": "Guillermo Cuadra Fernandez, Spain",
         "timezone": "UTC",
         "date": "2023-07-25T18:00:00+00:00",
         "timestamp": 1690308000,
@@ -2734,7 +2734,7 @@
     {
       "fixture": {
         "id": 1074583,
-        "referee": "D. Higler",
+        "referee": "Dennis Higler, Netherlands",
         "timezone": "UTC",
         "date": "2023-08-02T14:00:00+00:00",
         "timestamp": 1690984800,
@@ -2802,7 +2802,7 @@
     {
       "fixture": {
         "id": 1074584,
-        "referee": "B. Van Driessche",
+        "referee": "Bram Van Driessche, Belgium",
         "timezone": "UTC",
         "date": "2023-07-25T19:00:00+00:00",
         "timestamp": 1690311600,
@@ -2870,7 +2870,7 @@
     {
       "fixture": {
         "id": 1074585,
-        "referee": "J. Pignard",
+        "referee": "Jeremie Pignard, France",
         "timezone": "UTC",
         "date": "2023-08-01T18:30:00+00:00",
         "timestamp": 1690914600,
@@ -2938,7 +2938,7 @@
     {
       "fixture": {
         "id": 1074586,
-        "referee": "G. Bogár",
+        "referee": "Gergo Bogar, Hungary",
         "timezone": "UTC",
         "date": "2023-07-25T19:15:00+00:00",
         "timestamp": 1690312500,
@@ -3006,7 +3006,7 @@
     {
       "fixture": {
         "id": 1074587,
-        "referee": "F. Maresca",
+        "referee": "Fabio Maresca, Italy",
         "timezone": "UTC",
         "date": "2023-08-02T18:00:00+00:00",
         "timestamp": 1690999200,
@@ -3074,7 +3074,7 @@
     {
       "fixture": {
         "id": 1074588,
-        "referee": "R. Saggi",
+        "referee": "Rohit Saggi, Norway",
         "timezone": "UTC",
         "date": "2023-07-26T18:45:00+00:00",
         "timestamp": 1690397100,
@@ -3142,7 +3142,7 @@
     {
       "fixture": {
         "id": 1074589,
-        "referee": "C. Dingert",
+        "referee": "Christian Dingert, Germany",
         "timezone": "UTC",
         "date": "2023-08-01T18:00:00+00:00",
         "timestamp": 1690912800,
@@ -3210,7 +3210,7 @@
     {
       "fixture": {
         "id": 1074590,
-        "referee": "M. Očenáš",
+        "referee": "Michal Ocenas, Slovakia",
         "timezone": "UTC",
         "date": "2023-07-26T18:45:00+00:00",
         "timestamp": 1690397100,
@@ -3220,8 +3220,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Við Djúpumýrar",
-          "city": "Klaksvík, Borðoy"
+          "name": "Djúpumýra",
+          "city": "Klaksvík"
         },
         "status": {
           "long": "Match Finished",
@@ -3278,7 +3278,7 @@
     {
       "fixture": {
         "id": 1074591,
-        "referee": "A. Madley",
+        "referee": "Andy Madley, England",
         "timezone": "UTC",
         "date": "2023-08-02T17:00:00+00:00",
         "timestamp": 1690995600,
@@ -3346,7 +3346,7 @@
     {
       "fixture": {
         "id": 1074592,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-07-25T16:00:00+00:00",
         "timestamp": 1690300800,
@@ -3414,7 +3414,7 @@
     {
       "fixture": {
         "id": 1074593,
-        "referee": "I. Pajač",
+        "referee": "Igor Pajač, Croatia",
         "timezone": "UTC",
         "date": "2023-08-02T17:00:00+00:00",
         "timestamp": 1690995600,
@@ -3482,7 +3482,7 @@
     {
       "fixture": {
         "id": 1074594,
-        "referee": "I. Frid",
+        "referee": "Yigal Frid, Israel",
         "timezone": "UTC",
         "date": "2023-07-26T17:00:00+00:00",
         "timestamp": 1690390800,
@@ -3550,7 +3550,7 @@
     {
       "fixture": {
         "id": 1074595,
-        "referee": "M. Krogh",
+        "referee": "Morten Krogh, Denmark",
         "timezone": "UTC",
         "date": "2023-08-01T18:00:00+00:00",
         "timestamp": 1690912800,
@@ -3618,7 +3618,7 @@
     {
       "fixture": {
         "id": 1074596,
-        "referee": "S. Gishamer",
+        "referee": "Sebastian Gishamer, Austria",
         "timezone": "UTC",
         "date": "2023-07-26T17:00:00+00:00",
         "timestamp": 1690390800,
@@ -3686,7 +3686,7 @@
     {
       "fixture": {
         "id": 1074597,
-        "referee": "D. Sylwestrzak",
+        "referee": "Damian Sylwestrzak, Poland",
         "timezone": "UTC",
         "date": "2023-08-02T17:00:00+00:00",
         "timestamp": 1690995600,
@@ -3754,7 +3754,7 @@
     {
       "fixture": {
         "id": 1074598,
-        "referee": "L. Fähndrich",
+        "referee": "Lukas Fahndrich, Switzerland",
         "timezone": "UTC",
         "date": "2023-07-26T18:15:00+00:00",
         "timestamp": 1690395300,
@@ -3822,7 +3822,7 @@
     {
       "fixture": {
         "id": 1074599,
-        "referee": "S. Jablonski",
+        "referee": "Sven Jablonski, Germany",
         "timezone": "UTC",
         "date": "2023-08-02T16:00:00+00:00",
         "timestamp": 1690992000,
@@ -3890,7 +3890,7 @@
     {
       "fixture": {
         "id": 1094646,
-        "referee": "H. Lechner",
+        "referee": "Harald Lechner, Austria",
         "timezone": "UTC",
         "date": "2023-08-08T19:00:00+00:00",
         "timestamp": 1691521200,
@@ -3958,7 +3958,7 @@
     {
       "fixture": {
         "id": 1094647,
-        "referee": "J. Kehlet",
+        "referee": "Jakob Kehlet, Denmark",
         "timezone": "UTC",
         "date": "2023-08-15T18:00:00+00:00",
         "timestamp": 1692122400,
@@ -4026,7 +4026,7 @@
     {
       "fixture": {
         "id": 1094648,
-        "referee": "R. Petrescu",
+        "referee": "Petrescu Radu Marian,",
         "timezone": "UTC",
         "date": "2023-08-08T18:30:00+00:00",
         "timestamp": 1691519400,
@@ -4094,7 +4094,7 @@
     {
       "fixture": {
         "id": 1094649,
-        "referee": "S. Jovanović",
+        "referee": "Srdan Jovanovic, Serbia",
         "timezone": "UTC",
         "date": "2023-08-15T18:30:00+00:00",
         "timestamp": 1692124200,
@@ -4162,7 +4162,7 @@
     {
       "fixture": {
         "id": 1102897,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2023-08-09T18:00:00+00:00",
         "timestamp": 1691604000,
@@ -4172,7 +4172,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Stadio Apóstolos Nikolaidis",
+          "name": "Apostolos Nikolaidis Stadium",
           "city": "Athens"
         },
         "status": {
@@ -4230,7 +4230,7 @@
     {
       "fixture": {
         "id": 1102898,
-        "referee": "M. Oliver",
+        "referee": "Michael Oliver, England",
         "timezone": "UTC",
         "date": "2023-08-15T19:00:00+00:00",
         "timestamp": 1692126000,
@@ -4298,7 +4298,7 @@
     {
       "fixture": {
         "id": 1104345,
-        "referee": "D. Strukan",
+        "referee": "Duje Strukan, Croatia",
         "timezone": "UTC",
         "date": "2023-08-08T18:00:00+00:00",
         "timestamp": 1691517600,
@@ -4366,7 +4366,7 @@
     {
       "fixture": {
         "id": 1104346,
-        "referee": "M. Jug",
+        "referee": "Matej Jug, Slovenia",
         "timezone": "UTC",
         "date": "2023-08-15T17:00:00+00:00",
         "timestamp": 1692118800,
@@ -4434,7 +4434,7 @@
     {
       "fixture": {
         "id": 1104347,
-        "referee": "A. Treimanis",
+        "referee": "Andris Treimanis, Latvia",
         "timezone": "UTC",
         "date": "2023-08-09T18:30:00+00:00",
         "timestamp": 1691605800,
@@ -4502,7 +4502,7 @@
     {
       "fixture": {
         "id": 1104348,
-        "referee": "C. Pawson",
+        "referee": "Craig Pawson, England",
         "timezone": "UTC",
         "date": "2023-08-15T17:00:00+00:00",
         "timestamp": 1692118800,
@@ -4570,7 +4570,7 @@
     {
       "fixture": {
         "id": 1104349,
-        "referee": "E. Eskås",
+        "referee": "Espen Eskas, Norway",
         "timezone": "UTC",
         "date": "2023-08-19T18:45:00+00:00",
         "timestamp": 1692470700,
@@ -4638,7 +4638,7 @@
     {
       "fixture": {
         "id": 1104350,
-        "referee": "João Pedro Pinheiro",
+        "referee": "Joao Pedro Pinheiro, Portugal",
         "timezone": "UTC",
         "date": "2023-08-15T18:00:00+00:00",
         "timestamp": 1692122400,
@@ -4706,7 +4706,7 @@
     {
       "fixture": {
         "id": 1104351,
-        "referee": "A. Ekberg",
+        "referee": "Andreas Ekberg, Sweden",
         "timezone": "UTC",
         "date": "2023-08-08T19:00:00+00:00",
         "timestamp": 1691521200,
@@ -4774,7 +4774,7 @@
     {
       "fixture": {
         "id": 1104352,
-        "referee": "M. Guida",
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2023-08-15T18:00:00+00:00",
         "timestamp": 1692122400,
@@ -4842,7 +4842,7 @@
     {
       "fixture": {
         "id": 1104353,
-        "referee": "B. Bastien",
+        "referee": "Benoît Bastien, France",
         "timezone": "UTC",
         "date": "2023-08-08T18:00:00+00:00",
         "timestamp": 1691517600,
@@ -4910,7 +4910,7 @@
     {
       "fixture": {
         "id": 1104354,
-        "referee": "S. Gözübüyük",
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2023-08-15T17:00:00+00:00",
         "timestamp": 1692118800,
@@ -4978,7 +4978,7 @@
     {
       "fixture": {
         "id": 1104355,
-        "referee": "Ə. Ağayev",
+        "referee": "Aliyar Aghayev, Azerbaijan",
         "timezone": "UTC",
         "date": "2023-08-08T18:45:00+00:00",
         "timestamp": 1691520300,
@@ -5046,7 +5046,7 @@
     {
       "fixture": {
         "id": 1104356,
-        "referee": "N. Dabanović",
+        "referee": "Nikola Dabanovic, Montenegro",
         "timezone": "UTC",
         "date": "2023-08-15T17:00:00+00:00",
         "timestamp": 1692118800,
@@ -5114,7 +5114,7 @@
     {
       "fixture": {
         "id": 1104357,
-        "referee": "D. Rumšas",
+        "referee": "Donatas Rumsas, Lithuania",
         "timezone": "UTC",
         "date": "2023-08-09T18:45:00+00:00",
         "timestamp": 1691606700,
@@ -5182,7 +5182,7 @@
     {
       "fixture": {
         "id": 1104358,
-        "referee": "M. Mariani",
+        "referee": "Maurizio Mariani, Italy",
         "timezone": "UTC",
         "date": "2023-08-15T18:30:00+00:00",
         "timestamp": 1692124200,
@@ -5192,8 +5192,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Stade de Genève",
-          "city": "Lancy"
+          "name": "Stade de Genéve",
+          "city": "Geneva"
         },
         "status": {
           "long": "Match Finished",
@@ -5250,7 +5250,7 @@
     {
       "fixture": {
         "id": 1119326,
-        "referee": "C. Turpin",
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2023-08-22T19:00:00+00:00",
         "timestamp": 1692730800,
@@ -5318,7 +5318,7 @@
     {
       "fixture": {
         "id": 1119327,
-        "referee": "José Sánchez",
+        "referee": "Jose Maria Sanchez Martinez, Spain",
         "timezone": "UTC",
         "date": "2023-08-30T19:00:00+00:00",
         "timestamp": 1693422000,
@@ -5386,7 +5386,7 @@
     {
       "fixture": {
         "id": 1119328,
-        "referee": "I. Peljto",
+        "referee": "Irfan Peljto, Bosnia & Herzegovina",
         "timezone": "UTC",
         "date": "2023-08-22T19:00:00+00:00",
         "timestamp": 1692730800,
@@ -5454,7 +5454,7 @@
     {
       "fixture": {
         "id": 1119329,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2023-08-30T19:00:00+00:00",
         "timestamp": 1693422000,
@@ -5522,7 +5522,7 @@
     {
       "fixture": {
         "id": 1119330,
-        "referee": "D. Massa",
+        "referee": "Davide Massa, Italy",
         "timezone": "UTC",
         "date": "2023-08-23T19:00:00+00:00",
         "timestamp": 1692817200,
@@ -5590,7 +5590,7 @@
     {
       "fixture": {
         "id": 1119331,
-        "referee": "S. Vinčić",
+        "referee": "Slavko Vincic, Slovenia",
         "timezone": "UTC",
         "date": "2023-08-29T19:00:00+00:00",
         "timestamp": 1693335600,
@@ -5658,7 +5658,7 @@
     {
       "fixture": {
         "id": 1119332,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-08-23T19:00:00+00:00",
         "timestamp": 1692817200,
@@ -5726,7 +5726,7 @@
     {
       "fixture": {
         "id": 1119333,
-        "referee": "D. Orsato",
+        "referee": "Daniele Orsato, Italy",
         "timezone": "UTC",
         "date": "2023-08-29T19:00:00+00:00",
         "timestamp": 1693335600,
@@ -5736,7 +5736,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Olympiako Stadio Spyros Louis",
+          "name": "Apostolos Nikolaidis Stadium",
           "city": "Athens"
         },
         "status": {
@@ -5794,7 +5794,7 @@
     {
       "fixture": {
         "id": 1119334,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2023-08-23T19:00:00+00:00",
         "timestamp": 1692817200,
@@ -5862,7 +5862,7 @@
     {
       "fixture": {
         "id": 1119335,
-        "referee": "S. Marciniak",
+        "referee": "Szymon Marciniak, Poland",
         "timezone": "UTC",
         "date": "2023-08-29T19:00:00+00:00",
         "timestamp": 1693335600,
@@ -5930,7 +5930,7 @@
     {
       "fixture": {
         "id": 1121330,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2023-08-22T19:00:00+00:00",
         "timestamp": 1692730800,
@@ -5998,7 +5998,7 @@
     {
       "fixture": {
         "id": 1121331,
-        "referee": "Jesús Gil",
+        "referee": "Jesus Gil Manzano, Spain",
         "timezone": "UTC",
         "date": "2023-08-30T19:00:00+00:00",
         "timestamp": 1693422000,
@@ -6066,7 +6066,7 @@
     {
       "fixture": {
         "id": 1126144,
-        "referee": "José Sánchez",
+        "referee": "Jose Maria Sanchez Martinez, Spain",
         "timezone": "UTC",
         "date": "2023-09-19T16:45:00+00:00",
         "timestamp": 1695141900,
@@ -6134,7 +6134,7 @@
     {
       "fixture": {
         "id": 1126145,
-        "referee": "E. Jorgji",
+        "referee": "Enea Jorgji, Albania",
         "timezone": "UTC",
         "date": "2023-09-19T16:45:00+00:00",
         "timestamp": 1695141900,
@@ -6202,7 +6202,7 @@
     {
       "fixture": {
         "id": 1126146,
-        "referee": "I. Peljto",
+        "referee": "Irfan Peljto, Bosnia & Herzegovina",
         "timezone": "UTC",
         "date": "2023-09-19T19:00:00+00:00",
         "timestamp": 1695150000,
@@ -6270,7 +6270,7 @@
     {
       "fixture": {
         "id": 1126147,
-        "referee": "S. Vinčić",
+        "referee": "Slavko Vincic, Slovenia",
         "timezone": "UTC",
         "date": "2023-09-19T19:00:00+00:00",
         "timestamp": 1695150000,
@@ -6338,7 +6338,7 @@
     {
       "fixture": {
         "id": 1126148,
-        "referee": "Jesús Gil",
+        "referee": "Jesus Gil Manzano, Spain",
         "timezone": "UTC",
         "date": "2023-09-19T19:00:00+00:00",
         "timestamp": 1695150000,
@@ -6406,7 +6406,7 @@
     {
       "fixture": {
         "id": 1126149,
-        "referee": "João Pedro Pinheiro",
+        "referee": "Joao Pedro Pinheiro, Portugal",
         "timezone": "UTC",
         "date": "2023-09-19T19:00:00+00:00",
         "timestamp": 1695150000,
@@ -6474,7 +6474,7 @@
     {
       "fixture": {
         "id": 1126150,
-        "referee": "R. Petrescu",
+        "referee": "Petrescu Radu Marian, Romania",
         "timezone": "UTC",
         "date": "2023-09-19T19:00:00+00:00",
         "timestamp": 1695150000,
@@ -6542,7 +6542,7 @@
     {
       "fixture": {
         "id": 1126151,
-        "referee": "D. Massa",
+        "referee": "Davide Massa, Italy",
         "timezone": "UTC",
         "date": "2023-09-19T19:00:00+00:00",
         "timestamp": 1695150000,
@@ -6610,7 +6610,7 @@
     {
       "fixture": {
         "id": 1126152,
-        "referee": "G. Kabakov",
+        "referee": "Georgi Kabakov, Bulgaria",
         "timezone": "UTC",
         "date": "2023-09-20T16:45:00+00:00",
         "timestamp": 1695228300,
@@ -6620,7 +6620,7 @@
         },
         "venue": {
           "id": 19941,
-          "name": "Rams Global Stadium",
+          "name": "RAMS Park",
           "city": "İstanbul"
         },
         "status": {
@@ -6678,7 +6678,7 @@
     {
       "fixture": {
         "id": 1126153,
-        "referee": "E. Eskås",
+        "referee": "Espen Eskas, Norway",
         "timezone": "UTC",
         "date": "2023-09-20T16:45:00+00:00",
         "timestamp": 1695228300,
@@ -6746,7 +6746,7 @@
     {
       "fixture": {
         "id": 1126154,
-        "referee": "G. Nyberg",
+        "referee": "Glenn Nyberg, Sweden",
         "timezone": "UTC",
         "date": "2023-09-20T19:00:00+00:00",
         "timestamp": 1695236400,
@@ -6814,7 +6814,7 @@
     {
       "fixture": {
         "id": 1126155,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-09-20T19:00:00+00:00",
         "timestamp": 1695236400,
@@ -6882,7 +6882,7 @@
     {
       "fixture": {
         "id": 1126156,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-09-20T19:00:00+00:00",
         "timestamp": 1695236400,
@@ -6950,7 +6950,7 @@
     {
       "fixture": {
         "id": 1126157,
-        "referee": "S. Gözübüyük",
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2023-09-20T19:00:00+00:00",
         "timestamp": 1695236400,
@@ -7018,7 +7018,7 @@
     {
       "fixture": {
         "id": 1126158,
-        "referee": "H. Meler",
+        "referee": "Halil Umut Meler, Turkey",
         "timezone": "UTC",
         "date": "2023-09-20T19:00:00+00:00",
         "timestamp": 1695236400,
@@ -7028,8 +7028,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio do Sport Lisboa e Benfica",
-          "city": "Lisboa"
+          "name": "Estádio da Luz",
+          "city": "Lisbon"
         },
         "status": {
           "long": "Match Finished",
@@ -7086,7 +7086,7 @@
     {
       "fixture": {
         "id": 1126159,
-        "referee": "M. Oliver",
+        "referee": "Michael Oliver, England",
         "timezone": "UTC",
         "date": "2023-09-20T19:00:00+00:00",
         "timestamp": 1695236400,
@@ -7154,7 +7154,7 @@
     {
       "fixture": {
         "id": 1126160,
-        "referee": "S. Jovanović",
+        "referee": "Srdan Jovanovic, Serbia",
         "timezone": "UTC",
         "date": "2023-10-03T16:45:00+00:00",
         "timestamp": 1696351500,
@@ -7222,7 +7222,7 @@
     {
       "fixture": {
         "id": 1126161,
-        "referee": "B. Frankowski",
+        "referee": "Bartosz Frankowski, Poland",
         "timezone": "UTC",
         "date": "2023-10-03T16:45:00+00:00",
         "timestamp": 1696351500,
@@ -7290,7 +7290,7 @@
     {
       "fixture": {
         "id": 1126162,
-        "referee": "I. Kružliak",
+        "referee": "Ivan Kružliak, Slovakia",
         "timezone": "UTC",
         "date": "2023-10-03T19:00:00+00:00",
         "timestamp": 1696359600,
@@ -7358,7 +7358,7 @@
     {
       "fixture": {
         "id": 1126163,
-        "referee": "O. Grinfeeld",
+        "referee": "Orel Grinfeeld, Israel",
         "timezone": "UTC",
         "date": "2023-10-03T19:00:00+00:00",
         "timestamp": 1696359600,
@@ -7426,7 +7426,7 @@
     {
       "fixture": {
         "id": 1126164,
-        "referee": "M. Guida",
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2023-10-03T19:00:00+00:00",
         "timestamp": 1696359600,
@@ -7494,7 +7494,7 @@
     {
       "fixture": {
         "id": 1126165,
-        "referee": "D. Orsato",
+        "referee": "Daniele Orsato, Italy",
         "timezone": "UTC",
         "date": "2023-10-03T19:00:00+00:00",
         "timestamp": 1696359600,
@@ -7562,7 +7562,7 @@
     {
       "fixture": {
         "id": 1126166,
-        "referee": "C. Turpin",
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2023-10-03T19:00:00+00:00",
         "timestamp": 1696359600,
@@ -7630,7 +7630,7 @@
     {
       "fixture": {
         "id": 1126167,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2023-10-03T19:00:00+00:00",
         "timestamp": 1696359600,
@@ -7698,7 +7698,7 @@
     {
       "fixture": {
         "id": 1126168,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2023-10-04T16:45:00+00:00",
         "timestamp": 1696437900,
@@ -7766,7 +7766,7 @@
     {
       "fixture": {
         "id": 1126169,
-        "referee": "R. Obrenović",
+        "referee": "Rade Obrenovič, Slovenia",
         "timezone": "UTC",
         "date": "2023-10-04T16:45:00+00:00",
         "timestamp": 1696437900,
@@ -7834,7 +7834,7 @@
     {
       "fixture": {
         "id": 1126170,
-        "referee": "D. Rumšas",
+        "referee": "Donatas Rumsas, Lithuania",
         "timezone": "UTC",
         "date": "2023-10-04T19:00:00+00:00",
         "timestamp": 1696446000,
@@ -7902,7 +7902,7 @@
     {
       "fixture": {
         "id": 1126171,
-        "referee": "S. Marciniak",
+        "referee": "Szymon Marciniak, Poland",
         "timezone": "UTC",
         "date": "2023-10-04T19:00:00+00:00",
         "timestamp": 1696446000,
@@ -7970,7 +7970,7 @@
     {
       "fixture": {
         "id": 1126172,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2023-10-04T19:00:00+00:00",
         "timestamp": 1696446000,
@@ -8038,7 +8038,7 @@
     {
       "fixture": {
         "id": 1126173,
-        "referee": "Artur Soares Dias",
+        "referee": "Artur Soares Dias, Portugal",
         "timezone": "UTC",
         "date": "2023-10-04T19:00:00+00:00",
         "timestamp": 1696446000,
@@ -8106,7 +8106,7 @@
     {
       "fixture": {
         "id": 1126174,
-        "referee": "W. Collum",
+        "referee": "William Collum, Scotland",
         "timezone": "UTC",
         "date": "2023-10-04T19:00:00+00:00",
         "timestamp": 1696446000,
@@ -8174,7 +8174,7 @@
     {
       "fixture": {
         "id": 1126175,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2023-10-04T19:00:00+00:00",
         "timestamp": 1696446000,
@@ -8242,7 +8242,7 @@
     {
       "fixture": {
         "id": 1126176,
-        "referee": "D. Massa",
+        "referee": "Davide Massa, Italy",
         "timezone": "UTC",
         "date": "2023-10-24T16:45:00+00:00",
         "timestamp": 1698165900,
@@ -8252,7 +8252,7 @@
         },
         "venue": {
           "id": 19941,
-          "name": "Rams Global Stadium",
+          "name": "RAMS Park",
           "city": "İstanbul"
         },
         "status": {
@@ -8310,7 +8310,7 @@
     {
       "fixture": {
         "id": 1126177,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2023-10-24T16:45:00+00:00",
         "timestamp": 1698165900,
@@ -8378,7 +8378,7 @@
     {
       "fixture": {
         "id": 1126178,
-        "referee": "M. Guida",
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2023-10-24T19:00:00+00:00",
         "timestamp": 1698174000,
@@ -8446,7 +8446,7 @@
     {
       "fixture": {
         "id": 1126179,
-        "referee": "R. Petrescu",
+        "referee": "Petrescu Radu Marian, Romania",
         "timezone": "UTC",
         "date": "2023-10-24T19:00:00+00:00",
         "timestamp": 1698174000,
@@ -8514,7 +8514,7 @@
     {
       "fixture": {
         "id": 1126180,
-        "referee": "G. Nyberg",
+        "referee": "Glenn Nyberg, Sweden",
         "timezone": "UTC",
         "date": "2023-10-24T19:00:00+00:00",
         "timestamp": 1698174000,
@@ -8582,7 +8582,7 @@
     {
       "fixture": {
         "id": 1126181,
-        "referee": "M. Oliver",
+        "referee": "Michael Oliver, England",
         "timezone": "UTC",
         "date": "2023-10-24T19:00:00+00:00",
         "timestamp": 1698174000,
@@ -8650,7 +8650,7 @@
     {
       "fixture": {
         "id": 1126182,
-        "referee": "I. Peljto",
+        "referee": "Irfan Peljto, Bosnia & Herzegovina",
         "timezone": "UTC",
         "date": "2023-10-24T19:00:00+00:00",
         "timestamp": 1698174000,
@@ -8718,7 +8718,7 @@
     {
       "fixture": {
         "id": 1126183,
-        "referee": "C. Turpin",
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2023-10-24T19:00:00+00:00",
         "timestamp": 1698174000,
@@ -8728,8 +8728,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio do Sport Lisboa e Benfica",
-          "city": "Lisboa"
+          "name": "Estádio da Luz",
+          "city": "Lisbon"
         },
         "status": {
           "long": "Match Finished",
@@ -8786,7 +8786,7 @@
     {
       "fixture": {
         "id": 1126184,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-10-25T16:45:00+00:00",
         "timestamp": 1698252300,
@@ -8854,7 +8854,7 @@
     {
       "fixture": {
         "id": 1126185,
-        "referee": "I. Kružliak",
+        "referee": "Ivan Kružliak, Slovakia",
         "timezone": "UTC",
         "date": "2023-10-25T16:45:00+00:00",
         "timestamp": 1698252300,
@@ -8922,7 +8922,7 @@
     {
       "fixture": {
         "id": 1126186,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-10-25T19:00:00+00:00",
         "timestamp": 1698260400,
@@ -8990,7 +8990,7 @@
     {
       "fixture": {
         "id": 1126187,
-        "referee": "S. Vinčić",
+        "referee": "Slavko Vincic, Slovenia",
         "timezone": "UTC",
         "date": "2023-10-25T19:00:00+00:00",
         "timestamp": 1698260400,
@@ -9058,7 +9058,7 @@
     {
       "fixture": {
         "id": 1126188,
-        "referee": "Artur Soares Dias",
+        "referee": "Artur Soares Dias, Portugal",
         "timezone": "UTC",
         "date": "2023-10-25T19:00:00+00:00",
         "timestamp": 1698260400,
@@ -9126,7 +9126,7 @@
     {
       "fixture": {
         "id": 1126189,
-        "referee": "José Sánchez",
+        "referee": "Jose Maria Sanchez Martinez, Spain",
         "timezone": "UTC",
         "date": "2023-10-25T19:00:00+00:00",
         "timestamp": 1698260400,
@@ -9194,7 +9194,7 @@
     {
       "fixture": {
         "id": 1126190,
-        "referee": "M. Krogh",
+        "referee": "Morten Krogh, Denmark",
         "timezone": "UTC",
         "date": "2023-10-25T19:00:00+00:00",
         "timestamp": 1698260400,
@@ -9262,7 +9262,7 @@
     {
       "fixture": {
         "id": 1126191,
-        "referee": "B. Bastien",
+        "referee": "Benoît Bastien, France",
         "timezone": "UTC",
         "date": "2023-10-25T19:00:00+00:00",
         "timestamp": 1698260400,
@@ -9330,7 +9330,7 @@
     {
       "fixture": {
         "id": 1126192,
-        "referee": "Alejandro Hernández",
+        "referee": "Alejandro Hernandez, Spain",
         "timezone": "UTC",
         "date": "2023-11-07T17:45:00+00:00",
         "timestamp": 1699379100,
@@ -9398,7 +9398,7 @@
     {
       "fixture": {
         "id": 1126193,
-        "referee": "I. Peljto",
+        "referee": "Irfan Peljto, Bosnia & Herzegovina",
         "timezone": "UTC",
         "date": "2023-11-07T17:45:00+00:00",
         "timestamp": 1699379100,
@@ -9466,7 +9466,7 @@
     {
       "fixture": {
         "id": 1126194,
-        "referee": "I. Kružliak",
+        "referee": "Ivan Kružliak, Slovakia",
         "timezone": "UTC",
         "date": "2023-11-07T20:00:00+00:00",
         "timestamp": 1699387200,
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1126195,
-        "referee": "S. Marciniak",
+        "referee": "Szymon Marciniak, Poland",
         "timezone": "UTC",
         "date": "2023-11-07T20:00:00+00:00",
         "timestamp": 1699387200,
@@ -9602,7 +9602,7 @@
     {
       "fixture": {
         "id": 1126196,
-        "referee": "Jesús Gil",
+        "referee": "Jesus Gil Manzano, Spain",
         "timezone": "UTC",
         "date": "2023-11-07T20:00:00+00:00",
         "timestamp": 1699387200,
@@ -9670,7 +9670,7 @@
     {
       "fixture": {
         "id": 1126197,
-        "referee": "E. Lambrechts",
+        "referee": "Eric Lambrechts, Belgium",
         "timezone": "UTC",
         "date": "2023-11-07T20:00:00+00:00",
         "timestamp": 1699387200,
@@ -9738,7 +9738,7 @@
     {
       "fixture": {
         "id": 1126198,
-        "referee": "D. Orsato",
+        "referee": "Daniele Orsato, Italy",
         "timezone": "UTC",
         "date": "2023-11-07T20:00:00+00:00",
         "timestamp": 1699387200,
@@ -9806,7 +9806,7 @@
     {
       "fixture": {
         "id": 1126199,
-        "referee": "M. Mariani",
+        "referee": "Maurizio Mariani, Italy",
         "timezone": "UTC",
         "date": "2023-11-07T20:00:00+00:00",
         "timestamp": 1699387200,
@@ -9874,7 +9874,7 @@
     {
       "fixture": {
         "id": 1126200,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2023-11-08T17:45:00+00:00",
         "timestamp": 1699465500,
@@ -9942,7 +9942,7 @@
     {
       "fixture": {
         "id": 1126201,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2023-11-08T17:45:00+00:00",
         "timestamp": 1699465500,
@@ -10010,7 +10010,7 @@
     {
       "fixture": {
         "id": 1126202,
-        "referee": "António Nobre",
+        "referee": "Antonio Nobre, Portugal",
         "timezone": "UTC",
         "date": "2023-11-08T20:00:00+00:00",
         "timestamp": 1699473600,
@@ -10078,7 +10078,7 @@
     {
       "fixture": {
         "id": 1126203,
-        "referee": "D. Rumšas",
+        "referee": "Donatas Rumsas, Lithuania",
         "timezone": "UTC",
         "date": "2023-11-08T20:00:00+00:00",
         "timestamp": 1699473600,
@@ -10146,7 +10146,7 @@
     {
       "fixture": {
         "id": 1126204,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2023-11-08T20:00:00+00:00",
         "timestamp": 1699473600,
@@ -10214,7 +10214,7 @@
     {
       "fixture": {
         "id": 1126205,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-11-08T20:00:00+00:00",
         "timestamp": 1699473600,
@@ -10282,7 +10282,7 @@
     {
       "fixture": {
         "id": 1126206,
-        "referee": "H. Meler",
+        "referee": "Halil Umut Meler, Turkey",
         "timezone": "UTC",
         "date": "2023-11-08T20:00:00+00:00",
         "timestamp": 1699473600,
@@ -10350,7 +10350,7 @@
     {
       "fixture": {
         "id": 1126207,
-        "referee": "S. Gözübüyük",
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2023-11-08T20:00:00+00:00",
         "timestamp": 1699473600,
@@ -10418,7 +10418,7 @@
     {
       "fixture": {
         "id": 1126208,
-        "referee": "H. Meler",
+        "referee": "Halil Umut Meler, Turkey",
         "timezone": "UTC",
         "date": "2023-11-28T17:45:00+00:00",
         "timestamp": 1701193500,
@@ -10486,7 +10486,7 @@
     {
       "fixture": {
         "id": 1126209,
-        "referee": "B. Frankowski",
+        "referee": "Bartosz Frankowski, Poland",
         "timezone": "UTC",
         "date": "2023-11-28T17:45:00+00:00",
         "timestamp": 1701193500,
@@ -10554,7 +10554,7 @@
     {
       "fixture": {
         "id": 1126210,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2023-11-28T20:00:00+00:00",
         "timestamp": 1701201600,
@@ -10622,7 +10622,7 @@
     {
       "fixture": {
         "id": 1126211,
-        "referee": "S. Marciniak",
+        "referee": "Szymon Marciniak, Poland",
         "timezone": "UTC",
         "date": "2023-11-28T20:00:00+00:00",
         "timestamp": 1701201600,
@@ -10690,7 +10690,7 @@
     {
       "fixture": {
         "id": 1126212,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2023-11-28T20:00:00+00:00",
         "timestamp": 1701201600,
@@ -10758,7 +10758,7 @@
     {
       "fixture": {
         "id": 1126213,
-        "referee": "G. Nyberg",
+        "referee": "Glenn Nyberg, Sweden",
         "timezone": "UTC",
         "date": "2023-11-28T20:00:00+00:00",
         "timestamp": 1701201600,
@@ -10826,7 +10826,7 @@
     {
       "fixture": {
         "id": 1126214,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2023-11-28T20:00:00+00:00",
         "timestamp": 1701201600,
@@ -10894,7 +10894,7 @@
     {
       "fixture": {
         "id": 1126215,
-        "referee": "D. Orsato",
+        "referee": "Daniele Orsato, Italy",
         "timezone": "UTC",
         "date": "2023-11-28T20:00:00+00:00",
         "timestamp": 1701201600,
@@ -10962,7 +10962,7 @@
     {
       "fixture": {
         "id": 1126216,
-        "referee": "José Sánchez",
+        "referee": "Jose Maria Sanchez Martinez, Spain",
         "timezone": "UTC",
         "date": "2023-11-29T17:45:00+00:00",
         "timestamp": 1701279900,
@@ -10972,7 +10972,7 @@
         },
         "venue": {
           "id": 19941,
-          "name": "Rams Global Stadium",
+          "name": "RAMS Park",
           "city": "İstanbul"
         },
         "status": {
@@ -11030,7 +11030,7 @@
     {
       "fixture": {
         "id": 1126217,
-        "referee": "D. Massa",
+        "referee": "Davide Massa, Italy",
         "timezone": "UTC",
         "date": "2023-11-29T17:45:00+00:00",
         "timestamp": 1701279900,
@@ -11098,7 +11098,7 @@
     {
       "fixture": {
         "id": 1126218,
-        "referee": "S. Frappart",
+        "referee": "Stephanie Frappart, France",
         "timezone": "UTC",
         "date": "2023-11-29T20:00:00+00:00",
         "timestamp": 1701288000,
@@ -11166,7 +11166,7 @@
     {
       "fixture": {
         "id": 1126219,
-        "referee": "Artur Soares Dias",
+        "referee": "Artur Soares Dias, Portugal",
         "timezone": "UTC",
         "date": "2023-11-29T20:00:00+00:00",
         "timestamp": 1701288000,
@@ -11234,7 +11234,7 @@
     {
       "fixture": {
         "id": 1126220,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2023-11-29T20:00:00+00:00",
         "timestamp": 1701288000,
@@ -11302,7 +11302,7 @@
     {
       "fixture": {
         "id": 1126221,
-        "referee": "C. Turpin",
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2023-11-29T20:00:00+00:00",
         "timestamp": 1701288000,
@@ -11370,7 +11370,7 @@
     {
       "fixture": {
         "id": 1126222,
-        "referee": "A. Treimanis",
+        "referee": "Andris Treimanis, Latvia",
         "timezone": "UTC",
         "date": "2023-11-29T20:00:00+00:00",
         "timestamp": 1701288000,
@@ -11380,8 +11380,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Estádio do Sport Lisboa e Benfica",
-          "city": "Lisboa"
+          "name": "Estádio da Luz",
+          "city": "Lisbon"
         },
         "status": {
           "long": "Match Finished",
@@ -11438,7 +11438,7 @@
     {
       "fixture": {
         "id": 1126223,
-        "referee": "M. Balakin",
+        "referee": "Mykola Balakin, Ukraine",
         "timezone": "UTC",
         "date": "2023-11-29T20:00:00+00:00",
         "timestamp": 1701288000,
@@ -11506,7 +11506,7 @@
     {
       "fixture": {
         "id": 1126224,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2023-12-12T17:45:00+00:00",
         "timestamp": 1702403100,
@@ -11574,7 +11574,7 @@
     {
       "fixture": {
         "id": 1126225,
-        "referee": "T. Stieler",
+        "referee": "Tobias Stieler, Germany",
         "timezone": "UTC",
         "date": "2023-12-12T17:45:00+00:00",
         "timestamp": 1702403100,
@@ -11642,7 +11642,7 @@
     {
       "fixture": {
         "id": 1126226,
-        "referee": "E. Eskås",
+        "referee": "Espen Eskas, Norway",
         "timezone": "UTC",
         "date": "2023-12-12T20:00:00+00:00",
         "timestamp": 1702411200,
@@ -11710,7 +11710,7 @@
     {
       "fixture": {
         "id": 1126227,
-        "referee": "D. Orsato",
+        "referee": "Daniele Orsato, Italy",
         "timezone": "UTC",
         "date": "2023-12-12T20:00:00+00:00",
         "timestamp": 1702411200,
@@ -11778,7 +11778,7 @@
     {
       "fixture": {
         "id": 1126228,
-        "referee": "S. Vinčić",
+        "referee": "Slavko Vincic, Slovenia",
         "timezone": "UTC",
         "date": "2023-12-12T20:00:00+00:00",
         "timestamp": 1702411200,
@@ -11846,7 +11846,7 @@
     {
       "fixture": {
         "id": 1126229,
-        "referee": "R. Obrenović",
+        "referee": "Rade Obrenovič, Slovenia",
         "timezone": "UTC",
         "date": "2023-12-12T20:00:00+00:00",
         "timestamp": 1702411200,
@@ -11914,7 +11914,7 @@
     {
       "fixture": {
         "id": 1126230,
-        "referee": "S. Schärer",
+        "referee": "Sandro Scharer, Switzerland",
         "timezone": "UTC",
         "date": "2023-12-12T20:00:00+00:00",
         "timestamp": 1702411200,
@@ -11982,7 +11982,7 @@
     {
       "fixture": {
         "id": 1126231,
-        "referee": "D. Siebert",
+        "referee": "Daniel Siebert, Germany",
         "timezone": "UTC",
         "date": "2023-12-12T20:00:00+00:00",
         "timestamp": 1702411200,
@@ -12050,7 +12050,7 @@
     {
       "fixture": {
         "id": 1126232,
-        "referee": "M. Lukjančukas",
+        "referee": "Manfredas Lukjancukas, Lithuania",
         "timezone": "UTC",
         "date": "2023-12-13T17:45:00+00:00",
         "timestamp": 1702489500,
@@ -12118,7 +12118,7 @@
     {
       "fixture": {
         "id": 1126233,
-        "referee": "Ə. Ağayev",
+        "referee": "Aliyar Aghayev, Azerbaijan",
         "timezone": "UTC",
         "date": "2023-12-13T17:45:00+00:00",
         "timestamp": 1702489500,
@@ -12186,7 +12186,7 @@
     {
       "fixture": {
         "id": 1126234,
-        "referee": "S. Gözübüyük",
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2023-12-13T20:00:00+00:00",
         "timestamp": 1702497600,
@@ -12254,7 +12254,7 @@
     {
       "fixture": {
         "id": 1126235,
-        "referee": "B. Bastien",
+        "referee": "Benoît Bastien, France",
         "timezone": "UTC",
         "date": "2023-12-13T20:00:00+00:00",
         "timestamp": 1702497600,
@@ -12322,7 +12322,7 @@
     {
       "fixture": {
         "id": 1126236,
-        "referee": "G. Nyberg",
+        "referee": "Glenn Nyberg, Sweden",
         "timezone": "UTC",
         "date": "2023-12-13T20:00:00+00:00",
         "timestamp": 1702497600,
@@ -12390,7 +12390,7 @@
     {
       "fixture": {
         "id": 1126237,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2023-12-13T20:00:00+00:00",
         "timestamp": 1702497600,
@@ -12458,7 +12458,7 @@
     {
       "fixture": {
         "id": 1126238,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2023-12-13T20:00:00+00:00",
         "timestamp": 1702497600,
@@ -12526,7 +12526,7 @@
     {
       "fixture": {
         "id": 1126239,
-        "referee": "M. Guida",
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2023-12-13T20:00:00+00:00",
         "timestamp": 1702497600,
@@ -12594,7 +12594,7 @@
     {
       "fixture": {
         "id": 1149510,
-        "referee": "José Sánchez",
+        "referee": "Jose Maria Sanchez Martinez, Spain",
         "timezone": "UTC",
         "date": "2024-02-13T20:00:00+00:00",
         "timestamp": 1707854400,
@@ -12662,7 +12662,7 @@
     {
       "fixture": {
         "id": 1149511,
-        "referee": "E. Eskås",
+        "referee": "Espen Eskas, Norway",
         "timezone": "UTC",
         "date": "2024-03-06T20:00:00+00:00",
         "timestamp": 1709755200,
@@ -12730,7 +12730,7 @@
     {
       "fixture": {
         "id": 1149512,
-        "referee": "I. Peljto",
+        "referee": "Irfan Peljto, Bosnia & Herzegovina",
         "timezone": "UTC",
         "date": "2024-02-13T20:00:00+00:00",
         "timestamp": 1707854400,
@@ -12798,7 +12798,7 @@
     {
       "fixture": {
         "id": 1149513,
-        "referee": "D. Massa",
+        "referee": "Davide Massa, Italy",
         "timezone": "UTC",
         "date": "2024-03-06T20:00:00+00:00",
         "timestamp": 1709755200,
@@ -12866,7 +12866,7 @@
     {
       "fixture": {
         "id": 1149514,
-        "referee": "M. Guida",
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2024-02-14T20:00:00+00:00",
         "timestamp": 1707940800,
@@ -12934,7 +12934,7 @@
     {
       "fixture": {
         "id": 1149515,
-        "referee": "M. Oliver",
+        "referee": "Michael Oliver, England",
         "timezone": "UTC",
         "date": "2024-03-05T20:00:00+00:00",
         "timestamp": 1709668800,
@@ -13002,7 +13002,7 @@
     {
       "fixture": {
         "id": 1149516,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2024-02-14T20:00:00+00:00",
         "timestamp": 1707940800,
@@ -13070,7 +13070,7 @@
     {
       "fixture": {
         "id": 1149517,
-        "referee": "S. Vinčić",
+        "referee": "Slavko Vincic, Slovenia",
         "timezone": "UTC",
         "date": "2024-03-05T20:00:00+00:00",
         "timestamp": 1709668800,
@@ -13138,7 +13138,7 @@
     {
       "fixture": {
         "id": 1149518,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2024-02-20T20:00:00+00:00",
         "timestamp": 1708459200,
@@ -13206,7 +13206,7 @@
     {
       "fixture": {
         "id": 1149519,
-        "referee": "S. Marciniak",
+        "referee": "Szymon Marciniak, Poland",
         "timezone": "UTC",
         "date": "2024-03-13T20:00:00+00:00",
         "timestamp": 1710360000,
@@ -13274,7 +13274,7 @@
     {
       "fixture": {
         "id": 1149520,
-        "referee": "S. Jovanović",
+        "referee": "Srdan Jovanovic, Serbia",
         "timezone": "UTC",
         "date": "2024-02-20T20:00:00+00:00",
         "timestamp": 1708459200,
@@ -13342,7 +13342,7 @@
     {
       "fixture": {
         "id": 1149521,
-        "referee": "D. Orsato",
+        "referee": "Daniele Orsato, Italy",
         "timezone": "UTC",
         "date": "2024-03-13T20:00:00+00:00",
         "timestamp": 1710360000,
@@ -13410,7 +13410,7 @@
     {
       "fixture": {
         "id": 1149522,
-        "referee": "S. Gözübüyük",
+        "referee": "Serdar Gozubuyuk, Netherlands",
         "timezone": "UTC",
         "date": "2024-02-21T20:00:00+00:00",
         "timestamp": 1708545600,
@@ -13478,7 +13478,7 @@
     {
       "fixture": {
         "id": 1149523,
-        "referee": "C. Turpin",
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2024-03-12T20:00:00+00:00",
         "timestamp": 1710273600,
@@ -13546,7 +13546,7 @@
     {
       "fixture": {
         "id": 1149524,
-        "referee": "F. Zwayer",
+        "referee": "Felix Zwayer, Germany",
         "timezone": "UTC",
         "date": "2024-02-21T20:00:00+00:00",
         "timestamp": 1708545600,
@@ -13614,7 +13614,7 @@
     {
       "fixture": {
         "id": 1149525,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2024-03-12T20:00:00+00:00",
         "timestamp": 1710273600,
@@ -13682,7 +13682,7 @@
     {
       "fixture": {
         "id": 1184777,
-        "referee": "G. Nyberg",
+        "referee": "Glenn Nyberg, Sweden",
         "timezone": "UTC",
         "date": "2024-04-09T19:00:00+00:00",
         "timestamp": 1712689200,
@@ -13750,7 +13750,7 @@
     {
       "fixture": {
         "id": 1184778,
-        "referee": "D. Makkelie",
+        "referee": "Danny Desmond Makkelie, Netherlands",
         "timezone": "UTC",
         "date": "2024-04-17T19:00:00+00:00",
         "timestamp": 1713380400,
@@ -13818,7 +13818,7 @@
     {
       "fixture": {
         "id": 1184779,
-        "referee": "F. Letexier",
+        "referee": "François Letexier, France",
         "timezone": "UTC",
         "date": "2024-04-09T19:00:00+00:00",
         "timestamp": 1712689200,
@@ -13886,7 +13886,7 @@
     {
       "fixture": {
         "id": 1184780,
-        "referee": "D. Orsato",
+        "referee": "Daniele Orsato, Italy",
         "timezone": "UTC",
         "date": "2024-04-17T19:00:00+00:00",
         "timestamp": 1713380400,
@@ -13954,7 +13954,7 @@
     {
       "fixture": {
         "id": 1184781,
-        "referee": "M. Guida",
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2024-04-10T19:00:00+00:00",
         "timestamp": 1712775600,
@@ -14022,7 +14022,7 @@
     {
       "fixture": {
         "id": 1184782,
-        "referee": "S. Vinčić",
+        "referee": "Slavko Vincic, Slovenia",
         "timezone": "UTC",
         "date": "2024-04-16T19:00:00+00:00",
         "timestamp": 1713294000,
@@ -14090,7 +14090,7 @@
     {
       "fixture": {
         "id": 1184783,
-        "referee": "A. Taylor",
+        "referee": "Anthony Taylor, England",
         "timezone": "UTC",
         "date": "2024-04-10T19:00:00+00:00",
         "timestamp": 1712775600,
@@ -14158,7 +14158,7 @@
     {
       "fixture": {
         "id": 1184784,
-        "referee": "I. Kovacs",
+        "referee": "Istvan Kovacs, Romania",
         "timezone": "UTC",
         "date": "2024-04-16T19:00:00+00:00",
         "timestamp": 1713294000,
@@ -14226,7 +14226,7 @@
     {
       "fixture": {
         "id": 1196501,
-        "referee": null,
+        "referee": "A. Taylor",
         "timezone": "UTC",
         "date": "2024-05-01T19:00:00+00:00",
         "timestamp": 1714590000,
@@ -14362,13 +14362,13 @@
     {
       "fixture": {
         "id": 1196543,
-        "referee": null,
+        "referee": "Clement Turpin, France",
         "timezone": "UTC",
         "date": "2024-04-30T19:00:00+00:00",
         "timestamp": 1714503600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714503600,
+          "second": 1714507200
         },
         "venue": {
           "id": 700,
@@ -14376,9 +14376,9 @@
           "city": "München"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -14405,17 +14405,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
