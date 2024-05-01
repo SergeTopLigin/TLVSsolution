@@ -1,1 +1,1126 @@
-{}
+{
+  "165": [
+    {
+      "club_name": "Borussia Dortmund",
+      "date": "2024-05-01T19:00:00+00:00",
+      "match": "Borussia Dortmund - Paris Saint Germain",
+      "game_status": "expected",
+      "opponent": "Paris Saint Germain",
+      "opp_id": 85,
+      "result": null,
+      "opp_TLrate": 1.21,
+      "goalDiff": null,
+      "timestamp": 1714590000,
+      "fixture_id": 1196501,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "GER",
+      "club_TLpos": 10,
+      "club_qouta": [
+        "UCL",
+        "TopLiga"
+      ],
+      "club_NATpos": 5,
+      "opp_nat": "GER",
+      "opp_TLpos": 4,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "FRA League"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Borussia Dortmund",
+      "date": "2024-05-07T19:00:00+00:00",
+      "match": "Paris Saint Germain - Borussia Dortmund",
+      "game_status": "expected",
+      "opponent": "Paris Saint Germain",
+      "opp_id": 85,
+      "result": null,
+      "opp_TLrate": 1.21,
+      "goalDiff": null,
+      "timestamp": 1715108400,
+      "fixture_id": 1196502,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "GER",
+      "club_TLpos": 10,
+      "club_qouta": [
+        "UCL",
+        "TopLiga"
+      ],
+      "club_NATpos": 5,
+      "opp_nat": "GER",
+      "opp_TLpos": 4,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "FRA League"
+      ],
+      "opp_NATpos": 0
+    }
+  ],
+  "85": [
+    {
+      "club_name": "Paris Saint Germain",
+      "date": "2024-05-01T19:00:00+00:00",
+      "match": "Borussia Dortmund - Paris Saint Germain",
+      "game_status": "expected",
+      "opponent": "Borussia Dortmund",
+      "opp_id": 165,
+      "result": null,
+      "opp_TLrate": 0.47,
+      "goalDiff": null,
+      "timestamp": 1714590000,
+      "fixture_id": 1196501,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "FRA",
+      "club_TLpos": 4,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "FRA League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "FRA",
+      "opp_TLpos": 10,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Paris Saint Germain",
+      "date": "2024-05-07T19:00:00+00:00",
+      "match": "Paris Saint Germain - Borussia Dortmund",
+      "game_status": "expected",
+      "opponent": "Borussia Dortmund",
+      "opp_id": 165,
+      "result": null,
+      "opp_TLrate": 0.47,
+      "goalDiff": null,
+      "timestamp": 1715108400,
+      "fixture_id": 1196502,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "FRA",
+      "club_TLpos": 4,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "FRA League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "FRA",
+      "opp_TLpos": 10,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga"
+      ],
+      "opp_NATpos": 0
+    }
+  ],
+  "157": [
+    {
+      "club_name": "Bayern Munich",
+      "date": "2024-04-30T19:00:00+00:00",
+      "match": "Bayern Munich - Real Madrid   2:2",
+      "game_status": "fixed",
+      "opponent": "Real Madrid",
+      "opp_id": 541,
+      "result": "draw",
+      "opp_TLrate": 1.67,
+      "goalDiff": 0,
+      "timestamp": 1714503600,
+      "fixture_id": 1196543,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "GER",
+      "club_TLpos": 2,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "GER League"
+      ],
+      "club_NATpos": 2,
+      "opp_nat": "GER",
+      "opp_TLpos": 3,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "ESP League"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Bayern Munich",
+      "date": "2024-05-08T19:00:00+00:00",
+      "match": "Real Madrid - Bayern Munich",
+      "game_status": "expected",
+      "opponent": "Real Madrid",
+      "opp_id": 541,
+      "result": null,
+      "opp_TLrate": 1.67,
+      "goalDiff": null,
+      "timestamp": 1715194800,
+      "fixture_id": 1196544,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "GER",
+      "club_TLpos": 2,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "GER League"
+      ],
+      "club_NATpos": 2,
+      "opp_nat": "GER",
+      "opp_TLpos": 3,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "ESP League"
+      ],
+      "opp_NATpos": 0
+    },
+    null
+  ],
+  "541": [
+    {
+      "club_name": "Real Madrid",
+      "date": "2024-04-30T19:00:00+00:00",
+      "match": "Bayern Munich - Real Madrid   2:2",
+      "game_status": "fixed",
+      "opponent": "Bayern Munich",
+      "opp_id": 157,
+      "result": "draw",
+      "opp_TLrate": 2.08,
+      "goalDiff": 0,
+      "timestamp": 1714503600,
+      "fixture_id": 1196543,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "ESP",
+      "club_TLpos": 3,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "ESP League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "ESP",
+      "opp_TLpos": 2,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "GER League"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Real Madrid",
+      "date": "2024-05-08T19:00:00+00:00",
+      "match": "Real Madrid - Bayern Munich",
+      "game_status": "expected",
+      "opponent": "Bayern Munich",
+      "opp_id": 157,
+      "result": null,
+      "opp_TLrate": 2.08,
+      "goalDiff": null,
+      "timestamp": 1715194800,
+      "fixture_id": 1196544,
+      "tourn_id": 2,
+      "tourn_name": "UEFA Champions League",
+      "tourn_short": "UCL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "ESP",
+      "club_TLpos": 3,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "ESP League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "ESP",
+      "opp_TLpos": 2,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "GER League"
+      ],
+      "opp_NATpos": 0
+    }
+  ],
+  "81": [
+    {
+      "club_name": "Marseille",
+      "date": "2024-05-02T19:00:00+00:00",
+      "match": "Marseille - Atalanta",
+      "game_status": "expected",
+      "opponent": "Atalanta",
+      "opp_id": 499,
+      "result": null,
+      "opp_TLrate": -0.06,
+      "goalDiff": null,
+      "timestamp": 1714676400,
+      "fixture_id": 1196783,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "FRA",
+      "club_TLpos": 43,
+      "club_qouta": [
+        "UEL"
+      ],
+      "club_NATpos": 7,
+      "opp_nat": "FRA",
+      "opp_TLpos": 21,
+      "opp_qouta": [
+        "UEL"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Marseille",
+      "date": "2024-05-09T19:00:00+00:00",
+      "match": "Atalanta - Marseille",
+      "game_status": "expected",
+      "opponent": "Atalanta",
+      "opp_id": 499,
+      "result": null,
+      "opp_TLrate": -0.06,
+      "goalDiff": null,
+      "timestamp": 1715281200,
+      "fixture_id": 1196784,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "FRA",
+      "club_TLpos": 43,
+      "club_qouta": [
+        "UEL"
+      ],
+      "club_NATpos": 7,
+      "opp_nat": "FRA",
+      "opp_TLpos": 21,
+      "opp_qouta": [
+        "UEL"
+      ],
+      "opp_NATpos": 0
+    }
+  ],
+  "499": [
+    {
+      "club_name": "Atalanta",
+      "date": "2024-05-02T19:00:00+00:00",
+      "match": "Marseille - Atalanta",
+      "game_status": "expected",
+      "opponent": "Marseille",
+      "opp_id": 81,
+      "result": null,
+      "opp_TLrate": -0.92,
+      "goalDiff": null,
+      "timestamp": 1714676400,
+      "fixture_id": 1196783,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "ITA",
+      "club_TLpos": 21,
+      "club_qouta": [
+        "UEL"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ITA",
+      "opp_TLpos": 43,
+      "opp_qouta": [
+        "UEL"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Atalanta",
+      "date": "2024-05-09T19:00:00+00:00",
+      "match": "Atalanta - Marseille",
+      "game_status": "expected",
+      "opponent": "Marseille",
+      "opp_id": 81,
+      "result": null,
+      "opp_TLrate": -0.92,
+      "goalDiff": null,
+      "timestamp": 1715281200,
+      "fixture_id": 1196784,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "ITA",
+      "club_TLpos": 21,
+      "club_qouta": [
+        "UEL"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ITA",
+      "opp_TLpos": 43,
+      "opp_qouta": [
+        "UEL"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Atalanta",
+      "date": "2024-05-12T00:00:00+00:00",
+      "match": "Atalanta - AS Roma",
+      "opponent": "AS Roma",
+      "opp_id": 497,
+      "result": null,
+      "opp_TLrate": 0.72,
+      "goalDiff": null,
+      "timestamp": 1715472000,
+      "fixture_id": 1052603,
+      "tourn_id": 135,
+      "tourn_name": "Serie A",
+      "tourn_short": "ITA League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 36",
+      "club_nat": "ITA",
+      "club_TLpos": 21,
+      "club_qouta": [
+        "UEL"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ITA",
+      "opp_TLpos": 7,
+      "opp_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "opp_NATpos": 5
+    },
+    {
+      "club_name": "Atalanta",
+      "date": "2024-05-15T19:00:00+00:00",
+      "match": "Atalanta - Juventus",
+      "game_status": "expected",
+      "opponent": "Juventus",
+      "opp_id": 496,
+      "result": null,
+      "opp_TLrate": 0.1,
+      "goalDiff": null,
+      "timestamp": 1715799600,
+      "fixture_id": 1197545,
+      "tourn_id": 137,
+      "tourn_name": "Coppa Italia",
+      "tourn_short": "ITA Cup",
+      "season": "23-24",
+      "tourn_round": "Final",
+      "club_nat": "ITA",
+      "club_TLpos": 21,
+      "club_qouta": [
+        "UEL"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ITA",
+      "opp_TLpos": 18,
+      "opp_qouta": [
+        "ITA League",
+        "ITA Cup"
+      ],
+      "opp_NATpos": 3
+    }
+  ],
+  "497": [
+    {
+      "club_name": "AS Roma",
+      "date": "2024-05-02T19:00:00+00:00",
+      "match": "AS Roma - Bayer Leverkusen",
+      "game_status": "expected",
+      "opponent": "Bayer Leverkusen",
+      "opp_id": 168,
+      "result": null,
+      "opp_TLrate": 0.28,
+      "goalDiff": null,
+      "timestamp": 1714676400,
+      "fixture_id": 1196785,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "ITA",
+      "club_TLpos": 7,
+      "club_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "club_NATpos": 5,
+      "opp_nat": "ITA",
+      "opp_TLpos": 14,
+      "opp_qouta": [
+        "UEL",
+        "GER League"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "AS Roma",
+      "date": "2024-05-09T19:00:00+00:00",
+      "match": "Bayer Leverkusen - AS Roma",
+      "game_status": "expected",
+      "opponent": "Bayer Leverkusen",
+      "opp_id": 168,
+      "result": null,
+      "opp_TLrate": 0.28,
+      "goalDiff": null,
+      "timestamp": 1715281200,
+      "fixture_id": 1196786,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "ITA",
+      "club_TLpos": 7,
+      "club_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "club_NATpos": 5,
+      "opp_nat": "ITA",
+      "opp_TLpos": 14,
+      "opp_qouta": [
+        "UEL",
+        "GER League"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "AS Roma",
+      "date": "2024-05-05T18:45:00+00:00",
+      "match": "AS Roma - Juventus",
+      "game_status": "expected",
+      "opponent": "Juventus",
+      "opp_id": 496,
+      "result": null,
+      "opp_TLrate": 0.1,
+      "goalDiff": null,
+      "timestamp": 1714934700,
+      "fixture_id": 1052598,
+      "tourn_id": 135,
+      "tourn_name": "Serie A",
+      "tourn_short": "ITA League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 35",
+      "club_nat": "ITA",
+      "club_TLpos": 7,
+      "club_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "club_NATpos": 5,
+      "opp_nat": "ITA",
+      "opp_TLpos": 18,
+      "opp_qouta": [
+        "ITA League",
+        "ITA Cup"
+      ],
+      "opp_NATpos": 3
+    },
+    {
+      "club_name": "AS Roma",
+      "date": "2024-05-12T00:00:00+00:00",
+      "match": "Atalanta - AS Roma",
+      "opponent": "Atalanta",
+      "opp_id": 499,
+      "result": null,
+      "opp_TLrate": -0.06,
+      "goalDiff": null,
+      "timestamp": 1715472000,
+      "fixture_id": 1052603,
+      "tourn_id": 135,
+      "tourn_name": "Serie A",
+      "tourn_short": "ITA League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 36",
+      "club_nat": "ITA",
+      "club_TLpos": 7,
+      "club_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "club_NATpos": 5,
+      "opp_nat": "ITA",
+      "opp_TLpos": 21,
+      "opp_qouta": [
+        "UEL"
+      ],
+      "opp_NATpos": 6
+    }
+  ],
+  "168": [
+    {
+      "club_name": "Bayer Leverkusen",
+      "date": "2024-05-02T19:00:00+00:00",
+      "match": "AS Roma - Bayer Leverkusen",
+      "game_status": "expected",
+      "opponent": "AS Roma",
+      "opp_id": 497,
+      "result": null,
+      "opp_TLrate": 0.72,
+      "goalDiff": null,
+      "timestamp": 1714676400,
+      "fixture_id": 1196785,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "GER",
+      "club_TLpos": 14,
+      "club_qouta": [
+        "UEL",
+        "GER League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "GER",
+      "opp_TLpos": 7,
+      "opp_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "opp_NATpos": 0
+    },
+    {
+      "club_name": "Bayer Leverkusen",
+      "date": "2024-05-09T19:00:00+00:00",
+      "match": "Bayer Leverkusen - AS Roma",
+      "game_status": "expected",
+      "opponent": "AS Roma",
+      "opp_id": 497,
+      "result": null,
+      "opp_TLrate": 0.72,
+      "goalDiff": null,
+      "timestamp": 1715281200,
+      "fixture_id": 1196786,
+      "tourn_id": 3,
+      "tourn_name": "UEFA Europa League",
+      "tourn_short": "UEL",
+      "season": "23-24",
+      "tourn_round": "Semi-finals",
+      "club_nat": "GER",
+      "club_TLpos": 14,
+      "club_qouta": [
+        "UEL",
+        "GER League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "GER",
+      "opp_TLpos": 7,
+      "opp_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "opp_NATpos": 0
+    }
+  ],
+  "66": [
+    null
+  ],
+  "40": [
+    null
+  ],
+  "33": [
+    {
+      "club_name": "Manchester United",
+      "date": "2024-05-12T15:30:00+00:00",
+      "match": "Manchester United - Arsenal",
+      "game_status": "expected",
+      "opponent": "Arsenal",
+      "opp_id": 42,
+      "result": null,
+      "opp_TLrate": -0.15,
+      "goalDiff": null,
+      "timestamp": 1715527800,
+      "fixture_id": 1035538,
+      "tourn_id": 39,
+      "tourn_name": "Premier League",
+      "tourn_short": "ENG League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 37",
+      "club_nat": "ENG",
+      "club_TLpos": 11,
+      "club_qouta": [
+        "TopLiga"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ENG",
+      "opp_TLpos": 22,
+      "opp_qouta": [
+        "UCL",
+        "ENG League"
+      ],
+      "opp_NATpos": 1
+    },
+    {
+      "club_name": "Manchester United",
+      "date": "2024-05-25T00:00:00+00:00",
+      "match": "Manchester City - Manchester United",
+      "opponent": "Manchester City",
+      "opp_id": 50,
+      "result": null,
+      "opp_TLrate": 2.2,
+      "goalDiff": null,
+      "timestamp": 1716595200,
+      "fixture_id": 1197145,
+      "tourn_id": 45,
+      "tourn_name": "FA Cup",
+      "tourn_short": "ENG Cup",
+      "season": "23-24",
+      "tourn_round": "Final",
+      "club_nat": "ENG",
+      "club_TLpos": 11,
+      "club_qouta": [
+        "TopLiga"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ENG",
+      "opp_TLpos": 1,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "ENG League",
+        "ENG Cup"
+      ],
+      "opp_NATpos": 2
+    }
+  ],
+  "42": [
+    {
+      "club_name": "Arsenal",
+      "date": "2024-05-12T15:30:00+00:00",
+      "match": "Manchester United - Arsenal",
+      "game_status": "expected",
+      "opponent": "Manchester United",
+      "opp_id": 33,
+      "result": null,
+      "opp_TLrate": 0.47,
+      "goalDiff": null,
+      "timestamp": 1715527800,
+      "fixture_id": 1035538,
+      "tourn_id": 39,
+      "tourn_name": "Premier League",
+      "tourn_short": "ENG League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 37",
+      "club_nat": "ENG",
+      "club_TLpos": 22,
+      "club_qouta": [
+        "UCL",
+        "ENG League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "ENG",
+      "opp_TLpos": 11,
+      "opp_qouta": [
+        "TopLiga"
+      ],
+      "opp_NATpos": 6
+    }
+  ],
+  "50": [
+    {
+      "club_name": "Manchester City",
+      "date": "2024-05-25T00:00:00+00:00",
+      "match": "Manchester City - Manchester United",
+      "opponent": "Manchester United",
+      "opp_id": 33,
+      "result": null,
+      "opp_TLrate": 0.47,
+      "goalDiff": null,
+      "timestamp": 1716595200,
+      "fixture_id": 1197145,
+      "tourn_id": 45,
+      "tourn_name": "FA Cup",
+      "tourn_short": "ENG Cup",
+      "season": "23-24",
+      "tourn_round": "Final",
+      "club_nat": "ENG",
+      "club_TLpos": 1,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "ENG League",
+        "ENG Cup"
+      ],
+      "club_NATpos": 2,
+      "opp_nat": "ENG",
+      "opp_TLpos": 11,
+      "opp_qouta": [
+        "TopLiga"
+      ],
+      "opp_NATpos": 6
+    }
+  ],
+  "547": [
+    null
+  ],
+  "529": [
+    null,
+    {
+      "club_name": "Barcelona",
+      "date": "2024-05-13T19:00:00+00:00",
+      "match": "Barcelona - Real Sociedad",
+      "game_status": "expected",
+      "opponent": "Real Sociedad",
+      "opp_id": 548,
+      "result": null,
+      "opp_TLrate": -0.8,
+      "goalDiff": null,
+      "timestamp": 1715626800,
+      "fixture_id": 1038294,
+      "tourn_id": 140,
+      "tourn_name": "La Liga",
+      "tourn_short": "ESP League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 35",
+      "club_nat": "ESP",
+      "club_TLpos": 12,
+      "club_qouta": [
+        "UCL",
+        "ESP League"
+      ],
+      "club_NATpos": 3,
+      "opp_nat": "ESP",
+      "opp_TLpos": 38,
+      "opp_qouta": [
+        "UCL"
+      ],
+      "opp_NATpos": 6
+    }
+  ],
+  "548": [
+    {
+      "club_name": "Real Sociedad",
+      "date": "2024-05-13T19:00:00+00:00",
+      "match": "Barcelona - Real Sociedad",
+      "game_status": "expected",
+      "opponent": "Barcelona",
+      "opp_id": 529,
+      "result": null,
+      "opp_TLrate": 0.44,
+      "goalDiff": null,
+      "timestamp": 1715626800,
+      "fixture_id": 1038294,
+      "tourn_id": 140,
+      "tourn_name": "La Liga",
+      "tourn_short": "ESP League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 35",
+      "club_nat": "ESP",
+      "club_TLpos": 38,
+      "club_qouta": [
+        "UCL"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ESP",
+      "opp_TLpos": 12,
+      "opp_qouta": [
+        "UCL",
+        "ESP League"
+      ],
+      "opp_NATpos": 3
+    },
+    {
+      "club_name": "Real Sociedad",
+      "date": "2024-05-26T00:00:00+00:00",
+      "match": "Real Sociedad - Atletico Madrid",
+      "opponent": "Atletico Madrid",
+      "opp_id": 530,
+      "result": null,
+      "opp_TLrate": 0.38,
+      "goalDiff": null,
+      "timestamp": 1716681600,
+      "fixture_id": 1038328,
+      "tourn_id": 140,
+      "tourn_name": "La Liga",
+      "tourn_short": "ESP League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 38",
+      "club_nat": "ESP",
+      "club_TLpos": 38,
+      "club_qouta": [
+        "UCL"
+      ],
+      "club_NATpos": 6,
+      "opp_nat": "ESP",
+      "opp_TLpos": 13,
+      "opp_qouta": [
+        "UCL",
+        "ESP League"
+      ],
+      "opp_NATpos": 4
+    }
+  ],
+  "530": [
+    {
+      "club_name": "Atletico Madrid",
+      "date": "2024-05-26T00:00:00+00:00",
+      "match": "Real Sociedad - Atletico Madrid",
+      "opponent": "Real Sociedad",
+      "opp_id": 548,
+      "result": null,
+      "opp_TLrate": -0.8,
+      "goalDiff": null,
+      "timestamp": 1716681600,
+      "fixture_id": 1038328,
+      "tourn_id": 140,
+      "tourn_name": "La Liga",
+      "tourn_short": "ESP League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 38",
+      "club_nat": "ESP",
+      "club_TLpos": 13,
+      "club_qouta": [
+        "UCL",
+        "ESP League"
+      ],
+      "club_NATpos": 4,
+      "opp_nat": "ESP",
+      "opp_TLpos": 38,
+      "opp_qouta": [
+        "UCL"
+      ],
+      "opp_NATpos": 6
+    }
+  ],
+  "172": [
+    null
+  ],
+  "496": [
+    {
+      "club_name": "Juventus",
+      "date": "2024-05-05T18:45:00+00:00",
+      "match": "AS Roma - Juventus",
+      "game_status": "expected",
+      "opponent": "AS Roma",
+      "opp_id": 497,
+      "result": null,
+      "opp_TLrate": 0.72,
+      "goalDiff": null,
+      "timestamp": 1714934700,
+      "fixture_id": 1052598,
+      "tourn_id": 135,
+      "tourn_name": "Serie A",
+      "tourn_short": "ITA League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 35",
+      "club_nat": "ITA",
+      "club_TLpos": 18,
+      "club_qouta": [
+        "ITA League",
+        "ITA Cup"
+      ],
+      "club_NATpos": 3,
+      "opp_nat": "ITA",
+      "opp_TLpos": 7,
+      "opp_qouta": [
+        "UEL",
+        "TopLiga"
+      ],
+      "opp_NATpos": 5
+    },
+    {
+      "club_name": "Juventus",
+      "date": "2024-05-15T19:00:00+00:00",
+      "match": "Atalanta - Juventus",
+      "game_status": "expected",
+      "opponent": "Atalanta",
+      "opp_id": 499,
+      "result": null,
+      "opp_TLrate": -0.06,
+      "goalDiff": null,
+      "timestamp": 1715799600,
+      "fixture_id": 1197545,
+      "tourn_id": 137,
+      "tourn_name": "Coppa Italia",
+      "tourn_short": "ITA Cup",
+      "season": "23-24",
+      "tourn_round": "Final",
+      "club_nat": "ITA",
+      "club_TLpos": 18,
+      "club_qouta": [
+        "ITA League",
+        "ITA Cup"
+      ],
+      "club_NATpos": 3,
+      "opp_nat": "ITA",
+      "opp_TLpos": 21,
+      "opp_qouta": [
+        "UEL"
+      ],
+      "opp_NATpos": 6
+    }
+  ],
+  "505": [
+    {
+      "club_name": "Inter",
+      "date": "2024-05-19T00:00:00+00:00",
+      "match": "Inter - Lazio",
+      "opponent": "Lazio",
+      "opp_id": 487,
+      "result": null,
+      "opp_TLrate": -0.71,
+      "goalDiff": null,
+      "timestamp": 1716076800,
+      "fixture_id": 1052615,
+      "tourn_id": 135,
+      "tourn_name": "Serie A",
+      "tourn_short": "ITA League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 37",
+      "club_nat": "ITA",
+      "club_TLpos": 6,
+      "club_qouta": [
+        "UCL",
+        "TopLiga",
+        "ITA League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "ITA",
+      "opp_TLpos": 32,
+      "opp_qouta": [
+        "UCL"
+      ],
+      "opp_NATpos": 7
+    }
+  ],
+  "487": [
+    {
+      "club_name": "Lazio",
+      "date": "2024-05-19T00:00:00+00:00",
+      "match": "Inter - Lazio",
+      "opponent": "Inter",
+      "opp_id": 505,
+      "result": null,
+      "opp_TLrate": 0.75,
+      "goalDiff": null,
+      "timestamp": 1716076800,
+      "fixture_id": 1052615,
+      "tourn_id": 135,
+      "tourn_name": "Serie A",
+      "tourn_short": "ITA League",
+      "season": "23-24",
+      "tourn_round": "Regular Season - 37",
+      "club_nat": "ITA",
+      "club_TLpos": 32,
+      "club_qouta": [
+        "UCL"
+      ],
+      "club_NATpos": 7,
+      "opp_nat": "ITA",
+      "opp_TLpos": 6,
+      "opp_qouta": [
+        "UCL",
+        "TopLiga",
+        "ITA League"
+      ],
+      "opp_NATpos": 1
+    }
+  ],
+  "212": [
+    {
+      "club_name": "FC Porto",
+      "date": "2024-05-26T16:15:00+00:00",
+      "match": "FC Porto - Sporting CP",
+      "game_status": "expected",
+      "opponent": "Sporting CP",
+      "opp_id": 228,
+      "result": null,
+      "opp_TLrate": -0.69,
+      "goalDiff": null,
+      "timestamp": 1716740100,
+      "fixture_id": 1196805,
+      "tourn_id": 96,
+      "tourn_name": "Taça de Portugal",
+      "tourn_short": "POR Cup",
+      "season": "23-24",
+      "tourn_round": "Final",
+      "club_nat": "POR",
+      "club_TLpos": 20,
+      "club_qouta": [
+        "UCL"
+      ],
+      "club_NATpos": 3,
+      "opp_nat": "POR",
+      "opp_TLpos": 31,
+      "opp_qouta": [
+        "POR League"
+      ],
+      "opp_NATpos": 1
+    }
+  ],
+  "228": [
+    {
+      "club_name": "Sporting CP",
+      "date": "2024-05-26T16:15:00+00:00",
+      "match": "FC Porto - Sporting CP",
+      "game_status": "expected",
+      "opponent": "FC Porto",
+      "opp_id": 212,
+      "result": null,
+      "opp_TLrate": 0.01,
+      "goalDiff": null,
+      "timestamp": 1716740100,
+      "fixture_id": 1196805,
+      "tourn_id": 96,
+      "tourn_name": "Taça de Portugal",
+      "tourn_short": "POR Cup",
+      "season": "23-24",
+      "tourn_round": "Final",
+      "club_nat": "POR",
+      "club_TLpos": 31,
+      "club_qouta": [
+        "POR League"
+      ],
+      "club_NATpos": 1,
+      "opp_nat": "POR",
+      "opp_TLpos": 20,
+      "opp_qouta": [
+        "UCL"
+      ],
+      "opp_NATpos": 3
+    }
+  ]
+}
