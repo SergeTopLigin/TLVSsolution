@@ -6,7 +6,7 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 1.62,
+        "rating": 1.59,
         "quota": 16,
         "id": 2,
         "type": "Cup",
@@ -81,7 +81,7 @@
       "UEL 23-24": {
         "tytle": "UEL",
         "season": "23-24",
-        "rating": 0.62,
+        "rating": 0.6,
         "quota": 6,
         "id": 3,
         "type": "Cup",
@@ -116,7 +116,7 @@
       "UECL 23-24": {
         "tytle": "UECL",
         "season": "23-24",
-        "rating": 0.14,
+        "rating": 0.12,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -182,10 +182,6 @@
           {
             "club": "Borussia Dortmund",
             "id": 165
-          },
-          {
-            "club": "Manchester United",
-            "id": 33
           }
         ]
       }
@@ -198,7 +194,7 @@
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
-        "rating": 0.59,
+        "rating": 0.57,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -225,7 +221,7 @@
       "ENG Cup 23-24": {
         "tytle": "ENG Cup",
         "season": "23-24",
-        "rating": 0.51,
+        "rating": 0.5,
         "quota": 1,
         "id": 45,
         "type": "Cup",
@@ -256,7 +252,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.46,
+        "rating": 0.45,
         "quota": 4,
         "id": 140,
         "type": "League",
@@ -283,7 +279,7 @@
       "ESP Cup 23-24": {
         "tytle": "ESP Cup",
         "season": "23-24",
-        "rating": 0.11,
+        "rating": 0.1,
         "quota": 0,
         "id": 143,
         "type": "Cup",
@@ -299,7 +295,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.5,
+        "rating": 0.49,
         "quota": 4,
         "id": 78,
         "type": "League",
@@ -342,7 +338,7 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.44,
+        "rating": 0.42,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -386,7 +382,7 @@
       "POR League 23-24": {
         "tytle": "POR League",
         "season": "23-24",
-        "rating": 0.18,
+        "rating": 0.17,
         "quota": 1,
         "id": 94,
         "type": "League",
@@ -401,7 +397,7 @@
       "POR Cup 23-24": {
         "tytle": "POR Cup",
         "season": "23-24",
-        "rating": 0.17,
+        "rating": 0.16,
         "quota": 0,
         "id": 96,
         "type": "Cup",
@@ -427,7 +423,7 @@
       "FRA League 23-24": {
         "tytle": "FRA League",
         "season": "23-24",
-        "rating": 0.18,
+        "rating": 0.17,
         "quota": 1,
         "id": 61,
         "type": "League",
@@ -442,7 +438,7 @@
       "FRA Cup 23-24": {
         "tytle": "FRA Cup",
         "season": "23-24",
-        "rating": 0.26,
+        "rating": 0.25,
         "quota": 0,
         "id": 66,
         "type": "Cup",
@@ -458,7 +454,7 @@
       "NED League 23-24": {
         "tytle": "NED League",
         "season": "23-24",
-        "rating": 0.13,
+        "rating": 0.12,
         "quota": 1,
         "id": 88,
         "type": "League",
