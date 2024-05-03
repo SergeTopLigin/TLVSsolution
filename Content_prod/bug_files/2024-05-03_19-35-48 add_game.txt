@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/add_game.py", line 126, in add_game
+    if club_id in [club['IDapi'] for club in TL_standings]:
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/add_game.py", line 126, in <listcomp>
+    if club_id in [club['IDapi'] for club in TL_standings]:
+TypeError: string indices must be integers
