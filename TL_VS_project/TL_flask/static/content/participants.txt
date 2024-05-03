@@ -4,7 +4,6 @@ ENG
                            2  Arsenal                          UCL       
                            3  Liverpool                  TL    UEL       
                            4  Aston Villa                                
-                              Manchester United          TL              
                               Chelsea                    TL              
 ESP
       23-24 La Liga             
