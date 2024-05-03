@@ -17286,13 +17286,13 @@
     {
       "fixture": {
         "id": 1035428,
-        "referee": "R. Jones",
+        "referee": "Robert Jones, England",
         "timezone": "UTC",
         "date": "2024-05-02T18:30:00+00:00",
         "timestamp": 1714674600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714674600,
+          "second": 1714678200
         },
         "venue": {
           "id": 519,
@@ -17300,9 +17300,9 @@
           "city": "London"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -17319,27 +17319,27 @@
           "id": 49,
           "name": "Chelsea",
           "logo": "https://media.api-sports.io/football/teams/49.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 47,
           "name": "Tottenham",
           "logo": "https://media.api-sports.io/football/teams/47.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -23814,7 +23814,7 @@
     {
       "fixture": {
         "id": 1035524,
-        "referee": null,
+        "referee": "D. Coote",
         "timezone": "UTC",
         "date": "2024-05-04T11:30:00+00:00",
         "timestamp": 1714822200,
@@ -23882,7 +23882,7 @@
     {
       "fixture": {
         "id": 1035525,
-        "referee": null,
+        "referee": "G. Scott",
         "timezone": "UTC",
         "date": "2024-05-04T14:00:00+00:00",
         "timestamp": 1714831200,
@@ -23950,7 +23950,7 @@
     {
       "fixture": {
         "id": 1035526,
-        "referee": null,
+        "referee": "R. Jones",
         "timezone": "UTC",
         "date": "2024-05-05T13:00:00+00:00",
         "timestamp": 1714914000,
@@ -24018,7 +24018,7 @@
     {
       "fixture": {
         "id": 1035527,
-        "referee": null,
+        "referee": "A. Taylor",
         "timezone": "UTC",
         "date": "2024-05-04T14:00:00+00:00",
         "timestamp": 1714831200,
@@ -24086,7 +24086,7 @@
     {
       "fixture": {
         "id": 1035528,
-        "referee": null,
+        "referee": "A. Madley",
         "timezone": "UTC",
         "date": "2024-05-05T13:00:00+00:00",
         "timestamp": 1714914000,
@@ -24154,7 +24154,7 @@
     {
       "fixture": {
         "id": 1035529,
-        "referee": null,
+        "referee": "J. Gillett",
         "timezone": "UTC",
         "date": "2024-05-06T19:00:00+00:00",
         "timestamp": 1715022000,
@@ -24222,7 +24222,7 @@
     {
       "fixture": {
         "id": 1035530,
-        "referee": null,
+        "referee": "P. Tierney",
         "timezone": "UTC",
         "date": "2024-05-05T15:30:00+00:00",
         "timestamp": 1714923000,
@@ -24290,12 +24290,12 @@
     {
       "fixture": {
         "id": 1035531,
-        "referee": null,
+        "referee": "Tim Robinson, England",
         "timezone": "UTC",
         "date": "2024-05-03T19:00:00+00:00",
         "timestamp": 1714762800,
         "periods": {
-          "first": null,
+          "first": 1714762800,
           "second": null
         },
         "venue": {
@@ -24304,9 +24304,9 @@
           "city": "Luton, Bedfordshire"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 31
         }
       },
       "league": {
@@ -24333,13 +24333,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
           "home": null,
@@ -24358,7 +24358,7 @@
     {
       "fixture": {
         "id": 1035532,
-        "referee": null,
+        "referee": "C. Pawson",
         "timezone": "UTC",
         "date": "2024-05-04T16:30:00+00:00",
         "timestamp": 1714840200,
@@ -24426,7 +24426,7 @@
     {
       "fixture": {
         "id": 1035533,
-        "referee": null,
+        "referee": "C. Kavanagh",
         "timezone": "UTC",
         "date": "2024-05-04T14:00:00+00:00",
         "timestamp": 1714831200,
@@ -25320,7 +25320,7 @@
         },
         "venue": {
           "id": 508,
-          "name": "The American Express Community Stadium",
+          "name": "American Express Stadium",
           "city": "Falmer, East Sussex"
         },
         "status": {
