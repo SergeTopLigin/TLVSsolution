@@ -1253,17 +1253,17 @@
       "timestamp": 1716750900,
       "date": "2024-05-26 19:15:00"
     },
-    "rating": 0.86,
+    "rating": 0.81,
     "club_set": [
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.01
+        "rating": -0.04
       },
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.69
+        "rating": -0.74
       }
     ]
   }
