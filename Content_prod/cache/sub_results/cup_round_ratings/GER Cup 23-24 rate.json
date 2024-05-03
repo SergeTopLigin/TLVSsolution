@@ -572,7 +572,7 @@
       "timestamp": 1716670800,
       "date": "2024-05-25 21:00:00"
     },
-    "rating": 0.74,
+    "rating": 0.76,
     "club_set": [
       {
         "name": "FC Kaiserslautern",
@@ -581,7 +581,7 @@
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.28
+        "rating": 0.31
       }
     ]
   }
