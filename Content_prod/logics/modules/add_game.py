@@ -123,10 +123,10 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                     if game['club_nat'] == stand_file[:3]:   break
                 if game['club_nat'] == stand_file[:3]:   break
     # 'club_TLpos':
-        if club_id in [club['IDapi'] for club in TL_standings]:
+        if club_id in [TL_standings[club]['IDapi'] for club in TL_standings]:
             game['club_TLpos'] = [list(TL_standings.values()).index(club)+1 for club in list(TL_standings.values()) if club['IDapi'] == club_id][0]
         else:
-            game['club_TLpos'] = ''
+            game['club_TLpos'] = None
     # 'club_qouta':               TL, UEFA, League, Cup
         game['club_qouta'] = []
         with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/participants.json', 'r', encoding='utf-8') as j:
@@ -174,10 +174,10 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                     if game['opp_nat'] == stand_file[:3]:   break
                 if game['opp_nat'] == stand_file[:3]:   break
     # 'opp_TLpos':
-        if game['opp_id'] in [club['IDapi'] for club in TL_standings]:
+        if game['opp_id'] in [TL_standings[club]['IDapi'] for club in TL_standings]:
             game['opp_TLpos'] = [list(TL_standings.values()).index(club)+1 for club in list(TL_standings.values()) if club['IDapi'] == game['opp_id']][0]
         else:
-            game['opp_TLpos'] = ''
+            game['opp_TLpos'] = None
     # 'opp_qouta':          TL, UEFA, League, Cup
         game['opp_qouta'] = []
         for ass in participants:
