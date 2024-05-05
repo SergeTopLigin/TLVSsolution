@@ -236,7 +236,7 @@
       "ENG LCup 23-24": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.23,
+        "rating": 0.22,
         "quota": 0,
         "id": 48,
         "type": "Cup",
@@ -263,12 +263,12 @@
             "id": 541
           },
           {
-            "club": "Barcelona",
-            "id": 529
-          },
-          {
             "club": "Girona",
             "id": 547
+          },
+          {
+            "club": "Barcelona",
+            "id": 529
           },
           {
             "club": "Atletico Madrid",
