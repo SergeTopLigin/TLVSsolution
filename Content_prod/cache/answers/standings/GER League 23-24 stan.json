@@ -64,7 +64,7 @@
                   "against": 12
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -74,19 +74,19 @@
                 "logo": "https://media.api-sports.io/football/teams/157.png"
               },
               "points": 69,
-              "goalsDiff": 51,
+              "goalsDiff": 49,
               "group": "Bundesliga",
-              "form": "WWWLL",
+              "form": "LWWWL",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 22,
                 "draw": 3,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
-                  "for": 89,
-                  "against": 38
+                  "for": 90,
+                  "against": 41
                 }
               },
               "home": {
@@ -100,16 +100,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 9,
                 "draw": 2,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
-                  "for": 38,
-                  "against": 26
+                  "for": 39,
+                  "against": 29
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -118,30 +118,30 @@
                 "name": "VfB Stuttgart",
                 "logo": "https://media.api-sports.io/football/teams/172.png"
               },
-              "points": 64,
-              "goalsDiff": 32,
+              "points": 67,
+              "goalsDiff": 34,
               "group": "Bundesliga",
-              "form": "DLWWD",
+              "form": "WDLWW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 31,
-                "win": 20,
+                "played": 32,
+                "win": 21,
                 "draw": 4,
                 "lose": 7,
                 "goals": {
-                  "for": 70,
-                  "against": 38
+                  "for": 73,
+                  "against": 39
                 }
               },
               "home": {
-                "played": 15,
-                "win": 11,
+                "played": 16,
+                "win": 12,
                 "draw": 3,
                 "lose": 1,
                 "goals": {
-                  "for": 43,
-                  "against": 14
+                  "for": 46,
+                  "against": 15
                 }
               },
               "away": {
@@ -154,7 +154,7 @@
                   "against": 24
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -163,20 +163,20 @@
                 "name": "RB Leipzig",
                 "logo": "https://media.api-sports.io/football/teams/173.png"
               },
-              "points": 62,
+              "points": 63,
               "goalsDiff": 38,
               "group": "Bundesliga",
-              "form": "WWWWD",
+              "form": "DWWWW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 19,
-                "draw": 5,
+                "draw": 6,
                 "lose": 7,
                 "goals": {
-                  "for": 73,
-                  "against": 35
+                  "for": 74,
+                  "against": 36
                 }
               },
               "home": {
@@ -190,16 +190,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 8,
-                "draw": 2,
+                "draw": 3,
                 "lose": 5,
                 "goals": {
-                  "for": 34,
-                  "against": 24
+                  "for": 35,
+                  "against": 25
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -208,30 +208,30 @@
                 "name": "Borussia Dortmund",
                 "logo": "https://media.api-sports.io/football/teams/165.png"
               },
-              "points": 57,
-              "goalsDiff": 20,
+              "points": 60,
+              "goalsDiff": 24,
               "group": "Bundesliga",
-              "form": "LDWLW",
+              "form": "WLDWL",
               "status": "same",
-              "description": "Promotion - Europa League (Group Stage: )",
+              "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 31,
-                "win": 16,
+                "played": 32,
+                "win": 17,
                 "draw": 9,
                 "lose": 6,
                 "goals": {
-                  "for": 59,
-                  "against": 39
+                  "for": 64,
+                  "against": 40
                 }
               },
               "home": {
-                "played": 15,
-                "win": 8,
+                "played": 16,
+                "win": 9,
                 "draw": 3,
                 "lose": 4,
                 "goals": {
-                  "for": 28,
-                  "against": 21
+                  "for": 33,
+                  "against": 22
                 }
               },
               "away": {
@@ -244,7 +244,7 @@
                   "against": 18
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -258,7 +258,7 @@
               "group": "Bundesliga",
               "form": "LWLDD",
               "status": "same",
-              "description": "Promotion - Europa Conference League (Qualification: )",
+              "description": "Promotion - Europa League (Group Stage: )",
               "all": {
                 "played": 31,
                 "win": 11,
@@ -289,7 +289,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -298,16 +298,16 @@
                 "name": "SC Freiburg",
                 "logo": "https://media.api-sports.io/football/teams/160.png"
               },
-              "points": 40,
+              "points": 41,
               "goalsDiff": -12,
               "group": "Bundesliga",
-              "form": "LDWLW",
+              "form": "DLDWL",
               "status": "same",
-              "description": null,
+              "description": "Promotion - Europa Conference League (Qualification: )",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 11,
-                "draw": 7,
+                "draw": 8,
                 "lose": 13,
                 "goals": {
                   "for": 43,
@@ -325,38 +325,83 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 6,
-                "draw": 1,
+                "draw": 2,
                 "lose": 8,
                 "goals": {
                   "for": 16,
                   "against": 26
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 8,
+              "team": {
+                "id": 167,
+                "name": "1899 Hoffenheim",
+                "logo": "https://media.api-sports.io/football/teams/167.png"
+              },
+              "points": 40,
+              "goalsDiff": -8,
+              "group": "Bundesliga",
+              "form": "DLWLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 32,
+                "win": 11,
+                "draw": 7,
+                "lose": 14,
+                "goals": {
+                  "for": 56,
+                  "against": 64
+                }
+              },
+              "home": {
+                "played": 16,
+                "win": 5,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 27,
+                  "against": 29
+                }
+              },
+              "away": {
+                "played": 16,
+                "win": 6,
+                "draw": 2,
+                "lose": 8,
+                "goals": {
+                  "for": 29,
+                  "against": 35
+                }
+              },
+              "update": "2024-05-05T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
               "team": {
                 "id": 170,
                 "name": "FC Augsburg",
                 "logo": "https://media.api-sports.io/football/teams/170.png"
               },
               "points": 39,
-              "goalsDiff": -4,
+              "goalsDiff": -8,
               "group": "Bundesliga",
-              "form": "LLWLD",
+              "form": "LLLWL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 10,
                 "draw": 9,
-                "lose": 12,
+                "lose": 13,
                 "goals": {
-                  "for": 48,
-                  "against": 52
+                  "for": 49,
+                  "against": 57
                 }
               },
               "home": {
@@ -370,64 +415,64 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 4,
                 "draw": 3,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
-                  "for": 22,
-                  "against": 27
+                  "for": 23,
+                  "against": 32
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
-              "rank": 9,
+              "rank": 10,
               "team": {
-                "id": 167,
-                "name": "1899 Hoffenheim",
-                "logo": "https://media.api-sports.io/football/teams/167.png"
+                "id": 162,
+                "name": "Werder Bremen",
+                "logo": "https://media.api-sports.io/football/teams/162.png"
               },
-              "points": 39,
-              "goalsDiff": -8,
+              "points": 38,
+              "goalsDiff": -9,
               "group": "Bundesliga",
-              "form": "LWLWL",
+              "form": "DWWLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 31,
-                "win": 11,
-                "draw": 6,
+                "played": 32,
+                "win": 10,
+                "draw": 8,
                 "lose": 14,
                 "goals": {
-                  "for": 55,
-                  "against": 63
+                  "for": 43,
+                  "against": 52
                 }
               },
               "home": {
-                "played": 15,
-                "win": 5,
+                "played": 16,
+                "win": 6,
                 "draw": 4,
                 "lose": 6,
                 "goals": {
-                  "for": 26,
-                  "against": 28
+                  "for": 25,
+                  "against": 25
                 }
               },
               "away": {
                 "played": 16,
-                "win": 6,
-                "draw": 2,
+                "win": 4,
+                "draw": 4,
                 "lose": 8,
                 "goals": {
-                  "for": 29,
-                  "against": 35
+                  "for": 18,
+                  "against": 27
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
-              "rank": 10,
+              "rank": 11,
               "team": {
                 "id": 180,
                 "name": "FC Heidenheim",
@@ -469,52 +514,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 162,
-                "name": "Werder Bremen",
-                "logo": "https://media.api-sports.io/football/teams/162.png"
-              },
-              "points": 37,
-              "goalsDiff": -9,
-              "group": "Bundesliga",
-              "form": "WWLDL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 31,
-                "win": 10,
-                "draw": 7,
-                "lose": 14,
-                "goals": {
-                  "for": 41,
-                  "against": 50
-                }
-              },
-              "home": {
-                "played": 15,
-                "win": 6,
-                "draw": 3,
-                "lose": 6,
-                "goals": {
-                  "for": 23,
-                  "against": 23
-                }
-              },
-              "away": {
-                "played": 16,
-                "win": 4,
-                "draw": 4,
-                "lose": 8,
-                "goals": {
-                  "for": 18,
-                  "against": 27
-                }
-              },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -523,29 +523,29 @@
                 "name": "VfL Wolfsburg",
                 "logo": "https://media.api-sports.io/football/teams/161.png"
               },
-              "points": 34,
-              "goalsDiff": -14,
+              "points": 37,
+              "goalsDiff": -11,
               "group": "Bundesliga",
-              "form": "WWLLW",
+              "form": "WWWLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 31,
-                "win": 9,
+                "played": 32,
+                "win": 10,
                 "draw": 7,
                 "lose": 15,
                 "goals": {
-                  "for": 37,
+                  "for": 40,
                   "against": 51
                 }
               },
               "home": {
-                "played": 15,
-                "win": 5,
+                "played": 16,
+                "win": 6,
                 "draw": 4,
                 "lose": 6,
                 "goals": {
-                  "for": 21,
+                  "for": 24,
                   "against": 22
                 }
               },
@@ -559,7 +559,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -568,20 +568,20 @@
                 "name": "Borussia Monchengladbach",
                 "logo": "https://media.api-sports.io/football/teams/163.png"
               },
-              "points": 32,
+              "points": 33,
               "goalsDiff": -7,
               "group": "Bundesliga",
-              "form": "DLLWL",
+              "form": "DDLLW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 7,
-                "draw": 11,
+                "draw": 12,
                 "lose": 13,
                 "goals": {
-                  "for": 53,
-                  "against": 60
+                  "for": 55,
+                  "against": 62
                 }
               },
               "home": {
@@ -595,16 +595,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 2,
-                "draw": 6,
+                "draw": 7,
                 "lose": 7,
                 "goals": {
-                  "for": 27,
-                  "against": 35
+                  "for": 29,
+                  "against": 37
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -649,7 +649,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -694,7 +694,7 @@
                   "against": 38
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -739,7 +739,7 @@
                   "against": 31
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -748,16 +748,16 @@
                 "name": "1.FC Köln",
                 "logo": "https://media.api-sports.io/football/teams/192.png"
               },
-              "points": 23,
+              "points": 24,
               "goalsDiff": -30,
               "group": "Bundesliga",
-              "form": "DLLWD",
+              "form": "DDLLW",
               "status": "same",
               "description": "Relegation - 2. Bundesliga",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 4,
-                "draw": 11,
+                "draw": 12,
                 "lose": 16,
                 "goals": {
                   "for": 24,
@@ -765,9 +765,9 @@
                 }
               },
               "home": {
-                "played": 15,
+                "played": 16,
                 "win": 3,
-                "draw": 3,
+                "draw": 4,
                 "lose": 9,
                 "goals": {
                   "for": 12,
@@ -784,7 +784,7 @@
                   "against": 28
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -794,19 +794,19 @@
                 "logo": "https://media.api-sports.io/football/teams/181.png"
               },
               "points": 17,
-              "goalsDiff": -43,
+              "goalsDiff": -46,
               "group": "Bundesliga",
-              "form": "LWLLD",
+              "form": "LLWLL",
               "status": "same",
               "description": "Relegation - 2. Bundesliga",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 3,
                 "draw": 8,
-                "lose": 20,
+                "lose": 21,
                 "goals": {
                   "for": 30,
-                  "against": 73
+                  "against": 76
                 }
               },
               "home": {
@@ -820,16 +820,16 @@
                 }
               },
               "away": {
-                "played": 15,
+                "played": 16,
                 "win": 2,
                 "draw": 5,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
                   "for": 15,
-                  "against": 35
+                  "against": 38
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             }
           ]
         ]
