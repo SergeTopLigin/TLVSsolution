@@ -187,6 +187,10 @@ try:    # обработка исключений для определения 
                     games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
                     games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
     
+    for club in games:
+        # сортировка игр клуба от ранних к поздним
+        games[club].sort(key=lambda match: match['timestamp'])
+
     # фиксация в worktimes.json времени текущего расчета
     worktimes.append([str(curr_datetime), curr_timestamp])
     # и выгрузка worktimes.json в репо и на runner: /sub_results
