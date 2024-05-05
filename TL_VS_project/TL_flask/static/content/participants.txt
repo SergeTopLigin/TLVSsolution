@@ -8,8 +8,8 @@ ENG
 ESP
       23-24 La Liga             
                            1  Real Madrid                TL    UCL       
-                           2  Barcelona                        UCL       
-                           3  Girona                                     
+                           2  Girona                                     
+                           3  Barcelona                        UCL       
                            4  Atletico Madrid                  UCL       
                               Real Sociedad                    UCL       
 GER
