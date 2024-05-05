@@ -17,6 +17,7 @@ with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/games.json', 'r'
     games = json.load(j)
 TL_standings = {}
 curr_timestamp = time.time()
+year_ago = curr_timestamp - 3600*24*365
 del_club = []   # ключи удаляемых клубов
 
 # из games удалить неучитываемые игры:
@@ -25,7 +26,6 @@ del_club = []   # ключи удаляемых клубов
     # если игра закончилась ранее 365 дней назад и в период времени между ее выходом за 365 дней и выходом следующей за 365 дней клубом была сыграна новая игра
 # for club in games:
 #     del_match = []  # индексы удаляемых игр в списке клуба
-#     year_ago = curr_timestamp - 3600*24*365
 #     # если последняя игра клуба закончилась ранее 365 дней назад - удалить клуб
 #     if games[club][-1]['timestamp']+100*60 < year_ago:
 #         del_club.append(club)
@@ -45,13 +45,10 @@ del_club = []   # ключи удаляемых клубов
 
 for club in games:
     
-    # сортировка игр клуба от ранних к поздним
-    games[club].sort(key=lambda match: match['timestamp'])
-
-    # в TL standings учитывается клуб, хотя бы одна игра которого имеет статус 'fixed' и ее начало не позднее 365 дней назад
+    # в TL standings учитывается клуб, хотя бы одна игра которого имеет статус 'fixed' и ее окончание не позднее 365 дней назад
     club_in_stands = 0
     for match in games[club]:
-        if match['game_status'] == 'fixed':
+        if match['game_status'] == 'fixed' and match['timestamp']+100*60 > year_ago:
             club_in_stands = 1
 
     if club_in_stands == 1:

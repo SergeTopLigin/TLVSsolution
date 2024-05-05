@@ -59,7 +59,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
         elif fixture['fixture']['status']['short'] in in_play or \
         (fixture['fixture']['status']['short'] in ['SUSP', 'INT'] and fixture['fixture']['status']['elapsed'] < 90):
             game['game_status'] = 'unfinished'
-        elif fixture['fixture']['status']['short']  ['NS', 'TBD']:
+        elif fixture['fixture']['status']['short'] in ['NS', 'TBD']:
             game['game_status'] = 'expected'
     # opponent
         game['opponent'] = fixture['teams']['away']['name'] if fixture['teams']['home']['id'] == club_id else fixture['teams']['home']['name']
