@@ -28,20 +28,20 @@
                 "name": "Charleroi",
                 "logo": "https://media.api-sports.io/football/teams/736.png"
               },
-              "points": 39,
-              "goalsDiff": -19,
+              "points": 42,
+              "goalsDiff": -17,
               "group": "First Division A: Relegation Round",
-              "form": "WWWD",
+              "form": "WWWWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 34,
-                "win": 10,
+                "played": 35,
+                "win": 11,
                 "draw": 9,
                 "lose": 15,
                 "goals": {
-                  "for": 31,
-                  "against": 50
+                  "for": 34,
+                  "against": 51
                 }
               },
               "home": {
@@ -55,16 +55,16 @@
                 }
               },
               "away": {
-                "played": 2,
-                "win": 2,
+                "played": 3,
+                "win": 3,
                 "draw": 0,
                 "lose": 0,
                 "goals": {
-                  "for": 4,
-                  "against": 2
+                  "for": 7,
+                  "against": 3
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -74,29 +74,29 @@
                 "logo": "https://media.api-sports.io/football/teams/6224.png"
               },
               "points": 30,
-              "goalsDiff": -33,
+              "goalsDiff": -35,
               "group": "First Division A: Relegation Round",
-              "form": "LWWD",
+              "form": "LLWWD",
               "status": "same",
               "description": "Relegation Play-off",
               "all": {
-                "played": 34,
+                "played": 35,
                 "win": 7,
                 "draw": 9,
-                "lose": 18,
+                "lose": 19,
                 "goals": {
-                  "for": 38,
-                  "against": 71
+                  "for": 39,
+                  "against": 74
                 }
               },
               "home": {
-                "played": 2,
+                "played": 3,
                 "win": 1,
                 "draw": 0,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 3,
-                  "against": 2
+                  "for": 4,
+                  "against": 5
                 }
               },
               "away": {
@@ -109,7 +109,7 @@
                   "against": 2
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -154,7 +154,7 @@
                   "against": 1
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -199,7 +199,7 @@
                   "against": 4
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             }
           ],
           [
@@ -246,7 +246,7 @@
                   "against": 6
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -259,7 +259,7 @@
               "goalsDiff": 46,
               "group": "First Division A: Championship Round",
               "form": "WWWWW",
-              "status": "up",
+              "status": "same",
               "description": "UEFA Champions League Qualifiers",
               "all": {
                 "played": 36,
@@ -291,7 +291,7 @@
                   "against": 2
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -304,7 +304,7 @@
               "goalsDiff": 34,
               "group": "First Division A: Championship Round",
               "form": "WWLLL",
-              "status": "down",
+              "status": "same",
               "description": "UEFA Europa League Qualifiers",
               "all": {
                 "played": 36,
@@ -336,7 +336,7 @@
                   "against": 3
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -346,19 +346,19 @@
                 "logo": "https://media.api-sports.io/football/teams/742.png"
               },
               "points": 34,
-              "goalsDiff": 16,
+              "goalsDiff": 13,
               "group": "First Division A: Championship Round",
-              "form": "LLWDW",
+              "form": "LLLWD",
               "status": "same",
               "description": "UEFA Europa League Qualifiers",
               "all": {
-                "played": 36,
+                "played": 37,
                 "win": 15,
                 "draw": 12,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
-                  "for": 56,
-                  "against": 40
+                  "for": 57,
+                  "against": 44
                 }
               },
               "home": {
@@ -372,16 +372,16 @@
                 }
               },
               "away": {
-                "played": 2,
+                "played": 3,
                 "win": 1,
                 "draw": 0,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 1,
-                  "against": 4
+                  "for": 2,
+                  "against": 8
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -390,30 +390,30 @@
                 "name": "Cercle Brugge",
                 "logo": "https://media.api-sports.io/football/teams/741.png"
               },
-              "points": 30,
-              "goalsDiff": 7,
+              "points": 33,
+              "goalsDiff": 10,
               "group": "First Division A: Championship Round",
-              "form": "DLLDW",
-              "status": "same",
+              "form": "WDLLD",
+              "status": "up",
               "description": null,
               "all": {
-                "played": 36,
-                "win": 15,
+                "played": 37,
+                "win": 16,
                 "draw": 8,
                 "lose": 13,
                 "goals": {
-                  "for": 50,
-                  "against": 43
+                  "for": 54,
+                  "against": 44
                 }
               },
               "home": {
-                "played": 3,
-                "win": 0,
+                "played": 4,
+                "win": 1,
                 "draw": 2,
                 "lose": 1,
                 "goals": {
-                  "for": 2,
-                  "against": 3
+                  "for": 6,
+                  "against": 4
                 }
               },
               "away": {
@@ -426,7 +426,7 @@
                   "against": 6
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -439,7 +439,7 @@
               "goalsDiff": 18,
               "group": "First Division A: Championship Round",
               "form": "LLWLL",
-              "status": "same",
+              "status": "down",
               "description": null,
               "all": {
                 "played": 36,
@@ -471,7 +471,7 @@
                   "against": 8
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             }
           ],
           [
@@ -482,20 +482,20 @@
                 "name": "Gent",
                 "logo": "https://media.api-sports.io/football/teams/631.png"
               },
-              "points": 39,
-              "goalsDiff": 26,
+              "points": 42,
+              "goalsDiff": 28,
               "group": "First Division A: Conference League Play-off Group",
-              "form": "WWWLW",
+              "form": "WWWWL",
               "status": "same",
               "description": "UEFA Conference League Play-offs",
               "all": {
-                "played": 36,
-                "win": 17,
+                "played": 37,
+                "win": 18,
                 "draw": 11,
                 "lose": 8,
                 "goals": {
-                  "for": 70,
-                  "against": 44
+                  "for": 74,
+                  "against": 46
                 }
               },
               "home": {
@@ -509,16 +509,16 @@
                 }
               },
               "away": {
-                "played": 3,
-                "win": 2,
+                "played": 4,
+                "win": 3,
                 "draw": 0,
                 "lose": 1,
                 "goals": {
-                  "for": 6,
-                  "against": 2
+                  "for": 10,
+                  "against": 4
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -528,29 +528,29 @@
                 "logo": "https://media.api-sports.io/football/teams/266.png"
               },
               "points": 33,
-              "goalsDiff": 7,
+              "goalsDiff": 5,
               "group": "First Division A: Conference League Play-off Group",
-              "form": "WDLWL",
+              "form": "LWDLW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 36,
+                "played": 37,
                 "win": 16,
                 "draw": 7,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
-                  "for": 51,
-                  "against": 44
+                  "for": 53,
+                  "against": 48
                 }
               },
               "home": {
-                "played": 3,
+                "played": 4,
                 "win": 2,
                 "draw": 0,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 8,
-                  "against": 5
+                  "for": 10,
+                  "against": 9
                 }
               },
               "away": {
@@ -563,7 +563,7 @@
                   "against": 5
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -572,20 +572,20 @@
                 "name": "St. Truiden",
                 "logo": "https://media.api-sports.io/football/teams/735.png"
               },
-              "points": 28,
+              "points": 29,
               "goalsDiff": -11,
               "group": "First Division A: Conference League Play-off Group",
-              "form": "DLLDW",
+              "form": "DDLLD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 36,
+                "played": 37,
                 "win": 12,
-                "draw": 12,
+                "draw": 13,
                 "lose": 12,
                 "goals": {
-                  "for": 44,
-                  "against": 55
+                  "for": 46,
+                  "against": 57
                 }
               },
               "home": {
@@ -599,16 +599,16 @@
                 }
               },
               "away": {
-                "played": 3,
+                "played": 4,
                 "win": 1,
-                "draw": 1,
+                "draw": 2,
                 "lose": 1,
                 "goals": {
-                  "for": 4,
-                  "against": 4
+                  "for": 6,
+                  "against": 6
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -621,7 +621,7 @@
               "goalsDiff": -15,
               "group": "First Division A: Conference League Play-off Group",
               "form": "LDWWD",
-              "status": "up",
+              "status": "same",
               "description": null,
               "all": {
                 "played": 36,
@@ -653,7 +653,7 @@
                   "against": 4
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -666,7 +666,7 @@
               "goalsDiff": -12,
               "group": "First Division A: Conference League Play-off Group",
               "form": "DDDDD",
-              "status": "down",
+              "status": "same",
               "description": null,
               "all": {
                 "played": 36,
@@ -698,7 +698,7 @@
                   "against": 11
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -707,30 +707,30 @@
                 "name": "KVC Westerlo",
                 "logo": "https://media.api-sports.io/football/teams/261.png"
               },
-              "points": 17,
+              "points": 18,
               "goalsDiff": -19,
               "group": "First Division A: Conference League Play-off Group",
-              "form": "LDDLL",
+              "form": "DLDDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 36,
+                "played": 37,
                 "win": 7,
-                "draw": 11,
+                "draw": 12,
                 "lose": 18,
                 "goals": {
-                  "for": 50,
-                  "against": 69
+                  "for": 52,
+                  "against": 71
                 }
               },
               "home": {
-                "played": 3,
+                "played": 4,
                 "win": 0,
-                "draw": 2,
+                "draw": 3,
                 "lose": 1,
                 "goals": {
-                  "for": 4,
-                  "against": 7
+                  "for": 6,
+                  "against": 9
                 }
               },
               "away": {
@@ -743,7 +743,7 @@
                   "against": 8
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             }
           ],
           [
@@ -790,7 +790,7 @@
                   "against": 15
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -835,7 +835,7 @@
                   "against": 17
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -880,7 +880,7 @@
                   "against": 17
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -925,7 +925,7 @@
                   "against": 15
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -938,7 +938,7 @@
               "goalsDiff": 10,
               "group": "First Division A: Regular Season",
               "form": "WDLWD",
-              "status": "same",
+              "status": "up",
               "description": "Championship Round",
               "all": {
                 "played": 30,
@@ -970,7 +970,7 @@
                   "against": 16
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -1015,7 +1015,7 @@
                   "against": 14
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -1060,7 +1060,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -1105,7 +1105,7 @@
                   "against": 22
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 9,
@@ -1150,7 +1150,7 @@
                   "against": 32
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -1195,7 +1195,7 @@
                   "against": 29
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -1240,7 +1240,7 @@
                   "against": 27
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -1285,7 +1285,7 @@
                   "against": 32
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -1330,7 +1330,7 @@
                   "against": 25
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -1375,7 +1375,7 @@
                   "against": 30
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -1420,7 +1420,7 @@
                   "against": 33
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -1465,7 +1465,7 @@
                   "against": 39
                 }
               },
-              "update": "2024-04-28T00:00:00+00:00"
+              "update": "2024-05-05T00:00:00+00:00"
             }
           ]
         ]
