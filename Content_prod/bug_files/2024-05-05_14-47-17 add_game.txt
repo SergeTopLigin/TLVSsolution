@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/modules/add_game.py", line 62, in add_game
+    elif fixture['fixture']['status']['short']  ['NS', 'TBD']:
+TypeError: string indices must be integers
