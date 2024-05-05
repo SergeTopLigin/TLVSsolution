@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/games.py", line 192, in <module>
+    games[club].sort(key=lambda match: match['timestamp'])
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/games.py", line 192, in <lambda>
+    games[club].sort(key=lambda match: match['timestamp'])
+TypeError: 'NoneType' object is not subscriptable
