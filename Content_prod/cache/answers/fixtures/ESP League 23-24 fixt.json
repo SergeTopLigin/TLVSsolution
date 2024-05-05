@@ -22454,12 +22454,12 @@
     {
       "fixture": {
         "id": 1038282,
-        "referee": null,
+        "referee": "Cesar Soto Grado, Spain",
         "timezone": "UTC",
         "date": "2024-05-05T14:15:00+00:00",
         "timestamp": 1714918500,
         "periods": {
-          "first": null,
+          "first": 1714918500,
           "second": null
         },
         "venue": {
@@ -22468,9 +22468,9 @@
           "city": "Vigo"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 26
         }
       },
       "league": {
@@ -22497,13 +22497,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
           "home": null,
@@ -22522,7 +22522,7 @@
     {
       "fixture": {
         "id": 1038283,
-        "referee": null,
+        "referee": "Francisco Hernández",
         "timezone": "UTC",
         "date": "2024-05-05T19:00:00+00:00",
         "timestamp": 1714935600,
@@ -22590,13 +22590,13 @@
     {
       "fixture": {
         "id": 1038284,
-        "referee": null,
+        "referee": "Jesus Gil Manzano, Spain",
         "timezone": "UTC",
         "date": "2024-05-03T19:00:00+00:00",
         "timestamp": 1714762800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714762800,
+          "second": 1714766400
         },
         "venue": {
           "id": 20422,
@@ -22604,9 +22604,9 @@
           "city": "Getafe"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22623,27 +22623,27 @@
           "id": 546,
           "name": "Getafe",
           "logo": "https://media.api-sports.io/football/teams/546.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 531,
           "name": "Athletic Club",
           "logo": "https://media.api-sports.io/football/teams/531.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -22658,13 +22658,13 @@
     {
       "fixture": {
         "id": 1038285,
-        "referee": null,
+        "referee": "Javier Alberola Rojas, Spain",
         "timezone": "UTC",
         "date": "2024-05-04T19:00:00+00:00",
         "timestamp": 1714849200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714849200,
+          "second": 1714852800
         },
         "venue": {
           "id": 19940,
@@ -22672,9 +22672,9 @@
           "city": "Palma de Mallorca"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22691,27 +22691,27 @@
           "id": 798,
           "name": "Mallorca",
           "logo": "https://media.api-sports.io/football/teams/798.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 530,
           "name": "Atletico Madrid",
           "logo": "https://media.api-sports.io/football/teams/530.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -22726,13 +22726,13 @@
     {
       "fixture": {
         "id": 1038286,
-        "referee": null,
+        "referee": "Alejandro Hernandez, Spain",
         "timezone": "UTC",
         "date": "2024-05-04T16:30:00+00:00",
         "timestamp": 1714840200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714840200,
+          "second": 1714843800
         },
         "venue": {
           "id": 1478,
@@ -22740,9 +22740,9 @@
           "city": "Girona"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22759,27 +22759,27 @@
           "id": 547,
           "name": "Girona",
           "logo": "https://media.api-sports.io/football/teams/547.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 529,
           "name": "Barcelona",
           "logo": "https://media.api-sports.io/football/teams/529.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -22794,13 +22794,13 @@
     {
       "fixture": {
         "id": 1038287,
-        "referee": null,
+        "referee": "Victor Garcia Verdura, Spain",
         "timezone": "UTC",
         "date": "2024-05-05T12:00:00+00:00",
         "timestamp": 1714910400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714910400,
+          "second": 1714914000
         },
         "venue": {
           "id": 1486,
@@ -22808,9 +22808,9 @@
           "city": "Iruñea"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22827,27 +22827,27 @@
           "id": 727,
           "name": "Osasuna",
           "logo": "https://media.api-sports.io/football/teams/727.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 543,
           "name": "Real Betis",
           "logo": "https://media.api-sports.io/football/teams/543.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -22862,13 +22862,13 @@
     {
       "fixture": {
         "id": 1038288,
-        "referee": null,
+        "referee": "Javier Iglesias Villanueva, Spain",
         "timezone": "UTC",
         "date": "2024-05-04T14:15:00+00:00",
         "timestamp": 1714832100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714832100,
+          "second": 1714835700
         },
         "venue": {
           "id": 1456,
@@ -22876,9 +22876,9 @@
           "city": "Madrid"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -22895,27 +22895,27 @@
           "id": 541,
           "name": "Real Madrid",
           "logo": "https://media.api-sports.io/football/teams/541.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 724,
           "name": "Cadiz",
           "logo": "https://media.api-sports.io/football/teams/724.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -22930,7 +22930,7 @@
     {
       "fixture": {
         "id": 1038289,
-        "referee": null,
+        "referee": "Mateo Busquets",
         "timezone": "UTC",
         "date": "2024-05-05T19:00:00+00:00",
         "timestamp": 1714935600,
@@ -22998,13 +22998,13 @@
     {
       "fixture": {
         "id": 1038290,
-        "referee": null,
+        "referee": "Miguel Angel Ortiz Arias, Spain",
         "timezone": "UTC",
         "date": "2024-05-04T12:00:00+00:00",
         "timestamp": 1714824000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714824000,
+          "second": 1714827600
         },
         "venue": {
           "id": 1491,
@@ -23012,9 +23012,9 @@
           "city": "Donostia-San Sebastián"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23031,27 +23031,27 @@
           "id": 548,
           "name": "Real Sociedad",
           "logo": "https://media.api-sports.io/football/teams/548.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 534,
           "name": "Las Palmas",
           "logo": "https://media.api-sports.io/football/teams/534.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -23066,7 +23066,7 @@
     {
       "fixture": {
         "id": 1038291,
-        "referee": null,
+        "referee": "Mario Melero",
         "timezone": "UTC",
         "date": "2024-05-05T16:30:00+00:00",
         "timestamp": 1714926600,
