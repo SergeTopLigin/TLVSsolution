@@ -18,7 +18,6 @@ with open((os.path.abspath(__file__))[:-23]+'/cache/sub_results/games.json', 'r'
 TL_standings = {}
 curr_timestamp = time.time()
 year_ago = curr_timestamp - 3600*24*365
-del_club = []   # ключи удаляемых клубов
 
 # из games удалить неучитываемые игры:
     # если последняя игра клуба закончилась ранее 365 дней назад - удалить клуб
@@ -48,24 +47,71 @@ for club in games:
     # в TL standings учитывается клуб, хотя бы одна игра которого имеет статус 'fixed' и ее окончание не позднее 365 дней назад
     club_in_stands = 0
     for match in games[club]:
-        if match['game_status'] == 'fixed' and match['timestamp']+100*60 > year_ago:
+        if match['game_status'] == 'fixed' and match['timestamp']+115*60 > year_ago:
             club_in_stands = 1
+            break
 
     if club_in_stands == 1:
-        print(club)
+        # формирование полей 'IDapi' и 'nat' словаря TL_standings
+        TL_standings[games[club][0]['club_name']] = {}
+        TL_standings[games[club][0]['club_name']]['IDapi'] = club
+        TL_standings[games[club][0]['club_name']]['nat'] = games[club][0]['club_nat']
+        inc_div = 0     # увеличение знаменателя за счет игры, вышедшей из 365 дней
+        for match in games[club]:
+            if match['game_status'] == 'fixed':
+                # opponent's rating
+                if match['result'] == 'win':
+                    if match['opp_TLrate'] == None or match['opp_TLrate'] <= -1.2:
+                        match_pts = 3
+                    elif match['opp_TLrate'] >= 2.2:
+                        match_pts = 5
+                    elif match['opp_TLrate'] < 2.2 and match['opp_TLrate'] > -1.2:
+                        match_pts = ((match['opp_TLrate']+1.2) / (2.2+1.2)) * 2 + 3
+                elif match['result'] == 'draw':
+                    if match['opp_TLrate'] == None or match['opp_TLrate'] <= -1.2:
+                        match_pts = -1
+                    elif match['opp_TLrate'] >= 2.2:
+                        match_pts = 1
+                    elif match['opp_TLrate'] < 2.2 and match['opp_TLrate'] > -1.2:
+                        match_pts = ((match['opp_TLrate']+1.2) / (2.2+1.2)) * 2 - 1
+                elif match['result'] == 'lose':
+                    if match['opp_TLrate'] == None or match['opp_TLrate'] <= -1.2:
+                        match_pts = -3
+                    elif match['opp_TLrate'] >= 2.2:
+                        match_pts = -1
+                    elif match['opp_TLrate'] < 2.2 and match['opp_TLrate'] > -1.2:
+                        match_pts = ((match['opp_TLrate']+1.2) / (2.2+1.2)) * 2 - 3
+                # goal difference
+                if match['goalDiff'] == 2:      match_pts += 0.4
+                elif match['goalDiff'] == -2:   match_pts -= 0.4
+                elif match['goalDiff'] == 3:    match_pts += 0.7
+                elif match['goalDiff'] == -3:   match_pts -= 0.7
+                elif match['goalDiff'] == 4:    match_pts += 0.9
+                elif match['goalDiff'] == -4:   match_pts -= 0.9
+                elif match['goalDiff'] >= 5:    match_pts += 1 + (match['goalDiff']-5)*0.05
+                elif match['goalDiff'] <= -5:   match_pts -= 1 - (match['goalDiff']-5)*0.05
+                # actuality
+                if match['timestamp']+115*60 > year_ago:    # если игра закончилась в течение последних 365 дней
+                    match_pts -= match_pts * (curr_timestamp - match['timestamp']+115*60) / (3600*24*365)
+                else:   # если игра закончилась раньше последних 365 дней
+                    match_pts = 0
+                    # если это не последняя игра fixed
+                    # если следующая игра закончилась в течение последних 365 дней И
+                    # если окончание последней игры fixed не после выхода окончания рассматриваемой игры за пределы последних 365 дней
+                    if games[club].index(match) < len(games[club])-1 and games[club][games[club].index(match)+1]['game_status'] == 'fixed' and \
+                    games[club][games[club].index(match)+1]['timestamp']+115*60 > year_ago and \
+                    max([fixed_m['timestamp'] for fixed_m in games[club] if fixed_m['game_status']=='fixed'])+115*60 < \
+                    match['timestamp']+115*60 + (3600*24*365):
+                        # учесть увеличение знаменателя
+                        inc_div = 1 - (curr_timestamp - match['timestamp']+115*60 - 3600*24*365) / \
+                        (games[club][games[club].index(match)+1]['timestamp'] - match['timestamp'])
+                    # else:   # иначе - удалить игру
+        print(inc_div)
+                # print(match['date'])
+                # print(match['club_name'], match['match'], match['opp_TLrate'], match_pts, sep='***')
+                # print()
 
-    # # формирование полей 'IDapi' и 'nat' словаря TL_standings
-    # TL_standings[games[club][0]['club_name']] = {}
-    # TL_standings[games[club][0]['club_name']]['IDapi'] = club
-    # TL_standings[games[club][0]['club_name']]['nat'] = games[club][0]['club_nat']
-
-    # for match in games[club]:
-    #     # TL_rank = 
-    #     if match['result'] == 'win':
-
-
-
-# print(json.dumps(games, skipkeys=True, ensure_ascii=False, indent=2))
+# print(json.dumps(TL_standings, skipkeys=True, ensure_ascii=False, indent=2))
 
 
 
