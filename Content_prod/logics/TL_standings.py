@@ -6,7 +6,7 @@
     "nat": "STR",
     "TL_rank": float,
     "visual_rank": int
-    "buffer": True/False
+    "played": int (last 365 days)
   }
 }
 '''
@@ -113,11 +113,8 @@ for club in games:
         elif ways == 3: rate *= 1.1
         # 0.00
         TL_standings[games[club][0]['club_name']]['TL_rank'] = round(rate, 2)
-        # buffer
-        if pl < 3:
-            TL_standings[games[club][0]['club_name']]['buffer'] = True
-        else:
-            TL_standings[games[club][0]['club_name']]['buffer'] = False
+        # played (buffer)
+        TL_standings[games[club][0]['club_name']]['played'] = pl
         # удаление игр, закончившихся более 365 дней назад, кроме игры, вышедшей за 365 дней последней
         for match in del_match:
             games[club].remove(match)
@@ -130,6 +127,10 @@ for club in del_club:
     games.pop(club)
 
 # visual_rank
+TL_max = max([TL_standings[club]['TL_rank'] for club in TL_standings])
+TL_min = min([TL_standings[club]['TL_rank'] for club in TL_standings])
+for club in TL_standings:
+    TL_standings[club]['visual_rank'] = int(round(100 * (TL_standings[club]['TL_rank'] - TL_min) / (TL_max - TL_min), 0))
 
 # # выгрузка скорректированного games.json в репо и на runner: /sub_results
 # gh_push(str(mod_name), 'sub_results', 'games.json', games)
