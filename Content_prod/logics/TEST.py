@@ -1,5 +1,16 @@
-import os, json, time
-with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
-    games = json.load(j)
-for club in games:
-    print(max([fixed_m['timestamp'] for fixed_m in games[club] if fixed_m['game_status']=='fixed']))
+games = {1:[{"club_name": "Borussia Dortmund"}, {"club_name": "Paris Saint Germain"}], 2:[{"club_name": "Bayern Munich"}, {"club_name": "Real Madrid"}]}
+del_match = [{"club_name": "Paris Saint Germain"}, {"club_name": "Borussia Dortmund"}]
+del_club = []
+
+# for club in games:
+#     for match in del_match:
+#         if match in games[club]:
+#             games[club].remove(match)
+#     if games[club] == []:
+#         del_club.append(club)
+
+# for club in del_club:
+#     games.pop(club)
+
+print(len(games[1]))
+
