@@ -18,7 +18,7 @@ try:    # обработка исключений для определения 
     elif datetime.datetime.utcnow() > TL_start_date + datetime.timedelta(days=365):
         Days_after_start = 365
     else: 
-        Days_after_start = int((datetime.datetime.utcnow()-TL_start_date)//datetime.timedelta(days=1))
+        Days_after_start = min(int((datetime.datetime.utcnow()-TL_start_date)//datetime.timedelta(days=1)), 365)
     # коэффициент влияния rate TL standings на итоговый rate клубов
     TL_Influence = (1/365)*Days_after_start
     # коэффициент влияния UEFA club rankings на итоговый rate клубов
