@@ -57,22 +57,35 @@ try:    # обработка исключений для определения 
             elif club in uefa_standings:
                 final_standings[club] = uefa_standings[club]
                 final_standings[club]['TL_rank'] = (uefa_standings[club]['TL_rank']+5)*UEFA_Influence - 5
+                final_standings[club]['played'] = 0
+        # visual_rank
+        TL_rank_max = max([final_standings[club]['TL_rank'] for club in final_standings])
+        TL_rank_min = min([final_standings[club]['TL_rank'] for club in final_standings])
+        for club in final_standings:
+            final_standings[club]['visual_rank'] = int(round(100 * (final_standings[club]['TL_rank'] - TL_rank_min) / (TL_rank_max - TL_rank_min), 0))
+        # сортировка TL_standings с учетом buffer: 
+        # в main_stands попадают:
+        # в первые 122 дня после TL_start_date - все клубы
+        # с 123 по 244 день после TL_start_date - клубы, сыгравшие 1 игру
+        # с 245 по 365 день после TL_start_date - клубы, сыгравшие 2 игры
+        main_stands = {club:TL_standings[club] for club in TL_standings if TL_standings[club]['played'] > 2}
+        main_stands = dict(sorted(main_stands.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
+        # в buffer_2pl попадают клубы, сыгравшие 2 игры
+        buffer_2pl = {club:TL_standings[club] for club in TL_standings if TL_standings[club]['played'] == 2}
+        buffer_2pl = dict(sorted(buffer_2pl.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
+        # в buffer_1pl попадают клубы, сыгравшие 1 игру
+        buffer_1pl = {club:TL_standings[club] for club in TL_standings if TL_standings[club]['played'] == 1}
+        buffer_1pl = dict(sorted(buffer_1pl.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
+        # переинициализация TL-standings
+        TL_standings = {}
+        for club in main_stands:
+            TL_standings[club] = main_stands[club]
+        for club in buffer_2pl:
+            TL_standings[club] = buffer_2pl[club]
+        for club in buffer_1pl:
+            TL_standings[club] = buffer_1pl[club]
 
-    # установка визуально понятного рейтинга - в диапазоне 0-100 между 1-м и последним клубом
-    max_rank = -10
-    min_rank = 10
-    for club in final_standings:
-        if final_standings[club]['TL_rank'] > max_rank:
-            max_rank = final_standings[club]['TL_rank']
-        if final_standings[club]['TL_rank'] < min_rank:
-            min_rank = final_standings[club]['TL_rank']
-    for club in final_standings:
-        visual_rank = int(round(100 * (final_standings[club]['TL_rank'] - min_rank) / (max_rank - min_rank), 0))
-        final_standings[club]['visual_rank'] = visual_rank
-
-    # сортировка final_standings по TL_rank
-    final_standings = dict(sorted(final_standings.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
-
+    
     # формирование .json из словаря final_standings
     # и выгрузка final_standings.json в репо и на runner: /sub_results
     mod_name = os.path.basename(__file__)[:-3]
