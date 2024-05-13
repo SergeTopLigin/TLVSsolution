@@ -7,6 +7,7 @@
     "TL_rank": float,
     "visual_rank": int
     "played": int (last 365 days)
+    "buffer": bool
   }
 }
 '''
@@ -146,10 +147,13 @@ try:    # обработка исключений для определения 
     TL_standings = {}
     for club in main_stands:
         TL_standings[club] = main_stands[club]
+        TL_standings[club]['buffer'] = False
     for club in buffer_2pl:
         TL_standings[club] = buffer_2pl[club]
+        TL_standings[club]['buffer'] = True
     for club in buffer_1pl:
         TL_standings[club] = buffer_1pl[club]
+        TL_standings[club]['buffer'] = True
 
     # выгрузка скорректированного games.json в репо и на runner: /sub_results
     gh_push(str(mod_name), 'sub_results', 'games.json', games)

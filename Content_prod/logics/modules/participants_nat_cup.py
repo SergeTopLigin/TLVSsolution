@@ -208,7 +208,7 @@ def participants_nat_cup(tourn, tourn_id, season, quota, prev):
                                     hist_standings[hist_club]['IDapi'] == fixture['teams']['home']['id']][0] +1.2, 0)
                 club['pts/pl'] = club['pts'] / club['pl']
                 club['dif/pl'] = club['dif'] / club['pl']
-                if club['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings]:
+                if club['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings if TL_standings[TL_club]['buffer'] == False]:
                     club['TL_rank'] = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club['club']][0]
                 else:
                     club['TL_rank'] = -5

@@ -107,7 +107,7 @@ def cup_round_ratings(cup, season, fixtures_dict):
                 for cup_club in fixed_round['club_set']:
                     club_number += 1
                     for stan_club in standings:
-                        if cup_club['id'] == standings[stan_club]['IDapi']:
+                        if cup_club['id'] == standings[stan_club]['IDapi'] and standings[stan_club]['buffer'] == False:
                             cup_club['rating'] = standings[stan_club]['TL_rank']
                             fixed_round['rating'] += max(standings[stan_club]['TL_rank'] + 1.2, 0)
                 fixed_round['rating'] = round(fixed_round['rating'] / club_number, 2)

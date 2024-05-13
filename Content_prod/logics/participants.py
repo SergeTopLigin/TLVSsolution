@@ -126,7 +126,7 @@ try:    # обработка исключений для определения 
             break
     # включение в participants клубов с рейтингом >= TL_rank_10
     for club in standings:
-        if standings[club]['TL_rank'] >= TL_rank_10:
+        if standings[club]['TL_rank'] >= TL_rank_10 and standings[club]['buffer'] == False:
             tournaments['TopLiga']['tournaments']['TopLiga']['participants'].append({'club': club, 'id': standings[club]['IDapi']})
 
     # формирование participants.json из словаря tournaments

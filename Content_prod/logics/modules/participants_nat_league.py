@@ -49,7 +49,7 @@ def participants_nat_league(tourn, tourn_id, season, quota, prev):
                     club_id = club['team']['id']
                     pts_pl = round(club['points'] / club['all']['played'], 2)
                     dif_pl = round(club['goalsDiff'] / club['all']['played'], 2)
-                    if club['team']['name'] in TL_standings:
+                    if club['team']['name'] in TL_standings and TL_standings[club['team']['name']]['buffer'] == False:
                         TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club_name][0]
                     else:
                         TL_rank = -5
@@ -91,7 +91,7 @@ def participants_nat_league(tourn, tourn_id, season, quota, prev):
                     club_id = club['team']['id']
                     pts_pl = round(club['points'] / club['all']['played'], 2)
                     dif_pl = round(club['goalsDiff'] / club['all']['played'], 2)
-                    if club['team']['name'] in TL_standings:
+                    if club['team']['name'] in TL_standings and TL_standings[club['team']['name']]['buffer'] == False:
                         TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club_name][0]
                     else:
                         TL_rank = -5

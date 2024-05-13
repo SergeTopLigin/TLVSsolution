@@ -111,7 +111,7 @@ try:    # обработка исключений для определения 
             uefa_standings[club] = [TL_rank, visual_rank]
             
         # приведение словаря uefa_standings {club:[TL_rank,visual_rank]} 
-        # к виду {club: {IDapi: , nat: , TL_rank: , visual_rank: }}
+        # к виду {club: {IDapi: , nat: , TL_rank: , visual_rank: , buffer: }}
         # посредством \Content_prod\cache\answers\standings
         from modules.country_codes import country_codes
         country_codes = country_codes()
@@ -126,7 +126,7 @@ try:    # обработка исключений для определения 
                         for f_club in stage:
                             if f_club["team"]["name"] == club:
                                 uefa_standings_upg[club] = {'IDapi': f_club["team"]["id"], 'nat': file[:3], \
-                                'TL_rank': uefa_standings[club][0], 'visual_rank': uefa_standings[club][1]}
+                                'TL_rank': uefa_standings[club][0], 'visual_rank': uefa_standings[club][1], 'buffer': False}
                                 find_club = 1
                                 break
                         if find_club == 1:

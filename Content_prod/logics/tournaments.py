@@ -143,7 +143,7 @@ try:    # обработка исключений для определения 
         for SetID in UEFA_tourn_club_set_ID[club_set]:     # для каждого элемента списка ключа словаря 
                                                            # (id клуба из club set рассматриваемого турнира)
             for club in standings:   # для каждого id клуба из TL standings
-                if standings[club]['IDapi'] == SetID:
+                if standings[club]['IDapi'] == SetID and standings[club]['buffer'] == False:
                     tourn_rating += max(standings[club]['TL_rank'] + 1.2, 0)
                     break
         # определение рейтинга турнира с увеличением вложенности словаря до {Association:[Tournament,Rating]}
@@ -337,7 +337,7 @@ try:    # обработка исключений для определения 
                                 if team['group'] == stage_prior:
                                     club_number += 1
                                     for club in standings:   # для каждого id клуба из TL standings
-                                        if standings[club]['IDapi'] == team['team']['id']: 
+                                        if standings[club]['IDapi'] == team['team']['id'] and standings[club]['buffer'] == False: 
                                             tourn[2] += max(standings[club]['TL_rank'] + 1.2, 0)
                         tourn[2] /= club_number
                         # временной фактор: prev > curr (1/150 per day from 01.08)

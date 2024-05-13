@@ -44,7 +44,7 @@ try:    # обработка исключений для определения 
     UEFA_rating = 0
     for club in standings:
         for SetID in UefaClubSetID:
-            if standings[club]['IDapi'] == SetID:
+            if standings[club]['IDapi'] == SetID and standings[club]['buffer'] == False:
                 UEFA_rating += max(standings[club]['TL_rank'] + 1.2, 0)
                 break
     UEFA_rating = round(UEFA_rating, 2)
@@ -52,12 +52,13 @@ try:    # обработка исключений для определения 
     Nations_list = []    # создание списка национальных ассоциаций, имеющих представителство в TL standings
     Nations_list_rate = []  # и списка их рейтингов
     for club in standings:
-        Nations_list.append(standings[club]['nat'])
+        if standings[club]['buffer'] == False:
+            Nations_list.append(standings[club]['nat'])
     Nations_list = list(set(Nations_list))  # избавляемся от повторных элементов преобразованием во множество и обратно
     for country in Nations_list:
         Nation_rate = 0   # инициализация рейтинга конкретной ассоциации
         for club in standings:
-            if country == standings[club]['nat']:
+            if country == standings[club]['nat'] and standings[club]['buffer'] == False:
                 Nation_rate += max(standings[club]['TL_rank'] + 1.2, 0)
         Nations_list_rate.append(round(Nation_rate, 2))
     # формирование общего словаря рейтингов ассоциаций
@@ -109,7 +110,7 @@ try:    # обработка исключений для определения 
             rank += 1
     ass_rate_quota_str = ass_rate_quota_str[:-1]
     
-    # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
+    # выгрузка associations.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
     runner_push(str(mod_name), 'content', 'associations.txt', ass_rate_quota_str)
     gh_push(str(mod_name), 'content_commits', 'associations.txt', ass_rate_quota_str)

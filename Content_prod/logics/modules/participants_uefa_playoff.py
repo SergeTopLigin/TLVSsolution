@@ -102,7 +102,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                 for group in tourn_standings['response'][0]['league']['standings']:
                     pts_pl = group[0]['points'] / group[0]['all']['played']
                     dif_pl = group[0]['goalsDiff'] / group[0]['all']['played']
-                    if group[0]['team']['name'] in TL_standings:
+                    if group[0]['team']['name'] in TL_standings and TL_standings[group[0]['team']['name']]['buffer'] == False:
                         TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == group[0]['team']['name']][0]
                     else:
                         TL_rank = -5
@@ -183,7 +183,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                                     else:                       club['dif'] += rank['goalsDiff'] /2
                     club['pts/pl'] = club['pts'] / club['pl']
                     club['dif/pl'] = club['dif'] / club['pl']
-                    if club['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings]:
+                    if club['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings if TL_standings[TL_club]['buffer'] == False]:
                         club['TL_rank'] = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_club == club['club']][0]
                     else:
                         club['TL_rank'] = -5
@@ -203,7 +203,7 @@ def participants_uefa_playoff(tourn, tourn_id, season, quota):
                     for group in tourn_standings['response'][0]['league']['standings']:
                         for club in group:
                             if club['team']['id'] not in [p_club['id'] for p_club in participants]:
-                                if club['team']['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings]:
+                                if club['team']['id'] in [TL_standings[TL_club]['IDapi'] for TL_club in TL_standings if TL_standings[TL_club]['buffer'] == False]:
                                     TL_rank = [TL_standings[TL_club]['TL_rank'] for TL_club in TL_standings if TL_standings[TL_club]['IDapi'] == club['team']['id']][0]
                                 else:
                                     TL_rank = -5

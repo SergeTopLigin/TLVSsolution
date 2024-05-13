@@ -46,7 +46,7 @@ jobs:
             echo "UEFA ranking influence was canceled"
           fi
       
-      # TL_standings
+      # standings
       - name: Run script standings.py
         run: python Content_prod/logics/standings.py
 
@@ -65,6 +65,10 @@ jobs:
       # games
       - name: Run script games.py
         run: python Content_prod/logics/games.py
+
+      # TL_standings
+      - name: Run script TL_standings.py
+        run: python Content_prod/logics/TL_standings.py
 
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости

@@ -81,7 +81,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
     # opp_TLrate
         with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/final_standings.json', 'r', encoding='utf-8') as j:
             TL_standings = json.load(j)
-        if game['opp_id'] in [TL_standings[club]['IDapi'] for club in TL_standings]:
+        if game['opp_id'] in [TL_standings[club]['IDapi'] for club in TL_standings if TL_standings[club]['buffer'] == False]:
             game['opp_TLrate'] = [TL_standings[club]['TL_rank'] for club in TL_standings if TL_standings[club]['IDapi'] == game['opp_id']][0]
         else:
             game['opp_TLrate'] = None
@@ -123,7 +123,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                     if game['club_nat'] == stand_file[:3]:   break
                 if game['club_nat'] == stand_file[:3]:   break
     # 'club_TLpos':
-        if club_id in [TL_standings[club]['IDapi'] for club in TL_standings]:
+        if club_id in [TL_standings[club]['IDapi'] for club in TL_standings if TL_standings[club]['buffer'] == False]:
             game['club_TLpos'] = [list(TL_standings.values()).index(club)+1 for club in list(TL_standings.values()) if club['IDapi'] == club_id][0]
         else:
             game['club_TLpos'] = None
@@ -174,7 +174,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
                     if game['opp_nat'] == stand_file[:3]:   break
                 if game['opp_nat'] == stand_file[:3]:   break
     # 'opp_TLpos':
-        if game['opp_id'] in [TL_standings[club]['IDapi'] for club in TL_standings]:
+        if game['opp_id'] in [TL_standings[club]['IDapi'] for club in TL_standings if TL_standings[club]['buffer'] == False]:
             game['opp_TLpos'] = [list(TL_standings.values()).index(club)+1 for club in list(TL_standings.values()) if club['IDapi'] == game['opp_id']][0]
         else:
             game['opp_TLpos'] = None
