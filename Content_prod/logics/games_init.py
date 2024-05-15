@@ -68,11 +68,11 @@ try:    # обработка исключений для определения 
     mod_name = os.path.basename(__file__)[:-3]
     from modules.fixture_files import fixture_files
     from modules.add_game import add_game
-    with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/participants_nat.json', 'r', encoding='utf-8') as j:
+    with open((os.path.abspath(__file__))[:-21]+'/cache/sub_results/participants_nat.json', 'r', encoding='utf-8') as j:
         participants = json.load(j)
-    with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
+    with open((os.path.abspath(__file__))[:-21]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
         games = json.load(j)
-    dir_fixtures = os.listdir((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures')
+    dir_fixtures = os.listdir((os.path.abspath(__file__))[:-21]+'/cache/answers/fixtures')
     participants_id = []    # список id участников
     for ass in participants:
         for club in participants[ass]:
@@ -91,7 +91,7 @@ try:    # обработка исключений для определения 
         for game in games[club_id]:
             if game['game_status'] == 'unfinished':
                 fixt_file = [file for file in dir_fixtures if game['tourn_nat_type'] in file and game['season'] in file][0]
-                with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures'+fixt_file, 'r', encoding='utf-8') as j:
+                with open((os.path.abspath(__file__))[:-21]+'/cache/answers/fixtures'+fixt_file, 'r', encoding='utf-8') as j:
                     tourn_fixtures = json.load(j)
                 for fixture in tourn_fixtures['response']:
                     if game['fixture_id'] == fixture['fixture']['id'] and \
@@ -124,7 +124,7 @@ try:    # обработка исключений для определения 
     curr_timestamp = time.time()
     curr_datetime = datetime.datetime.utcnow()
     # извлечение времени последнего расчета
-    with open((os.path.abspath(__file__))[:-16]+'/cache/sub_results/worktimes.json', 'r', encoding='utf-8') as j:
+    with open((os.path.abspath(__file__))[:-21]+'/cache/sub_results/worktimes.json', 'r', encoding='utf-8') as j:
         worktimes = json.load(j)
     # если worktimes.json пуст - новые игры 'fixed' и 'unfinished' не включаются до следующего расчета
     if len(worktimes) > 0:
@@ -143,7 +143,7 @@ try:    # обработка исключений для определения 
                 if fixture_files(tourn[0], season, tourn[2]) == 'pass':     # если турнир не начался и нет расписания
                     continue
                 # открытие fixtures
-                with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+' fixt.json', 'r', encoding='utf-8') as j:
+                with open((os.path.abspath(__file__))[:-21]+'/cache/answers/fixtures/'+tourn[0]+' '+season+' fixt.json', 'r', encoding='utf-8') as j:
                     fixtures = json.load(j)
                 for match in fixtures['response']:
                     if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp + 2500000 and\
@@ -174,7 +174,7 @@ try:    # обработка исключений для определения 
             last_word = ' fixt' if 'League' in tourn[0] else ' curr'
             if tourn[0]+' '+season+last_word+'.json' not in dir_fixtures:
                 continue
-            with open((os.path.abspath(__file__))[:-16]+'/cache/answers/fixtures/'+tourn[0]+' '+season+last_word+'.json', 'r', encoding='utf-8') as j:
+            with open((os.path.abspath(__file__))[:-21]+'/cache/answers/fixtures/'+tourn[0]+' '+season+last_word+'.json', 'r', encoding='utf-8') as j:
                 fixtures = json.load(j)
             for match in fixtures['response']:
                 if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp + 2500000 and\
