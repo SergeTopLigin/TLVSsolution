@@ -61,6 +61,7 @@ try:    # обработка исключений для определения 
     mod_name = os.path.basename(__file__)[:-3]
     from modules.add_game import add_game
     dir_fixtures = os.listdir((os.path.abspath(__file__))[:-27]+'/cache/answers/fixtures')
+    from modules.apisports_key import api_key
 
 
     # фиксация момента расчета в worktimes.json
@@ -77,14 +78,27 @@ try:    # обработка исключений для определения 
     # определение результатов игр unfinished и expected, завершившихся до момента расчета, перевод их в статус fixed
     with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
         games = json.load(j)
-# fixtures?ids=id-id-id (max 20 за запрос)
-    new_fixed = []  # список id игр unfinished и expected, завершившихся до момента расчета
+    # список id игр unfinished и expected, завершившихся до момента расчета
+    new_fixed = []  
     for club_id in games:
         for game in games[club_id]:
             if game['game_status'] in ['unfinished', 'expected'] and curr_timestamp > game['timestamp'] + 115*60:
                 new_fixed.append(str(game['fixture_id']))
-
-
+    # список запросов: макс 20 ids в одном запросе
+    requests = []    
+    for fixture in new_fixed:
+        n = new_fixed.index(fixture) // 20   # индекс списка requests - номер запроса
+        if len(requests) < n+1:
+            requests.append(fixture)
+        else:
+            requests[n] += '-'+fixture
+    # запросы результатов игр и изменение games.json
+    for request in requests:
+        response = api_key("/fixtures?ids="+request)
+        time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
+        response_dict = json.loads(response)
+        if response_dict['results'] != 0:
+                   
 
 
 except: 
