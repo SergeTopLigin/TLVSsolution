@@ -3,29 +3,30 @@ ENG
                            1  Manchester City            TL    UCL   Cup 
                            2  Arsenal                          UCL       
                            3  Liverpool                  TL    UEL       
-                           4  Aston Villa                                
                               Chelsea                    TL              
+                              Manchester United                      Cup 
 ESP
       23-24 La Liga             
                            1  Real Madrid                TL    UCL       
-                           2  Girona                                     
-                           3  Barcelona                        UCL       
+                           2  Barcelona                        UCL       
+                           3  Girona                                     
                            4  Atletico Madrid                  UCL       
                               Real Sociedad                    UCL       
 GER
       23-24 Bundesliga          
                            1  Bayer Leverkusen                 UEL       
-                           2  Bayern Munich              TL    UCL       
-                           3  VfB Stuttgart                              
+                           2  VfB Stuttgart                              
+                           3  Bayern Munich              TL    UCL       
                            4  RB Leipzig                 TL    UCL       
                               Borussia Dortmund          TL    UCL       
 ITA
       23-24 Serie A             
                            1  Inter                      TL    UCL       
                            2  AC Milan                         UEL       
-                           3  Juventus                               Cup 
-                              AS Roma                    TL    UEL       
+                           3  Bologna                                    
+                              Juventus                               Cup 
                               Atalanta                         UEL       
+                              AS Roma                    TL    UEL       
                               Lazio                            UCL       
                               Napoli                           UCL       
 POR
@@ -39,7 +40,7 @@ FRA
 NED
       23-24 Eredivisie          
                            1  PSV Eindhoven                    UCL       
-BEL
-                              Club Brugge KV                   UECL
 DEN
                               FC Copenhagen                    UCL 
+GRE
+                              Olympiakos Piraeus               UECL
