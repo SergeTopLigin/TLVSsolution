@@ -13,12 +13,12 @@
       "id": 40
     },
     {
-      "club": "Aston Villa",
-      "id": 66
-    },
-    {
       "club": "Chelsea",
       "id": 49
+    },
+    {
+      "club": "Manchester United",
+      "id": 33
     }
   ],
   "ESP": [
@@ -27,12 +27,12 @@
       "id": 541
     },
     {
-      "club": "Girona",
-      "id": 547
-    },
-    {
       "club": "Barcelona",
       "id": 529
+    },
+    {
+      "club": "Girona",
+      "id": 547
     },
     {
       "club": "Atletico Madrid",
@@ -49,12 +49,12 @@
       "id": 168
     },
     {
-      "club": "Bayern Munich",
-      "id": 157
-    },
-    {
       "club": "VfB Stuttgart",
       "id": 172
+    },
+    {
+      "club": "Bayern Munich",
+      "id": 157
     },
     {
       "club": "RB Leipzig",
@@ -75,16 +75,20 @@
       "id": 489
     },
     {
+      "club": "Bologna",
+      "id": 500
+    },
+    {
       "club": "Juventus",
       "id": 496
     },
     {
-      "club": "AS Roma",
-      "id": 497
-    },
-    {
       "club": "Atalanta",
       "id": 499
+    },
+    {
+      "club": "AS Roma",
+      "id": 497
     },
     {
       "club": "Lazio",
@@ -121,16 +125,16 @@
       "id": 197
     }
   ],
-  "BEL": [
-    {
-      "club": "Club Brugge KV",
-      "id": 569
-    }
-  ],
   "DEN": [
     {
       "club": "FC Copenhagen",
       "id": 400
+    }
+  ],
+  "GRE": [
+    {
+      "club": "Olympiakos Piraeus",
+      "id": 553
     }
   ]
 }
