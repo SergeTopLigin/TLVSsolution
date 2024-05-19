@@ -19056,8 +19056,8 @@
         "id": 1052533,
         "referee": "J. Sacchi",
         "timezone": "UTC",
-        "date": "2024-03-17T17:00:00+00:00",
-        "timestamp": 1710694800,
+        "date": "2024-06-02T16:00:00+00:00",
+        "timestamp": 1717344000,
         "periods": {
           "first": null,
           "second": null
@@ -19068,8 +19068,8 @@
           "city": "Bergamo"
         },
         "status": {
-          "long": "Match Postponed",
-          "short": "PST",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -23216,9 +23216,9 @@
           "city": "Empoli"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 83
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23254,8 +23254,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -23284,9 +23284,9 @@
           "city": "Verona"
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 85
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23322,8 +23322,8 @@
           "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23338,13 +23338,13 @@
     {
       "fixture": {
         "id": 1052596,
-        "referee": "A. Prontera",
+        "referee": "Alessandro Prontera, Italy",
         "timezone": "UTC",
         "date": "2024-05-05T16:00:00+00:00",
         "timestamp": 1714924800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714924800,
+          "second": 1714928400
         },
         "venue": {
           "id": 907,
@@ -23352,9 +23352,9 @@
           "city": "Milano"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23381,17 +23381,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -23474,13 +23474,13 @@
     {
       "fixture": {
         "id": 1052598,
-        "referee": "A. Colombo",
+        "referee": "Andrea Colombo, Italy",
         "timezone": "UTC",
         "date": "2024-05-05T18:45:00+00:00",
         "timestamp": 1714934700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714934700,
+          "second": 1714938300
         },
         "venue": {
           "id": 910,
@@ -23488,9 +23488,9 @@
           "city": "Roma"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23517,17 +23517,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23542,13 +23542,13 @@
     {
       "fixture": {
         "id": 1052599,
-        "referee": "E. Feliciani",
+        "referee": "Ermanno Feliciani, Italy",
         "timezone": "UTC",
         "date": "2024-05-06T16:00:00+00:00",
         "timestamp": 1715011200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715011200,
+          "second": 1715014800
         },
         "venue": {
           "id": 933,
@@ -23556,9 +23556,9 @@
           "city": "Salerno"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23575,27 +23575,27 @@
           "id": 514,
           "name": "Salernitana",
           "logo": "https://media.api-sports.io/football/teams/514.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 499,
           "name": "Atalanta",
           "logo": "https://media.api-sports.io/football/teams/499.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -23746,13 +23746,13 @@
     {
       "fixture": {
         "id": 1052602,
-        "referee": "G. Aureliano",
+        "referee": "Gianluca Aureliano, Italy",
         "timezone": "UTC",
         "date": "2024-05-06T18:45:00+00:00",
         "timestamp": 1715021100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715021100,
+          "second": 1715024700
         },
         "venue": {
           "id": 20416,
@@ -23760,9 +23760,9 @@
           "city": "Udine"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23789,17 +23789,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23814,13 +23814,13 @@
     {
       "fixture": {
         "id": 1052603,
-        "referee": null,
+        "referee": "Marco Guida, Italy",
         "timezone": "UTC",
         "date": "2024-05-12T18:45:00+00:00",
         "timestamp": 1715539500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715539500,
+          "second": 1715543100
         },
         "venue": {
           "id": 879,
@@ -23828,9 +23828,9 @@
           "city": "Bergamo"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23847,27 +23847,27 @@
           "id": 499,
           "name": "Atalanta",
           "logo": "https://media.api-sports.io/football/teams/499.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 497,
           "name": "AS Roma",
           "logo": "https://media.api-sports.io/football/teams/497.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23882,13 +23882,13 @@
     {
       "fixture": {
         "id": 1052604,
-        "referee": null,
+        "referee": "Luca Zufferli, Italy",
         "timezone": "UTC",
         "date": "2024-05-13T18:45:00+00:00",
         "timestamp": 1715625900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715625900,
+          "second": 1715629500
         },
         "venue": {
           "id": 902,
@@ -23896,9 +23896,9 @@
           "city": "Firenze"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23915,27 +23915,27 @@
           "id": 502,
           "name": "Fiorentina",
           "logo": "https://media.api-sports.io/football/teams/502.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 1579,
           "name": "Monza",
           "logo": "https://media.api-sports.io/football/teams/1579.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -23950,13 +23950,13 @@
     {
       "fixture": {
         "id": 1052605,
-        "referee": null,
+        "referee": "Antonio Giua, Italy",
         "timezone": "UTC",
         "date": "2024-05-10T18:45:00+00:00",
         "timestamp": 1715366700,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715366700,
+          "second": 1715370300
         },
         "venue": {
           "id": 904,
@@ -23964,9 +23964,9 @@
           "city": "Frosinone"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -23983,27 +23983,27 @@
           "id": 512,
           "name": "Frosinone",
           "logo": "https://media.api-sports.io/football/teams/512.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 505,
           "name": "Inter",
           "logo": "https://media.api-sports.io/football/teams/505.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 5
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 5
         },
         "extratime": {
           "home": null,
@@ -24018,13 +24018,13 @@
     {
       "fixture": {
         "id": 1052606,
-        "referee": null,
+        "referee": "Maurizio Mariani, Italy",
         "timezone": "UTC",
         "date": "2024-05-12T13:00:00+00:00",
         "timestamp": 1715518800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715518800,
+          "second": 1715522400
         },
         "venue": {
           "id": 905,
@@ -24032,9 +24032,9 @@
           "city": "Genova"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24051,27 +24051,27 @@
           "id": 495,
           "name": "Genoa",
           "logo": "https://media.api-sports.io/football/teams/495.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 488,
           "name": "Sassuolo",
           "logo": "https://media.api-sports.io/football/teams/488.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -24086,13 +24086,13 @@
     {
       "fixture": {
         "id": 1052607,
-        "referee": null,
+        "referee": "Livio Marinelli, Italy",
         "timezone": "UTC",
         "date": "2024-05-12T13:00:00+00:00",
         "timestamp": 1715518800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715518800,
+          "second": 1715522400
         },
         "venue": {
           "id": 890,
@@ -24100,9 +24100,9 @@
           "city": "Verona"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24119,27 +24119,27 @@
           "id": 504,
           "name": "Verona",
           "logo": "https://media.api-sports.io/football/teams/504.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 503,
           "name": "Torino",
           "logo": "https://media.api-sports.io/football/teams/503.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -24154,13 +24154,13 @@
     {
       "fixture": {
         "id": 1052608,
-        "referee": null,
+        "referee": "Alberto Santoro, Italy",
         "timezone": "UTC",
         "date": "2024-05-12T16:00:00+00:00",
         "timestamp": 1715529600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715529600,
+          "second": 1715533200
         },
         "venue": {
           "id": 909,
@@ -24168,9 +24168,9 @@
           "city": "Torino"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24197,17 +24197,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -24222,13 +24222,13 @@
     {
       "fixture": {
         "id": 1052609,
-        "referee": null,
+        "referee": "Gianluca Aureliano, Italy",
         "timezone": "UTC",
         "date": "2024-05-12T10:30:00+00:00",
         "timestamp": 1715509800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715509800,
+          "second": 1715513400
         },
         "venue": {
           "id": 910,
@@ -24236,9 +24236,9 @@
           "city": "Roma"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24255,27 +24255,27 @@
           "id": 487,
           "name": "Lazio",
           "logo": "https://media.api-sports.io/football/teams/487.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 511,
           "name": "Empoli",
           "logo": "https://media.api-sports.io/football/teams/511.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -24290,13 +24290,13 @@
     {
       "fixture": {
         "id": 1052610,
-        "referee": null,
+        "referee": "Davide Massa, Italy",
         "timezone": "UTC",
         "date": "2024-05-13T16:30:00+00:00",
         "timestamp": 1715617800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715617800,
+          "second": 1715621400
         },
         "venue": {
           "id": 911,
@@ -24304,9 +24304,9 @@
           "city": "Lecce"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24323,27 +24323,27 @@
           "id": 867,
           "name": "Lecce",
           "logo": "https://media.api-sports.io/football/teams/867.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 494,
           "name": "Udinese",
           "logo": "https://media.api-sports.io/football/teams/494.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -24358,13 +24358,13 @@
     {
       "fixture": {
         "id": 1052611,
-        "referee": null,
+        "referee": "Simone Sozza, Italy",
         "timezone": "UTC",
         "date": "2024-05-11T18:45:00+00:00",
         "timestamp": 1715453100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715453100,
+          "second": 1715456700
         },
         "venue": {
           "id": 907,
@@ -24372,9 +24372,9 @@
           "city": "Milano"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24391,27 +24391,27 @@
           "id": 489,
           "name": "AC Milan",
           "logo": "https://media.api-sports.io/football/teams/489.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 490,
           "name": "Cagliari",
           "logo": "https://media.api-sports.io/football/teams/490.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 5,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -24426,13 +24426,13 @@
     {
       "fixture": {
         "id": 1052612,
-        "referee": null,
+        "referee": "Luca J. Pairetto, Italy",
         "timezone": "UTC",
         "date": "2024-05-11T16:00:00+00:00",
         "timestamp": 1715443200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715443200,
+          "second": 1715446800
         },
         "venue": {
           "id": 11904,
@@ -24440,9 +24440,9 @@
           "city": "Napoli"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24459,27 +24459,27 @@
           "id": 492,
           "name": "Napoli",
           "logo": "https://media.api-sports.io/football/teams/492.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 500,
           "name": "Bologna",
           "logo": "https://media.api-sports.io/football/teams/500.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -24494,10 +24494,10 @@
     {
       "fixture": {
         "id": 1052613,
-        "referee": null,
+        "referee": "G. Ayroldi",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-20T18:45:00+00:00",
+        "timestamp": 1716230700,
         "periods": {
           "first": null,
           "second": null
@@ -24508,8 +24508,8 @@
           "city": "Bologna"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24562,13 +24562,13 @@
     {
       "fixture": {
         "id": 1052614,
-        "referee": null,
+        "referee": "Matteo Marchetti, Italy",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-17T18:45:00+00:00",
+        "timestamp": 1715971500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715971500,
+          "second": 1715975100
         },
         "venue": {
           "id": 902,
@@ -24576,9 +24576,9 @@
           "city": "Firenze"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24605,17 +24605,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -24630,10 +24630,10 @@
     {
       "fixture": {
         "id": 1052615,
-        "referee": null,
+        "referee": "J. Sacchi",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-19T16:00:00+00:00",
+        "timestamp": 1716134400,
         "periods": {
           "first": null,
           "second": null
@@ -24644,8 +24644,8 @@
           "city": "Milano"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24698,13 +24698,13 @@
     {
       "fixture": {
         "id": 1052616,
-        "referee": null,
+        "referee": "Antonio Rapuano, Italy",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T16:00:00+00:00",
+        "timestamp": 1716048000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716048000,
+          "second": 1716051600
         },
         "venue": {
           "id": 911,
@@ -24712,9 +24712,9 @@
           "city": "Lecce"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -24731,27 +24731,27 @@
           "id": 867,
           "name": "Lecce",
           "logo": "https://media.api-sports.io/football/teams/867.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 499,
           "name": "Atalanta",
           "logo": "https://media.api-sports.io/football/teams/499.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -24766,10 +24766,10 @@
     {
       "fixture": {
         "id": 1052617,
-        "referee": null,
+        "referee": "M. Fabbri",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-19T13:00:00+00:00",
+        "timestamp": 1716123600,
         "periods": {
           "first": null,
           "second": null
@@ -24780,8 +24780,8 @@
           "city": "Monza"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24834,10 +24834,10 @@
     {
       "fixture": {
         "id": 1052618,
-        "referee": null,
+        "referee": "G. Manganiello",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-19T18:45:00+00:00",
+        "timestamp": 1716144300,
         "periods": {
           "first": null,
           "second": null
@@ -24848,8 +24848,8 @@
           "city": "Roma"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24902,10 +24902,10 @@
     {
       "fixture": {
         "id": 1052619,
-        "referee": null,
+        "referee": "M. Di Bello",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-20T16:30:00+00:00",
+        "timestamp": 1716222600,
         "periods": {
           "first": null,
           "second": null
@@ -24916,8 +24916,8 @@
           "city": "Salerno"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -24970,10 +24970,10 @@
     {
       "fixture": {
         "id": 1052620,
-        "referee": null,
+        "referee": "D. Doveri",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-19T10:30:00+00:00",
+        "timestamp": 1716114600,
         "periods": {
           "first": null,
           "second": null
@@ -24984,8 +24984,8 @@
           "city": "Reggio Emilia"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25038,13 +25038,13 @@
     {
       "fixture": {
         "id": 1052621,
-        "referee": null,
+        "referee": "Ermanno Feliciani, Italy",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T18:45:00+00:00",
+        "timestamp": 1716057900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716057900,
+          "second": 1716061500
         },
         "venue": {
           "id": 943,
@@ -25052,9 +25052,9 @@
           "city": "Torino"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -25071,27 +25071,27 @@
           "id": 503,
           "name": "Torino",
           "logo": "https://media.api-sports.io/football/teams/503.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 489,
           "name": "AC Milan",
           "logo": "https://media.api-sports.io/football/teams/489.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -25106,10 +25106,10 @@
     {
       "fixture": {
         "id": 1052622,
-        "referee": null,
+        "referee": "D. Orsato",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-19T13:00:00+00:00",
+        "timestamp": 1716123600,
         "periods": {
           "first": null,
           "second": null
@@ -25120,8 +25120,8 @@
           "city": "Udine"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25176,8 +25176,8 @@
         "id": 1052623,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25188,8 +25188,8 @@
           "city": "Bergamo"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25244,8 +25244,8 @@
         "id": 1052624,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25256,8 +25256,8 @@
           "city": "Cagliari"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25312,8 +25312,8 @@
         "id": 1052625,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25324,8 +25324,8 @@
           "city": "Empoli"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25380,8 +25380,8 @@
         "id": 1052626,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25392,8 +25392,8 @@
           "city": "Frosinone"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25448,8 +25448,8 @@
         "id": 1052627,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25460,8 +25460,8 @@
           "city": "Genova"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25516,20 +25516,20 @@
         "id": 1052628,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
         },
         "venue": {
           "id": 890,
-          "name": "Stadio Marc'Antonio Bentegodi",
+          "name": "Stadio Marcantonio Bentegodi",
           "city": "Verona"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25584,8 +25584,8 @@
         "id": 1052629,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25596,8 +25596,8 @@
           "city": "Torino"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25652,8 +25652,8 @@
         "id": 1052630,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25664,8 +25664,8 @@
           "city": "Roma"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25720,8 +25720,8 @@
         "id": 1052631,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25732,8 +25732,8 @@
           "city": "Milano"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -25788,8 +25788,8 @@
         "id": 1052632,
         "referee": null,
         "timezone": "UTC",
-        "date": "2024-05-26T00:00:00+00:00",
-        "timestamp": 1716681600,
+        "date": "2024-05-26T13:00:00+00:00",
+        "timestamp": 1716728400,
         "periods": {
           "first": null,
           "second": null
@@ -25800,8 +25800,8 @@
           "city": "Napoli"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
+          "long": "Not Started",
+          "short": "NS",
           "elapsed": null
         }
       },
