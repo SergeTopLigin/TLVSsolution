@@ -18986,13 +18986,13 @@
     {
       "fixture": {
         "id": 1063755,
-        "referee": "Miguel Nogueira",
+        "referee": "Miguel Nogueira, Portugal",
         "timezone": "UTC",
         "date": "2024-05-05T17:00:00+00:00",
         "timestamp": 1714928400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714928400,
+          "second": 1714932000
         },
         "venue": {
           "id": 1275,
@@ -19000,9 +19000,9 @@
           "city": "Arouca"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19029,17 +19029,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -19190,13 +19190,13 @@
     {
       "fixture": {
         "id": 1063758,
-        "referee": "Tiago Martins",
+        "referee": "Tiago Martins, Portugal",
         "timezone": "UTC",
         "date": "2024-05-05T17:00:00+00:00",
         "timestamp": 1714928400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714928400,
+          "second": 1714932000
         },
         "venue": {
           "id": 1291,
@@ -19204,9 +19204,9 @@
           "city": "Braga"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19223,27 +19223,27 @@
           "id": 217,
           "name": "SC Braga",
           "logo": "https://media.api-sports.io/football/teams/217.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 4716,
           "name": "Casa Pia",
           "logo": "https://media.api-sports.io/football/teams/4716.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -19462,13 +19462,13 @@
     {
       "fixture": {
         "id": 1063762,
-        "referee": "João Ferreira",
+        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
         "timezone": "UTC",
         "date": "2024-05-05T19:30:00+00:00",
         "timestamp": 1714937400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1714937400,
+          "second": 1714941000
         },
         "venue": {
           "id": 1276,
@@ -19476,9 +19476,9 @@
           "city": "Vila Nova de Famalicão"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19495,27 +19495,27 @@
           "id": 242,
           "name": "Famalicao",
           "logo": "https://media.api-sports.io/football/teams/242.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 211,
           "name": "Benfica",
           "logo": "https://media.api-sports.io/football/teams/211.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -19536,7 +19536,7 @@
         "timestamp": 1714919400,
         "periods": {
           "first": 1714919400,
-          "second": null
+          "second": 1714923000
         },
         "venue": {
           "id": 1290,
@@ -19544,9 +19544,9 @@
           "city": "Faro"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 10
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19563,27 +19563,27 @@
           "id": 231,
           "name": "Farense",
           "logo": "https://media.api-sports.io/football/teams/231.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 230,
           "name": "Estoril",
           "logo": "https://media.api-sports.io/football/teams/230.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -19598,13 +19598,13 @@
     {
       "fixture": {
         "id": 1063764,
-        "referee": null,
+        "referee": "Ricardo Baixinho, Portugal",
         "timezone": "UTC",
         "date": "2024-05-10T19:15:00+00:00",
         "timestamp": 1715368500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715368500,
+          "second": 1715372100
         },
         "venue": {
           "id": 1273,
@@ -19612,9 +19612,9 @@
           "city": "Chaves"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19631,27 +19631,27 @@
           "id": 223,
           "name": "Chaves",
           "logo": "https://media.api-sports.io/football/teams/223.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 242,
           "name": "Famalicao",
           "logo": "https://media.api-sports.io/football/teams/242.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -19666,13 +19666,13 @@
     {
       "fixture": {
         "id": 1063765,
-        "referee": null,
+        "referee": "Joao Antonio Ferreira Goncalves, Portugal",
         "timezone": "UTC",
         "date": "2024-05-11T17:00:00+00:00",
         "timestamp": 1715446800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715446800,
+          "second": 1715450400
         },
         "venue": {
           "id": 1274,
@@ -19680,9 +19680,9 @@
           "city": "Estoril"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19699,27 +19699,27 @@
           "id": 230,
           "name": "Estoril",
           "logo": "https://media.api-sports.io/football/teams/230.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 228,
           "name": "Sporting CP",
           "logo": "https://media.api-sports.io/football/teams/228.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -19734,13 +19734,13 @@
     {
       "fixture": {
         "id": 1063766,
-        "referee": null,
+        "referee": "Joao Pedro Pinheiro, Portugal",
         "timezone": "UTC",
         "date": "2024-05-11T14:30:00+00:00",
         "timestamp": 1715437800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715437800,
+          "second": 1715441400
         },
         "venue": {
           "id": 1285,
@@ -19748,9 +19748,9 @@
           "city": "Portimão"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19777,17 +19777,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -19802,13 +19802,13 @@
     {
       "fixture": {
         "id": 1063767,
-        "referee": null,
+        "referee": "Iancu Vasilica, Portugal",
         "timezone": "UTC",
         "date": "2024-05-12T14:30:00+00:00",
         "timestamp": 1715524200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715524200,
+          "second": 1715527800
         },
         "venue": {
           "id": 2811,
@@ -19816,9 +19816,9 @@
           "city": "Barcelos"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19835,27 +19835,27 @@
           "id": 762,
           "name": "GIL Vicente",
           "logo": "https://media.api-sports.io/football/teams/762.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 231,
           "name": "Farense",
           "logo": "https://media.api-sports.io/football/teams/231.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -19870,13 +19870,13 @@
     {
       "fixture": {
         "id": 1063768,
-        "referee": null,
+        "referee": "Jose Bessa, Portugal",
         "timezone": "UTC",
         "date": "2024-05-12T17:00:00+00:00",
         "timestamp": 1715533200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715533200,
+          "second": 1715536800
         },
         "venue": {
           "id": 3565,
@@ -19884,9 +19884,9 @@
           "city": "Rio Maior"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19903,27 +19903,27 @@
           "id": 4716,
           "name": "Casa Pia",
           "logo": "https://media.api-sports.io/football/teams/4716.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 215,
           "name": "Moreirense",
           "logo": "https://media.api-sports.io/football/teams/215.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -19938,13 +19938,13 @@
     {
       "fixture": {
         "id": 1063769,
-        "referee": null,
+        "referee": "Luís Godinho, Portugal",
         "timezone": "UTC",
         "date": "2024-05-11T14:30:00+00:00",
         "timestamp": 1715437800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715437800,
+          "second": 1715441400
         },
         "venue": {
           "id": 2817,
@@ -19952,9 +19952,9 @@
           "city": "Caldas de Vizela"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -19971,27 +19971,27 @@
           "id": 810,
           "name": "Vizela",
           "logo": "https://media.api-sports.io/football/teams/810.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 15130,
           "name": "Estrela",
           "logo": "https://media.api-sports.io/football/teams/15130.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -20006,23 +20006,23 @@
     {
       "fixture": {
         "id": 1063770,
-        "referee": null,
+        "referee": "Fabio Melo, Portugal",
         "timezone": "UTC",
         "date": "2024-05-12T17:00:00+00:00",
         "timestamp": 1715533200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715533200,
+          "second": 1715536800
         },
         "venue": {
           "id": null,
-          "name": "Estádio do Sport Lisboa e Benfica",
-          "city": "Lisboa"
+          "name": "Estádio da Luz",
+          "city": "Lisbon"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20039,27 +20039,27 @@
           "id": 211,
           "name": "Benfica",
           "logo": "https://media.api-sports.io/football/teams/211.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 240,
           "name": "Arouca",
           "logo": "https://media.api-sports.io/football/teams/240.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 5,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -20074,13 +20074,13 @@
     {
       "fixture": {
         "id": 1063771,
-        "referee": null,
+        "referee": "Fabio Jose Costa Verissimo, Portugal",
         "timezone": "UTC",
         "date": "2024-05-11T19:30:00+00:00",
         "timestamp": 1715455800,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715455800,
+          "second": 1715459400
         },
         "venue": {
           "id": 1295,
@@ -20088,9 +20088,9 @@
           "city": "Guimarães"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20107,27 +20107,27 @@
           "id": 224,
           "name": "Guimaraes",
           "logo": "https://media.api-sports.io/football/teams/224.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 217,
           "name": "SC Braga",
           "logo": "https://media.api-sports.io/football/teams/217.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -20142,13 +20142,13 @@
     {
       "fixture": {
         "id": 1063772,
-        "referee": null,
+        "referee": "Artur Soares Dias, Portugal",
         "timezone": "UTC",
         "date": "2024-05-12T19:30:00+00:00",
         "timestamp": 1715542200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715542200,
+          "second": 1715545800
         },
         "venue": {
           "id": 1286,
@@ -20156,9 +20156,9 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20175,27 +20175,27 @@
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 222,
           "name": "Boavista",
           "logo": "https://media.api-sports.io/football/teams/222.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -20210,13 +20210,13 @@
     {
       "fixture": {
         "id": 1063773,
-        "referee": null,
+        "referee": "Tiago Martins, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T14:30:00+00:00",
+        "timestamp": 1716042600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716042600,
+          "second": 1716046200
         },
         "venue": {
           "id": 1267,
@@ -20224,9 +20224,9 @@
           "city": "Porto"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20253,17 +20253,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -20278,13 +20278,13 @@
     {
       "fixture": {
         "id": 1063774,
-        "referee": null,
+        "referee": "Joao Pedro Pinheiro, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T14:30:00+00:00",
+        "timestamp": 1716042600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716042600,
+          "second": 1716046200
         },
         "venue": {
           "id": 19187,
@@ -20292,9 +20292,9 @@
           "city": "Amadora"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20311,27 +20311,27 @@
           "id": 15130,
           "name": "Estrela",
           "logo": "https://media.api-sports.io/football/teams/15130.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 762,
           "name": "GIL Vicente",
           "logo": "https://media.api-sports.io/football/teams/762.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -20346,13 +20346,13 @@
     {
       "fixture": {
         "id": 1063775,
-        "referee": null,
+        "referee": "Artur Soares Dias, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T14:30:00+00:00",
+        "timestamp": 1716042600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716042600,
+          "second": 1716046200
         },
         "venue": {
           "id": 1290,
@@ -20360,9 +20360,9 @@
           "city": "Faro"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20379,27 +20379,27 @@
           "id": 231,
           "name": "Farense",
           "logo": "https://media.api-sports.io/football/teams/231.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 216,
           "name": "Portimonense",
           "logo": "https://media.api-sports.io/football/teams/216.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -20414,13 +20414,13 @@
     {
       "fixture": {
         "id": 1063776,
-        "referee": null,
+        "referee": "Bruno Costa, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T14:30:00+00:00",
+        "timestamp": 1716042600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716042600,
+          "second": 1716046200
         },
         "venue": {
           "id": 1275,
@@ -20428,9 +20428,9 @@
           "city": "Arouca"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20447,27 +20447,27 @@
           "id": 240,
           "name": "Arouca",
           "logo": "https://media.api-sports.io/football/teams/240.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 224,
           "name": "Guimaraes",
           "logo": "https://media.api-sports.io/football/teams/224.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         },
         "extratime": {
           "home": null,
@@ -20482,13 +20482,13 @@
     {
       "fixture": {
         "id": 1063777,
-        "referee": null,
+        "referee": "Bruno Vieira, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-17T17:45:00+00:00",
+        "timestamp": 1715967900,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715967900,
+          "second": 1715971500
         },
         "venue": {
           "id": 1276,
@@ -20496,9 +20496,9 @@
           "city": "Vila Nova de Famalicão"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20515,27 +20515,27 @@
           "id": 242,
           "name": "Famalicao",
           "logo": "https://media.api-sports.io/football/teams/242.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 4716,
           "name": "Casa Pia",
           "logo": "https://media.api-sports.io/football/teams/4716.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -20550,13 +20550,13 @@
     {
       "fixture": {
         "id": 1063778,
-        "referee": null,
+        "referee": "David Rafael Oliveira da Silva, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-17T19:45:00+00:00",
+        "timestamp": 1715975100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1715975100,
+          "second": 1715978700
         },
         "venue": {
           "id": 1288,
@@ -20564,9 +20564,9 @@
           "city": "Vila do Conde"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20593,17 +20593,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -20618,13 +20618,13 @@
     {
       "fixture": {
         "id": 1063779,
-        "referee": null,
+        "referee": "Manuel Oliveira, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T17:00:00+00:00",
+        "timestamp": 1716051600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716051600,
+          "second": 1716055200
         },
         "venue": {
           "id": 1293,
@@ -20632,9 +20632,9 @@
           "city": "Lisboa"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20651,27 +20651,27 @@
           "id": 228,
           "name": "Sporting CP",
           "logo": "https://media.api-sports.io/football/teams/228.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 223,
           "name": "Chaves",
           "logo": "https://media.api-sports.io/football/teams/223.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -20686,13 +20686,13 @@
     {
       "fixture": {
         "id": 1063780,
-        "referee": null,
+        "referee": "Carlos Macedo, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T17:00:00+00:00",
+        "timestamp": 1716051600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716051600,
+          "second": 1716055200
         },
         "venue": {
           "id": 1280,
@@ -20700,9 +20700,9 @@
           "city": "Moreira de Cónegos"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20719,27 +20719,27 @@
           "id": 215,
           "name": "Moreirense",
           "logo": "https://media.api-sports.io/football/teams/215.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 230,
           "name": "Estoril",
           "logo": "https://media.api-sports.io/football/teams/230.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -20754,13 +20754,13 @@
     {
       "fixture": {
         "id": 1063781,
-        "referee": null,
+        "referee": "Nuno Miguel Serrano Almeida, Portugal",
         "timezone": "UTC",
-        "date": "2024-05-19T00:00:00+00:00",
-        "timestamp": 1716076800,
+        "date": "2024-05-18T19:30:00+00:00",
+        "timestamp": 1716060600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716060600,
+          "second": 1716064200
         },
         "venue": {
           "id": 1291,
@@ -20768,9 +20768,9 @@
           "city": "Braga"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -20787,27 +20787,27 @@
           "id": 217,
           "name": "SC Braga",
           "logo": "https://media.api-sports.io/football/teams/217.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         },
         "extratime": {
           "home": null,
