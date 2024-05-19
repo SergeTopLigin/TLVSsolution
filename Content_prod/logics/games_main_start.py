@@ -93,12 +93,33 @@ try:    # обработка исключений для определения 
         else:
             requests[n] += '-'+fixture
     # запросы результатов игр и изменение games.json
+    reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']
     for request in requests:
         response = api_key("/fixtures?ids="+request)
         time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
         response_dict = json.loads(response)
         if response_dict['results'] != 0:
-                   
+            for fixture in [fixt for fixt in response_dict['response'] if fixt['fixture']['status']['short'] in reg_time]:
+                for club_id in [cl_id for cl_id in games if int(cl_id) in [fixture['teams']['home']['id'], fixture['teams']['away']['id']]]:
+                    for game in [g for g in games[club_id] if g['fixture_id'] == fixture['fixture']['id']]:
+                        game['game_status'] = 'fixed'
+                        game['match'] = fixture['teams']['home']['name']+' - '+fixture['teams']['away']['name']+'   '+\
+                            fixture['score']['fulltime']['home']+':'+fixture['score']['fulltime']['away']
+                        # result
+                        if (club_id == fixture['teams']['home']['id'] and fixture['score']['fulltime']['home'] > fixture['score']['fulltime']['away'])\
+                        or (club_id == fixture['teams']['away']['id'] and fixture['score']['fulltime']['home'] < fixture['score']['fulltime']['away']):
+                            game['result'] = 'win'
+                        elif (club_id == fixture['teams']['home']['id'] and fixture['score']['fulltime']['home'] < fixture['score']['fulltime']['away'])\
+                        or (club_id == fixture['teams']['away']['id'] and fixture['score']['fulltime']['home'] > fixture['score']['fulltime']['away']):
+                            game['result'] = 'lose'
+                        elif fixture['score']['fulltime']['home'] == fixture['score']['fulltime']['away']:
+                            game['result'] = 'draw'
+                        # goalDiff
+                        if club_id == fixture['teams']['home']['id']:
+                            game['goalDiff'] = fixture['score']['fulltime']['home'] - fixture['score']['fulltime']['away']
+                        if club_id == fixture['teams']['away']['id']:
+                            game['goalDiff'] = fixture['score']['fulltime']['away'] - fixture['score']['fulltime']['home']
+                        break
 
 
 except: 
