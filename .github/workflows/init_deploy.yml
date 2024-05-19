@@ -66,9 +66,9 @@ jobs:
       - name: Run script games_init.py
         run: python Content_prod/logics/games_init.py
 
-      # # TL_standings
-      # - name: Run script TL_standings.py
-      #   run: python Content_prod/logics/TL_standings.py
+      # TL_standings
+      - name: Run script TL_standings.py
+        run: python Content_prod/logics/TL_standings.py
 
       # deploy
       - name: Install deploy Dependencies  # Установить зависимости

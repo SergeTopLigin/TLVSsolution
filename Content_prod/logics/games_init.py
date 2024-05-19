@@ -180,9 +180,9 @@ try:    # обработка исключений для определения 
                 if match['fixture']['timestamp'] > prev_timestamp and match['fixture']['timestamp'] < curr_timestamp + 2500000 and\
                 match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
                     if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
-                        games[int(match['teams']['home']['id'])] = []
+                        games[match['teams']['home']['id']] = []
                     if match['teams']['away']['id'] not in list(games.keys()):  # создание ключа
-                        games[int(match['teams']['away']['id'])] = []
+                        games[match['teams']['away']['id']] = []
                     # добавить игру в games
                     games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
                     games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
