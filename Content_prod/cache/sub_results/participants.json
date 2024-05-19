@@ -6,7 +6,7 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 1.59,
+        "rating": 1.61,
         "quota": 16,
         "id": 2,
         "type": "Cup",
@@ -17,12 +17,12 @@
             "id": 541
           },
           {
-            "club": "Bayern Munich",
-            "id": 157
-          },
-          {
             "club": "Borussia Dortmund",
             "id": 165
+          },
+          {
+            "club": "Bayern Munich",
+            "id": 157
           },
           {
             "club": "Paris Saint Germain",
@@ -81,7 +81,7 @@
       "UEL 23-24": {
         "tytle": "UEL",
         "season": "23-24",
-        "rating": 0.6,
+        "rating": 0.61,
         "quota": 6,
         "id": 3,
         "type": "Cup",
@@ -116,15 +116,15 @@
       "UECL 23-24": {
         "tytle": "UECL",
         "season": "23-24",
-        "rating": 0.12,
+        "rating": 0.13,
         "quota": 1,
         "id": 848,
         "type": "Cup",
         "name": "Conference League",
         "participants": [
           {
-            "club": "Club Brugge KV",
-            "id": 569
+            "club": "Olympiakos Piraeus",
+            "id": 553
           }
         ]
       }
@@ -164,12 +164,16 @@
             "id": 40
           },
           {
+            "club": "AS Roma",
+            "id": 497
+          },
+          {
             "club": "Inter",
             "id": 505
           },
           {
-            "club": "AS Roma",
-            "id": 497
+            "club": "Borussia Dortmund",
+            "id": 165
           },
           {
             "club": "RB Leipzig",
@@ -178,10 +182,6 @@
           {
             "club": "Chelsea",
             "id": 49
-          },
-          {
-            "club": "Borussia Dortmund",
-            "id": 165
           }
         ]
       }
@@ -195,7 +195,7 @@
         "tytle": "ENG League",
         "season": "23-24",
         "rating": 0.57,
-        "quota": 4,
+        "quota": 3,
         "id": 39,
         "type": "League",
         "name": "Premier League",
@@ -211,10 +211,6 @@
           {
             "club": "Liverpool",
             "id": 40
-          },
-          {
-            "club": "Aston Villa",
-            "id": 66
           }
         ]
       },
@@ -222,7 +218,7 @@
         "tytle": "ENG Cup",
         "season": "23-24",
         "rating": 0.5,
-        "quota": 1,
+        "quota": 2,
         "id": 45,
         "type": "Cup",
         "name": "FA Cup",
@@ -230,13 +226,17 @@
           {
             "club": "Manchester City",
             "id": 50
+          },
+          {
+            "club": "Manchester United",
+            "id": 33
           }
         ]
       },
       "ENG LCup 23-24": {
         "tytle": "ENG LCup",
         "season": "23-24",
-        "rating": 0.22,
+        "rating": 0.18,
         "quota": 0,
         "id": 48,
         "type": "Cup",
@@ -252,7 +252,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.45,
+        "rating": 0.46,
         "quota": 4,
         "id": 140,
         "type": "League",
@@ -263,12 +263,12 @@
             "id": 541
           },
           {
-            "club": "Girona",
-            "id": 547
-          },
-          {
             "club": "Barcelona",
             "id": 529
+          },
+          {
+            "club": "Girona",
+            "id": 547
           },
           {
             "club": "Atletico Madrid",
@@ -279,7 +279,7 @@
       "ESP Cup 23-24": {
         "tytle": "ESP Cup",
         "season": "23-24",
-        "rating": 0.1,
+        "rating": 0.09,
         "quota": 0,
         "id": 143,
         "type": "Cup",
@@ -295,7 +295,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.49,
+        "rating": 0.5,
         "quota": 4,
         "id": 78,
         "type": "League",
@@ -306,12 +306,12 @@
             "id": 168
           },
           {
-            "club": "Bayern Munich",
-            "id": 157
-          },
-          {
             "club": "VfB Stuttgart",
             "id": 172
+          },
+          {
+            "club": "Bayern Munich",
+            "id": 157
           },
           {
             "club": "RB Leipzig",
@@ -338,7 +338,7 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.42,
+        "rating": 0.43,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -353,15 +353,15 @@
             "id": 489
           },
           {
-            "club": "Juventus",
-            "id": 496
+            "club": "Bologna",
+            "id": 500
           }
         ]
       },
       "ITA Cup 23-24": {
         "tytle": "ITA Cup",
         "season": "23-24",
-        "rating": 0.24,
+        "rating": 0.23,
         "quota": 1,
         "id": 137,
         "type": "Cup",
@@ -407,7 +407,7 @@
       "POR LCup 23-24": {
         "tytle": "POR LCup",
         "season": "23-24",
-        "rating": 0.04,
+        "rating": 0.03,
         "quota": 0,
         "id": 97,
         "type": "Cup",
@@ -469,7 +469,7 @@
       "NED Cup 23-24": {
         "tytle": "NED Cup",
         "season": "23-24",
-        "rating": 0.06,
+        "rating": 0.05,
         "quota": 0,
         "id": 90,
         "type": "Cup",
