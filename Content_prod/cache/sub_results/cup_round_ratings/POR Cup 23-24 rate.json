@@ -709,7 +709,7 @@
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.64
+        "rating": -0.74
       },
       {
         "name": "Atlético CP",
@@ -742,7 +742,7 @@
       {
         "name": "SC Braga",
         "id": 217,
-        "rating": -0.79
+        "rating": -0.92
       },
       {
         "name": "Paredes",
@@ -767,7 +767,7 @@
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.1
+        "rating": -0.04
       },
       {
         "name": "Moncarapachense",
@@ -936,7 +936,7 @@
       {
         "name": "Benfica",
         "id": 211,
-        "rating": -0.02
+        "rating": 0.03
       },
       {
         "name": "Santa Clara",
@@ -955,7 +955,7 @@
       "timestamp": 1701039600,
       "date": "2023-11-26 23:00:00"
     },
-    "rating": 0.11,
+    "rating": 0.1,
     "club_set": [
       {
         "name": "Torreense",
@@ -1004,7 +1004,7 @@
       {
         "name": "SC Braga",
         "id": 217,
-        "rating": -0.79
+        "rating": -0.92
       },
       {
         "name": "Paredes",
@@ -1057,7 +1057,7 @@
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.1
+        "rating": -0.04
       },
       {
         "name": "Montalegre",
@@ -1074,7 +1074,7 @@
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.64
+        "rating": -0.74
       },
       {
         "name": "Dumiense",
@@ -1083,7 +1083,7 @@
       {
         "name": "Benfica",
         "id": 211,
-        "rating": -0.02
+        "rating": 0.03
       },
       {
         "name": "Famalicao",
@@ -1098,7 +1098,7 @@
       "timestamp": 1705014900,
       "date": "2024-01-11 23:15:00"
     },
-    "rating": 0.22,
+    "rating": 0.2,
     "club_set": [
       {
         "name": "GIL Vicente",
@@ -1115,12 +1115,12 @@
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.1
+        "rating": -0.04
       },
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.64
+        "rating": -0.74
       },
       {
         "name": "Tondela",
@@ -1129,12 +1129,12 @@
       {
         "name": "Benfica",
         "id": 211,
-        "rating": -0.02
+        "rating": 0.03
       },
       {
         "name": "SC Braga",
         "id": 217,
-        "rating": -0.79
+        "rating": -0.92
       },
       {
         "name": "Maritimo",
@@ -1177,7 +1177,7 @@
       "timestamp": 1709233200,
       "date": "2024-02-29 19:00:00"
     },
-    "rating": 0.38,
+    "rating": 0.36,
     "club_set": [
       {
         "name": "Guimaraes",
@@ -1194,7 +1194,7 @@
       {
         "name": "Benfica",
         "id": 211,
-        "rating": -0.02
+        "rating": 0.03
       },
       {
         "name": "União de Leiria",
@@ -1203,7 +1203,7 @@
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.64
+        "rating": -0.74
       },
       {
         "name": "Santa Clara",
@@ -1212,7 +1212,7 @@
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.1
+        "rating": -0.04
       }
     ]
   },
@@ -1223,17 +1223,17 @@
       "timestamp": 1713392100,
       "date": "2024-04-17 22:15:00"
     },
-    "rating": 0.77,
+    "rating": 0.71,
     "club_set": [
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.66
+        "rating": -0.74
       },
       {
         "name": "Benfica",
         "id": 211,
-        "rating": 0.1
+        "rating": 0.03
       },
       {
         "name": "Guimaraes",
@@ -1242,7 +1242,7 @@
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.04
+        "rating": -0.04
       }
     ]
   },
