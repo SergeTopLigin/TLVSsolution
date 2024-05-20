@@ -135,7 +135,7 @@
       {
         "name": "Borussia Dortmund",
         "id": 165,
-        "rating": 0.39
+        "rating": 0.59
       },
       {
         "name": "Rot-weiss Essen",
@@ -160,7 +160,7 @@
       {
         "name": "Eintracht Frankfurt",
         "id": 169,
-        "rating": -0.44
+        "rating": -0.57
       },
       {
         "name": "FC Astoria Walldorf",
@@ -193,7 +193,7 @@
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.13
+        "rating": 0.37
       },
       {
         "name": "Carl Zeiss Jena",
@@ -258,7 +258,7 @@
       {
         "name": "Bayern Munich",
         "id": 157,
-        "rating": 1.98
+        "rating": 2.07
       },
       {
         "name": "SV Wehen",
@@ -267,7 +267,7 @@
       {
         "name": "RB Leipzig",
         "id": 173,
-        "rating": 0.71
+        "rating": 0.59
       }
     ]
   },
@@ -278,7 +278,7 @@
       "timestamp": 1698878700,
       "date": "2023-11-01 22:45:00"
     },
-    "rating": 0.27,
+    "rating": 0.28,
     "club_set": [
       {
         "name": "FC Viktoria Koln",
@@ -287,7 +287,7 @@
       {
         "name": "Eintracht Frankfurt",
         "id": 169,
-        "rating": -0.44
+        "rating": -0.57
       },
       {
         "name": "Arminia Bielefeld",
@@ -320,7 +320,7 @@
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.13
+        "rating": 0.37
       },
       {
         "name": "FC Saarbrücken",
@@ -329,7 +329,7 @@
       {
         "name": "Bayern Munich",
         "id": 157,
-        "rating": 1.98
+        "rating": 2.07
       },
       {
         "name": "FC St. Pauli",
@@ -390,7 +390,7 @@
       {
         "name": "Borussia Dortmund",
         "id": 165,
-        "rating": 0.39
+        "rating": 0.59
       },
       {
         "name": "1899 Hoffenheim",
@@ -403,7 +403,7 @@
       {
         "name": "RB Leipzig",
         "id": 173,
-        "rating": 0.71
+        "rating": 0.59
       },
       {
         "name": "FC Kaiserslautern",
@@ -422,7 +422,7 @@
       "timestamp": 1701902700,
       "date": "2023-12-06 22:45:00"
     },
-    "rating": 0.23,
+    "rating": 0.25,
     "club_set": [
       {
         "name": "VfB Stuttgart",
@@ -431,7 +431,7 @@
       {
         "name": "Borussia Dortmund",
         "id": 165,
-        "rating": 0.39
+        "rating": 0.59
       },
       {
         "name": "FC Saarbrücken",
@@ -440,7 +440,7 @@
       {
         "name": "Eintracht Frankfurt",
         "id": 169,
-        "rating": -0.44
+        "rating": -0.57
       },
       {
         "name": "Borussia Monchengladbach",
@@ -469,7 +469,7 @@
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.13
+        "rating": 0.37
       },
       {
         "name": "SC Paderborn 07",
@@ -500,7 +500,7 @@
       "timestamp": 1710282600,
       "date": "2024-03-12 22:30:00"
     },
-    "rating": 0.17,
+    "rating": 0.2,
     "club_set": [
       {
         "name": "FC Saarbrücken",
@@ -521,7 +521,7 @@
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.13
+        "rating": 0.37
       },
       {
         "name": "VfB Stuttgart",
@@ -544,12 +544,12 @@
       "timestamp": 1712180700,
       "date": "2024-04-03 21:45:00"
     },
-    "rating": 0.35,
+    "rating": 0.39,
     "club_set": [
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.2
+        "rating": 0.37
       },
       {
         "name": "Fortuna Dusseldorf",
@@ -572,7 +572,7 @@
       "timestamp": 1716670800,
       "date": "2024-05-25 21:00:00"
     },
-    "rating": 0.76,
+    "rating": 0.78,
     "club_set": [
       {
         "name": "FC Kaiserslautern",
@@ -581,7 +581,7 @@
       {
         "name": "Bayer Leverkusen",
         "id": 168,
-        "rating": 0.31
+        "rating": 0.37
       }
     ]
   }
