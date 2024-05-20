@@ -120,7 +120,7 @@
       "GER Cup 23-24": {
         "tytle": "GER Cup",
         "season": "23-24",
-        "rating": 0.15,
+        "rating": 0.16,
         "quota": 0,
         "id": 81,
         "type": "Cup",
@@ -144,7 +144,7 @@
       "ITA Cup 23-24": {
         "tytle": "ITA Cup",
         "season": "23-24",
-        "rating": 0.23,
+        "rating": 0.24,
         "quota": 1,
         "id": 137,
         "type": "Cup",
@@ -177,7 +177,7 @@
       "POR LCup 23-24": {
         "tytle": "POR LCup",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 0,
         "id": 97,
         "type": "Cup",
@@ -225,7 +225,7 @@
       "NED Cup 23-24": {
         "tytle": "NED Cup",
         "season": "23-24",
-        "rating": 0.05,
+        "rating": 0.04,
         "quota": 0,
         "id": 90,
         "type": "Cup",
