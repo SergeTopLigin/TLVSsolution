@@ -5438,7 +5438,7 @@
       "timestamp": 1704755700,
       "date": "2024-01-08 23:15:00"
     },
-    "rating": 0.19,
+    "rating": 0.18,
     "club_set": [
       {
         "name": "Luton",
@@ -5451,12 +5451,12 @@
       {
         "name": "Arsenal",
         "id": 42,
-        "rating": -0.18
+        "rating": -0.19
       },
       {
         "name": "Liverpool",
         "id": 40,
-        "rating": 1.06
+        "rating": 1.13
       },
       {
         "name": "Shrewsbury",
@@ -5477,7 +5477,7 @@
       {
         "name": "West Ham",
         "id": 48,
-        "rating": -0.28
+        "rating": -0.29
       },
       {
         "name": "Bristol City",
@@ -5486,7 +5486,7 @@
       {
         "name": "Tottenham",
         "id": 47,
-        "rating": -0.63
+        "rating": -0.76
       },
       {
         "name": "Burnley",
@@ -5563,7 +5563,7 @@
       {
         "name": "Manchester United",
         "id": 33,
-        "rating": 0.58
+        "rating": 0.44
       },
       {
         "name": "Manchester City",
@@ -5601,7 +5601,7 @@
       {
         "name": "Chelsea",
         "id": 49,
-        "rating": 0.71
+        "rating": 0.56
       },
       {
         "name": "Preston",
@@ -5712,7 +5712,7 @@
       "timestamp": 1706567400,
       "date": "2024-01-29 22:30:00"
     },
-    "rating": 0.31,
+    "rating": 0.3,
     "club_set": [
       {
         "name": "Watford",
@@ -5749,7 +5749,7 @@
       {
         "name": "Chelsea",
         "id": 49,
-        "rating": 0.71
+        "rating": 0.56
       },
       {
         "name": "Aston Villa",
@@ -5766,7 +5766,7 @@
       {
         "name": "Tottenham",
         "id": 47,
-        "rating": -0.63
+        "rating": -0.76
       },
       {
         "name": "Manchester City",
@@ -5820,7 +5820,7 @@
       {
         "name": "Manchester United",
         "id": 33,
-        "rating": 0.58
+        "rating": 0.44
       },
       {
         "name": "Bristol City",
@@ -5841,7 +5841,7 @@
       {
         "name": "Liverpool",
         "id": 40,
-        "rating": 1.06
+        "rating": 1.13
       },
       {
         "name": "Norwich",
@@ -5856,7 +5856,7 @@
       "timestamp": 1709161200,
       "date": "2024-02-28 23:00:00"
     },
-    "rating": 0.58,
+    "rating": 0.57,
     "club_set": [
       {
         "name": "Bournemouth",
@@ -5902,7 +5902,7 @@
       {
         "name": "Liverpool",
         "id": 40,
-        "rating": 1.06
+        "rating": 1.13
       },
       {
         "name": "Southampton",
@@ -5911,7 +5911,7 @@
       {
         "name": "Chelsea",
         "id": 49,
-        "rating": 0.71
+        "rating": 0.56
       },
       {
         "name": "Leeds",
@@ -5924,7 +5924,7 @@
       {
         "name": "Manchester United",
         "id": 33,
-        "rating": 0.58
+        "rating": 0.44
       }
     ]
   },
@@ -5935,7 +5935,7 @@
       "timestamp": 1710700200,
       "date": "2024-03-17 18:30:00"
     },
-    "rating": 1.16,
+    "rating": 1.14,
     "club_set": [
       {
         "name": "Wolves",
@@ -5957,7 +5957,7 @@
       {
         "name": "Chelsea",
         "id": 49,
-        "rating": 0.64
+        "rating": 0.56
       },
       {
         "name": "Leicester",
@@ -5966,12 +5966,12 @@
       {
         "name": "Manchester United",
         "id": 33,
-        "rating": 0.52
+        "rating": 0.44
       },
       {
         "name": "Liverpool",
         "id": 40,
-        "rating": 1.14
+        "rating": 1.13
       }
     ]
   },
@@ -5982,7 +5982,7 @@
       "timestamp": 1713720600,
       "date": "2024-04-21 17:30:00"
     },
-    "rating": 1.73,
+    "rating": 1.7,
     "club_set": [
       {
         "name": "Coventry",
@@ -5991,7 +5991,7 @@
       {
         "name": "Manchester United",
         "id": 33,
-        "rating": 0.5
+        "rating": 0.44
       },
       {
         "name": "Manchester City",
@@ -6001,7 +6001,7 @@
       {
         "name": "Chelsea",
         "id": 49,
-        "rating": 0.62
+        "rating": 0.56
       }
     ]
   },
