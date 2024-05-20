@@ -1113,7 +1113,7 @@
       {
         "name": "Lille",
         "id": 79,
-        "rating": -1.01
+        "rating": -0.98
       },
       {
         "name": "Golden Lion",
@@ -1134,7 +1134,7 @@
       {
         "name": "Marseille",
         "id": 81,
-        "rating": -1.04
+        "rating": -0.95
       },
       {
         "name": "Feignies-Aulnoye",
@@ -1159,7 +1159,7 @@
       {
         "name": "Rennes",
         "id": 94,
-        "rating": -0.98
+        "rating": -1.11
       },
       {
         "name": "Lyon Duchere",
@@ -1208,7 +1208,7 @@
       {
         "name": "Lyon",
         "id": 80,
-        "rating": -0.95
+        "rating": -1.07
       },
       {
         "name": "Nice",
@@ -1313,7 +1313,7 @@
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.15
+        "rating": 1.19
       },
       {
         "name": "Dinan Léhon",
@@ -1381,7 +1381,7 @@
       {
         "name": "Lyon",
         "id": 80,
-        "rating": -0.95
+        "rating": -1.07
       },
       {
         "name": "Nantes",
@@ -1446,7 +1446,7 @@
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.15
+        "rating": 1.19
       },
       {
         "name": "Racing Colombes 92",
@@ -1455,7 +1455,7 @@
       {
         "name": "Lille",
         "id": 79,
-        "rating": -1.01
+        "rating": -0.98
       },
       {
         "name": "Clermont Foot",
@@ -1500,12 +1500,12 @@
       {
         "name": "Rennes",
         "id": 94,
-        "rating": -0.98
+        "rating": -1.11
       },
       {
         "name": "Marseille",
         "id": 81,
-        "rating": -1.04
+        "rating": -0.95
       }
     ]
   },
@@ -1516,7 +1516,7 @@
       "timestamp": 1707432300,
       "date": "2024-02-08 22:45:00"
     },
-    "rating": 0.19,
+    "rating": 0.18,
     "club_set": [
       {
         "name": "Sochaux",
@@ -1525,17 +1525,17 @@
       {
         "name": "Rennes",
         "id": 94,
-        "rating": -0.98
+        "rating": -1.11
       },
       {
         "name": "Lyon",
         "id": 80,
-        "rating": -0.95
+        "rating": -1.07
       },
       {
         "name": "Lille",
         "id": 79,
-        "rating": -1.01
+        "rating": -0.98
       },
       {
         "name": "Le Puy Foot",
@@ -1564,7 +1564,7 @@
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.15
+        "rating": 1.19
       },
       {
         "name": "Stade Brestois 29",
@@ -1595,12 +1595,12 @@
       "timestamp": 1710371400,
       "date": "2024-03-13 23:10:00"
     },
-    "rating": 0.35,
+    "rating": 0.33,
     "club_set": [
       {
         "name": "Lyon",
         "id": 80,
-        "rating": -0.95
+        "rating": -1.07
       },
       {
         "name": "Strasbourg",
@@ -1621,12 +1621,12 @@
       {
         "name": "Rennes",
         "id": 94,
-        "rating": -0.98
+        "rating": -1.11
       },
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.15
+        "rating": 1.19
       },
       {
         "name": "Nice",
@@ -1641,12 +1641,12 @@
       "timestamp": 1712182200,
       "date": "2024-04-03 22:10:00"
     },
-    "rating": 0.69,
+    "rating": 0.65,
     "club_set": [
       {
         "name": "Lyon",
         "id": 80,
-        "rating": -0.98
+        "rating": -1.07
       },
       {
         "name": "Valenciennes",
@@ -1655,12 +1655,12 @@
       {
         "name": "Paris Saint Germain",
         "id": 85,
-        "rating": 1.17
+        "rating": 1.19
       },
       {
         "name": "Rennes",
         "id": 94,
-        "rating": -1.01
+        "rating": -1.11
       }
     ]
   },
