@@ -28,19 +28,19 @@
                 "name": "Paris Saint Germain",
                 "logo": "https://media.api-sports.io/football/teams/85.png"
               },
-              "points": 73,
-              "goalsDiff": 46,
+              "points": 76,
+              "goalsDiff": 48,
               "group": "Ligue 1",
-              "form": "WLDWW",
+              "form": "WWLDW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 33,
-                "win": 21,
+                "played": 34,
+                "win": 22,
                 "draw": 10,
                 "lose": 2,
                 "goals": {
-                  "for": 79,
+                  "for": 81,
                   "against": 33
                 }
               },
@@ -55,16 +55,16 @@
                 }
               },
               "away": {
-                "played": 16,
-                "win": 12,
+                "played": 17,
+                "win": 13,
                 "draw": 4,
                 "lose": 0,
                 "goals": {
-                  "for": 37,
+                  "for": 39,
                   "against": 11
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -73,29 +73,29 @@
                 "name": "Monaco",
                 "logo": "https://media.api-sports.io/football/teams/91.png"
               },
-              "points": 64,
-              "goalsDiff": 22,
+              "points": 67,
+              "goalsDiff": 26,
               "group": "Ligue 1",
-              "form": "WWLWW",
+              "form": "WWWLW",
               "status": "same",
               "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 33,
-                "win": 19,
+                "played": 34,
+                "win": 20,
                 "draw": 7,
                 "lose": 7,
                 "goals": {
-                  "for": 64,
+                  "for": 68,
                   "against": 42
                 }
               },
               "home": {
-                "played": 16,
-                "win": 9,
+                "played": 17,
+                "win": 10,
                 "draw": 3,
                 "lose": 4,
                 "goals": {
-                  "for": 26,
+                  "for": 30,
                   "against": 14
                 }
               },
@@ -109,73 +109,28 @@
                   "against": 28
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 3,
-              "team": {
-                "id": 79,
-                "name": "Lille",
-                "logo": "https://media.api-sports.io/football/teams/79.png"
-              },
-              "points": 58,
-              "goalsDiff": 18,
-              "group": "Ligue 1",
-              "form": "WLWLW",
-              "status": "same",
-              "description": "Promotion - Champions League (Group Stage: )",
-              "all": {
-                "played": 33,
-                "win": 16,
-                "draw": 10,
-                "lose": 7,
-                "goals": {
-                  "for": 50,
-                  "against": 32
-                }
-              },
-              "home": {
-                "played": 16,
-                "win": 11,
-                "draw": 3,
-                "lose": 2,
-                "goals": {
-                  "for": 32,
-                  "against": 12
-                }
-              },
-              "away": {
-                "played": 17,
-                "win": 5,
-                "draw": 7,
-                "lose": 5,
-                "goals": {
-                  "for": 18,
-                  "against": 20
-                }
-              },
-              "update": "2024-05-18T00:00:00+00:00"
-            },
-            {
-              "rank": 4,
               "team": {
                 "id": 106,
                 "name": "Stade Brestois 29",
                 "logo": "https://media.api-sports.io/football/teams/106.png"
               },
-              "points": 58,
-              "goalsDiff": 16,
+              "points": 61,
+              "goalsDiff": 19,
               "group": "Ligue 1",
-              "form": "DDWLL",
+              "form": "WDDWL",
               "status": "same",
-              "description": "Promotion - Champions League (Qualification: )",
+              "description": "Promotion - Champions League (Group Stage: )",
               "all": {
-                "played": 33,
-                "win": 16,
+                "played": 34,
+                "win": 17,
                 "draw": 10,
                 "lose": 7,
                 "goals": {
-                  "for": 50,
+                  "for": 53,
                   "against": 34
                 }
               },
@@ -190,16 +145,61 @@
                 }
               },
               "away": {
-                "played": 16,
-                "win": 8,
+                "played": 17,
+                "win": 9,
                 "draw": 3,
                 "lose": 5,
                 "goals": {
-                  "for": 25,
+                  "for": 28,
                   "against": 20
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 79,
+                "name": "Lille",
+                "logo": "https://media.api-sports.io/football/teams/79.png"
+              },
+              "points": 59,
+              "goalsDiff": 18,
+              "group": "Ligue 1",
+              "form": "DWLWL",
+              "status": "same",
+              "description": "Promotion - Champions League (Qualification: )",
+              "all": {
+                "played": 34,
+                "win": 16,
+                "draw": 11,
+                "lose": 7,
+                "goals": {
+                  "for": 52,
+                  "against": 34
+                }
+              },
+              "home": {
+                "played": 17,
+                "win": 11,
+                "draw": 4,
+                "lose": 2,
+                "goals": {
+                  "for": 34,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 17,
+                "win": 5,
+                "draw": 7,
+                "lose": 5,
+                "goals": {
+                  "for": 18,
+                  "against": 20
+                }
+              },
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -208,20 +208,20 @@
                 "name": "Nice",
                 "logo": "https://media.api-sports.io/football/teams/84.png"
               },
-              "points": 54,
+              "points": 55,
               "goalsDiff": 11,
               "group": "Ligue 1",
-              "form": "LWWDW",
+              "form": "DLWWD",
               "status": "same",
               "description": "Promotion - Europa League (Group Stage: )",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 15,
-                "draw": 9,
+                "draw": 10,
                 "lose": 9,
                 "goals": {
-                  "for": 38,
-                  "against": 27
+                  "for": 40,
+                  "against": 29
                 }
               },
               "home": {
@@ -235,93 +235,48 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 6,
-                "draw": 5,
+                "draw": 6,
                 "lose": 5,
                 "goals": {
-                  "for": 17,
-                  "against": 16
+                  "for": 19,
+                  "against": 18
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 6,
-              "team": {
-                "id": 116,
-                "name": "Lens",
-                "logo": "https://media.api-sports.io/football/teams/116.png"
-              },
-              "points": 50,
-              "goalsDiff": 8,
-              "group": "Ligue 1",
-              "form": "DWLWL",
-              "status": "same",
-              "description": "Promotion - Europa Conference League (Qualification: )",
-              "all": {
-                "played": 33,
-                "win": 14,
-                "draw": 8,
-                "lose": 11,
-                "goals": {
-                  "for": 43,
-                  "against": 35
-                }
-              },
-              "home": {
-                "played": 16,
-                "win": 9,
-                "draw": 3,
-                "lose": 4,
-                "goals": {
-                  "for": 25,
-                  "against": 16
-                }
-              },
-              "away": {
-                "played": 17,
-                "win": 5,
-                "draw": 5,
-                "lose": 7,
-                "goals": {
-                  "for": 18,
-                  "against": 19
-                }
-              },
-              "update": "2024-05-18T00:00:00+00:00"
-            },
-            {
-              "rank": 7,
               "team": {
                 "id": 80,
                 "name": "Lyon",
                 "logo": "https://media.api-sports.io/football/teams/80.png"
               },
-              "points": 50,
-              "goalsDiff": -7,
+              "points": 53,
+              "goalsDiff": -6,
               "group": "Ligue 1",
-              "form": "WWWLW",
+              "form": "WWWWL",
               "status": "same",
-              "description": null,
+              "description": "Promotion - Europa League (Group Stage: )",
               "all": {
-                "played": 33,
-                "win": 15,
+                "played": 34,
+                "win": 16,
                 "draw": 5,
                 "lose": 13,
                 "goals": {
-                  "for": 47,
-                  "against": 54
+                  "for": 49,
+                  "against": 55
                 }
               },
               "home": {
-                "played": 16,
-                "win": 6,
+                "played": 17,
+                "win": 7,
                 "draw": 4,
                 "lose": 6,
                 "goals": {
-                  "for": 23,
-                  "against": 28
+                  "for": 25,
+                  "against": 29
                 }
               },
               "away": {
@@ -334,7 +289,52 @@
                   "against": 26
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 116,
+                "name": "Lens",
+                "logo": "https://media.api-sports.io/football/teams/116.png"
+              },
+              "points": 51,
+              "goalsDiff": 8,
+              "group": "Ligue 1",
+              "form": "DDWLW",
+              "status": "same",
+              "description": "Promotion - Europa Conference League (Qualification: )",
+              "all": {
+                "played": 34,
+                "win": 14,
+                "draw": 9,
+                "lose": 11,
+                "goals": {
+                  "for": 45,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 17,
+                "win": 9,
+                "draw": 4,
+                "lose": 4,
+                "goals": {
+                  "for": 27,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 17,
+                "win": 5,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 18,
+                  "against": 19
+                }
+              },
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -343,20 +343,20 @@
                 "name": "Marseille",
                 "logo": "https://media.api-sports.io/football/teams/81.png"
               },
-              "points": 47,
-              "goalsDiff": 10,
+              "points": 50,
+              "goalsDiff": 11,
               "group": "Ligue 1",
-              "form": "LWWDD",
+              "form": "WLWWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 33,
-                "win": 12,
+                "played": 34,
+                "win": 13,
                 "draw": 11,
                 "lose": 10,
                 "goals": {
-                  "for": 50,
-                  "against": 40
+                  "for": 52,
+                  "against": 41
                 }
               },
               "home": {
@@ -370,38 +370,83 @@
                 }
               },
               "away": {
-                "played": 16,
-                "win": 2,
+                "played": 17,
+                "win": 3,
                 "draw": 5,
                 "lose": 9,
                 "goals": {
-                  "for": 19,
-                  "against": 27
+                  "for": 21,
+                  "against": 28
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 9,
+              "team": {
+                "id": 93,
+                "name": "Reims",
+                "logo": "https://media.api-sports.io/football/teams/93.png"
+              },
+              "points": 47,
+              "goalsDiff": -5,
+              "group": "Ligue 1",
+              "form": "WWDLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 34,
+                "win": 13,
+                "draw": 8,
+                "lose": 13,
+                "goals": {
+                  "for": 42,
+                  "against": 47
+                }
+              },
+              "home": {
+                "played": 17,
+                "win": 8,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 19,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 17,
+                "win": 5,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 23,
+                  "against": 29
+                }
+              },
+              "update": "2024-05-19T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
               "team": {
                 "id": 94,
                 "name": "Rennes",
                 "logo": "https://media.api-sports.io/football/teams/94.png"
               },
               "points": 46,
-              "goalsDiff": 8,
+              "goalsDiff": 7,
               "group": "Ligue 1",
-              "form": "DWLWL",
+              "form": "LDWLW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 12,
                 "draw": 10,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
-                  "for": 52,
-                  "against": 44
+                  "for": 53,
+                  "against": 46
                 }
               },
               "home": {
@@ -415,61 +460,16 @@
                 }
               },
               "away": {
-                "played": 16,
-                "win": 5,
-                "draw": 6,
-                "lose": 5,
-                "goals": {
-                  "for": 18,
-                  "against": 18
-                }
-              },
-              "update": "2024-05-18T00:00:00+00:00"
-            },
-            {
-              "rank": 10,
-              "team": {
-                "id": 93,
-                "name": "Reims",
-                "logo": "https://media.api-sports.io/football/teams/93.png"
-              },
-              "points": 44,
-              "goalsDiff": -6,
-              "group": "Ligue 1",
-              "form": "WDLLL",
-              "status": "same",
-              "description": null,
-              "all": {
-                "played": 33,
-                "win": 12,
-                "draw": 8,
-                "lose": 13,
-                "goals": {
-                  "for": 40,
-                  "against": 46
-                }
-              },
-              "home": {
-                "played": 16,
-                "win": 7,
-                "draw": 3,
-                "lose": 6,
-                "goals": {
-                  "for": 17,
-                  "against": 17
-                }
-              },
-              "away": {
                 "played": 17,
                 "win": 5,
-                "draw": 5,
-                "lose": 7,
+                "draw": 6,
+                "lose": 6,
                 "goals": {
-                  "for": 23,
-                  "against": 29
+                  "for": 19,
+                  "against": 20
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -479,29 +479,29 @@
                 "logo": "https://media.api-sports.io/football/teams/96.png"
               },
               "points": 43,
-              "goalsDiff": -1,
+              "goalsDiff": -4,
               "group": "Ligue 1",
-              "form": "WLWDW",
+              "form": "LWLWD",
               "status": "same",
               "description": null,
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 11,
                 "draw": 10,
-                "lose": 12,
+                "lose": 13,
                 "goals": {
                   "for": 42,
-                  "against": 43
+                  "against": 46
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 3,
                 "draw": 7,
-                "lose": 6,
+                "lose": 7,
                 "goals": {
                   "for": 21,
-                  "against": 22
+                  "against": 25
                 }
               },
               "away": {
@@ -514,7 +514,7 @@
                   "against": 21
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -523,20 +523,20 @@
                 "name": "Montpellier",
                 "logo": "https://media.api-sports.io/football/teams/82.png"
               },
-              "points": 40,
+              "points": 41,
               "goalsDiff": -5,
               "group": "Ligue 1",
-              "form": "LWDWD",
+              "form": "DLWDW",
               "status": "same",
               "description": null,
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 10,
-                "draw": 11,
+                "draw": 12,
                 "lose": 12,
                 "goals": {
-                  "for": 41,
-                  "against": 46
+                  "for": 43,
+                  "against": 48
                 }
               },
               "home": {
@@ -550,16 +550,16 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 7,
-                "draw": 2,
+                "draw": 3,
                 "lose": 7,
                 "goals": {
-                  "for": 21,
-                  "against": 23
+                  "for": 23,
+                  "against": 25
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 13,
@@ -569,19 +569,19 @@
                 "logo": "https://media.api-sports.io/football/teams/95.png"
               },
               "points": 39,
-              "goalsDiff": -11,
+              "goalsDiff": -12,
               "group": "Ligue 1",
-              "form": "WLLLW",
+              "form": "LWLLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 10,
                 "draw": 9,
-                "lose": 14,
+                "lose": 15,
                 "goals": {
-                  "for": 37,
-                  "against": 48
+                  "for": 38,
+                  "against": 50
                 }
               },
               "home": {
@@ -595,16 +595,16 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 3,
                 "draw": 6,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
-                  "for": 15,
-                  "against": 25
+                  "for": 16,
+                  "against": 27
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 14,
@@ -614,19 +614,19 @@
                 "logo": "https://media.api-sports.io/football/teams/83.png"
               },
               "points": 33,
-              "goalsDiff": -21,
+              "goalsDiff": -25,
               "group": "Ligue 1",
-              "form": "LDDLW",
+              "form": "LLDDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 9,
                 "draw": 6,
-                "lose": 18,
+                "lose": 19,
                 "goals": {
                   "for": 30,
-                  "against": 51
+                  "against": 55
                 }
               },
               "home": {
@@ -640,16 +640,16 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 6,
                 "draw": 3,
-                "lose": 7,
+                "lose": 8,
                 "goals": {
                   "for": 13,
-                  "against": 21
+                  "against": 25
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 15,
@@ -659,29 +659,29 @@
                 "logo": "https://media.api-sports.io/football/teams/111.png"
               },
               "points": 32,
-              "goalsDiff": -10,
+              "goalsDiff": -11,
               "group": "Ligue 1",
-              "form": "LWDLL",
+              "form": "LLWDL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 7,
                 "draw": 11,
-                "lose": 15,
+                "lose": 16,
                 "goals": {
-                  "for": 33,
-                  "against": 43
+                  "for": 34,
+                  "against": 45
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 6,
                 "draw": 2,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
-                  "for": 17,
-                  "against": 17
+                  "for": 18,
+                  "against": 19
                 }
               },
               "away": {
@@ -694,7 +694,7 @@
                   "against": 26
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 16,
@@ -704,29 +704,29 @@
                 "logo": "https://media.api-sports.io/football/teams/112.png"
               },
               "points": 29,
-              "goalsDiff": -21,
+              "goalsDiff": -23,
               "group": "Ligue 1",
-              "form": "LLLWW",
+              "form": "LLLLW",
               "status": "same",
               "description": "Ligue 1 (Promotion - Play Offs: )",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 8,
                 "draw": 5,
-                "lose": 20,
+                "lose": 21,
                 "goals": {
                   "for": 35,
-                  "against": 56
+                  "against": 58
                 }
               },
               "home": {
-                "played": 16,
+                "played": 17,
                 "win": 3,
                 "draw": 3,
-                "lose": 10,
+                "lose": 11,
                 "goals": {
                   "for": 17,
-                  "against": 25
+                  "against": 27
                 }
               },
               "away": {
@@ -739,7 +739,7 @@
                   "against": 31
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 17,
@@ -748,29 +748,29 @@
                 "name": "Lorient",
                 "logo": "https://media.api-sports.io/football/teams/97.png"
               },
-              "points": 26,
-              "goalsDiff": -28,
+              "points": 29,
+              "goalsDiff": -23,
               "group": "Ligue 1",
-              "form": "LLLLL",
+              "form": "WLLLL",
               "status": "same",
               "description": "Relegation - Ligue 2",
               "all": {
-                "played": 33,
-                "win": 6,
+                "played": 34,
+                "win": 7,
                 "draw": 8,
                 "lose": 19,
                 "goals": {
-                  "for": 38,
+                  "for": 43,
                   "against": 66
                 }
               },
               "home": {
-                "played": 16,
-                "win": 3,
+                "played": 17,
+                "win": 4,
                 "draw": 4,
                 "lose": 9,
                 "goals": {
-                  "for": 21,
+                  "for": 26,
                   "against": 30
                 }
               },
@@ -784,7 +784,7 @@
                   "against": 36
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             },
             {
               "rank": 18,
@@ -794,19 +794,19 @@
                 "logo": "https://media.api-sports.io/football/teams/99.png"
               },
               "points": 25,
-              "goalsDiff": -29,
+              "goalsDiff": -34,
               "group": "Ligue 1",
-              "form": "LLWLD",
+              "form": "LLLWL",
               "status": "same",
               "description": "Relegation - Ligue 2",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 5,
                 "draw": 10,
-                "lose": 18,
+                "lose": 19,
                 "goals": {
                   "for": 26,
-                  "against": 55
+                  "against": 60
                 }
               },
               "home": {
@@ -820,16 +820,16 @@
                 }
               },
               "away": {
-                "played": 16,
+                "played": 17,
                 "win": 2,
                 "draw": 5,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
                   "for": 12,
-                  "against": 28
+                  "against": 33
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-05-19T00:00:00+00:00"
             }
           ]
         ]
