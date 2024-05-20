@@ -263,12 +263,12 @@
       "timestamp": 1704409200,
       "date": "2024-01-04 23:00:00"
     },
-    "rating": 0.55,
+    "rating": 0.54,
     "club_set": [
       {
         "name": "Lazio",
         "id": 487,
-        "rating": -0.63
+        "rating": -0.76
       },
       {
         "name": "Genoa",
@@ -276,7 +276,8 @@
       },
       {
         "name": "Fiorentina",
-        "id": 502
+        "id": 502,
+        "rating": -1.14
       },
       {
         "name": "Parma",
@@ -285,7 +286,7 @@
       {
         "name": "Inter",
         "id": 505,
-        "rating": 0.87
+        "rating": 0.72
       },
       {
         "name": "Bologna",
@@ -294,7 +295,7 @@
       {
         "name": "AS Roma",
         "id": 497,
-        "rating": 0.58
+        "rating": 0.72
       },
       {
         "name": "Cremonese",
@@ -303,7 +304,7 @@
       {
         "name": "Juventus",
         "id": 496,
-        "rating": 0.2
+        "rating": 0.06
       },
       {
         "name": "Salernitana",
@@ -312,7 +313,7 @@
       {
         "name": "AC Milan",
         "id": 489,
-        "rating": -0.63
+        "rating": -0.6
       },
       {
         "name": "Cagliari",
@@ -321,7 +322,7 @@
       {
         "name": "Napoli",
         "id": 492,
-        "rating": 0.2
+        "rating": 0.06
       },
       {
         "name": "Frosinone",
@@ -330,7 +331,7 @@
       {
         "name": "Atalanta",
         "id": 499,
-        "rating": -0.18
+        "rating": 0.03
       },
       {
         "name": "Sassuolo",
@@ -345,11 +346,12 @@
       "timestamp": 1705014000,
       "date": "2024-01-11 23:00:00"
     },
-    "rating": 0.67,
+    "rating": 0.69,
     "club_set": [
       {
         "name": "Fiorentina",
-        "id": 502
+        "id": 502,
+        "rating": -1.14
       },
       {
         "name": "Bologna",
@@ -358,27 +360,27 @@
       {
         "name": "Lazio",
         "id": 487,
-        "rating": -0.63
+        "rating": -0.76
       },
       {
         "name": "AS Roma",
         "id": 497,
-        "rating": 0.58
+        "rating": 0.72
       },
       {
         "name": "AC Milan",
         "id": 489,
-        "rating": -0.63
+        "rating": -0.6
       },
       {
         "name": "Atalanta",
         "id": 499,
-        "rating": -0.18
+        "rating": 0.03
       },
       {
         "name": "Juventus",
         "id": 496,
-        "rating": 0.2
+        "rating": 0.06
       },
       {
         "name": "Frosinone",
@@ -393,43 +395,43 @@
       "timestamp": 1713996000,
       "date": "2024-04-24 22:00:00"
     },
-    "rating": 0.73,
+    "rating": 0.75,
     "club_set": [
       {
         "name": "Fiorentina",
         "id": 502,
-        "rating": -1.2
+        "rating": -1.14
       },
       {
         "name": "Atalanta",
         "id": 499,
-        "rating": -0.06
+        "rating": 0.03
       },
       {
         "name": "Juventus",
         "id": 496,
-        "rating": 0.1
+        "rating": 0.06
       },
       {
         "name": "Lazio",
         "id": 487,
-        "rating": -0.71
+        "rating": -0.76
       }
     ]
   },
   {
     "round": "Final",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
       "timestamp": 1715810400,
       "date": "2024-05-15 22:00:00"
     },
-    "rating": 1.19,
+    "rating": 1.25,
     "club_set": [
       {
         "name": "Atalanta",
         "id": 499,
-        "rating": -0.07
+        "rating": 0.03
       },
       {
         "name": "Juventus",
