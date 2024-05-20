@@ -160,8 +160,8 @@ try:    # обработка исключений для определения 
     runner_push(str(mod_name), 'sub_results', 'games.json', games)
 
     # выгрузка TL_standings.json в репо и на runner: /sub_results
-    gh_push(str(mod_name), 'sub_results', 'TL_standings.json', games)
-    runner_push(str(mod_name), 'sub_results', 'TL_standings.json', games)
+    gh_push(str(mod_name), 'sub_results', 'TL_standings.json', TL_standings)
+    runner_push(str(mod_name), 'sub_results', 'TL_standings.json', TL_standings)
 
 
 except: 
