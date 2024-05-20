@@ -663,12 +663,12 @@
       "timestamp": 1705532400,
       "date": "2024-01-17 23:00:00"
     },
-    "rating": 0.08,
+    "rating": 0.07,
     "club_set": [
       {
         "name": "Feyenoord",
         "id": 209,
-        "rating": -0.53
+        "rating": -0.66
       },
       {
         "name": "Utrecht",
@@ -681,7 +681,7 @@
       {
         "name": "AZ Alkmaar",
         "id": 201,
-        "rating": -0.76
+        "rating": -0.89
       },
       {
         "name": "Hercules",
@@ -690,7 +690,7 @@
       {
         "name": "Ajax",
         "id": 194,
-        "rating": -0.25
+        "rating": -0.35
       },
       {
         "name": "Dordrecht",
@@ -759,7 +759,7 @@
       {
         "name": "PSV Eindhoven",
         "id": 197,
-        "rating": -0.63
+        "rating": -0.76
       },
       {
         "name": "Twente",
@@ -806,7 +806,7 @@
       "timestamp": 1706220000,
       "date": "2024-01-25 22:00:00"
     },
-    "rating": 0.1,
+    "rating": 0.08,
     "club_set": [
       {
         "name": "Hercules",
@@ -819,7 +819,7 @@
       {
         "name": "AZ Alkmaar",
         "id": 201,
-        "rating": -0.76
+        "rating": -0.89
       },
       {
         "name": "Quick Boys",
@@ -868,12 +868,12 @@
       {
         "name": "Feyenoord",
         "id": 209,
-        "rating": -0.53
+        "rating": -0.66
       },
       {
         "name": "PSV Eindhoven",
         "id": 197,
-        "rating": -0.63
+        "rating": -0.76
       }
     ]
   },
@@ -884,7 +884,7 @@
       "timestamp": 1707429600,
       "date": "2024-02-08 22:00:00"
     },
-    "rating": 0.14,
+    "rating": 0.11,
     "club_set": [
       {
         "name": "NEC Nijmegen",
@@ -913,12 +913,12 @@
       {
         "name": "Feyenoord",
         "id": 209,
-        "rating": -0.53
+        "rating": -0.66
       },
       {
         "name": "AZ Alkmaar",
         "id": 201,
-        "rating": -0.76
+        "rating": -0.89
       }
     ]
   },
@@ -929,12 +929,12 @@
       "timestamp": 1709244000,
       "date": "2024-02-29 22:00:00"
     },
-    "rating": 0.17,
+    "rating": 0.13,
     "club_set": [
       {
         "name": "Feyenoord",
         "id": 209,
-        "rating": -0.53
+        "rating": -0.66
       },
       {
         "name": "Groningen",
@@ -957,12 +957,12 @@
       "timestamp": 1713726000,
       "date": "2024-04-21 19:00:00"
     },
-    "rating": 0.31,
+    "rating": 0.27,
     "club_set": [
       {
         "name": "Feyenoord",
         "id": 209,
-        "rating": -0.58
+        "rating": -0.66
       },
       {
         "name": "NEC Nijmegen",
