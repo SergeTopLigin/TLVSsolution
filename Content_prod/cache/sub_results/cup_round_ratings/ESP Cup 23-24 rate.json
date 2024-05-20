@@ -114,7 +114,7 @@
       {
         "name": "Villarreal",
         "id": 533,
-        "rating": 0.2
+        "rating": 0.12
       },
       {
         "name": "Tardienta",
@@ -139,7 +139,7 @@
       {
         "name": "Sevilla",
         "id": 536,
-        "rating": 0.33
+        "rating": 0.19
       },
       {
         "name": "Deportivo Murcia",
@@ -164,7 +164,7 @@
       {
         "name": "Real Sociedad",
         "id": 548,
-        "rating": -0.72
+        "rating": -0.85
       },
       {
         "name": "Rubí",
@@ -551,7 +551,7 @@
       "timestamp": 1701990000,
       "date": "2023-12-07 23:00:00"
     },
-    "rating": 0.06,
+    "rating": 0.05,
     "club_set": [
       {
         "name": "Zamora",
@@ -560,7 +560,7 @@
       {
         "name": "Villarreal",
         "id": 533,
-        "rating": 0.2
+        "rating": 0.12
       },
       {
         "name": "Atzeneta",
@@ -649,7 +649,7 @@
       {
         "name": "Real Sociedad",
         "id": 548,
-        "rating": -0.72
+        "rating": -0.85
       },
       {
         "name": "Arenteiro",
@@ -706,7 +706,7 @@
       {
         "name": "Sevilla",
         "id": 536,
-        "rating": 0.33
+        "rating": 0.19
       },
       {
         "name": "Tudelano",
@@ -798,7 +798,7 @@
       {
         "name": "Barcelona",
         "id": 529,
-        "rating": 0.39
+        "rating": 0.41
       },
       {
         "name": "Arandina",
@@ -807,7 +807,7 @@
       {
         "name": "Real Madrid",
         "id": 541,
-        "rating": 1.63
+        "rating": 1.76
       },
       {
         "name": "Castellón",
@@ -824,7 +824,7 @@
       {
         "name": "Atletico Madrid",
         "id": 530,
-        "rating": 0.33
+        "rating": 0.34
       },
       {
         "name": "Malaga",
@@ -833,7 +833,7 @@
       {
         "name": "Real Sociedad",
         "id": 548,
-        "rating": -0.72
+        "rating": -0.85
       },
       {
         "name": "Unionistas de Salamanca",
@@ -842,7 +842,7 @@
       {
         "name": "Villarreal",
         "id": 533,
-        "rating": 0.2
+        "rating": 0.12
       },
       {
         "name": "Elche",
@@ -883,7 +883,7 @@
       {
         "name": "Sevilla",
         "id": 536,
-        "rating": 0.33
+        "rating": 0.19
       },
       {
         "name": "Huesca",
@@ -934,7 +934,7 @@
       "timestamp": 1705620600,
       "date": "2024-01-18 23:30:00"
     },
-    "rating": 0.5,
+    "rating": 0.49,
     "club_set": [
       {
         "name": "Getafe",
@@ -943,7 +943,7 @@
       {
         "name": "Sevilla",
         "id": 536,
-        "rating": 0.33
+        "rating": 0.19
       },
       {
         "name": "Athletic Club",
@@ -968,7 +968,7 @@
       {
         "name": "Barcelona",
         "id": 529,
-        "rating": 0.39
+        "rating": 0.41
       },
       {
         "name": "Osasuna",
@@ -977,7 +977,7 @@
       {
         "name": "Real Sociedad",
         "id": 548,
-        "rating": -0.72
+        "rating": -0.85
       },
       {
         "name": "Valencia",
@@ -998,12 +998,12 @@
       {
         "name": "Atletico Madrid",
         "id": 530,
-        "rating": 0.33
+        "rating": 0.34
       },
       {
         "name": "Real Madrid",
         "id": 541,
-        "rating": 1.63
+        "rating": 1.76
       }
     ]
   },
@@ -1014,7 +1014,7 @@
       "timestamp": 1706223600,
       "date": "2024-01-25 23:00:00"
     },
-    "rating": 0.64,
+    "rating": 0.61,
     "club_set": [
       {
         "name": "Celta Vigo",
@@ -1023,7 +1023,7 @@
       {
         "name": "Real Sociedad",
         "id": 548,
-        "rating": -0.72
+        "rating": -0.85
       },
       {
         "name": "Mallorca",
@@ -1040,17 +1040,17 @@
       {
         "name": "Barcelona",
         "id": 529,
-        "rating": 0.39
+        "rating": 0.41
       },
       {
         "name": "Atletico Madrid",
         "id": 530,
-        "rating": 0.33
+        "rating": 0.34
       },
       {
         "name": "Sevilla",
         "id": 536,
-        "rating": 0.33
+        "rating": 0.19
       }
     ]
   },
@@ -1061,7 +1061,7 @@
       "timestamp": 1709249400,
       "date": "2024-02-29 23:30:00"
     },
-    "rating": 0.5,
+    "rating": 0.47,
     "club_set": [
       {
         "name": "Mallorca",
@@ -1070,12 +1070,12 @@
       {
         "name": "Real Sociedad",
         "id": 548,
-        "rating": -0.72
+        "rating": -0.85
       },
       {
         "name": "Atletico Madrid",
         "id": 530,
-        "rating": 0.33
+        "rating": 0.34
       },
       {
         "name": "Athletic Club",
