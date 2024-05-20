@@ -204,7 +204,7 @@
       "timestamp": 1703374200,
       "date": "2023-12-23 23:30:00"
     },
-    "rating": 0.29,
+    "rating": 0.26,
     "club_set": [
       {
         "name": "Casa Pia",
@@ -241,22 +241,22 @@
       {
         "name": "FC Porto",
         "id": 212,
-        "rating": 0.1
+        "rating": -0.04
       },
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.64
+        "rating": -0.74
       },
       {
         "name": "Benfica",
         "id": 211,
-        "rating": -0.02
+        "rating": 0.03
       },
       {
         "name": "SC Braga",
         "id": 217,
-        "rating": -0.79
+        "rating": -0.92
       }
     ]
   },
@@ -267,12 +267,12 @@
       "timestamp": 1706136300,
       "date": "2024-01-24 22:45:00"
     },
-    "rating": 0.54,
+    "rating": 0.49,
     "club_set": [
       {
         "name": "Benfica",
         "id": 211,
-        "rating": -0.02
+        "rating": 0.03
       },
       {
         "name": "Estoril",
@@ -281,12 +281,12 @@
       {
         "name": "SC Braga",
         "id": 217,
-        "rating": -0.79
+        "rating": -0.92
       },
       {
         "name": "Sporting CP",
         "id": 228,
-        "rating": -0.64
+        "rating": -0.74
       }
     ]
   },
@@ -297,12 +297,12 @@
       "timestamp": 1706395500,
       "date": "2024-01-27 22:45:00"
     },
-    "rating": 0.2,
+    "rating": 0.14,
     "club_set": [
       {
         "name": "SC Braga",
         "id": 217,
-        "rating": -0.79
+        "rating": -0.92
       },
       {
         "name": "Estoril",
