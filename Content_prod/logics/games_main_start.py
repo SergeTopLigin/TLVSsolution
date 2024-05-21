@@ -104,22 +104,25 @@ try:    # обработка исключений для определения 
                     for game in [g for g in games[club_id] if g['fixture_id'] == fixture['fixture']['id']]:
                         game['game_status'] = 'fixed'
                         game['match'] = fixture['teams']['home']['name']+' - '+fixture['teams']['away']['name']+'   '+\
-                            fixture['score']['fulltime']['home']+':'+fixture['score']['fulltime']['away']
+                            str(fixture['score']['fulltime']['home'])+':'+str(fixture['score']['fulltime']['away'])
                         # result
-                        if (club_id == fixture['teams']['home']['id'] and fixture['score']['fulltime']['home'] > fixture['score']['fulltime']['away'])\
-                        or (club_id == fixture['teams']['away']['id'] and fixture['score']['fulltime']['home'] < fixture['score']['fulltime']['away']):
+                        if (int(club_id) == fixture['teams']['home']['id'] and fixture['score']['fulltime']['home'] > fixture['score']['fulltime']['away'])\
+                        or (int(club_id) == fixture['teams']['away']['id'] and fixture['score']['fulltime']['home'] < fixture['score']['fulltime']['away']):
                             game['result'] = 'win'
-                        elif (club_id == fixture['teams']['home']['id'] and fixture['score']['fulltime']['home'] < fixture['score']['fulltime']['away'])\
-                        or (club_id == fixture['teams']['away']['id'] and fixture['score']['fulltime']['home'] > fixture['score']['fulltime']['away']):
+                        elif (int(club_id) == fixture['teams']['home']['id'] and fixture['score']['fulltime']['home'] < fixture['score']['fulltime']['away'])\
+                        or (int(club_id) == fixture['teams']['away']['id'] and fixture['score']['fulltime']['home'] > fixture['score']['fulltime']['away']):
                             game['result'] = 'lose'
                         elif fixture['score']['fulltime']['home'] == fixture['score']['fulltime']['away']:
                             game['result'] = 'draw'
                         # goalDiff
-                        if club_id == fixture['teams']['home']['id']:
+                        if int(club_id) == fixture['teams']['home']['id']:
                             game['goalDiff'] = fixture['score']['fulltime']['home'] - fixture['score']['fulltime']['away']
-                        if club_id == fixture['teams']['away']['id']:
+                        if int(club_id) == fixture['teams']['away']['id']:
                             game['goalDiff'] = fixture['score']['fulltime']['away'] - fixture['score']['fulltime']['home']
                         break
+
+    # перевод начавшихся до момента расчета и незаконченных игр из expected в unfinished
+            for
 
 
 except: 
