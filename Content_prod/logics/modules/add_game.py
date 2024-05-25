@@ -52,7 +52,7 @@ def add_game(fixture, club_id, tourn, season):      # fixture - словарь �
             else '')
     # game_status
         reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']  # список статусов окончания основного времени
-        in_play = ['1H', 'HT', '2H']   # список статусов внутри основного времени
+        in_play = ['1H', 'HT', '2H', 'LIVE']   # список статусов внутри основного времени
         if fixture['fixture']['status']['short'] in reg_time or \
         (fixture['fixture']['status']['short'] in ['SUSP', 'INT'] and fixture['fixture']['status']['elapsed'] >= 90):
             game['game_status'] = 'fixed'

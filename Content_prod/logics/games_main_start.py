@@ -59,7 +59,6 @@ try:    # обработка исключений для определения 
     from modules.gh_push import gh_push
     from modules.runner_push import runner_push
     mod_name = os.path.basename(__file__)[:-3]
-    from modules.add_game import add_game
     dir_fixtures = os.listdir((os.path.abspath(__file__))[:-27]+'/cache/answers/fixtures')
     from modules.apisports_key import api_key
 
@@ -76,13 +75,14 @@ try:    # обработка исключений для определения 
 
 
     # определение результатов игр unfinished и expected, завершившихся до момента расчета, перевод их в статус fixed
+    # перевод начавшихся до момента расчета и незаконченных игр из expected в unfinished
     with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
         games = json.load(j)
-    # список id игр unfinished и expected, завершившихся до момента расчета
+    # список id игр unfinished и expected, начавшихся до момента расчета
     new_fixed = []  
     for club_id in games:
         for game in games[club_id]:
-            if game['game_status'] in ['unfinished', 'expected'] and curr_timestamp > game['timestamp'] + 115*60:
+            if game['game_status'] in ['unfinished', 'expected'] and curr_timestamp > game['timestamp']:
                 new_fixed.append(str(game['fixture_id']))
     # список запросов: макс 20 ids в одном запросе
     requests = []    
@@ -93,13 +93,16 @@ try:    # обработка исключений для определения 
         else:
             requests[n] += '-'+fixture
     # запросы результатов игр и изменение games.json
-    reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']
+    reg_time = ['ET', 'BT', 'P', 'FT', 'AET', 'PEN']    # статусы окончания основного времени
+    play_time = ['1H', 'HT', '2H', 'LIVE']      # статусы незаконченного основного времени
     for request in requests:
         response = api_key("/fixtures?ids="+request)
         time.sleep(7)   # лимит: 10 запросов в минуту: между запросами 7 секунд: https://dashboard.api-football.com/faq Technical
         response_dict = json.loads(response)
         if response_dict['results'] != 0:
-            for fixture in [fixt for fixt in response_dict['response'] if fixt['fixture']['status']['short'] in reg_time]:
+            # определение результатов игр unfinished и expected, завершившихся до момента расчета, перевод их в статус fixed
+            for fixture in [fixt for fixt in response_dict['response'] if fixt['fixture']['status']['short'] in reg_time or \
+            (fixt['fixture']['status']['short'] in ['SUSP', 'INT'] and fixt['fixture']['status']['elapsed'] >= 90)]:
                 for club_id in [cl_id for cl_id in games if int(cl_id) in [fixture['teams']['home']['id'], fixture['teams']['away']['id']]]:
                     for game in [g for g in games[club_id] if g['fixture_id'] == fixture['fixture']['id']]:
                         game['game_status'] = 'fixed'
@@ -119,10 +122,28 @@ try:    # обработка исключений для определения 
                             game['goalDiff'] = fixture['score']['fulltime']['home'] - fixture['score']['fulltime']['away']
                         if int(club_id) == fixture['teams']['away']['id']:
                             game['goalDiff'] = fixture['score']['fulltime']['away'] - fixture['score']['fulltime']['home']
-                        break
+            # перевод начавшихся до момента расчета и незаконченных игр из expected в unfinished
+            for fixture in [fixt for fixt in response_dict['response'] if fixt['fixture']['status']['short'] in play_time or \
+            (fixt['fixture']['status']['short'] in ['SUSP', 'INT'] and fixt['fixture']['status']['elapsed'] < 90)]:
+                for club_id in [cl_id for cl_id in games if int(cl_id) in [fixture['teams']['home']['id'], fixture['teams']['away']['id']]]:
+                    for game in [g for g in games[club_id] if g['fixture_id'] == fixture['fixture']['id']]:
+                        game['game_status'] = 'unfinished'
 
-    # перевод начавшихся до момента расчета и незаконченных игр из expected в unfinished
-            for
+    
+    # удаление оставшихся игр expected
+    del_club = []
+    for club_id in games:
+        new_game_set = []
+        for game in games[club_id]:
+            if game['game_status'] != 'expected':
+                new_game_set.append(game)
+        games[club_id] = new_game_set
+
+    # удаление клубов без игр
+        if len(games[club_id]) == 0:
+            del_club.append(club_id)
+    for club in del_club:
+        games.pop(club)
 
 
 except: 
