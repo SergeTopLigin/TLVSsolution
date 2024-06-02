@@ -145,6 +145,9 @@ try:    # обработка исключений для определения 
     for club in del_club:
         games.pop(club)
 
+    # выгрузка games.json в репо и на runner: /sub_results
+    gh_push(str(mod_name), 'sub_results', 'games.json', games)
+    runner_push(str(mod_name), 'sub_results', 'games.json', games)
 
 except: 
 

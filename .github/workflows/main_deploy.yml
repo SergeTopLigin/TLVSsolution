@@ -37,57 +37,60 @@ jobs:
       - name: Run script games_main_start.py
         run: python Content_prod/logics/games_main_start.py
 
+      # TL_standings
+      - name: Run script TL_standings.py
+        run: python Content_prod/logics/TL_standings.py
 
-      # # uefa_standings
-      # - name: Put current date into a variable
-      #   run: echo "NOW=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
-      # - name: Run script uefa_standings.py with Dependencies only before UEFAcancel_date
-      #   run: |
-      #     if ${{ env.NOW < env.UEFAcancel_date }}
-      #     then 
-      #       pip install -r Content_prod/logics/requirements/req_uefa_standings.txt
-      #       python Content_prod/logics/uefa_standings.py
-      #     else
-      #       echo "UEFA ranking influence was canceled"
-      #     fi
+      # uefa_standings
+      - name: Put current date into a variable
+        run: echo "NOW=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
+      - name: Run script uefa_standings.py with Dependencies only before UEFAcancel_date
+        run: |
+          if ${{ env.NOW < env.UEFAcancel_date }}
+          then 
+            pip install -r Content_prod/logics/requirements/req_uefa_standings.txt
+            python Content_prod/logics/uefa_standings.py
+          else
+            echo "UEFA ranking influence was canceled"
+          fi
       
-      # # standings
-      # - name: Run script standings.py
-      #   run: python Content_prod/logics/standings.py
+      # standings
+      - name: Run script standings.py
+        run: python Content_prod/logics/standings.py
 
-      # # associations
-      # - name: Run script associations.py
-      #   run: python Content_prod/logics/associations.py
+      # associations
+      - name: Run script associations.py
+        run: python Content_prod/logics/associations.py
 
-      # # tournaments
-      # - name: Run script tournaments.py
-      #   run: python Content_prod/logics/tournaments.py
+      # tournaments
+      - name: Run script tournaments.py
+        run: python Content_prod/logics/tournaments.py
 
-      # # participants
-      # - name: Run script participants.py
-      #   run: python Content_prod/logics/participants.py
+      # participants
+      - name: Run script participants.py
+        run: python Content_prod/logics/participants.py
 
-      # # games
-      # - name: Run script games_init.py
-      #   run: python Content_prod/logics/games_init.py
+      # games_main_finish
+      - name: Run script games_main_finish.py
+        run: python Content_prod/logics/games_main_finish.py
 
-      # # TL_standings
-      # - name: Run script TL_standings.py
-      #   run: python Content_prod/logics/TL_standings.py
+      # standings_finish
+      - name: Run script standings_finish.py
+        run: python Content_prod/logics/standings_finish.py
 
-      # # deploy
-      # - name: Install deploy Dependencies  # Установить зависимости
-      #   run: pip install -r TL_VS_project/requirements_static.txt
-      # - name: Run script freeze    # запуск frozen-flask, создание /build
-      #   run: python TL_VS_project/freeze.py
-      # - name: list build folder  # проверка адреса /build
-      #   run: ls ./TL_VS_project/TL_flask
-      # - name: Deploy  # deploy происходит из внешнего репо pages из ветки gh-pages (указанной в settings), 
-      #                 # в которую размещается папка build, созданная посредством .py на runner, запущенном из этого репо
-      #   uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847
-      #   with:
-      #     deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-      #     # When you use deploy_key, set your private key to the repository which includes this action and set your public key to your external repository.
-      #     external_repository: Top-Liga/Top-Liga.github.io
-      #     publish_branch: gh-pages
-      #     publish_dir: ./TL_VS_project/TL_flask/build
+      # deploy
+      - name: Install deploy Dependencies  # Установить зависимости
+        run: pip install -r TL_VS_project/requirements_static.txt
+      - name: Run script freeze    # запуск frozen-flask, создание /build
+        run: python TL_VS_project/freeze.py
+      - name: list build folder  # проверка адреса /build
+        run: ls ./TL_VS_project/TL_flask
+      - name: Deploy  # deploy происходит из внешнего репо pages из ветки gh-pages (указанной в settings), 
+                      # в которую размещается папка build, созданная посредством .py на runner, запущенном из этого репо
+        uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # When you use deploy_key, set your private key to the repository which includes this action and set your public key to your external repository.
+          external_repository: Top-Liga/Top-Liga.github.io
+          publish_branch: gh-pages
+          publish_dir: ./TL_VS_project/TL_flask/build

@@ -127,16 +127,15 @@ try:    # обработка исключений для определения 
     for club in del_club:
         games.pop(club)
 
-    # visual_rank
-    TL_max = max([TL_standings[club]['TL_rank'] for club in TL_standings])
-    TL_min = min([TL_standings[club]['TL_rank'] for club in TL_standings])
-    for club in TL_standings:
-        TL_standings[club]['visual_rank'] = int(round(100 * (TL_standings[club]['TL_rank'] - TL_min) / (TL_max - TL_min), 0))
-
     # сортировка TL_standings с учетом buffer: 
     # в main_stands попадают клубы сыгравшие более 2 игр
     main_stands = {club:TL_standings[club] for club in TL_standings if TL_standings[club]['played'] > 2}
     main_stands = dict(sorted(main_stands.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
+        # visual_rank
+    ms_max = max([main_stands[club]['TL_rank'] for club in main_stands])
+    ms_min = min([main_stands[club]['TL_rank'] for club in main_stands])
+    for club in main_stands:
+        main_stands[club]['visual_rank'] = int(round(100 * (main_stands[club]['TL_rank'] - ms_min) / (ms_max - ms_min), 0))
     # в buffer_2pl попадают клубы, сыгравшие 2 игры
     buffer_2pl = {club:TL_standings[club] for club in TL_standings if TL_standings[club]['played'] == 2}
     buffer_2pl = dict(sorted(buffer_2pl.items(), key=lambda x: x[1].get("TL_rank"), reverse=True))
