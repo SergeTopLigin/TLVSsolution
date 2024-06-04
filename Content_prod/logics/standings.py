@@ -109,19 +109,19 @@ try:    # обработка исключений для определения 
     from modules.runner_push import runner_push
     runner_push(str(mod_name), 'sub_results', 'final_standings.json', final_standings)
 
-    # формирование строки из словаря в читабельном виде
-    final_standings_str = ''   # github принимает только str для записи в файл
-    rank = 1
-    for club in final_standings:
-        final_standings_str += "{0:>2}  {1:25}{2:3.0f}   {3:5.2f}    {4}".\
-        format(str(rank), club, final_standings[club]['visual_rank'], final_standings[club]['TL_rank'], \
-            final_standings[club]['nat']) + '\n'
-        rank += 1
+    # # формирование строки из словаря в читабельном виде
+    # final_standings_str = ''   # github принимает только str для записи в файл
+    # rank = 1
+    # for club in final_standings:
+    #     final_standings_str += "{0:>2}  {1:25}{2:3.0f}   {3:5.2f}    {4}".\
+    #     format(str(rank), club, final_standings[club]['visual_rank'], final_standings[club]['TL_rank'], \
+    #         final_standings[club]['nat']) + '\n'
+    #     rank += 1
 
-    # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
-    gh_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
-    runner_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
-    gh_push(str(mod_name), 'content_commits', 'standings.txt', final_standings_str)
+    # # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
+    # gh_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
+    # runner_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
+    # gh_push(str(mod_name), 'content_commits', 'standings.txt', final_standings_str)
 
 except: 
 

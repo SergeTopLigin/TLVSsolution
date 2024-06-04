@@ -50,7 +50,7 @@ TL_standings = {
   }
 }
 
-import os, json
+import os, json, datetime
 with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/participants.json', 'r', encoding='utf-8') as j:
     participants = json.load(j)
 with open((os.path.abspath(__file__))[:-15]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
@@ -60,6 +60,7 @@ club_num = 0
 club_prev_rank = 10
 club_eqPos = 0
 
+DateNow = datetime.datetime.utcnow()    # текущая дата по UTC
 for club in TL_standings:
     club_num += 1
     if TL_standings[club]['TL_rank'] != club_prev_rank:
@@ -77,7 +78,14 @@ for club in TL_standings:
             for tourn_club in participants[ass]['tournaments'][tourn]['participants']:
                 tourn_pos += 1
                 if TL_standings[club]['IDapi'] == tourn_club['id']:
-                    TL_standings[club]['club_qouta'].append({participants[ass]['tournaments'][tourn]['tytle']:tourn_pos})
+                    if ass == 'TopLiga':
+                        tourn_status = 'CURR'
+                    else:
+                        Start_Year = int('20'+participants[ass]['tournaments'][tourn]['season'][:2])
+                        if DateNow.month < 8:     tourn_status = 'CURR'
+                        if Start_Year < DateNow.year and DateNow.month > 7:     tourn_status = 'PREV'
+                        if Start_Year == DateNow.year and DateNow.month > 7:     tourn_status = 'CURR'
+                    TL_standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'], tourn_status, tourn_pos])
     # 'club_NATpos'
     for club_id in games:
         if int(club_id) == TL_standings[club]['IDapi']:

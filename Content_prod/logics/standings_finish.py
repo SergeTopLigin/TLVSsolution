@@ -16,9 +16,9 @@
     "club_TLpos": 1
     "club_NATpos": 7
     "club_qouta": [
-        {"UCL curr": 8},
-        {"TopLiga": 1},
-        {"ITA League prev": 2}
+        ["UCL", "curr", 8],
+        ["TopLiga", "curr", 1],
+        ["ITA League", "prev", 2]
         ]
     }
 }
@@ -26,7 +26,7 @@
 
 try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
-    import os, json
+    import os, json, datetime
     from modules.gh_push import gh_push
     from modules.runner_push import runner_push
     mod_name = os.path.basename(__file__)[:-3]
@@ -37,6 +37,7 @@ try:    # обработка исключений для определения 
     with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/games.json', 'r', encoding='utf-8') as j:
         games = json.load(j)
 
+    DateNow = datetime.datetime.utcnow()    # текущая дата по UTC
     club_num = 0
     club_prev_rank = 10
     club_eqPos = 0
@@ -63,12 +64,30 @@ try:    # обработка исключений для определения 
                 for tourn_club in participants[ass]['tournaments'][tourn]['participants']:
                     tourn_pos += 1
                     if standings[club]['IDapi'] == tourn_club['id']:
-                        standings[club]['club_qouta'].append({participants[ass]['tournaments'][tourn]['tytle']:tourn_pos})
+                        if ass == 'TopLiga':
+                            tourn_status = 'CURR'
+                        else:
+                            Start_Year = int('20'+participants[ass]['tournaments'][tourn]['season'][:2])
+                            if DateNow.month < 8:     tourn_status = 'CURR'
+                            if Start_Year < DateNow.year and DateNow.month > 7:     tourn_status = 'PREV'
+                            if Start_Year == DateNow.year and DateNow.month > 7:     tourn_status = 'CURR'
+                        standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'], tourn_status, tourn_pos])
 
     # выгрузка final_standings.json в репо и на runner: /sub_results
     gh_push(str(mod_name), 'sub_results', 'final_standings.json', standings)
     runner_push(str(mod_name), 'sub_results', 'final_standings.json', standings)
 
+    # формирование строки из словаря в читабельном виде
+    final_standings_str = ''   # github принимает только str для записи в файл
+    for club in standings:
+        final_standings_str += "{0:>2}  {1:25}{2:3.0f}   {3:5.2f}    {4} {5:>2}      {6}".\
+        format(standings[club]['club_TLpos'], club, standings[club]['visual_rank'], standings[club]['TL_rank'], \
+            standings[club]['nat'], standings[club]['club_TLpos'], standings[club]['club_qouta']) + '\n'
+
+    # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
+    gh_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
+    runner_push(str(mod_name), 'content', 'standings.txt', final_standings_str)
+    gh_push(str(mod_name), 'content_commits', 'standings.txt', final_standings_str)
 
 except: 
 
