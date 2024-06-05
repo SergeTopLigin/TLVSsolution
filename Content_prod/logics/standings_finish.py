@@ -65,12 +65,12 @@ try:    # обработка исключений для определения 
                     tourn_pos += 1
                     if standings[club]['IDapi'] == tourn_club['id']:
                         if ass == 'TopLiga':
-                            tourn_status = 'CURR'
+                            tourn_status = 'curr'
                         else:
                             Start_Year = int('20'+participants[ass]['tournaments'][tourn]['season'][:2])
-                            if DateNow.month < 8:     tourn_status = 'CURR'
-                            if Start_Year < DateNow.year and DateNow.month > 7:     tourn_status = 'PREV'
-                            if Start_Year == DateNow.year and DateNow.month > 7:     tourn_status = 'CURR'
+                            if DateNow.month < 8:     tourn_status = 'curr'
+                            if Start_Year < DateNow.year and DateNow.month > 7:     tourn_status = 'prev'
+                            if Start_Year == DateNow.year and DateNow.month > 7:     tourn_status = 'curr'
                         standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'], tourn_status, tourn_pos])
 
     # выгрузка final_standings.json в репо и на runner: /sub_results
@@ -80,9 +80,12 @@ try:    # обработка исключений для определения 
     # формирование строки из словаря в читабельном виде
     final_standings_str = ''   # github принимает только str для записи в файл
     for club in standings:
+        club_qouta = ''
+        for quota in standings[club]['club_qouta']:
+            club_qouta += quota[0] + ' ' + quota[1] + ' ' + str(quota[2]) + ('   ' if len(str(quota[2]))==1 else '  ')
         final_standings_str += "{0:>2}  {1:25}{2:3.0f}   {3:5.2f}    {4} {5:>2}      {6}".\
         format(standings[club]['club_TLpos'], club, standings[club]['visual_rank'], standings[club]['TL_rank'], \
-            standings[club]['nat'], standings[club]['club_TLpos'], standings[club]['club_qouta']) + '\n'
+            standings[club]['nat'], standings[club]['club_NATpos'], club_qouta) + '\n'
 
     # выгрузка standings.txt в репо: /content и /content_commits  и на runner: /content
     gh_push(str(mod_name), 'content', 'standings.txt', final_standings_str)

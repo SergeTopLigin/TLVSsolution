@@ -139,6 +139,16 @@ try:    # обработка исключений для определения 
     gh_push(str(mod_name), 'sub_results', 'games.json', games)
     runner_push(str(mod_name), 'sub_results', 'games.json', games)
 
+    # формирование строки из словаря в читабельном виде
+    games_str = ''   # github принимает только str для записи в файл
+    # for club in standings:
+    #     club_qouta = ''
+    #     for quota in standings[club]['club_qouta']:
+    #         club_qouta += quota[0] + ' ' + quota[1] + ' ' + str(quota[2]) + ('   ' if len(str(quota[2]))==1 else '  ')
+    #     final_standings_str += "{0:>2}  {1:25}{2:3.0f}   {3:5.2f}    {4} {5:>2}      {6}".\
+    #     format(standings[club]['club_TLpos'], club, standings[club]['visual_rank'], standings[club]['TL_rank'], \
+    #         standings[club]['nat'], standings[club]['club_NATpos'], club_qouta) + '\n'
+
 
 except: 
 
