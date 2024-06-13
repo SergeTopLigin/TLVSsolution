@@ -40,6 +40,7 @@
     <Content Include="TL_flask\static\content\standings.txt" />
     <Content Include="TL_flask\static\robots.txt" />
     <Content Include="TL_flask\static\site.css" />
+    <Content Include="TL_flask\templates\games.html" />
     <Content Include="TL_flask\templates\page404.html" />
     <Content Include="TL_flask\templates\associations.html" />
     <Content Include="TL_flask\templates\participants.html" />
