@@ -11846,13 +11846,13 @@
     {
       "fixture": {
         "id": 1199589,
-        "referee": null,
+        "referee": "I. Kovács",
         "timezone": "UTC",
         "date": "2024-05-22T19:00:00+00:00",
         "timestamp": 1716404400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716404400,
+          "second": 1716408000
         },
         "venue": {
           "id": 1970,
@@ -11860,9 +11860,9 @@
           "city": "Dublin"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -11879,27 +11879,27 @@
           "id": 499,
           "name": "Atalanta",
           "logo": "https://media.api-sports.io/football/teams/499.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 168,
           "name": "Bayer Leverkusen",
           "logo": "https://media.api-sports.io/football/teams/168.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
