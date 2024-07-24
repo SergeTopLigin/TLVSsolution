@@ -5463,7 +5463,7 @@
           "second": 1690484400
         },
         "venue": {
-          "id": null,
+          "id": 20730,
           "name": "Opus Arena",
           "city": "Osijek"
         },
@@ -13827,7 +13827,7 @@
           "second": 1692298800
         },
         "venue": {
-          "id": null,
+          "id": 20730,
           "name": "Opus Arena",
           "city": "Osijek"
         },
@@ -20151,7 +20151,7 @@
           "second": 1696527900
         },
         "venue": {
-          "id": null,
+          "id": 20727,
           "name": "Planet Group Arena",
           "city": "Gent"
         },
@@ -21103,7 +21103,7 @@
           "second": 1698342300
         },
         "venue": {
-          "id": null,
+          "id": 20727,
           "name": "Planet Group Arena",
           "city": "Gent"
         },
@@ -23347,7 +23347,7 @@
           "second": 1701369900
         },
         "venue": {
-          "id": null,
+          "id": 20727,
           "name": "Planet Group Arena",
           "city": "Gent"
         },
@@ -28302,13 +28302,13 @@
     {
       "fixture": {
         "id": 1199596,
-        "referee": null,
+        "referee": "Artur Soares Dias",
         "timezone": "UTC",
         "date": "2024-05-29T19:00:00+00:00",
         "timestamp": 1717009200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1717009200,
+          "second": 1717012800
         },
         "venue": {
           "id": null,
@@ -28316,9 +28316,9 @@
           "city": "Athens"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120
         }
       },
       "league": {
@@ -28335,31 +28335,31 @@
           "id": 553,
           "name": "Olympiakos Piraeus",
           "logo": "https://media.api-sports.io/football/teams/553.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 502,
           "name": "Fiorentina",
           "logo": "https://media.api-sports.io/football/teams/502.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "penalty": {
           "home": null,
