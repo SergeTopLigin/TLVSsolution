@@ -28,43 +28,43 @@
                 "name": "FC Midtjylland",
                 "logo": "https://media.api-sports.io/football/teams/397.png"
               },
-              "points": 61,
+              "points": 63,
               "goalsDiff": 19,
               "group": "Superliga: Championship Round",
-              "form": "WWWLL",
+              "form": "DDWWW",
               "status": "up",
               "description": "Promotion - Champions League (Qualification)",
               "all": {
-                "played": 30,
+                "played": 32,
                 "win": 19,
-                "draw": 4,
+                "draw": 6,
                 "lose": 7,
                 "goals": {
-                  "for": 56,
-                  "against": 37
+                  "for": 62,
+                  "against": 43
                 }
               },
               "home": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
-                "draw": 1,
+                "draw": 2,
                 "lose": 1,
                 "goals": {
-                  "for": 9,
-                  "against": 8
+                  "for": 12,
+                  "against": 11
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
-                "draw": 0,
+                "draw": 1,
                 "lose": 2,
                 "goals": {
-                  "for": 4,
-                  "against": 6
+                  "for": 7,
+                  "against": 9
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -73,43 +73,43 @@
                 "name": "Brondby",
                 "logo": "https://media.api-sports.io/football/teams/407.png"
               },
-              "points": 59,
-              "goalsDiff": 24,
+              "points": 62,
+              "goalsDiff": 25,
               "group": "Superliga: Championship Round",
-              "form": "WLLDW",
+              "form": "LWWLL",
               "status": "down",
               "description": "Promotion - Champions League (Qualification)",
               "all": {
-                "played": 30,
-                "win": 17,
+                "played": 32,
+                "win": 18,
                 "draw": 8,
-                "lose": 5,
+                "lose": 6,
                 "goals": {
-                  "for": 56,
-                  "against": 32
+                  "for": 60,
+                  "against": 35
                 }
               },
               "home": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
                 "draw": 1,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 5,
-                  "against": 5
+                  "for": 7,
+                  "against": 8
                 }
               },
               "away": {
-                "played": 4,
-                "win": 1,
+                "played": 5,
+                "win": 2,
                 "draw": 2,
                 "lose": 1,
                 "goals": {
-                  "for": 7,
+                  "for": 9,
                   "against": 7
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -118,43 +118,43 @@
                 "name": "FC Copenhagen",
                 "logo": "https://media.api-sports.io/football/teams/400.png"
               },
-              "points": 58,
-              "goalsDiff": 27,
+              "points": 59,
+              "goalsDiff": 26,
               "group": "Superliga: Championship Round",
-              "form": "LWWWW",
-              "status": "down",
+              "form": "DLLWW",
+              "status": "same",
               "description": "Promotion - Europa Conference League (Qualification)",
               "all": {
-                "played": 30,
+                "played": 32,
                 "win": 18,
-                "draw": 4,
-                "lose": 8,
+                "draw": 5,
+                "lose": 9,
                 "goals": {
-                  "for": 61,
-                  "against": 34
+                  "for": 64,
+                  "against": 38
                 }
               },
               "home": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
-                "draw": 0,
+                "draw": 1,
                 "lose": 2,
                 "goals": {
-                  "for": 7,
-                  "against": 6
+                  "for": 8,
+                  "against": 7
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
                 "draw": 1,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 9,
-                  "against": 5
+                  "for": 11,
+                  "against": 8
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -163,43 +163,43 @@
                 "name": "FC Nordsjaelland",
                 "logo": "https://media.api-sports.io/football/teams/398.png"
               },
-              "points": 56,
+              "points": 58,
               "goalsDiff": 26,
               "group": "Superliga: Championship Round",
-              "form": "LWWDW",
+              "form": "DDLWW",
               "status": "same",
               "description": "Promotion - Superliga (Europa League - Play Offs)",
               "all": {
-                "played": 30,
+                "played": 32,
                 "win": 16,
-                "draw": 8,
+                "draw": 10,
                 "lose": 6,
                 "goals": {
-                  "for": 56,
-                  "against": 30
+                  "for": 60,
+                  "against": 34
                 }
               },
               "home": {
-                "played": 4,
+                "played": 5,
                 "win": 3,
-                "draw": 1,
+                "draw": 2,
                 "lose": 0,
                 "goals": {
-                  "for": 14,
-                  "against": 5
+                  "for": 17,
+                  "against": 8
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 3,
-                "draw": 0,
+                "draw": 1,
                 "lose": 1,
                 "goals": {
-                  "for": 7,
-                  "against": 4
+                  "for": 8,
+                  "against": 5
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -208,43 +208,43 @@
                 "name": "Aarhus",
                 "logo": "https://media.api-sports.io/football/teams/406.png"
               },
-              "points": 38,
-              "goalsDiff": -6,
+              "points": 44,
+              "goalsDiff": -4,
               "group": "Superliga: Championship Round",
-              "form": "LLLLL",
+              "form": "WWLLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
-                "win": 9,
+                "played": 32,
+                "win": 11,
                 "draw": 11,
                 "lose": 10,
                 "goals": {
-                  "for": 36,
-                  "against": 42
+                  "for": 42,
+                  "against": 46
                 }
               },
               "home": {
-                "played": 4,
-                "win": 0,
+                "played": 5,
+                "win": 1,
                 "draw": 1,
                 "lose": 3,
                 "goals": {
-                  "for": 3,
-                  "against": 7
+                  "for": 6,
+                  "against": 9
                 }
               },
               "away": {
-                "played": 4,
-                "win": 0,
+                "played": 5,
+                "win": 1,
                 "draw": 1,
                 "lose": 3,
                 "goals": {
-                  "for": 7,
-                  "against": 14
+                  "for": 10,
+                  "against": 16
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -253,43 +253,43 @@
                 "name": "Silkeborg",
                 "logo": "https://media.api-sports.io/football/teams/2073.png"
               },
-              "points": 35,
-              "goalsDiff": -9,
+              "points": 36,
+              "goalsDiff": -11,
               "group": "Superliga: Championship Round",
-              "form": "WLLWL",
+              "form": "DLWLL",
               "status": "same",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 32,
                 "win": 10,
-                "draw": 5,
-                "lose": 15,
+                "draw": 6,
+                "lose": 16,
                 "goals": {
-                  "for": 36,
-                  "against": 45
+                  "for": 39,
+                  "against": 50
                 }
               },
               "home": {
-                "played": 4,
+                "played": 5,
                 "win": 1,
                 "draw": 1,
-                "lose": 2,
+                "lose": 3,
                 "goals": {
                   "for": 5,
-                  "against": 6
+                  "against": 8
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 1,
-                "draw": 1,
+                "draw": 2,
                 "lose": 2,
                 "goals": {
-                  "for": 3,
-                  "against": 7
+                  "for": 6,
+                  "against": 10
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             }
           ],
           [
@@ -300,43 +300,43 @@
                 "name": "Randers FC",
                 "logo": "https://media.api-sports.io/football/teams/401.png"
               },
-              "points": 38,
-              "goalsDiff": -7,
+              "points": 41,
+              "goalsDiff": -8,
               "group": "Superliga: Relegation Round",
-              "form": "WDLDD",
-              "status": "up",
+              "form": "WLWDL",
+              "status": "same",
               "description": "Promotion - Superliga (Europa League - Play Offs)",
               "all": {
-                "played": 30,
-                "win": 9,
+                "played": 32,
+                "win": 10,
                 "draw": 11,
-                "lose": 10,
+                "lose": 11,
                 "goals": {
-                  "for": 40,
-                  "against": 47
+                  "for": 41,
+                  "against": 49
                 }
               },
               "home": {
-                "played": 4,
-                "win": 2,
+                "played": 5,
+                "win": 3,
                 "draw": 2,
                 "lose": 0,
                 "goals": {
-                  "for": 11,
+                  "for": 12,
                   "against": 6
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
                 "draw": 1,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
                   "for": 6,
-                  "against": 4
+                  "against": 6
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -345,43 +345,43 @@
                 "name": "Viborg",
                 "logo": "https://media.api-sports.io/football/teams/2070.png"
               },
-              "points": 37,
-              "goalsDiff": -9,
+              "points": 40,
+              "goalsDiff": -10,
               "group": "Superliga: Relegation Round",
-              "form": "LLWDW",
-              "status": "down",
+              "form": "WLLLW",
+              "status": "same",
               "description": null,
               "all": {
-                "played": 30,
-                "win": 10,
+                "played": 32,
+                "win": 11,
                 "draw": 7,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
-                  "for": 35,
-                  "against": 44
+                  "for": 38,
+                  "against": 48
                 }
               },
               "home": {
-                "played": 4,
-                "win": 2,
+                "played": 5,
+                "win": 3,
                 "draw": 1,
                 "lose": 1,
                 "goals": {
-                  "for": 6,
-                  "against": 4
+                  "for": 8,
+                  "against": 5
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
                 "draw": 1,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 5,
-                  "against": 3
+                  "for": 6,
+                  "against": 6
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -390,43 +390,43 @@
                 "name": "Vejle",
                 "logo": "https://media.api-sports.io/football/teams/395.png"
               },
-              "points": 33,
-              "goalsDiff": -5,
+              "points": 36,
+              "goalsDiff": -4,
               "group": "Superliga: Relegation Round",
-              "form": "WWWDL",
-              "status": "up",
+              "form": "LWWWW",
+              "status": "same",
               "description": null,
               "all": {
-                "played": 30,
-                "win": 8,
+                "played": 32,
+                "win": 9,
                 "draw": 9,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
-                  "for": 30,
-                  "against": 35
+                  "for": 32,
+                  "against": 36
                 }
               },
               "home": {
-                "played": 4,
-                "win": 2,
+                "played": 5,
+                "win": 3,
                 "draw": 1,
                 "lose": 1,
                 "goals": {
-                  "for": 6,
+                  "for": 8,
                   "against": 5
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 2,
                 "draw": 1,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
                   "for": 5,
-                  "against": 4
+                  "against": 5
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -435,43 +435,43 @@
                 "name": "Lyngby",
                 "logo": "https://media.api-sports.io/football/teams/625.png"
               },
-              "points": 32,
-              "goalsDiff": -16,
+              "points": 36,
+              "goalsDiff": -14,
               "group": "Superliga: Relegation Round",
-              "form": "LWWDL",
-              "status": "down",
+              "form": "DWLWW",
+              "status": "same",
               "description": null,
               "all": {
-                "played": 30,
-                "win": 8,
-                "draw": 8,
+                "played": 32,
+                "win": 9,
+                "draw": 9,
                 "lose": 14,
                 "goals": {
-                  "for": 36,
-                  "against": 52
+                  "for": 39,
+                  "against": 53
                 }
               },
               "home": {
-                "played": 4,
-                "win": 1,
+                "played": 5,
+                "win": 2,
                 "draw": 3,
                 "lose": 0,
                 "goals": {
-                  "for": 4,
-                  "against": 3
+                  "for": 7,
+                  "against": 4
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 1,
-                "draw": 0,
+                "draw": 1,
                 "lose": 3,
                 "goals": {
                   "for": 5,
                   "against": 10
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -480,43 +480,43 @@
                 "name": "Odense",
                 "logo": "https://media.api-sports.io/football/teams/405.png"
               },
-              "points": 29,
-              "goalsDiff": -12,
+              "points": 32,
+              "goalsDiff": -11,
               "group": "Superliga: Relegation Round",
-              "form": "WLLLD",
+              "form": "LWWLL",
               "status": "same",
               "description": "Relegation",
               "all": {
-                "played": 30,
-                "win": 7,
+                "played": 32,
+                "win": 8,
                 "draw": 8,
-                "lose": 15,
+                "lose": 16,
                 "goals": {
-                  "for": 34,
-                  "against": 46
+                  "for": 37,
+                  "against": 48
                 }
               },
               "home": {
-                "played": 4,
-                "win": 0,
+                "played": 5,
+                "win": 1,
                 "draw": 0,
                 "lose": 4,
                 "goals": {
-                  "for": 3,
+                  "for": 5,
                   "against": 8
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 1,
                 "draw": 2,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
-                  "for": 6,
-                  "against": 6
+                  "for": 7,
+                  "against": 8
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -525,26 +525,26 @@
                 "name": "Hvidovre",
                 "logo": "https://media.api-sports.io/football/teams/2072.png"
               },
-              "points": 19,
-              "goalsDiff": -32,
+              "points": 20,
+              "goalsDiff": -34,
               "group": "Superliga: Relegation Round",
-              "form": "LDLWW",
+              "form": "DLLDL",
               "status": "same",
               "description": "Relegation",
               "all": {
-                "played": 30,
+                "played": 32,
                 "win": 4,
-                "draw": 7,
-                "lose": 19,
+                "draw": 8,
+                "lose": 20,
                 "goals": {
                   "for": 27,
-                  "against": 59
+                  "against": 61
                 }
               },
               "home": {
-                "played": 4,
+                "played": 5,
                 "win": 1,
-                "draw": 0,
+                "draw": 1,
                 "lose": 3,
                 "goals": {
                   "for": 4,
@@ -552,16 +552,16 @@
                 }
               },
               "away": {
-                "played": 4,
+                "played": 5,
                 "win": 1,
                 "draw": 2,
-                "lose": 1,
+                "lose": 2,
                 "goals": {
                   "for": 6,
-                  "against": 7
+                  "against": 9
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             }
           ],
           [
@@ -608,7 +608,7 @@
                   "against": 16
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 2,
@@ -653,7 +653,7 @@
                   "against": 10
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 3,
@@ -666,7 +666,7 @@
               "goalsDiff": 22,
               "group": "Superliga: Regular Season",
               "form": "WWLWW",
-              "status": "down",
+              "status": "same",
               "description": "Championship Round",
               "all": {
                 "played": 22,
@@ -698,7 +698,7 @@
                   "against": 14
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 4,
@@ -743,7 +743,7 @@
                   "against": 12
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 5,
@@ -788,7 +788,7 @@
                   "against": 7
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 6,
@@ -833,7 +833,7 @@
                   "against": 20
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 7,
@@ -878,7 +878,7 @@
                   "against": 10
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 8,
@@ -923,7 +923,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 9,
@@ -968,7 +968,7 @@
                   "against": 23
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 10,
@@ -1013,7 +1013,7 @@
                   "against": 21
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 11,
@@ -1058,7 +1058,7 @@
                   "against": 15
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             },
             {
               "rank": 12,
@@ -1103,7 +1103,7 @@
                   "against": 18
                 }
               },
-              "update": "2024-05-18T00:00:00+00:00"
+              "update": "2024-06-03T00:00:00+00:00"
             }
           ]
         ]
