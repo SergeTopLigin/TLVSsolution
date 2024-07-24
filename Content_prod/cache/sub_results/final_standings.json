@@ -16,8 +16,8 @@
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 1.76,
-    "visual_rank": 87,
+    "TL_rank": 1.82,
+    "visual_rank": 89,
     "buffer": false
   },
   "Paris Saint Germain": {
@@ -111,6 +111,13 @@
     "visual_rank": 39,
     "buffer": false
   },
+  "Atalanta": {
+    "IDapi": 499,
+    "nat": "ITA",
+    "TL_rank": 0.09,
+    "visual_rank": 38,
+    "buffer": false
+  },
   "Napoli": {
     "IDapi": 492,
     "nat": "ITA",
@@ -123,13 +130,6 @@
     "nat": "ITA",
     "TL_rank": 0.06,
     "visual_rank": 37,
-    "buffer": false
-  },
-  "Atalanta": {
-    "IDapi": 499,
-    "nat": "ITA",
-    "TL_rank": 0.03,
-    "visual_rank": 36,
     "buffer": false
   },
   "Benfica": {
@@ -293,6 +293,13 @@
     "visual_rank": 8,
     "buffer": false
   },
+  "Olympiakos Piraeus": {
+    "IDapi": 553,
+    "nat": "GRE",
+    "TL_rank": -0.95,
+    "visual_rank": 7,
+    "buffer": false
+  },
   "Marseille": {
     "IDapi": 81,
     "nat": "FRA",
@@ -304,13 +311,6 @@
     "IDapi": 79,
     "nat": "FRA",
     "TL_rank": -0.98,
-    "visual_rank": 6,
-    "buffer": false
-  },
-  "Olympiakos Piraeus": {
-    "IDapi": 553,
-    "nat": "GRE",
-    "TL_rank": -1.01,
     "visual_rank": 6,
     "buffer": false
   },
