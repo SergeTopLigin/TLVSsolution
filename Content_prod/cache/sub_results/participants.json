@@ -88,12 +88,12 @@
         "name": "Europa League",
         "participants": [
           {
-            "club": "Bayer Leverkusen",
-            "id": 168
-          },
-          {
             "club": "Atalanta",
             "id": 499
+          },
+          {
+            "club": "Bayer Leverkusen",
+            "id": 168
           },
           {
             "club": "AS Roma",
@@ -224,12 +224,12 @@
         "name": "FA Cup",
         "participants": [
           {
-            "club": "Manchester City",
-            "id": 50
-          },
-          {
             "club": "Manchester United",
             "id": 33
+          },
+          {
+            "club": "Manchester City",
+            "id": 50
           }
         ]
       },
