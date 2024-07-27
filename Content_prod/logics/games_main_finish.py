@@ -51,7 +51,7 @@ games = {club_id:
 
 try:    # обработка исключений для определения ошибки и записи ее в bug_file в блоке except
 
-    import os, json
+    import os, json, datetime
     from modules.gh_push import gh_push
     from modules.runner_push import runner_push
     mod_name = os.path.basename(__file__)[:-3]
@@ -72,7 +72,7 @@ try:    # обработка исключений для определения 
     with open((os.path.abspath(__file__))[:-28]+'/cache/sub_results/worktimes.json', 'r', encoding='utf-8') as j:
         worktimes = json.load(j)
     moment_timestamp = worktimes[-1][1]   # время момента расчета
-    moment_datetime = worktimes[-1][0]
+    moment_datetime = datetime.date.fromtimestamp(moment_timestamp)
     # определение текущего сезона
     season = moment_datetime.year if moment_datetime.month > 7 else moment_datetime.year - 1
     season = str(season)[2:]+'-'+str(season+1)[2:]

@@ -56,6 +56,43 @@ try:    # обработка исключений для определения 
             if int(club_id) == standings[club]['IDapi']:
                 standings[club]['club_NATpos'] = games[club_id][0]['club_NATpos']
                 break
+        # если клуба нет в games
+        if str(standings[club]['IDapi']) not in list(games.keys()):
+            # извлечение времени последнего расчета
+            with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/worktimes.json', 'r', encoding='utf-8') as j:
+                worktimes = json.load(j)
+            moment_timestamp = worktimes[-1][1]   # время момента расчета
+            moment_datetime = datetime.date.fromtimestamp(moment_timestamp)
+            # определение текущего сезона
+            season = moment_datetime.year if moment_datetime.month > 7 else moment_datetime.year - 1
+            season = str(season)[2:]+'-'+str(season+1)[2:]
+            dir_standings = os.listdir((os.path.abspath(__file__))[:-27]+'/cache/answers/standings')
+            file_season = season if club['nat']+' League '+season+' stan.json' in dir_standings else str(int(season[:2])-1)+'-'+season[:2]
+            stand_file = club['nat'] + ' League ' + file_season + ' stan.json'
+            with open((os.path.abspath(__file__))[:-27]+'/cache/answers/standings/'+stand_file, 'r', encoding='utf-8') as j:
+                nat_standings = json.load(j)
+            from modules.nat_league_groups import nat_league_groups
+            nat_league_groups(club['nat']+' League', file_season, nat_standings)
+            with open((os.path.abspath(__file__))[:-27]+'/cache/sub_results/nat_league_groups.json', 'r', encoding='utf-8') as j:
+                groups_dict = json.load(j)
+            for league in groups_dict:
+                if club['nat']+' League '+file_season in league:
+                    # список стадий лиги ["league"] с сортировкой по приоритету
+                    stage_prior = sorted(groups_dict[league], key=groups_dict[league].get, reverse=True)
+            rank = 0
+            flag = 0
+            standings[club]['club_NATpos'] = 0
+            for stage in stage_prior:
+                for group in nat_standings['response'][0]['league']['standings']:
+                    for gr_club in group:
+                        if gr_club['group'] == stage and gr_club['team']['id'] == club['IDapi']:
+                            standings[club]['club_NATpos'] = gr_club['rank'] + rank
+                            flag = 1
+                            break
+                        if gr_club['group'] == stage and gr_club['rank'] == len(group):       # учет количества клубов из более высокой стадии
+                            rank += gr_club['rank']
+                    if flag == 1: break
+                if flag == 1: break
     # 'club_qouta':               TL, UEFA, League, Cup
         standings[club]['club_qouta'] = []
         for ass in participants:
