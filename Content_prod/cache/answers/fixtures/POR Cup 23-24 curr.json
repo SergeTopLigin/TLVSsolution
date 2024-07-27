@@ -91,7 +91,7 @@
           "second": 1695553200
         },
         "venue": {
-          "id": null,
+          "id": 20977,
           "name": "Complexo Desportivo Francisco Carvalho",
           "city": "Chaves"
         },
@@ -1111,7 +1111,7 @@
           "second": 1695556800
         },
         "venue": {
-          "id": null,
+          "id": 20979,
           "name": "Campo de Jogos de São Mateus da Calheta",
           "city": "Angra do Heroísmo"
         },
@@ -9942,13 +9942,13 @@
     {
       "fixture": {
         "id": 1196805,
-        "referee": null,
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-05-26T16:15:00+00:00",
         "timestamp": 1716740100,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716740100,
+          "second": 1716743700
         },
         "venue": {
           "id": 1262,
@@ -9956,9 +9956,9 @@
           "city": "Jamor, Oeiras"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120
         }
       },
       "league": {
@@ -9975,31 +9975,31 @@
           "id": 212,
           "name": "FC Porto",
           "logo": "https://media.api-sports.io/football/teams/212.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 228,
           "name": "Sporting CP",
           "logo": "https://media.api-sports.io/football/teams/228.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "penalty": {
           "home": null,
