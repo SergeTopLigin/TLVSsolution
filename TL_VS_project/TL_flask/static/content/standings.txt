@@ -1,50 +1,50 @@
- 1  Manchester City          100    2.20    ENG
- 2  Bayern Munich             96    2.07    GER
- 3  Real Madrid               87    1.76    ESP
- 4  Paris Saint Germain       70    1.19    FRA
- 5  Liverpool                 69    1.13    ENG
- 6  AS Roma                   56    0.72    ITA
- 7  Inter                     56    0.72    ITA
- 8  Borussia Dortmund         53    0.59    GER
- 9  RB Leipzig                53    0.59    GER
-10  Chelsea                   52    0.56    ENG
-11  Manchester United         48    0.44    ENG
-12  Barcelona                 47    0.41    ESP
-13  Bayer Leverkusen          46    0.37    GER
-14  Atletico Madrid           45    0.34    ESP
-15  Sevilla                   41    0.19    ESP
-16  Villarreal                39    0.12    ESP
-17  Napoli                    37    0.06    ITA
-18  Juventus                  37    0.06    ITA
-19  Atalanta                  36    0.03    ITA
-20  Benfica                   36    0.03    POR
-21  FC Porto                  34   -0.04    POR
-22  Arsenal                   30   -0.19    ENG
-23  West Ham                  27   -0.29    ENG
-24  Ajax                      25   -0.35    NED
-25  Club Brugge KV            22   -0.44    BEL
-26  Shakhtar Donetsk          21   -0.48    UKR
-27  Rangers                   21   -0.48    SCO
-28  Eintracht Frankfurt       19   -0.57    GER
-29  AC Milan                  18   -0.60    ITA
-30  Feyenoord                 16   -0.66    NED
-31  Sporting CP               14   -0.74    POR
-32  Lazio                     13   -0.76    ITA
-33  PSV Eindhoven             13   -0.76    NED
-34  Tottenham                 13   -0.76    ENG
-35  Slavia Praha              12   -0.79    CZE
-36  FC Basel 1893             11   -0.82    SUI
-37  FC Copenhagen             11   -0.84    DEN
-38  Real Sociedad             10   -0.85    ESP
-39  Dinamo Zagreb              9   -0.89    CRO
-40  AZ Alkmaar                 9   -0.89    NED
-41  Red Bull Salzburg          9   -0.89    AUT
-42  SC Braga                   8   -0.92    POR
-43  Marseille                  7   -0.95    FRA
-44  Lille                      6   -0.98    FRA
-45  Olympiakos Piraeus         6   -1.01    GRE
-46  Gent                       5   -1.04    BEL
-47  Lyon                       4   -1.07    FRA
-48  Rennes                     3   -1.11    FRA
-49  Fiorentina                 2   -1.14    ITA
-50  FK Crvena Zvezda           0   -1.20    SRB
+ 1  Manchester City          100    2.20    ENG  1      UCL curr 5   TopLiga curr 1   ENG League curr 1   ENG Cup curr 2   
+ 2  Bayern Munich             96    2.07    GER  3      UCL curr 3   TopLiga curr 2   GER League curr 3   
+ 3  Real Madrid               89    1.82    ESP  1      UCL curr 1   TopLiga curr 3   ESP League curr 1   
+ 4  Paris Saint Germain       70    1.19    FRA  1      UCL curr 4   TopLiga curr 4   FRA League curr 1   
+ 5  Liverpool                 69    1.13    ENG  3      UEL curr 5   TopLiga curr 5   ENG League curr 3   
+ 6  AS Roma                   56    0.72    ITA  6      UEL curr 3   TopLiga curr 6   
+ 6  Inter                     56    0.72    ITA  1      UCL curr 10  TopLiga curr 7   ITA League curr 1   
+ 8  Borussia Dortmund         53    0.59    GER  5      UCL curr 2   TopLiga curr 8   
+ 8  RB Leipzig                53    0.59    GER  4      UCL curr 11  TopLiga curr 9   GER League curr 4   
+10  Chelsea                   52    0.56    ENG  6      TopLiga curr 10  
+11  Manchester United         48    0.44    ENG  8      ENG Cup curr 1   
+12  Barcelona                 47    0.41    ESP  2      UCL curr 7   ESP League curr 2   
+13  Bayer Leverkusen          46    0.37    GER  1      UEL curr 2   GER League curr 1   
+14  Atletico Madrid           45    0.34    ESP  4      UCL curr 6   ESP League curr 4   
+15  Sevilla                   41    0.19    ESP 13      
+16  Villarreal                39    0.12    ESP  8      
+17  Atalanta                  38    0.09    ITA  5      UEL curr 1   
+18  Napoli                    37    0.06    ITA 10      UCL curr 14  
+18  Juventus                  37    0.06    ITA  4      ITA Cup curr 1   
+20  Benfica                   36    0.03    POR  2      
+21  FC Porto                  34   -0.04    POR  3      UCL curr 9   
+22  Arsenal                   30   -0.19    ENG  2      UCL curr 8   ENG League curr 2   
+23  West Ham                  27   -0.29    ENG  9      
+24  Ajax                      25   -0.35    NED  5      
+25  Club Brugge KV            22   -0.44    BEL  2      
+26  Shakhtar Donetsk          21   -0.48    UKR  4      
+26  Rangers                   21   -0.48    SCO  2      
+28  Eintracht Frankfurt       19   -0.57    GER  6      
+29  AC Milan                  18   -0.60    ITA  2      UEL curr 6   ITA League curr 2   
+30  Feyenoord                 16   -0.66    NED  2      
+31  Sporting CP               14   -0.74    POR  1      POR League curr 1   
+32  Lazio                     13   -0.76    ITA  7      UCL curr 12  
+32  PSV Eindhoven             13   -0.76    NED  1      UCL curr 15  NED League curr 1   
+32  Tottenham                 13   -0.76    ENG  5      
+35  Slavia Praha              12   -0.79    CZE  2      
+36  FC Basel 1893             11   -0.82    SUI 11      
+37  FC Copenhagen             11   -0.84    DEN  3      UCL curr 16  
+38  Real Sociedad             10   -0.85    ESP  6      UCL curr 13  
+39  Dinamo Zagreb              9   -0.89    CRO  3      
+39  AZ Alkmaar                 9   -0.89    NED  4      
+39  Red Bull Salzburg          9   -0.89    AUT  1      
+42  SC Braga                   8   -0.92    POR  4      
+43  Olympiakos Piraeus         7   -0.95    GRE 11      UECL curr 1   
+43  Marseille                  7   -0.95    FRA  8      UEL curr 4   
+45  Lille                      6   -0.98    FRA  4      
+46  Gent                       5   -1.04    BEL  7      
+47  Lyon                       4   -1.07    FRA  6      
+48  Rennes                     3   -1.11    FRA 10      
+49  Fiorentina                 2   -1.14    ITA  8      
+50  FK Crvena Zvezda           0   -1.20    SRB  2      
