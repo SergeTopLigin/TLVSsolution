@@ -263,6 +263,10 @@ try:    # обработка исключений для определения 
         for tourn in Del_tourn:
             Ass_TournRateQuot[ass_n].remove(tourn)    
     
+    
+    print(Ass_TournRateQuot)
+
+
     # приведение всех списков нац турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
     for ass_n in Ass_TournRateQuot:
         Del_tourn = []  # список турниров на удаление
