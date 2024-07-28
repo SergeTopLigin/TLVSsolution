@@ -263,11 +263,7 @@ try:    # обработка исключений для определения 
         for tourn in Del_tourn:
             Ass_TournRateQuot[ass_n].remove(tourn)    
     
-    
-    print(Ass_TournRateQuot)
-
-
-    # приведение всех списков нац турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
+        # приведение всех списков нац турниров Ass_TournRateQuot к виду [Tournament,Season,Rating,Quota,TournID,TournType]
     for ass_n in Ass_TournRateQuot:
         Del_tourn = []  # список турниров на удаление
         for tourn in Ass_TournRateQuot[ass_n]:
@@ -289,20 +285,20 @@ try:    # обработка исключений для определения 
                 for tourn_file in os.listdir((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures'):
                     # проверить файл "prev" на отдаление финала от текущей даты
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "prev":
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
-                            file_content = f.read()
-                        if DateNow >= PrevCupInfluence(file_content):  # если после финала прошло 150 дней и больше
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as f:
+                            file_content = json.load(f)
+                        if DateNow >= PrevCupInfluence(json.dumps(file_content, skipkeys=True, ensure_ascii=False, indent=2)):  # если после финала прошло 150 дней и больше
                             Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
                     # если есть файл "curr" (появляется в каталоге через 400 дней после 1-го матча "prev"), но не наступила дата его 1-го матча - 
                     # удалить кубок "curr"
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn[1] == "curr":
-                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r') as f:
-                            file_content = f.read()
-                        if DateNow <= CupFirst(file_content):
+                        with open((os.path.abspath(__file__))[:-22]+'/cache/answers/fixtures/'+tourn_file, 'r', encoding='utf-8') as f:
+                            file_content = json.load(f)
+                        if DateNow <= CupFirst(json.dumps(file_content, skipkeys=True, ensure_ascii=False, indent=2)):
                             Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
                     if tourn_file.find(tourn[0]) != -1 and tourn_file.find(tourn[1]) != -1 and tourn not in Del_tourn:
                         tourn[1] = tourn_file[-15:-10]   # изменение "curr/prev" на сезон
-                if tourn[1] == "curr":    # если нет файла fixtures кубка curr (сезон не начался - не изменен на YY-YY)
+                if tourn[1] == "curr" and tourn not in Del_tourn:    # если нет файла fixtures кубка curr (сезон не начался - не изменен на YY-YY)
                     Del_tourn.append(tourn)     # удалить кубок из списка учитываемых турниров
         for tourn in Del_tourn:     # удаление турниров prev после потери их актуальности
             Ass_TournRateQuot[ass_n].remove(tourn)    
