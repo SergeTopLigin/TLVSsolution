@@ -13342,13 +13342,13 @@
     {
       "fixture": {
         "id": 1193081,
-        "referee": null,
+        "referee": "F. Letexier",
         "timezone": "UTC",
-        "date": "2024-05-25T00:00:00+00:00",
-        "timestamp": 1716595200,
+        "date": "2024-05-25T19:00:00+00:00",
+        "timestamp": 1716663600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716663600,
+          "second": 1716667200
         },
         "venue": {
           "id": null,
@@ -13356,9 +13356,9 @@
           "city": "Villeneuve d'Ascq"
         },
         "status": {
-          "long": "Time to be defined",
-          "short": "TBD",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -13375,27 +13375,27 @@
           "id": 80,
           "name": "Lyon",
           "logo": "https://media.api-sports.io/football/teams/80.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 85,
           "name": "Paris Saint Germain",
           "logo": "https://media.api-sports.io/football/teams/85.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         },
         "extratime": {
           "home": null,
