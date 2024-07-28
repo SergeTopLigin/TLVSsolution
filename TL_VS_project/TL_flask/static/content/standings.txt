@@ -1,4 +1,4 @@
- 1  Manchester City          100    2.20    ENG  1      UCL curr 5   TopLiga curr 1   ENG League curr 1   ENG Cup curr 2   
+ 1  Manchester City          100    2.20    ENG  1      UCL curr 5   TopLiga curr 1   ENG League curr 1   
  2  Bayern Munich             96    2.07    GER  3      UCL curr 3   TopLiga curr 2   GER League curr 3   
  3  Real Madrid               89    1.82    ESP  1      UCL curr 1   TopLiga curr 3   ESP League curr 1   
  4  Paris Saint Germain       70    1.19    FRA  1      UCL curr 4   TopLiga curr 4   FRA League curr 1   
@@ -16,7 +16,7 @@
 16  Villarreal                39    0.12    ESP  8      
 17  Atalanta                  38    0.09    ITA  5      UEL curr 1   
 18  Napoli                    37    0.06    ITA 10      UCL curr 14  
-18  Juventus                  37    0.06    ITA  4      ITA Cup curr 1   
+18  Juventus                  37    0.06    ITA  4      ITA League curr 4   
 20  Benfica                   36    0.03    POR  2      
 21  FC Porto                  34   -0.04    POR  3      UCL curr 9   
 22  Arsenal                   30   -0.19    ENG  2      UCL curr 8   ENG League curr 2   
@@ -40,7 +40,7 @@
 39  AZ Alkmaar                 9   -0.89    NED  4      
 39  Red Bull Salzburg          9   -0.89    AUT  1      
 42  SC Braga                   8   -0.92    POR  4      
-43  Olympiakos Piraeus         7   -0.95    GRE 11      UECL curr 1   
+43  Olympiakos Piraeus         7   -0.95    GRE  3      UECL curr 1   
 43  Marseille                  7   -0.95    FRA  8      UEL curr 4   
 45  Lille                      6   -0.98    FRA  4      
 46  Gent                       5   -1.04    BEL  7      
