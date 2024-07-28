@@ -57,7 +57,7 @@
   "Manchester United": {
     "IDapi": 33,
     "nat": "ENG",
-    "TL_rank": 0.78,
+    "TL_rank": 0.77,
     "played": 2,
     "buffer": true
   },
@@ -99,7 +99,7 @@
   "VfB Stuttgart": {
     "IDapi": 172,
     "nat": "GER",
-    "TL_rank": 2.86,
+    "TL_rank": 2.85,
     "played": 1,
     "buffer": true
   },
@@ -120,7 +120,7 @@
   "Atletico Madrid": {
     "IDapi": 530,
     "nat": "ESP",
-    "TL_rank": 2.19,
+    "TL_rank": 2.18,
     "played": 1,
     "buffer": true
   },
