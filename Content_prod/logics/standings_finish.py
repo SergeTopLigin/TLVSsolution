@@ -108,7 +108,15 @@ try:    # обработка исключений для определения 
                             if DateNow.month < 8:     tourn_status = 'curr'
                             if Start_Year < DateNow.year and DateNow.month > 7:     tourn_status = 'prev'
                             if Start_Year == DateNow.year and DateNow.month > 7:     tourn_status = 'curr'
-                        standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'], tourn_status, tourn_pos])
+                        if participants[ass]['as_short'] == 'UEFA':
+                            standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'], tourn_status, tourn_pos])
+                        elif participants[ass]['as_short'] == 'TL':
+                            standings[club]['club_qouta'].append([participants[ass]['as_short'], '', tourn_pos])
+                        else:
+                            if 'LCup' in participants[ass]['tournaments'][tourn]['tytle']:
+                                standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'][:6], tourn_status, tourn_pos])
+                            else:
+                                standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'][:5], tourn_status, tourn_pos])
 
     # выгрузка final_standings.json в репо и на runner: /sub_results
     gh_push(str(mod_name), 'sub_results', 'final_standings.json', standings)
@@ -117,9 +125,16 @@ try:    # обработка исключений для определения 
     # формирование строки из словаря в читабельном виде
     final_standings_str = ''   # github принимает только str для записи в файл
     for club in standings:
+        quotas = [quota[0] for quota in standings[club]['club_qouta']]
         club_qouta = ''
         for quota in standings[club]['club_qouta']:
-            club_qouta += quota[0] + ' ' + quota[1] + ' ' + str(quota[2]) + ('   ' if len(str(quota[2]))==1 else '  ')
+            club_qouta += quota[0] + ' ' + quota[1] + ' ' + str(quota[2]) + ('     ' if len(str(quota[2]))==1 else '    ')
+        if 'TL' not in quotas and 'UCL' not in quotas and 'UEL' not in quotas and 'UECL' not in quotas:
+            club_qouta = ' '*22 + club_qouta
+        elif 'UCL' not in quotas and 'UEL' not in quotas and 'UECL' not in quotas:
+            club_qouta = ' '*12 + club_qouta
+        elif 'TL' not in quotas and ('UCL' in quotas or 'UEL' in quotas or 'UECL' in quotas):
+            club_qouta = club_qouta[:12] + ' '*10 + club_qouta[12:]
         final_standings_str += "{0:>2}  {1:25}{2:3.0f}   {3:5.2f}    {4} {5:>2}      {6}".\
         format(standings[club]['club_TLpos'], club, standings[club]['visual_rank'], standings[club]['TL_rank'], \
             standings[club]['nat'], standings[club]['club_NATpos'], club_qouta) + '\n'
