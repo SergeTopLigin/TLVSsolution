@@ -1248,7 +1248,7 @@
   },
   {
     "round": "Final",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
       "timestamp": 1716750900,
       "date": "2024-05-26 19:15:00"
