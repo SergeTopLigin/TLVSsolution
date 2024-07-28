@@ -6007,10 +6007,10 @@
   },
   {
     "round": "Final",
-    "type": "curr",
+    "type": "prev",
     "last_date": {
-      "timestamp": 1716606000,
-      "date": "2024-05-25 03:00:00"
+      "timestamp": 1716656400,
+      "date": "2024-05-25 17:00:00"
     },
     "rating": 2.52,
     "club_set": [
