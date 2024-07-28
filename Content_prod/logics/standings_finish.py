@@ -105,9 +105,9 @@ try:    # обработка исключений для определения 
                             tourn_status = 'curr'
                         else:
                             Start_Year = int('20'+participants[ass]['tournaments'][tourn]['season'][:2])
-                            if DateNow.month < 8:     tourn_status = 'curr'
-                            if Start_Year < DateNow.year and DateNow.month > 7:     tourn_status = 'prev'
-                            if Start_Year == DateNow.year and DateNow.month > 7:     tourn_status = 'curr'
+                            if DateNow.month < 7:     tourn_status = 'curr'
+                            if Start_Year < DateNow.year and DateNow.month > 6:     tourn_status = 'p'
+                            if Start_Year == DateNow.year and DateNow.month > 6:     tourn_status = 'c'
                         if participants[ass]['as_short'] == 'UEFA':
                             standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'], tourn_status, tourn_pos])
                         elif participants[ass]['as_short'] == 'TL':
