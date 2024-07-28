@@ -195,7 +195,7 @@
         "tytle": "ENG League",
         "season": "23-24",
         "rating": 0.57,
-        "quota": 3,
+        "quota": 4,
         "id": 39,
         "type": "League",
         "name": "Premier League",
@@ -211,14 +211,18 @@
           {
             "club": "Liverpool",
             "id": 40
+          },
+          {
+            "club": "Aston Villa",
+            "id": 66
           }
         ]
       },
       "ENG Cup 23-24": {
         "tytle": "ENG Cup",
         "season": "23-24",
-        "rating": 0.5,
-        "quota": 2,
+        "rating": 0.29,
+        "quota": 1,
         "id": 45,
         "type": "Cup",
         "name": "FA Cup",
@@ -226,22 +230,8 @@
           {
             "club": "Manchester United",
             "id": 33
-          },
-          {
-            "club": "Manchester City",
-            "id": 50
           }
         ]
-      },
-      "ENG LCup 23-24": {
-        "tytle": "ENG LCup",
-        "season": "23-24",
-        "rating": 0.18,
-        "quota": 0,
-        "id": 48,
-        "type": "Cup",
-        "name": "League Cup",
-        "participants": []
       }
     }
   },
@@ -279,7 +269,7 @@
       "ESP Cup 23-24": {
         "tytle": "ESP Cup",
         "season": "23-24",
-        "rating": 0.09,
+        "rating": 0.03,
         "quota": 0,
         "id": 143,
         "type": "Cup",
@@ -322,7 +312,7 @@
       "GER Cup 23-24": {
         "tytle": "GER Cup",
         "season": "23-24",
-        "rating": 0.16,
+        "rating": 0.09,
         "quota": 0,
         "id": 81,
         "type": "Cup",
@@ -338,8 +328,8 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.43,
-        "quota": 3,
+        "rating": 0.44,
+        "quota": 4,
         "id": 135,
         "type": "League",
         "name": "Serie A",
@@ -355,23 +345,22 @@
           {
             "club": "Bologna",
             "id": 500
+          },
+          {
+            "club": "Juventus",
+            "id": 496
           }
         ]
       },
       "ITA Cup 23-24": {
         "tytle": "ITA Cup",
         "season": "23-24",
-        "rating": 0.24,
-        "quota": 1,
+        "rating": 0.13,
+        "quota": 0,
         "id": 137,
         "type": "Cup",
         "name": "Coppa Italia",
-        "participants": [
-          {
-            "club": "Juventus",
-            "id": 496
-          }
-        ]
+        "participants": []
       }
     }
   },
@@ -397,21 +386,11 @@
       "POR Cup 23-24": {
         "tytle": "POR Cup",
         "season": "23-24",
-        "rating": 0.16,
+        "rating": 0.09,
         "quota": 0,
         "id": 96,
         "type": "Cup",
         "name": "Taça de Portugal",
-        "participants": []
-      },
-      "POR LCup 23-24": {
-        "tytle": "POR LCup",
-        "season": "23-24",
-        "rating": 0.02,
-        "quota": 0,
-        "id": 97,
-        "type": "Cup",
-        "name": "Taça da Liga",
         "participants": []
       }
     }
@@ -438,7 +417,7 @@
       "FRA Cup 23-24": {
         "tytle": "FRA Cup",
         "season": "23-24",
-        "rating": 0.25,
+        "rating": 0.14,
         "quota": 0,
         "id": 66,
         "type": "Cup",
@@ -469,7 +448,7 @@
       "NED Cup 23-24": {
         "tytle": "NED Cup",
         "season": "23-24",
-        "rating": 0.04,
+        "rating": 0.02,
         "quota": 0,
         "id": 90,
         "type": "Cup",
