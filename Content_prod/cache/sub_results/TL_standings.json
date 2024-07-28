@@ -2,7 +2,7 @@
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 2.04,
+    "TL_rank": 2.03,
     "played": 3,
     "visual_rank": 100,
     "buffer": false
@@ -12,7 +12,7 @@
     "nat": "ITA",
     "TL_rank": 1.88,
     "played": 4,
-    "visual_rank": 94,
+    "visual_rank": 95,
     "buffer": false
   },
   "Borussia Dortmund": {
@@ -26,7 +26,7 @@
   "Bayer Leverkusen": {
     "IDapi": 168,
     "nat": "GER",
-    "TL_rank": 0.28,
+    "TL_rank": 0.27,
     "played": 3,
     "visual_rank": 38,
     "buffer": false
@@ -99,21 +99,21 @@
   "VfB Stuttgart": {
     "IDapi": 172,
     "nat": "GER",
-    "TL_rank": 2.87,
+    "TL_rank": 2.86,
     "played": 1,
     "buffer": true
   },
   "Girona": {
     "IDapi": 547,
     "nat": "ESP",
-    "TL_rank": 2.34,
+    "TL_rank": 2.33,
     "played": 1,
     "buffer": true
   },
   "Arsenal": {
     "IDapi": 42,
     "nat": "ENG",
-    "TL_rank": 2.31,
+    "TL_rank": 2.3,
     "played": 1,
     "buffer": true
   },
@@ -162,7 +162,7 @@
   "Napoli": {
     "IDapi": 492,
     "nat": "ITA",
-    "TL_rank": -1.88,
+    "TL_rank": -1.87,
     "played": 1,
     "buffer": true
   }
