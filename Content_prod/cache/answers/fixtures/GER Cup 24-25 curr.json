@@ -1,0 +1,2191 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "81",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 32,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1202360,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 12006,
+          "name": "Volksstadion Greifswald",
+          "city": "Greifswald"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 16118,
+          "name": "Greifswalder FC",
+          "logo": "https://media.api-sports.io/football/teams/16118.png",
+          "winner": null
+        },
+        "away": {
+          "id": 182,
+          "name": "Union Berlin",
+          "logo": "https://media.api-sports.io/football/teams/182.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202361,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Otto-Schott-Sportzentrum",
+          "city": "Mainz"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 14524,
+          "name": "Schott Mainz",
+          "logo": "https://media.api-sports.io/football/teams/14524.png",
+          "winner": null
+        },
+        "away": {
+          "id": 178,
+          "name": "SpVgg Greuther Furth",
+          "logo": "https://media.api-sports.io/football/teams/178.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202362,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 8231,
+          "name": "Stadion Hoheluft",
+          "city": "Hamburg"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 12878,
+          "name": "Teutonia Ottensen",
+          "logo": "https://media.api-sports.io/football/teams/12878.png",
+          "winner": null
+        },
+        "away": {
+          "id": 181,
+          "name": "SV Darmstadt 98",
+          "logo": "https://media.api-sports.io/football/teams/181.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202363,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 701,
+          "name": "Friedrich-Ludwig-Jahn-Sportpark",
+          "city": "Berlin"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 4266,
+          "name": "Viktoria Berlin",
+          "logo": "https://media.api-sports.io/football/teams/4266.png",
+          "winner": null
+        },
+        "away": {
+          "id": 170,
+          "name": "FC Augsburg",
+          "logo": "https://media.api-sports.io/football/teams/170.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202364,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 3254,
+          "name": "Neuer Tivoli",
+          "city": "Aachen"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 4259,
+          "name": "Alemannia Aachen",
+          "logo": "https://media.api-sports.io/football/teams/4259.png",
+          "winner": null
+        },
+        "away": {
+          "id": 191,
+          "name": "Holstein Kiel",
+          "logo": "https://media.api-sports.io/football/teams/191.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202365,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 707,
+          "name": "Rudolf-Harbig-Stadion",
+          "city": "Dresden"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 183,
+          "name": "Dynamo Dresden",
+          "logo": "https://media.api-sports.io/football/teams/183.png",
+          "winner": null
+        },
+        "away": {
+          "id": 158,
+          "name": "Fortuna Dusseldorf",
+          "logo": "https://media.api-sports.io/football/teams/158.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202366,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 697,
+          "name": "SchücoArena",
+          "city": "Bielefeld"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 188,
+          "name": "Arminia Bielefeld",
+          "logo": "https://media.api-sports.io/football/teams/188.png",
+          "winner": null
+        },
+        "away": {
+          "id": 166,
+          "name": "Hannover 96",
+          "logo": "https://media.api-sports.io/football/teams/166.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202367,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 10490,
+          "name": "Jahnstadion Regensburg",
+          "city": "Regensburg"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 177,
+          "name": "Jahn Regensburg",
+          "logo": "https://media.api-sports.io/football/teams/177.png",
+          "winner": null
+        },
+        "away": {
+          "id": 176,
+          "name": "Vfl Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202368,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 708,
+          "name": "Eintracht-Stadion",
+          "city": "Braunschweig"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 744,
+          "name": "Eintracht Braunschweig",
+          "logo": "https://media.api-sports.io/football/teams/744.png",
+          "winner": null
+        },
+        "away": {
+          "id": 169,
+          "name": "Eintracht Frankfurt",
+          "logo": "https://media.api-sports.io/football/teams/169.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202369,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 712,
+          "name": "Erzgebirgsstadion",
+          "city": "Aue"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 190,
+          "name": "Erzgebirge AUE",
+          "logo": "https://media.api-sports.io/football/teams/190.png",
+          "winner": null
+        },
+        "away": {
+          "id": 163,
+          "name": "Borussia Monchengladbach",
+          "logo": "https://media.api-sports.io/football/teams/163.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202370,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 11901,
+          "name": "Stadion am Lotter Kreuz",
+          "city": "Lotte"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1323,
+          "name": "Sportfreunde Lotte",
+          "logo": "https://media.api-sports.io/football/teams/1323.png",
+          "winner": null
+        },
+        "away": {
+          "id": 785,
+          "name": "Karlsruher SC",
+          "logo": "https://media.api-sports.io/football/teams/785.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202371,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 2706,
+          "name": "Stadion am Panzenberg",
+          "city": "Bremen"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1630,
+          "name": "Bremer Sv",
+          "logo": "https://media.api-sports.io/football/teams/1630.png",
+          "winner": null
+        },
+        "away": {
+          "id": 185,
+          "name": "SC Paderborn 07",
+          "logo": "https://media.api-sports.io/football/teams/185.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202372,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 734,
+          "name": "Hänsch-Arena",
+          "city": "Meppen"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1318,
+          "name": "SV Meppen",
+          "logo": "https://media.api-sports.io/football/teams/1318.png",
+          "winner": null
+        },
+        "away": {
+          "id": 175,
+          "name": "Hamburger SV",
+          "logo": "https://media.api-sports.io/football/teams/175.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202373,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 19571,
+          "name": "AKON ARENA",
+          "city": "Würzburg"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 784,
+          "name": "FC Wurzburger Kickers",
+          "logo": "https://media.api-sports.io/football/teams/784.png",
+          "winner": null
+        },
+        "away": {
+          "id": 167,
+          "name": "1899 Hoffenheim",
+          "logo": "https://media.api-sports.io/football/teams/167.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202374,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 8180,
+          "name": "Sportplatz an der Travemünder Allee",
+          "city": "Lübeck"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 12831,
+          "name": "Phönix Lübeck",
+          "logo": "https://media.api-sports.io/football/teams/12831.png",
+          "winner": null
+        },
+        "away": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media.api-sports.io/football/teams/165.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202375,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 8100,
+          "name": "Friedrich-Ebert-Stadion",
+          "city": "Hildesheim"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 12742,
+          "name": "Borussia Hildesheim",
+          "logo": "https://media.api-sports.io/football/teams/12742.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1660,
+          "name": "SV Elversberg",
+          "logo": "https://media.api-sports.io/football/teams/1660.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202376,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 18782,
+          "name": "MS Technologie Arena",
+          "city": "Villingen-Schwenningen"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1619,
+          "name": "FC 08 Villingen",
+          "logo": "https://media.api-sports.io/football/teams/1619.png",
+          "winner": null
+        },
+        "away": {
+          "id": 180,
+          "name": "FC Heidenheim",
+          "logo": "https://media.api-sports.io/football/teams/180.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202377,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 11930,
+          "name": "Stadion Ludwigspark",
+          "city": "Saarbrücken"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1639,
+          "name": "FC Saarbrücken",
+          "logo": "https://media.api-sports.io/football/teams/1639.png",
+          "winner": null
+        },
+        "away": {
+          "id": 171,
+          "name": "FC Nurnberg",
+          "logo": "https://media.api-sports.io/football/teams/171.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202378,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 20472,
+          "name": "LEAG Energie Stadion",
+          "city": "Cottbus"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1320,
+          "name": "Energie Cottbus",
+          "logo": "https://media.api-sports.io/football/teams/1320.png",
+          "winner": null
+        },
+        "away": {
+          "id": 162,
+          "name": "Werder Bremen",
+          "logo": "https://media.api-sports.io/football/teams/162.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202379,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 1880,
+          "name": "Stadion Oberwerth",
+          "city": "Koblenz"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1648,
+          "name": "TuS Koblenz",
+          "logo": "https://media.api-sports.io/football/teams/1648.png",
+          "winner": null
+        },
+        "away": {
+          "id": 161,
+          "name": "VfL Wolfsburg",
+          "logo": "https://media.api-sports.io/football/teams/161.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202380,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 19943,
+          "name": "Stadion an der Hafenstraße",
+          "city": "Essen"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1621,
+          "name": "Rot-weiss Essen",
+          "logo": "https://media.api-sports.io/football/teams/1621.png",
+          "winner": null
+        },
+        "away": {
+          "id": 173,
+          "name": "RB Leipzig",
+          "logo": "https://media.api-sports.io/football/teams/173.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202381,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 753,
+          "name": "BRITA-Arena",
+          "city": "Wiesbaden"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1319,
+          "name": "SV Wehen",
+          "logo": "https://media.api-sports.io/football/teams/1319.png",
+          "winner": null
+        },
+        "away": {
+          "id": 164,
+          "name": "FSV Mainz 05",
+          "logo": "https://media.api-sports.io/football/teams/164.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202382,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 726,
+          "name": "Audi-Sportpark",
+          "city": "Ingolstadt"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 184,
+          "name": "FC Ingolstadt 04",
+          "logo": "https://media.api-sports.io/football/teams/184.png",
+          "winner": null
+        },
+        "away": {
+          "id": 745,
+          "name": "FC Kaiserslautern",
+          "logo": "https://media.api-sports.io/football/teams/745.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202383,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 20108,
+          "name": "GP Stadion am Hardtwald",
+          "city": "Sandhausen"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 189,
+          "name": "SV Sandhausen",
+          "logo": "https://media.api-sports.io/football/teams/189.png",
+          "winner": null
+        },
+        "away": {
+          "id": 192,
+          "name": "1.FC Köln",
+          "logo": "https://media.api-sports.io/football/teams/192.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202384,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 747,
+          "name": "Donaustadion",
+          "city": "Ulm"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1652,
+          "name": "SSV ULM 1846",
+          "logo": "https://media.api-sports.io/football/teams/1652.png",
+          "winner": null
+        },
+        "away": {
+          "id": 157,
+          "name": "Bayern Munich",
+          "logo": "https://media.api-sports.io/football/teams/157.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202385,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 2710,
+          "name": "Sparda-Bank-Hessen-Stadion",
+          "city": "Offenbach"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1628,
+          "name": "Kickers Offenbach",
+          "logo": "https://media.api-sports.io/football/teams/1628.png",
+          "winner": null
+        },
+        "away": {
+          "id": 179,
+          "name": "FC Magdeburg",
+          "logo": "https://media.api-sports.io/football/teams/179.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202386,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 20298,
+          "name": "CENTUS ARENA",
+          "city": "Aalen"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1327,
+          "name": "VfR Aalen",
+          "logo": "https://media.api-sports.io/football/teams/1327.png",
+          "winner": null
+        },
+        "away": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202387,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 722,
+          "name": "Ostseestadion",
+          "city": "Rostock"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1321,
+          "name": "Hansa Rostock",
+          "logo": "https://media.api-sports.io/football/teams/1321.png",
+          "winner": null
+        },
+        "away": {
+          "id": 159,
+          "name": "Hertha Berlin",
+          "logo": "https://media.api-sports.io/football/teams/159.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202388,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 12457,
+          "name": "Leuna Chemie Stadion",
+          "city": "Saale"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1316,
+          "name": "Hallescher FC",
+          "logo": "https://media.api-sports.io/football/teams/1316.png",
+          "winner": null
+        },
+        "away": {
+          "id": 186,
+          "name": "FC St. Pauli",
+          "logo": "https://media.api-sports.io/football/teams/186.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202389,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-16T00:00:00+00:00",
+        "timestamp": 1723766400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 735,
+          "name": "Bremer Brücke",
+          "city": "Osnabrück"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1324,
+          "name": "VfL Osnabruck",
+          "logo": "https://media.api-sports.io/football/teams/1324.png",
+          "winner": null
+        },
+        "away": {
+          "id": 160,
+          "name": "SC Freiburg",
+          "logo": "https://media.api-sports.io/football/teams/160.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202390,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-27T00:00:00+00:00",
+        "timestamp": 1724716800,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 737,
+          "name": "Preußen-Stadion",
+          "city": "Münster"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1313,
+          "name": "Preussen Munster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png",
+          "winner": null
+        },
+        "away": {
+          "id": 172,
+          "name": "VfB Stuttgart",
+          "logo": "https://media.api-sports.io/football/teams/172.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1202391,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-27T00:00:00+00:00",
+        "timestamp": 1724716800,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 704,
+          "name": "Ernst-Abbe-Sportfeld",
+          "city": "Jena"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 81,
+        "name": "DFB Pokal",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/81.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2024,
+        "round": "1st Round"
+      },
+      "teams": {
+        "home": {
+          "id": 1325,
+          "name": "Carl Zeiss Jena",
+          "logo": "https://media.api-sports.io/football/teams/1325.png",
+          "winner": null
+        },
+        "away": {
+          "id": 168,
+          "name": "Bayer Leverkusen",
+          "logo": "https://media.api-sports.io/football/teams/168.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
