@@ -5,7 +5,7 @@
     "season": "2023"
   },
   "errors": [],
-  "results": 314,
+  "results": 321,
   "paging": {
     "current": 1,
     "total": 1
@@ -14,7 +14,7 @@
     {
       "fixture": {
         "id": 1055070,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-08-11T18:00:00+00:00",
         "timestamp": 1691776800,
@@ -82,7 +82,7 @@
     {
       "fixture": {
         "id": 1055071,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-08-12T14:30:00+00:00",
         "timestamp": 1691850600,
@@ -150,7 +150,7 @@
     {
       "fixture": {
         "id": 1055072,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2023-08-12T16:45:00+00:00",
         "timestamp": 1691858700,
@@ -218,7 +218,7 @@
     {
       "fixture": {
         "id": 1055073,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-08-12T18:00:00+00:00",
         "timestamp": 1691863200,
@@ -286,7 +286,7 @@
     {
       "fixture": {
         "id": 1055074,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-08-12T19:00:00+00:00",
         "timestamp": 1691866800,
@@ -354,7 +354,7 @@
     {
       "fixture": {
         "id": 1055075,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-08-13T10:15:00+00:00",
         "timestamp": 1691921700,
@@ -422,7 +422,7 @@
     {
       "fixture": {
         "id": 1055076,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2023-08-13T12:30:00+00:00",
         "timestamp": 1691929800,
@@ -490,7 +490,7 @@
     {
       "fixture": {
         "id": 1055077,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-08-13T12:30:00+00:00",
         "timestamp": 1691929800,
@@ -558,7 +558,7 @@
     {
       "fixture": {
         "id": 1055078,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2023-08-13T14:45:00+00:00",
         "timestamp": 1691937900,
@@ -626,7 +626,7 @@
     {
       "fixture": {
         "id": 1055079,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2023-08-18T18:00:00+00:00",
         "timestamp": 1692381600,
@@ -694,7 +694,7 @@
     {
       "fixture": {
         "id": 1055080,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-08-19T14:30:00+00:00",
         "timestamp": 1692455400,
@@ -762,7 +762,7 @@
     {
       "fixture": {
         "id": 1055081,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-08-19T16:45:00+00:00",
         "timestamp": 1692463500,
@@ -830,7 +830,7 @@
     {
       "fixture": {
         "id": 1055082,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2023-08-19T18:00:00+00:00",
         "timestamp": 1692468000,
@@ -898,7 +898,7 @@
     {
       "fixture": {
         "id": 1055083,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2023-08-19T19:00:00+00:00",
         "timestamp": 1692471600,
@@ -966,7 +966,7 @@
     {
       "fixture": {
         "id": 1055084,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2023-08-20T10:15:00+00:00",
         "timestamp": 1692526500,
@@ -1034,7 +1034,7 @@
     {
       "fixture": {
         "id": 1055085,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-08-20T12:30:00+00:00",
         "timestamp": 1692534600,
@@ -1102,7 +1102,7 @@
     {
       "fixture": {
         "id": 1055086,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-08-20T12:30:00+00:00",
         "timestamp": 1692534600,
@@ -1170,7 +1170,7 @@
     {
       "fixture": {
         "id": 1055087,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2023-08-20T14:45:00+00:00",
         "timestamp": 1692542700,
@@ -1238,7 +1238,7 @@
     {
       "fixture": {
         "id": 1055088,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2023-08-26T16:45:00+00:00",
         "timestamp": 1693068300,
@@ -1306,7 +1306,7 @@
     {
       "fixture": {
         "id": 1055089,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2023-09-27T16:45:00+00:00",
         "timestamp": 1695833100,
@@ -1374,7 +1374,7 @@
     {
       "fixture": {
         "id": 1055090,
-        "referee": "Robin Hensgens, Netherlands",
+        "referee": "R. Hensgens",
         "timezone": "UTC",
         "date": "2023-08-26T19:00:00+00:00",
         "timestamp": 1693076400,
@@ -1442,7 +1442,7 @@
     {
       "fixture": {
         "id": 1055091,
-        "referee": "Laurens Gerrets, Netherlands",
+        "referee": "L. Gerrets",
         "timezone": "UTC",
         "date": "2023-08-27T10:15:00+00:00",
         "timestamp": 1693131300,
@@ -1510,7 +1510,7 @@
     {
       "fixture": {
         "id": 1055092,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-08-27T12:30:00+00:00",
         "timestamp": 1693139400,
@@ -1578,7 +1578,7 @@
     {
       "fixture": {
         "id": 1055093,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-08-27T14:45:00+00:00",
         "timestamp": 1693147500,
@@ -1646,7 +1646,7 @@
     {
       "fixture": {
         "id": 1055094,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2023-09-27T18:00:00+00:00",
         "timestamp": 1695837600,
@@ -1714,7 +1714,7 @@
     {
       "fixture": {
         "id": 1055095,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2023-11-02T19:00:00+00:00",
         "timestamp": 1698951600,
@@ -1782,7 +1782,7 @@
     {
       "fixture": {
         "id": 1055096,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-09-28T18:00:00+00:00",
         "timestamp": 1695924000,
@@ -1850,7 +1850,7 @@
     {
       "fixture": {
         "id": 1055097,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-09-01T18:00:00+00:00",
         "timestamp": 1693591200,
@@ -1918,7 +1918,7 @@
     {
       "fixture": {
         "id": 1055098,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2023-09-02T14:30:00+00:00",
         "timestamp": 1693665000,
@@ -1986,7 +1986,7 @@
     {
       "fixture": {
         "id": 1055099,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2023-09-02T16:45:00+00:00",
         "timestamp": 1693673100,
@@ -2054,7 +2054,7 @@
     {
       "fixture": {
         "id": 1055100,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-09-02T18:00:00+00:00",
         "timestamp": 1693677600,
@@ -2122,7 +2122,7 @@
     {
       "fixture": {
         "id": 1055101,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-09-02T19:00:00+00:00",
         "timestamp": 1693681200,
@@ -2190,7 +2190,7 @@
     {
       "fixture": {
         "id": 1055102,
-        "referee": "Paulus van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2023-09-03T10:15:00+00:00",
         "timestamp": 1693736100,
@@ -2258,7 +2258,7 @@
     {
       "fixture": {
         "id": 1055103,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-09-03T12:30:00+00:00",
         "timestamp": 1693744200,
@@ -2326,7 +2326,7 @@
     {
       "fixture": {
         "id": 1055104,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2023-09-03T12:30:00+00:00",
         "timestamp": 1693744200,
@@ -2394,7 +2394,7 @@
     {
       "fixture": {
         "id": 1055105,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-09-03T14:45:00+00:00",
         "timestamp": 1693752300,
@@ -2462,7 +2462,7 @@
     {
       "fixture": {
         "id": 1055106,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-09-16T14:30:00+00:00",
         "timestamp": 1694874600,
@@ -2530,7 +2530,7 @@
     {
       "fixture": {
         "id": 1055107,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-09-16T16:45:00+00:00",
         "timestamp": 1694882700,
@@ -2598,7 +2598,7 @@
     {
       "fixture": {
         "id": 1055108,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-09-16T18:00:00+00:00",
         "timestamp": 1694887200,
@@ -2666,7 +2666,7 @@
     {
       "fixture": {
         "id": 1055109,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2023-09-16T18:00:00+00:00",
         "timestamp": 1694887200,
@@ -2734,7 +2734,7 @@
     {
       "fixture": {
         "id": 1055110,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-09-16T19:00:00+00:00",
         "timestamp": 1694890800,
@@ -2802,7 +2802,7 @@
     {
       "fixture": {
         "id": 1055111,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2023-09-17T10:15:00+00:00",
         "timestamp": 1694945700,
@@ -2870,7 +2870,7 @@
     {
       "fixture": {
         "id": 1055112,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-09-17T12:30:00+00:00",
         "timestamp": 1694953800,
@@ -2938,7 +2938,7 @@
     {
       "fixture": {
         "id": 1055113,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2023-09-17T12:30:00+00:00",
         "timestamp": 1694953800,
@@ -3006,7 +3006,7 @@
     {
       "fixture": {
         "id": 1055114,
-        "referee": "Paulus van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2023-09-17T14:45:00+00:00",
         "timestamp": 1694961900,
@@ -3074,7 +3074,7 @@
     {
       "fixture": {
         "id": 1055115,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-09-22T18:00:00+00:00",
         "timestamp": 1695405600,
@@ -3142,7 +3142,7 @@
     {
       "fixture": {
         "id": 1055116,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2023-09-23T14:30:00+00:00",
         "timestamp": 1695479400,
@@ -3210,7 +3210,7 @@
     {
       "fixture": {
         "id": 1055117,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-09-23T16:45:00+00:00",
         "timestamp": 1695487500,
@@ -3278,7 +3278,7 @@
     {
       "fixture": {
         "id": 1055118,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2023-09-23T18:00:00+00:00",
         "timestamp": 1695492000,
@@ -3346,7 +3346,7 @@
     {
       "fixture": {
         "id": 1055119,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2023-09-23T19:00:00+00:00",
         "timestamp": 1695495600,
@@ -3414,7 +3414,7 @@
     {
       "fixture": {
         "id": 1055120,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2023-09-24T10:15:00+00:00",
         "timestamp": 1695550500,
@@ -3482,7 +3482,7 @@
     {
       "fixture": {
         "id": 1055121,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-09-27T12:30:00+00:00",
         "timestamp": 1695817800,
@@ -3550,7 +3550,7 @@
     {
       "fixture": {
         "id": 1055122,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-09-24T14:45:00+00:00",
         "timestamp": 1695566700,
@@ -3618,7 +3618,7 @@
     {
       "fixture": {
         "id": 1055123,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2023-09-24T14:45:00+00:00",
         "timestamp": 1695566700,
@@ -3686,7 +3686,7 @@
     {
       "fixture": {
         "id": 1055124,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2023-09-30T14:30:00+00:00",
         "timestamp": 1696084200,
@@ -3754,7 +3754,7 @@
     {
       "fixture": {
         "id": 1055125,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2023-09-30T16:45:00+00:00",
         "timestamp": 1696092300,
@@ -3822,7 +3822,7 @@
     {
       "fixture": {
         "id": 1055126,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-09-30T16:45:00+00:00",
         "timestamp": 1696092300,
@@ -3890,7 +3890,7 @@
     {
       "fixture": {
         "id": 1055127,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2023-09-30T19:00:00+00:00",
         "timestamp": 1696100400,
@@ -3958,7 +3958,7 @@
     {
       "fixture": {
         "id": 1055128,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2023-12-06T19:00:00+00:00",
         "timestamp": 1701889200,
@@ -4026,7 +4026,7 @@
     {
       "fixture": {
         "id": 1055129,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-10-01T10:15:00+00:00",
         "timestamp": 1696155300,
@@ -4094,7 +4094,7 @@
     {
       "fixture": {
         "id": 1055130,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-10-01T12:30:00+00:00",
         "timestamp": 1696163400,
@@ -4162,7 +4162,7 @@
     {
       "fixture": {
         "id": 1055131,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-10-01T12:30:00+00:00",
         "timestamp": 1696163400,
@@ -4230,7 +4230,7 @@
     {
       "fixture": {
         "id": 1055132,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-10-01T14:45:00+00:00",
         "timestamp": 1696171500,
@@ -4298,7 +4298,7 @@
     {
       "fixture": {
         "id": 1055133,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-10-06T18:00:00+00:00",
         "timestamp": 1696615200,
@@ -4366,7 +4366,7 @@
     {
       "fixture": {
         "id": 1055134,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2023-10-07T14:30:00+00:00",
         "timestamp": 1696689000,
@@ -4434,7 +4434,7 @@
     {
       "fixture": {
         "id": 1055135,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-10-07T16:45:00+00:00",
         "timestamp": 1696697100,
@@ -4502,7 +4502,7 @@
     {
       "fixture": {
         "id": 1055136,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2023-10-07T18:00:00+00:00",
         "timestamp": 1696701600,
@@ -4570,7 +4570,7 @@
     {
       "fixture": {
         "id": 1055137,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-10-07T19:00:00+00:00",
         "timestamp": 1696705200,
@@ -4638,7 +4638,7 @@
     {
       "fixture": {
         "id": 1055138,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-10-08T10:15:00+00:00",
         "timestamp": 1696760100,
@@ -4706,7 +4706,7 @@
     {
       "fixture": {
         "id": 1055139,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2023-10-08T12:30:00+00:00",
         "timestamp": 1696768200,
@@ -4774,7 +4774,7 @@
     {
       "fixture": {
         "id": 1055140,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-10-08T12:30:00+00:00",
         "timestamp": 1696768200,
@@ -4842,7 +4842,7 @@
     {
       "fixture": {
         "id": 1055141,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-10-08T14:45:00+00:00",
         "timestamp": 1696776300,
@@ -4910,7 +4910,7 @@
     {
       "fixture": {
         "id": 1055142,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-10-21T19:00:00+00:00",
         "timestamp": 1697914800,
@@ -4978,7 +4978,7 @@
     {
       "fixture": {
         "id": 1055143,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2023-10-21T16:45:00+00:00",
         "timestamp": 1697906700,
@@ -5046,7 +5046,7 @@
     {
       "fixture": {
         "id": 1055144,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2023-10-21T16:45:00+00:00",
         "timestamp": 1697906700,
@@ -5114,7 +5114,7 @@
     {
       "fixture": {
         "id": 1055145,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2023-10-21T19:00:00+00:00",
         "timestamp": 1697914800,
@@ -5182,7 +5182,7 @@
     {
       "fixture": {
         "id": 1055146,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-10-21T18:00:00+00:00",
         "timestamp": 1697911200,
@@ -5250,7 +5250,7 @@
     {
       "fixture": {
         "id": 1055147,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-10-22T10:15:00+00:00",
         "timestamp": 1697969700,
@@ -5318,7 +5318,7 @@
     {
       "fixture": {
         "id": 1055148,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2023-10-22T12:30:00+00:00",
         "timestamp": 1697977800,
@@ -5386,7 +5386,7 @@
     {
       "fixture": {
         "id": 1055149,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2023-10-22T12:30:00+00:00",
         "timestamp": 1697977800,
@@ -5454,7 +5454,7 @@
     {
       "fixture": {
         "id": 1055150,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2023-10-22T14:45:00+00:00",
         "timestamp": 1697985900,
@@ -5522,7 +5522,7 @@
     {
       "fixture": {
         "id": 1055151,
-        "referee": "Robin Hensgens, Netherlands",
+        "referee": "R. Hensgens",
         "timezone": "UTC",
         "date": "2023-10-27T18:00:00+00:00",
         "timestamp": 1698429600,
@@ -5590,7 +5590,7 @@
     {
       "fixture": {
         "id": 1055152,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2023-10-28T16:45:00+00:00",
         "timestamp": 1698511500,
@@ -5658,7 +5658,7 @@
     {
       "fixture": {
         "id": 1055153,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-10-28T18:00:00+00:00",
         "timestamp": 1698516000,
@@ -5726,7 +5726,7 @@
     {
       "fixture": {
         "id": 1055154,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-10-28T18:00:00+00:00",
         "timestamp": 1698516000,
@@ -5794,7 +5794,7 @@
     {
       "fixture": {
         "id": 1055155,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-10-28T19:00:00+00:00",
         "timestamp": 1698519600,
@@ -5862,7 +5862,7 @@
     {
       "fixture": {
         "id": 1055156,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-10-29T11:15:00+00:00",
         "timestamp": 1698578100,
@@ -5930,7 +5930,7 @@
     {
       "fixture": {
         "id": 1055157,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2023-10-29T13:30:00+00:00",
         "timestamp": 1698586200,
@@ -5998,7 +5998,7 @@
     {
       "fixture": {
         "id": 1055158,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-10-29T13:30:00+00:00",
         "timestamp": 1698586200,
@@ -6066,7 +6066,7 @@
     {
       "fixture": {
         "id": 1055159,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-12-06T18:00:00+00:00",
         "timestamp": 1701885600,
@@ -6134,7 +6134,7 @@
     {
       "fixture": {
         "id": 1055160,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-11-05T15:45:00+00:00",
         "timestamp": 1699199100,
@@ -6202,7 +6202,7 @@
     {
       "fixture": {
         "id": 1055161,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2023-11-04T17:45:00+00:00",
         "timestamp": 1699119900,
@@ -6270,7 +6270,7 @@
     {
       "fixture": {
         "id": 1055162,
-        "referee": "Laurens Gerrets, Netherlands",
+        "referee": "L. Gerrets",
         "timezone": "UTC",
         "date": "2023-11-04T17:45:00+00:00",
         "timestamp": 1699119900,
@@ -6338,7 +6338,7 @@
     {
       "fixture": {
         "id": 1055163,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2023-11-04T20:00:00+00:00",
         "timestamp": 1699128000,
@@ -6406,7 +6406,7 @@
     {
       "fixture": {
         "id": 1055164,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-11-04T15:30:00+00:00",
         "timestamp": 1699111800,
@@ -6474,7 +6474,7 @@
     {
       "fixture": {
         "id": 1055165,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-11-05T11:15:00+00:00",
         "timestamp": 1699182900,
@@ -6542,7 +6542,7 @@
     {
       "fixture": {
         "id": 1055166,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-11-05T13:30:00+00:00",
         "timestamp": 1699191000,
@@ -6610,7 +6610,7 @@
     {
       "fixture": {
         "id": 1055167,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2023-11-05T13:30:00+00:00",
         "timestamp": 1699191000,
@@ -6678,7 +6678,7 @@
     {
       "fixture": {
         "id": 1055168,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-11-05T15:45:00+00:00",
         "timestamp": 1699199100,
@@ -6746,7 +6746,7 @@
     {
       "fixture": {
         "id": 1055169,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-11-10T19:00:00+00:00",
         "timestamp": 1699642800,
@@ -6814,7 +6814,7 @@
     {
       "fixture": {
         "id": 1055170,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2023-11-12T11:15:00+00:00",
         "timestamp": 1699787700,
@@ -6882,7 +6882,7 @@
     {
       "fixture": {
         "id": 1055171,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-11-11T17:45:00+00:00",
         "timestamp": 1699724700,
@@ -6950,7 +6950,7 @@
     {
       "fixture": {
         "id": 1055172,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2023-11-11T20:00:00+00:00",
         "timestamp": 1699732800,
@@ -7018,7 +7018,7 @@
     {
       "fixture": {
         "id": 1055173,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2023-11-12T13:30:00+00:00",
         "timestamp": 1699795800,
@@ -7086,7 +7086,7 @@
     {
       "fixture": {
         "id": 1055174,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-11-11T19:00:00+00:00",
         "timestamp": 1699729200,
@@ -7154,7 +7154,7 @@
     {
       "fixture": {
         "id": 1055175,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-11-12T13:30:00+00:00",
         "timestamp": 1699795800,
@@ -7222,7 +7222,7 @@
     {
       "fixture": {
         "id": 1055176,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-11-12T15:45:00+00:00",
         "timestamp": 1699803900,
@@ -7290,7 +7290,7 @@
     {
       "fixture": {
         "id": 1055177,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2023-11-12T19:00:00+00:00",
         "timestamp": 1699815600,
@@ -7358,7 +7358,7 @@
     {
       "fixture": {
         "id": 1055178,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-11-25T15:30:00+00:00",
         "timestamp": 1700926200,
@@ -7426,7 +7426,7 @@
     {
       "fixture": {
         "id": 1055179,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-11-25T17:45:00+00:00",
         "timestamp": 1700934300,
@@ -7494,7 +7494,7 @@
     {
       "fixture": {
         "id": 1055180,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-11-25T17:45:00+00:00",
         "timestamp": 1700934300,
@@ -7562,7 +7562,7 @@
     {
       "fixture": {
         "id": 1055181,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2023-11-25T20:00:00+00:00",
         "timestamp": 1700942400,
@@ -7630,7 +7630,7 @@
     {
       "fixture": {
         "id": 1055182,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-11-25T20:00:00+00:00",
         "timestamp": 1700942400,
@@ -7698,7 +7698,7 @@
     {
       "fixture": {
         "id": 1055183,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2023-11-26T11:15:00+00:00",
         "timestamp": 1700997300,
@@ -7766,7 +7766,7 @@
     {
       "fixture": {
         "id": 1055184,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-11-26T13:30:00+00:00",
         "timestamp": 1701005400,
@@ -7834,7 +7834,7 @@
     {
       "fixture": {
         "id": 1055185,
-        "referee": "Robin Hensgens, Netherlands",
+        "referee": "R. Hensgens",
         "timezone": "UTC",
         "date": "2023-11-26T13:30:00+00:00",
         "timestamp": 1701005400,
@@ -7902,7 +7902,7 @@
     {
       "fixture": {
         "id": 1055186,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-11-26T15:45:00+00:00",
         "timestamp": 1701013500,
@@ -7970,7 +7970,7 @@
     {
       "fixture": {
         "id": 1055187,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2023-12-01T19:00:00+00:00",
         "timestamp": 1701457200,
@@ -8038,7 +8038,7 @@
     {
       "fixture": {
         "id": 1055188,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-12-02T17:45:00+00:00",
         "timestamp": 1701539100,
@@ -8106,7 +8106,7 @@
     {
       "fixture": {
         "id": 1055189,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2023-12-02T19:00:00+00:00",
         "timestamp": 1701543600,
@@ -8174,7 +8174,7 @@
     {
       "fixture": {
         "id": 1055190,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-12-02T19:00:00+00:00",
         "timestamp": 1701543600,
@@ -8242,7 +8242,7 @@
     {
       "fixture": {
         "id": 1055191,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2023-12-02T20:00:00+00:00",
         "timestamp": 1701547200,
@@ -8310,7 +8310,7 @@
     {
       "fixture": {
         "id": 1055192,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-12-03T11:15:00+00:00",
         "timestamp": 1701602100,
@@ -8378,7 +8378,7 @@
     {
       "fixture": {
         "id": 1055193,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2023-12-03T13:30:00+00:00",
         "timestamp": 1701610200,
@@ -8446,7 +8446,7 @@
     {
       "fixture": {
         "id": 1055194,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-12-03T13:30:00+00:00",
         "timestamp": 1701610200,
@@ -8514,7 +8514,7 @@
     {
       "fixture": {
         "id": 1055195,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2023-12-03T15:45:00+00:00",
         "timestamp": 1701618300,
@@ -8582,7 +8582,7 @@
     {
       "fixture": {
         "id": 1055196,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2023-12-07T20:00:00+00:00",
         "timestamp": 1701979200,
@@ -8650,7 +8650,7 @@
     {
       "fixture": {
         "id": 1055197,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2023-12-08T19:00:00+00:00",
         "timestamp": 1702062000,
@@ -8718,7 +8718,7 @@
     {
       "fixture": {
         "id": 1055198,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2023-12-07T17:45:00+00:00",
         "timestamp": 1701971100,
@@ -8786,7 +8786,7 @@
     {
       "fixture": {
         "id": 1055199,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2023-12-09T19:00:00+00:00",
         "timestamp": 1702148400,
@@ -8854,7 +8854,7 @@
     {
       "fixture": {
         "id": 1055200,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2023-12-09T20:00:00+00:00",
         "timestamp": 1702152000,
@@ -8922,7 +8922,7 @@
     {
       "fixture": {
         "id": 1055201,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-12-10T11:15:00+00:00",
         "timestamp": 1702206900,
@@ -8990,7 +8990,7 @@
     {
       "fixture": {
         "id": 1055202,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-12-09T17:45:00+00:00",
         "timestamp": 1702143900,
@@ -9058,7 +9058,7 @@
     {
       "fixture": {
         "id": 1055203,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-12-10T13:30:00+00:00",
         "timestamp": 1702215000,
@@ -9126,7 +9126,7 @@
     {
       "fixture": {
         "id": 1055204,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-12-10T15:45:00+00:00",
         "timestamp": 1702223100,
@@ -9194,7 +9194,7 @@
     {
       "fixture": {
         "id": 1055205,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2023-12-15T19:00:00+00:00",
         "timestamp": 1702666800,
@@ -9262,7 +9262,7 @@
     {
       "fixture": {
         "id": 1055206,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2023-12-16T15:30:00+00:00",
         "timestamp": 1702740600,
@@ -9330,7 +9330,7 @@
     {
       "fixture": {
         "id": 1055207,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2023-12-16T17:45:00+00:00",
         "timestamp": 1702748700,
@@ -9398,7 +9398,7 @@
     {
       "fixture": {
         "id": 1055208,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2023-12-16T20:00:00+00:00",
         "timestamp": 1702756800,
@@ -9466,7 +9466,7 @@
     {
       "fixture": {
         "id": 1055209,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2023-12-17T11:15:00+00:00",
         "timestamp": 1702811700,
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1055210,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2023-12-17T13:30:00+00:00",
         "timestamp": 1702819800,
@@ -9602,7 +9602,7 @@
     {
       "fixture": {
         "id": 1055211,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2023-12-17T13:30:00+00:00",
         "timestamp": 1702819800,
@@ -9670,7 +9670,7 @@
     {
       "fixture": {
         "id": 1055212,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2023-12-17T15:45:00+00:00",
         "timestamp": 1702827900,
@@ -9738,7 +9738,7 @@
     {
       "fixture": {
         "id": 1055213,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2023-12-17T19:00:00+00:00",
         "timestamp": 1702839600,
@@ -9806,7 +9806,7 @@
     {
       "fixture": {
         "id": 1055214,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-01-12T19:00:00+00:00",
         "timestamp": 1705086000,
@@ -9874,7 +9874,7 @@
     {
       "fixture": {
         "id": 1055215,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2024-01-13T15:30:00+00:00",
         "timestamp": 1705159800,
@@ -9942,7 +9942,7 @@
     {
       "fixture": {
         "id": 1055216,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-01-13T17:45:00+00:00",
         "timestamp": 1705167900,
@@ -10010,7 +10010,7 @@
     {
       "fixture": {
         "id": 1055217,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-01-13T19:00:00+00:00",
         "timestamp": 1705172400,
@@ -10078,7 +10078,7 @@
     {
       "fixture": {
         "id": 1055218,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-01-13T20:00:00+00:00",
         "timestamp": 1705176000,
@@ -10146,7 +10146,7 @@
     {
       "fixture": {
         "id": 1055219,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-01-14T11:15:00+00:00",
         "timestamp": 1705230900,
@@ -10214,7 +10214,7 @@
     {
       "fixture": {
         "id": 1055220,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2024-01-14T13:30:00+00:00",
         "timestamp": 1705239000,
@@ -10282,7 +10282,7 @@
     {
       "fixture": {
         "id": 1055221,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2024-01-14T13:30:00+00:00",
         "timestamp": 1705239000,
@@ -10350,7 +10350,7 @@
     {
       "fixture": {
         "id": 1055222,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-01-14T15:45:00+00:00",
         "timestamp": 1705247100,
@@ -10418,7 +10418,7 @@
     {
       "fixture": {
         "id": 1055223,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2024-01-19T19:00:00+00:00",
         "timestamp": 1705690800,
@@ -10486,7 +10486,7 @@
     {
       "fixture": {
         "id": 1055224,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-01-20T15:30:00+00:00",
         "timestamp": 1705764600,
@@ -10554,7 +10554,7 @@
     {
       "fixture": {
         "id": 1055225,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-01-20T17:45:00+00:00",
         "timestamp": 1705772700,
@@ -10622,7 +10622,7 @@
     {
       "fixture": {
         "id": 1055226,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-01-20T19:00:00+00:00",
         "timestamp": 1705777200,
@@ -10690,7 +10690,7 @@
     {
       "fixture": {
         "id": 1055227,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-01-24T17:45:00+00:00",
         "timestamp": 1706118300,
@@ -10758,7 +10758,7 @@
     {
       "fixture": {
         "id": 1055228,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2024-01-21T11:15:00+00:00",
         "timestamp": 1705835700,
@@ -10826,7 +10826,7 @@
     {
       "fixture": {
         "id": 1055229,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-01-21T13:30:00+00:00",
         "timestamp": 1705843800,
@@ -10894,7 +10894,7 @@
     {
       "fixture": {
         "id": 1055230,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-01-21T13:30:00+00:00",
         "timestamp": 1705843800,
@@ -10962,7 +10962,7 @@
     {
       "fixture": {
         "id": 1055231,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-01-21T15:45:00+00:00",
         "timestamp": 1705851900,
@@ -11030,7 +11030,7 @@
     {
       "fixture": {
         "id": 1055232,
-        "referee": "Laurens Gerrets, Netherlands",
+        "referee": "L. Gerrets",
         "timezone": "UTC",
         "date": "2024-01-26T19:00:00+00:00",
         "timestamp": 1706295600,
@@ -11098,7 +11098,7 @@
     {
       "fixture": {
         "id": 1055233,
-        "referee": "Stefan de Groot, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-01-27T17:45:00+00:00",
         "timestamp": 1706377500,
@@ -11166,7 +11166,7 @@
     {
       "fixture": {
         "id": 1055234,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-01-27T17:45:00+00:00",
         "timestamp": 1706377500,
@@ -11234,7 +11234,7 @@
     {
       "fixture": {
         "id": 1055235,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2024-01-27T20:00:00+00:00",
         "timestamp": 1706385600,
@@ -11302,7 +11302,7 @@
     {
       "fixture": {
         "id": 1055236,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-01-27T20:00:00+00:00",
         "timestamp": 1706385600,
@@ -11370,7 +11370,7 @@
     {
       "fixture": {
         "id": 1055237,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-01-28T11:15:00+00:00",
         "timestamp": 1706440500,
@@ -11438,7 +11438,7 @@
     {
       "fixture": {
         "id": 1055238,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-01-28T13:30:00+00:00",
         "timestamp": 1706448600,
@@ -11506,7 +11506,7 @@
     {
       "fixture": {
         "id": 1055239,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-01-28T13:30:00+00:00",
         "timestamp": 1706448600,
@@ -11574,7 +11574,7 @@
     {
       "fixture": {
         "id": 1055240,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2024-01-28T15:45:00+00:00",
         "timestamp": 1706456700,
@@ -11642,7 +11642,7 @@
     {
       "fixture": {
         "id": 1055241,
-        "referee": "Robin Hensgens, Netherlands",
+        "referee": "R. Hensgens",
         "timezone": "UTC",
         "date": "2024-02-02T19:00:00+00:00",
         "timestamp": 1706900400,
@@ -11710,7 +11710,7 @@
     {
       "fixture": {
         "id": 1055242,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-02-03T15:30:00+00:00",
         "timestamp": 1706974200,
@@ -11778,7 +11778,7 @@
     {
       "fixture": {
         "id": 1055243,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-02-03T17:45:00+00:00",
         "timestamp": 1706982300,
@@ -11846,7 +11846,7 @@
     {
       "fixture": {
         "id": 1055244,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-02-03T19:00:00+00:00",
         "timestamp": 1706986800,
@@ -11914,7 +11914,7 @@
     {
       "fixture": {
         "id": 1055245,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-02-03T20:00:00+00:00",
         "timestamp": 1706990400,
@@ -11982,7 +11982,7 @@
     {
       "fixture": {
         "id": 1055246,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2024-02-04T11:15:00+00:00",
         "timestamp": 1707045300,
@@ -12050,7 +12050,7 @@
     {
       "fixture": {
         "id": 1055247,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-02-04T13:30:00+00:00",
         "timestamp": 1707053400,
@@ -12118,7 +12118,7 @@
     {
       "fixture": {
         "id": 1055248,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-02-04T13:30:00+00:00",
         "timestamp": 1707053400,
@@ -12186,7 +12186,7 @@
     {
       "fixture": {
         "id": 1055249,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-02-04T15:45:00+00:00",
         "timestamp": 1707061500,
@@ -12254,7 +12254,7 @@
     {
       "fixture": {
         "id": 1055250,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-02-09T19:00:00+00:00",
         "timestamp": 1707505200,
@@ -12322,7 +12322,7 @@
     {
       "fixture": {
         "id": 1055251,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-02-10T20:00:00+00:00",
         "timestamp": 1707595200,
@@ -12390,7 +12390,7 @@
     {
       "fixture": {
         "id": 1055252,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-02-11T15:45:00+00:00",
         "timestamp": 1707666300,
@@ -12458,7 +12458,7 @@
     {
       "fixture": {
         "id": 1055253,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-02-10T19:00:00+00:00",
         "timestamp": 1707591600,
@@ -12526,7 +12526,7 @@
     {
       "fixture": {
         "id": 1055254,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2024-02-11T19:00:00+00:00",
         "timestamp": 1707678000,
@@ -12594,7 +12594,7 @@
     {
       "fixture": {
         "id": 1055255,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-02-11T11:15:00+00:00",
         "timestamp": 1707650100,
@@ -12662,7 +12662,7 @@
     {
       "fixture": {
         "id": 1055256,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-02-10T17:45:00+00:00",
         "timestamp": 1707587100,
@@ -12730,7 +12730,7 @@
     {
       "fixture": {
         "id": 1055257,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-02-11T13:30:00+00:00",
         "timestamp": 1707658200,
@@ -12798,7 +12798,7 @@
     {
       "fixture": {
         "id": 1055258,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-02-11T13:30:00+00:00",
         "timestamp": 1707658200,
@@ -12866,7 +12866,7 @@
     {
       "fixture": {
         "id": 1055259,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-02-17T17:45:00+00:00",
         "timestamp": 1708191900,
@@ -12934,7 +12934,7 @@
     {
       "fixture": {
         "id": 1055260,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-02-18T15:45:00+00:00",
         "timestamp": 1708271100,
@@ -13070,7 +13070,7 @@
     {
       "fixture": {
         "id": 1055262,
-        "referee": "Martijn Vos, Netherlands",
+        "referee": "M. Vos",
         "timezone": "UTC",
         "date": "2024-02-17T20:00:00+00:00",
         "timestamp": 1708200000,
@@ -13138,7 +13138,7 @@
     {
       "fixture": {
         "id": 1055263,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-02-16T19:00:00+00:00",
         "timestamp": 1708110000,
@@ -13206,7 +13206,7 @@
     {
       "fixture": {
         "id": 1055264,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-02-18T13:30:00+00:00",
         "timestamp": 1708263000,
@@ -13274,7 +13274,7 @@
     {
       "fixture": {
         "id": 1055265,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-02-18T11:15:00+00:00",
         "timestamp": 1708254900,
@@ -13342,7 +13342,7 @@
     {
       "fixture": {
         "id": 1055266,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2024-02-17T17:45:00+00:00",
         "timestamp": 1708191900,
@@ -13410,7 +13410,7 @@
     {
       "fixture": {
         "id": 1055267,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-02-18T13:30:00+00:00",
         "timestamp": 1708263000,
@@ -13478,7 +13478,7 @@
     {
       "fixture": {
         "id": 1055268,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-02-25T11:15:00+00:00",
         "timestamp": 1708859700,
@@ -13546,7 +13546,7 @@
     {
       "fixture": {
         "id": 1055269,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2024-02-24T17:45:00+00:00",
         "timestamp": 1708796700,
@@ -13614,7 +13614,7 @@
     {
       "fixture": {
         "id": 1055270,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-02-25T19:00:00+00:00",
         "timestamp": 1708887600,
@@ -13682,7 +13682,7 @@
     {
       "fixture": {
         "id": 1055271,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2024-02-23T19:00:00+00:00",
         "timestamp": 1708714800,
@@ -13750,7 +13750,7 @@
     {
       "fixture": {
         "id": 1055272,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-02-24T20:00:00+00:00",
         "timestamp": 1708804800,
@@ -13818,7 +13818,7 @@
     {
       "fixture": {
         "id": 1055273,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2024-02-25T13:30:00+00:00",
         "timestamp": 1708867800,
@@ -13886,7 +13886,7 @@
     {
       "fixture": {
         "id": 1055274,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-02-24T19:00:00+00:00",
         "timestamp": 1708801200,
@@ -13954,7 +13954,7 @@
     {
       "fixture": {
         "id": 1055275,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-02-25T13:30:00+00:00",
         "timestamp": 1708867800,
@@ -14022,7 +14022,7 @@
     {
       "fixture": {
         "id": 1055276,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-02-25T15:45:00+00:00",
         "timestamp": 1708875900,
@@ -14090,7 +14090,7 @@
     {
       "fixture": {
         "id": 1055277,
-        "referee": "Martijn Vos, Netherlands",
+        "referee": "M. Vos",
         "timezone": "UTC",
         "date": "2024-03-01T19:00:00+00:00",
         "timestamp": 1709319600,
@@ -14158,7 +14158,7 @@
     {
       "fixture": {
         "id": 1055278,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-03-03T13:30:00+00:00",
         "timestamp": 1709472600,
@@ -14226,7 +14226,7 @@
     {
       "fixture": {
         "id": 1055279,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2024-03-02T17:45:00+00:00",
         "timestamp": 1709401500,
@@ -14294,7 +14294,7 @@
     {
       "fixture": {
         "id": 1055280,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-03-03T19:00:00+00:00",
         "timestamp": 1709492400,
@@ -14362,7 +14362,7 @@
     {
       "fixture": {
         "id": 1055281,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "J. Kamphuis",
         "timezone": "UTC",
         "date": "2024-03-02T20:00:00+00:00",
         "timestamp": 1709409600,
@@ -14430,7 +14430,7 @@
     {
       "fixture": {
         "id": 1055282,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-03-02T19:00:00+00:00",
         "timestamp": 1709406000,
@@ -14498,7 +14498,7 @@
     {
       "fixture": {
         "id": 1055283,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-03-03T11:15:00+00:00",
         "timestamp": 1709464500,
@@ -14566,7 +14566,7 @@
     {
       "fixture": {
         "id": 1055284,
-        "referee": "Robin Hensgens, Netherlands",
+        "referee": "R. Hensgens",
         "timezone": "UTC",
         "date": "2024-03-03T13:30:00+00:00",
         "timestamp": 1709472600,
@@ -14634,7 +14634,7 @@
     {
       "fixture": {
         "id": 1055285,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-03-03T15:45:00+00:00",
         "timestamp": 1709480700,
@@ -14702,7 +14702,7 @@
     {
       "fixture": {
         "id": 1055286,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-03-09T19:00:00+00:00",
         "timestamp": 1710010800,
@@ -14770,7 +14770,7 @@
     {
       "fixture": {
         "id": 1055287,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-03-10T19:00:00+00:00",
         "timestamp": 1710097200,
@@ -14838,7 +14838,7 @@
     {
       "fixture": {
         "id": 1055288,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-03-08T19:00:00+00:00",
         "timestamp": 1709924400,
@@ -14906,7 +14906,7 @@
     {
       "fixture": {
         "id": 1055289,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "P. van Boekel",
         "timezone": "UTC",
         "date": "2024-03-10T13:30:00+00:00",
         "timestamp": 1710077400,
@@ -14974,7 +14974,7 @@
     {
       "fixture": {
         "id": 1055290,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2024-03-10T15:45:00+00:00",
         "timestamp": 1710085500,
@@ -15042,7 +15042,7 @@
     {
       "fixture": {
         "id": 1055291,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-03-09T20:00:00+00:00",
         "timestamp": 1710014400,
@@ -15110,7 +15110,7 @@
     {
       "fixture": {
         "id": 1055292,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2024-03-10T13:30:00+00:00",
         "timestamp": 1710077400,
@@ -15178,7 +15178,7 @@
     {
       "fixture": {
         "id": 1055293,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-03-09T17:45:00+00:00",
         "timestamp": 1710006300,
@@ -15246,7 +15246,7 @@
     {
       "fixture": {
         "id": 1055294,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-03-10T11:15:00+00:00",
         "timestamp": 1710069300,
@@ -15314,7 +15314,7 @@
     {
       "fixture": {
         "id": 1055295,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-03-16T17:45:00+00:00",
         "timestamp": 1710611100,
@@ -15382,7 +15382,7 @@
     {
       "fixture": {
         "id": 1055296,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2024-03-16T19:00:00+00:00",
         "timestamp": 1710615600,
@@ -15450,7 +15450,7 @@
     {
       "fixture": {
         "id": 1055297,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-03-17T13:30:00+00:00",
         "timestamp": 1710682200,
@@ -15518,7 +15518,7 @@
     {
       "fixture": {
         "id": 1055298,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2024-03-16T20:00:00+00:00",
         "timestamp": 1710619200,
@@ -15586,7 +15586,7 @@
     {
       "fixture": {
         "id": 1055299,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-03-15T19:00:00+00:00",
         "timestamp": 1710529200,
@@ -15654,7 +15654,7 @@
     {
       "fixture": {
         "id": 1055300,
-        "referee": "Jochem Kamphuis, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-03-17T13:30:00+00:00",
         "timestamp": 1710682200,
@@ -15722,7 +15722,7 @@
     {
       "fixture": {
         "id": 1055301,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "J. Kooij",
         "timezone": "UTC",
         "date": "2024-03-17T19:00:00+00:00",
         "timestamp": 1710702000,
@@ -15790,7 +15790,7 @@
     {
       "fixture": {
         "id": 1055302,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-03-17T11:15:00+00:00",
         "timestamp": 1710674100,
@@ -15858,7 +15858,7 @@
     {
       "fixture": {
         "id": 1055303,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-03-17T15:45:00+00:00",
         "timestamp": 1710690300,
@@ -15926,7 +15926,7 @@
     {
       "fixture": {
         "id": 1055304,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-03-31T12:30:00+00:00",
         "timestamp": 1711888200,
@@ -15994,7 +15994,7 @@
     {
       "fixture": {
         "id": 1055305,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-03-30T19:00:00+00:00",
         "timestamp": 1711825200,
@@ -16062,7 +16062,7 @@
     {
       "fixture": {
         "id": 1055306,
-        "referee": "Joey Kooij, Netherlands",
+        "referee": "R. Hensgens",
         "timezone": "UTC",
         "date": "2024-03-31T14:45:00+00:00",
         "timestamp": 1711896300,
@@ -16130,7 +16130,7 @@
     {
       "fixture": {
         "id": 1055307,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-03-30T20:00:00+00:00",
         "timestamp": 1711828800,
@@ -16198,7 +16198,7 @@
     {
       "fixture": {
         "id": 1055308,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2024-03-30T19:00:00+00:00",
         "timestamp": 1711825200,
@@ -16266,7 +16266,7 @@
     {
       "fixture": {
         "id": 1055309,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-03-31T10:15:00+00:00",
         "timestamp": 1711880100,
@@ -16334,7 +16334,7 @@
     {
       "fixture": {
         "id": 1055310,
-        "referee": "Pol van Boekel, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-03-30T15:30:00+00:00",
         "timestamp": 1711812600,
@@ -16402,7 +16402,7 @@
     {
       "fixture": {
         "id": 1055311,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-03-31T12:30:00+00:00",
         "timestamp": 1711888200,
@@ -16470,7 +16470,7 @@
     {
       "fixture": {
         "id": 1055312,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-03-30T17:45:00+00:00",
         "timestamp": 1711820700,
@@ -16538,7 +16538,7 @@
     {
       "fixture": {
         "id": 1055313,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-04-04T16:45:00+00:00",
         "timestamp": 1712249100,
@@ -16606,7 +16606,7 @@
     {
       "fixture": {
         "id": 1055314,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-04-04T18:00:00+00:00",
         "timestamp": 1712253600,
@@ -16674,7 +16674,7 @@
     {
       "fixture": {
         "id": 1055315,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-04-02T18:00:00+00:00",
         "timestamp": 1712080800,
@@ -16742,7 +16742,7 @@
     {
       "fixture": {
         "id": 1055316,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-04-03T19:00:00+00:00",
         "timestamp": 1712170800,
@@ -16810,7 +16810,7 @@
     {
       "fixture": {
         "id": 1055317,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-04-03T18:00:00+00:00",
         "timestamp": 1712167200,
@@ -16878,7 +16878,7 @@
     {
       "fixture": {
         "id": 1055318,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-04-04T19:00:00+00:00",
         "timestamp": 1712257200,
@@ -16946,7 +16946,7 @@
     {
       "fixture": {
         "id": 1055319,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-04-03T16:45:00+00:00",
         "timestamp": 1712162700,
@@ -17014,7 +17014,7 @@
     {
       "fixture": {
         "id": 1055320,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2024-04-02T16:45:00+00:00",
         "timestamp": 1712076300,
@@ -17082,7 +17082,7 @@
     {
       "fixture": {
         "id": 1055321,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2024-04-02T19:00:00+00:00",
         "timestamp": 1712084400,
@@ -17150,7 +17150,7 @@
     {
       "fixture": {
         "id": 1055322,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-04-07T12:30:00+00:00",
         "timestamp": 1712493000,
@@ -17218,7 +17218,7 @@
     {
       "fixture": {
         "id": 1055323,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-04-07T14:45:00+00:00",
         "timestamp": 1712501100,
@@ -17286,7 +17286,7 @@
     {
       "fixture": {
         "id": 1055324,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-04-07T18:00:00+00:00",
         "timestamp": 1712512800,
@@ -17354,7 +17354,7 @@
     {
       "fixture": {
         "id": 1055325,
-        "referee": "Martin Perez, Netherlands",
+        "referee": "M. Perez",
         "timezone": "UTC",
         "date": "2024-04-06T18:00:00+00:00",
         "timestamp": 1712426400,
@@ -17422,7 +17422,7 @@
     {
       "fixture": {
         "id": 1055326,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-04-06T16:45:00+00:00",
         "timestamp": 1712421900,
@@ -17490,7 +17490,7 @@
     {
       "fixture": {
         "id": 1055327,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-04-07T10:15:00+00:00",
         "timestamp": 1712484900,
@@ -17558,7 +17558,7 @@
     {
       "fixture": {
         "id": 1055328,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-04-07T12:30:00+00:00",
         "timestamp": 1712493000,
@@ -17626,7 +17626,7 @@
     {
       "fixture": {
         "id": 1055329,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-04-06T19:00:00+00:00",
         "timestamp": 1712430000,
@@ -17694,7 +17694,7 @@
     {
       "fixture": {
         "id": 1055330,
-        "referee": "Laurens Gerrets, Netherlands",
+        "referee": "L. Gerrets",
         "timezone": "UTC",
         "date": "2024-04-06T14:30:00+00:00",
         "timestamp": 1712413800,
@@ -17762,7 +17762,7 @@
     {
       "fixture": {
         "id": 1055331,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-04-12T18:00:00+00:00",
         "timestamp": 1712944800,
@@ -17830,7 +17830,7 @@
     {
       "fixture": {
         "id": 1055332,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-04-14T12:30:00+00:00",
         "timestamp": 1713097800,
@@ -17898,7 +17898,7 @@
     {
       "fixture": {
         "id": 1055333,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-04-13T14:30:00+00:00",
         "timestamp": 1713018600,
@@ -17966,7 +17966,7 @@
     {
       "fixture": {
         "id": 1055334,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-04-13T19:00:00+00:00",
         "timestamp": 1713034800,
@@ -18034,7 +18034,7 @@
     {
       "fixture": {
         "id": 1055335,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-04-14T18:00:00+00:00",
         "timestamp": 1713117600,
@@ -18102,7 +18102,7 @@
     {
       "fixture": {
         "id": 1055336,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-04-13T16:45:00+00:00",
         "timestamp": 1713026700,
@@ -18170,7 +18170,7 @@
     {
       "fixture": {
         "id": 1055337,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-04-14T10:15:00+00:00",
         "timestamp": 1713089700,
@@ -18238,7 +18238,7 @@
     {
       "fixture": {
         "id": 1055338,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-04-14T12:30:00+00:00",
         "timestamp": 1713097800,
@@ -18306,7 +18306,7 @@
     {
       "fixture": {
         "id": 1055339,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-04-14T14:45:00+00:00",
         "timestamp": 1713105900,
@@ -18374,7 +18374,7 @@
     {
       "fixture": {
         "id": 1055340,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-04-24T16:45:00+00:00",
         "timestamp": 1713977100,
@@ -18442,7 +18442,7 @@
     {
       "fixture": {
         "id": 1055341,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2024-04-25T19:00:00+00:00",
         "timestamp": 1714071600,
@@ -18510,7 +18510,7 @@
     {
       "fixture": {
         "id": 1055342,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-04-25T16:45:00+00:00",
         "timestamp": 1714063500,
@@ -18578,7 +18578,7 @@
     {
       "fixture": {
         "id": 1055343,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-04-28T10:15:00+00:00",
         "timestamp": 1714299300,
@@ -18646,7 +18646,7 @@
     {
       "fixture": {
         "id": 1055344,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-04-28T10:15:00+00:00",
         "timestamp": 1714299300,
@@ -18714,7 +18714,7 @@
     {
       "fixture": {
         "id": 1055345,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-04-24T19:00:00+00:00",
         "timestamp": 1713985200,
@@ -18782,7 +18782,7 @@
     {
       "fixture": {
         "id": 1055346,
-        "referee": "Robin Hensgens, Netherlands",
+        "referee": "R. Hensgens",
         "timezone": "UTC",
         "date": "2024-04-28T14:45:00+00:00",
         "timestamp": 1714315500,
@@ -18850,7 +18850,7 @@
     {
       "fixture": {
         "id": 1055347,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-04-28T12:30:00+00:00",
         "timestamp": 1714307400,
@@ -18918,7 +18918,7 @@
     {
       "fixture": {
         "id": 1055348,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-04-28T12:30:00+00:00",
         "timestamp": 1714307400,
@@ -18986,7 +18986,7 @@
     {
       "fixture": {
         "id": 1055349,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-05-03T18:00:00+00:00",
         "timestamp": 1714759200,
@@ -19054,7 +19054,7 @@
     {
       "fixture": {
         "id": 1055350,
-        "referee": "Martijn Vos, Netherlands",
+        "referee": "M. Vos",
         "timezone": "UTC",
         "date": "2024-05-03T18:00:00+00:00",
         "timestamp": 1714759200,
@@ -19122,7 +19122,7 @@
     {
       "fixture": {
         "id": 1055351,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-05-05T14:45:00+00:00",
         "timestamp": 1714920300,
@@ -19190,7 +19190,7 @@
     {
       "fixture": {
         "id": 1055352,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-05-05T10:15:00+00:00",
         "timestamp": 1714904100,
@@ -19258,7 +19258,7 @@
     {
       "fixture": {
         "id": 1055353,
-        "referee": "Rob Dieperink, Netherlands",
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-05-05T12:30:00+00:00",
         "timestamp": 1714912200,
@@ -19326,7 +19326,7 @@
     {
       "fixture": {
         "id": 1055354,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-05-05T10:15:00+00:00",
         "timestamp": 1714904100,
@@ -19394,7 +19394,7 @@
     {
       "fixture": {
         "id": 1055355,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-05-05T12:30:00+00:00",
         "timestamp": 1714912200,
@@ -19462,7 +19462,7 @@
     {
       "fixture": {
         "id": 1055356,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-05-06T18:00:00+00:00",
         "timestamp": 1715018400,
@@ -19530,7 +19530,7 @@
     {
       "fixture": {
         "id": 1055357,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-05-05T18:00:00+00:00",
         "timestamp": 1714932000,
@@ -19598,7 +19598,7 @@
     {
       "fixture": {
         "id": 1055358,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -19666,7 +19666,7 @@
     {
       "fixture": {
         "id": 1055359,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -19734,7 +19734,7 @@
     {
       "fixture": {
         "id": 1055360,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -19802,7 +19802,7 @@
     {
       "fixture": {
         "id": 1055361,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -19870,7 +19870,7 @@
     {
       "fixture": {
         "id": 1055362,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -19938,7 +19938,7 @@
     {
       "fixture": {
         "id": 1055363,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "S. Gözübüyük",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -20006,7 +20006,7 @@
     {
       "fixture": {
         "id": 1055364,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -20074,7 +20074,7 @@
     {
       "fixture": {
         "id": 1055365,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -20142,7 +20142,7 @@
     {
       "fixture": {
         "id": 1055366,
-        "referee": "Richard Martens, Netherlands",
+        "referee": "R. Martens",
         "timezone": "UTC",
         "date": "2024-05-12T12:30:00+00:00",
         "timestamp": 1715517000,
@@ -20210,7 +20210,7 @@
     {
       "fixture": {
         "id": 1055367,
-        "referee": "Edwin Van de Graaf, Netherlands",
+        "referee": "E. van de Graaf",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20278,7 +20278,7 @@
     {
       "fixture": {
         "id": 1055368,
-        "referee": "Bas Nijhuis, Netherlands",
+        "referee": "B. Nijhuis",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20346,7 +20346,7 @@
     {
       "fixture": {
         "id": 1055369,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20414,7 +20414,7 @@
     {
       "fixture": {
         "id": 1055370,
-        "referee": "Allard Lindhout, Netherlands",
+        "referee": "A. Lindhout",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20482,7 +20482,7 @@
     {
       "fixture": {
         "id": 1055371,
-        "referee": "Jeroen Manschot, Netherlands",
+        "referee": "J. Manschot",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20550,7 +20550,7 @@
     {
       "fixture": {
         "id": 1055372,
-        "referee": "Dennis Higler, Netherlands",
+        "referee": "D. Higler",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20618,7 +20618,7 @@
     {
       "fixture": {
         "id": 1055373,
-        "referee": "Danny Desmond Makkelie, Netherlands",
+        "referee": "D. Makkelie",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20686,7 +20686,7 @@
     {
       "fixture": {
         "id": 1055374,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20754,7 +20754,7 @@
     {
       "fixture": {
         "id": 1055375,
-        "referee": "Erwin Blank, Netherlands",
+        "referee": "E. Blank",
         "timezone": "UTC",
         "date": "2024-05-19T12:30:00+00:00",
         "timestamp": 1716121800,
@@ -20822,7 +20822,7 @@
     {
       "fixture": {
         "id": 1200150,
-        "referee": "Ingmar Oostrom, Netherlands",
+        "referee": "I. Oostrom",
         "timezone": "UTC",
         "date": "2024-05-13T18:00:00+00:00",
         "timestamp": 1715623200,
@@ -20890,7 +20890,7 @@
     {
       "fixture": {
         "id": 1200151,
-        "referee": "Jannick van der Laan, Netherlands",
+        "referee": "J. van der Laan",
         "timezone": "UTC",
         "date": "2024-05-17T18:00:00+00:00",
         "timestamp": 1715968800,
@@ -20958,7 +20958,7 @@
     {
       "fixture": {
         "id": 1200152,
-        "referee": "Sander van der Eijk, Netherlands",
+        "referee": "S. van der Eijk",
         "timezone": "UTC",
         "date": "2024-05-14T16:45:00+00:00",
         "timestamp": 1715705100,
@@ -21026,7 +21026,7 @@
     {
       "fixture": {
         "id": 1200153,
-        "referee": "Martin Van den Kerkhof, Netherlands",
+        "referee": "M. van den Kerkhof",
         "timezone": "UTC",
         "date": "2024-05-18T14:30:00+00:00",
         "timestamp": 1716042600,
@@ -21094,7 +21094,7 @@
     {
       "fixture": {
         "id": 1200154,
-        "referee": "Marc Nagtegaal, Netherlands",
+        "referee": "M. Nagtegaal",
         "timezone": "UTC",
         "date": "2024-05-14T19:00:00+00:00",
         "timestamp": 1715713200,
@@ -21162,7 +21162,7 @@
     {
       "fixture": {
         "id": 1200155,
-        "referee": "Alex Bos, Netherlands",
+        "referee": "A. Bos",
         "timezone": "UTC",
         "date": "2024-05-18T18:00:00+00:00",
         "timestamp": 1716055200,
@@ -21235,8 +21235,8 @@
         "date": "2024-05-21T18:00:00+00:00",
         "timestamp": 1716314400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716314400,
+          "second": 1716318000
         },
         "venue": {
           "id": 1139,
@@ -21244,9 +21244,9 @@
           "city": "Breda"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21273,17 +21273,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -21298,23 +21298,23 @@
     {
       "fixture": {
         "id": 1200650,
-        "referee": null,
+        "referee": "R. Dieperink",
         "timezone": "UTC",
         "date": "2024-05-25T14:30:00+00:00",
         "timestamp": 1716647400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1716647400,
+          "second": 1716651000
         },
         "venue": {
-          "id": null,
-          "name": null,
-          "city": null
+          "id": 10504,
+          "name": "De Oude Meerdijk",
+          "city": "Emmen"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -21331,27 +21331,503 @@
           "id": 208,
           "name": "Emmen",
           "logo": "https://media.api-sports.io/football/teams/208.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 203,
           "name": "NAC Breda",
           "logo": "https://media.api-sports.io/football/teams/203.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "score": {
         "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 3
+        },
+        "extratime": {
           "home": null,
           "away": null
         },
-        "fulltime": {
+        "penalty": {
           "home": null,
           "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200717,
+        "referee": "B. Nijhuis",
+        "timezone": "UTC",
+        "date": "2024-05-23T16:45:00+00:00",
+        "timestamp": 1716482700,
+        "periods": {
+          "first": 1716482700,
+          "second": 1716486300
+        },
+        "venue": {
+          "id": 1140,
+          "name": "Goffertstadion",
+          "city": "Nijmegen"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2023,
+        "round": "Conference League Play-offs - Semi-finals"
+      },
+      "teams": {
+        "home": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png",
+          "winner": false
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200718,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-05-23T19:00:00+00:00",
+        "timestamp": 1716490800,
+        "periods": {
+          "first": 1716490800,
+          "second": 1716494400
+        },
+        "venue": {
+          "id": 1154,
+          "name": "Stadion Galgenwaard",
+          "city": "Utrecht"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2023,
+        "round": "Conference League Play-offs - Semi-finals"
+      },
+      "teams": {
+        "home": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": true
+        },
+        "away": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200719,
+        "referee": "S. van der Eijk",
+        "timezone": "UTC",
+        "date": "2024-05-22T16:45:00+00:00",
+        "timestamp": 1716396300,
+        "periods": {
+          "first": 1716396300,
+          "second": 1716399900
+        },
+        "venue": {
+          "id": 19212,
+          "name": "Bingoal Stadion",
+          "city": "‘s-Gravenhage"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2023,
+        "round": "Relegation Round"
+      },
+      "teams": {
+        "home": {
+          "id": 198,
+          "name": "ADO Den Haag",
+          "logo": "https://media.api-sports.io/football/teams/198.png",
+          "winner": false
+        },
+        "away": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1200720,
+        "referee": "J. Manschot",
+        "timezone": "UTC",
+        "date": "2024-05-25T18:00:00+00:00",
+        "timestamp": 1716660000,
+        "periods": {
+          "first": 1716660000,
+          "second": 1716663600
+        },
+        "venue": {
+          "id": 2901,
+          "name": "Van Donge & De Roo Stadion",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2023,
+        "round": "Relegation Round"
+      },
+      "teams": {
+        "home": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png",
+          "winner": true
+        },
+        "away": {
+          "id": 198,
+          "name": "ADO Den Haag",
+          "logo": "https://media.api-sports.io/football/teams/198.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 7,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1201079,
+        "referee": "A. Lindhout",
+        "timezone": "UTC",
+        "date": "2024-05-26T16:00:00+00:00",
+        "timestamp": 1716739200,
+        "periods": {
+          "first": 1716739200,
+          "second": 1716742800
+        },
+        "venue": {
+          "id": 1154,
+          "name": "Stadion Galgenwaard",
+          "city": "Utrecht"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2023,
+        "round": "Conference League Play-offs - Final"
+      },
+      "teams": {
+        "home": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png",
+          "winner": false
+        },
+        "away": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": 0,
+          "away": 1
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1201219,
+        "referee": "D. Higler",
+        "timezone": "UTC",
+        "date": "2024-05-28T18:00:00+00:00",
+        "timestamp": 1716919200,
+        "periods": {
+          "first": 1716919200,
+          "second": 1716922800
+        },
+        "venue": {
+          "id": 1139,
+          "name": "Rat Verlegh Stadion",
+          "city": "Breda"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2023,
+        "round": "Relegation Round"
+      },
+      "teams": {
+        "home": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": true
+        },
+        "away": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 6,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 6,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1201220,
+        "referee": "D. Makkelie",
+        "timezone": "UTC",
+        "date": "2024-06-02T16:00:00+00:00",
+        "timestamp": 1717344000,
+        "periods": {
+          "first": 1717344000,
+          "second": 1717347600
+        },
+        "venue": {
+          "id": 2901,
+          "name": "Van Donge & De Roo Stadion",
+          "city": "Rotterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "flag": "https://media.api-sports.io/flags/nl.svg",
+        "season": 2023,
+        "round": "Relegation Round"
+      },
+      "teams": {
+        "home": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png",
+          "winner": true
+        },
+        "away": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
         },
         "extratime": {
           "home": null,
