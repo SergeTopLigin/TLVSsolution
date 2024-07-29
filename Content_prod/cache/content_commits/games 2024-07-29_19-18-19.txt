@@ -1,0 +1,134 @@
+                                       30|04|2024
+
+ UCL    1/2                Bayern Munich   2:2   Real Madrid              
+                           GER-3    TL-2         TL-3    ESP-1 
+                           UCL|TL|league         UCL|TL|league           
+
+                                       01|05|2024
+
+ UCL    1/2            Borussia Dortmund   1:0   Paris Saint Germain      
+                           GER-5    TL-8         TL-4    FRA-1 
+                                  UCL|TL         UCL|TL|league           
+
+                                       02|05|2024
+
+ UEL    1/2                    Marseille   1:1   Atalanta                 
+                           FRA-8   TL-43         TL-19   ITA-5 
+                                     UEL         UEL                     
+
+ UEL    1/2                      AS Roma   0:2   Bayer Leverkusen         
+                           ITA-6    TL-6         TL-13   GER-1 
+                                  UEL|TL         UEL|league              
+
+                                       04|05|2024
+
+GER-L  RS-32               VfB Stuttgart   3:1   Bayern Munich            
+                           GER-2 TL-None         TL-2    GER-3 
+                                  league         UCL|TL|league           
+
+ESP-L  RS-34                      Girona   4:2   Barcelona                
+                           ESP-3 TL-None         TL-12   ESP-2 
+                                  league         UCL|league              
+
+                                       05|05|2024
+
+ITA-L  RS-35                     AS Roma   1:1   Juventus                 
+                           ITA-6    TL-6         TL-18   ITA-4 
+                                  UEL|TL         cup                     
+
+                                       07|05|2024
+
+ UCL    1/2          Paris Saint Germain   0:1   Borussia Dortmund        
+                           FRA-1    TL-4         TL-8    GER-5 
+                           UCL|TL|league         UCL|TL                  
+
+                                       08|05|2024
+
+ UCL    1/2                  Real Madrid   2:1   Bayern Munich            
+                           ESP-1    TL-3         TL-2    GER-3 
+                           UCL|TL|league         UCL|TL|league           
+
+                                       09|05|2024
+
+ UEL    1/2                     Atalanta   3:0   Marseille                
+                           ITA-5   TL-19         TL-43   FRA-8 
+                                     UEL         UEL                     
+
+ UEL    1/2             Bayer Leverkusen   2:2   AS Roma                  
+                           GER-1   TL-13         TL-6    ITA-6 
+                              UEL|league         UEL|TL                  
+
+                                       11|05|2024
+
+ITA-L  RS-36                      Napoli   0:2   Bologna                  
+                          ITA-10   TL-17         TL-None ITA-3 
+                                     UCL         league                  
+
+                                       12|05|2024
+
+ENG-L  RS-37           Manchester United   0:1   Arsenal                  
+                           ENG-8   TL-11         TL-22   ENG-2 
+                                     cup         UCL|league              
+
+ITA-L  RS-36                    Atalanta   2:1   AS Roma                  
+                           ITA-5   TL-19         TL-6    ITA-6 
+                                     UEL         UEL|TL                  
+
+                                       13|05|2024
+
+ESP-L  RS-35                   Barcelona   2:0   Real Sociedad            
+                           ESP-2   TL-12         TL-38   ESP-6 
+                              UCL|league         UCL                     
+
+                                       19|05|2024
+
+ITA-L  RS-37                       Inter   1:1   Lazio                    
+                           ITA-1    TL-7         TL-32   ITA-7 
+                           UCL|TL|league         UCL                     
+
+                                       20|05|2024
+
+ITA-L  RS-37                     Bologna   3:3   Juventus                 
+                           ITA-3 TL-None         TL-18   ITA-4 
+                                  league         cup                     
+
+                                       22|05|2024
+
+ UEL   Final                    Atalanta   3:0   Bayer Leverkusen         
+                           ITA-5   TL-19         TL-13   GER-1 
+                                     UEL         UEL|league              
+
+                                       25|05|2024
+
+ENG-C  Final             Manchester City   1:2   Manchester United        
+                           ENG-1    TL-1         TL-11   ENG-8 
+                       UCL|TL|league|cup         cup                     
+
+ESP-L  RS-38               Real Sociedad   0:2   Atletico Madrid          
+                           ESP-6   TL-38         TL-14   ESP-4 
+                                     UCL         UCL|league              
+
+                                       26|05|2024
+
+POR-C  Final                    FC Porto   1:1   Sporting CP              
+                           POR-3   TL-21         TL-31   POR-1 
+                                     UCL         league                  
+
+                                       01|06|2024
+
+ UCL   Final           Borussia Dortmund   0:2   Real Madrid              
+                           GER-5    TL-8         TL-3    ESP-1 
+                                  UCL|TL         UCL|TL|league           
+
+                                       14|08|2024
+
+ USC   Final                 Real Madrid  19:00  Atalanta                 
+                           ESP-6    TL-3         TL-17   ITA-13
+                           UCL|TL|league         UEL                     
+
+                                       18|08|2024
+
+ENG-L  RS-1                      Chelsea  15:30  Manchester City          
+                           ENG-3   TL-10         TL-1    ENG-7 
+                                      TL         UCL|TL|league           
+
