@@ -270,13 +270,13 @@ try:    # обработка исключений для определения 
             if tourn[0].find("League") != -1:   # для League: если рассматриваемая дата с августа по декабрь - оставить оба турнира, иначе только curr
                 tourn[2] = 0        # изменение элемента на Rating
                 tourn.insert(3, 0)  # добавление элемента Quota
-                if DateNow.month < 8 and tourn[1] == "prev":
+                if DateNow.month < 7 and tourn[1] == "prev":
                     Del_tourn.append(tourn)
-                if DateNow.month < 8 and tourn[1] == "curr":
+                if DateNow.month < 7 and tourn[1] == "curr":
                     tourn[1] = str(DateNow.year-1)[2:]+"-"+str(DateNow.year)[2:]
-                if DateNow.month > 7 and tourn[1] == "prev":
+                if DateNow.month > 6 and tourn[1] == "prev":
                     tourn[1] = str(DateNow.year-1)[2:]+"-"+str(DateNow.year)[2:]
-                if DateNow.month > 7 and tourn[1] == "curr":
+                if DateNow.month > 6 and tourn[1] == "curr":
                     tourn[1] = str(DateNow.year)[2:]+"-"+str(DateNow.year+1)[2:]
             if tourn[0].find("Cup") != -1:  # для всех кубковых турниров учитываются: незавершившийся турнир и предыдущий, если с его финала прошло <150 дней
                 func_cup_files(tourn[0], DateNow)   # актуализация файлов кубков

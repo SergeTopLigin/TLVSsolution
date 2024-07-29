@@ -74,7 +74,7 @@ try:    # обработка исключений для определения 
     moment_timestamp = worktimes[-1][1]   # время момента расчета
     moment_datetime = datetime.date.fromtimestamp(moment_timestamp)
     # определение текущего сезона
-    season = moment_datetime.year if moment_datetime.month > 7 else moment_datetime.year - 1
+    season = moment_datetime.year if moment_datetime.month > 6 else moment_datetime.year - 1
     season = str(season)[2:]+'-'+str(season+1)[2:]
     # поиск игр между участниками, начинающихся в течение месяца после момента расчета, по fixtures 
         # всех турниров UEFA и всех турниров нац ассоциаций с participants >1 (по participants_nat.json)
