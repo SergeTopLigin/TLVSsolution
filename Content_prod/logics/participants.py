@@ -310,8 +310,10 @@ try:    # обработка исключений для определения 
                         if club['team']['id'] in other:
                             update_time = club['update'][:10]
                             # обновить файл standings если standings не обновлялся больше недели
-                            if datetime.datetime.utcnow() - datetime.timedelta(days=7) > \
-                            datetime.datetime(int(update_time[:4]), int(update_time[5:7]), int(update_time[8:])):
+                            # И текущая дата до июля стартового года турнира + год
+                            if (datetime.datetime.utcnow() - datetime.timedelta(days=7) > \
+                            datetime.datetime(int(update_time[:4]), int(update_time[5:7]), int(update_time[8:]))) and \
+                            (datetime.datetime.utcnow() < datetime.datetime(int(league_standings['parameters']['season'])+1, 7, 1)):
                                 LeagueID = [tourn[3] for tourn in Nat_Tournaments[ass] if tourn[0] == ass+' League'][0]
                                 Season = str(datetime.datetime.utcnow().year if datetime.datetime.utcnow().month > 7 else datetime.datetime.utcnow().year -1)
                                 answer = api_key("/standings?league="+str(LeagueID)+"&season="+Season)
