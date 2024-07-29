@@ -1,0 +1,2191 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "3",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 32,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1208482,
+        "referee": "D. Dickinson",
+        "timezone": "UTC",
+        "date": "2024-07-11T18:00:00+00:00",
+        "timestamp": 1720720800,
+        "periods": {
+          "first": 1720720800,
+          "second": 1720724400
+        },
+        "venue": {
+          "id": 19922,
+          "name": "Stadion Hristo Botev",
+          "city": "Plovdiv"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 634,
+          "name": "Botev Plovdiv",
+          "logo": "https://media.api-sports.io/football/teams/634.png",
+          "winner": true
+        },
+        "away": {
+          "id": 552,
+          "name": "Maribor",
+          "logo": "https://media.api-sports.io/football/teams/552.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208483,
+        "referee": "V. Romanov",
+        "timezone": "UTC",
+        "date": "2024-07-18T18:15:00+00:00",
+        "timestamp": 1721326500,
+        "periods": {
+          "first": 1721326500,
+          "second": 1721330100
+        },
+        "venue": {
+          "id": 1441,
+          "name": "Ljudski vrt",
+          "city": "Maribor"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 552,
+          "name": "Maribor",
+          "logo": "https://media.api-sports.io/football/teams/552.png",
+          "winner": null
+        },
+        "away": {
+          "id": 634,
+          "name": "Botev Plovdiv",
+          "logo": "https://media.api-sports.io/football/teams/634.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208484,
+        "referee": "D. Panchyshyn",
+        "timezone": "UTC",
+        "date": "2024-07-11T17:00:00+00:00",
+        "timestamp": 1720717200,
+        "periods": {
+          "first": 1720717200,
+          "second": 1720720800
+        },
+        "venue": {
+          "id": 1507,
+          "name": "Borås Arena",
+          "city": "Borås"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 372,
+          "name": "IF elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208485,
+        "referee": "G. Laibuvitz",
+        "timezone": "UTC",
+        "date": "2024-07-18T16:00:00+00:00",
+        "timestamp": 1721318400,
+        "periods": {
+          "first": 1721318400,
+          "second": 1721322000
+        },
+        "venue": {
+          "id": 19616,
+          "name": "Alphamega Stadium",
+          "city": "Kolossi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 3403,
+          "name": "Pafos",
+          "logo": "https://media.api-sports.io/football/teams/3403.png",
+          "winner": false
+        },
+        "away": {
+          "id": 372,
+          "name": "IF elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 5
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 5
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208486,
+        "referee": "M. Aslam",
+        "timezone": "UTC",
+        "date": "2024-07-11T17:00:00+00:00",
+        "timestamp": 1720717200,
+        "periods": {
+          "first": 1720717200,
+          "second": 1720720800
+        },
+        "venue": {
+          "id": 809,
+          "name": "Paksi FC Stadion",
+          "city": "Paks"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png",
+          "winner": false
+        },
+        "away": {
+          "id": 20034,
+          "name": "Corvinul Hunedoara",
+          "logo": "https://media.api-sports.io/football/teams/20034.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 4
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208487,
+        "referee": "P. Kralovic",
+        "timezone": "UTC",
+        "date": "2024-07-18T18:00:00+00:00",
+        "timestamp": 1721325600,
+        "periods": {
+          "first": 1721325600,
+          "second": 1721329200
+        },
+        "venue": {
+          "id": 1894,
+          "name": "Stadionul Municipal",
+          "city": "Sibiu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 20034,
+          "name": "Corvinul Hunedoara",
+          "logo": "https://media.api-sports.io/football/teams/20034.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2390,
+          "name": "Paks",
+          "logo": "https://media.api-sports.io/football/teams/2390.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208488,
+        "referee": "A. Dudic",
+        "timezone": "UTC",
+        "date": "2024-07-11T17:00:00+00:00",
+        "timestamp": 1720717200,
+        "periods": {
+          "first": 1720717200,
+          "second": 1720720800
+        },
+        "venue": {
+          "id": 1093,
+          "name": "Bolshaya Sportivnaya Arena",
+          "city": "Tiraspol"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": false
+        },
+        "away": {
+          "id": 648,
+          "name": "Zira",
+          "logo": "https://media.api-sports.io/football/teams/648.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208489,
+        "referee": "B. Saryev",
+        "timezone": "UTC",
+        "date": "2024-07-18T16:00:00+00:00",
+        "timestamp": 1721318400,
+        "periods": {
+          "first": 1721318400,
+          "second": 1721322000
+        },
+        "venue": {
+          "id": null,
+          "name": "Liv Bona Dea Arena",
+          "city": "Baku"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 648,
+          "name": "Zira",
+          "logo": "https://media.api-sports.io/football/teams/648.png",
+          "winner": false
+        },
+        "away": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 4,
+          "away": 5
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208490,
+        "referee": "M. Nagtegaal",
+        "timezone": "UTC",
+        "date": "2024-07-11T18:30:00+00:00",
+        "timestamp": 1720722600,
+        "periods": {
+          "first": 1720722600,
+          "second": 1720726200
+        },
+        "venue": {
+          "id": 1258,
+          "name": "Stadion Miejski im. Henryka Reymana",
+          "city": "Kraków"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 338,
+          "name": "Wisla Krakow",
+          "logo": "https://media.api-sports.io/football/teams/338.png",
+          "winner": true
+        },
+        "away": {
+          "id": 14395,
+          "name": "Llapi",
+          "logo": "https://media.api-sports.io/football/teams/14395.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208491,
+        "referee": "T. Farrugia Cann",
+        "timezone": "UTC",
+        "date": "2024-07-18T14:30:00+00:00",
+        "timestamp": 1721313000,
+        "periods": {
+          "first": 1721313000,
+          "second": 1721316600
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadiumi Zahir Pajaziti",
+          "city": "Besiana, Podujevo"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 14395,
+          "name": "Llapi",
+          "logo": "https://media.api-sports.io/football/teams/14395.png",
+          "winner": false
+        },
+        "away": {
+          "id": 338,
+          "name": "Wisla Krakow",
+          "logo": "https://media.api-sports.io/football/teams/338.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208492,
+        "referee": "K. Athanasiou",
+        "timezone": "UTC",
+        "date": "2024-07-11T17:00:00+00:00",
+        "timestamp": 1720717200,
+        "periods": {
+          "first": 1720717200,
+          "second": 1720720800
+        },
+        "venue": {
+          "id": 2354,
+          "name": "Futbalový štadión MFK Ružomberok",
+          "city": "Ružomberok"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 3549,
+          "name": "Ružomberok",
+          "logo": "https://media.api-sports.io/football/teams/3549.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2259,
+          "name": "FK Tobol Kostanay",
+          "logo": "https://media.api-sports.io/football/teams/2259.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 5,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 2
+        },
+        "fulltime": {
+          "home": 5,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1208493,
+        "referee": "M. Redder",
+        "timezone": "UTC",
+        "date": "2024-07-18T15:00:00+00:00",
+        "timestamp": 1721314800,
+        "periods": {
+          "first": 1721314800,
+          "second": 1721318400
+        },
+        "venue": {
+          "id": null,
+          "name": "Ortalyq stadıon",
+          "city": "Kostanay"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "1st Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 2259,
+          "name": "FK Tobol Kostanay",
+          "logo": "https://media.api-sports.io/football/teams/2259.png",
+          "winner": true
+        },
+        "away": {
+          "id": 3549,
+          "name": "Ružomberok",
+          "logo": "https://media.api-sports.io/football/teams/3549.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209239,
+        "referee": "César Soto",
+        "timezone": "UTC",
+        "date": "2024-07-25T18:30:00+00:00",
+        "timestamp": 1721932200,
+        "periods": {
+          "first": 1721932200,
+          "second": 1721935800
+        },
+        "venue": {
+          "id": 1117,
+          "name": "Johan Cruijff Arena",
+          "city": "Amsterdam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": true
+        },
+        "away": {
+          "id": 702,
+          "name": "Vojvodina",
+          "logo": "https://media.api-sports.io/football/teams/702.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209240,
+        "referee": "A. Kardeşler",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:00:00+00:00",
+        "timestamp": 1722535200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 18679,
+          "name": "TSC Arena",
+          "city": "Bačka Topola"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 702,
+          "name": "Vojvodina",
+          "logo": "https://media.api-sports.io/football/teams/702.png",
+          "winner": null
+        },
+        "away": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209241,
+        "referee": "M. Dohál",
+        "timezone": "UTC",
+        "date": "2024-07-25T18:30:00+00:00",
+        "timestamp": 1721932200,
+        "periods": {
+          "first": 1721932200,
+          "second": 1721935800
+        },
+        "venue": {
+          "id": 19215,
+          "name": "The BBSP Stadium Rugby Park",
+          "city": "Kilmarnock"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": null
+        },
+        "away": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209242,
+        "referee": "S. Amland",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:00:00+00:00",
+        "timestamp": 1722535200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 176,
+          "name": "Jan Breydelstadion",
+          "city": "Brugge"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 741,
+          "name": "Cercle Brugge",
+          "logo": "https://media.api-sports.io/football/teams/741.png",
+          "winner": null
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209243,
+        "referee": "A. Ladebäck",
+        "timezone": "UTC",
+        "date": "2024-07-25T17:00:00+00:00",
+        "timestamp": 1721926800,
+        "periods": {
+          "first": 1721926800,
+          "second": 1721930400
+        },
+        "venue": {
+          "id": 1184,
+          "name": "Aker Stadion",
+          "city": "Molde"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": true
+        },
+        "away": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209244,
+        "referee": "L. Bilbija",
+        "timezone": "UTC",
+        "date": "2024-08-01T17:15:00+00:00",
+        "timestamp": 1722532500,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 459,
+          "name": "JYSK park",
+          "city": "Silkeborg"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 2073,
+          "name": "Silkeborg",
+          "logo": "https://media.api-sports.io/football/teams/2073.png",
+          "winner": null
+        },
+        "away": {
+          "id": 329,
+          "name": "Molde",
+          "logo": "https://media.api-sports.io/football/teams/329.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209245,
+        "referee": "L. Pairetto",
+        "timezone": "UTC",
+        "date": "2024-07-25T19:30:00+00:00",
+        "timestamp": 1721935800,
+        "periods": {
+          "first": 1721935800,
+          "second": 1721939400
+        },
+        "venue": {
+          "id": 1291,
+          "name": "Estádio Municipal de Braga",
+          "city": "Braga"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": true
+        },
+        "away": {
+          "id": 4495,
+          "name": "Maccabi Petah Tikva",
+          "logo": "https://media.api-sports.io/football/teams/4495.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1209246,
+        "referee": "E. Manouchos",
+        "timezone": "UTC",
+        "date": "2024-08-01T17:30:00+00:00",
+        "timestamp": 1722533400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 297,
+          "name": "Vivacom Arena - Georgi Asparuhov",
+          "city": "Sofia"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 4495,
+          "name": "Maccabi Petah Tikva",
+          "logo": "https://media.api-sports.io/football/teams/4495.png",
+          "winner": null
+        },
+        "away": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250994,
+        "referee": "M. Radina",
+        "timezone": "UTC",
+        "date": "2024-07-25T17:00:00+00:00",
+        "timestamp": 1721926800,
+        "periods": {
+          "first": 1721926800,
+          "second": 1721930400
+        },
+        "venue": {
+          "id": 1093,
+          "name": "Bolshaya Sportivnaya Arena",
+          "city": "Tiraspol"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": false
+        },
+        "away": {
+          "id": 372,
+          "name": "IF elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250995,
+        "referee": "A. Čulina",
+        "timezone": "UTC",
+        "date": "2024-08-01T17:00:00+00:00",
+        "timestamp": 1722531600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 1507,
+          "name": "Borås Arena",
+          "city": "Borås"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 372,
+          "name": "IF elfsborg",
+          "logo": "https://media.api-sports.io/football/teams/372.png",
+          "winner": null
+        },
+        "away": {
+          "id": 568,
+          "name": "Sheriff Tiraspol",
+          "logo": "https://media.api-sports.io/football/teams/568.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250996,
+        "referee": "B. Dankert",
+        "timezone": "UTC",
+        "date": "2024-07-25T16:30:00+00:00",
+        "timestamp": 1721925000,
+        "periods": {
+          "first": 1721925000,
+          "second": 1721928600
+        },
+        "venue": {
+          "id": 2354,
+          "name": "Futbalový štadión MFK Ružomberok",
+          "city": "Ružomberok"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 3549,
+          "name": "Ružomberok",
+          "logo": "https://media.api-sports.io/football/teams/3549.png",
+          "winner": false
+        },
+        "away": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250997,
+        "referee": "N. Minaković",
+        "timezone": "UTC",
+        "date": "2024-08-01T17:30:00+00:00",
+        "timestamp": 1722533400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 20189,
+          "name": "Papara Park",
+          "city": "Trabzon"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3549,
+          "name": "Ružomberok",
+          "logo": "https://media.api-sports.io/football/teams/3549.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250998,
+        "referee": "P. Farrugia",
+        "timezone": "UTC",
+        "date": "2024-07-25T17:00:00+00:00",
+        "timestamp": 1721926800,
+        "periods": {
+          "first": 1721926800,
+          "second": 1721930400
+        },
+        "venue": {
+          "id": 1894,
+          "name": "Stadionul Municipal",
+          "city": "Sibiu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 20034,
+          "name": "Corvinul Hunedoara",
+          "logo": "https://media.api-sports.io/football/teams/20034.png",
+          "winner": null
+        },
+        "away": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1250999,
+        "referee": "Luís Godinho",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:00:00+00:00",
+        "timestamp": 1722535200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 423,
+          "name": "Stadion HNK Rijeka",
+          "city": "Rijeka"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png",
+          "winner": null
+        },
+        "away": {
+          "id": 20034,
+          "name": "Corvinul Hunedoara",
+          "logo": "https://media.api-sports.io/football/teams/20034.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251000,
+        "referee": "M. Al Emara",
+        "timezone": "UTC",
+        "date": "2024-07-25T16:00:00+00:00",
+        "timestamp": 1721923200,
+        "periods": {
+          "first": 1721923200,
+          "second": 1721926800
+        },
+        "venue": {
+          "id": 1258,
+          "name": "Stadion Miejski im. Henryka Reymana",
+          "city": "Kraków"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 338,
+          "name": "Wisla Krakow",
+          "logo": "https://media.api-sports.io/football/teams/338.png",
+          "winner": false
+        },
+        "away": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 2
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251001,
+        "referee": "J. Brooks",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:30:00+00:00",
+        "timestamp": 1722537000,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 145,
+          "name": "Allianz Stadion",
+          "city": "Wien"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 781,
+          "name": "Rapid Vienna",
+          "logo": "https://media.api-sports.io/football/teams/781.png",
+          "winner": null
+        },
+        "away": {
+          "id": 338,
+          "name": "Wisla Krakow",
+          "logo": "https://media.api-sports.io/football/teams/338.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251002,
+        "referee": "D. Fuxman",
+        "timezone": "UTC",
+        "date": "2024-07-25T18:00:00+00:00",
+        "timestamp": 1721930400,
+        "periods": {
+          "first": 1721930400,
+          "second": 1721934000
+        },
+        "venue": {
+          "id": null,
+          "name": "Olympiako Stadio Spyros Louis",
+          "city": "Athens"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": true
+        },
+        "away": {
+          "id": 634,
+          "name": "Botev Plovdiv",
+          "logo": "https://media.api-sports.io/football/teams/634.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1251003,
+        "referee": "D. Schlager",
+        "timezone": "UTC",
+        "date": "2024-08-01T18:00:00+00:00",
+        "timestamp": 1722535200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 19922,
+          "name": "Stadion Hristo Botev",
+          "city": "Plovdiv"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "2nd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 634,
+          "name": "Botev Plovdiv",
+          "logo": "https://media.api-sports.io/football/teams/634.png",
+          "winner": null
+        },
+        "away": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1253321,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-08T00:00:00+00:00",
+        "timestamp": 1723075200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadion Hirnyk",
+          "city": "Kryvyi Rih"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png",
+          "winner": null
+        },
+        "away": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1253322,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-15T00:00:00+00:00",
+        "timestamp": 1723680000,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 438,
+          "name": "Doosan Aréna",
+          "city": "Plzeň"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png",
+          "winner": null
+        },
+        "away": {
+          "id": 6489,
+          "name": "Kryvbas KR",
+          "logo": "https://media.api-sports.io/football/teams/6489.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
