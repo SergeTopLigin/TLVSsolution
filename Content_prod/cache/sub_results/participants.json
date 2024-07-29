@@ -191,11 +191,21 @@
     "as_short": "ENG",
     "as_full": "England",
     "tournaments": {
+      "ENG League 24-25": {
+        "tytle": "ENG League",
+        "season": "24-25",
+        "rating": 0.57,
+        "quota": 2,
+        "id": 39,
+        "type": "League",
+        "name": "Premier League",
+        "participants": []
+      },
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
         "rating": 0.57,
-        "quota": 4,
+        "quota": 3,
         "id": 39,
         "type": "League",
         "name": "Premier League",
@@ -211,10 +221,6 @@
           {
             "club": "Liverpool",
             "id": 40
-          },
-          {
-            "club": "Aston Villa",
-            "id": 66
           }
         ]
       },
@@ -222,16 +228,11 @@
         "tytle": "ENG Cup",
         "season": "23-24",
         "rating": 0.28,
-        "quota": 1,
+        "quota": 0,
         "id": 45,
         "type": "Cup",
         "name": "FA Cup",
-        "participants": [
-          {
-            "club": "Manchester United",
-            "id": 33
-          }
-        ]
+        "participants": []
       }
     }
   },
@@ -239,11 +240,21 @@
     "as_short": "ESP",
     "as_full": "Spain",
     "tournaments": {
+      "ESP League 24-25": {
+        "tytle": "ESP League",
+        "season": "24-25",
+        "rating": 0.46,
+        "quota": 2,
+        "id": 140,
+        "type": "League",
+        "name": "La Liga",
+        "participants": []
+      },
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
         "rating": 0.46,
-        "quota": 4,
+        "quota": 2,
         "id": 140,
         "type": "League",
         "name": "La Liga",
@@ -255,14 +266,6 @@
           {
             "club": "Barcelona",
             "id": 529
-          },
-          {
-            "club": "Girona",
-            "id": 547
-          },
-          {
-            "club": "Atletico Madrid",
-            "id": 530
           }
         ]
       },
@@ -282,11 +285,21 @@
     "as_short": "GER",
     "as_full": "Germany",
     "tournaments": {
+      "GER League 24-25": {
+        "tytle": "GER League",
+        "season": "24-25",
+        "rating": 0.5,
+        "quota": 1,
+        "id": 78,
+        "type": "League",
+        "name": "Bundesliga",
+        "participants": []
+      },
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
         "rating": 0.5,
-        "quota": 4,
+        "quota": 2,
         "id": 78,
         "type": "League",
         "name": "Bundesliga",
@@ -298,14 +311,6 @@
           {
             "club": "VfB Stuttgart",
             "id": 172
-          },
-          {
-            "club": "Bayern Munich",
-            "id": 157
-          },
-          {
-            "club": "RB Leipzig",
-            "id": 173
           }
         ]
       },
@@ -325,11 +330,21 @@
     "as_short": "ITA",
     "as_full": "Italy",
     "tournaments": {
+      "ITA League 24-25": {
+        "tytle": "ITA League",
+        "season": "24-25",
+        "rating": 0.44,
+        "quota": 2,
+        "id": 135,
+        "type": "League",
+        "name": "Serie A",
+        "participants": []
+      },
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
         "rating": 0.44,
-        "quota": 4,
+        "quota": 2,
         "id": 135,
         "type": "League",
         "name": "Serie A",
@@ -341,14 +356,6 @@
           {
             "club": "AC Milan",
             "id": 489
-          },
-          {
-            "club": "Bologna",
-            "id": 500
-          },
-          {
-            "club": "Juventus",
-            "id": 496
           }
         ]
       },
@@ -368,6 +375,16 @@
     "as_short": "POR",
     "as_full": "Portugal",
     "tournaments": {
+      "POR League 24-25": {
+        "tytle": "POR League",
+        "season": "24-25",
+        "rating": 0.17,
+        "quota": 0,
+        "id": 94,
+        "type": "League",
+        "name": "Primeira Liga",
+        "participants": []
+      },
       "POR League 23-24": {
         "tytle": "POR League",
         "season": "23-24",
@@ -399,6 +416,16 @@
     "as_short": "FRA",
     "as_full": "France",
     "tournaments": {
+      "FRA League 24-25": {
+        "tytle": "FRA League",
+        "season": "24-25",
+        "rating": 0.17,
+        "quota": 0,
+        "id": 61,
+        "type": "League",
+        "name": "Ligue 1",
+        "participants": []
+      },
       "FRA League 23-24": {
         "tytle": "FRA League",
         "season": "23-24",
@@ -430,6 +457,16 @@
     "as_short": "NED",
     "as_full": "Netherlands",
     "tournaments": {
+      "NED League 24-25": {
+        "tytle": "NED League",
+        "season": "24-25",
+        "rating": 0,
+        "quota": 0,
+        "id": 88,
+        "type": "League",
+        "name": "Eredivisie",
+        "participants": []
+      },
       "NED League 23-24": {
         "tytle": "NED League",
         "season": "23-24",
