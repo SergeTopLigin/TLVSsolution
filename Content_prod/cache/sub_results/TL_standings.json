@@ -2,7 +2,7 @@
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 2.03,
+    "TL_rank": 2.02,
     "played": 3,
     "visual_rank": 100,
     "buffer": false
@@ -10,7 +10,7 @@
   "Atalanta": {
     "IDapi": 499,
     "nat": "ITA",
-    "TL_rank": 1.88,
+    "TL_rank": 1.87,
     "played": 4,
     "visual_rank": 95,
     "buffer": false
@@ -20,7 +20,7 @@
     "nat": "GER",
     "TL_rank": 1.25,
     "played": 3,
-    "visual_rank": 72,
+    "visual_rank": 73,
     "buffer": false
   },
   "Bayer Leverkusen": {
@@ -50,7 +50,7 @@
   "Bologna": {
     "IDapi": 500,
     "nat": "ITA",
-    "TL_rank": 1.07,
+    "TL_rank": 1.06,
     "played": 2,
     "buffer": true
   },
@@ -78,21 +78,21 @@
   "Marseille": {
     "IDapi": 81,
     "nat": "FRA",
-    "TL_rank": -0.89,
+    "TL_rank": -0.88,
     "played": 2,
     "buffer": true
   },
   "Paris Saint Germain": {
     "IDapi": 85,
     "nat": "FRA",
-    "TL_rank": -1.1,
+    "TL_rank": -1.09,
     "played": 2,
     "buffer": true
   },
   "Real Sociedad": {
     "IDapi": 548,
     "nat": "ESP",
-    "TL_rank": -1.4,
+    "TL_rank": -1.39,
     "played": 2,
     "buffer": true
   },
@@ -106,14 +106,14 @@
   "Girona": {
     "IDapi": 547,
     "nat": "ESP",
-    "TL_rank": 2.33,
+    "TL_rank": 2.32,
     "played": 1,
     "buffer": true
   },
   "Arsenal": {
     "IDapi": 42,
     "nat": "ENG",
-    "TL_rank": 2.3,
+    "TL_rank": 2.29,
     "played": 1,
     "buffer": true
   },
@@ -155,14 +155,14 @@
   "Manchester City": {
     "IDapi": 50,
     "nat": "ENG",
-    "TL_rank": -1.29,
+    "TL_rank": -1.28,
     "played": 1,
     "buffer": true
   },
   "Napoli": {
     "IDapi": 492,
     "nat": "ITA",
-    "TL_rank": -1.87,
+    "TL_rank": -1.86,
     "played": 1,
     "buffer": true
   }
