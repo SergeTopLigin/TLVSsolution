@@ -13,16 +13,8 @@
       "id": 40
     },
     {
-      "club": "Aston Villa",
-      "id": 66
-    },
-    {
       "club": "Chelsea",
       "id": 49
-    },
-    {
-      "club": "Manchester United",
-      "id": 33
     }
   ],
   "ESP": [
@@ -35,16 +27,12 @@
       "id": 529
     },
     {
-      "club": "Girona",
-      "id": 547
+      "club": "Real Sociedad",
+      "id": 548
     },
     {
       "club": "Atletico Madrid",
       "id": 530
-    },
-    {
-      "club": "Real Sociedad",
-      "id": 548
     }
   ],
   "GER": [
@@ -61,12 +49,12 @@
       "id": 157
     },
     {
-      "club": "RB Leipzig",
-      "id": 173
-    },
-    {
       "club": "Borussia Dortmund",
       "id": 165
+    },
+    {
+      "club": "RB Leipzig",
+      "id": 173
     }
   ],
   "ITA": [
@@ -79,28 +67,20 @@
       "id": 489
     },
     {
-      "club": "Bologna",
-      "id": 500
-    },
-    {
-      "club": "Juventus",
-      "id": 496
-    },
-    {
-      "club": "Atalanta",
-      "id": 499
+      "club": "Napoli",
+      "id": 492
     },
     {
       "club": "AS Roma",
       "id": 497
     },
     {
-      "club": "Lazio",
-      "id": 487
+      "club": "Atalanta",
+      "id": 499
     },
     {
-      "club": "Napoli",
-      "id": 492
+      "club": "Lazio",
+      "id": 487
     }
   ],
   "POR": [
