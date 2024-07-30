@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/games_main_finish.py", line 100, in <module>
+    str(games[match['teams']['home']['id']]).append(add_game(match, match['teams']['home']['id'], tourn[0], season))
+KeyError: 541
