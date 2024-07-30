@@ -18,9 +18,9 @@
   "Borussia Dortmund": {
     "IDapi": 165,
     "nat": "GER",
-    "TL_rank": 1.25,
+    "TL_rank": 1.24,
     "played": 3,
-    "visual_rank": 73,
+    "visual_rank": 72,
     "buffer": false
   },
   "Bayer Leverkusen": {
@@ -36,13 +36,13 @@
     "nat": "GER",
     "TL_rank": -0.74,
     "played": 3,
-    "visual_rank": 2,
+    "visual_rank": 1,
     "buffer": false
   },
   "AS Roma": {
     "IDapi": 497,
     "nat": "ITA",
-    "TL_rank": -0.79,
+    "TL_rank": -0.78,
     "played": 4,
     "visual_rank": 0,
     "buffer": false
@@ -99,7 +99,7 @@
   "VfB Stuttgart": {
     "IDapi": 172,
     "nat": "GER",
-    "TL_rank": 2.85,
+    "TL_rank": 2.84,
     "played": 1,
     "buffer": true
   },
@@ -120,7 +120,7 @@
   "Atletico Madrid": {
     "IDapi": 530,
     "nat": "ESP",
-    "TL_rank": 2.18,
+    "TL_rank": 2.17,
     "played": 1,
     "buffer": true
   },
