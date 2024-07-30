@@ -92,13 +92,13 @@ try:    # обработка исключений для определения 
             for match in fixtures['response']:
                 if match['fixture']['timestamp'] > moment_timestamp and match['fixture']['timestamp'] < moment_timestamp + 3600*24*30 and\
                 match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
-                    if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
-                        games[int(match['teams']['home']['id'])] = []
-                    if match['teams']['away']['id'] not in list(games.keys()):  # создание ключа
-                        games[int(match['teams']['away']['id'])] = []
+                    if str(match['teams']['home']['id']) not in list(games.keys()):  # создание ключа
+                        games[str(match['teams']['home']['id'])] = []
+                    if str(match['teams']['away']['id']) not in list(games.keys()):  # создание ключа
+                        games[str(match['teams']['away']['id'])] = []
                     # добавить игру в games
-                    games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
-                    games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
+                    str(games[match['teams']['home']['id']]).append(add_game(match, match['teams']['home']['id'], tourn[0], season))
+                    str(games[match['teams']['away']['id']]).append(add_game(match, match['teams']['away']['id'], tourn[0], season))
     # нац турниры
     from modules.nat_tournaments import Nat_Tournaments
     nat_tournaments = Nat_Tournaments()
@@ -123,13 +123,13 @@ try:    # обработка исключений для определения 
         for match in fixtures['response']:
             if match['fixture']['timestamp'] > moment_timestamp and match['fixture']['timestamp'] < moment_timestamp + 3600*24*30 and\
             match['teams']['home']['id'] in participants_id and match['teams']['away']['id'] in participants_id:
-                if match['teams']['home']['id'] not in list(games.keys()):  # создание ключа
-                    games[match['teams']['home']['id']] = []
-                if match['teams']['away']['id'] not in list(games.keys()):  # создание ключа
-                    games[match['teams']['away']['id']] = []
+                if str(match['teams']['home']['id']) not in list(games.keys()):  # создание ключа
+                    games[str(match['teams']['home']['id'])] = []
+                if str(match['teams']['away']['id']) not in list(games.keys()):  # создание ключа
+                    games[str(match['teams']['away']['id'])] = []
                 # добавить игру в games
-                games[match['teams']['home']['id']].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
-                games[match['teams']['away']['id']].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
+                str(games[match['teams']['home']['id']]).append(add_game(match, match['teams']['home']['id'], tourn[0], season))
+                str(games[match['teams']['away']['id']]).append(add_game(match, match['teams']['away']['id'], tourn[0], season))
     
     for club in games:
         # сортировка игр клуба от ранних к поздним
