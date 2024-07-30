@@ -97,8 +97,8 @@ try:    # обработка исключений для определения 
                     if str(match['teams']['away']['id']) not in list(games.keys()):  # создание ключа
                         games[str(match['teams']['away']['id'])] = []
                     # добавить игру в games
-                    str(games[match['teams']['home']['id']]).append(add_game(match, match['teams']['home']['id'], tourn[0], season))
-                    str(games[match['teams']['away']['id']]).append(add_game(match, match['teams']['away']['id'], tourn[0], season))
+                    games[str(match['teams']['home']['id'])].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
+                    games[str(match['teams']['away']['id'])].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
     # нац турниры
     from modules.nat_tournaments import Nat_Tournaments
     nat_tournaments = Nat_Tournaments()
@@ -128,8 +128,8 @@ try:    # обработка исключений для определения 
                 if str(match['teams']['away']['id']) not in list(games.keys()):  # создание ключа
                     games[str(match['teams']['away']['id'])] = []
                 # добавить игру в games
-                str(games[match['teams']['home']['id']]).append(add_game(match, match['teams']['home']['id'], tourn[0], season))
-                str(games[match['teams']['away']['id']]).append(add_game(match, match['teams']['away']['id'], tourn[0], season))
+                games[str(match['teams']['home']['id'])].append(add_game(match, match['teams']['home']['id'], tourn[0], season))
+                games[str(match['teams']['away']['id'])].append(add_game(match, match['teams']['away']['id'], tourn[0], season))
     
     for club in games:
         # сортировка игр клуба от ранних к поздним
