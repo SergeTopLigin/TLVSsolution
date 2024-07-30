@@ -120,11 +120,23 @@ POR-C  Final                    FC Porto   1:1   Sporting CP
                            GER-5    TL-8         TL-3    ESP-1 
                                   UCL|TL         UCL|TL|league           
 
+                                       03|08|2024
+
+POR-S  Final                 Sporting CP  19:15  FC Porto                 
+                          POR-10   TL-31         TL-21   POR-9 
+                                  league         UCL                     
+
                                        14|08|2024
 
  USC   Final                 Real Madrid  19:00  Atalanta                 
                            ESP-6    TL-3         TL-17   ITA-13
                            UCL|TL|league         UEL                     
+
+                                       17|08|2024
+
+GER-S  Final               VfB Stuttgart   TBD   Bayer Leverkusen         
+                          GER-16 TL-None         TL-13   GER-5 
+                                  league         UEL|league              
 
                                        18|08|2024
 
