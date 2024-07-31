@@ -64,7 +64,7 @@ try:    # обработка исключений для определения 
             moment_timestamp = worktimes[-1][1]   # время момента расчета
             moment_datetime = datetime.date.fromtimestamp(moment_timestamp)
             # определение текущего сезона
-            season = moment_datetime.year if moment_datetime.month > 6 else moment_datetime.year - 1
+            season = moment_datetime.year if moment_datetime.month > 7 else moment_datetime.year - 1
             season = str(season)[2:]+'-'+str(season+1)[2:]
             dir_standings = os.listdir((os.path.abspath(__file__))[:-27]+'/cache/answers/standings')
             file_season = season if standings[club]['nat']+' League '+season+' stan.json' in dir_standings else str(int(season[:2])-1)+'-'+season[:2]
@@ -105,9 +105,9 @@ try:    # обработка исключений для определения 
                             tourn_status = 'curr'
                         else:
                             Start_Year = int('20'+participants[ass]['tournaments'][tourn]['season'][:2])
-                            if DateNow.month < 7:     tourn_status = 'curr'
-                            if Start_Year < DateNow.year and DateNow.month > 6:     tourn_status = 'p'
-                            if Start_Year == DateNow.year and DateNow.month > 6:     tourn_status = 'c'
+                            if DateNow.month < 8:     tourn_status = 'c'
+                            if Start_Year < DateNow.year and DateNow.month > 7:     tourn_status = 'p'
+                            if Start_Year == DateNow.year and DateNow.month > 7:     tourn_status = 'c'
                         if participants[ass]['as_short'] == 'UEFA':
                             standings[club]['club_qouta'].append([participants[ass]['tournaments'][tourn]['tytle'], tourn_status, tourn_pos])
                         elif participants[ass]['as_short'] == 'TL':
