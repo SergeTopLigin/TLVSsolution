@@ -2,7 +2,7 @@
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 2.02,
+    "TL_rank": 2.01,
     "played": 3,
     "visual_rank": 100,
     "buffer": false
@@ -10,7 +10,7 @@
   "Atalanta": {
     "IDapi": 499,
     "nat": "ITA",
-    "TL_rank": 1.87,
+    "TL_rank": 1.86,
     "played": 4,
     "visual_rank": 95,
     "buffer": false
@@ -34,9 +34,9 @@
   "Bayern Munich": {
     "IDapi": 157,
     "nat": "GER",
-    "TL_rank": -0.74,
+    "TL_rank": -0.73,
     "played": 3,
-    "visual_rank": 1,
+    "visual_rank": 2,
     "buffer": false
   },
   "AS Roma": {
@@ -50,7 +50,7 @@
   "Bologna": {
     "IDapi": 500,
     "nat": "ITA",
-    "TL_rank": 1.06,
+    "TL_rank": 1.05,
     "played": 2,
     "buffer": true
   },
@@ -99,14 +99,14 @@
   "VfB Stuttgart": {
     "IDapi": 172,
     "nat": "GER",
-    "TL_rank": 2.84,
+    "TL_rank": 2.83,
     "played": 1,
     "buffer": true
   },
   "Girona": {
     "IDapi": 547,
     "nat": "ESP",
-    "TL_rank": 2.32,
+    "TL_rank": 2.31,
     "played": 1,
     "buffer": true
   },
@@ -120,7 +120,7 @@
   "Atletico Madrid": {
     "IDapi": 530,
     "nat": "ESP",
-    "TL_rank": 2.17,
+    "TL_rank": 2.16,
     "played": 1,
     "buffer": true
   },
@@ -162,7 +162,7 @@
   "Napoli": {
     "IDapi": 492,
     "nat": "ITA",
-    "TL_rank": -1.86,
+    "TL_rank": -1.85,
     "played": 1,
     "buffer": true
   }

@@ -10,7 +10,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         5
       ],
       [
@@ -20,7 +20,7 @@
       ],
       [
         "ENG L",
-        "p",
+        "c",
         1
       ]
     ]
@@ -36,13 +36,18 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         3
       ],
       [
         "TL",
         "",
         2
+      ],
+      [
+        "GER L",
+        "c",
+        3
       ]
     ]
   },
@@ -57,7 +62,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         1
       ],
       [
@@ -67,7 +72,7 @@
       ],
       [
         "ESP L",
-        "p",
+        "c",
         1
       ]
     ]
@@ -83,7 +88,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         4
       ],
       [
@@ -93,7 +98,7 @@
       ],
       [
         "FRA L",
-        "p",
+        "c",
         1
       ]
     ]
@@ -105,11 +110,11 @@
     "visual_rank": 69,
     "buffer": false,
     "club_TLpos": 5,
-    "club_NATpos": 6,
+    "club_NATpos": 3,
     "club_qouta": [
       [
         "UEL",
-        "p",
+        "c",
         5
       ],
       [
@@ -119,7 +124,7 @@
       ],
       [
         "ENG L",
-        "p",
+        "c",
         3
       ]
     ]
@@ -135,7 +140,7 @@
     "club_qouta": [
       [
         "UEL",
-        "p",
+        "c",
         3
       ],
       [
@@ -156,7 +161,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         10
       ],
       [
@@ -166,7 +171,7 @@
       ],
       [
         "ITA L",
-        "p",
+        "c",
         1
       ]
     ]
@@ -182,7 +187,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         2
       ],
       [
@@ -199,17 +204,22 @@
     "visual_rank": 53,
     "buffer": false,
     "club_TLpos": 8,
-    "club_NATpos": 18,
+    "club_NATpos": 4,
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         11
       ],
       [
         "TL",
         "",
         9
+      ],
+      [
+        "GER L",
+        "c",
+        4
       ]
     ]
   },
@@ -220,7 +230,7 @@
     "visual_rank": 52,
     "buffer": false,
     "club_TLpos": 10,
-    "club_NATpos": 3,
+    "club_NATpos": 6,
     "club_qouta": [
       [
         "TL",
@@ -237,7 +247,13 @@
     "buffer": false,
     "club_TLpos": 11,
     "club_NATpos": 8,
-    "club_qouta": []
+    "club_qouta": [
+      [
+        "ENG C",
+        "c",
+        1
+      ]
+    ]
   },
   "Barcelona": {
     "IDapi": 529,
@@ -250,12 +266,12 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         7
       ],
       [
         "ESP L",
-        "p",
+        "c",
         2
       ]
     ]
@@ -271,12 +287,12 @@
     "club_qouta": [
       [
         "UEL",
-        "p",
+        "c",
         2
       ],
       [
         "GER L",
-        "p",
+        "c",
         1
       ]
     ]
@@ -292,8 +308,13 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         6
+      ],
+      [
+        "ESP L",
+        "c",
+        4
       ]
     ]
   },
@@ -304,7 +325,7 @@
     "visual_rank": 41,
     "buffer": false,
     "club_TLpos": 15,
-    "club_NATpos": 10,
+    "club_NATpos": 13,
     "club_qouta": []
   },
   "Villarreal": {
@@ -314,7 +335,7 @@
     "visual_rank": 39,
     "buffer": false,
     "club_TLpos": 16,
-    "club_NATpos": 7,
+    "club_NATpos": 8,
     "club_qouta": []
   },
   "Atalanta": {
@@ -328,7 +349,7 @@
     "club_qouta": [
       [
         "UEL",
-        "p",
+        "c",
         1
       ]
     ]
@@ -344,7 +365,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         14
       ]
     ]
@@ -357,7 +378,13 @@
     "buffer": false,
     "club_TLpos": 18,
     "club_NATpos": 4,
-    "club_qouta": []
+    "club_qouta": [
+      [
+        "ITA L",
+        "c",
+        4
+      ]
+    ]
   },
   "Benfica": {
     "IDapi": 211,
@@ -366,7 +393,7 @@
     "visual_rank": 36,
     "buffer": false,
     "club_TLpos": 20,
-    "club_NATpos": 11,
+    "club_NATpos": 2,
     "club_qouta": []
   },
   "FC Porto": {
@@ -380,7 +407,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         9
       ]
     ]
@@ -396,12 +423,12 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         8
       ],
       [
         "ENG L",
-        "p",
+        "c",
         2
       ]
     ]
@@ -413,7 +440,7 @@
     "visual_rank": 27,
     "buffer": false,
     "club_TLpos": 23,
-    "club_NATpos": 11,
+    "club_NATpos": 9,
     "club_qouta": []
   },
   "Ajax": {
@@ -463,7 +490,7 @@
     "visual_rank": 19,
     "buffer": false,
     "club_TLpos": 28,
-    "club_NATpos": 3,
+    "club_NATpos": 6,
     "club_qouta": []
   },
   "AC Milan": {
@@ -473,16 +500,16 @@
     "visual_rank": 18,
     "buffer": false,
     "club_TLpos": 29,
-    "club_NATpos": 12,
+    "club_NATpos": 2,
     "club_qouta": [
       [
         "UEL",
-        "p",
+        "c",
         6
       ],
       [
         "ITA L",
-        "p",
+        "c",
         2
       ]
     ]
@@ -508,7 +535,7 @@
     "club_qouta": [
       [
         "POR L",
-        "p",
+        "c",
         1
       ]
     ]
@@ -524,7 +551,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         12
       ]
     ]
@@ -540,12 +567,12 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         15
       ],
       [
         "NED L",
-        "p",
+        "c",
         1
       ]
     ]
@@ -557,7 +584,7 @@
     "visual_rank": 13,
     "buffer": false,
     "club_TLpos": 32,
-    "club_NATpos": 10,
+    "club_NATpos": 5,
     "club_qouta": []
   },
   "Slavia Praha": {
@@ -591,7 +618,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         16
       ]
     ]
@@ -607,7 +634,7 @@
     "club_qouta": [
       [
         "UCL",
-        "p",
+        "c",
         13
       ]
     ]
@@ -649,7 +676,7 @@
     "visual_rank": 8,
     "buffer": false,
     "club_TLpos": 42,
-    "club_NATpos": 12,
+    "club_NATpos": 4,
     "club_qouta": []
   },
   "Olympiakos Piraeus": {
@@ -663,7 +690,7 @@
     "club_qouta": [
       [
         "UECL",
-        "p",
+        "c",
         1
       ]
     ]
@@ -679,7 +706,7 @@
     "club_qouta": [
       [
         "UEL",
-        "p",
+        "c",
         4
       ]
     ]
@@ -691,7 +718,7 @@
     "visual_rank": 6,
     "buffer": false,
     "club_TLpos": 45,
-    "club_NATpos": 3,
+    "club_NATpos": 4,
     "club_qouta": []
   },
   "Gent": {
@@ -711,7 +738,7 @@
     "visual_rank": 4,
     "buffer": false,
     "club_TLpos": 47,
-    "club_NATpos": 18,
+    "club_NATpos": 6,
     "club_qouta": []
   },
   "Rennes": {
@@ -721,7 +748,7 @@
     "visual_rank": 3,
     "buffer": false,
     "club_TLpos": 48,
-    "club_NATpos": 17,
+    "club_NATpos": 10,
     "club_qouta": []
   },
   "Fiorentina": {
@@ -731,7 +758,7 @@
     "visual_rank": 2,
     "buffer": false,
     "club_TLpos": 49,
-    "club_NATpos": 11,
+    "club_NATpos": 8,
     "club_qouta": []
   },
   "FK Crvena Zvezda": {
