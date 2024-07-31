@@ -3,28 +3,29 @@ ENG
                            1  Manchester City            TL    UCL       
                            2  Arsenal                          UCL       
                            3  Liverpool                  TL    UEL       
-      24-25 Premier League      
+                           4  Aston Villa                                
                               Chelsea                    TL              
+                              Manchester United                      Cup 
 ESP
       23-24 La Liga             
                            1  Real Madrid                TL    UCL       
                            2  Barcelona                        UCL       
-      24-25 La Liga             
+                           3  Girona                                     
+                           4  Atletico Madrid                  UCL       
                               Real Sociedad                    UCL       
-                              Atletico Madrid                  UCL       
 GER
       23-24 Bundesliga          
                            1  Bayer Leverkusen                 UEL       
                            2  VfB Stuttgart                              
-      24-25 Bundesliga          
-                              Bayern Munich              TL    UCL       
+                           3  Bayern Munich              TL    UCL       
+                           4  RB Leipzig                 TL    UCL       
                               Borussia Dortmund          TL    UCL       
-                              RB Leipzig                 TL    UCL       
 ITA
       23-24 Serie A             
                            1  Inter                      TL    UCL       
                            2  AC Milan                         UEL       
-      24-25 Serie A             
+                           3  Bologna                                    
+                           4  Juventus                                   
                               Napoli                           UCL       
                               AS Roma                    TL    UEL       
                               Atalanta                         UEL       
