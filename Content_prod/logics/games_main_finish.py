@@ -185,13 +185,19 @@ try:    # обработка исключений для определения 
     # формирование строки из словаря в читабельном виде
     games_str = ''   # github принимает только str для записи в файл
     date = '' # инициализация даты
+    scoreNS = 0
     for game in games_upd:
+        # линия раздела между матчами fixed и unfinished
+        if games_upd[game]['score'] == 'NS' and scoreNS == 0:
+            games_str += '\n' + '='*80 + '\n'*2
         # tourn_round
         if 'Regular Season' in games_upd[game]['tourn_round']:  tourn_round = games_upd[game]['tourn_round'].replace('Regular Season - ', 'RS-')
         elif 'Semi-finals' in games_upd[game]['tourn_round']:  tourn_round = '1/2'
         else:   tourn_round = games_upd[game]['tourn_round'][:5]
         # score
-        if 'NS' in games_upd[game]['score']:    score = 'TBD' if games_upd[game]['time']=='00:00' else games_upd[game]['time']
+        if 'NS' in games_upd[game]['score']:    
+            score = 'TBD' if games_upd[game]['time']=='00:00' else games_upd[game]['time']
+            scoreNS = 1
         else:   score = games_upd[game]['score']
         if games_upd[game]['date'] != date:
             games_str += ' '*39 + games_upd[game]['date'][8:] + '|' + games_upd[game]['date'][5:7] + '|' + games_upd[game]['date'][:4] + '\n'*2
