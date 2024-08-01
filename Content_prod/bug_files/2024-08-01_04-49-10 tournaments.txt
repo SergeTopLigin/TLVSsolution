@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/tournaments.py", line 344, in <module>
+    if DateNow.month > 7 and tourn[1][3:] == DateNow.year[2:]:     # для прошлого сезона
+TypeError: 'int' object is not subscriptable
