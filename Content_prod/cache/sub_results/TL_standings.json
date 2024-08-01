@@ -2,7 +2,7 @@
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 2.01,
+    "TL_rank": 2.0,
     "played": 3,
     "visual_rank": 100,
     "buffer": false
@@ -12,7 +12,7 @@
     "nat": "ITA",
     "TL_rank": 1.85,
     "played": 4,
-    "visual_rank": 94,
+    "visual_rank": 95,
     "buffer": false
   },
   "Borussia Dortmund": {
