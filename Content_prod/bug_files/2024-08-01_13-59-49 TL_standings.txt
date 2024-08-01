@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/TLVSsolution/TLVSsolution/Content_prod/logics/TL_standings.py", line 135, in <module>
-    ms_max = max([main_stands[club]['TL_rank'] for club in main_stands])
-ValueError: max() arg is an empty sequence
