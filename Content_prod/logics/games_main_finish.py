@@ -111,6 +111,16 @@ try:    # обработка исключений для определения 
                         if [tourn[0], tourn[3]] not in tourns and tourn[3] != -1:
                             tourns.append([tourn[0], tourn[3]])
     for tourn in tourns:
+        # проверка наличия fixtures кубка
+        if 'Cup' in tourn[0]:
+            file_flag = 0
+            for tourn_file in os.listdir((os.path.abspath(__file__))[:-28]+'/cache/answers/fixtures/'):
+                if tourn[0] in tourn_file and season in tourn_file:
+                    file_flag = 1
+                    break
+            # если файла fixtures кубка нет - пропустить этот турнир (fixtures кубка появляются в каталоге посредством tournaments.py при соблюдении определенных условий)
+            if file_flag == 0:
+                continue
         # актуализация fixtures турнира
         if fixture_files(tourn[0], season, tourn[1]) == 'pass':     # если турнир не начался и нет расписания
             continue
