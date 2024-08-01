@@ -341,9 +341,9 @@ try:    # обработка исключений для определения 
                                             tourn[2] += max(standings[club]['TL_rank'] + 1.2, 0)
                         tourn[2] /= club_number
                         # временной фактор: prev > curr (1/150 per day from 01.08)
-                        if DateNow.month > 7 and tourn[1][3:] == DateNow.year[2:]:     # для прошлого сезона
+                        if DateNow.month > 7 and tourn[1][3:] == str(DateNow.year)[2:]:     # для прошлого сезона
                             tourn[2] *= max((150 - (DateNow - datetime.datetime(DateNow.year, 7, 31)) / datetime.timedelta(days=1)) / 150, 0)
-                        if DateNow.month > 7 and tourn[1][:2] == DateNow.year[2:]:     # для текущего сезона
+                        if DateNow.month > 7 and tourn[1][:2] == str(DateNow.year)[2:]:     # для текущего сезона
                             tourn[2] *= min(((DateNow - datetime.datetime(DateNow.year, 7, 31)) / datetime.timedelta(days=1)) / 150, 1)
                         tourn[2] = round(tourn[2], 2)
             
