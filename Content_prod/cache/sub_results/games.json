@@ -371,38 +371,6 @@
         "TopLiga"
       ],
       "opp_NATpos": 5
-    },
-    {
-      "club_name": "Real Madrid",
-      "date": "2024-08-14T19:00:00+00:00",
-      "match": "Real Madrid - Atalanta",
-      "game_status": "expected",
-      "opponent": "Atalanta",
-      "opp_id": 499,
-      "result": null,
-      "opp_TLrate": 0.09,
-      "goalDiff": null,
-      "timestamp": 1723662000,
-      "fixture_id": 1202168,
-      "tourn_id": 531,
-      "tourn_name": "UEFA Super Cup",
-      "tourn_short": "USC",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "ESP",
-      "club_TLpos": 3,
-      "club_qouta": [
-        "UCL",
-        "TopLiga",
-        "ESP League"
-      ],
-      "club_NATpos": 6,
-      "opp_nat": "ITA",
-      "opp_TLpos": 17,
-      "opp_qouta": [
-        "UEL"
-      ],
-      "opp_NATpos": 13
     }
   ],
   "81": [
@@ -589,70 +557,6 @@
         "GER League"
       ],
       "opp_NATpos": 1
-    },
-    {
-      "club_name": "Atalanta",
-      "date": "2024-08-14T19:00:00+00:00",
-      "match": "Real Madrid - Atalanta",
-      "game_status": "expected",
-      "opponent": "Real Madrid",
-      "opp_id": 541,
-      "result": null,
-      "opp_TLrate": 1.82,
-      "goalDiff": null,
-      "timestamp": 1723662000,
-      "fixture_id": 1202168,
-      "tourn_id": 531,
-      "tourn_name": "UEFA Super Cup",
-      "tourn_short": "USC",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "ITA",
-      "club_TLpos": 17,
-      "club_qouta": [
-        "UEL"
-      ],
-      "club_NATpos": 13,
-      "opp_nat": "ESP",
-      "opp_TLpos": 3,
-      "opp_qouta": [
-        "UCL",
-        "TopLiga",
-        "ESP League"
-      ],
-      "opp_NATpos": 6
-    },
-    {
-      "club_name": "Atalanta",
-      "date": "2024-08-30T18:45:00+00:00",
-      "match": "Inter - Atalanta",
-      "game_status": "expected",
-      "opponent": "Inter",
-      "opp_id": 505,
-      "result": null,
-      "opp_TLrate": 0.72,
-      "goalDiff": null,
-      "timestamp": 1725043500,
-      "fixture_id": 1223618,
-      "tourn_id": 135,
-      "tourn_name": "Serie A",
-      "tourn_short": "ITA League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 3",
-      "club_nat": "ITA",
-      "club_TLpos": 17,
-      "club_qouta": [
-        "UEL"
-      ],
-      "club_NATpos": 13,
-      "opp_nat": "ITA",
-      "opp_TLpos": 7,
-      "opp_qouta": [
-        "UCL",
-        "TopLiga",
-        "ITA League"
-      ],
-      "opp_NATpos": 9
     }
   ],
   "497": [
@@ -878,37 +782,6 @@
         "UEL"
       ],
       "opp_NATpos": 5
-    },
-    {
-      "club_name": "Bayer Leverkusen",
-      "date": "2024-08-17T00:00:00+00:00",
-      "match": "VfB Stuttgart - Bayer Leverkusen",
-      "game_status": "expected",
-      "opponent": "VfB Stuttgart",
-      "opp_id": 172,
-      "result": null,
-      "opp_TLrate": null,
-      "goalDiff": null,
-      "timestamp": 1723852800,
-      "fixture_id": 1202907,
-      "tourn_id": 529,
-      "tourn_name": "Super Cup",
-      "tourn_short": "GER SCup",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "GER",
-      "club_TLpos": 13,
-      "club_qouta": [
-        "UEL",
-        "GER League"
-      ],
-      "club_NATpos": 5,
-      "opp_nat": "GER",
-      "opp_TLpos": null,
-      "opp_qouta": [
-        "GER League"
-      ],
-      "opp_NATpos": 16
     }
   ],
   "547": [
@@ -942,37 +815,6 @@
         "ESP League"
       ],
       "opp_NATpos": 2
-    },
-    {
-      "club_name": "Girona",
-      "date": "2024-08-25T19:30:00+00:00",
-      "match": "Atletico Madrid - Girona",
-      "game_status": "expected",
-      "opponent": "Atletico Madrid",
-      "opp_id": 530,
-      "result": null,
-      "opp_TLrate": 0.34,
-      "goalDiff": null,
-      "timestamp": 1724614200,
-      "fixture_id": 1208503,
-      "tourn_id": 140,
-      "tourn_name": "La Liga",
-      "tourn_short": "ESP League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 2",
-      "club_nat": "ESP",
-      "club_TLpos": null,
-      "club_qouta": [
-        "ESP League"
-      ],
-      "club_NATpos": 19,
-      "opp_nat": "ESP",
-      "opp_TLpos": 14,
-      "opp_qouta": [
-        "UCL",
-        "ESP League"
-      ],
-      "opp_NATpos": 9
     }
   ],
   "529": [
@@ -1134,37 +976,6 @@
         "UCL"
       ],
       "opp_NATpos": 6
-    },
-    {
-      "club_name": "Atletico Madrid",
-      "date": "2024-08-25T19:30:00+00:00",
-      "match": "Atletico Madrid - Girona",
-      "game_status": "expected",
-      "opponent": "Girona",
-      "opp_id": 547,
-      "result": null,
-      "opp_TLrate": null,
-      "goalDiff": null,
-      "timestamp": 1724614200,
-      "fixture_id": 1208503,
-      "tourn_id": 140,
-      "tourn_name": "La Liga",
-      "tourn_short": "ESP League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 2",
-      "club_nat": "ESP",
-      "club_TLpos": 14,
-      "club_qouta": [
-        "UCL",
-        "ESP League"
-      ],
-      "club_NATpos": 9,
-      "opp_nat": "ESP",
-      "opp_TLpos": null,
-      "opp_qouta": [
-        "ESP League"
-      ],
-      "opp_NATpos": 19
     }
   ],
   "172": [
@@ -1199,37 +1010,6 @@
         "GER League"
       ],
       "opp_NATpos": 3
-    },
-    {
-      "club_name": "VfB Stuttgart",
-      "date": "2024-08-17T00:00:00+00:00",
-      "match": "VfB Stuttgart - Bayer Leverkusen",
-      "game_status": "expected",
-      "opponent": "Bayer Leverkusen",
-      "opp_id": 168,
-      "result": null,
-      "opp_TLrate": 0.37,
-      "goalDiff": null,
-      "timestamp": 1723852800,
-      "fixture_id": 1202907,
-      "tourn_id": 529,
-      "tourn_name": "Super Cup",
-      "tourn_short": "GER SCup",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "GER",
-      "club_TLpos": null,
-      "club_qouta": [
-        "GER League"
-      ],
-      "club_NATpos": 16,
-      "opp_nat": "GER",
-      "opp_TLpos": 13,
-      "opp_qouta": [
-        "UEL",
-        "GER League"
-      ],
-      "opp_NATpos": 5
     }
   ],
   "496": [
@@ -1327,38 +1107,6 @@
         "UCL"
       ],
       "opp_NATpos": 7
-    },
-    {
-      "club_name": "Inter",
-      "date": "2024-08-30T18:45:00+00:00",
-      "match": "Inter - Atalanta",
-      "game_status": "expected",
-      "opponent": "Atalanta",
-      "opp_id": 499,
-      "result": null,
-      "opp_TLrate": 0.09,
-      "goalDiff": null,
-      "timestamp": 1725043500,
-      "fixture_id": 1223618,
-      "tourn_id": 135,
-      "tourn_name": "Serie A",
-      "tourn_short": "ITA League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 3",
-      "club_nat": "ITA",
-      "club_TLpos": 7,
-      "club_qouta": [
-        "UCL",
-        "TopLiga",
-        "ITA League"
-      ],
-      "club_NATpos": 9,
-      "opp_nat": "ITA",
-      "opp_TLpos": 17,
-      "opp_qouta": [
-        "UEL"
-      ],
-      "opp_NATpos": 13
     }
   ],
   "487": [
@@ -1425,36 +1173,6 @@
         "POR League"
       ],
       "opp_NATpos": 1
-    },
-    {
-      "club_name": "FC Porto",
-      "date": "2024-08-03T19:15:00+00:00",
-      "match": "Sporting CP - FC Porto",
-      "game_status": "expected",
-      "opponent": "Sporting CP",
-      "opp_id": 228,
-      "result": null,
-      "opp_TLrate": -0.74,
-      "goalDiff": null,
-      "timestamp": 1722712500,
-      "fixture_id": 1202042,
-      "tourn_id": 550,
-      "tourn_name": "Super Cup",
-      "tourn_short": "POR SCup",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "POR",
-      "club_TLpos": 21,
-      "club_qouta": [
-        "UCL"
-      ],
-      "club_NATpos": 9,
-      "opp_nat": "POR",
-      "opp_TLpos": 31,
-      "opp_qouta": [
-        "POR League"
-      ],
-      "opp_NATpos": 10
     }
   ],
   "228": [
@@ -1487,36 +1205,6 @@
         "UCL"
       ],
       "opp_NATpos": 3
-    },
-    {
-      "club_name": "Sporting CP",
-      "date": "2024-08-03T19:15:00+00:00",
-      "match": "Sporting CP - FC Porto",
-      "game_status": "expected",
-      "opponent": "FC Porto",
-      "opp_id": 212,
-      "result": null,
-      "opp_TLrate": -0.04,
-      "goalDiff": null,
-      "timestamp": 1722712500,
-      "fixture_id": 1202042,
-      "tourn_id": 550,
-      "tourn_name": "Super Cup",
-      "tourn_short": "POR SCup",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "POR",
-      "club_TLpos": 31,
-      "club_qouta": [
-        "POR League"
-      ],
-      "club_NATpos": 10,
-      "opp_nat": "POR",
-      "opp_TLpos": 21,
-      "opp_qouta": [
-        "UCL"
-      ],
-      "opp_NATpos": 9
     }
   ],
   "33": [
@@ -1583,38 +1271,6 @@
         "ENG Cup"
       ],
       "opp_NATpos": 1
-    },
-    {
-      "club_name": "Manchester United",
-      "date": "2024-08-10T14:00:00+00:00",
-      "match": "Manchester United - Manchester City",
-      "game_status": "expected",
-      "opponent": "Manchester City",
-      "opp_id": 50,
-      "result": null,
-      "opp_TLrate": 2.2,
-      "goalDiff": null,
-      "timestamp": 1723298400,
-      "fixture_id": 1222610,
-      "tourn_id": 528,
-      "tourn_name": "Community Shield",
-      "tourn_short": "ENG SCup",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "ENG",
-      "club_TLpos": 11,
-      "club_qouta": [
-        "ENG Cup"
-      ],
-      "club_NATpos": 8,
-      "opp_nat": "ENG",
-      "opp_TLpos": 1,
-      "opp_qouta": [
-        "UCL",
-        "TopLiga",
-        "ENG League"
-      ],
-      "opp_NATpos": 7
     }
   ],
   "42": [
@@ -1648,37 +1304,6 @@
         "ENG Cup"
       ],
       "opp_NATpos": 8
-    },
-    {
-      "club_name": "Arsenal",
-      "date": "2024-08-24T16:30:00+00:00",
-      "match": "Aston Villa - Arsenal",
-      "game_status": "expected",
-      "opponent": "Aston Villa",
-      "opp_id": 66,
-      "result": null,
-      "opp_TLrate": null,
-      "goalDiff": null,
-      "timestamp": 1724517000,
-      "fixture_id": 1208032,
-      "tourn_id": 39,
-      "tourn_name": "Premier League",
-      "tourn_short": "ENG League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 2",
-      "club_nat": "ENG",
-      "club_TLpos": 22,
-      "club_qouta": [
-        "UCL",
-        "ENG League"
-      ],
-      "club_NATpos": 1,
-      "opp_nat": "ENG",
-      "opp_TLpos": null,
-      "opp_qouta": [
-        "ENG League"
-      ],
-      "opp_NATpos": 2
     }
   ],
   "50": [
@@ -1714,70 +1339,6 @@
         "ENG Cup"
       ],
       "opp_NATpos": 8
-    },
-    {
-      "club_name": "Manchester City",
-      "date": "2024-08-10T14:00:00+00:00",
-      "match": "Manchester United - Manchester City",
-      "game_status": "expected",
-      "opponent": "Manchester United",
-      "opp_id": 33,
-      "result": null,
-      "opp_TLrate": 0.44,
-      "goalDiff": null,
-      "timestamp": 1723298400,
-      "fixture_id": 1222610,
-      "tourn_id": 528,
-      "tourn_name": "Community Shield",
-      "tourn_short": "ENG SCup",
-      "season": "24-25",
-      "tourn_round": "Final",
-      "club_nat": "ENG",
-      "club_TLpos": 1,
-      "club_qouta": [
-        "UCL",
-        "TopLiga",
-        "ENG League"
-      ],
-      "club_NATpos": 7,
-      "opp_nat": "ENG",
-      "opp_TLpos": 11,
-      "opp_qouta": [
-        "ENG Cup"
-      ],
-      "opp_NATpos": 8
-    },
-    {
-      "club_name": "Manchester City",
-      "date": "2024-08-18T15:30:00+00:00",
-      "match": "Chelsea - Manchester City",
-      "game_status": "expected",
-      "opponent": "Chelsea",
-      "opp_id": 49,
-      "result": null,
-      "opp_TLrate": 0.56,
-      "goalDiff": null,
-      "timestamp": 1723995000,
-      "fixture_id": 1208029,
-      "tourn_id": 39,
-      "tourn_name": "Premier League",
-      "tourn_short": "ENG League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 1",
-      "club_nat": "ENG",
-      "club_TLpos": 1,
-      "club_qouta": [
-        "UCL",
-        "TopLiga",
-        "ENG League"
-      ],
-      "club_NATpos": 7,
-      "opp_nat": "ENG",
-      "opp_TLpos": 10,
-      "opp_qouta": [
-        "TopLiga"
-      ],
-      "opp_NATpos": 3
     }
   ],
   "492": [
@@ -1810,36 +1371,6 @@
         "ITA League"
       ],
       "opp_NATpos": 3
-    },
-    {
-      "club_name": "Napoli",
-      "date": "2024-08-25T18:45:00+00:00",
-      "match": "Napoli - Bologna",
-      "game_status": "expected",
-      "opponent": "Bologna",
-      "opp_id": 500,
-      "result": null,
-      "opp_TLrate": null,
-      "goalDiff": null,
-      "timestamp": 1724611500,
-      "fixture_id": 1223610,
-      "tourn_id": 135,
-      "tourn_name": "Serie A",
-      "tourn_short": "ITA League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 2",
-      "club_nat": "ITA",
-      "club_TLpos": 18,
-      "club_qouta": [
-        "UCL"
-      ],
-      "club_NATpos": 4,
-      "opp_nat": "ITA",
-      "opp_TLpos": null,
-      "opp_qouta": [
-        "ITA League"
-      ],
-      "opp_NATpos": 2
     }
   ],
   "500": [
@@ -1902,103 +1433,6 @@
         "ITA Cup"
       ],
       "opp_NATpos": 4
-    },
-    {
-      "club_name": "Bologna",
-      "date": "2024-08-25T18:45:00+00:00",
-      "match": "Napoli - Bologna",
-      "game_status": "expected",
-      "opponent": "Napoli",
-      "opp_id": 492,
-      "result": null,
-      "opp_TLrate": 0.06,
-      "goalDiff": null,
-      "timestamp": 1724611500,
-      "fixture_id": 1223610,
-      "tourn_id": 135,
-      "tourn_name": "Serie A",
-      "tourn_short": "ITA League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 2",
-      "club_nat": "ITA",
-      "club_TLpos": null,
-      "club_qouta": [
-        "ITA League"
-      ],
-      "club_NATpos": 2,
-      "opp_nat": "ITA",
-      "opp_TLpos": 18,
-      "opp_qouta": [
-        "UCL"
-      ],
-      "opp_NATpos": 4
-    }
-  ],
-  "49": [
-    {
-      "club_name": "Chelsea",
-      "date": "2024-08-18T15:30:00+00:00",
-      "match": "Chelsea - Manchester City",
-      "game_status": "expected",
-      "opponent": "Manchester City",
-      "opp_id": 50,
-      "result": null,
-      "opp_TLrate": 2.2,
-      "goalDiff": null,
-      "timestamp": 1723995000,
-      "fixture_id": 1208029,
-      "tourn_id": 39,
-      "tourn_name": "Premier League",
-      "tourn_short": "ENG League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 1",
-      "club_nat": "ENG",
-      "club_TLpos": 10,
-      "club_qouta": [
-        "TopLiga"
-      ],
-      "club_NATpos": 3,
-      "opp_nat": "ENG",
-      "opp_TLpos": 1,
-      "opp_qouta": [
-        "UCL",
-        "TopLiga",
-        "ENG League"
-      ],
-      "opp_NATpos": 7
-    }
-  ],
-  "66": [
-    {
-      "club_name": "Aston Villa",
-      "date": "2024-08-24T16:30:00+00:00",
-      "match": "Aston Villa - Arsenal",
-      "game_status": "expected",
-      "opponent": "Arsenal",
-      "opp_id": 42,
-      "result": null,
-      "opp_TLrate": -0.19,
-      "goalDiff": null,
-      "timestamp": 1724517000,
-      "fixture_id": 1208032,
-      "tourn_id": 39,
-      "tourn_name": "Premier League",
-      "tourn_short": "ENG League",
-      "season": "24-25",
-      "tourn_round": "Regular Season - 2",
-      "club_nat": "ENG",
-      "club_TLpos": null,
-      "club_qouta": [
-        "ENG League"
-      ],
-      "club_NATpos": 2,
-      "opp_nat": "ENG",
-      "opp_TLpos": 22,
-      "opp_qouta": [
-        "UCL",
-        "ENG League"
-      ],
-      "opp_NATpos": 1
     }
   ]
 }
