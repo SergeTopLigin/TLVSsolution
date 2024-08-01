@@ -51,6 +51,15 @@
     "as_short": "ENG",
     "as_full": "England",
     "tournaments": {
+      "ENG League 24-25": {
+        "tytle": "ENG League",
+        "season": "24-25",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 39,
+        "type": "League",
+        "name": "Premier League"
+      },
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
@@ -63,7 +72,7 @@
       "ENG Cup 23-24": {
         "tytle": "ENG Cup",
         "season": "23-24",
-        "rating": 0.28,
+        "rating": 0.27,
         "quota": 1,
         "id": 45,
         "type": "Cup",
@@ -75,6 +84,15 @@
     "as_short": "ESP",
     "as_full": "Spain",
     "tournaments": {
+      "ESP League 24-25": {
+        "tytle": "ESP League",
+        "season": "24-25",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 140,
+        "type": "League",
+        "name": "La Liga"
+      },
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
@@ -99,6 +117,15 @@
     "as_short": "GER",
     "as_full": "Germany",
     "tournaments": {
+      "GER League 24-25": {
+        "tytle": "GER League",
+        "season": "24-25",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 78,
+        "type": "League",
+        "name": "Bundesliga"
+      },
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
@@ -123,10 +150,19 @@
     "as_short": "ITA",
     "as_full": "Italy",
     "tournaments": {
+      "ITA League 24-25": {
+        "tytle": "ITA League",
+        "season": "24-25",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 135,
+        "type": "League",
+        "name": "Serie A"
+      },
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.44,
+        "rating": 0.43,
         "quota": 4,
         "id": 135,
         "type": "League",
@@ -147,6 +183,15 @@
     "as_short": "POR",
     "as_full": "Portugal",
     "tournaments": {
+      "POR League 24-25": {
+        "tytle": "POR League",
+        "season": "24-25",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 94,
+        "type": "League",
+        "name": "Primeira Liga"
+      },
       "POR League 23-24": {
         "tytle": "POR League",
         "season": "23-24",
@@ -171,6 +216,15 @@
     "as_short": "FRA",
     "as_full": "France",
     "tournaments": {
+      "FRA League 24-25": {
+        "tytle": "FRA League",
+        "season": "24-25",
+        "rating": 0.0,
+        "quota": 0,
+        "id": 61,
+        "type": "League",
+        "name": "Ligue 1"
+      },
       "FRA League 23-24": {
         "tytle": "FRA League",
         "season": "23-24",
@@ -195,6 +249,15 @@
     "as_short": "NED",
     "as_full": "Netherlands",
     "tournaments": {
+      "NED League 24-25": {
+        "tytle": "NED League",
+        "season": "24-25",
+        "rating": 0,
+        "quota": 0,
+        "id": 88,
+        "type": "League",
+        "name": "Eredivisie"
+      },
       "NED League 23-24": {
         "tytle": "NED League",
         "season": "23-24",
