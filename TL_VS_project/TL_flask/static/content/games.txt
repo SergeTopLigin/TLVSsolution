@@ -120,3 +120,55 @@ POR-C  Final                    FC Porto   1:1   Sporting CP
                            GER-5    TL-8         TL-3    ESP-1 
                                   UCL|TL         UCL|TL|league           
 
+                                       03|08|2024
+
+POR-S  Final                 Sporting CP  19:15  FC Porto                 
+                          POR-10   TL-31         TL-21   POR-9 
+                                  league         UCL                     
+
+                                       10|08|2024
+
+ENG-S  Final           Manchester United  14:00  Manchester City          
+                           ENG-8   TL-11         TL-1    ENG-7 
+                                     cup         UCL|TL|league           
+
+                                       14|08|2024
+
+ USC   Final                 Real Madrid  19:00  Atalanta                 
+                           ESP-6    TL-3         TL-17   ITA-13
+                           UCL|TL|league         UEL                     
+
+                                       17|08|2024
+
+GER-S  Final               VfB Stuttgart   TBD   Bayer Leverkusen         
+                          GER-16 TL-None         TL-13   GER-5 
+                                  league         UEL|league              
+
+                                       18|08|2024
+
+ENG-L  RS-1                      Chelsea  15:30  Manchester City          
+                           ENG-3   TL-10         TL-1    ENG-7 
+                                      TL         UCL|TL|league           
+
+                                       24|08|2024
+
+ENG-L  RS-2                  Aston Villa  16:30  Arsenal                  
+                           ENG-2 TL-None         TL-22   ENG-1 
+                                  league         UCL|league              
+
+                                       25|08|2024
+
+ITA-L  RS-2                       Napoli  18:45  Bologna                  
+                           ITA-4   TL-18         TL-None ITA-2 
+                                     UCL         league                  
+
+ESP-L  RS-2              Atletico Madrid  19:30  Girona                   
+                           ESP-9   TL-14         TL-None ESP-19
+                              UCL|league         league                  
+
+                                       30|08|2024
+
+ITA-L  RS-3                        Inter  18:45  Atalanta                 
+                           ITA-9    TL-7         TL-17   ITA-13
+                           UCL|TL|league         UEL                     
+
