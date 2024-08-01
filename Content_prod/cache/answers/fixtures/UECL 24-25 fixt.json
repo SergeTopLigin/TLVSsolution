@@ -5,7 +5,7 @@
     "season": "2024"
   },
   "errors": [],
-  "results": 148,
+  "results": 152,
   "paging": {
     "current": 1,
     "total": 1
@@ -82,7 +82,7 @@
     {
       "fixture": {
         "id": 1208433,
-        "referee": "D. Nikolić",
+        "referee": "Danilo Nikolic, Serbia",
         "timezone": "UTC",
         "date": "2024-07-18T16:30:00+00:00",
         "timestamp": 1721320200,
@@ -218,7 +218,7 @@
     {
       "fixture": {
         "id": 1208435,
-        "referee": "H. Vidoy",
+        "referee": "Heini Vidoy, Faroe Islands",
         "timezone": "UTC",
         "date": "2024-07-17T18:45:00+00:00",
         "timestamp": 1721241900,
@@ -354,7 +354,7 @@
     {
       "fixture": {
         "id": 1208437,
-        "referee": "G. Maqedonci",
+        "referee": "Granit Maqedonci, Sweden",
         "timezone": "UTC",
         "date": "2024-07-18T18:45:00+00:00",
         "timestamp": 1721328300,
@@ -490,7 +490,7 @@
     {
       "fixture": {
         "id": 1208439,
-        "referee": "Z. Küçük",
+        "referee": "Zorbay Kucuk, Turkey",
         "timezone": "UTC",
         "date": "2024-07-18T19:00:00+00:00",
         "timestamp": 1721329200,
@@ -694,7 +694,7 @@
     {
       "fixture": {
         "id": 1208442,
-        "referee": "J. Östling",
+        "referee": "Joakim Ostling, Sweden",
         "timezone": "UTC",
         "date": "2024-07-18T18:00:00+00:00",
         "timestamp": 1721325600,
@@ -704,8 +704,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Við Djúpumýrar",
-          "city": "Klaksvík, Borðoy"
+          "name": "Sarpugerði Stadium",
+          "city": "Nordragota"
         },
         "status": {
           "long": "Match Finished",
@@ -898,7 +898,7 @@
     {
       "fixture": {
         "id": 1208445,
-        "referee": "I. McNabb",
+        "referee": "Ian McNabb, Northern Ireland",
         "timezone": "UTC",
         "date": "2024-07-18T15:00:00+00:00",
         "timestamp": 1721314800,
@@ -966,7 +966,7 @@
     {
       "fixture": {
         "id": 1208446,
-        "referee": "J. Karlsen",
+        "referee": "Jacob Karlsen, Denmark",
         "timezone": "UTC",
         "date": "2024-07-10T18:00:00+00:00",
         "timestamp": 1720634400,
@@ -1034,7 +1034,7 @@
     {
       "fixture": {
         "id": 1208447,
-        "referee": "A. Kijas",
+        "referee": "Alan Kijas, Austria",
         "timezone": "UTC",
         "date": "2024-07-18T16:00:00+00:00",
         "timestamp": 1721318400,
@@ -1306,7 +1306,7 @@
     {
       "fixture": {
         "id": 1208451,
-        "referee": "B. Csonka",
+        "referee": "Bence Csonka, Hungary",
         "timezone": "UTC",
         "date": "2024-07-18T16:00:00+00:00",
         "timestamp": 1721318400,
@@ -1442,7 +1442,7 @@
     {
       "fixture": {
         "id": 1208453,
-        "referee": "L. Kuźma",
+        "referee": "Lukasz Kuzma, Poland",
         "timezone": "UTC",
         "date": "2024-07-18T16:00:00+00:00",
         "timestamp": 1721318400,
@@ -1714,7 +1714,7 @@
     {
       "fixture": {
         "id": 1208457,
-        "referee": "P. Ilić",
+        "referee": "Pavle Ilic, Serbia",
         "timezone": "UTC",
         "date": "2024-07-18T15:00:00+00:00",
         "timestamp": 1721314800,
@@ -1850,7 +1850,7 @@
     {
       "fixture": {
         "id": 1208459,
-        "referee": "S. Sozza",
+        "referee": "Simone Sozza, Italy",
         "timezone": "UTC",
         "date": "2024-07-18T18:30:00+00:00",
         "timestamp": 1721327400,
@@ -1996,8 +1996,8 @@
         },
         "venue": {
           "id": null,
-          "name": "The Ryan McBride Brandywell Stadium",
-          "city": "Londonderry"
+          "name": "Brandywell Stadium",
+          "city": "Derry"
         },
         "status": {
           "long": "Match Finished",
@@ -2122,7 +2122,7 @@
     {
       "fixture": {
         "id": 1208463,
-        "referee": "M. Káprály",
+        "referee": "Mihaly Kapraly, Hungary",
         "timezone": "UTC",
         "date": "2024-07-18T19:00:00+00:00",
         "timestamp": 1721329200,
@@ -2258,7 +2258,7 @@
     {
       "fixture": {
         "id": 1208465,
-        "referee": "K. Sağlam",
+        "referee": "Kadir Saglam, Turkey",
         "timezone": "UTC",
         "date": "2024-07-18T17:00:00+00:00",
         "timestamp": 1721322000,
@@ -2326,7 +2326,7 @@
     {
       "fixture": {
         "id": 1208466,
-        "referee": "I. Stojchevski",
+        "referee": "Igor Stojcevski, North Macedonia",
         "timezone": "UTC",
         "date": "2024-07-18T17:00:00+00:00",
         "timestamp": 1721322000,
@@ -2462,7 +2462,7 @@
     {
       "fixture": {
         "id": 1208468,
-        "referee": "D. Kos",
+        "referee": "Damian Kos, Poland",
         "timezone": "UTC",
         "date": "2024-07-10T19:00:00+00:00",
         "timestamp": 1720638000,
@@ -2472,8 +2472,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Stadions Skonto",
-          "city": "Riga"
+          "name": "Ķekavas stadions",
+          "city": "Kekava"
         },
         "status": {
           "long": "Match Finished",
@@ -2530,7 +2530,7 @@
     {
       "fixture": {
         "id": 1208469,
-        "referee": "O. Reitala",
+        "referee": "Oliver Reitala, Finland",
         "timezone": "UTC",
         "date": "2024-07-17T17:00:00+00:00",
         "timestamp": 1721235600,
@@ -2666,7 +2666,7 @@
     {
       "fixture": {
         "id": 1208471,
-        "referee": "D. Černý",
+        "referee": "Dalibor Cerny, Czech Republic",
         "timezone": "UTC",
         "date": "2024-07-18T18:00:00+00:00",
         "timestamp": 1721325600,
@@ -2802,7 +2802,7 @@
     {
       "fixture": {
         "id": 1208473,
-        "referee": "L. Szikszay",
+        "referee": "Ladislav Szikszay, Czech Republic",
         "timezone": "UTC",
         "date": "2024-07-18T16:00:00+00:00",
         "timestamp": 1721318400,
@@ -2812,7 +2812,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Europa Point Stadium",
+          "name": "Victoria Stadium",
           "city": "Gibraltar"
         },
         "status": {
@@ -2938,7 +2938,7 @@
     {
       "fixture": {
         "id": 1208475,
-        "referee": "D. Starý",
+        "referee": "Dominik Stary, Czech Republic",
         "timezone": "UTC",
         "date": "2024-07-18T18:00:00+00:00",
         "timestamp": 1721325600,
@@ -3074,7 +3074,7 @@
     {
       "fixture": {
         "id": 1208477,
-        "referee": "P. Simani",
+        "referee": "Peiman Simani, Finland",
         "timezone": "UTC",
         "date": "2024-07-18T19:15:00+00:00",
         "timestamp": 1721330100,
@@ -3346,7 +3346,7 @@
     {
       "fixture": {
         "id": 1208481,
-        "referee": "B. Şimşek",
+        "referee": "Bahattin Simsek, Turkey",
         "timezone": "UTC",
         "date": "2024-07-18T16:00:00+00:00",
         "timestamp": 1721318400,
@@ -3414,7 +3414,7 @@
     {
       "fixture": {
         "id": 1209247,
-        "referee": "N. Verboomen",
+        "referee": "Nathan Verboomen, Belgium",
         "timezone": "UTC",
         "date": "2024-07-25T17:15:00+00:00",
         "timestamp": 1721927700,
@@ -3482,7 +3482,7 @@
     {
       "fixture": {
         "id": 1209248,
-        "referee": null,
+        "referee": "P. Kralovic",
         "timezone": "UTC",
         "date": "2024-08-01T16:00:00+00:00",
         "timestamp": 1722528000,
@@ -3550,7 +3550,7 @@
     {
       "fixture": {
         "id": 1209249,
-        "referee": "D. Shurman",
+        "referee": "Denys Shurman, Ukraine",
         "timezone": "UTC",
         "date": "2024-07-25T16:30:00+00:00",
         "timestamp": 1721925000,
@@ -3618,7 +3618,7 @@
     {
       "fixture": {
         "id": 1209250,
-        "referee": null,
+        "referee": "E. Maļcevs",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -3686,7 +3686,7 @@
     {
       "fixture": {
         "id": 1209251,
-        "referee": "Javier Alberola",
+        "referee": "Javier Alberola Rojas, Spain",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -3754,7 +3754,7 @@
     {
       "fixture": {
         "id": 1209252,
-        "referee": null,
+        "referee": "M. Milanović",
         "timezone": "UTC",
         "date": "2024-08-01T16:00:00+00:00",
         "timestamp": 1722528000,
@@ -3890,13 +3890,13 @@
     {
       "fixture": {
         "id": 1209254,
-        "referee": "K. Karlsson",
+        "referee": "Kristoffer Karlsson, Sweden",
         "timezone": "UTC",
         "date": "2024-07-31T17:00:00+00:00",
         "timestamp": 1722445200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722445200,
+          "second": 1722448800
         },
         "venue": {
           "id": 798,
@@ -3904,9 +3904,9 @@
           "city": "Székesfehérvár"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -3933,17 +3933,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -3958,7 +3958,7 @@
     {
       "fixture": {
         "id": 1209255,
-        "referee": "Alejandro Muñiz",
+        "referee": "Alejandro Muñiz Ruiz, Spain",
         "timezone": "UTC",
         "date": "2024-07-25T16:00:00+00:00",
         "timestamp": 1721923200,
@@ -4026,13 +4026,13 @@
     {
       "fixture": {
         "id": 1209256,
-        "referee": "I. McNabb",
+        "referee": "Ian McNabb, Northern Ireland",
         "timezone": "UTC",
         "date": "2024-07-31T18:30:00+00:00",
         "timestamp": 1722450600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722450600,
+          "second": 1722454200
         },
         "venue": {
           "id": 136,
@@ -4040,9 +4040,9 @@
           "city": "Wien"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
         }
       },
       "league": {
@@ -4059,42 +4059,42 @@
           "id": 601,
           "name": "Austria Vienna",
           "logo": "https://media.api-sports.io/football/teams/601.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 1163,
           "name": "Ilves Tampere",
           "logo": "https://media.api-sports.io/football/teams/1163.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 3
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         },
         "extratime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "penalty": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 5
         }
       }
     },
     {
       "fixture": {
         "id": 1209257,
-        "referee": "T. Owen",
+        "referee": "Tom Owen, Wales",
         "timezone": "UTC",
         "date": "2024-07-25T18:45:00+00:00",
         "timestamp": 1721933100,
@@ -4162,7 +4162,7 @@
     {
       "fixture": {
         "id": 1209258,
-        "referee": null,
+        "referee": "A. Ghaltakchyan",
         "timezone": "UTC",
         "date": "2024-08-01T17:30:00+00:00",
         "timestamp": 1722533400,
@@ -4331,18 +4331,18 @@
           "id": 2391,
           "name": "Puskas Academy",
           "logo": "https://media.api-sports.io/football/teams/2391.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 3623,
           "name": "Dnipro-1",
           "logo": "https://media.api-sports.io/football/teams/3623.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -4366,7 +4366,7 @@
     {
       "fixture": {
         "id": 1209261,
-        "referee": "A. Dudic",
+        "referee": "Alessandro Dudic, Switzerland",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -4434,7 +4434,7 @@
     {
       "fixture": {
         "id": 1209262,
-        "referee": null,
+        "referee": "G. Kikacheishvili",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -4502,7 +4502,7 @@
     {
       "fixture": {
         "id": 1209263,
-        "referee": "D. Sakhi",
+        "referee": "Daniyar Sakhi, Kazakhstan",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -4570,7 +4570,7 @@
     {
       "fixture": {
         "id": 1209264,
-        "referee": null,
+        "referee": "D. Nikolić",
         "timezone": "UTC",
         "date": "2024-08-01T17:30:00+00:00",
         "timestamp": 1722533400,
@@ -4638,7 +4638,7 @@
     {
       "fixture": {
         "id": 1209265,
-        "referee": "M. De Gabriele",
+        "referee": "Matthew Degabriele, Malta",
         "timezone": "UTC",
         "date": "2024-07-25T19:00:00+00:00",
         "timestamp": 1721934000,
@@ -4706,7 +4706,7 @@
     {
       "fixture": {
         "id": 1209266,
-        "referee": null,
+        "referee": "T. Marshall",
         "timezone": "UTC",
         "date": "2024-08-01T19:00:00+00:00",
         "timestamp": 1722538800,
@@ -4774,7 +4774,7 @@
     {
       "fixture": {
         "id": 1209267,
-        "referee": "C. Ciochirca",
+        "referee": "Christian-Petru Ciochirca, Austria",
         "timezone": "UTC",
         "date": "2024-07-24T16:00:00+00:00",
         "timestamp": 1721836800,
@@ -4784,7 +4784,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Stadions Skonto",
+          "name": "Skonto",
           "city": "Riga"
         },
         "status": {
@@ -4842,7 +4842,7 @@
     {
       "fixture": {
         "id": 1209268,
-        "referee": null,
+        "referee": "G. Nuza",
         "timezone": "UTC",
         "date": "2024-08-01T18:30:00+00:00",
         "timestamp": 1722537000,
@@ -4910,7 +4910,7 @@
     {
       "fixture": {
         "id": 1209269,
-        "referee": "P. Kolarić",
+        "referee": "Patrik Kolarić, Croatia",
         "timezone": "UTC",
         "date": "2024-07-25T16:00:00+00:00",
         "timestamp": 1721923200,
@@ -4978,7 +4978,7 @@
     {
       "fixture": {
         "id": 1209270,
-        "referee": null,
+        "referee": "M. McDermid",
         "timezone": "UTC",
         "date": "2024-08-01T16:00:00+00:00",
         "timestamp": 1722528000,
@@ -5046,7 +5046,7 @@
     {
       "fixture": {
         "id": 1209271,
-        "referee": "M. Gigović",
+        "referee": "Milos Gigovic,",
         "timezone": "UTC",
         "date": "2024-07-25T17:30:00+00:00",
         "timestamp": 1721928600,
@@ -5114,7 +5114,7 @@
     {
       "fixture": {
         "id": 1209272,
-        "referee": null,
+        "referee": "A. Argyrou",
         "timezone": "UTC",
         "date": "2024-08-01T18:00:00+00:00",
         "timestamp": 1722535200,
@@ -5182,7 +5182,7 @@
     {
       "fixture": {
         "id": 1209273,
-        "referee": "F. Jović",
+        "referee": "Fran Jović, Croatia",
         "timezone": "UTC",
         "date": "2024-07-25T16:45:00+00:00",
         "timestamp": 1721925900,
@@ -5250,7 +5250,7 @@
     {
       "fixture": {
         "id": 1209274,
-        "referee": null,
+        "referee": "A. Diamantopoulos",
         "timezone": "UTC",
         "date": "2024-08-01T15:00:00+00:00",
         "timestamp": 1722524400,
@@ -5318,7 +5318,7 @@
     {
       "fixture": {
         "id": 1250493,
-        "referee": "J. Frischer",
+        "referee": "Juri Frischer, Estonia",
         "timezone": "UTC",
         "date": "2024-07-25T18:45:00+00:00",
         "timestamp": 1721933100,
@@ -5386,7 +5386,7 @@
     {
       "fixture": {
         "id": 1250494,
-        "referee": null,
+        "referee": "I. Kristjánsson",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -5454,23 +5454,23 @@
     {
       "fixture": {
         "id": 1250495,
-        "referee": null,
+        "referee": "Dominik Stary, Czech Republic",
         "timezone": "UTC",
         "date": "2024-07-31T15:00:00+00:00",
         "timestamp": 1722438000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722438000,
+          "second": 1722441600
         },
         "venue": {
-          "id": 1169,
-          "name": "Stadions Skonto",
-          "city": "Riga"
+          "id": null,
+          "name": "Ķekavas stadions",
+          "city": "Kekava"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -5487,27 +5487,27 @@
           "id": 4135,
           "name": "Auda",
           "logo": "https://media.api-sports.io/football/teams/4135.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 2266,
           "name": "Cliftonville FC",
           "logo": "https://media.api-sports.io/football/teams/2266.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -5522,7 +5522,7 @@
     {
       "fixture": {
         "id": 1250496,
-        "referee": "H. Jónasson",
+        "referee": "Helgi Mikael Jonasson, Iceland",
         "timezone": "UTC",
         "date": "2024-07-24T18:45:00+00:00",
         "timestamp": 1721846700,
@@ -5590,7 +5590,7 @@
     {
       "fixture": {
         "id": 1250954,
-        "referee": "L. D'hondt",
+        "referee": "Lothar D'hondt, Belgium",
         "timezone": "UTC",
         "date": "2024-07-24T18:00:00+00:00",
         "timestamp": 1721844000,
@@ -5658,7 +5658,7 @@
     {
       "fixture": {
         "id": 1250955,
-        "referee": null,
+        "referee": "O. Berka",
         "timezone": "UTC",
         "date": "2024-08-01T16:30:00+00:00",
         "timestamp": 1722529800,
@@ -5726,7 +5726,7 @@
     {
       "fixture": {
         "id": 1250956,
-        "referee": "A. Bandić",
+        "referee": "Antoni Bandić, Bosnia & Herzegovina",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -5794,13 +5794,13 @@
     {
       "fixture": {
         "id": 1250957,
-        "referee": null,
+        "referee": "Igor Stojcevski, North Macedonia",
         "timezone": "UTC",
         "date": "2024-07-31T17:00:00+00:00",
         "timestamp": 1722445200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722445200,
+          "second": 1722448800
         },
         "venue": {
           "id": 1511,
@@ -5808,9 +5808,9 @@
           "city": "Göteborg"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -5827,27 +5827,27 @@
           "id": 367,
           "name": "BK Hacken",
           "logo": "https://media.api-sports.io/football/teams/367.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 578,
           "name": "F91 Dudelange",
           "logo": "https://media.api-sports.io/football/teams/578.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 6,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 6,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -5862,7 +5862,7 @@
     {
       "fixture": {
         "id": 1250958,
-        "referee": "B. Van Driessche",
+        "referee": "Bram Van Driessche, Belgium",
         "timezone": "UTC",
         "date": "2024-07-25T19:00:00+00:00",
         "timestamp": 1721934000,
@@ -5930,13 +5930,13 @@
     {
       "fixture": {
         "id": 1250959,
-        "referee": null,
+        "referee": "Sandi Putros, Denmark",
         "timezone": "UTC",
         "date": "2024-07-31T18:30:00+00:00",
         "timestamp": 1722450600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722450600,
+          "second": 1722454200
         },
         "venue": {
           "id": 11602,
@@ -5944,9 +5944,9 @@
           "city": "Trnava"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -5963,27 +5963,27 @@
           "id": 1120,
           "name": "Spartak Trnava",
           "logo": "https://media.api-sports.io/football/teams/1120.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 679,
           "name": "FK Sarajevo",
           "logo": "https://media.api-sports.io/football/teams/679.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -5998,7 +5998,7 @@
     {
       "fixture": {
         "id": 1250960,
-        "referee": "M. Matoša",
+        "referee": "Martin Matoša, Slovenia",
         "timezone": "UTC",
         "date": "2024-07-25T16:30:00+00:00",
         "timestamp": 1721925000,
@@ -6008,8 +6008,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Neo GSP",
-          "city": "Levkosía"
+          "name": "GSP Stadium",
+          "city": "Nicosia"
         },
         "status": {
           "long": "Match Finished",
@@ -6066,7 +6066,7 @@
     {
       "fixture": {
         "id": 1250961,
-        "referee": null,
+        "referee": "I. Barbara",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -6134,7 +6134,7 @@
     {
       "fixture": {
         "id": 1250962,
-        "referee": "J. Petřík",
+        "referee": "Jan Petrik, Czech Republic",
         "timezone": "UTC",
         "date": "2024-07-25T19:15:00+00:00",
         "timestamp": 1721934900,
@@ -6202,23 +6202,23 @@
     {
       "fixture": {
         "id": 1250963,
-        "referee": "K. Umudlu",
+        "referee": "Kamal Umudlu, Azerbaijan",
         "timezone": "UTC",
         "date": "2024-07-30T15:00:00+00:00",
         "timestamp": 1722351600,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722351600,
+          "second": 1722355200
         },
         "venue": {
           "id": null,
-          "name": "Stadiumi Zahir Pajaziti",
-          "city": "Besiana, Podujevo"
+          "name": "Stadiumi i Qytetit",
+          "city": "Gjilanë"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -6235,27 +6235,27 @@
           "id": 14281,
           "name": "Drita",
           "logo": "https://media.api-sports.io/football/teams/14281.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 276,
           "name": "Breidablik",
           "logo": "https://media.api-sports.io/football/teams/276.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -6270,7 +6270,7 @@
     {
       "fixture": {
         "id": 1250964,
-        "referee": "J. Karlsen",
+        "referee": "Jacob Karlsen, Denmark",
         "timezone": "UTC",
         "date": "2024-07-25T18:00:00+00:00",
         "timestamp": 1721930400,
@@ -6338,7 +6338,7 @@
     {
       "fixture": {
         "id": 1250965,
-        "referee": null,
+        "referee": "M. Antoniou",
         "timezone": "UTC",
         "date": "2024-08-01T16:00:00+00:00",
         "timestamp": 1722528000,
@@ -6406,7 +6406,7 @@
     {
       "fixture": {
         "id": 1250966,
-        "referee": "I. Kvirikashvili",
+        "referee": "Irakli Kvirikashvili, Georgia",
         "timezone": "UTC",
         "date": "2024-07-25T17:30:00+00:00",
         "timestamp": 1721928600,
@@ -6474,7 +6474,7 @@
     {
       "fixture": {
         "id": 1250967,
-        "referee": null,
+        "referee": "M. Očenáš",
         "timezone": "UTC",
         "date": "2024-08-01T19:00:00+00:00",
         "timestamp": 1722538800,
@@ -6483,8 +6483,8 @@
           "second": null
         },
         "venue": {
-          "id": 1095,
-          "name": "Stadion Pod Goricom",
+          "id": 2532,
+          "name": "DG Arena",
           "city": "Podgorica"
         },
         "status": {
@@ -6542,7 +6542,7 @@
     {
       "fixture": {
         "id": 1250968,
-        "referee": null,
+        "referee": "D. Muntean",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -6610,7 +6610,7 @@
     {
       "fixture": {
         "id": 1250969,
-        "referee": "Cláudio Pereira",
+        "referee": "Claudio Filipe Ruivo Pereira, Portugal",
         "timezone": "UTC",
         "date": "2024-07-25T16:00:00+00:00",
         "timestamp": 1721923200,
@@ -6620,7 +6620,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Europa Point Stadium",
+          "name": "Victoria Stadium",
           "city": "Gibraltar"
         },
         "status": {
@@ -6678,7 +6678,7 @@
     {
       "fixture": {
         "id": 1250970,
-        "referee": "M. Bošković",
+        "referee": "Milos Boskovic, Montenegro",
         "timezone": "UTC",
         "date": "2024-07-25T17:45:00+00:00",
         "timestamp": 1721929500,
@@ -6746,7 +6746,7 @@
     {
       "fixture": {
         "id": 1250971,
-        "referee": null,
+        "referee": "G. Maqedonci",
         "timezone": "UTC",
         "date": "2024-08-01T18:45:00+00:00",
         "timestamp": 1722537900,
@@ -6814,7 +6814,7 @@
     {
       "fixture": {
         "id": 1250972,
-        "referee": "V. Thórarinsson",
+        "referee": "Vilhjalmur Alvar Thorarinsson, Iceland",
         "timezone": "UTC",
         "date": "2024-07-25T18:00:00+00:00",
         "timestamp": 1721930400,
@@ -6882,7 +6882,7 @@
     {
       "fixture": {
         "id": 1250973,
-        "referee": null,
+        "referee": "M. Káprály",
         "timezone": "UTC",
         "date": "2024-08-01T18:00:00+00:00",
         "timestamp": 1722535200,
@@ -6950,7 +6950,7 @@
     {
       "fixture": {
         "id": 1250974,
-        "referee": "L. Tschudi",
+        "referee": "Lionel Tschudi, Switzerland",
         "timezone": "UTC",
         "date": "2024-07-25T19:00:00+00:00",
         "timestamp": 1721934000,
@@ -7018,7 +7018,7 @@
     {
       "fixture": {
         "id": 1250975,
-        "referee": null,
+        "referee": "J. Jaanovits",
         "timezone": "UTC",
         "date": "2024-08-01T15:00:00+00:00",
         "timestamp": 1722524400,
@@ -7154,7 +7154,7 @@
     {
       "fixture": {
         "id": 1250977,
-        "referee": null,
+        "referee": "R. Jenkins",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -7222,7 +7222,7 @@
     {
       "fixture": {
         "id": 1250978,
-        "referee": "I. Papadopoulos",
+        "referee": "Ioannis Papadopoulos, Greece",
         "timezone": "UTC",
         "date": "2024-07-25T18:00:00+00:00",
         "timestamp": 1721930400,
@@ -7232,8 +7232,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Gradski stadion Dubočica",
-          "city": "Leskovac"
+          "name": "Čika Dača Stadium",
+          "city": "Kragujevac"
         },
         "status": {
           "long": "Match Finished",
@@ -7290,13 +7290,13 @@
     {
       "fixture": {
         "id": 1250979,
-        "referee": null,
+        "referee": "Gal Leibovitz, Israel",
         "timezone": "UTC",
         "date": "2024-07-31T18:45:00+00:00",
         "timestamp": 1722451500,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722451500,
+          "second": 1722455100
         },
         "venue": {
           "id": 2532,
@@ -7304,9 +7304,9 @@
           "city": "Podgorica"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "PEN",
+          "elapsed": 120
         }
       },
       "league": {
@@ -7323,42 +7323,42 @@
           "id": 3740,
           "name": "Mornar",
           "logo": "https://media.api-sports.io/football/teams/3740.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 2644,
           "name": "Radnicki 1923",
           "logo": "https://media.api-sports.io/football/teams/2644.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "extratime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "penalty": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 3
         }
       }
     },
     {
       "fixture": {
         "id": 1250980,
-        "referee": "A. Chivulete",
+        "referee": "Andrei Florin Chivulete, Romania",
         "timezone": "UTC",
         "date": "2024-07-25T16:00:00+00:00",
         "timestamp": 1721923200,
@@ -7426,7 +7426,7 @@
     {
       "fixture": {
         "id": 1250981,
-        "referee": null,
+        "referee": "J. Robinson",
         "timezone": "UTC",
         "date": "2024-08-01T18:00:00+00:00",
         "timestamp": 1722535200,
@@ -7494,7 +7494,7 @@
     {
       "fixture": {
         "id": 1250982,
-        "referee": "N. Popov",
+        "referee": "Nikola Popov, Bulgaria",
         "timezone": "UTC",
         "date": "2024-07-25T16:00:00+00:00",
         "timestamp": 1721923200,
@@ -7562,7 +7562,7 @@
     {
       "fixture": {
         "id": 1250983,
-        "referee": null,
+        "referee": "R. Buquet",
         "timezone": "UTC",
         "date": "2024-08-01T14:00:00+00:00",
         "timestamp": 1722520800,
@@ -7630,7 +7630,7 @@
     {
       "fixture": {
         "id": 1250984,
-        "referee": "I. Griffith",
+        "referee": "Iwan Griffith, Wales",
         "timezone": "UTC",
         "date": "2024-07-25T15:00:00+00:00",
         "timestamp": 1721919600,
@@ -7698,7 +7698,7 @@
     {
       "fixture": {
         "id": 1250985,
-        "referee": null,
+        "referee": "J. Vergoote",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -7766,7 +7766,7 @@
     {
       "fixture": {
         "id": 1250986,
-        "referee": "D. Kos",
+        "referee": "Damian Kos, Poland",
         "timezone": "UTC",
         "date": "2024-07-25T18:45:00+00:00",
         "timestamp": 1721933100,
@@ -7834,7 +7834,7 @@
     {
       "fixture": {
         "id": 1250987,
-        "referee": null,
+        "referee": "M. Redder",
         "timezone": "UTC",
         "date": "2024-08-01T18:45:00+00:00",
         "timestamp": 1722537900,
@@ -7902,7 +7902,7 @@
     {
       "fixture": {
         "id": 1250988,
-        "referee": "B. McMaster",
+        "referee": "Ben McMaster, Northern Ireland",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -7970,7 +7970,7 @@
     {
       "fixture": {
         "id": 1250989,
-        "referee": null,
+        "referee": "I. Orlic",
         "timezone": "UTC",
         "date": "2024-08-01T19:15:00+00:00",
         "timestamp": 1722539700,
@@ -8038,7 +8038,7 @@
     {
       "fixture": {
         "id": 1250990,
-        "referee": "M. Bejtullahu",
+        "referee": "Mervan Bejtullahu, Kosovo",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -8106,7 +8106,7 @@
     {
       "fixture": {
         "id": 1250991,
-        "referee": null,
+        "referee": "B. Saryev",
         "timezone": "UTC",
         "date": "2024-08-01T15:00:00+00:00",
         "timestamp": 1722524400,
@@ -8174,7 +8174,7 @@
     {
       "fixture": {
         "id": 1250992,
-        "referee": "V. Kastrati",
+        "referee": "Visar Kastrati, Kosovo",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -8242,7 +8242,7 @@
     {
       "fixture": {
         "id": 1250993,
-        "referee": null,
+        "referee": "R. Valikonis",
         "timezone": "UTC",
         "date": "2024-08-01T18:45:00+00:00",
         "timestamp": 1722537900,
@@ -8310,7 +8310,7 @@
     {
       "fixture": {
         "id": 1251920,
-        "referee": "W. Altmann",
+        "referee": "Walter Altmann, Austria",
         "timezone": "UTC",
         "date": "2024-07-23T16:00:00+00:00",
         "timestamp": 1721750400,
@@ -8320,8 +8320,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Stadiumi Zahir Pajaziti",
-          "city": "Besiana, Podujevo"
+          "name": "Suhareka City Stadium",
+          "city": "Suhareka"
         },
         "status": {
           "long": "Match Finished",
@@ -8378,13 +8378,13 @@
     {
       "fixture": {
         "id": 1251921,
-        "referee": null,
+        "referee": "M. Beltrano",
         "timezone": "UTC",
         "date": "2024-07-30T18:00:00+00:00",
         "timestamp": 1722362400,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722362400,
+          "second": 1722366000
         },
         "venue": {
           "id": 12090,
@@ -8392,9 +8392,9 @@
           "city": "Paola"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -8411,27 +8411,27 @@
           "id": 4626,
           "name": "Hamrun Spartans",
           "logo": "https://media.api-sports.io/football/teams/4626.png",
-          "winner": null
+          "winner": false
         },
         "away": {
           "id": 12733,
           "name": "Ballkani",
           "logo": "https://media.api-sports.io/football/teams/12733.png",
-          "winner": null
+          "winner": true
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extratime": {
           "home": null,
@@ -8446,7 +8446,7 @@
     {
       "fixture": {
         "id": 1251922,
-        "referee": "M. Aslam",
+        "referee": "Mohammad Usman Aslam, Norway",
         "timezone": "UTC",
         "date": "2024-07-23T17:00:00+00:00",
         "timestamp": 1721754000,
@@ -8456,7 +8456,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Stade Parc des Sports",
+          "name": "Stade Municipal de Differdange",
           "city": "Differdange"
         },
         "status": {
@@ -8514,7 +8514,7 @@
     {
       "fixture": {
         "id": 1251923,
-        "referee": null,
+        "referee": "M. Radina",
         "timezone": "UTC",
         "date": "2024-08-01T15:00:00+00:00",
         "timestamp": 1722524400,
@@ -8582,7 +8582,7 @@
     {
       "fixture": {
         "id": 1251924,
-        "referee": "D. Draganov",
+        "referee": "Dragomir Draganov, Bulgaria",
         "timezone": "UTC",
         "date": "2024-07-23T19:00:00+00:00",
         "timestamp": 1721761200,
@@ -8650,13 +8650,13 @@
     {
       "fixture": {
         "id": 1251925,
-        "referee": null,
+        "referee": "Snir Levy, Israel",
         "timezone": "UTC",
         "date": "2024-07-30T16:00:00+00:00",
         "timestamp": 1722355200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722355200,
+          "second": 1722358800
         },
         "venue": {
           "id": 605,
@@ -8664,9 +8664,9 @@
           "city": "Tallinn"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "AET",
+          "elapsed": 120
         }
       },
       "league": {
@@ -8683,31 +8683,31 @@
           "id": 687,
           "name": "Flora Tallinn",
           "logo": "https://media.api-sports.io/football/teams/687.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 5308,
           "name": "Virtus",
           "logo": "https://media.api-sports.io/football/teams/5308.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 2
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
         "extratime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         },
         "penalty": {
           "home": null,
@@ -8718,7 +8718,7 @@
     {
       "fixture": {
         "id": 1251926,
-        "referee": "Luis Teixeira",
+        "referee": "Luis Teixeira, Portugal",
         "timezone": "UTC",
         "date": "2024-07-24T15:00:00+00:00",
         "timestamp": 1721833200,
@@ -8786,13 +8786,13 @@
     {
       "fixture": {
         "id": 1251927,
-        "referee": null,
+        "referee": "Sigurd Smehus Kringstad, Norway",
         "timezone": "UTC",
         "date": "2024-07-30T16:00:00+00:00",
         "timestamp": 1722355200,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722355200,
+          "second": 1722358800
         },
         "venue": {
           "id": 121,
@@ -8800,9 +8800,9 @@
           "city": "Yerevan"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -8819,27 +8819,27 @@
           "id": 709,
           "name": "Pyunik Yerevan",
           "logo": "https://media.api-sports.io/football/teams/709.png",
-          "winner": null
+          "winner": true
         },
         "away": {
           "id": 4346,
           "name": "Struga",
           "logo": "https://media.api-sports.io/football/teams/4346.png",
-          "winner": null
+          "winner": false
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         },
         "extratime": {
           "home": null,
@@ -8854,7 +8854,7 @@
     {
       "fixture": {
         "id": 1251928,
-        "referee": "S. Karabayev",
+        "referee": "Sayat Karabaev, Kazakhstan",
         "timezone": "UTC",
         "date": "2024-07-24T17:00:00+00:00",
         "timestamp": 1721840400,
@@ -8922,23 +8922,23 @@
     {
       "fixture": {
         "id": 1251929,
-        "referee": null,
+        "referee": "Jason Barcelo, Gibraltar",
         "timezone": "UTC",
         "date": "2024-07-30T19:00:00+00:00",
         "timestamp": 1722366000,
         "periods": {
-          "first": null,
-          "second": null
+          "first": 1722366000,
+          "second": 1722369600
         },
         "venue": {
-          "id": 1095,
-          "name": "Stadion Pod Goricom",
+          "id": null,
+          "name": "Stadion Tuško Polje",
           "city": "Podgorica"
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -8965,17 +8965,17 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "extratime": {
           "home": null,
@@ -8990,7 +8990,7 @@
     {
       "fixture": {
         "id": 1251930,
-        "referee": "I. Torres Rocha",
+        "referee": "Ivo Torres, Luxembourg",
         "timezone": "UTC",
         "date": "2024-07-25T16:30:00+00:00",
         "timestamp": 1721925000,
@@ -9000,7 +9000,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Liv Bona Dea Arena",
+          "name": "Zira Olympic Sport Complex",
           "city": "Baku"
         },
         "status": {
@@ -9058,7 +9058,7 @@
     {
       "fixture": {
         "id": 1251931,
-        "referee": null,
+        "referee": "J. Kachevski",
         "timezone": "UTC",
         "date": "2024-08-01T18:30:00+00:00",
         "timestamp": 1722537000,
@@ -9126,7 +9126,7 @@
     {
       "fixture": {
         "id": 1251932,
-        "referee": "K. Hagenes",
+        "referee": "Kristoffer Hagenes, Norway",
         "timezone": "UTC",
         "date": "2024-07-25T16:00:00+00:00",
         "timestamp": 1721923200,
@@ -9194,7 +9194,7 @@
     {
       "fixture": {
         "id": 1251933,
-        "referee": null,
+        "referee": "S. Ebner",
         "timezone": "UTC",
         "date": "2024-08-01T16:00:00+00:00",
         "timestamp": 1722528000,
@@ -9262,7 +9262,7 @@
     {
       "fixture": {
         "id": 1251934,
-        "referee": "D. Dickinson",
+        "referee": "David Dickinson, Scotland",
         "timezone": "UTC",
         "date": "2024-07-25T17:00:00+00:00",
         "timestamp": 1721926800,
@@ -9398,7 +9398,7 @@
     {
       "fixture": {
         "id": 1251936,
-        "referee": "D. Higler",
+        "referee": "Dennis Higler, Netherlands",
         "timezone": "UTC",
         "date": "2024-07-25T18:00:00+00:00",
         "timestamp": 1721930400,
@@ -9466,7 +9466,7 @@
     {
       "fixture": {
         "id": 1251937,
-        "referee": null,
+        "referee": "L. Cibelli",
         "timezone": "UTC",
         "date": "2024-08-01T16:00:00+00:00",
         "timestamp": 1722528000,
@@ -9534,7 +9534,7 @@
     {
       "fixture": {
         "id": 1251938,
-        "referee": "R. Harvey",
+        "referee": "Robert Harvey, Ireland",
         "timezone": "UTC",
         "date": "2024-07-25T18:00:00+00:00",
         "timestamp": 1721930400,
@@ -9670,7 +9670,7 @@
     {
       "fixture": {
         "id": 1251940,
-        "referee": "J. Muller",
+        "referee": "Jeremy Muller, Luxembourg",
         "timezone": "UTC",
         "date": "2024-07-25T19:00:00+00:00",
         "timestamp": 1721934000,
@@ -9738,7 +9738,7 @@
     {
       "fixture": {
         "id": 1251941,
-        "referee": null,
+        "referee": "Antoine Chiaramonti",
         "timezone": "UTC",
         "date": "2024-08-01T16:30:00+00:00",
         "timestamp": 1722529800,
@@ -9806,7 +9806,7 @@
     {
       "fixture": {
         "id": 1251942,
-        "referee": "M. Kristoffersen",
+        "referee": "Mads-Kristoffer Kristoffersen, Denmark",
         "timezone": "UTC",
         "date": "2024-07-25T18:15:00+00:00",
         "timestamp": 1721931300,
@@ -9874,7 +9874,7 @@
     {
       "fixture": {
         "id": 1251943,
-        "referee": null,
+        "referee": "J. Šabotić",
         "timezone": "UTC",
         "date": "2024-08-01T17:00:00+00:00",
         "timestamp": 1722531600,
@@ -9942,7 +9942,7 @@
     {
       "fixture": {
         "id": 1251944,
-        "referee": "J. Ellefsen",
+        "referee": "Johan Hendrik Ellefsen, Faroe Islands",
         "timezone": "UTC",
         "date": "2024-07-25T18:45:00+00:00",
         "timestamp": 1721933100,
@@ -10010,7 +10010,7 @@
     {
       "fixture": {
         "id": 1251945,
-        "referee": null,
+        "referee": "Fábio Veríssimo",
         "timezone": "UTC",
         "date": "2024-08-01T18:00:00+00:00",
         "timestamp": 1722535200,
@@ -10049,6 +10049,278 @@
           "id": 278,
           "name": "Vikingur Reykjavik",
           "logo": "https://media.api-sports.io/football/teams/278.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271723,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-08T17:00:00+00:00",
+        "timestamp": 1723136400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadiumi i qytetit Suharekë",
+          "city": "Suva Reka"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 12733,
+          "name": "Ballkani",
+          "logo": "https://media.api-sports.io/football/teams/12733.png",
+          "winner": null
+        },
+        "away": {
+          "id": 5354,
+          "name": "Larne",
+          "logo": "https://media.api-sports.io/football/teams/5354.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271724,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-15T00:00:00+00:00",
+        "timestamp": 1723680000,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 4045,
+          "name": "Inver Park",
+          "city": "Larne"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 5354,
+          "name": "Larne",
+          "logo": "https://media.api-sports.io/football/teams/5354.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12733,
+          "name": "Ballkani",
+          "logo": "https://media.api-sports.io/football/teams/12733.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271725,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-08T17:00:00+00:00",
+        "timestamp": 1723136400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 615,
+          "name": "Bolt Arena",
+          "city": "Helsinki"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 649,
+          "name": "HJK helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3745,
+          "name": "Dečić",
+          "logo": "https://media.api-sports.io/football/teams/3745.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1271726,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2024-08-15T00:00:00+00:00",
+        "timestamp": 1723680000,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 2527,
+          "name": "Stadion Tuško Polje",
+          "city": "Tuzi"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/848.png",
+        "flag": null,
+        "season": 2024,
+        "round": "3rd Qualifying Round"
+      },
+      "teams": {
+        "home": {
+          "id": 3745,
+          "name": "Dečić",
+          "logo": "https://media.api-sports.io/football/teams/3745.png",
+          "winner": null
+        },
+        "away": {
+          "id": 649,
+          "name": "HJK helsinki",
+          "logo": "https://media.api-sports.io/football/teams/649.png",
           "winner": null
         }
       },
