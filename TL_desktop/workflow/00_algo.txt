@@ -1,0 +1,21 @@
+1 итерация в сутки в 0:00 UTC
+
+01_matchday.json: вручную заполнить результаты вчерашних игр
+
+02_fix_results.py: запись результатов игр из matchday.json в games.json
+
+
+
+
+
+
+
+
+
+
+
+вручную найти сегодняшние игры между участниками и заполнить 1_matchday.json
+копируя клубы из cache/teams_list.json
+заполняя местное время
+
+11_exp_games.py: отправить сегодняшние игры из 1_matchday.json в games.json с "game_status": "expected"

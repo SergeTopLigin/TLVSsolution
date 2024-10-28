@@ -1,5 +1,5 @@
 {
-  "England": [
+  "ENG": [
     "Arsenal",
     "Aston Villa",
     "Bournemouth",
@@ -21,7 +21,7 @@
     "West Ham",
     "Wolves"
   ],
-  "Spain": [
+  "ESP": [
     "Alaves",
     "Athletic Club",
     "Atletico Madrid",
@@ -43,7 +43,7 @@
     "Valladolid",
     "Villarreal"
   ],
-  "Italy": [
+  "ITA": [
     "AC Milan",
     "AS Roma",
     "Atalanta",
@@ -65,7 +65,7 @@
     "Venezia",
     "Verona"
   ],
-  "Germany": [
+  "GER": [
     "1. FC Heidenheim",
     "1899 Hoffenheim",
     "Bayer Leverkusen",
@@ -85,7 +85,7 @@
     "VfL Wolfsburg",
     "Werder Bremen"
   ],
-  "France": [
+  "FRA": [
     "Angers",
     "Auxerre",
     "LE Havre",
@@ -105,7 +105,7 @@
     "Strasbourg",
     "Toulouse"
   ],
-  "Netherlands": [
+  "NED": [
     "AZ Alkmaar",
     "Ajax",
     "Almere City FC",
@@ -125,7 +125,7 @@
     "Waalwijk",
     "Willem II"
   ],
-  "Portugal": [
+  "POR": [
     "AVS",
     "Arouca",
     "Benfica",
@@ -145,7 +145,7 @@
     "Santa Clara",
     "Sporting CP"
   ],
-  "Belgium": [
+  "BEL": [
     "Anderlecht",
     "Antwerp",
     "Beerschot Wilrijk",
@@ -163,7 +163,7 @@
     "Standard Liege",
     "Union St. Gilloise"
   ],
-  "Turkey": [
+  "TUR": [
     "Adana Demirspor",
     "Alanyaspor",
     "Antalyaspor",
@@ -184,7 +184,7 @@
     "Sivasspor",
     "Trabzonspor"
   ],
-  "Scotland": [
+  "SCO": [
     "Aberdeen",
     "Celtic",
     "Dundee",
@@ -198,7 +198,7 @@
     "ST Johnstone",
     "ST Mirren"
   ],
-  "Czech-Republic": [
+  "CZE": [
     "Baník Ostrava",
     "Bohemians 1905",
     "Dukla Praha",
@@ -216,7 +216,7 @@
     "Teplice",
     "České Budějovice"
   ],
-  "Switzerland": [
+  "SUI": [
     "BSC Young Boys",
     "FC Basel 1893",
     "FC Lugano",
@@ -230,7 +230,7 @@
     "Servette FC",
     "Yverdon Sport"
   ],
-  "Austria": [
+  "AUS": [
     "Austria Klagenfurt",
     "Austria Vienna",
     "FC BW Linz",
@@ -244,7 +244,7 @@
     "WSG Wattens",
     "Wolfsberger AC"
   ],
-  "Denmark": [
+  "DEN": [
     "Aalborg",
     "Aarhus",
     "Brondby",
