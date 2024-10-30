@@ -27,7 +27,7 @@ for match in matchday:
                         game['result'] = 'lose'
                         game['goalDiff'] = min(match['goals']['home'], match['goals']['away']) - max(match['goals']['home'], match['goals']['away'])
 
-with open((os.path.abspath(__file__))[:-26]+'/cache/games.json', 'w', encoding='utf-8') as j:
+with open((os.path.abspath(__file__))[:-27]+'/cache/games.json', 'w', encoding='utf-8') as j:
     json.dump(games, j, skipkeys=True, ensure_ascii=False, indent=2)
 
 # print(json.dumps(games, skipkeys=True, ensure_ascii=False, indent=2))

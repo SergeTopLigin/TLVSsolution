@@ -9,6 +9,10 @@
     "goals": {
         "home": null,
         "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 3
         }
     }
 ]

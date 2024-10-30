@@ -121,9 +121,16 @@ for match in matchday:
                 game['opp_TLpos'] = [list(TL_standings.values()).index(club)+1 for club in list(TL_standings.values()) if club['IDapi'] == game['opp_id']][0]
             else:
                 game['opp_TLpos'] = None
-        
+        # 'club_NATpos':
+            game['club_NATpos'] = match['NATpos']['home'] if match['id']['home'] == club_id else match['NATpos']['away']
+        # 'opp_NATpos':        
+            game['opp_NATpos'] = match['NATpos']['away'] if match['id']['home'] == club_id else match['NATpos']['home']
+        # 'club_qouta':
+        # 'opp_qouta':
 
             games[str(club_id)].append(game)
 
+with open((os.path.abspath(__file__))[:-25]+'/cache/games.json', 'w', encoding='utf-8') as j:
+    json.dump(games, j, skipkeys=True, ensure_ascii=False, indent=2)
 
-print(json.dumps(games, skipkeys=True, ensure_ascii=False, indent=2))
+# print(json.dumps(games, skipkeys=True, ensure_ascii=False, indent=2))

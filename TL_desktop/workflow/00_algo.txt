@@ -4,6 +4,9 @@
 
 02_fix_results.py: запись результатов игр из matchday.json в games.json
 
+03_TL_standings.py: расчет standings по games.json
+
+04_uefa_standings.py: uefa ranking в течение 1-го года
 
 
 
@@ -13,9 +16,11 @@
 
 
 
-
-вручную найти сегодняшние игры между участниками и заполнить 1_matchday.json
+01_matchday.json: вручную найти сегодняшние игры между участниками и заполнить
 копируя клубы из cache/teams_list.json
 заполняя местное время
+NATpos не влияет на квоту, заполняется только для отображения на странице games - брать из таблицы без расчетов
 
 11_exp_games.py: отправить сегодняшние игры из 1_matchday.json в games.json с "game_status": "expected"
+
+отправить итерацию на github
