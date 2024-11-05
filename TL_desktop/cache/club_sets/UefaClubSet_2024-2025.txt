@@ -1,0 +1,108 @@
+Red Bull Salzburg;   id:571.
+Stade Brestois 29;   id:106.
+VfB Stuttgart;   id:172.
+Sparta Praha;   id:628.
+Barcelona;   id:529.
+BSC Young Boys;   id:565.
+Bayer Leverkusen;   id:168.
+AC Milan;   id:489.
+Borussia Dortmund;   id:165.
+Celtic;   id:247.
+Inter;   id:505.
+FK Crvena Zvezda;   id:598.
+PSV Eindhoven;   id:197.
+Sporting CP;   id:228.
+Slovan Bratislava;   id:656.
+Manchester City;   id:50.
+Arsenal;   id:42.
+Paris Saint Germain;   id:85.
+Girona;   id:547.
+Feyenoord;   id:209.
+Shakhtar Donetsk;   id:550.
+Atalanta;   id:499.
+Aston Villa;   id:66.
+Bayern München;   id:157.
+Benfica;   id:211.
+Atletico Madrid;   id:530.
+Dinamo Zagreb;   id:620.
+Monaco;   id:91.
+Lille;   id:79.
+Real Madrid;   id:541.
+Liverpool;   id:40.
+Bologna;   id:500.
+RB Leipzig;   id:173.
+Juventus;   id:496.
+Sturm Graz;   id:637.
+Club Brugge KV;   id:569.
+Ferencvarosi TC;   id:651.
+Tottenham;   id:47.
+Lazio;   id:487.
+Nice;   id:84.
+Maccabi Tel Aviv;   id:604.
+FC Midtjylland;   id:397.
+Olympiakos Piraeus;   id:553.
+SC Braga;   id:217.
+Qarabag;   id:556.
+Malmo FF;   id:375.
+Real Sociedad;   id:548.
+Anderlecht;   id:554.
+Rīgas FS;   id:4160.
+Galatasaray;   id:645.
+Slavia Praha;   id:560.
+Ajax;   id:194.
+1899 Hoffenheim;   id:167.
+Dynamo Kyiv;   id:572.
+Athletic Club;   id:531.
+AZ Alkmaar;   id:201.
+Besiktas;   id:549.
+Eintracht Frankfurt;   id:169.
+IF elfsborg;   id:372.
+AS Roma;   id:497.
+FC Porto;   id:212.
+Manchester United;   id:33.
+Twente;   id:415.
+Fenerbahce;   id:611.
+PAOK;   id:619.
+FCSB;   id:559.
+Rangers;   id:257.
+Lyon;   id:80.
+Union St. Gilloise;   id:1393.
+Bodo\/Glimt;   id:327.
+Plzen;   id:567.
+Ludogorets;   id:566.
+Istanbul Basaksehir;   id:564.
+Rapid Vienna;   id:781.
+Guimaraes;   id:224.
+Celje;   id:4360.
+1. FC Heidenheim;   id:180.
+Olimpija Ljubljana;   id:677.
+Cercle Brugge;   id:741.
+FC ST. Gallen;   id:1011.
+FC Astana;   id:562.
+TSC Backa Topola;   id:2646.
+Dinamo Minsk;   id:394.
+Heart Of Midlothian;   id:254.
+FC Noah;   id:3684.
+Mlada Boleslav;   id:640.
+Legia Warszawa;   id:339.
+Real Betis;   id:543.
+Molde;   id:329.
+Larne;   id:5354.
+Omonia Nicosia;   id:3402.
+Vikingur Reykjavik;   id:278.
+Fiorentina;   id:502.
+The New Saints;   id:354.
+Chelsea;   id:49.
+Gent;   id:631.
+FC Copenhagen;   id:400.
+Jagiellonia;   id:336.
+FC Lugano;   id:606.
+HJK helsinki;   id:649.
+Petrocub;   id:2271.
+Pafos;   id:3403.
+Borac Banja Luka;   id:3364.
+Panathinaikos;   id:617.
+Lask Linz;   id:1026.
+Djurgardens IF;   id:364.
+Shamrock Rovers;   id:652.
+Apoel Nicosia;   id:2247.

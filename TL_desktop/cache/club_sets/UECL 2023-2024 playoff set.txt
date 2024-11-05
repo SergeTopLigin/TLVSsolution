@@ -1,0 +1,24 @@
+Sturm Graz;   id:637.
+Slovan Bratislava;   id:656.
+Union St. Gilloise;   id:1393.
+Eintracht Frankfurt;   id:169.
+Olympiakos Piraeus;   id:553.
+Ferencvarosi TC;   id:651.
+Molde;   id:329.
+Legia Warszawa;   id:339.
+Maccabi Haifa;   id:4195.
+Gent;   id:631.
+Servette FC;   id:2184.
+Ludogorets;   id:566.
+Real Betis;   id:543.
+Dinamo Zagreb;   id:620.
+Ajax;   id:194.
+Bodo\/Glimt;   id:327.
+Aston Villa;   id:66.
+Club Brugge KV;   id:569.
+Lille;   id:79.
+Maccabi Tel Aviv;   id:604.
+Plzen;   id:567.
+Fenerbahce;   id:611.
+PAOK;   id:619.
+Fiorentina;   id:502.

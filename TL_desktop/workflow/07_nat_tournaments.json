@@ -1,0 +1,612 @@
+[
+    {
+        "name": "ENG Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-08-02",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "1st Round",
+                "status": "curr",
+                "last_date": "2024-11-04 22:15:00",
+                "total_teams": 1000,
+                "teams_TL": []
+            }
+        ]
+    },
+    {
+        "name": "ENG LCup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-08-13",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "2nd Round",
+                "status": "prev",
+                "last_date": "2024-08-28 22:00:00",
+                "total_teams": 50,
+                "teams_TL": [
+                    ["West Ham", 48]
+                ]
+            },
+            {
+                "round": "3rd Round",
+                "status": "prev",
+                "last_date": "2024-10-01 21:45:00",
+                "total_teams": 32,
+                "teams_TL": [
+                    ["Manchester United", 33],
+                    ["Brighton", 51],
+                    ["Tottenham", 47],
+                    ["Chelsea", 49],
+                    ["Manchester City", 50],
+                    ["Aston Villa", 66],
+                    ["Arsenal", 42],
+                    ["Liverpool", 40],
+                    ["West Ham", 48],
+                    ["Newcastle", 34]
+                ]
+            },
+            {
+                "round": "Round of 16",
+                "status": "prev",
+                "last_date": "2024-10-30 23:15:00",
+                "total_teams": 16,
+                "teams_TL": [
+                    ["Manchester United", 33],
+                    ["Brighton", 51],
+                    ["Tottenham", 47],
+                    ["Chelsea", 49],
+                    ["Manchester City", 50],
+                    ["Aston Villa", 66],
+                    ["Arsenal", 42],
+                    ["Liverpool", 40],
+                    ["Newcastle", 34]
+                ]
+            },
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2024-12-17 03:00:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["Manchester United", 33],
+                    ["Tottenham", 47],
+                    ["Arsenal", 42],
+                    ["Liverpool", 40],
+                    ["Newcastle", 34]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ESP Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-10-09",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "1st Round",
+                "status": "curr",
+                "last_date": "2024-11-14 20:00:00",
+                "total_teams": 110,
+                "teams_TL": [
+                    ["Real Sociedad", 548],
+                    ["Atletico Madrid", 530],
+                    ["Girona", 547],
+                    ["Sevilla", 536],
+                    ["Villarreal", 533]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ITA Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-08-03",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "1st Round",
+                "status": "prev",
+                "last_date": "2024-08-12 22:15:00",
+                "total_teams": 32,
+                "teams_TL": [
+                    ["Napoli", 492]
+                ]
+            },
+            {
+                "round": "2nd Round",
+                "status": "prev",
+                "last_date": "2024-09-26 22:00:00",
+                "total_teams": 16,
+                "teams_TL": [
+                    ["Napoli", 492],
+                    ["Udinese", 494]
+                ]
+            },
+            {
+                "round": "Round of 16",
+                "status": "curr",
+                "last_date": "2024-12-04 03:00:00",
+                "total_teams": 16,
+                "teams_TL": [
+                    ["Napoli", 492],
+                    ["Udinese", 494],
+                    ["Lazio", 487],
+                    ["AC Milan", 489],
+                    ["Juventus", 496],
+                    ["AS Roma", 497],
+                    ["Atalanta", 499],
+                    ["Fiorentina", 502],
+                    ["Inter", 505]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GER Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-08-16",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "1st Round",
+                "status": "prev",
+                "last_date": "2024-08-28 19:00:00",
+                "total_teams": 64,
+                "teams_TL": [
+                    ["Bayern München", 157],
+                    ["RB Leipzig", 173],
+                    ["Borussia Dortmund", 165],
+                    ["Eintracht Frankfurt", 169],
+                    ["VfB Stuttgart", 172],
+                    ["Bayer Leverkusen", 168]
+                ]
+            },
+            {
+                "round": "2nd Round",
+                "status": "prev",
+                "last_date": "2024-10-30 22:45:00",
+                "total_teams": 32,
+                "teams_TL": [
+                    ["Bayern München", 157],
+                    ["RB Leipzig", 173],
+                    ["Borussia Dortmund", 165],
+                    ["Eintracht Frankfurt", 169],
+                    ["VfB Stuttgart", 172],
+                    ["Bayer Leverkusen", 168],
+                    ["1. FC Heidenheim", 180]
+                ]
+            },
+            {
+                "round": "1/8",
+                "status": "curr",
+                "last_date": "2024-12-03 22:45:00",
+                "total_teams": 16,
+                "teams_TL": [
+                    ["Bayern München", 157],
+                    ["RB Leipzig", 173],
+                    ["Eintracht Frankfurt", 169],
+                    ["VfB Stuttgart", 172],
+                    ["Bayer Leverkusen", 168]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FRA Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-10-26",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "7 Round",
+                "status": "curr",
+                "last_date": "2024-11-17 16:00:00",
+                "total_teams": 1000,
+                "teams_TL": []
+            }
+        ]
+    },
+    {
+        "name": "POR Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-09-07",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "3rd Round",
+                "status": "prev",
+                "last_date": "2024-10-21 13:00:00",
+                "total_teams": 64,
+                "teams_TL": [
+                    ["Sporting CP", 228],
+                    ["SC Braga", 217],
+                    ["Benfica", 211],
+                    ["FC Porto", 212]
+                ]
+            },
+            {
+                "round": "4th Round",
+                "status": "curr",
+                "last_date": "2024-11-24 21:00:00",
+                "total_teams": 32,
+                "teams_TL": [
+                    ["Sporting CP", 228],
+                    ["SC Braga", 217],
+                    ["Benfica", 211],
+                    ["FC Porto", 212]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "POR LCup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-10-29",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "1/4",
+                "status": "prev",
+                "last_date": "2024-10-31 23:45:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["Sporting CP", 228],
+                    ["SC Braga", 217],
+                    ["Benfica", 211],
+                    ["FC Porto", 212]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-01-08 03:00:00",
+                "total_teams": 4,
+                "teams_TL": [
+                    ["Sporting CP", 228],
+                    ["SC Braga", 217],
+                    ["Benfica", 211],
+                    ["FC Porto", 212]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ENG League",
+        "season": "23-24",
+        "status": "prev",
+        "teams": [
+            ["Manchester United", 33],
+            ["Newcastle", 34],
+            ["Bournemouth", 35],
+            ["Fulham", 36],
+            ["Wolves", 39],
+            ["Liverpool", 40],
+            ["Luton", 1359],
+            ["Arsenal", 42],
+            ["Everton", 45],
+            ["Burnley", 44],
+            ["Tottenham", 47],
+            ["West Ham", 48],
+            ["Chelsea", 49],
+            ["Manchester City", 50],
+            ["Brighton", 51],
+            ["Crystal Palace", 52],
+            ["Brentford", 55],
+            ["Sheffield Utd", 62],
+            ["Nottingham Forest", 65],
+            ["Aston Villa", 66]
+        ]
+    },
+    {
+        "name": "ENG League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["Manchester United", 33],
+            ["Newcastle", 34],
+            ["Bournemouth", 35],
+            ["Fulham", 36],
+            ["Wolves", 39],
+            ["Liverpool", 40],
+            ["Southampton", 41],
+            ["Arsenal", 42],
+            ["Everton", 45],
+            ["Leicester", 46],
+            ["Tottenham", 47],
+            ["West Ham", 48],
+            ["Chelsea", 49],
+            ["Manchester City", 50],
+            ["Brighton", 51],
+            ["Crystal Palace", 52],
+            ["Brentford", 55],
+            ["Ipswich", 57],
+            ["Nottingham Forest", 65],
+            ["Aston Villa", 66]
+        ]
+    },
+    {
+        "name": "ESP League",
+        "season": "23-24",
+        "status": "prev",
+        "teams": [
+            ["Barcelona", 529],
+            ["Atletico Madrid", 530],
+            ["Athletic Club", 531],
+            ["Valencia", 532],
+            ["Villarreal", 533],
+            ["Las Palmas", 534],
+            ["Sevilla", 536],
+            ["Cadiz", 724],
+            ["Celta Vigo", 538],
+            ["Almeria", 723],
+            ["Real Madrid", 541],
+            ["Alaves", 542],
+            ["Real Betis", 543],
+            ["Getafe", 546],
+            ["Girona", 547],
+            ["Real Sociedad", 548],
+            ["Granada CF", 715],
+            ["Osasuna", 727],
+            ["Rayo Vallecano", 728],
+            ["Mallorca", 798]
+        ]
+    },
+    {
+        "name": "ESP League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["Barcelona", 529],
+            ["Atletico Madrid", 530],
+            ["Athletic Club", 531],
+            ["Valencia", 532],
+            ["Villarreal", 533],
+            ["Las Palmas", 534],
+            ["Sevilla", 536],
+            ["Leganes", 537],
+            ["Celta Vigo", 538],
+            ["Espanyol", 540],
+            ["Real Madrid", 541],
+            ["Alaves", 542],
+            ["Real Betis", 543],
+            ["Getafe", 546],
+            ["Girona", 547],
+            ["Real Sociedad", 548],
+            ["Valladolid", 720],
+            ["Osasuna", 727],
+            ["Rayo Vallecano", 728],
+            ["Mallorca", 798]
+        ]
+    },
+    {
+        "name": "ITA League",
+        "season": "23-24",
+        "status": "prev",
+        "teams": [
+            ["Lazio", 487],
+            ["AC Milan", 489],
+            ["Cagliari", 490],
+            ["Napoli", 492],
+            ["Udinese", 494],
+            ["Genoa", 495],
+            ["Juventus", 496],
+            ["AS Roma", 497],
+            ["Atalanta", 499],
+            ["Bologna", 500],
+            ["Fiorentina", 502],
+            ["Torino", 503],
+            ["Verona", 504],
+            ["Inter", 505],
+            ["Empoli", 511],
+            ["Sassuolo", 488],
+            ["Salernitana", 514],
+            ["Lecce", 867],
+            ["Frosinone", 512],
+            ["Monza", 1579]
+        ]
+    },
+    {
+        "name": "ITA League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["Lazio", 487],
+            ["AC Milan", 489],
+            ["Cagliari", 490],
+            ["Napoli", 492],
+            ["Udinese", 494],
+            ["Genoa", 495],
+            ["Juventus", 496],
+            ["AS Roma", 497],
+            ["Atalanta", 499],
+            ["Bologna", 500],
+            ["Fiorentina", 502],
+            ["Torino", 503],
+            ["Verona", 504],
+            ["Inter", 505],
+            ["Empoli", 511],
+            ["Venezia", 517],
+            ["Parma", 523],
+            ["Lecce", 867],
+            ["Como", 895],
+            ["Monza", 1579]
+        ]
+    },
+    {
+        "name": "GER League",
+        "season": "23-24",
+        "status": "prev",
+        "teams": [
+            ["Bayern München", 157],
+            ["SC Freiburg", 160],
+            ["VfL Wolfsburg", 161],
+            ["Werder Bremen", 162],
+            ["Borussia Mönchengladbach", 163],
+            ["FSV Mainz 05", 164],
+            ["Borussia Dortmund", 165],
+            ["1899 Hoffenheim", 167],
+            ["Bayer Leverkusen", 168],
+            ["Eintracht Frankfurt", 169],
+            ["FC Augsburg", 170],
+            ["VfB Stuttgart", 172],
+            ["RB Leipzig", 173],
+            ["VfL Bochum", 176],
+            ["1. FC Heidenheim", 180],
+            ["Union Berlin", 182],
+            ["SV Darmstadt 98", 181],
+            ["1.FC Köln", 192]
+        ]
+    },
+    {
+        "name": "GER League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["Bayern München", 157],
+            ["SC Freiburg", 160],
+            ["VfL Wolfsburg", 161],
+            ["Werder Bremen", 162],
+            ["Borussia Mönchengladbach", 163],
+            ["FSV Mainz 05", 164],
+            ["Borussia Dortmund", 165],
+            ["1899 Hoffenheim", 167],
+            ["Bayer Leverkusen", 168],
+            ["Eintracht Frankfurt", 169],
+            ["FC Augsburg", 170],
+            ["VfB Stuttgart", 172],
+            ["RB Leipzig", 173],
+            ["VfL Bochum", 176],
+            ["1. FC Heidenheim", 180],
+            ["Union Berlin", 182],
+            ["FC St. Pauli", 186],
+            ["Holstein Kiel", 191]
+        ]
+    },
+    {
+        "name": "FRA League",
+        "season": "23-24",
+        "status": "prev",
+        "teams": [
+            ["Clermont Foot", 99],
+            ["Lille", 79],
+            ["Lyon", 80],
+            ["Marseille", 81],
+            ["Montpellier", 82],
+            ["Nantes", 83],
+            ["Nice", 84],
+            ["Paris Saint Germain", 85],
+            ["Monaco", 91],
+            ["Reims", 93],
+            ["Rennes", 94],
+            ["Strasbourg", 95],
+            ["Toulouse", 96],
+            ["Stade Brestois 29", 106],
+            ["Lorient", 97],
+            ["LE Havre", 111],
+            ["Lens", 116],
+            ["Metz", 112]
+        ]
+    },
+    {
+        "name": "FRA League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["Angers", 77],
+            ["Lille", 79],
+            ["Lyon", 80],
+            ["Marseille", 81],
+            ["Montpellier", 82],
+            ["Nantes", 83],
+            ["Nice", 84],
+            ["Paris Saint Germain", 85],
+            ["Monaco", 91],
+            ["Reims", 93],
+            ["Rennes", 94],
+            ["Strasbourg", 95],
+            ["Toulouse", 96],
+            ["Stade Brestois 29", 106],
+            ["Auxerre", 108],
+            ["LE Havre", 111],
+            ["Lens", 116],
+            ["Saint Etienne", 1063]
+        ]
+    },
+    {
+        "name": "POR League",
+        "season": "23-24",
+        "status": "prev",
+        "teams": [
+            ["Benfica", 211],
+            ["FC Porto", 212],
+            ["Moreirense", 215],
+            ["SC Braga", 217],
+            ["Boavista", 222],
+            ["Guimaraes", 224],
+            ["Chaves", 223],
+            ["Rio Ave", 226],
+            ["Vizela", 810],
+            ["Sporting CP", 228],
+            ["Estoril", 230],
+            ["Farense", 231],
+            ["Arouca", 240],
+            ["Famalicao", 242],
+            ["GIL Vicente", 762],
+            ["Casa Pia", 4716],
+            ["Estrela", 15130],
+            ["Portimonense", 216]
+        ]
+    },
+    {
+        "name": "POR League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["Benfica", 211],
+            ["FC Porto", 212],
+            ["Moreirense", 215],
+            ["SC Braga", 217],
+            ["Boavista", 222],
+            ["Guimaraes", 224],
+            ["Nacional", 225],
+            ["Rio Ave", 226],
+            ["Santa Clara", 227],
+            ["Sporting CP", 228],
+            ["Estoril", 230],
+            ["Farense", 231],
+            ["Arouca", 240],
+            ["Famalicao", 242],
+            ["GIL Vicente", 762],
+            ["Casa Pia", 4716],
+            ["Estrela", 15130],
+            ["AVS", 21595]
+        ]
+    }
+]

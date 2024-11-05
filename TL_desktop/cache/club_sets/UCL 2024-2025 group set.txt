@@ -1,0 +1,36 @@
+Red Bull Salzburg;   id:571.
+Stade Brestois 29;   id:106.
+VfB Stuttgart;   id:172.
+Sparta Praha;   id:628.
+Barcelona;   id:529.
+BSC Young Boys;   id:565.
+Bayer Leverkusen;   id:168.
+AC Milan;   id:489.
+Borussia Dortmund;   id:165.
+Celtic;   id:247.
+Inter;   id:505.
+FK Crvena Zvezda;   id:598.
+PSV Eindhoven;   id:197.
+Sporting CP;   id:228.
+Slovan Bratislava;   id:656.
+Manchester City;   id:50.
+Arsenal;   id:42.
+Paris Saint Germain;   id:85.
+Girona;   id:547.
+Feyenoord;   id:209.
+Shakhtar Donetsk;   id:550.
+Atalanta;   id:499.
+Aston Villa;   id:66.
+Bayern München;   id:157.
+Benfica;   id:211.
+Atletico Madrid;   id:530.
+Dinamo Zagreb;   id:620.
+Monaco;   id:91.
+Lille;   id:79.
+Real Madrid;   id:541.
+Liverpool;   id:40.
+Bologna;   id:500.
+RB Leipzig;   id:173.
+Juventus;   id:496.
+Sturm Graz;   id:637.
+Club Brugge KV;   id:569.

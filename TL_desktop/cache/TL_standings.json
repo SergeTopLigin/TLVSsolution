@@ -1,0 +1,17 @@
+{
+  "Lazio": {
+    "IDapi": 487,
+    "nat": "ITA",
+    "TL_rank": -0.02,
+    "played": 3,
+    "visual_rank": 100,
+    "buffer": false
+  },
+  "FC Porto": {
+    "IDapi": 212,
+    "nat": "POR",
+    "TL_rank": -1.1,
+    "played": 2,
+    "buffer": true
+  }
+}

@@ -1,0 +1,36 @@
+Ferencvarosi TC;   id:651.
+Tottenham;   id:47.
+Lazio;   id:487.
+Nice;   id:84.
+Maccabi Tel Aviv;   id:604.
+FC Midtjylland;   id:397.
+Olympiakos Piraeus;   id:553.
+SC Braga;   id:217.
+Qarabag;   id:556.
+Malmo FF;   id:375.
+Real Sociedad;   id:548.
+Anderlecht;   id:554.
+Rīgas FS;   id:4160.
+Galatasaray;   id:645.
+Slavia Praha;   id:560.
+Ajax;   id:194.
+1899 Hoffenheim;   id:167.
+Dynamo Kyiv;   id:572.
+Athletic Club;   id:531.
+AZ Alkmaar;   id:201.
+Besiktas;   id:549.
+Eintracht Frankfurt;   id:169.
+IF elfsborg;   id:372.
+AS Roma;   id:497.
+FC Porto;   id:212.
+Manchester United;   id:33.
+Twente;   id:415.
+Fenerbahce;   id:611.
+PAOK;   id:619.
+FCSB;   id:559.
+Rangers;   id:257.
+Lyon;   id:80.
+Union St. Gilloise;   id:1393.
+Bodo\/Glimt;   id:327.
+Plzen;   id:567.
+Ludogorets;   id:566.
