@@ -26,17 +26,20 @@ cache/club_sets:
             оформить следующую текущую стадию (при наличии хотя бы одного ее участника в TL standings), добавить участников
     в нац лигах дб всегда club set, соотвествующий текущей высшей стадии лиги (регулярный сезон, доп группы)
 
+08_tournaments.py
 
+09_tourns_quota.py: корректировка квоты в 10_participants.json
 
+10_participants.json:
+актуализировать участников от турниров, их id и их места в турнирах
 
-
-
+11_participants.py: формирование txt и participants_nat.json
 
 01_matchday.json: вручную найти сегодняшние игры между участниками и заполнить
 копируя клубы из cache/teams_list.json
 заполняя местное время
 NATpos не влияет на квоту, заполняется только для отображения на странице games - брать из таблицы без расчетов
 
-11_exp_games.py: отправить сегодняшние игры из 1_matchday.json в games.json с "game_status": "expected"
+12_exp_games.py: отправить сегодняшние игры из 1_matchday.json в games.json с "game_status": "expected"
 
 отправить итерацию на github
