@@ -1,5 +1,6 @@
 '''
 отправить сегодняшние игры из 1_matchday.json в games.json с "game_status": "expected"
+и составить games_str
 
 games = {club_id: 
     [
@@ -49,6 +50,13 @@ with open((os.path.abspath(__file__))[:-25]+'/cache/final_standings.json', 'r', 
     TL_standings = json.load(j)
 with open((os.path.abspath(__file__))[:-25]+'/cache/teams_list.json', 'r', encoding='utf-8') as j:
     teams_list = json.load(j)
+with open((os.path.abspath(__file__))[:-25]+'/cache/participants.json', 'r', encoding='utf-8') as j:
+    participants = json.load(j)
+
+# определение текущего сезона
+moment_datetime = datetime.datetime.utcnow()
+season = moment_datetime.year if moment_datetime.month > 7 else moment_datetime.year - 1
+season = str(season)[2:]+'-'+str(season+1)[2:]
 
 # определение club_id
 for match in matchday:
@@ -126,11 +134,147 @@ for match in matchday:
         # 'opp_NATpos':        
             game['opp_NATpos'] = match['NATpos']['away'] if match['id']['home'] == club_id else match['NATpos']['home']
         # 'club_qouta':
+            game['club_qouta'] = []
+            for p_ass in participants:
+                for p_tourn in participants[p_ass]['tournaments']:
+                    for p_participant in participants[p_ass]['tournaments'][p_tourn]['participants']:
+                        if p_participant['id'] == club_id:
+                            if participants[p_ass]['as_full'] == 'TopLiga': tourn_tytle = 'TL'
+                            elif participants[p_ass]['as_full'] == 'UEFA':  tourn_tytle = participants[p_ass]['tournaments'][p_tourn]['tytle']
+                            elif 'LCup' in participants[p_ass]['tournaments'][p_tourn]['tytle']:    tourn_tytle = participants[p_ass]['tournaments'][p_tourn]['tytle'][4:6]
+                            else:   tourn_tytle = participants[p_ass]['tournaments'][p_tourn]['tytle'][4:5]
+                            if participants[p_ass]['as_full'] == 'TopLiga':   tourn_season = '' 
+                            elif participants[p_ass]['tournaments'][p_tourn]['season'] == season:  tourn_season = 'c'
+                            else:   tourn_season = 'p'
+                            pos = str(p_participant['pos'])
+                            game['club_qouta'].append([tourn_tytle, tourn_season, pos])
         # 'opp_qouta':
+            game['opp_qouta'] = []
+            for p_ass in participants:
+                for p_tourn in participants[p_ass]['tournaments']:
+                    for p_participant in participants[p_ass]['tournaments'][p_tourn]['participants']:
+                        if p_participant['id'] == game['opp_id']:
+                            if participants[p_ass]['as_full'] == 'TopLiga':    tourn_tytle = 'TL'
+                            elif participants[p_ass]['as_full'] == 'UEFA': tourn_tytle = participants[p_ass]['tournaments'][p_tourn]['tytle']
+                            elif 'LCup' in participants[p_ass]['tournaments'][p_tourn]['tytle']:    tourn_tytle = participants[p_ass]['tournaments'][p_tourn]['tytle'][4:6]
+                            else:   tourn_tytle = participants[p_ass]['tournaments'][p_tourn]['tytle'][4:5]
+                            if participants[p_ass]['as_full'] == 'TopLiga':   tourn_season = '' 
+                            elif participants[p_ass]['tournaments'][p_tourn]['season'] == season:  tourn_season = 'c'
+                            else:   tourn_season = 'p'
+                            pos = str(p_participant['pos'])
+                            game['opp_qouta'].append([tourn_tytle, tourn_season, pos])
 
             games[str(club_id)].append(game)
 
 with open((os.path.abspath(__file__))[:-25]+'/cache/games.json', 'w', encoding='utf-8') as j:
     json.dump(games, j, skipkeys=True, ensure_ascii=False, indent=2)
 
-# print(json.dumps(games, skipkeys=True, ensure_ascii=False, indent=2))
+
+# создание словаря всех игр TL, исключая повторения путем использования fixture_id в качестве ключей
+games_upd = {}
+for club_id in games:
+    for match in games[club_id]:
+        timestamp = match['timestamp']
+        home_team = match['match'].split(' - ')[0]
+        away_team = (match['match'].split(' - ')[1]).split('   ')[0]
+        fixture_id = match['date'][:10] + ' ' + home_team + ' - ' + away_team
+        score = (match['match'].split(' - ')[1]).split('   ')[1] if len((match['match'].split(' - ')[1]).split('   ')) == 2 else 'NS'
+        date = match['date'][:10]
+        time = match['date'][11:16]
+        tourn = match['tourn_short']
+        season = match['season']
+        tourn_round = match['tourn_round']
+        # NAT
+        home_nat = match['club_nat'] if home_team == match['club_name'] else match['opp_nat']
+        away_nat = match['club_nat'] if away_team == match['club_name'] else match['opp_nat']
+        # NATpos
+        home_NATpos = match['club_NATpos'] if home_team == match['club_name'] else match['opp_NATpos']
+        away_NATpos = match['club_NATpos'] if away_team == match['club_name'] else match['opp_NATpos']
+        # TLpos
+        home_TLpos = match['club_TLpos'] if home_team == match['club_name'] else match['opp_TLpos']
+        away_TLpos = match['club_TLpos'] if away_team == match['club_name'] else match['opp_TLpos']
+        # quota
+        home_quota = match['club_qouta'] if home_team == match['club_name'] else match['opp_qouta']
+        away_quota = match['club_qouta'] if away_team == match['club_name'] else match['opp_qouta']
+        # добавить игру в обновленный словарь games
+        games_upd[fixture_id] = {'timestamp':timestamp, 'home_team':home_team, 'away_team':away_team, 'score':score, 'date':date, 'time':time, \
+        'tourn':tourn, 'season':season, 'tourn_round':tourn_round, 'home_nat':home_nat, 'away_nat':away_nat, 'home_NATpos':home_NATpos, \
+        'away_NATpos':away_NATpos, 'home_TLpos':home_TLpos, 'away_TLpos':away_TLpos, 'home_quota':home_quota, 'away_quota':away_quota}
+# сортировка игр от прошлого к будущему
+games_upd = dict(sorted(games_upd.items(), key=lambda x: x[1].get("timestamp"), reverse=False))   
+
+# print(json.dumps(games_upd, skipkeys=True, ensure_ascii=False, indent=2))
+
+# формирование строки из словаря в читабельном виде
+games_str = ''   
+date = '' # инициализация даты
+scoreNS = 0
+for game in games_upd:
+    # линия раздела между матчами fixed и unfinished
+    if games_upd[game]['score'] == 'NS' and scoreNS == 0:
+        games_str += '\n' + '='*80 + '\n'*2
+    # tourn_short
+    tourn_short = (games_upd[game]['tourn'][:6] if 'LCup' in games_upd[game]['tourn'] else games_upd[game]['tourn'][:5]).replace(' ', '-')
+    # tourn_round
+    if 'Regular Season' in games_upd[game]['tourn_round']:  tourn_round = games_upd[game]['tourn_round'].replace('Regular Season - ', 'RS-')
+    elif 'Semi-finals' in games_upd[game]['tourn_round']:  tourn_round = '1/2'
+    elif 'League Stage' in games_upd[game]['tourn_round']:  tourn_round = games_upd[game]['tourn_round'].replace('League Stage - ', 'LS-')
+    elif 'Round of 16' in games_upd[game]['tourn_round']:  tourn_round = '1/8'
+    else:   tourn_round = games_upd[game]['tourn_round'][:5]
+    # score
+    if 'NS' in games_upd[game]['score']:    
+        score = 'TBD' if games_upd[game]['time']=='00:00' else games_upd[game]['time']
+        scoreNS = 1
+    else:   score = games_upd[game]['score']
+    if games_upd[game]['date'] != date:
+        games_str += ' '*40 + games_upd[game]['date'][8:] + '|' + games_upd[game]['date'][5:7] + '|' + games_upd[game]['date'][:4] + '\n'*2
+        date = games_upd[game]['date']
+    # врехняя строка
+    games_str += "{0:^6}  {1:^5}   {2:>25}  {3:^5}  {4:<25}".\
+    format(tourn_short, tourn_round, \
+        games_upd[game]['home_team'], score, games_upd[game]['away_team']) + '\n'
+    # quota
+    if int(games_upd[game]['timestamp']) < 1725267241:
+        home_quota = ''
+        for tourn in games_upd[game]['home_quota']:
+            if 'TopLiga' in tourn:  home_quota += 'TL|'
+            elif 'League' in tourn:  home_quota += 'league|'
+            elif 'LCup' in tourn:  home_quota += 'lcup|'
+            elif 'Cup' in tourn:  home_quota += 'cup|'
+            else:   home_quota += tourn+'|'
+        home_quota = home_quota[:-1]
+        away_quota = ''
+        for tourn in games_upd[game]['away_quota']:
+            if 'TopLiga' in tourn:  away_quota += 'TL|'
+            elif 'League' in tourn:  away_quota += 'league|'
+            elif 'LCup' in tourn:  away_quota += 'lcup|'
+            elif 'Cup' in tourn:  away_quota += 'cup|'
+            else:   away_quota += tourn+'|'
+        away_quota = away_quota[:-1]
+    else:
+        home_quota = ''
+        for tourn in games_upd[game]['home_quota']:
+            home_quota += tourn[0] + tourn[1] + tourn[2] + ' | '
+        home_quota = home_quota[:-3]
+        away_quota = ''
+        for tourn in games_upd[game]['away_quota']:
+            away_quota += tourn[0] + tourn[1] + tourn[2] + ' | '
+        away_quota = away_quota[:-3]
+
+    # nat_pos
+    home_NATpos = games_upd[game]['home_nat'] + '-' + str(games_upd[game]['home_NATpos'])
+    away_NATpos = games_upd[game]['away_nat'] + '-' + str(games_upd[game]['away_NATpos'])
+    # TL_pos
+    home_TLpos = 'TL-' + str(games_upd[game]['home_TLpos'])
+    away_TLpos = 'TL-' + str(games_upd[game]['away_TLpos'])
+    # нижние строки
+    games_str += ' '*27 + "{0:>6} {1:>7}  {2:^5}  {3:<7} {4:<6}".\
+    format(home_NATpos, home_TLpos, '', away_TLpos, away_NATpos) + '\n'
+    games_str += ' '*17 + "{0:>24}  {1:^5}  {2:<24}".\
+    format(home_quota, '', away_quota) + '\n'*2
+
+# формирование result/5_games.txt
+with open((os.path.abspath(__file__))[:-25]+'/result/5_games.txt', 'w', encoding='utf-8') as f:
+    f.write(games_str)
+
+# print(games_str)

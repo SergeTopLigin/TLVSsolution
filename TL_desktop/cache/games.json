@@ -174,5 +174,119 @@
       ],
       "opp_NATpos": 3
     }
+  ],
+  "40": [
+    {
+      "club_name": "Liverpool",
+      "date": "2024-11-07T20:00:00+00:00",
+      "match": "Liverpool - Sporting CP",
+      "game_status": "expected",
+      "opponent": "Sporting CP",
+      "opp_id": 228,
+      "result": null,
+      "opp_TLrate": -0.26,
+      "goalDiff": null,
+      "timestamp": 1730998800,
+      "tourn_short": "UEL",
+      "season": "24-25",
+      "tourn_round": "LS-4",
+      "club_nat": "ENG",
+      "opp_nat": "POR",
+      "club_TLpos": 3,
+      "opp_TLpos": 21,
+      "club_NATpos": 2,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "3"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ],
+        [
+          "LC",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "8"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "228": [
+    {
+      "club_name": "Sporting CP",
+      "date": "2024-11-07T20:00:00+00:00",
+      "match": "Liverpool - Sporting CP",
+      "game_status": "expected",
+      "opponent": "Liverpool",
+      "opp_id": 40,
+      "result": null,
+      "opp_TLrate": 1.54,
+      "goalDiff": null,
+      "timestamp": 1730998800,
+      "tourn_short": "UEL",
+      "season": "24-25",
+      "tourn_round": "LS-4",
+      "opp_nat": "ENG",
+      "club_nat": "POR",
+      "club_TLpos": 21,
+      "opp_TLpos": 3,
+      "club_NATpos": 3,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "8"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "3"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ],
+        [
+          "LC",
+          "c",
+          "1"
+        ]
+      ]
+    }
   ]
 }

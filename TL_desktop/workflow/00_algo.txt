@@ -40,6 +40,14 @@ cache/club_sets:
 заполняя местное время
 NATpos не влияет на квоту, заполняется только для отображения на странице games - брать из таблицы без расчетов
 
-12_exp_games.py: отправить сегодняшние игры из 1_matchday.json в games.json с "game_status": "expected"
+12_exp_games.py: 
+отправить сегодняшние игры из 1_matchday.json в games.json с "game_status": "expected"
+формирование games.txt
+
+13_standings_finish.py
+
+final_standings.json заполнить final_standings[club]['club_NATpos'] вручную
+
+14_standings_str.py
 
 отправить итерацию на github
