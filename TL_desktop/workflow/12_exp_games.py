@@ -277,4 +277,7 @@ for game in games_upd:
 with open((os.path.abspath(__file__))[:-25]+'/result/5_games.txt', 'w', encoding='utf-8') as f:
     f.write(games_str)
 
-# print(games_str)
+# формирование result/history/games.txt
+CreateDate = str(datetime.datetime.utcnow())[:19].replace(":", "-").replace(' ','_')
+with open((os.path.abspath(__file__))[:-25]+'/result/history/games '+CreateDate[:-9]+'.txt', 'w', encoding='utf-8') as f:
+    f.write(games_str)

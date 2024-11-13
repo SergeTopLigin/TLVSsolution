@@ -1,4 +1,4 @@
-import os, json
+import os, json, datetime
 mod_name = os.path.basename(__file__)[:-3]
 with open((os.path.abspath(__file__))[:-29]+'/cache/final_standings.json', 'r', encoding='utf-8') as j:
     standings = json.load(j)
@@ -22,4 +22,9 @@ for club in standings:
 
 # формирование result/1_standings.txt
 with open((os.path.abspath(__file__))[:-29]+'/result/1_standings.txt', 'w', encoding='utf-8') as f:
+    f.write(final_standings_str)
+
+# формирование result/history/standings.txt
+CreateDate = str(datetime.datetime.utcnow())[:19].replace(":", "-").replace(' ','_')
+with open((os.path.abspath(__file__))[:-29]+'/result/history/standings '+CreateDate[:-9]+'.txt', 'w', encoding='utf-8') as f:
     f.write(final_standings_str)
