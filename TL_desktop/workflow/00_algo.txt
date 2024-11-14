@@ -28,7 +28,7 @@ cache/club_sets:
 
 08_tournaments.py
 
-09_tourns_quota.py: корректировка квоты в 10_participants.json
+09_tourns_quota.py: корректировка квоты  в 10_participants.json
 
 10_participants.json:
 актуализировать участников от турниров, их id и их места в турнирах
@@ -46,7 +46,7 @@ NATpos не влияет на квоту, заполняется только д
 
 13_standings_finish.py
 
-final_standings.json заполнить final_standings[club]['club_NATpos'] вручную
+(final_standings.json заполнить final_standings[club]['club_NATpos'] вручную
 
 14_standings_str.py
 

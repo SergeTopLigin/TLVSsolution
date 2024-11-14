@@ -1,18 +1,1 @@
-[
-    {
-    "date": "2024-11-07T20:00:00+00:00",
-    "tourn_short": "UEL",
-    "season": "24-25",
-    "tourn_round": "LS-4",
-    "home": "Liverpool",
-    "away": "Sporting CP",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 3
-        }
-    }
-]
+[]

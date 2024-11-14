@@ -9,9 +9,9 @@
         },
         "rounds": [
             {
-                "round": "1st Round",
+                "round": "2 Round",
                 "status": "curr",
-                "last_date": "2024-11-04 22:15:00",
+                "last_date": "2024-12-01 18:15:00",
                 "total_teams": 1000,
                 "teams_TL": []
             }
@@ -73,7 +73,7 @@
             {
                 "round": "1/4",
                 "status": "curr",
-                "last_date": "2024-12-17 03:00:00",
+                "last_date": "2024-12-19 23:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Manchester United", 33],
@@ -97,14 +97,15 @@
             {
                 "round": "1st Round",
                 "status": "curr",
-                "last_date": "2024-11-14 20:00:00",
+                "last_date": "2024-11-26 21:00:00",
                 "total_teams": 110,
                 "teams_TL": [
                     ["Real Sociedad", 548],
                     ["Atletico Madrid", 530],
                     ["Girona", 547],
                     ["Sevilla", 536],
-                    ["Villarreal", 533]
+                    ["Villarreal", 533],
+                    ["Osasuna", 727]
                 ]
             }
         ]
@@ -140,7 +141,7 @@
             {
                 "round": "Round of 16",
                 "status": "curr",
-                "last_date": "2024-12-04 03:00:00",
+                "last_date": "2024-12-19 23:00:00",
                 "total_teams": 16,
                 "teams_TL": [
                     ["Napoli", 492],
@@ -197,7 +198,7 @@
             {
                 "round": "1/8",
                 "status": "curr",
-                "last_date": "2024-12-03 22:45:00",
+                "last_date": "2024-12-04 22:45:00",
                 "total_teams": 16,
                 "teams_TL": [
                     ["Bayern München", 157],
@@ -221,7 +222,7 @@
             {
                 "round": "7 Round",
                 "status": "curr",
-                "last_date": "2024-11-17 16:00:00",
+                "last_date": "2024-11-16 19:30:00",
                 "total_teams": 1000,
                 "teams_TL": []
             }
@@ -286,7 +287,7 @@
             {
                 "round": "1/2",
                 "status": "curr",
-                "last_date": "2025-01-08 03:00:00",
+                "last_date": "2025-01-08 22:45:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["Sporting CP", 228],

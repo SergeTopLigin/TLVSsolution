@@ -1,4 +1,38 @@
 {
+  "ITA": [
+    {
+      "club": "Inter",
+      "id": 505
+    },
+    {
+      "club": "AC Milan",
+      "id": 489
+    },
+    {
+      "club": "Napoli",
+      "id": 492
+    },
+    {
+      "club": "Atalanta",
+      "id": 499
+    },
+    {
+      "club": "Fiorentina",
+      "id": 502
+    },
+    {
+      "club": "Lazio",
+      "id": 487
+    },
+    {
+      "club": "Juventus",
+      "id": 496
+    },
+    {
+      "club": "AS Roma",
+      "id": 497
+    }
+  ],
   "ENG": [
     {
       "club": "Manchester City",
@@ -11,10 +45,6 @@
     {
       "club": "Liverpool",
       "id": 40
-    },
-    {
-      "club": "Nottingham Forest",
-      "id": 65
     },
     {
       "club": "Chelsea",
@@ -51,36 +81,6 @@
       "id": 727
     }
   ],
-  "ITA": [
-    {
-      "club": "Inter",
-      "id": 505
-    },
-    {
-      "club": "AC Milan",
-      "id": 489
-    },
-    {
-      "club": "Napoli",
-      "id": 492
-    },
-    {
-      "club": "Atalanta",
-      "id": 499
-    },
-    {
-      "club": "Juventus",
-      "id": 496
-    },
-    {
-      "club": "Lazio",
-      "id": 487
-    },
-    {
-      "club": "AS Roma",
-      "id": 497
-    }
-  ],
   "GER": [
     {
       "club": "Bayer Leverkusen",
@@ -103,6 +103,16 @@
       "id": 165
     }
   ],
+  "POR": [
+    {
+      "club": "Sporting CP",
+      "id": 228
+    },
+    {
+      "club": "Benfica",
+      "id": 211
+    }
+  ],
   "FRA": [
     {
       "club": "Paris Saint Germain",
@@ -121,24 +131,22 @@
       "id": 106
     }
   ],
-  "POR": [
+  "SCO": [
     {
-      "club": "Sporting CP",
-      "id": 228
-    },
+      "club": "Celtic",
+      "id": 247
+    }
+  ],
+  "CRO": [
     {
-      "club": "FC Porto",
-      "id": 212
-    },
-    {
-      "club": "Benfica",
-      "id": 211
+      "club": "Dinamo Zagreb",
+      "id": 620
     }
   ],
   "NED": [
     {
-      "club": "Feyenoord",
-      "id": 209
+      "club": "Ajax",
+      "id": 194
     }
   ]
 }

@@ -50,9 +50,9 @@ else:
         UEFA50[club] = UEFA50upg[club]
 
 
-import json, os
-with open((os.path.abspath(__file__))[:-30]+'/preparing/UEFA50.json', 'r', encoding='utf-8') as j:
-    UEFA50 = json.load(j)
+# import json, os
+# with open((os.path.abspath(__file__))[:-30]+'/preparing/UEFA50.json', 'r', encoding='utf-8') as j:
+#     UEFA50 = json.load(j)
 
 # если в словаре есть клуб несоответсвующий ни одному из имен в каталоге /standings - создать bug_file
 import os   # импорт модуля работы с каталогами

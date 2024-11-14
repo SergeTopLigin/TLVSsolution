@@ -31,8 +31,19 @@ for ass in tournaments:
         for club in tournaments[ass]['tournaments'][tourn]['participants']:
             if club['id'] not in participants_id:
                 participants_id.append(club['id'])
-            if ass == 'UEFA' or ass == 'TopLiga' and club['id'] not in [club['id'] for club in parts_not_nat]:
+            if (ass == 'UEFA' or ass == 'TopLiga') and club['id'] not in [club['id'] for club in parts_not_nat]:
                 parts_not_nat.append(club)
+for ass in tournaments:
+    ass_league = []
+    for tourn in tournaments[ass]['tournaments']:
+        if tournaments[ass]['tournaments'][tourn]['type'] =='League':
+            for club in tournaments[ass]['tournaments'][tourn]['participants']:
+                ass_league.append(club['id'])
+        if tournaments[ass]['tournaments'][tourn]['type'] =='Cup':
+            for club in tournaments[ass]['tournaments'][tourn]['participants']:
+                if club['id'] not in ass_league and club['id'] not in parts_not_nat:
+                    parts_not_nat.append(club)
+
 club_account = []  # список учтеных клубов
 for ass in tournaments:
     # представление participants по нац ассоциациям в порядке рейтинга ассоциаций
@@ -160,7 +171,7 @@ if len(other) != 0:
         for tourn in tournaments[ass]['tournaments']:
             for club in tournaments[ass]['tournaments'][tourn]['participants']:
                 for club_id in other:
-                    if club['id'] == club_id and club['nat'] not in other_ass:
+                    if club['id'] == club_id and ass in ['UEFA', 'TopLiga'] and club['nat'] not in other_ass:
                         other_ass.append(club['nat'])
     for oth_ass in other_ass:
         participants_str += oth_ass + '\n'
@@ -169,7 +180,7 @@ if len(other) != 0:
         for ass in tournaments:
             for tournament in tournaments[ass]['tournaments']:
                 for club in tournaments[ass]['tournaments'][tournament]['participants']:
-                    if club['nat'] == oth_ass:
+                    if ass in ['UEFA', 'TopLiga'] and club['nat'] == oth_ass:
                         # поставить справа от клуба short_name турниров, в квоту которых он попал
                         # uefa quota
                         uefa_quota = ''
