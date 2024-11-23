@@ -1,1 +1,34 @@
-[]
+[
+    {
+    "date": "2024-11-23T20:00:00+00:00",
+    "tourn_short": "ITA League",
+    "season": "24-25",
+    "tourn_round": "RS-13",
+    "home": "AC Milan",
+    "away": "Juventus",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 7,
+        "away": 6
+        }
+    },
+    {
+    "date": "2024-11-23T20:30:00+00:00",
+    "tourn_short": "ENG League",
+    "season": "24-25",
+    "tourn_round": "RS-12",
+    "home": "Manchester City",
+    "away": "Tottenham",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 10
+        }
+    }
+]

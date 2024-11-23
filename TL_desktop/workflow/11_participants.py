@@ -28,7 +28,7 @@ participants_id = []    # всех клубов участников
 parts_not_nat = []      # клубов в квотах УЕФА и ТЛ
 for ass in tournaments:
     for tourn in tournaments[ass]['tournaments']:
-        for club in tournaments[ass]['tournaments'][tourn]['participants']:
+       for club in tournaments[ass]['tournaments'][tourn]['participants']:
             if club['id'] not in participants_id:
                 participants_id.append(club['id'])
             if (ass == 'UEFA' or ass == 'TopLiga') and club['id'] not in [club['id'] for club in parts_not_nat]:

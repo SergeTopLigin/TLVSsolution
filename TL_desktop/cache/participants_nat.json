@@ -39,16 +39,16 @@
       "id": 50
     },
     {
-      "club": "Arsenal",
-      "id": 42
-    },
-    {
       "club": "Liverpool",
       "id": 40
     },
     {
       "club": "Chelsea",
       "id": 49
+    },
+    {
+      "club": "Arsenal",
+      "id": 42
     },
     {
       "club": "Aston Villa",
@@ -87,16 +87,16 @@
       "id": 168
     },
     {
-      "club": "VfB Stuttgart",
-      "id": 172
-    },
-    {
       "club": "Bayern München",
       "id": 157
     },
     {
       "club": "RB Leipzig",
       "id": 173
+    },
+    {
+      "club": "Eintracht Frankfurt",
+      "id": 169
     },
     {
       "club": "Borussia Dortmund",
@@ -145,8 +145,18 @@
   ],
   "NED": [
     {
+      "club": "Feyenoord",
+      "id": 209
+    },
+    {
       "club": "Ajax",
       "id": 194
+    }
+  ],
+  "TUR": [
+    {
+      "club": "Galatasaray",
+      "id": 645
     }
   ]
 }
