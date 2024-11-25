@@ -16,7 +16,7 @@ import os, json, time
 mod_name = os.path.basename(__file__)[:-3]
 with open((os.path.abspath(__file__))[:-28]+'/cache/games.json', 'r', encoding='utf-8') as j:
     games = json.load(j)
-with open((os.path.abspath(__file__))[:-28]+'/cache/participants.json', 'r', encoding='utf-8') as j:
+with open((os.path.abspath(__file__))[:-28]+'/workflow/10_participants.json', 'r', encoding='utf-8') as j:
     participants = json.load(j)
 TL_standings = {}
 curr_timestamp = time.time()

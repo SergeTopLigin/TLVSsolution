@@ -548,13 +548,13 @@
     {
       "club_name": "Manchester City",
       "date": "2024-11-23T20:30:00+00:00",
-      "match": "Manchester City - Tottenham",
-      "game_status": "expected",
+      "match": "Manchester City - Tottenham   0:4",
+      "game_status": "fixed",
       "opponent": "Tottenham",
       "opp_id": 47,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 0.1,
-      "goalDiff": null,
+      "goalDiff": -4,
       "timestamp": 1732383000,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -4265,13 +4265,13 @@
     {
       "club_name": "AC Milan",
       "date": "2024-11-23T20:00:00+00:00",
-      "match": "AC Milan - Juventus",
-      "game_status": "expected",
+      "match": "AC Milan - Juventus   0:0",
+      "game_status": "fixed",
       "opponent": "Juventus",
       "opp_id": 496,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 0.13,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1732381200,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -4284,6 +4284,11 @@
       "opp_NATpos": 6,
       "club_qouta": [
         [
+          "UCL",
+          "c",
+          "20"
+        ],
+        [
           "L",
           "p",
           "2"
@@ -4293,7 +4298,7 @@
         [
           "UCL",
           "c",
-          "12"
+          "11"
         ]
       ]
     }
@@ -4943,13 +4948,13 @@
     {
       "club_name": "Juventus",
       "date": "2024-11-23T20:00:00+00:00",
-      "match": "AC Milan - Juventus",
-      "game_status": "expected",
+      "match": "AC Milan - Juventus   0:0",
+      "game_status": "fixed",
       "opponent": "AC Milan",
       "opp_id": 489,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 0.03,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1732381200,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -4964,10 +4969,15 @@
         [
           "UCL",
           "c",
-          "12"
+          "11"
         ]
       ],
       "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "20"
+        ],
         [
           "L",
           "p",
@@ -5151,6 +5161,41 @@
         ]
       ],
       "opp_NATpos": 3
+    },
+    {
+      "club_name": "AS Roma",
+      "date": "2024-11-24T17:00:00+00:00",
+      "match": "Napoli - AS Roma",
+      "game_status": "expected",
+      "opponent": "Napoli",
+      "opp_id": 492,
+      "result": null,
+      "opp_TLrate": -0.2,
+      "goalDiff": null,
+      "timestamp": 1732456800,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-13",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": 10,
+      "opp_TLpos": 23,
+      "club_NATpos": 12,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "TL",
+          "",
+          "10"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "165": [
@@ -6000,6 +6045,41 @@
         ]
       ],
       "opp_NATpos": 2
+    },
+    {
+      "club_name": "Napoli",
+      "date": "2024-11-24T17:00:00+00:00",
+      "match": "Napoli - AS Roma",
+      "game_status": "expected",
+      "opponent": "AS Roma",
+      "opp_id": 497,
+      "result": null,
+      "opp_TLrate": 0.53,
+      "goalDiff": null,
+      "timestamp": 1732456800,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-13",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 23,
+      "opp_TLpos": 10,
+      "club_NATpos": 1,
+      "opp_NATpos": 12,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "TL",
+          "",
+          "10"
+        ]
+      ]
     }
   ],
   "533": [
@@ -6098,6 +6178,41 @@
         ]
       ],
       "opp_NATpos": 2
+    },
+    {
+      "club_name": "Villarreal",
+      "date": "2024-11-24T13:00:00+00:00",
+      "match": "Osasuna - Villarreal",
+      "game_status": "expected",
+      "opponent": "Osasuna",
+      "opp_id": 727,
+      "result": null,
+      "opp_TLrate": -3.85,
+      "goalDiff": null,
+      "timestamp": 1732442400,
+      "tourn_short": "ESP League",
+      "season": "24-25",
+      "tourn_round": "RS-14",
+      "opp_nat": "ESP",
+      "club_nat": "ESP",
+      "club_TLpos": 21,
+      "opp_TLpos": 59,
+      "club_NATpos": 4,
+      "opp_NATpos": 5,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "5"
+        ]
+      ]
     }
   ],
   "494": [
@@ -6953,13 +7068,13 @@
     {
       "club_name": "Tottenham",
       "date": "2024-11-23T20:30:00+00:00",
-      "match": "Manchester City - Tottenham",
-      "game_status": "expected",
+      "match": "Manchester City - Tottenham   0:4",
+      "game_status": "fixed",
       "opponent": "Manchester City",
       "opp_id": 50,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 1.49,
-      "goalDiff": null,
+      "goalDiff": 4,
       "timestamp": 1732383000,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -7134,6 +7249,41 @@
         ]
       ],
       "opp_NATpos": 2
+    },
+    {
+      "club_name": "Osasuna",
+      "date": "2024-11-24T13:00:00+00:00",
+      "match": "Osasuna - Villarreal",
+      "game_status": "expected",
+      "opponent": "Villarreal",
+      "opp_id": 533,
+      "result": null,
+      "opp_TLrate": -0.16,
+      "goalDiff": null,
+      "timestamp": 1732442400,
+      "tourn_short": "ESP League",
+      "season": "24-25",
+      "tourn_round": "RS-14",
+      "club_nat": "ESP",
+      "opp_nat": "ESP",
+      "club_TLpos": 59,
+      "opp_TLpos": 21,
+      "club_NATpos": 5,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "5"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ]
     }
   ],
   "91": [

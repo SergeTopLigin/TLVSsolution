@@ -397,7 +397,7 @@ FRA-L   RS-4                       Monaco   3:2   Stade Brestois 29
 
 ITA-L   RS-13                    AC Milan  20:00  Juventus                 
                             ITA-7   TL-17         TL-15   ITA-6 
-                                      Lp2         UCLc12                  
+                             UCLc20 | Lp2         UCLc11                  
 
 ENG-L   RS-12             Manchester City  20:30  Tottenham                
                             ENG-2    TL-3         TL-16   ENG-10

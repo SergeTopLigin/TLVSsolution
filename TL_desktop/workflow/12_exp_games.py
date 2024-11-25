@@ -50,7 +50,7 @@ with open((os.path.abspath(__file__))[:-25]+'/cache/final_standings.json', 'r', 
     TL_standings = json.load(j)
 with open((os.path.abspath(__file__))[:-25]+'/cache/teams_list.json', 'r', encoding='utf-8') as j:
     teams_list = json.load(j)
-with open((os.path.abspath(__file__))[:-25]+'/cache/participants.json', 'r', encoding='utf-8') as j:
+with open((os.path.abspath(__file__))[:-25]+'/workflow/10_participants.json', 'r', encoding='utf-8') as j:
     participants = json.load(j)
 
 # определение текущего сезона

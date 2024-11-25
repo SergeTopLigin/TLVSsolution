@@ -2,7 +2,7 @@
   "Barcelona": {
     "IDapi": 529,
     "nat": "ESP",
-    "TL_rank": 3.6,
+    "TL_rank": 3.41,
     "played": 5,
     "visual_rank": 100,
     "buffer": false
@@ -10,15 +10,15 @@
   "Liverpool": {
     "IDapi": 40,
     "nat": "ENG",
-    "TL_rank": 3.14,
+    "TL_rank": 3.12,
     "played": 6,
-    "visual_rank": 91,
+    "visual_rank": 94,
     "buffer": false
   },
   "Atletico Madrid": {
     "IDapi": 530,
     "nat": "ESP",
-    "TL_rank": 1.95,
+    "TL_rank": 1.85,
     "played": 5,
     "visual_rank": 69,
     "buffer": false
@@ -26,33 +26,33 @@
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 1.75,
+    "TL_rank": 1.74,
     "played": 9,
-    "visual_rank": 65,
+    "visual_rank": 67,
     "buffer": false
   },
   "Sporting CP": {
     "IDapi": 228,
     "nat": "POR",
-    "TL_rank": 1.56,
+    "TL_rank": 1.55,
     "played": 4,
-    "visual_rank": 61,
+    "visual_rank": 63,
     "buffer": false
   },
   "Inter": {
     "IDapi": 505,
     "nat": "ITA",
-    "TL_rank": 1.36,
+    "TL_rank": 1.35,
     "played": 7,
-    "visual_rank": 57,
+    "visual_rank": 59,
     "buffer": false
   },
   "Borussia Dortmund": {
     "IDapi": 165,
     "nat": "GER",
-    "TL_rank": 0.88,
+    "TL_rank": 0.87,
     "played": 5,
-    "visual_rank": 48,
+    "visual_rank": 50,
     "buffer": false
   },
   "Arsenal": {
@@ -60,7 +60,7 @@
     "nat": "ENG",
     "TL_rank": 0.74,
     "played": 7,
-    "visual_rank": 46,
+    "visual_rank": 47,
     "buffer": false
   },
   "Atalanta": {
@@ -68,7 +68,7 @@
     "nat": "ITA",
     "TL_rank": 0.68,
     "played": 5,
-    "visual_rank": 45,
+    "visual_rank": 46,
     "buffer": false
   },
   "Lazio": {
@@ -76,14 +76,14 @@
     "nat": "ITA",
     "TL_rank": 0.66,
     "played": 4,
-    "visual_rank": 44,
+    "visual_rank": 46,
     "buffer": false
   },
   "Juventus": {
     "IDapi": 496,
     "nat": "ITA",
-    "TL_rank": 0.62,
-    "played": 8,
+    "TL_rank": 0.52,
+    "played": 9,
     "visual_rank": 43,
     "buffer": false
   },
@@ -92,7 +92,7 @@
     "nat": "FRA",
     "TL_rank": 0.35,
     "played": 4,
-    "visual_rank": 38,
+    "visual_rank": 40,
     "buffer": false
   },
   "Real Sociedad": {
@@ -100,14 +100,14 @@
     "nat": "ESP",
     "TL_rank": 0.34,
     "played": 3,
-    "visual_rank": 38,
+    "visual_rank": 39,
     "buffer": false
   },
   "AC Milan": {
     "IDapi": 489,
     "nat": "ITA",
-    "TL_rank": 0.28,
-    "played": 6,
+    "TL_rank": 0.22,
+    "played": 7,
     "visual_rank": 37,
     "buffer": false
   },
@@ -116,7 +116,7 @@
     "nat": "ITA",
     "TL_rank": 0.15,
     "played": 4,
-    "visual_rank": 35,
+    "visual_rank": 36,
     "buffer": false
   },
   "VfB Stuttgart": {
@@ -124,7 +124,7 @@
     "nat": "GER",
     "TL_rank": 0.08,
     "played": 8,
-    "visual_rank": 33,
+    "visual_rank": 34,
     "buffer": false
   },
   "Bayern München": {
@@ -132,7 +132,7 @@
     "nat": "GER",
     "TL_rank": 0.07,
     "played": 6,
-    "visual_rank": 33,
+    "visual_rank": 34,
     "buffer": false
   },
   "Bayer Leverkusen": {
@@ -140,7 +140,7 @@
     "nat": "GER",
     "TL_rank": -0.02,
     "played": 8,
-    "visual_rank": 31,
+    "visual_rank": 32,
     "buffer": false
   },
   "AS Roma": {
@@ -148,15 +148,15 @@
     "nat": "ITA",
     "TL_rank": -0.02,
     "played": 4,
-    "visual_rank": 31,
+    "visual_rank": 32,
     "buffer": false
   },
   "Manchester City": {
     "IDapi": 50,
     "nat": "ENG",
-    "TL_rank": -0.06,
-    "played": 6,
-    "visual_rank": 31,
+    "TL_rank": -0.52,
+    "played": 7,
+    "visual_rank": 22,
     "buffer": false
   },
   "RB Leipzig": {
@@ -170,31 +170,38 @@
   "Aston Villa": {
     "IDapi": 66,
     "nat": "ENG",
-    "TL_rank": -0.7,
+    "TL_rank": -0.69,
     "played": 4,
-    "visual_rank": 18,
+    "visual_rank": 19,
     "buffer": false
   },
   "FC Porto": {
     "IDapi": 212,
     "nat": "POR",
-    "TL_rank": -1.18,
+    "TL_rank": -1.17,
     "played": 3,
-    "visual_rank": 9,
+    "visual_rank": 10,
     "buffer": false
   },
   "Girona": {
     "IDapi": 547,
     "nat": "ESP",
-    "TL_rank": -1.67,
+    "TL_rank": -1.66,
     "played": 4,
     "visual_rank": 0,
     "buffer": false
   },
+  "Tottenham": {
+    "IDapi": 47,
+    "nat": "ENG",
+    "TL_rank": 3.13,
+    "played": 2,
+    "buffer": true
+  },
   "Manchester United": {
     "IDapi": 33,
     "nat": "ENG",
-    "TL_rank": -0.46,
+    "TL_rank": -0.45,
     "played": 2,
     "buffer": true
   },
@@ -208,7 +215,7 @@
   "Eintracht Frankfurt": {
     "IDapi": 169,
     "nat": "GER",
-    "TL_rank": -0.52,
+    "TL_rank": -0.55,
     "played": 2,
     "buffer": true
   },
@@ -222,7 +229,7 @@
   "Stade Brestois 29": {
     "IDapi": 106,
     "nat": "FRA",
-    "TL_rank": -1.05,
+    "TL_rank": -1.04,
     "played": 2,
     "buffer": true
   },
@@ -236,21 +243,14 @@
   "Villarreal": {
     "IDapi": 533,
     "nat": "ESP",
-    "TL_rank": -1.31,
+    "TL_rank": -1.3,
     "played": 2,
-    "buffer": true
-  },
-  "Tottenham": {
-    "IDapi": 47,
-    "nat": "ENG",
-    "TL_rank": 2.45,
-    "played": 1,
     "buffer": true
   },
   "Monaco": {
     "IDapi": 91,
     "nat": "FRA",
-    "TL_rank": 2.09,
+    "TL_rank": 2.08,
     "played": 1,
     "buffer": true
   },
@@ -285,42 +285,42 @@
   "Osasuna": {
     "IDapi": 727,
     "nat": "ESP",
-    "TL_rank": -1.4,
+    "TL_rank": -1.39,
     "played": 1,
     "buffer": true
   },
   "Udinese": {
     "IDapi": 494,
     "nat": "ITA",
-    "TL_rank": -1.44,
+    "TL_rank": -1.43,
     "played": 1,
     "buffer": true
   },
   "1. FC Heidenheim": {
     "IDapi": 180,
     "nat": "GER",
-    "TL_rank": -1.47,
+    "TL_rank": -1.46,
     "played": 1,
     "buffer": true
   },
   "Torino": {
     "IDapi": 503,
     "nat": "ITA",
-    "TL_rank": -1.5,
+    "TL_rank": -1.49,
     "played": 1,
     "buffer": true
   },
   "Marseille": {
     "IDapi": 81,
     "nat": "FRA",
-    "TL_rank": -1.62,
+    "TL_rank": -1.61,
     "played": 1,
     "buffer": true
   },
   "Celtic": {
     "IDapi": 247,
     "nat": "SCO",
-    "TL_rank": -2.13,
+    "TL_rank": -2.12,
     "played": 1,
     "buffer": true
   }

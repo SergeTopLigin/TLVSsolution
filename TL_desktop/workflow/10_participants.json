@@ -6,8 +6,8 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 0.25,
-        "quota": 5,
+        "rating": 0.21,
+        "quota": 4,
         "id": 2,
         "type": "Cup",
         "name": "Champions League",
@@ -39,21 +39,14 @@
             "pos": 4,
             "nat": "FRA",
             "cur_nat_pos": 1
-          },
-          {
-            "club": "Manchester City",
-            "id": 50,
-            "pos": 5,
-            "nat": "ENG",
-            "cur_nat_pos": 2
           }
         ]
       },
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 0.78,
-        "quota": 14,
+        "rating": 0.79,
+        "quota": 15,
         "id": 2,
         "type": "Cup",
         "name": "Champions League",
@@ -155,13 +148,20 @@
             "pos": 21,
             "nat": "NED",
             "cur_nat_pos": 4
+          },
+          {
+            "club": "Club Brugge KV",
+            "id": 569,
+            "pos": 22,
+            "nat": "BEL",
+            "cur_nat_pos": 2
           }
         ]
       },
       "UEL 23-24": {
         "tytle": "UEL",
         "season": "23-24",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 2,
         "id": 3,
         "type": "Cup",
@@ -186,7 +186,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.18,
+        "rating": 0.19,
         "quota": 3,
         "id": 3,
         "type": "Cup",
@@ -410,7 +410,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.37,
+        "rating": 0.38,
         "quota": 3,
         "id": 39,
         "type": "League",
@@ -470,7 +470,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.11,
+        "rating": 0.1,
         "quota": 2,
         "id": 140,
         "type": "League",
@@ -533,7 +533,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.1,
+        "rating": 0.09,
         "quota": 1,
         "id": 78,
         "type": "League",
@@ -549,7 +549,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.32,
+        "rating": 0.33,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -659,7 +659,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.11,
+        "rating": 0.12,
         "quota": 0,
         "id": 61,
         "type": "League",
