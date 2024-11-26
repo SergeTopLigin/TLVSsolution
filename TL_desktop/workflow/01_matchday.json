@@ -1,27 +1,27 @@
 [
     {
-    "date": "2024-11-24T13:00:00+00:00",
-    "tourn_short": "ESP League",
+    "date": "2024-11-26T23:00:00+00:00",
+    "tourn_short": "UCL",
     "season": "24-25",
-    "tourn_round": "RS-14",
-    "home": "Osasuna",
-    "away": "Villarreal",
+    "tourn_round": "LS-5",
+    "home": "Bayern München",
+    "away": "Paris Saint Germain",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 5,
-        "away": 4
+        "home": 1,
+        "away": 1
         }
     },
     {
-    "date": "2024-11-24T17:00:00+00:00",
-    "tourn_short": "ITA League",
+    "date": "2024-11-26T23:00:00+00:00",
+    "tourn_short": "UCL",
     "season": "24-25",
-    "tourn_round": "RS-13",
-    "home": "Napoli",
-    "away": "AS Roma",
+    "tourn_round": "LS-5",
+    "home": "Barcelona",
+    "away": "Stade Brestois 29",
     "goals": {
         "home": null,
         "away": null
@@ -29,6 +29,54 @@
     "NATpos": {
         "home": 1,
         "away": 12
+        }
+    },
+    {
+    "date": "2024-11-26T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-5",
+    "home": "Manchester City",
+    "away": "Feyenoord",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 4
+        }
+    },
+    {
+    "date": "2024-11-26T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-5",
+    "home": "Sporting CP",
+    "away": "Arsenal",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 4
+        }
+    },
+    {
+    "date": "2024-11-26T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-5",
+    "home": "Inter",
+    "away": "RB Leipzig",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 3,
+        "away": 3
         }
     }
 ]

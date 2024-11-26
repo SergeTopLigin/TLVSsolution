@@ -77,8 +77,8 @@
       "id": 533
     },
     {
-      "club": "Osasuna",
-      "id": 727
+      "club": "Athletic Club",
+      "id": 531
     }
   ],
   "GER": [
@@ -91,12 +91,12 @@
       "id": 157
     },
     {
-      "club": "RB Leipzig",
-      "id": 173
-    },
-    {
       "club": "Eintracht Frankfurt",
       "id": 169
+    },
+    {
+      "club": "RB Leipzig",
+      "id": 173
     },
     {
       "club": "Borussia Dortmund",

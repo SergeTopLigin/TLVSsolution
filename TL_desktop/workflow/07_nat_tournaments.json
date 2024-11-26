@@ -222,7 +222,7 @@
             {
                 "round": "8 Round",
                 "status": "curr",
-                "last_date": "2024-11-16 19:30:00",
+                "last_date": "2024-11-30 20:00:00",
                 "total_teams": 1000,
                 "teams_TL": []
             }
@@ -251,7 +251,7 @@
             },
             {
                 "round": "4th Round",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2024-11-24 21:00:00",
                 "total_teams": 32,
                 "teams_TL": [
@@ -259,6 +259,17 @@
                     ["SC Braga", 217],
                     ["Benfica", 211],
                     ["FC Porto", 212]
+                ]
+            },
+            {
+                "round": "1/8",
+                "status": "curr",
+                "last_date": "2025-01-15 23:15:00",
+                "total_teams": 16,
+                "teams_TL": [
+                    ["Sporting CP", 228],
+                    ["SC Braga", 217],
+                    ["Benfica", 211]
                 ]
             }
         ]
