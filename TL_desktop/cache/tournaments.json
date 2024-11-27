@@ -6,7 +6,7 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 0.19,
+        "rating": 0.18,
         "quota": 4,
         "id": 2,
         "type": "Cup",
@@ -15,7 +15,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 0.8,
+        "rating": 0.85,
         "quota": 15,
         "id": 2,
         "type": "Cup",
@@ -82,7 +82,7 @@
         "tytle": "ITA League",
         "season": "23-24",
         "rating": 0.1,
-        "quota": 2,
+        "quota": 1,
         "id": 135,
         "type": "League",
         "name": "Serie A"
@@ -90,7 +90,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.39,
+        "rating": 0.4,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -99,8 +99,8 @@
       "ITA Cup 24-25": {
         "tytle": "ITA Cup",
         "season": "24-25",
-        "rating": 0.12,
-        "quota": 0,
+        "rating": 0.13,
+        "quota": 1,
         "id": 137,
         "type": "Cup",
         "name": "Coppa Italia"
@@ -123,7 +123,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.39,
+        "rating": 0.4,
         "quota": 3,
         "id": 39,
         "type": "League",
@@ -141,7 +141,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.18,
+        "rating": 0.19,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -165,7 +165,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.38,
+        "rating": 0.39,
         "quota": 3,
         "id": 140,
         "type": "League",
@@ -198,7 +198,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.33,
+        "rating": 0.34,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -222,7 +222,7 @@
       "POR League 23-24": {
         "tytle": "POR League",
         "season": "23-24",
-        "rating": 0.04,
+        "rating": 0.03,
         "quota": 1,
         "id": 94,
         "type": "League",
@@ -231,7 +231,7 @@
       "POR League 24-25": {
         "tytle": "POR League",
         "season": "24-25",
-        "rating": 0.14,
+        "rating": 0.13,
         "quota": 0,
         "id": 94,
         "type": "League",
@@ -249,7 +249,7 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.16,
+        "rating": 0.15,
         "quota": 0,
         "id": 97,
         "type": "Cup",
@@ -273,7 +273,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.12,
+        "rating": 0.11,
         "quota": 0,
         "id": 61,
         "type": "League",

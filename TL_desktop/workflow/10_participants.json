@@ -6,7 +6,7 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 0.19,
+        "rating": 0.18,
         "quota": 4,
         "id": 2,
         "type": "Cup",
@@ -45,7 +45,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 0.8,
+        "rating": 0.85,
         "quota": 15,
         "id": 2,
         "type": "Cup",
@@ -59,11 +59,11 @@
             "cur_nat_pos": 1
           },
           {
-            "club": "Sporting CP",
-            "id": 228,
+            "club": "Inter",
+            "id": 505,
             "pos": 2,
-            "nat": "POR",
-            "cur_nat_pos": 1
+            "nat": "ITA",
+            "cur_nat_pos": 4
           },
           {
             "club": "Monaco",
@@ -73,87 +73,87 @@
             "cur_nat_pos": 2
           },
           {
-            "club": "Stade Brestois 29",
-            "id": 106,
+            "club": "Barcelona",
+            "id": 529,
             "pos": 4,
-            "nat": "FRA",
-            "cur_nat_pos": 12
-          },
-          {
-            "club": "Inter",
-            "id": 505,
-            "pos": 5,
-            "nat": "ITA",
-            "cur_nat_pos": 4
+            "nat": "ESP",
+            "cur_nat_pos": 1
           },
           {
             "club": "Aston Villa",
             "id": 66,
-            "pos": 8,
+            "pos": 5,
             "nat": "ENG",
             "cur_nat_pos": 9
           },
           {
-            "club": "Juventus",
-            "id": 496,
-            "pos": 11,
-            "nat": "ITA",
-            "cur_nat_pos": 6
-          },
-          {
             "club": "Arsenal",
             "id": 42,
-            "pos": 12,
+            "pos": 9,
             "nat": "ENG",
             "cur_nat_pos": 4
           },
           {
+            "club": "Sporting CP",
+            "id": 228,
+            "pos": 10,
+            "nat": "POR",
+            "cur_nat_pos": 1
+          },
+          {
+            "club": "Stade Brestois 29",
+            "id": 106,
+            "pos": 11,
+            "nat": "FRA",
+            "cur_nat_pos": 12
+          },
+          {
+            "club": "Atletico Madrid",
+            "id": 530,
+            "pos": 13,
+            "nat": "ESP",
+            "cur_nat_pos": 3
+          },
+          {
+            "club": "AC Milan",
+            "id": 489,
+            "pos": 14,
+            "nat": "ITA",
+            "cur_nat_pos": 7
+          },
+          {
+            "club": "Juventus",
+            "id": 496,
+            "pos": 15,
+            "nat": "ITA",
+            "cur_nat_pos": 6
+          },
+          {
             "club": "Lille",
             "id": 79,
-            "pos": 14,
+            "pos": 16,
             "nat": "FRA",
             "cur_nat_pos": 4
           },
           {
             "club": "Celtic",
             "id": 247,
-            "pos": 15,
+            "pos": 17,
             "nat": "SCO",
             "cur_nat_pos": 1
           },
           {
             "club": "Dinamo Zagreb",
             "id": 620,
-            "pos": 16,
+            "pos": 18,
             "nat": "CRO",
             "cur_nat_pos": 3
           },
           {
-            "club": "Benfica",
-            "id": 211,
+            "club": "Manchester City",
+            "id": 50,
             "pos": 19,
-            "nat": "POR",
-            "cur_nat_pos": 2
-          },
-          {
-            "club": "AC Milan",
-            "id": 489,
-            "pos": 20,
-            "nat": "ITA",
-            "cur_nat_pos": 7
-          },
-          {
-            "club": "Feyenoord",
-            "id": 209,
-            "pos": 21,
-            "nat": "NED",
-            "cur_nat_pos": 4
-          },
-          {
-            "club": "Club Brugge KV",
-            "id": 569,
-            "pos": 22,
-            "nat": "BEL",
+            "nat": "ENG",
             "cur_nat_pos": 2
           }
         ]
@@ -332,7 +332,7 @@
         "tytle": "ITA League",
         "season": "23-24",
         "rating": 0.1,
-        "quota": 2,
+        "quota": 1,
         "id": 135,
         "type": "League",
         "name": "Serie A",
@@ -341,18 +341,13 @@
             "club": "Inter",
             "id": 505,
             "pos": 1
-          },
-          {
-            "club": "AC Milan",
-            "id": 489,
-            "pos": 2
           }
         ]
       },
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.39,
+        "rating": 0.4,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -378,12 +373,18 @@
       "ITA Cup 24-25": {
         "tytle": "ITA Cup",
         "season": "24-25",
-        "rating": 0.12,
-        "quota": 0,
+        "rating": 0.13,
+        "quota": 1,
         "id": 137,
         "type": "Cup",
         "name": "Coppa Italia",
-        "participants": []
+        "participants": [
+          {
+            "club": "Inter",
+            "id": 505,
+            "pos": 1
+          }
+        ]
       }
     }
   },
@@ -410,7 +411,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.39,
+        "rating": 0.4,
         "quota": 3,
         "id": 39,
         "type": "League",
@@ -446,7 +447,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.18,
+        "rating": 0.19,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -491,7 +492,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.38,
+        "rating": 0.39,
         "quota": 3,
         "id": 140,
         "type": "League",
@@ -549,7 +550,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.33,
+        "rating": 0.34,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -591,7 +592,7 @@
       "POR League 23-24": {
         "tytle": "POR League",
         "season": "23-24",
-        "rating": 0.04,
+        "rating": 0.03,
         "quota": 1,
         "id": 94,
         "type": "League",
@@ -607,7 +608,7 @@
       "POR League 24-25": {
         "tytle": "POR League",
         "season": "24-25",
-        "rating": 0.14,
+        "rating": 0.13,
         "quota": 0,
         "id": 94,
         "type": "League",
@@ -627,7 +628,7 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.16,
+        "rating": 0.15,
         "quota": 0,
         "id": 97,
         "type": "Cup",
@@ -659,7 +660,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.12,
+        "rating": 0.11,
         "quota": 0,
         "id": 61,
         "type": "League",

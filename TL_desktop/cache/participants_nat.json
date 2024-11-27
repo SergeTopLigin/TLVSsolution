@@ -5,10 +5,6 @@
       "id": 505
     },
     {
-      "club": "AC Milan",
-      "id": 489
-    },
-    {
       "club": "Napoli",
       "id": 492
     },
@@ -27,6 +23,10 @@
     {
       "club": "Juventus",
       "id": 496
+    },
+    {
+      "club": "AC Milan",
+      "id": 489
     },
     {
       "club": "AS Roma",
@@ -107,10 +107,6 @@
     {
       "club": "Sporting CP",
       "id": 228
-    },
-    {
-      "club": "Benfica",
-      "id": 211
     }
   ],
   "FRA": [
@@ -145,18 +141,8 @@
   ],
   "NED": [
     {
-      "club": "Feyenoord",
-      "id": 209
-    },
-    {
       "club": "Ajax",
       "id": 194
-    }
-  ],
-  "BEL": [
-    {
-      "club": "Club Brugge KV",
-      "id": 569
     }
   ],
   "TUR": [

@@ -1,49 +1,49 @@
 {
   "UEFA": {
-    "rating": 40.82,
+    "rating": 42.23,
     "quota": 24
   },
   "TopLiga": {
-    "rating": 17.01,
+    "rating": 17.6,
     "quota": 10
   },
   "ITA": {
-    "rating": 9.91,
+    "rating": 10.12,
     "quota": 5
   },
   "ENG": {
-    "rating": 9.8,
+    "rating": 9.97,
     "quota": 5
   },
   "ESP": {
-    "rating": 9.51,
+    "rating": 9.67,
     "quota": 5
   },
   "GER": {
-    "rating": 7.54,
+    "rating": 7.66,
     "quota": 4
   },
   "POR": {
-    "rating": 3.23,
+    "rating": 2.98,
     "quota": 1
   },
   "FRA": {
-    "rating": 2.68,
+    "rating": 2.55,
     "quota": 1
   },
   "NED": {
-    "rating": 0.59,
-    "quota": 0
-  },
-  "UKR": {
-    "rating": 0,
-    "quota": 0
-  },
-  "BEL": {
-    "rating": 0,
+    "rating": 1.7,
     "quota": 0
   },
   "CZE": {
+    "rating": 0,
+    "quota": 0
+  },
+  "SCO": {
+    "rating": 0,
+    "quota": 0
+  },
+  "AUT": {
     "rating": 0,
     "quota": 0
   },
@@ -55,11 +55,11 @@
     "rating": 0,
     "quota": 0
   },
-  "TUR": {
+  "SRB": {
     "rating": 0,
     "quota": 0
   },
-  "SCO": {
+  "BEL": {
     "rating": 0,
     "quota": 0
   },
@@ -67,11 +67,11 @@
     "rating": 0,
     "quota": 0
   },
-  "AUT": {
+  "UKR": {
     "rating": 0,
     "quota": 0
   },
-  "SRB": {
+  "TUR": {
     "rating": 0,
     "quota": 0
   }
