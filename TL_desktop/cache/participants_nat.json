@@ -27,10 +27,6 @@
     {
       "club": "AC Milan",
       "id": 489
-    },
-    {
-      "club": "AS Roma",
-      "id": 497
     }
   ],
   "ENG": [
@@ -107,6 +103,10 @@
     {
       "club": "Sporting CP",
       "id": 228
+    },
+    {
+      "club": "Benfica",
+      "id": 211
     }
   ],
   "FRA": [
@@ -127,19 +127,11 @@
       "id": 106
     }
   ],
-  "SCO": [
-    {
-      "club": "Celtic",
-      "id": 247
-    }
-  ],
-  "CRO": [
-    {
-      "club": "Dinamo Zagreb",
-      "id": 620
-    }
-  ],
   "NED": [
+    {
+      "club": "PSV Eindhoven",
+      "id": 197
+    },
     {
       "club": "Ajax",
       "id": 194

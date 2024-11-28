@@ -23,8 +23,8 @@
   "Liverpool": {
     "IDapi": 40,
     "nat": "ENG",
-    "TL_rank": 1.33,
-    "visual_rank": 74,
+    "TL_rank": 1.43,
+    "visual_rank": 77,
     "buffer": false
   },
   "AS Roma": {
@@ -44,8 +44,8 @@
   "Borussia Dortmund": {
     "IDapi": 165,
     "nat": "GER",
-    "TL_rank": 0.67,
-    "visual_rank": 55,
+    "TL_rank": 0.74,
+    "visual_rank": 57,
     "buffer": false
   },
   "Inter": {
@@ -76,18 +76,18 @@
     "visual_rank": 46,
     "buffer": false
   },
+  "Benfica": {
+    "IDapi": 211,
+    "nat": "POR",
+    "TL_rank": 0.32,
+    "visual_rank": 45,
+    "buffer": false
+  },
   "Barcelona": {
     "IDapi": 529,
     "nat": "ESP",
     "TL_rank": 0.32,
     "visual_rank": 45,
-    "buffer": false
-  },
-  "Benfica": {
-    "IDapi": 211,
-    "nat": "POR",
-    "TL_rank": 0.25,
-    "visual_rank": 43,
     "buffer": false
   },
   "Atletico Madrid": {
@@ -142,8 +142,8 @@
   "Juventus": {
     "IDapi": 496,
     "nat": "ITA",
-    "TL_rank": -0.1,
-    "visual_rank": 32,
+    "TL_rank": -0.07,
+    "visual_rank": 33,
     "buffer": false
   },
   "West Ham": {
@@ -156,8 +156,8 @@
   "Club Brugge KV": {
     "IDapi": 569,
     "nat": "BEL",
-    "TL_rank": -0.21,
-    "visual_rank": 29,
+    "TL_rank": -0.17,
+    "visual_rank": 30,
     "buffer": false
   },
   "Feyenoord": {
@@ -184,8 +184,8 @@
   "PSV Eindhoven": {
     "IDapi": 197,
     "nat": "NED",
-    "TL_rank": -0.49,
-    "visual_rank": 21,
+    "TL_rank": -0.42,
+    "visual_rank": 23,
     "buffer": false
   },
   "Lazio": {
@@ -223,6 +223,13 @@
     "visual_rank": 20,
     "buffer": false
   },
+  "Lille": {
+    "IDapi": 79,
+    "nat": "FRA",
+    "TL_rank": -0.59,
+    "visual_rank": 18,
+    "buffer": false
+  },
   "Real Sociedad": {
     "IDapi": 548,
     "nat": "ESP",
@@ -233,13 +240,6 @@
   "Dinamo Zagreb": {
     "IDapi": 620,
     "nat": "CRO",
-    "TL_rank": -0.66,
-    "visual_rank": 16,
-    "buffer": false
-  },
-  "Lille": {
-    "IDapi": 79,
-    "nat": "FRA",
     "TL_rank": -0.66,
     "visual_rank": 16,
     "buffer": false
@@ -300,18 +300,18 @@
     "visual_rank": 6,
     "buffer": false
   },
+  "FK Crvena Zvezda": {
+    "IDapi": 598,
+    "nat": "SRB",
+    "TL_rank": -1.04,
+    "visual_rank": 5,
+    "buffer": false
+  },
   "SC Braga": {
     "IDapi": 217,
     "nat": "POR",
     "TL_rank": -1.04,
     "visual_rank": 5,
-    "buffer": false
-  },
-  "FK Crvena Zvezda": {
-    "IDapi": 598,
-    "nat": "SRB",
-    "TL_rank": -1.11,
-    "visual_rank": 3,
     "buffer": false
   },
   "Fenerbahce": {
