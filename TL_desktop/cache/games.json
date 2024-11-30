@@ -5903,6 +5903,56 @@
           "18"
         ]
       ]
+    },
+    {
+      "club_name": "Borussia Dortmund",
+      "date": "2024-11-30T20:30:00+00:00",
+      "match": "Borussia Dortmund - Bayern München",
+      "game_status": "expected",
+      "opponent": "Bayern München",
+      "opp_id": 157,
+      "result": null,
+      "opp_TLrate": 1.35,
+      "goalDiff": null,
+      "timestamp": 1732987800,
+      "tourn_short": "GER League",
+      "season": "24-25",
+      "tourn_round": "RS-12",
+      "opp_nat": "GER",
+      "club_nat": "GER",
+      "club_TLpos": 7,
+      "opp_TLpos": 4,
+      "club_NATpos": 5,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "p",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "7"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "p",
+          "3"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "180": [
@@ -7206,6 +7256,56 @@
           "L",
           "p",
           "1"
+        ]
+      ]
+    },
+    {
+      "club_name": "Bayern München",
+      "date": "2024-11-30T20:30:00+00:00",
+      "match": "Borussia Dortmund - Bayern München",
+      "game_status": "expected",
+      "opponent": "Borussia Dortmund",
+      "opp_id": 165,
+      "result": null,
+      "opp_TLrate": 0.96,
+      "goalDiff": null,
+      "timestamp": 1732987800,
+      "tourn_short": "GER League",
+      "season": "24-25",
+      "tourn_round": "RS-12",
+      "club_nat": "GER",
+      "opp_nat": "GER",
+      "club_TLpos": 4,
+      "opp_TLpos": 7,
+      "club_NATpos": 1,
+      "opp_NATpos": 5,
+      "club_qouta": [
+        [
+          "UCL",
+          "p",
+          "3"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "p",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "7"
         ]
       ]
     }

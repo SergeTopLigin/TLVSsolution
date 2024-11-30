@@ -1,1 +1,18 @@
-[]
+[
+    {
+    "date": "2024-11-30T20:30:00+00:00",
+    "tourn_short": "GER League",
+    "season": "24-25",
+    "tourn_round": "RS-12",
+    "home": "Borussia Dortmund",
+    "away": "Bayern München",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 5,
+        "away": 1
+        }
+    }
+]

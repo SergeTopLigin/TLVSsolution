@@ -30,8 +30,8 @@
   "AS Roma": {
     "IDapi": 497,
     "nat": "ITA",
-    "TL_rank": 0.77,
-    "visual_rank": 58,
+    "TL_rank": 0.81,
+    "visual_rank": 59,
     "buffer": false
   },
   "Paris Saint Germain": {
@@ -55,16 +55,16 @@
     "visual_rank": 55,
     "buffer": false
   },
-  "Bayer Leverkusen": {
-    "IDapi": 168,
-    "nat": "GER",
-    "TL_rank": 0.46,
-    "visual_rank": 49,
-    "buffer": false
-  },
   "Chelsea": {
     "IDapi": 49,
     "nat": "ENG",
+    "TL_rank": 0.57,
+    "visual_rank": 52,
+    "buffer": false
+  },
+  "Bayer Leverkusen": {
+    "IDapi": 168,
+    "nat": "GER",
     "TL_rank": 0.46,
     "visual_rank": 49,
     "buffer": false
@@ -97,6 +97,13 @@
     "visual_rank": 43,
     "buffer": false
   },
+  "Manchester United": {
+    "IDapi": 33,
+    "nat": "ENG",
+    "TL_rank": 0.18,
+    "visual_rank": 41,
+    "buffer": false
+  },
   "RB Leipzig": {
     "IDapi": 173,
     "nat": "GER",
@@ -118,18 +125,11 @@
     "visual_rank": 39,
     "buffer": false
   },
-  "Manchester United": {
-    "IDapi": 33,
-    "nat": "ENG",
-    "TL_rank": 0.11,
-    "visual_rank": 39,
-    "buffer": false
-  },
   "FC Porto": {
     "IDapi": 212,
     "nat": "POR",
-    "TL_rank": 0.04,
-    "visual_rank": 36,
+    "TL_rank": 0.07,
+    "visual_rank": 37,
     "buffer": false
   },
   "AC Milan": {
@@ -188,18 +188,25 @@
     "visual_rank": 23,
     "buffer": false
   },
-  "Lazio": {
-    "IDapi": 487,
-    "nat": "ITA",
-    "TL_rank": -0.49,
-    "visual_rank": 21,
-    "buffer": false
-  },
   "Eintracht Frankfurt": {
     "IDapi": 169,
     "nat": "GER",
-    "TL_rank": -0.49,
-    "visual_rank": 21,
+    "TL_rank": -0.42,
+    "visual_rank": 23,
+    "buffer": false
+  },
+  "Lazio": {
+    "IDapi": 487,
+    "nat": "ITA",
+    "TL_rank": -0.45,
+    "visual_rank": 22,
+    "buffer": false
+  },
+  "Rangers": {
+    "IDapi": 257,
+    "nat": "SCO",
+    "TL_rank": -0.45,
+    "visual_rank": 22,
     "buffer": false
   },
   "Sevilla": {
@@ -216,11 +223,11 @@
     "visual_rank": 21,
     "buffer": false
   },
-  "Rangers": {
-    "IDapi": 257,
-    "nat": "SCO",
-    "TL_rank": -0.52,
-    "visual_rank": 20,
+  "Real Sociedad": {
+    "IDapi": 548,
+    "nat": "ESP",
+    "TL_rank": -0.55,
+    "visual_rank": 19,
     "buffer": false
   },
   "Lille": {
@@ -228,13 +235,6 @@
     "nat": "FRA",
     "TL_rank": -0.59,
     "visual_rank": 18,
-    "buffer": false
-  },
-  "Real Sociedad": {
-    "IDapi": 548,
-    "nat": "ESP",
-    "TL_rank": -0.62,
-    "visual_rank": 17,
     "buffer": false
   },
   "Dinamo Zagreb": {
@@ -258,6 +258,13 @@
     "visual_rank": 13,
     "buffer": false
   },
+  "Fiorentina": {
+    "IDapi": 502,
+    "nat": "ITA",
+    "TL_rank": -0.83,
+    "visual_rank": 11,
+    "buffer": false
+  },
   "Red Bull Salzburg": {
     "IDapi": 571,
     "nat": "AUT",
@@ -272,32 +279,32 @@
     "visual_rank": 11,
     "buffer": false
   },
-  "Fiorentina": {
-    "IDapi": 502,
-    "nat": "ITA",
-    "TL_rank": -0.9,
-    "visual_rank": 9,
-    "buffer": false
-  },
   "AZ Alkmaar": {
     "IDapi": 201,
     "nat": "NED",
-    "TL_rank": -0.9,
-    "visual_rank": 9,
+    "TL_rank": -0.87,
+    "visual_rank": 10,
     "buffer": false
   },
   "Tottenham": {
     "IDapi": 47,
     "nat": "ENG",
-    "TL_rank": -0.97,
-    "visual_rank": 7,
+    "TL_rank": -0.94,
+    "visual_rank": 8,
     "buffer": false
   },
   "Olympiakos Piraeus": {
     "IDapi": 553,
     "nat": "GRE",
-    "TL_rank": -1.01,
-    "visual_rank": 6,
+    "TL_rank": -0.97,
+    "visual_rank": 7,
+    "buffer": false
+  },
+  "SC Braga": {
+    "IDapi": 217,
+    "nat": "POR",
+    "TL_rank": -0.97,
+    "visual_rank": 7,
     "buffer": false
   },
   "FK Crvena Zvezda": {
@@ -307,25 +314,18 @@
     "visual_rank": 5,
     "buffer": false
   },
-  "SC Braga": {
-    "IDapi": 217,
-    "nat": "POR",
-    "TL_rank": -1.04,
-    "visual_rank": 5,
-    "buffer": false
-  },
   "Fenerbahce": {
     "IDapi": 611,
     "nat": "TUR",
-    "TL_rank": -1.11,
-    "visual_rank": 3,
+    "TL_rank": -1.04,
+    "visual_rank": 5,
     "buffer": false
   },
   "FC Copenhagen": {
     "IDapi": 400,
     "nat": "DEN",
-    "TL_rank": -1.11,
-    "visual_rank": 3,
+    "TL_rank": -1.06,
+    "visual_rank": 4,
     "buffer": false
   },
   "Rennes": {
