@@ -36,7 +36,7 @@ cache/club_sets:
 11_participants.py: формирование txt и participants_nat.json
 
 01_matchday.json: вручную найти сегодняшние игры между участниками и заполнить
-по образцу preparing/matchday_exem.json
+по образцу preparing/matchday_exem.json или из 4_participants.txt
 копируя клубы из cache/teams_list.json
 заполняя местное время
 NATpos не влияет на квоту, заполняется только для отображения на странице games - брать из таблицы без расчетов

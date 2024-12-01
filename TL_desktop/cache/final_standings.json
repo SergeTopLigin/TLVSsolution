@@ -29,7 +29,7 @@
   "Real Madrid": {
     "IDapi": 541,
     "nat": "ESP",
-    "TL_rank": 1.79,
+    "TL_rank": 1.78,
     "played": 10,
     "visual_rank": 95,
     "buffer": false,
@@ -76,15 +76,15 @@
       [
         "ESP L",
         "c",
-        1
+        2
       ]
     ]
   },
   "Bayern München": {
     "IDapi": 157,
     "nat": "GER",
-    "TL_rank": 1.35,
-    "played": 7,
+    "TL_rank": 1.33,
+    "played": 8,
     "visual_rank": 88,
     "buffer": false,
     "club_TLpos": 4,
@@ -110,7 +110,7 @@
   "Manchester City": {
     "IDapi": 50,
     "nat": "ENG",
-    "TL_rank": 1.28,
+    "TL_rank": 1.27,
     "played": 8,
     "visual_rank": 87,
     "buffer": false,
@@ -137,7 +137,7 @@
   "Inter": {
     "IDapi": 505,
     "nat": "ITA",
-    "TL_rank": 1.01,
+    "TL_rank": 1.02,
     "played": 8,
     "visual_rank": 82,
     "buffer": false,
@@ -169,8 +169,8 @@
   "Borussia Dortmund": {
     "IDapi": 165,
     "nat": "GER",
-    "TL_rank": 0.96,
-    "played": 6,
+    "TL_rank": 0.92,
+    "played": 7,
     "visual_rank": 81,
     "buffer": false,
     "club_TLpos": 7,
@@ -240,7 +240,7 @@
   "Arsenal": {
     "IDapi": 42,
     "nat": "ENG",
-    "TL_rank": 0.48,
+    "TL_rank": 0.49,
     "played": 8,
     "visual_rank": 74,
     "buffer": false,
@@ -260,7 +260,7 @@
       [
         "ENG L",
         "c",
-        4
+        2
       ]
     ]
   },
@@ -278,11 +278,11 @@
   "Tottenham": {
     "IDapi": 47,
     "nat": "ENG",
-    "TL_rank": 0.39,
+    "TL_rank": 0.4,
     "played": 2,
     "buffer": false,
     "visual_rank": 72,
-    "club_TLpos": 12,
+    "club_TLpos": 11,
     "club_NATpos": "",
     "club_qouta": [
       [
@@ -358,7 +358,7 @@
     "nat": "ITA",
     "TL_rank": 0.05,
     "played": 7,
-    "visual_rank": 67,
+    "visual_rank": 66,
     "buffer": false,
     "club_TLpos": 16,
     "club_NATpos": "",
@@ -403,7 +403,7 @@
     "nat": "POR",
     "TL_rank": -0.07,
     "played": 5,
-    "visual_rank": 65,
+    "visual_rank": 64,
     "buffer": false,
     "club_TLpos": 19,
     "club_NATpos": "",
@@ -420,6 +420,23 @@
       ]
     ]
   },
+  "Lazio": {
+    "IDapi": 487,
+    "nat": "ITA",
+    "TL_rank": -0.08,
+    "played": 4,
+    "visual_rank": 64,
+    "buffer": false,
+    "club_TLpos": 20,
+    "club_NATpos": "",
+    "club_qouta": [
+      [
+        "UEL",
+        "c",
+        1
+      ]
+    ]
+  },
   "Feyenoord": {
     "IDapi": 209,
     "nat": "NED",
@@ -431,29 +448,12 @@
     "club_NATpos": "",
     "club_qouta": []
   },
-  "Lazio": {
-    "IDapi": 487,
-    "nat": "ITA",
-    "TL_rank": -0.09,
-    "played": 4,
-    "visual_rank": 64,
-    "buffer": false,
-    "club_TLpos": 21,
-    "club_NATpos": "",
-    "club_qouta": [
-      [
-        "UEL",
-        "c",
-        1
-      ]
-    ]
-  },
   "Villarreal": {
     "IDapi": 533,
     "nat": "ESP",
-    "TL_rank": -0.12,
+    "TL_rank": -0.13,
     "played": 3,
-    "visual_rank": 64,
+    "visual_rank": 63,
     "buffer": false,
     "club_TLpos": 22,
     "club_NATpos": "",
@@ -468,7 +468,7 @@
   "Benfica": {
     "IDapi": 211,
     "nat": "POR",
-    "TL_rank": -0.15,
+    "TL_rank": -0.16,
     "played": 1,
     "buffer": false,
     "visual_rank": 63,
@@ -495,7 +495,7 @@
       [
         "GER L",
         "c",
-        3
+        4
       ]
     ]
   },
@@ -513,7 +513,7 @@
   "FC Porto": {
     "IDapi": 212,
     "nat": "POR",
-    "TL_rank": -0.33,
+    "TL_rank": -0.34,
     "played": 3,
     "visual_rank": 60,
     "buffer": false,
@@ -541,7 +541,7 @@
   "Eintracht Frankfurt": {
     "IDapi": 169,
     "nat": "GER",
-    "TL_rank": -0.46,
+    "TL_rank": -0.47,
     "played": 2,
     "buffer": false,
     "visual_rank": 58,
@@ -602,8 +602,8 @@
   "Chelsea": {
     "IDapi": 49,
     "nat": "ENG",
-    "TL_rank": -1.28,
-    "visual_rank": 45,
+    "TL_rank": -1.29,
+    "visual_rank": 44,
     "buffer": false,
     "played": 0,
     "club_TLpos": 32,
@@ -612,14 +612,14 @@
       [
         "ENG L",
         "c",
-        3
+        4
       ]
     ]
   },
   "West Ham": {
     "IDapi": 48,
     "nat": "ENG",
-    "TL_rank": -1.72,
+    "TL_rank": -1.74,
     "visual_rank": 37,
     "buffer": false,
     "played": 0,
@@ -630,8 +630,8 @@
   "Club Brugge KV": {
     "IDapi": 569,
     "nat": "BEL",
-    "TL_rank": -1.77,
-    "visual_rank": 37,
+    "TL_rank": -1.78,
+    "visual_rank": 36,
     "buffer": false,
     "played": 0,
     "club_TLpos": 34,
@@ -641,7 +641,7 @@
   "Ajax": {
     "IDapi": 194,
     "nat": "NED",
-    "TL_rank": -1.91,
+    "TL_rank": -1.92,
     "visual_rank": 34,
     "buffer": false,
     "played": 0,
@@ -652,7 +652,7 @@
   "Rangers": {
     "IDapi": 257,
     "nat": "SCO",
-    "TL_rank": -1.96,
+    "TL_rank": -1.97,
     "visual_rank": 33,
     "buffer": false,
     "played": 0,
@@ -663,7 +663,7 @@
   "Sevilla": {
     "IDapi": 536,
     "nat": "ESP",
-    "TL_rank": -1.99,
+    "TL_rank": -2.0,
     "visual_rank": 33,
     "buffer": false,
     "played": 0,
@@ -671,10 +671,10 @@
     "club_NATpos": "",
     "club_qouta": []
   },
-  "Shakhtar Donetsk": {
-    "IDapi": 550,
-    "nat": "UKR",
-    "TL_rank": -2.17,
+  "Slavia Praha": {
+    "IDapi": 560,
+    "nat": "CZE",
+    "TL_rank": -2.18,
     "visual_rank": 30,
     "buffer": false,
     "played": 0,
@@ -682,10 +682,10 @@
     "club_NATpos": "",
     "club_qouta": []
   },
-  "Slavia Praha": {
-    "IDapi": 560,
-    "nat": "CZE",
-    "TL_rank": -2.17,
+  "Shakhtar Donetsk": {
+    "IDapi": 550,
+    "nat": "UKR",
+    "TL_rank": -2.18,
     "visual_rank": 30,
     "buffer": false,
     "played": 0,
@@ -696,7 +696,7 @@
   "Fiorentina": {
     "IDapi": 502,
     "nat": "ITA",
-    "TL_rank": -2.21,
+    "TL_rank": -2.22,
     "visual_rank": 29,
     "buffer": false,
     "played": 0,
@@ -706,14 +706,14 @@
       [
         "ITA L",
         "c",
-        3
+        4
       ]
     ]
   },
   "Red Bull Salzburg": {
     "IDapi": 571,
     "nat": "AUT",
-    "TL_rank": -2.21,
+    "TL_rank": -2.22,
     "visual_rank": 29,
     "buffer": false,
     "played": 0,
@@ -724,7 +724,7 @@
   "AZ Alkmaar": {
     "IDapi": 201,
     "nat": "NED",
-    "TL_rank": -2.24,
+    "TL_rank": -2.25,
     "visual_rank": 29,
     "buffer": false,
     "played": 0,
@@ -732,32 +732,32 @@
     "club_NATpos": "",
     "club_qouta": []
   },
-  "Olympiakos Piraeus": {
-    "IDapi": 553,
-    "nat": "GRE",
-    "TL_rank": -2.31,
-    "visual_rank": 28,
-    "buffer": false,
-    "played": 0,
-    "club_TLpos": 43,
-    "club_NATpos": "",
-    "club_qouta": []
-  },
   "SC Braga": {
     "IDapi": 217,
     "nat": "POR",
-    "TL_rank": -2.31,
-    "visual_rank": 28,
+    "TL_rank": -2.32,
+    "visual_rank": 27,
     "buffer": false,
     "played": 0,
     "club_TLpos": 43,
     "club_NATpos": "",
     "club_qouta": []
   },
-  "Fenerbahce": {
-    "IDapi": 611,
-    "nat": "TUR",
-    "TL_rank": -2.35,
+  "Olympiakos Piraeus": {
+    "IDapi": 553,
+    "nat": "GRE",
+    "TL_rank": -2.32,
+    "visual_rank": 27,
+    "buffer": false,
+    "played": 0,
+    "club_TLpos": 43,
+    "club_NATpos": "",
+    "club_qouta": []
+  },
+  "FK Crvena Zvezda": {
+    "IDapi": 598,
+    "nat": "SRB",
+    "TL_rank": -2.36,
     "visual_rank": 27,
     "buffer": false,
     "played": 0,
@@ -765,10 +765,10 @@
     "club_NATpos": "",
     "club_qouta": []
   },
-  "FK Crvena Zvezda": {
-    "IDapi": 598,
-    "nat": "SRB",
-    "TL_rank": -2.35,
+  "Fenerbahce": {
+    "IDapi": 611,
+    "nat": "TUR",
+    "TL_rank": -2.36,
     "visual_rank": 27,
     "buffer": false,
     "played": 0,
@@ -779,8 +779,8 @@
   "FC Copenhagen": {
     "IDapi": 400,
     "nat": "DEN",
-    "TL_rank": -2.37,
-    "visual_rank": 27,
+    "TL_rank": -2.38,
+    "visual_rank": 26,
     "buffer": false,
     "played": 0,
     "club_TLpos": 47,
@@ -790,7 +790,7 @@
   "Rennes": {
     "IDapi": 94,
     "nat": "FRA",
-    "TL_rank": -2.4,
+    "TL_rank": -2.41,
     "visual_rank": 26,
     "buffer": false,
     "played": 0,
@@ -801,8 +801,8 @@
   "Gent": {
     "IDapi": 631,
     "nat": "BEL",
-    "TL_rank": -2.43,
-    "visual_rank": 26,
+    "TL_rank": -2.44,
+    "visual_rank": 25,
     "buffer": false,
     "played": 0,
     "club_TLpos": 49,
@@ -812,7 +812,7 @@
   "PAOK": {
     "IDapi": 619,
     "nat": "GRE",
-    "TL_rank": -2.46,
+    "TL_rank": -2.47,
     "visual_rank": 25,
     "buffer": false,
     "played": 0,
@@ -823,7 +823,7 @@
   "Monaco": {
     "IDapi": 91,
     "nat": "FRA",
-    "TL_rank": -2.66,
+    "TL_rank": -2.64,
     "played": 1,
     "buffer": false,
     "visual_rank": 22,
@@ -840,7 +840,7 @@
   "Newcastle": {
     "IDapi": 34,
     "nat": "ENG",
-    "TL_rank": -3.2,
+    "TL_rank": -3.19,
     "played": 1,
     "buffer": false,
     "visual_rank": 13,
@@ -851,7 +851,7 @@
   "VfB Stuttgart": {
     "IDapi": 172,
     "nat": "GER",
-    "TL_rank": -3.32,
+    "TL_rank": -3.3,
     "played": 8,
     "visual_rank": 11,
     "buffer": false,
@@ -862,7 +862,7 @@
   "Brighton": {
     "IDapi": 51,
     "nat": "ENG",
-    "TL_rank": -3.39,
+    "TL_rank": -3.38,
     "played": 1,
     "buffer": false,
     "visual_rank": 10,
@@ -895,7 +895,7 @@
   "Aston Villa": {
     "IDapi": 66,
     "nat": "ENG",
-    "TL_rank": -3.56,
+    "TL_rank": -3.55,
     "played": 5,
     "visual_rank": 7,
     "buffer": false,
@@ -912,7 +912,7 @@
   "Osasuna": {
     "IDapi": 727,
     "nat": "ESP",
-    "TL_rank": -3.6,
+    "TL_rank": -3.59,
     "played": 2,
     "buffer": false,
     "visual_rank": 7,
@@ -923,7 +923,7 @@
   "Sparta Praha": {
     "IDapi": 628,
     "nat": "CZE",
-    "TL_rank": -3.71,
+    "TL_rank": -3.7,
     "played": 2,
     "buffer": false,
     "visual_rank": 5,
@@ -934,7 +934,7 @@
   "Stade Brestois 29": {
     "IDapi": 106,
     "nat": "FRA",
-    "TL_rank": -3.74,
+    "TL_rank": -3.73,
     "played": 3,
     "visual_rank": 4,
     "buffer": false,
@@ -951,7 +951,7 @@
   "Udinese": {
     "IDapi": 494,
     "nat": "ITA",
-    "TL_rank": -3.81,
+    "TL_rank": -3.8,
     "played": 1,
     "buffer": false,
     "visual_rank": 3,
@@ -962,7 +962,7 @@
   "1. FC Heidenheim": {
     "IDapi": 180,
     "nat": "GER",
-    "TL_rank": -3.82,
+    "TL_rank": -3.81,
     "played": 1,
     "buffer": false,
     "visual_rank": 3,
@@ -973,7 +973,7 @@
   "Torino": {
     "IDapi": 503,
     "nat": "ITA",
-    "TL_rank": -3.83,
+    "TL_rank": -3.82,
     "played": 1,
     "buffer": false,
     "visual_rank": 3,
@@ -984,7 +984,7 @@
   "Girona": {
     "IDapi": 547,
     "nat": "ESP",
-    "TL_rank": -3.88,
+    "TL_rank": -3.87,
     "played": 4,
     "visual_rank": 2,
     "buffer": false,
@@ -995,7 +995,7 @@
   "Celtic": {
     "IDapi": 247,
     "nat": "SCO",
-    "TL_rank": -4.0,
+    "TL_rank": -3.99,
     "played": 1,
     "buffer": false,
     "visual_rank": 0,

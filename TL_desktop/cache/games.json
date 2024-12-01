@@ -674,6 +674,61 @@
           "21"
         ]
       ]
+    },
+    {
+      "club_name": "Manchester City",
+      "date": "2024-12-01T19:00:00+00:00",
+      "match": "Liverpool - Manchester City",
+      "game_status": "expected",
+      "opponent": "Liverpool",
+      "opp_id": 40,
+      "result": null,
+      "opp_TLrate": 2.09,
+      "goalDiff": null,
+      "timestamp": 1733068800,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-13",
+      "opp_nat": "ENG",
+      "club_nat": "ENG",
+      "club_TLpos": 5,
+      "opp_TLpos": 1,
+      "club_NATpos": 3,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
+        ],
+        [
+          "TL",
+          "",
+          "5"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "33": [
@@ -2341,6 +2396,41 @@
           "15"
         ]
       ]
+    },
+    {
+      "club_name": "Aston Villa",
+      "date": "2024-12-01T16:30:00+00:00",
+      "match": "Chelsea - Aston Villa",
+      "game_status": "expected",
+      "opponent": "Chelsea",
+      "opp_id": 49,
+      "result": null,
+      "opp_TLrate": -1.29,
+      "goalDiff": null,
+      "timestamp": 1733059800,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-13",
+      "club_nat": "ENG",
+      "opp_nat": "ENG",
+      "club_TLpos": 56,
+      "opp_TLpos": 32,
+      "club_NATpos": 8,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "9"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ]
     }
   ],
   "42": [
@@ -3886,6 +3976,56 @@
           "3"
         ]
       ]
+    },
+    {
+      "club_name": "Inter",
+      "date": "2024-12-01T20:00:00+00:00",
+      "match": "Fiorentina - Inter",
+      "game_status": "expected",
+      "opponent": "Fiorentina",
+      "opp_id": 502,
+      "result": null,
+      "opp_TLrate": -2.22,
+      "goalDiff": null,
+      "timestamp": 1733072400,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-14",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 6,
+      "opp_TLpos": 40,
+      "club_NATpos": 3,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "6"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ]
     }
   ],
   "51": [
@@ -5010,6 +5150,61 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Liverpool",
+      "date": "2024-12-01T19:00:00+00:00",
+      "match": "Liverpool - Manchester City",
+      "game_status": "expected",
+      "opponent": "Manchester City",
+      "opp_id": 50,
+      "result": null,
+      "opp_TLrate": 1.27,
+      "goalDiff": null,
+      "timestamp": 1733068800,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-13",
+      "club_nat": "ENG",
+      "opp_nat": "ENG",
+      "club_TLpos": 1,
+      "opp_TLpos": 5,
+      "club_NATpos": 1,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
+        ],
+        [
+          "TL",
+          "",
+          "5"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ]
     }
   ],
   "496": [
@@ -5907,13 +6102,13 @@
     {
       "club_name": "Borussia Dortmund",
       "date": "2024-11-30T20:30:00+00:00",
-      "match": "Borussia Dortmund - Bayern München",
-      "game_status": "expected",
+      "match": "Borussia Dortmund - Bayern München   1:1",
+      "game_status": "fixed",
       "opponent": "Bayern München",
       "opp_id": 157,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 1.35,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1732987800,
       "tourn_short": "GER League",
       "season": "24-25",
@@ -7262,13 +7457,13 @@
     {
       "club_name": "Bayern München",
       "date": "2024-11-30T20:30:00+00:00",
-      "match": "Borussia Dortmund - Bayern München",
-      "game_status": "expected",
+      "match": "Borussia Dortmund - Bayern München   1:1",
+      "game_status": "fixed",
       "opponent": "Borussia Dortmund",
       "opp_id": 165,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 0.96,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1732987800,
       "tourn_short": "GER League",
       "season": "24-25",
@@ -8133,6 +8328,95 @@
           "TL",
           "",
           "7"
+        ]
+      ]
+    }
+  ],
+  "49": [
+    {
+      "club_name": "Chelsea",
+      "date": "2024-12-01T16:30:00+00:00",
+      "match": "Chelsea - Aston Villa",
+      "game_status": "expected",
+      "opponent": "Aston Villa",
+      "opp_id": 66,
+      "result": null,
+      "opp_TLrate": -3.55,
+      "goalDiff": null,
+      "timestamp": 1733059800,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-13",
+      "opp_nat": "ENG",
+      "club_nat": "ENG",
+      "club_TLpos": 32,
+      "opp_TLpos": 56,
+      "club_NATpos": 4,
+      "opp_NATpos": 8,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "9"
+        ]
+      ]
+    }
+  ],
+  "502": [
+    {
+      "club_name": "Fiorentina",
+      "date": "2024-12-01T20:00:00+00:00",
+      "match": "Fiorentina - Inter",
+      "game_status": "expected",
+      "opponent": "Inter",
+      "opp_id": 505,
+      "result": null,
+      "opp_TLrate": 1.02,
+      "goalDiff": null,
+      "timestamp": 1733072400,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-14",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": 40,
+      "opp_TLpos": 6,
+      "club_NATpos": 4,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "6"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
         ]
       ]
     }

@@ -1,18 +1,50 @@
 [
     {
-    "date": "2024-11-30T20:30:00+00:00",
-    "tourn_short": "GER League",
+    "date": "2024-12-01T16:30:00+00:00",
+    "tourn_short": "ENG League",
     "season": "24-25",
-    "tourn_round": "RS-12",
-    "home": "Borussia Dortmund",
-    "away": "Bayern München",
+    "tourn_round": "RS-13",
+    "home": "Chelsea",
+    "away": "Aston Villa",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 5,
-        "away": 1
+        "home": 4,
+        "away": 8
+        }
+    },
+    {
+    "date": "2024-12-01T19:00:00+00:00",
+    "tourn_short": "ENG League",
+    "season": "24-25",
+    "tourn_round": "RS-13",
+    "home": "Liverpool",
+    "away": "Manchester City",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 3
+        }
+    },
+    {
+    "date": "2024-12-01T20:00:00+00:00",
+    "tourn_short": "ITA League",
+    "season": "24-25",
+    "tourn_round": "RS-14",
+    "home": "Fiorentina",
+    "away": "Inter",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 4,
+        "away": 3
         }
     }
 ]
