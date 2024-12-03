@@ -17,12 +17,16 @@
       "id": 49
     },
     {
-      "club": "Aston Villa",
-      "id": 66
+      "club": "Brighton",
+      "id": 51
     },
     {
       "club": "Tottenham",
       "id": 47
+    },
+    {
+      "club": "Aston Villa",
+      "id": 66
     }
   ],
   "ITA": [
@@ -131,12 +135,6 @@
     {
       "club": "PSV Eindhoven",
       "id": 197
-    }
-  ],
-  "TUR": [
-    {
-      "club": "Galatasaray",
-      "id": 645
     }
   ]
 }

@@ -678,13 +678,13 @@
     {
       "club_name": "Manchester City",
       "date": "2024-12-01T19:00:00+00:00",
-      "match": "Liverpool - Manchester City",
-      "game_status": "expected",
+      "match": "Liverpool - Manchester City   2:0",
+      "game_status": "fixed",
       "opponent": "Liverpool",
       "opp_id": 40,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 2.09,
-      "goalDiff": null,
+      "goalDiff": -2,
       "timestamp": 1733068800,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -1840,6 +1840,56 @@
         ]
       ],
       "opp_NATpos": 1
+    },
+    {
+      "club_name": "Bayer Leverkusen",
+      "date": "2024-12-03T22:45:00+00:00",
+      "match": "Bayern München - Bayer Leverkusen",
+      "game_status": "expected",
+      "opponent": "Bayern München",
+      "opp_id": 157,
+      "result": null,
+      "opp_TLrate": 1.32,
+      "goalDiff": null,
+      "timestamp": 1733255100,
+      "tourn_short": "GER Cup",
+      "season": "24-25",
+      "tourn_round": "1/8",
+      "club_nat": "GER",
+      "opp_nat": "GER",
+      "club_TLpos": 15,
+      "opp_TLpos": 4,
+      "club_NATpos": 3,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "6"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "13"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "172": [
@@ -2400,13 +2450,13 @@
     {
       "club_name": "Aston Villa",
       "date": "2024-12-01T16:30:00+00:00",
-      "match": "Chelsea - Aston Villa",
-      "game_status": "expected",
+      "match": "Chelsea - Aston Villa   3:0",
+      "game_status": "fixed",
       "opponent": "Chelsea",
       "opp_id": 49,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": -1.29,
-      "goalDiff": null,
+      "goalDiff": -3,
       "timestamp": 1733059800,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -3976,56 +4026,6 @@
           "3"
         ]
       ]
-    },
-    {
-      "club_name": "Inter",
-      "date": "2024-12-01T20:00:00+00:00",
-      "match": "Fiorentina - Inter",
-      "game_status": "expected",
-      "opponent": "Fiorentina",
-      "opp_id": 502,
-      "result": null,
-      "opp_TLrate": -2.22,
-      "goalDiff": null,
-      "timestamp": 1733072400,
-      "tourn_short": "ITA League",
-      "season": "24-25",
-      "tourn_round": "RS-14",
-      "opp_nat": "ITA",
-      "club_nat": "ITA",
-      "club_TLpos": 6,
-      "opp_TLpos": 40,
-      "club_NATpos": 3,
-      "opp_NATpos": 4,
-      "club_qouta": [
-        [
-          "UCL",
-          "c",
-          "2"
-        ],
-        [
-          "TL",
-          "",
-          "6"
-        ],
-        [
-          "L",
-          "p",
-          "1"
-        ],
-        [
-          "C",
-          "c",
-          "1"
-        ]
-      ],
-      "opp_qouta": [
-        [
-          "L",
-          "c",
-          "4"
-        ]
-      ]
     }
   ],
   "51": [
@@ -5154,13 +5154,13 @@
     {
       "club_name": "Liverpool",
       "date": "2024-12-01T19:00:00+00:00",
-      "match": "Liverpool - Manchester City",
-      "game_status": "expected",
+      "match": "Liverpool - Manchester City   2:0",
+      "game_status": "fixed",
       "opponent": "Manchester City",
       "opp_id": 50,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 1.27,
-      "goalDiff": null,
+      "goalDiff": 2,
       "timestamp": 1733068800,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -7503,6 +7503,56 @@
           "7"
         ]
       ]
+    },
+    {
+      "club_name": "Bayern München",
+      "date": "2024-12-03T22:45:00+00:00",
+      "match": "Bayern München - Bayer Leverkusen",
+      "game_status": "expected",
+      "opponent": "Bayer Leverkusen",
+      "opp_id": 168,
+      "result": null,
+      "opp_TLrate": 0.3,
+      "goalDiff": null,
+      "timestamp": 1733255100,
+      "tourn_short": "GER Cup",
+      "season": "24-25",
+      "tourn_round": "1/8",
+      "opp_nat": "GER",
+      "club_nat": "GER",
+      "club_TLpos": 4,
+      "opp_TLpos": 15,
+      "club_NATpos": 1,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "13"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "6"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ]
     }
   ],
   "503": [
@@ -8336,13 +8386,13 @@
     {
       "club_name": "Chelsea",
       "date": "2024-12-01T16:30:00+00:00",
-      "match": "Chelsea - Aston Villa",
-      "game_status": "expected",
+      "match": "Chelsea - Aston Villa   3:0",
+      "game_status": "fixed",
       "opponent": "Aston Villa",
       "opp_id": 66,
-      "result": null,
+      "result": "win",
       "opp_TLrate": -3.55,
-      "goalDiff": null,
+      "goalDiff": 3,
       "timestamp": 1733059800,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -8365,58 +8415,6 @@
           "UCL",
           "c",
           "9"
-        ]
-      ]
-    }
-  ],
-  "502": [
-    {
-      "club_name": "Fiorentina",
-      "date": "2024-12-01T20:00:00+00:00",
-      "match": "Fiorentina - Inter",
-      "game_status": "expected",
-      "opponent": "Inter",
-      "opp_id": 505,
-      "result": null,
-      "opp_TLrate": 1.02,
-      "goalDiff": null,
-      "timestamp": 1733072400,
-      "tourn_short": "ITA League",
-      "season": "24-25",
-      "tourn_round": "RS-14",
-      "club_nat": "ITA",
-      "opp_nat": "ITA",
-      "club_TLpos": 40,
-      "opp_TLpos": 6,
-      "club_NATpos": 4,
-      "opp_NATpos": 3,
-      "club_qouta": [
-        [
-          "L",
-          "c",
-          "4"
-        ]
-      ],
-      "opp_qouta": [
-        [
-          "UCL",
-          "c",
-          "2"
-        ],
-        [
-          "TL",
-          "",
-          "6"
-        ],
-        [
-          "L",
-          "p",
-          "1"
-        ],
-        [
-          "C",
-          "c",
-          "1"
         ]
       ]
     }
