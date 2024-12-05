@@ -1,11 +1,11 @@
 [
     {
-    "date": "2024-12-04T23:00:00+00:00",
-    "tourn_short": "ESP League",
+    "date": "2024-12-05T23:00:00+00:00",
+    "tourn_short": "ITA Cup",
     "season": "24-25",
-    "tourn_round": "RS-19",
-    "home": "Athletic Club",
-    "away": "Real Madrid",
+    "tourn_round": "1/8",
+    "home": "Lazio",
+    "away": "Napoli",
     "goals": {
         "home": null,
         "away": null
@@ -13,22 +13,6 @@
     "NATpos": {
         "home": 5,
         "away": 1
-        }
-    },
-    {
-    "date": "2024-12-04T22:45:00+00:00",
-    "tourn_short": "GER Cup",
-    "season": "24-25",
-    "tourn_round": "1/8",
-    "home": "RB Leipzig",
-    "away": "Eintracht Frankfurt",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 4,
-        "away": 2
         }
     }
 ]

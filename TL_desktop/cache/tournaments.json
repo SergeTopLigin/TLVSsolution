@@ -6,7 +6,7 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 0.08,
+        "rating": 0.06,
         "quota": 2,
         "id": 2,
         "type": "Cup",
@@ -15,7 +15,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 0.93,
+        "rating": 0.94,
         "quota": 17,
         "id": 2,
         "type": "Cup",
@@ -24,7 +24,7 @@
       "UEL 23-24": {
         "tytle": "UEL",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 3,
         "type": "Cup",
@@ -156,7 +156,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 1,
         "id": 140,
         "type": "League",
@@ -198,7 +198,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.37,
+        "rating": 0.38,
         "quota": 3,
         "id": 78,
         "type": "League",

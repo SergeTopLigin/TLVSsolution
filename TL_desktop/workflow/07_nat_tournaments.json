@@ -228,13 +228,24 @@
             },
             {
                 "round": "1/8",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2024-12-04 22:45:00",
                 "total_teams": 16,
                 "teams_TL": [
                     ["Bayern München", 157],
                     ["RB Leipzig", 173],
                     ["Eintracht Frankfurt", 169],
+                    ["VfB Stuttgart", 172],
+                    ["Bayer Leverkusen", 168]
+                ]
+            },
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2024-12-04 22:45:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["RB Leipzig", 173],
                     ["VfB Stuttgart", 172],
                     ["Bayer Leverkusen", 168]
                 ]
