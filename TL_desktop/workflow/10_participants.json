@@ -6,8 +6,8 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 0.06,
-        "quota": 2,
+        "rating": 0.04,
+        "quota": 1,
         "id": 2,
         "type": "Cup",
         "name": "Champions League",
@@ -31,7 +31,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 0.94,
+        "rating": 0.95,
         "quota": 17,
         "id": 2,
         "type": "Cup",
@@ -179,8 +179,8 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.21,
-        "quota": 3,
+        "rating": 0.22,
+        "quota": 4,
         "id": 3,
         "type": "Cup",
         "name": "Europa League",
@@ -205,6 +205,13 @@
             "pos": 3,
             "nat": "GER",
             "cur_nat_pos": 2
+          },
+          {
+            "club": "Galatasaray",
+            "id": 645,
+            "pos": 4,
+            "nat": "TUR",
+            "cur_nat_pos": 1
           }
         ]
       },
@@ -280,18 +287,18 @@
             "cur_nat_pos": 2
           },
           {
-            "club": "Manchester City",
-            "id": 50,
-            "pos": 5,
-            "nat": "ENG",
-            "cur_nat_pos": 4
-          },
-          {
             "club": "Bayern München",
             "id": 157,
-            "pos": 6,
+            "pos": 5,
             "nat": "GER",
             "cur_nat_pos": 1
+          },
+          {
+            "club": "Manchester City",
+            "id": 50,
+            "pos": 6,
+            "nat": "ENG",
+            "cur_nat_pos": 4
           },
           {
             "club": "Inter",
@@ -320,6 +327,13 @@
             "pos": 10,
             "nat": "FRA",
             "cur_nat_pos": 1
+          },
+          {
+            "club": "Arsenal",
+            "id": 42,
+            "pos": 10,
+            "nat": "ENG",
+            "cur_nat_pos": 3
           }
         ]
       }
@@ -332,7 +346,7 @@
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
-        "rating": 0.1,
+        "rating": 0.09,
         "quota": 1,
         "id": 39,
         "type": "League",
@@ -348,7 +362,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.54,
+        "rating": 0.55,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -413,7 +427,7 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 1,
         "id": 135,
         "type": "League",
@@ -429,7 +443,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.43,
+        "rating": 0.44,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -462,11 +476,11 @@
         "name": "Coppa Italia",
         "participants": [
           {
-            "club": "Inter",
-            "id": 505,
+            "club": "Lazio",
+            "id": 487,
             "pos": 1,
             "nat": "ITA",
-            "cur_nat_pos": 3
+            "cur_nat_pos": 5
           }
         ]
       }
@@ -542,7 +556,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.07,
+        "rating": 0.06,
         "quota": 1,
         "id": 78,
         "type": "League",
@@ -600,7 +614,7 @@
       "POR League 23-24": {
         "tytle": "POR League",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 94,
         "type": "League",

@@ -1541,6 +1541,46 @@
         ]
       ],
       "opp_NATpos": 8
+    },
+    {
+      "club_name": "Atalanta",
+      "date": "2024-12-06T22:45:00+00:00",
+      "match": "Atalanta - AC Milan",
+      "game_status": "expected",
+      "opponent": "AC Milan",
+      "opp_id": 489,
+      "result": null,
+      "opp_TLrate": 0.05,
+      "goalDiff": null,
+      "timestamp": 1733514300,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-15",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 15,
+      "opp_TLpos": 18,
+      "club_NATpos": 2,
+      "opp_NATpos": 7,
+      "club_qouta": [
+        [
+          "UEL",
+          "p",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "15"
+        ]
+      ]
     }
   ],
   "168": [
@@ -4632,13 +4672,13 @@
     {
       "club_name": "Lazio",
       "date": "2024-12-05T23:00:00+00:00",
-      "match": "Lazio - Napoli",
-      "game_status": "expected",
+      "match": "Lazio - Napoli   3:1",
+      "game_status": "fixed",
       "opponent": "Napoli",
       "opp_id": 492,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 0.04,
-      "goalDiff": null,
+      "goalDiff": 2,
       "timestamp": 1733428800,
       "tourn_short": "ITA Cup",
       "season": "24-25",
@@ -4964,6 +5004,46 @@
           "UCL",
           "c",
           "11"
+        ]
+      ]
+    },
+    {
+      "club_name": "AC Milan",
+      "date": "2024-12-06T22:45:00+00:00",
+      "match": "Atalanta - AC Milan",
+      "game_status": "expected",
+      "opponent": "Atalanta",
+      "opp_id": 499,
+      "result": null,
+      "opp_TLrate": 0.3,
+      "goalDiff": null,
+      "timestamp": 1733514300,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-15",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": 18,
+      "opp_TLpos": 15,
+      "club_NATpos": 7,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "15"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UEL",
+          "p",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "2"
         ]
       ]
     }
@@ -7039,13 +7119,13 @@
     {
       "club_name": "Napoli",
       "date": "2024-12-05T23:00:00+00:00",
-      "match": "Lazio - Napoli",
-      "game_status": "expected",
+      "match": "Lazio - Napoli   3:1",
+      "game_status": "fixed",
       "opponent": "Lazio",
       "opp_id": 487,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": -0.07,
-      "goalDiff": null,
+      "goalDiff": -2,
       "timestamp": 1733428800,
       "tourn_short": "ITA Cup",
       "season": "24-25",
@@ -8194,6 +8274,41 @@
           "2"
         ]
       ]
+    },
+    {
+      "club_name": "Stade Brestois 29",
+      "date": "2024-12-06T21:00:00+00:00",
+      "match": "Lille - Stade Brestois 29",
+      "game_status": "expected",
+      "opponent": "Lille",
+      "opp_id": 79,
+      "result": null,
+      "opp_TLrate": -0.43,
+      "goalDiff": null,
+      "timestamp": 1733508000,
+      "tourn_short": "FRA League",
+      "season": "24-25",
+      "tourn_round": "RS-14",
+      "opp_nat": "FRA",
+      "club_nat": "FRA",
+      "club_TLpos": 40,
+      "opp_TLpos": 28,
+      "club_NATpos": 11,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "11"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "12"
+        ]
+      ]
     }
   ],
   "81": [
@@ -8374,6 +8489,41 @@
         ]
       ],
       "opp_NATpos": 6
+    },
+    {
+      "club_name": "Lille",
+      "date": "2024-12-06T21:00:00+00:00",
+      "match": "Lille - Stade Brestois 29",
+      "game_status": "expected",
+      "opponent": "Stade Brestois 29",
+      "opp_id": 106,
+      "result": null,
+      "opp_TLrate": -3.67,
+      "goalDiff": null,
+      "timestamp": 1733508000,
+      "tourn_short": "FRA League",
+      "season": "24-25",
+      "tourn_round": "RS-14",
+      "club_nat": "FRA",
+      "opp_nat": "FRA",
+      "club_TLpos": 28,
+      "opp_TLpos": 40,
+      "club_NATpos": 4,
+      "opp_NATpos": 11,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "12"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "11"
+        ]
+      ]
     }
   ],
   "211": [
