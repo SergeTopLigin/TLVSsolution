@@ -1,34 +1,34 @@
 {
   "UEFA": {
-    "rating": 45.89,
+    "rating": 46.46,
     "quota": 24
   },
   "TopLiga": {
-    "rating": 19.12,
+    "rating": 19.36,
     "quota": 10
   },
   "ENG": {
-    "rating": 12.77,
+    "rating": 12.79,
     "quota": 6
   },
   "ITA": {
-    "rating": 10.27,
+    "rating": 10.39,
     "quota": 5
   },
   "ESP": {
-    "rating": 9.59,
+    "rating": 9.6,
     "quota": 5
   },
   "GER": {
-    "rating": 7.95,
+    "rating": 7.94,
     "quota": 4
   },
-  "POR": {
+  "FRA": {
     "rating": 3.03,
     "quota": 1
   },
-  "FRA": {
-    "rating": 2.59,
+  "POR": {
+    "rating": 3.03,
     "quota": 1
   },
   "NED": {
