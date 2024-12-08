@@ -6,7 +6,7 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.01,
         "quota": 1,
         "id": 2,
         "type": "Cup",
@@ -24,7 +24,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 0.98,
+        "rating": 0.99,
         "quota": 18,
         "id": 2,
         "type": "Cup",
@@ -57,6 +57,13 @@
             "pos": 4,
             "nat": "GER",
             "cur_nat_pos": 5
+          },
+          {
+            "club": "Atalanta",
+            "id": 499,
+            "pos": 5,
+            "nat": "ITA",
+            "cur_nat_pos": 2
           },
           {
             "club": "Bayer Leverkusen",
@@ -148,39 +155,24 @@
             "pos": 18,
             "nat": "NED",
             "cur_nat_pos": 1
-          },
-          {
-            "club": "Juventus",
-            "id": 496,
-            "pos": 19,
-            "nat": "ITA",
-            "cur_nat_pos": 6
           }
         ]
       },
       "UEL 23-24": {
         "tytle": "UEL",
         "season": "23-24",
-        "rating": 0.01,
-        "quota": 1,
+        "rating": 0.0,
+        "quota": 0,
         "id": 3,
         "type": "Cup",
         "name": "Europa League",
-        "participants": [
-          {
-            "club": "Atalanta",
-            "id": 499,
-            "pos": 1,
-            "nat": "ITA",
-            "cur_nat_pos": 2
-          }
-        ]
+        "participants": []
       },
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
         "rating": 0.22,
-        "quota": 3,
+        "quota": 4,
         "id": 3,
         "type": "Cup",
         "name": "Europa League",
@@ -205,6 +197,13 @@
             "pos": 3,
             "nat": "GER",
             "cur_nat_pos": 2
+          },
+          {
+            "club": "Galatasaray",
+            "id": 645,
+            "pos": 4,
+            "nat": "TUR",
+            "cur_nat_pos": 1
           }
         ]
       },
@@ -332,7 +331,7 @@
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
-        "rating": 0.09,
+        "rating": 0.08,
         "quota": 1,
         "id": 39,
         "type": "League",
@@ -348,7 +347,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.55,
+        "rating": 0.56,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -370,8 +369,8 @@
             "pos": 3
           },
           {
-            "club": "Brighton",
-            "id": 51,
+            "club": "Nottingham Forest",
+            "id": 65,
             "pos": 5
           }
         ]
@@ -479,7 +478,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.07,
+        "rating": 0.06,
         "quota": 1,
         "id": 140,
         "type": "League",
@@ -495,7 +494,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.41,
+        "rating": 0.42,
         "quota": 4,
         "id": 140,
         "type": "League",

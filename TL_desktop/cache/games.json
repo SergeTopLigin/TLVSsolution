@@ -3356,6 +3356,46 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Athletic Club",
+      "date": "2024-12-08T18:15:00+00:00",
+      "match": "Athletic Club - Villarreal",
+      "game_status": "expected",
+      "opponent": "Villarreal",
+      "opp_id": 533,
+      "result": null,
+      "opp_TLrate": -0.15,
+      "goalDiff": null,
+      "timestamp": 1733670900,
+      "tourn_short": "ESP League",
+      "season": "24-25",
+      "tourn_round": "RS-16",
+      "club_nat": "ESP",
+      "opp_nat": "ESP",
+      "club_TLpos": 34,
+      "opp_TLpos": 25,
+      "club_NATpos": 5,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "UEL",
+          "c",
+          "2"
+        ],
+        [
+          "L",
+          "c",
+          "5"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ]
     }
   ],
   "530": [
@@ -4692,6 +4732,46 @@
       "club_qouta": [
         [
           "UEL",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
+    },
+    {
+      "club_name": "Lazio",
+      "date": "2024-12-08T22:45:00+00:00",
+      "match": "Napoli - Lazio",
+      "game_status": "expected",
+      "opponent": "Napoli",
+      "opp_id": 492,
+      "result": null,
+      "opp_TLrate": -0.14,
+      "goalDiff": null,
+      "timestamp": 1733687100,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-15",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": 16,
+      "opp_TLpos": 24,
+      "club_NATpos": 5,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UEL",
+          "c",
+          "1"
+        ],
+        [
+          "C",
           "c",
           "1"
         ]
@@ -7150,6 +7230,46 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Napoli",
+      "date": "2024-12-08T22:45:00+00:00",
+      "match": "Napoli - Lazio",
+      "game_status": "expected",
+      "opponent": "Lazio",
+      "opp_id": 487,
+      "result": null,
+      "opp_TLrate": 0.19,
+      "goalDiff": null,
+      "timestamp": 1733687100,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-15",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 24,
+      "opp_TLpos": 16,
+      "club_NATpos": 1,
+      "opp_NATpos": 5,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UEL",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "533": [
@@ -7277,6 +7397,46 @@
         ]
       ],
       "opp_qouta": [
+        [
+          "L",
+          "c",
+          "5"
+        ]
+      ]
+    },
+    {
+      "club_name": "Villarreal",
+      "date": "2024-12-08T18:15:00+00:00",
+      "match": "Athletic Club - Villarreal",
+      "game_status": "expected",
+      "opponent": "Athletic Club",
+      "opp_id": 531,
+      "result": null,
+      "opp_TLrate": -2.95,
+      "goalDiff": null,
+      "timestamp": 1733670900,
+      "tourn_short": "ESP League",
+      "season": "24-25",
+      "tourn_round": "RS-16",
+      "opp_nat": "ESP",
+      "club_nat": "ESP",
+      "club_TLpos": 25,
+      "opp_TLpos": 34,
+      "club_NATpos": 4,
+      "opp_NATpos": 5,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UEL",
+          "c",
+          "2"
+        ],
         [
           "L",
           "c",
@@ -8449,6 +8609,51 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Tottenham",
+      "date": "2024-12-08T19:30:00+00:00",
+      "match": "Tottenham - Chelsea",
+      "game_status": "expected",
+      "opponent": "Chelsea",
+      "opp_id": 49,
+      "result": null,
+      "opp_TLrate": 1.31,
+      "goalDiff": null,
+      "timestamp": 1733675400,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-15",
+      "opp_nat": "ENG",
+      "club_nat": "ENG",
+      "club_TLpos": 14,
+      "opp_TLpos": 4,
+      "club_NATpos": 11,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "LC",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UECL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ]
     }
   ],
   "79": [
@@ -8815,6 +9020,51 @@
           "UCL",
           "c",
           "9"
+        ]
+      ]
+    },
+    {
+      "club_name": "Chelsea",
+      "date": "2024-12-08T19:30:00+00:00",
+      "match": "Tottenham - Chelsea",
+      "game_status": "expected",
+      "opponent": "Tottenham",
+      "opp_id": 47,
+      "result": null,
+      "opp_TLrate": 0.46,
+      "goalDiff": null,
+      "timestamp": 1733675400,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-15",
+      "club_nat": "ENG",
+      "opp_nat": "ENG",
+      "club_TLpos": 4,
+      "opp_TLpos": 14,
+      "club_NATpos": 2,
+      "opp_NATpos": 11,
+      "club_qouta": [
+        [
+          "UECL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "LC",
+          "c",
+          "1"
         ]
       ]
     }

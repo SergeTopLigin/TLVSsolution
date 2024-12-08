@@ -17,8 +17,8 @@
       "id": 42
     },
     {
-      "club": "Brighton",
-      "id": 51
+      "club": "Nottingham Forest",
+      "id": 65
     },
     {
       "club": "Tottenham",
@@ -49,10 +49,6 @@
     {
       "club": "Lazio",
       "id": 487
-    },
-    {
-      "club": "Juventus",
-      "id": 496
     },
     {
       "club": "AC Milan",
@@ -135,6 +131,12 @@
     {
       "club": "PSV Eindhoven",
       "id": 197
+    }
+  ],
+  "TUR": [
+    {
+      "club": "Galatasaray",
+      "id": 645
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "UEFA": {
-    "rating": 46.46,
+    "rating": 46.47,
     "quota": 24
   },
   "TopLiga": {
@@ -8,11 +8,11 @@
     "quota": 10
   },
   "ENG": {
-    "rating": 12.79,
+    "rating": 12.8,
     "quota": 6
   },
   "ITA": {
-    "rating": 10.39,
+    "rating": 10.38,
     "quota": 5
   },
   "ESP": {
@@ -20,7 +20,7 @@
     "quota": 5
   },
   "GER": {
-    "rating": 7.94,
+    "rating": 7.93,
     "quota": 4
   },
   "FRA": {
