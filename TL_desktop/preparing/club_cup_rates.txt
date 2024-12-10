@@ -1,9 +1,22 @@
 rivals
 
 ENG Lcup
-Tottenham
-    Manchester City 30.10.24 = 1.79
+Tottenham 4.18
+    -0.01: curr
+    1.79: Manchester City 2024-10-30
+Liverpool 3.79
+    2.18: curr
+    -0.79: West Ham 2024-09-25
+Newcastle 0.27
+    -1.2: curr
+    -0.93: Chelsea 2024-10-30
 
 ITA Cup
-Lazio
-    Napoli curr    
+Lazio 2.83
+    0.39: curr
+    0.04: Napoli 2024-12-05
+
+ESP Cup
+Pontevedra 
+    -1.2: curr
+    -0.14: Villarreal 2024-12-04

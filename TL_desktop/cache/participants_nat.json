@@ -21,22 +21,18 @@
       "id": 65
     },
     {
-      "club": "Tottenham",
-      "id": 47
-    },
-    {
       "club": "Aston Villa",
       "id": 66
+    },
+    {
+      "club": "Tottenham",
+      "id": 47
     }
   ],
   "ITA": [
     {
       "club": "Inter",
       "id": 505
-    },
-    {
-      "club": "Napoli",
-      "id": 492
     },
     {
       "club": "Atalanta",
@@ -47,8 +43,16 @@
       "id": 502
     },
     {
+      "club": "Napoli",
+      "id": 492
+    },
+    {
       "club": "Lazio",
       "id": 487
+    },
+    {
+      "club": "Juventus",
+      "id": 496
     },
     {
       "club": "AC Milan",
@@ -67,10 +71,6 @@
     {
       "club": "Atletico Madrid",
       "id": 530
-    },
-    {
-      "club": "Villarreal",
-      "id": 533
     },
     {
       "club": "Athletic Club",

@@ -6,26 +6,18 @@
       "UCL 23-24": {
         "tytle": "UCL",
         "season": "23-24",
-        "rating": 0.01,
-        "quota": 1,
+        "rating": 0.0,
+        "quota": 0,
         "id": 2,
         "type": "Cup",
         "name": "Champions League",
-        "participants": [
-          {
-            "club": "Real Madrid",
-            "id": 541,
-            "pos": 1,
-            "nat": "ESP",
-            "cur_nat_pos": 1
-          }
-        ]
+        "participants": []
       },
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
         "rating": 0.99,
-        "quota": 18,
+        "quota": 19,
         "id": 2,
         "type": "Cup",
         "name": "Champions League",
@@ -155,6 +147,13 @@
             "pos": 18,
             "nat": "NED",
             "cur_nat_pos": 1
+          },
+          {
+            "club": "Juventus",
+            "id": 496,
+            "pos": 19,
+            "nat": "ITA",
+            "cur_nat_pos": 6
           }
         ]
       },
@@ -331,7 +330,7 @@
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 1,
         "id": 39,
         "type": "League",
@@ -347,7 +346,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.56,
+        "rating": 0.55,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -388,7 +387,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.2,
+        "rating": 0.19,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -399,7 +398,7 @@
             "id": 47,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 6
+            "cur_nat_pos": 11
           }
         ]
       }
@@ -412,7 +411,7 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.07,
+        "rating": 0.06,
         "quota": 1,
         "id": 135,
         "type": "League",
@@ -428,25 +427,25 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.45,
+        "rating": 0.46,
         "quota": 3,
         "id": 135,
         "type": "League",
         "name": "Serie A",
         "participants": [
           {
-            "club": "Napoli",
-            "id": 492,
-            "pos": 1
-          },
-          {
             "club": "Atalanta",
             "id": 499,
-            "pos": 2
+            "pos": 1
           },
           {
             "club": "Fiorentina",
             "id": 502,
+            "pos": 3
+          },
+          {
+            "club": "Napoli",
+            "id": 492,
             "pos": 4
           }
         ]
@@ -495,7 +494,7 @@
         "tytle": "ESP League",
         "season": "24-25",
         "rating": 0.42,
-        "quota": 4,
+        "quota": 3,
         "id": 140,
         "type": "League",
         "name": "La Liga",
@@ -511,21 +510,16 @@
             "pos": 3
           },
           {
-            "club": "Villarreal",
-            "id": 533,
-            "pos": 4
-          },
-          {
             "club": "Athletic Club",
             "id": 531,
-            "pos": 5
+            "pos": 4
           }
         ]
       },
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.01,
+        "rating": 0.05,
         "quota": 0,
         "id": 143,
         "type": "Cup",
@@ -541,7 +535,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.06,
+        "rating": 0.05,
         "quota": 1,
         "id": 78,
         "type": "League",
@@ -557,7 +551,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.38,
+        "rating": 0.39,
         "quota": 3,
         "id": 78,
         "type": "League",
