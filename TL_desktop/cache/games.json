@@ -729,6 +729,51 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Manchester City",
+      "date": "2024-12-11T23:00:00+00:00",
+      "match": "Juventus - Manchester City",
+      "game_status": "expected",
+      "opponent": "Juventus",
+      "opp_id": 496,
+      "result": null,
+      "opp_TLrate": 0.08,
+      "goalDiff": null,
+      "timestamp": 1733947200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "LS-6",
+      "club_nat": "ENG",
+      "opp_nat": "ITA",
+      "club_TLpos": 6,
+      "opp_TLpos": 16,
+      "club_NATpos": 4,
+      "opp_NATpos": 6,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "16"
+        ],
+        [
+          "TL",
+          "",
+          "6"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
+        ]
+      ]
     }
   ],
   "33": [
@@ -1348,13 +1393,13 @@
     {
       "club_name": "Real Madrid",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "Atalanta - Real Madrid",
-      "game_status": "expected",
+      "match": "Atalanta - Real Madrid   2:3",
+      "game_status": "fixed",
       "opponent": "Atalanta",
       "opp_id": 499,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 0.52,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -1635,13 +1680,13 @@
     {
       "club_name": "Atalanta",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "Atalanta - Real Madrid",
-      "game_status": "expected",
+      "match": "Atalanta - Real Madrid   2:3",
+      "game_status": "fixed",
       "opponent": "Real Madrid",
       "opp_id": 541,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 1.61,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -2084,13 +2129,13 @@
     {
       "club_name": "Bayer Leverkusen",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "Bayer Leverkusen - Inter",
-      "game_status": "expected",
+      "match": "Bayer Leverkusen - Inter   1:0",
+      "game_status": "fixed",
       "opponent": "Inter",
       "opp_id": 505,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 1.0,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -2725,13 +2770,13 @@
     {
       "club_name": "Aston Villa",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "RB Leipzig - Aston Villa",
-      "game_status": "expected",
+      "match": "RB Leipzig - Aston Villa   2:3",
+      "game_status": "fixed",
       "opponent": "RB Leipzig",
       "opp_id": 173,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 0.02,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -3130,6 +3175,46 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Arsenal",
+      "date": "2024-12-11T23:00:00+00:00",
+      "match": "Arsenal - Monaco",
+      "game_status": "expected",
+      "opponent": "Monaco",
+      "opp_id": 91,
+      "result": null,
+      "opp_TLrate": -2.47,
+      "goalDiff": null,
+      "timestamp": 1733947200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "LS-6",
+      "club_nat": "ENG",
+      "opp_nat": "FRA",
+      "club_TLpos": 12,
+      "opp_TLpos": 33,
+      "club_NATpos": 3,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "8"
+        ],
+        [
+          "L",
+          "c",
+          "3"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "9"
+        ]
+      ]
     }
   ],
   "529": [
@@ -3413,6 +3498,56 @@
           "UCL",
           "c",
           "4"
+        ]
+      ]
+    },
+    {
+      "club_name": "Barcelona",
+      "date": "2024-12-11T23:00:00+00:00",
+      "match": "Borussia Dortmund - Barcelona",
+      "game_status": "expected",
+      "opponent": "Borussia Dortmund",
+      "opp_id": 165,
+      "result": null,
+      "opp_TLrate": 0.92,
+      "goalDiff": null,
+      "timestamp": 1733947200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "LS-6",
+      "club_nat": "ESP",
+      "opp_nat": "GER",
+      "club_TLpos": 3,
+      "opp_TLpos": 7,
+      "club_NATpos": 6,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "3"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "3"
+        ],
+        [
+          "TL",
+          "",
+          "8"
         ]
       ]
     }
@@ -4395,13 +4530,13 @@
     {
       "club_name": "Inter",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "Bayer Leverkusen - Inter",
-      "game_status": "expected",
+      "match": "Bayer Leverkusen - Inter   1:0",
+      "game_status": "fixed",
       "opponent": "Bayer Leverkusen",
       "opp_id": 168,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 0.47,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -4795,13 +4930,13 @@
     {
       "club_name": "RB Leipzig",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "RB Leipzig - Aston Villa",
-      "game_status": "expected",
+      "match": "RB Leipzig - Aston Villa   2:3",
+      "game_status": "fixed",
       "opponent": "Aston Villa",
       "opp_id": 66,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": -3.63,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -6224,6 +6359,51 @@
           "5"
         ]
       ]
+    },
+    {
+      "club_name": "Juventus",
+      "date": "2024-12-11T23:00:00+00:00",
+      "match": "Juventus - Manchester City",
+      "game_status": "expected",
+      "opponent": "Manchester City",
+      "opp_id": 50,
+      "result": null,
+      "opp_TLrate": 1.17,
+      "goalDiff": null,
+      "timestamp": 1733947200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "LS-6",
+      "opp_nat": "ENG",
+      "club_nat": "ITA",
+      "club_TLpos": 16,
+      "opp_TLpos": 6,
+      "club_NATpos": 6,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "16"
+        ],
+        [
+          "TL",
+          "",
+          "6"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ]
     }
   ],
   "497": [
@@ -6753,6 +6933,56 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Borussia Dortmund",
+      "date": "2024-12-11T23:00:00+00:00",
+      "match": "Borussia Dortmund - Barcelona",
+      "game_status": "expected",
+      "opponent": "Barcelona",
+      "opp_id": 529,
+      "result": null,
+      "opp_TLrate": 1.57,
+      "goalDiff": null,
+      "timestamp": 1733947200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "LS-6",
+      "opp_nat": "ESP",
+      "club_nat": "GER",
+      "club_TLpos": 7,
+      "opp_TLpos": 3,
+      "club_NATpos": 2,
+      "opp_NATpos": 6,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "3"
+        ],
+        [
+          "TL",
+          "",
+          "8"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "3"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ]
     }
   ],
   "180": [
@@ -7016,13 +7246,13 @@
     {
       "club_name": "PSV Eindhoven",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "Stade Brestois 29 - PSV Eindhoven",
-      "game_status": "expected",
+      "match": "Stade Brestois 29 - PSV Eindhoven   1:0",
+      "game_status": "fixed",
       "opponent": "Stade Brestois 29",
       "opp_id": 106,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": -3.78,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -8778,13 +9008,13 @@
     {
       "club_name": "Stade Brestois 29",
       "date": "2024-12-10T23:00:00+00:00",
-      "match": "Stade Brestois 29 - PSV Eindhoven",
-      "game_status": "expected",
+      "match": "Stade Brestois 29 - PSV Eindhoven   1:0",
+      "game_status": "fixed",
       "opponent": "PSV Eindhoven",
       "opp_id": 197,
-      "result": null,
+      "result": "win",
       "opp_TLrate": -0.59,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1733860800,
       "tourn_short": "UCL",
       "season": "24-25",
@@ -9239,6 +9469,46 @@
           "UCL",
           "c",
           "4"
+        ]
+      ]
+    },
+    {
+      "club_name": "Monaco",
+      "date": "2024-12-11T23:00:00+00:00",
+      "match": "Arsenal - Monaco",
+      "game_status": "expected",
+      "opponent": "Arsenal",
+      "opp_id": 42,
+      "result": null,
+      "opp_TLrate": 0.5,
+      "goalDiff": null,
+      "timestamp": 1733947200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "LS-6",
+      "opp_nat": "ENG",
+      "club_nat": "FRA",
+      "club_TLpos": 33,
+      "opp_TLpos": 12,
+      "club_NATpos": 3,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "9"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "8"
+        ],
+        [
+          "L",
+          "c",
+          "3"
         ]
       ]
     }

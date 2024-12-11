@@ -4,8 +4,8 @@ ENG Lcup
 Tottenham 4.18
     -0.01: curr
     1.79: Manchester City 2024-10-30
-Liverpool 3.79
-    2.18: curr
+Liverpool 3.88
+    2.27: curr
     -0.79: West Ham 2024-09-25
 Newcastle 0.27
     -1.2: curr

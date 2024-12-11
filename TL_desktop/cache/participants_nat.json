@@ -75,6 +75,10 @@
     {
       "club": "Athletic Club",
       "id": 531
+    },
+    {
+      "club": "Villarreal",
+      "id": 533
     }
   ],
   "GER": [
@@ -127,10 +131,10 @@
       "id": 106
     }
   ],
-  "NED": [
+  "BEL": [
     {
-      "club": "PSV Eindhoven",
-      "id": 197
+      "club": "Club Brugge KV",
+      "id": 569
     }
   ],
   "TUR": [

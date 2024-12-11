@@ -30,130 +30,130 @@
             "cur_nat_pos": 1
           },
           {
-            "club": "Inter",
-            "id": 505,
-            "pos": 2,
-            "nat": "ITA",
-            "cur_nat_pos": 3
-          },
-          {
             "club": "Barcelona",
             "id": 529,
-            "pos": 3,
+            "pos": 2,
             "nat": "ESP",
             "cur_nat_pos": 2
           },
           {
             "club": "Borussia Dortmund",
             "id": 165,
-            "pos": 4,
+            "pos": 3,
             "nat": "GER",
-            "cur_nat_pos": 5
-          },
-          {
-            "club": "Atalanta",
-            "id": 499,
-            "pos": 5,
-            "nat": "ITA",
-            "cur_nat_pos": 2
+            "cur_nat_pos": 6
           },
           {
             "club": "Bayer Leverkusen",
             "id": 168,
-            "pos": 6,
+            "pos": 4,
             "nat": "GER",
             "cur_nat_pos": 3
           },
           {
+            "club": "Aston Villa",
+            "id": 66,
+            "pos": 5,
+            "nat": "ENG",
+            "cur_nat_pos": 6
+          },
+          {
+            "club": "Inter",
+            "id": 505,
+            "pos": 6,
+            "nat": "ITA",
+            "cur_nat_pos": 2
+          },
+          {
+            "club": "Stade Brestois 29",
+            "id": 106,
+            "pos": 7,
+            "nat": "FRA",
+            "cur_nat_pos": 11
+          },
+          {
             "club": "Arsenal",
             "id": 42,
-            "pos": 7,
+            "pos": 8,
             "nat": "ENG",
             "cur_nat_pos": 3
           },
           {
             "club": "Monaco",
             "id": 91,
-            "pos": 8,
+            "pos": 9,
             "nat": "FRA",
             "cur_nat_pos": 3
           },
           {
-            "club": "Aston Villa",
-            "id": 66,
-            "pos": 9,
-            "nat": "ENG",
-            "cur_nat_pos": 8
-          },
-          {
-            "club": "Sporting CP",
-            "id": 228,
-            "pos": 10,
-            "nat": "POR",
-            "cur_nat_pos": 1
-          },
-          {
-            "club": "Stade Brestois 29",
-            "id": 106,
-            "pos": 11,
-            "nat": "FRA",
-            "cur_nat_pos": 11
-          },
-          {
             "club": "Lille",
             "id": 79,
-            "pos": 12,
+            "pos": 10,
             "nat": "FRA",
             "cur_nat_pos": 4
           },
           {
             "club": "Bayern Munich",
             "id": 157,
-            "pos": 13,
+            "pos": 11,
             "nat": "GER",
             "cur_nat_pos": 1
           },
           {
             "club": "Benfica",
             "id": 211,
-            "pos": 14,
+            "pos": 12,
             "nat": "POR",
-            "cur_nat_pos": 2
-          },
-          {
-            "club": "AC Milan",
-            "id": 489,
-            "pos": 15,
-            "nat": "ITA",
-            "cur_nat_pos": 7
+            "cur_nat_pos": 1
           },
           {
             "club": "Atletico Madrid",
             "id": 530,
-            "pos": 16,
+            "pos": 13,
             "nat": "ESP",
             "cur_nat_pos": 3
           },
           {
+            "club": "AC Milan",
+            "id": 489,
+            "pos": 14,
+            "nat": "ITA",
+            "cur_nat_pos": 7
+          },
+          {
+            "club": "Atalanta",
+            "id": 499,
+            "pos": 15,
+            "nat": "ITA",
+            "cur_nat_pos": 1
+          },
+          {
             "club": "Manchester City",
             "id": 50,
-            "pos": 17,
+            "pos": 16,
             "nat": "ENG",
             "cur_nat_pos": 4
           },
           {
-            "club": "PSV Eindhoven",
-            "id": 197,
-            "pos": 18,
-            "nat": "NED",
-            "cur_nat_pos": 1
-          },
-          {
             "club": "Juventus",
             "id": 496,
-            "pos": 19,
+            "pos": 17,
             "nat": "ITA",
             "cur_nat_pos": 6
+          },
+          {
+            "club": "Sporting CP",
+            "id": 228,
+            "pos": 18,
+            "nat": "POR",
+            "cur_nat_pos": 2
+          },
+          {
+            "club": "Club Brugge KV",
+            "id": 569,
+            "pos": 19,
+            "nat": "BEL",
+            "cur_nat_pos": 2
           }
         ]
       },
@@ -188,7 +188,7 @@
             "id": 531,
             "pos": 2,
             "nat": "ESP",
-            "cur_nat_pos": 5
+            "cur_nat_pos": 4
           },
           {
             "club": "Eintracht Frankfurt",
@@ -292,18 +292,18 @@
             "cur_nat_pos": 4
           },
           {
-            "club": "Inter",
-            "id": 505,
-            "pos": 7,
-            "nat": "ITA",
-            "cur_nat_pos": 3
-          },
-          {
             "club": "Borussia Dortmund",
             "id": 165,
             "pos": 8,
             "nat": "GER",
-            "cur_nat_pos": 5
+            "cur_nat_pos": 6
+          },
+          {
+            "club": "Inter",
+            "id": 505,
+            "pos": 7,
+            "nat": "ITA",
+            "cur_nat_pos": 2
           },
           {
             "club": "Atletico Madrid",
@@ -313,11 +313,11 @@
             "cur_nat_pos": 3
           },
           {
-            "club": "Atalanta",
-            "id": 499,
+            "club": "Bayer Leverkusen",
+            "id": 168,
             "pos": 10,
-            "nat": "ITA",
-            "cur_nat_pos": 2
+            "nat": "GER",
+            "cur_nat_pos": 3
           }
         ]
       }
@@ -346,7 +346,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.55,
+        "rating": 0.56,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -427,7 +427,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.46,
+        "rating": 0.45,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -477,7 +477,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.06,
+        "rating": 0.05,
         "quota": 1,
         "id": 140,
         "type": "League",
@@ -493,8 +493,8 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.42,
-        "quota": 3,
+        "rating": 0.43,
+        "quota": 4,
         "id": 140,
         "type": "League",
         "name": "La Liga",
@@ -513,6 +513,11 @@
             "club": "Athletic Club",
             "id": 531,
             "pos": 4
+          },
+          {
+            "club": "Villarreal",
+            "id": 533,
+            "pos": 5
           }
         ]
       },
@@ -551,7 +556,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.39,
+        "rating": 0.4,
         "quota": 3,
         "id": 78,
         "type": "League",

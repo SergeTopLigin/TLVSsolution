@@ -8,23 +8,23 @@
     "quota": 10
   },
   "ENG": {
-    "rating": 12.36,
+    "rating": 12.46,
     "quota": 6
   },
   "ITA": {
-    "rating": 10.44,
+    "rating": 10.17,
     "quota": 5
   },
   "ESP": {
-    "rating": 9.42,
-    "quota": 4
+    "rating": 9.57,
+    "quota": 5
   },
   "GER": {
-    "rating": 7.92,
+    "rating": 8.02,
     "quota": 4
   },
   "FRA": {
-    "rating": 3.03,
+    "rating": 3.08,
     "quota": 1
   },
   "POR": {
@@ -32,11 +32,11 @@
     "quota": 1
   },
   "NED": {
-    "rating": 1.75,
+    "rating": 1.61,
     "quota": 0
   },
   "CRO": {
-    "rating": 0.18,
+    "rating": 0.21,
     "quota": 0
   },
   "CZE": {

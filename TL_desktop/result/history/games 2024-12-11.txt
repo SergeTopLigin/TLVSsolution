@@ -540,6 +540,6 @@ ITA-L   RS-15                      Napoli   0:1   Lazio
                               UCLc8 | Lc3         UCLc9                   
 
  UCL    LS-6            Borussia Dortmund  23:00  Barcelona                
-                            GER-6    TL-7         TL-3    ESP-2 
+                            GER-2    TL-7         TL-3    ESP-6 
                               UCLc3 | TL8         UCLc2 | TL3 | Lc2       
 
