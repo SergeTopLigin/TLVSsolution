@@ -127,20 +127,28 @@
       "id": 79
     },
     {
+      "club": "Lyon",
+      "id": 80
+    },
+    {
       "club": "Stade Brestois 29",
       "id": 106
+    }
+  ],
+  "NED": [
+    {
+      "club": "Feyenoord",
+      "id": 209
     }
   ],
   "BEL": [
     {
       "club": "Club Brugge KV",
       "id": 569
-    }
-  ],
-  "TUR": [
+    },
     {
-      "club": "Galatasaray",
-      "id": 645
+      "club": "Anderlecht",
+      "id": 554
     }
   ]
 }
