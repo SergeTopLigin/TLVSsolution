@@ -39,12 +39,12 @@
       "id": 499
     },
     {
-      "club": "Fiorentina",
-      "id": 502
-    },
-    {
       "club": "Napoli",
       "id": 492
+    },
+    {
+      "club": "Fiorentina",
+      "id": 502
     },
     {
       "club": "Lazio",
@@ -65,12 +65,12 @@
       "id": 541
     },
     {
-      "club": "Barcelona",
-      "id": 529
-    },
-    {
       "club": "Atletico Madrid",
       "id": 530
+    },
+    {
+      "club": "Barcelona",
+      "id": 529
     },
     {
       "club": "Athletic Club",
@@ -103,16 +103,6 @@
       "id": 165
     }
   ],
-  "POR": [
-    {
-      "club": "Sporting CP",
-      "id": 228
-    },
-    {
-      "club": "Benfica",
-      "id": 211
-    }
-  ],
   "FRA": [
     {
       "club": "Paris Saint Germain",
@@ -133,6 +123,16 @@
     {
       "club": "Stade Brestois 29",
       "id": 106
+    }
+  ],
+  "POR": [
+    {
+      "club": "Sporting CP",
+      "id": 228
+    },
+    {
+      "club": "Benfica",
+      "id": 211
     }
   ],
   "NED": [

@@ -4611,6 +4611,56 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Inter",
+      "date": "2024-12-16T22:45:00+00:00",
+      "match": "Lazio - Inter",
+      "game_status": "expected",
+      "opponent": "Lazio",
+      "opp_id": 487,
+      "result": null,
+      "opp_TLrate": 0.5,
+      "goalDiff": null,
+      "timestamp": 1734378300,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-16",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": 8,
+      "opp_TLpos": 13,
+      "club_NATpos": 2,
+      "opp_NATpos": 5,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "6"
+        ],
+        [
+          "TL",
+          "",
+          "8"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UEL",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "51": [
@@ -5000,13 +5050,13 @@
     {
       "club_name": "RB Leipzig",
       "date": "2024-12-15T21:30:00+00:00",
-      "match": "RB Leipzig - Eintracht Frankfurt",
-      "game_status": "expected",
+      "match": "RB Leipzig - Eintracht Frankfurt   2:1",
+      "game_status": "fixed",
       "opponent": "Eintracht Frankfurt",
       "opp_id": 169,
-      "result": null,
+      "result": "win",
       "opp_TLrate": -0.66,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1734287400,
       "tourn_short": "GER League",
       "season": "24-25",
@@ -5255,6 +5305,56 @@
         [
           "L",
           "c",
+          "1"
+        ]
+      ]
+    },
+    {
+      "club_name": "Lazio",
+      "date": "2024-12-16T22:45:00+00:00",
+      "match": "Lazio - Inter",
+      "game_status": "expected",
+      "opponent": "Inter",
+      "opp_id": 505,
+      "result": null,
+      "opp_TLrate": 0.83,
+      "goalDiff": null,
+      "timestamp": 1734378300,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-16",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 13,
+      "opp_TLpos": 8,
+      "club_NATpos": 5,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "UEL",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "6"
+        ],
+        [
+          "TL",
+          "",
+          "8"
+        ],
+        [
+          "L",
+          "p",
           "1"
         ]
       ]
@@ -7605,13 +7705,13 @@
     {
       "club_name": "Paris Saint Germain",
       "date": "2024-12-15T22:45:00+00:00",
-      "match": "Paris Saint Germain - Lyon",
-      "game_status": "expected",
+      "match": "Paris Saint Germain - Lyon   3:1",
+      "game_status": "fixed",
       "opponent": "Lyon",
       "opp_id": 80,
-      "result": null,
+      "result": "win",
       "opp_TLrate": null,
-      "goalDiff": null,
+      "goalDiff": 2,
       "timestamp": 1734291900,
       "tourn_short": "FRA League",
       "season": "24-25",
@@ -7634,6 +7734,46 @@
           "UEL",
           "c",
           "4"
+        ]
+      ]
+    },
+    {
+      "club_name": "Paris Saint Germain",
+      "date": "2024-12-18T23:00:00+00:00",
+      "match": "Monaco - Paris Saint Germain",
+      "game_status": "expected",
+      "opponent": "Monaco",
+      "opp_id": 91,
+      "result": null,
+      "opp_TLrate": -3.1,
+      "goalDiff": null,
+      "timestamp": 1734552000,
+      "tourn_short": "FRA League",
+      "season": "24-25",
+      "tourn_round": "RS-16",
+      "opp_nat": "FRA",
+      "club_nat": "FRA",
+      "club_TLpos": 10,
+      "opp_TLpos": 36,
+      "club_NATpos": 1,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "TL",
+          "",
+          "10"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "16"
         ]
       ]
     }
@@ -8953,13 +9093,13 @@
     {
       "club_name": "Eintracht Frankfurt",
       "date": "2024-12-15T21:30:00+00:00",
-      "match": "RB Leipzig - Eintracht Frankfurt",
-      "game_status": "expected",
+      "match": "RB Leipzig - Eintracht Frankfurt   2:1",
+      "game_status": "fixed",
       "opponent": "RB Leipzig",
       "opp_id": 173,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": -0.13,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1734287400,
       "tourn_short": "GER League",
       "season": "24-25",
@@ -9651,6 +9791,46 @@
           "3"
         ]
       ]
+    },
+    {
+      "club_name": "Monaco",
+      "date": "2024-12-18T23:00:00+00:00",
+      "match": "Monaco - Paris Saint Germain",
+      "game_status": "expected",
+      "opponent": "Paris Saint Germain",
+      "opp_id": 85,
+      "result": null,
+      "opp_TLrate": 0.72,
+      "goalDiff": null,
+      "timestamp": 1734552000,
+      "tourn_short": "FRA League",
+      "season": "24-25",
+      "tourn_round": "RS-16",
+      "club_nat": "FRA",
+      "opp_nat": "FRA",
+      "club_TLpos": 36,
+      "opp_TLpos": 10,
+      "club_NATpos": 3,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "16"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "TL",
+          "",
+          "10"
+        ],
+        [
+          "L",
+          "p",
+          "1"
+        ]
+      ]
     }
   ],
   "209": [
@@ -9860,13 +10040,13 @@
     {
       "club_name": "Lyon",
       "date": "2024-12-15T22:45:00+00:00",
-      "match": "Paris Saint Germain - Lyon",
-      "game_status": "expected",
+      "match": "Paris Saint Germain - Lyon   3:1",
+      "game_status": "fixed",
       "opponent": "Paris Saint Germain",
       "opp_id": 85,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 0.51,
-      "goalDiff": null,
+      "goalDiff": -2,
       "timestamp": 1734291900,
       "tourn_short": "FRA League",
       "season": "24-25",

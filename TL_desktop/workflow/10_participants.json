@@ -16,7 +16,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 0.99,
+        "rating": 1.0,
         "quota": 19,
         "id": 2,
         "type": "Cup",
@@ -313,18 +313,11 @@
             "cur_nat_pos": 6
           },
           {
-            "club": "Arsenal",
-            "id": 42,
+            "club": "Paris Saint Germain",
+            "id": 85,
             "pos": 10,
-            "nat": "ENG",
-            "cur_nat_pos": 3
-          },
-          {
-            "club": "Bayer Leverkusen",
-            "id": 168,
-            "pos": 10,
-            "nat": "GER",
-            "cur_nat_pos": 3
+            "nat": "FRA",
+            "cur_nat_pos": 1
           }
         ]
       }
@@ -377,7 +370,7 @@
           {
             "club": "Nottingham Forest",
             "id": 65,
-            "pos": 5
+            "pos": 4
           }
         ]
       },
@@ -405,7 +398,7 @@
             "id": 47,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 12
+            "cur_nat_pos": 10
           }
         ]
       }
@@ -446,13 +439,13 @@
             "pos": 1
           },
           {
-            "club": "Fiorentina",
-            "id": 502,
+            "club": "Napoli",
+            "id": 492,
             "pos": 3
           },
           {
-            "club": "Napoli",
-            "id": 492,
+            "club": "Fiorentina",
+            "id": 502,
             "pos": 4
           }
         ]
@@ -507,14 +500,14 @@
         "name": "La Liga",
         "participants": [
           {
-            "club": "Barcelona",
-            "id": 529,
+            "club": "Atletico Madrid",
+            "id": 530,
             "pos": 1
           },
           {
-            "club": "Atletico Madrid",
-            "id": 530,
-            "pos": 2
+            "club": "Barcelona",
+            "id": 529,
+            "pos": 3
           },
           {
             "club": "Athletic Club",
@@ -547,7 +540,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.04,
+        "rating": 0.03,
         "quota": 1,
         "id": 78,
         "type": "League",
@@ -577,7 +570,7 @@
           {
             "club": "Eintracht Frankfurt",
             "id": 169,
-            "pos": 2
+            "pos": 3
           },
           {
             "club": "RB Leipzig",
@@ -589,11 +582,53 @@
       "GER Cup 24-25": {
         "tytle": "GER Cup",
         "season": "24-25",
-        "rating": 0.07,
+        "rating": 0.08,
         "quota": 0,
         "id": 81,
         "type": "Cup",
         "name": "DFB Pokal",
+        "participants": []
+      }
+    }
+  },
+  "FRA": {
+    "as_short": "FRA",
+    "as_full": "France",
+    "tournaments": {
+      "FRA League 23-24": {
+        "tytle": "FRA League",
+        "season": "23-24",
+        "rating": 0.01,
+        "quota": 1,
+        "id": 61,
+        "type": "League",
+        "name": "Ligue 1",
+        "participants": [
+          {
+            "club": "Paris Saint Germain",
+            "id": 85,
+            "pos": 1
+          }
+        ]
+      },
+      "FRA League 24-25": {
+        "tytle": "FRA League",
+        "season": "24-25",
+        "rating": 0.17,
+        "quota": 0,
+        "id": 61,
+        "type": "League",
+        "name": "Ligue 1",
+        "participants": []
+      },
+      "FRA Cup 24-25": {
+        "tytle": "FRA Cup",
+        "season": "24-25",
+        "rating": 0.01,
+        "quota": 0,
+        "id": 66,
+        "type": "Cup",
+        "name": "Coupe de France",
         "participants": []
       }
     }
@@ -646,48 +681,6 @@
         "id": 97,
         "type": "Cup",
         "name": "Taça da Liga",
-        "participants": []
-      }
-    }
-  },
-  "FRA": {
-    "as_short": "FRA",
-    "as_full": "France",
-    "tournaments": {
-      "FRA League 23-24": {
-        "tytle": "FRA League",
-        "season": "23-24",
-        "rating": 0.01,
-        "quota": 1,
-        "id": 61,
-        "type": "League",
-        "name": "Ligue 1",
-        "participants": [
-          {
-            "club": "Paris Saint Germain",
-            "id": 85,
-            "pos": 1
-          }
-        ]
-      },
-      "FRA League 24-25": {
-        "tytle": "FRA League",
-        "season": "24-25",
-        "rating": 0.15,
-        "quota": 0,
-        "id": 61,
-        "type": "League",
-        "name": "Ligue 1",
-        "participants": []
-      },
-      "FRA Cup 24-25": {
-        "tytle": "FRA Cup",
-        "season": "24-25",
-        "rating": 0.01,
-        "quota": 0,
-        "id": 66,
-        "type": "Cup",
-        "name": "Coupe de France",
         "participants": []
       }
     }

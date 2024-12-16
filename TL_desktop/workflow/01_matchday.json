@@ -1,34 +1,34 @@
 [
     {
-    "date": "2024-12-15T21:30:00+00:00",
-    "tourn_short": "GER League",
+    "date": "2024-12-16T22:45:00+00:00",
+    "tourn_short": "ITA League",
     "season": "24-25",
-    "tourn_round": "RS-14",
-    "home": "RB Leipzig",
-    "away": "Eintracht Frankfurt",
+    "tourn_round": "RS-16",
+    "home": "Lazio",
+    "away": "Inter",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 4,
+        "home": 5,
         "away": 2
         }
     },
     {
-    "date": "2024-12-15T22:45:00+00:00",
+    "date": "2024-12-18T23:00:00+00:00",
     "tourn_short": "FRA League",
     "season": "24-25",
-    "tourn_round": "RS-15",
-    "home": "Paris Saint Germain",
-    "away": "Lyon",
+    "tourn_round": "RS-16",
+    "home": "Monaco",
+    "away": "Paris Saint Germain",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 1,
-        "away": 4
+        "home": 3,
+        "away": 1
         }
     }
 ]
