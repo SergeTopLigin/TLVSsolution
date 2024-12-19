@@ -12,8 +12,8 @@ Newcastle 0.27
     -0.93: Chelsea 2024-10-30
 
 ITA Cup
-Lazio 2.83
-    0.39: curr
+Lazio 2.66
+    0.22: curr
     0.04: Napoli 2024-12-05
 
 ESP Cup
