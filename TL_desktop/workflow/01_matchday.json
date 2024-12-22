@@ -1,50 +1,18 @@
 [
     {
-    "date": "2024-12-20T22:30:00+00:00",
-    "tourn_short": "GER League",
-    "season": "24-25",
-    "tourn_round": "RS-15",
-    "home": "Bayern München",
-    "away": "RB Leipzig",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 1,
-        "away": 4
-        }
-    },
-    {
-    "date": "2024-12-21T23:00:00+00:00",
-    "tourn_short": "ESP League",
-    "season": "24-25",
-    "tourn_round": "RS-18",
-    "home": "Barcelona",
-    "away": "Atletico Madrid",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 3,
-        "away": 1
-        }
-    },
-    {
-    "date": "2024-12-21T15:30:00+00:00",
+    "date": "2024-12-22T19:30:00+00:00",
     "tourn_short": "ENG League",
     "season": "24-25",
     "tourn_round": "RS-17",
-    "home": "Aston Villa",
-    "away": "Manchester City",
+    "home": "Tottenham",
+    "away": "Liverpool",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 7,
-        "away": 5
+        "home": 10,
+        "away": 1
         }
     }
 ]

@@ -34,7 +34,7 @@
             "id": 529,
             "pos": 2,
             "nat": "ESP",
-            "cur_nat_pos": 2
+            "cur_nat_pos": 3
           },
           {
             "club": "Arsenal",
@@ -48,14 +48,14 @@
             "id": 168,
             "pos": 4,
             "nat": "GER",
-            "cur_nat_pos": 3
+            "cur_nat_pos": 2
           },
           {
             "club": "Aston Villa",
             "id": 66,
             "pos": 5,
             "nat": "ENG",
-            "cur_nat_pos": 6
+            "cur_nat_pos": 5
           },
           {
             "club": "Inter",
@@ -83,7 +83,7 @@
             "id": 165,
             "pos": 9,
             "nat": "GER",
-            "cur_nat_pos": 6
+            "cur_nat_pos": 7
           },
           {
             "club": "Bayern Munich",
@@ -97,14 +97,14 @@
             "id": 530,
             "pos": 11,
             "nat": "ESP",
-            "cur_nat_pos": 3
+            "cur_nat_pos": 1
           },
           {
             "club": "AC Milan",
             "id": 489,
             "pos": 12,
             "nat": "ITA",
-            "cur_nat_pos": 7
+            "cur_nat_pos": 8
           },
           {
             "club": "Atalanta",
@@ -219,7 +219,7 @@
       "UECL 24-25": {
         "tytle": "UECL",
         "season": "24-25",
-        "rating": 0.07,
+        "rating": 0.08,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -261,21 +261,21 @@
             "id": 541,
             "pos": 2,
             "nat": "ESP",
-            "cur_nat_pos": 1
-          },
-          {
-            "club": "Barcelona",
-            "id": 529,
-            "pos": 3,
-            "nat": "ESP",
             "cur_nat_pos": 2
           },
           {
             "club": "Chelsea",
             "id": 49,
-            "pos": 4,
+            "pos": 3,
             "nat": "ENG",
             "cur_nat_pos": 2
+          },
+          {
+            "club": "Barcelona",
+            "id": 529,
+            "pos": 4,
+            "nat": "ESP",
+            "cur_nat_pos": 3
           },
           {
             "club": "Bayern München",
@@ -285,11 +285,11 @@
             "cur_nat_pos": 1
           },
           {
-            "club": "Manchester City",
-            "id": 50,
+            "club": "Atletico Madrid",
+            "id": 530,
             "pos": 6,
-            "nat": "ENG",
-            "cur_nat_pos": 4
+            "nat": "ESP",
+            "cur_nat_pos": 1
           },
           {
             "club": "Inter",
@@ -299,25 +299,25 @@
             "cur_nat_pos": 2
           },
           {
-            "club": "Paris Saint Germain",
-            "id": 85,
+            "club": "Manchester City",
+            "id": 50,
             "pos": 8,
-            "nat": "FRA",
-            "cur_nat_pos": 1
+            "nat": "ENG",
+            "cur_nat_pos": 7
           },
           {
-            "club": "Atletico Madrid",
-            "id": 530,
+            "club": "Paris Saint Germain",
+            "id": 85,
             "pos": 9,
-            "nat": "ESP",
-            "cur_nat_pos": 3
+            "nat": "FRA",
+            "cur_nat_pos": 1
           },
           {
             "club": "Borussia Dortmund",
             "id": 165,
             "pos": 10,
             "nat": "GER",
-            "cur_nat_pos": 6
+            "cur_nat_pos": 7
           }
         ]
       }
@@ -330,7 +330,7 @@
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
-        "rating": 0.04,
+        "rating": 0.02,
         "quota": 1,
         "id": 39,
         "type": "League",
@@ -347,7 +347,7 @@
         "tytle": "ENG League",
         "season": "24-25",
         "rating": 0.6,
-        "quota": 4,
+        "quota": 3,
         "id": 39,
         "type": "League",
         "name": "Premier League",
@@ -366,11 +366,6 @@
             "club": "Arsenal",
             "id": 42,
             "pos": 3
-          },
-          {
-            "club": "Nottingham Forest",
-            "id": 65,
-            "pos": 4
           }
         ]
       },
@@ -387,8 +382,8 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.19,
-        "quota": 1,
+        "rating": 0.33,
+        "quota": 2,
         "id": 48,
         "type": "Cup",
         "name": "League Cup",
@@ -399,6 +394,13 @@
             "pos": 1,
             "nat": "ENG",
             "cur_nat_pos": 10
+          },
+          {
+            "club": "Liverpool",
+            "id": 40,
+            "pos": 2,
+            "nat": "ENG",
+            "cur_nat_pos": 1
           }
         ]
       }
@@ -411,7 +413,7 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 135,
         "type": "League",
@@ -427,7 +429,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.48,
+        "rating": 0.49,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -453,7 +455,7 @@
       "ITA Cup 24-25": {
         "tytle": "ITA Cup",
         "season": "24-25",
-        "rating": 0.13,
+        "rating": 0.23,
         "quota": 1,
         "id": 137,
         "type": "Cup",
@@ -477,7 +479,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 140,
         "type": "League",
@@ -493,7 +495,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.45,
+        "rating": 0.46,
         "quota": 4,
         "id": 140,
         "type": "League",
@@ -540,7 +542,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 78,
         "type": "League",
@@ -556,7 +558,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.41,
+        "rating": 0.42,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -582,7 +584,7 @@
       "GER Cup 24-25": {
         "tytle": "GER Cup",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 0,
         "id": 81,
         "type": "Cup",

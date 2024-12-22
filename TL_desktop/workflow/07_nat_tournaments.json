@@ -89,11 +89,23 @@
             },
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2024-12-19 23:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Manchester United", 33],
+                    ["Tottenham", 47],
+                    ["Arsenal", 42],
+                    ["Liverpool", 40],
+                    ["Newcastle", 34]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-02-25 00:00:00",
+                "total_teams": 4,
+                "teams_TL": [
                     ["Tottenham", 47],
                     ["Arsenal", 42],
                     ["Liverpool", 40],
@@ -186,7 +198,7 @@
             },
             {
                 "round": "Round of 16",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2024-12-19 23:00:00",
                 "total_teams": 16,
                 "teams_TL": [
@@ -198,6 +210,20 @@
                     ["AS Roma", 497],
                     ["Atalanta", 499],
                     ["Fiorentina", 502],
+                    ["Inter", 505]
+                ]
+            },
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2025-02-05 20:00:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["Lazio", 487],
+                    ["AC Milan", 489],
+                    ["Juventus", 496],
+                    ["AS Roma", 497],
+                    ["Atalanta", 499],
                     ["Inter", 505]
                 ]
             }
@@ -286,7 +312,7 @@
             {
                 "round": "1/32",
                 "status": "curr",
-                "last_date": "2024-12-21 18:00:00",
+                "last_date": "2024-12-22 23:00:00",
                 "total_teams": 60,
                 "teams_TL": [
                     ["Paris Saint Germain", 85],

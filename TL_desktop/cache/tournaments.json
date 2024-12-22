@@ -51,7 +51,7 @@
       "UECL 24-25": {
         "tytle": "UECL",
         "season": "24-25",
-        "rating": 0.07,
+        "rating": 0.08,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -81,7 +81,7 @@
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
-        "rating": 0.04,
+        "rating": 0.02,
         "quota": 1,
         "id": 39,
         "type": "League",
@@ -91,7 +91,7 @@
         "tytle": "ENG League",
         "season": "24-25",
         "rating": 0.6,
-        "quota": 4,
+        "quota": 3,
         "id": 39,
         "type": "League",
         "name": "Premier League"
@@ -108,8 +108,8 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.19,
-        "quota": 1,
+        "rating": 0.33,
+        "quota": 2,
         "id": 48,
         "type": "Cup",
         "name": "League Cup"
@@ -123,7 +123,7 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 135,
         "type": "League",
@@ -132,7 +132,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.48,
+        "rating": 0.49,
         "quota": 3,
         "id": 135,
         "type": "League",
@@ -141,7 +141,7 @@
       "ITA Cup 24-25": {
         "tytle": "ITA Cup",
         "season": "24-25",
-        "rating": 0.13,
+        "rating": 0.23,
         "quota": 1,
         "id": 137,
         "type": "Cup",
@@ -156,7 +156,7 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 140,
         "type": "League",
@@ -165,7 +165,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.45,
+        "rating": 0.46,
         "quota": 4,
         "id": 140,
         "type": "League",
@@ -189,7 +189,7 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.03,
+        "rating": 0.02,
         "quota": 1,
         "id": 78,
         "type": "League",
@@ -198,7 +198,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.41,
+        "rating": 0.42,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -207,7 +207,7 @@
       "GER Cup 24-25": {
         "tytle": "GER Cup",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 0,
         "id": 81,
         "type": "Cup",
