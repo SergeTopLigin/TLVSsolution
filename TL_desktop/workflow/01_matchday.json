@@ -1,17 +1,33 @@
 [
     {
-    "date": "2024-12-22T19:30:00+00:00",
+    "date": "2024-12-26T18:00:00+00:00",
     "tourn_short": "ENG League",
     "season": "24-25",
-    "tourn_round": "RS-17",
-    "home": "Tottenham",
-    "away": "Liverpool",
+    "tourn_round": "RS-18",
+    "home": "Nottingham Forest",
+    "away": "Tottenham",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 10,
+        "home": 4,
+        "away": 11
+        }
+    },
+    {
+    "date": "2024-12-28T22:45:00+00:00",
+    "tourn_short": "ITA League",
+    "season": "24-25",
+    "tourn_round": "RS-18",
+    "home": "Lazio",
+    "away": "Atalanta",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 4,
         "away": 1
         }
     }

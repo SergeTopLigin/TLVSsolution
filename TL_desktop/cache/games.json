@@ -1766,6 +1766,56 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Atalanta",
+      "date": "2024-12-28T22:45:00+00:00",
+      "match": "Lazio - Atalanta",
+      "game_status": "expected",
+      "opponent": "Lazio",
+      "opp_id": 487,
+      "result": null,
+      "opp_TLrate": 0.23,
+      "goalDiff": null,
+      "timestamp": 1735415100,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-18",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": 13,
+      "opp_TLpos": 16,
+      "club_NATpos": 1,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "13"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UEL",
+          "c",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "4"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "168": [
@@ -5593,6 +5643,56 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Lazio",
+      "date": "2024-12-28T22:45:00+00:00",
+      "match": "Lazio - Atalanta",
+      "game_status": "expected",
+      "opponent": "Atalanta",
+      "opp_id": 499,
+      "result": null,
+      "opp_TLrate": 0.36,
+      "goalDiff": null,
+      "timestamp": 1735415100,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-18",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 16,
+      "opp_TLpos": 13,
+      "club_NATpos": 4,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UEL",
+          "c",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "4"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "13"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "489": [
@@ -6354,13 +6454,13 @@
     {
       "club_name": "Liverpool",
       "date": "2024-12-22T19:30:00+00:00",
-      "match": "Tottenham - Liverpool",
-      "game_status": "expected",
+      "match": "Tottenham - Liverpool   3:6",
+      "game_status": "fixed",
       "opponent": "Tottenham",
       "opp_id": 47,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 0.02,
-      "goalDiff": null,
+      "goalDiff": 3,
       "timestamp": 1734885000,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -9838,13 +9938,13 @@
     {
       "club_name": "Tottenham",
       "date": "2024-12-22T19:30:00+00:00",
-      "match": "Tottenham - Liverpool",
-      "game_status": "expected",
+      "match": "Tottenham - Liverpool   3:6",
+      "game_status": "fixed",
       "opponent": "Liverpool",
       "opp_id": 40,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 2.28,
-      "goalDiff": null,
+      "goalDiff": -3,
       "timestamp": 1734885000,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -9882,6 +9982,41 @@
           "LC",
           "c",
           "2"
+        ]
+      ]
+    },
+    {
+      "club_name": "Tottenham",
+      "date": "2024-12-26T18:00:00+00:00",
+      "match": "Nottingham Forest - Tottenham",
+      "game_status": "expected",
+      "opponent": "Nottingham Forest",
+      "opp_id": 65,
+      "result": null,
+      "opp_TLrate": -2.24,
+      "goalDiff": null,
+      "timestamp": 1735225200,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-18",
+      "opp_nat": "ENG",
+      "club_nat": "ENG",
+      "club_TLpos": 23,
+      "opp_TLpos": 33,
+      "club_NATpos": 11,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "LC",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "4"
         ]
       ]
     }
@@ -10412,6 +10547,41 @@
           "UCL",
           "c",
           "5"
+        ]
+      ]
+    },
+    {
+      "club_name": "Nottingham Forest",
+      "date": "2024-12-26T18:00:00+00:00",
+      "match": "Nottingham Forest - Tottenham",
+      "game_status": "expected",
+      "opponent": "Tottenham",
+      "opp_id": 47,
+      "result": null,
+      "opp_TLrate": -0.2,
+      "goalDiff": null,
+      "timestamp": 1735225200,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-18",
+      "club_nat": "ENG",
+      "opp_nat": "ENG",
+      "club_TLpos": 33,
+      "opp_TLpos": 23,
+      "club_NATpos": 4,
+      "opp_NATpos": 11,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "LC",
+          "c",
+          "1"
         ]
       ]
     }

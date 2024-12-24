@@ -311,7 +311,7 @@
             },
             {
                 "round": "1/32",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2024-12-22 23:00:00",
                 "total_teams": 60,
                 "teams_TL": [
@@ -319,6 +319,20 @@
                     ["Lille", 79],
                     ["Stade Brestois 29", 106],
                     ["Monaco", 91]
+                ]
+            },
+            {
+                "round": "1/16",
+                "status": "curr",
+                "last_date": "2025-01-25 23:00:00",
+                "total_teams": 32,
+                "teams_TL": [
+                    ["Paris Saint Germain", 85],
+                    ["Lille", 79],
+                    ["Stade Brestois 29", 106],
+                    ["Monaco", 91],
+                    ["Marseille", 81],
+                    ["Lyon", 80]
                 ]
             }
         ]
