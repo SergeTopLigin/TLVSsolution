@@ -330,24 +330,18 @@
       "ENG League 23-24": {
         "tytle": "ENG League",
         "season": "23-24",
-        "rating": 0.01,
-        "quota": 1,
+        "rating": 0.0,
+        "quota": 0,
         "id": 39,
         "type": "League",
         "name": "Premier League",
-        "participants": [
-          {
-            "club": "Manchester City",
-            "id": 50,
-            "pos": 1
-          }
-        ]
+        "participants": []
       },
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
         "rating": 0.61,
-        "quota": 4,
+        "quota": 5,
         "id": 39,
         "type": "League",
         "name": "Premier League",
@@ -358,19 +352,24 @@
             "pos": 1
           },
           {
-            "club": "Chelsea",
-            "id": 49,
+            "club": "Arsenal",
+            "id": 42,
             "pos": 2
           },
           {
-            "club": "Arsenal",
-            "id": 42,
+            "club": "Chelsea",
+            "id": 49,
             "pos": 3
           },
           {
             "club": "Nottingham Forest",
             "id": 65,
             "pos": 4
+          },
+          {
+            "club": "Newcastle",
+            "id": 34,
+            "pos": 5
           }
         ]
       },
@@ -387,7 +386,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.32,
+        "rating": 0.31,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -398,7 +397,7 @@
             "id": 47,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 11
+            "cur_nat_pos": 12
           }
         ]
       }
@@ -411,8 +410,18 @@
       "ITA League 23-24": {
         "tytle": "ITA League",
         "season": "23-24",
-        "rating": 0.01,
-        "quota": 1,
+        "rating": 0.0,
+        "quota": 0,
+        "id": 135,
+        "type": "League",
+        "name": "Serie A",
+        "participants": []
+      },
+      "ITA League 24-25": {
+        "tytle": "ITA League",
+        "season": "24-25",
+        "rating": 0.51,
+        "quota": 4,
         "id": 135,
         "type": "League",
         "name": "Serie A",
@@ -421,22 +430,11 @@
             "club": "Inter",
             "id": 505,
             "pos": 1
-          }
-        ]
-      },
-      "ITA League 24-25": {
-        "tytle": "ITA League",
-        "season": "24-25",
-        "rating": 0.5,
-        "quota": 3,
-        "id": 135,
-        "type": "League",
-        "name": "Serie A",
-        "participants": [
+          },
           {
             "club": "Atalanta",
             "id": 499,
-            "pos": 1
+            "pos": 2
           },
           {
             "club": "Napoli",
@@ -477,24 +475,18 @@
       "ESP League 23-24": {
         "tytle": "ESP League",
         "season": "23-24",
-        "rating": 0.01,
-        "quota": 1,
+        "rating": 0.0,
+        "quota": 0,
         "id": 140,
         "type": "League",
         "name": "La Liga",
-        "participants": [
-          {
-            "club": "Real Madrid",
-            "id": 541,
-            "pos": 1
-          }
-        ]
+        "participants": []
       },
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.47,
-        "quota": 4,
+        "rating": 0.48,
+        "quota": 5,
         "id": 140,
         "type": "League",
         "name": "La Liga",
@@ -503,6 +495,11 @@
             "club": "Atletico Madrid",
             "id": 530,
             "pos": 1
+          },
+          {
+            "club": "Real Madrid",
+            "id": 541,
+            "pos": 2
           },
           {
             "club": "Barcelona",
@@ -540,24 +537,18 @@
       "GER League 23-24": {
         "tytle": "GER League",
         "season": "23-24",
-        "rating": 0.01,
-        "quota": 1,
+        "rating": 0.0,
+        "quota": 0,
         "id": 78,
         "type": "League",
         "name": "Bundesliga",
-        "participants": [
-          {
-            "club": "Bayer Leverkusen",
-            "id": 168,
-            "pos": 1
-          }
-        ]
+        "participants": []
       },
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
         "rating": 0.43,
-        "quota": 3,
+        "quota": 4,
         "id": 78,
         "type": "League",
         "name": "Bundesliga",
@@ -566,6 +557,11 @@
             "club": "Bayern München",
             "id": 157,
             "pos": 1
+          },
+          {
+            "club": "Bayer Leverkusen",
+            "id": 168,
+            "pos": 2
           },
           {
             "club": "Eintracht Frankfurt",
@@ -608,7 +604,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.18,
+        "rating": 0.19,
         "quota": 1,
         "id": 61,
         "type": "League",

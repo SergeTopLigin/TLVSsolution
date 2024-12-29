@@ -1,28 +1,32 @@
 {
   "ENG": [
     {
-      "club": "Manchester City",
-      "id": 50
-    },
-    {
       "club": "Liverpool",
       "id": 40
-    },
-    {
-      "club": "Chelsea",
-      "id": 49
     },
     {
       "club": "Arsenal",
       "id": 42
     },
     {
+      "club": "Chelsea",
+      "id": 49
+    },
+    {
       "club": "Nottingham Forest",
       "id": 65
     },
     {
+      "club": "Newcastle",
+      "id": 34
+    },
+    {
       "club": "Aston Villa",
       "id": 66
+    },
+    {
+      "club": "Manchester City",
+      "id": 50
     },
     {
       "club": "Tottenham",
@@ -57,12 +61,12 @@
   ],
   "ESP": [
     {
-      "club": "Real Madrid",
-      "id": 541
-    },
-    {
       "club": "Atletico Madrid",
       "id": 530
+    },
+    {
+      "club": "Real Madrid",
+      "id": 541
     },
     {
       "club": "Barcelona",
@@ -79,12 +83,12 @@
   ],
   "GER": [
     {
-      "club": "Bayer Leverkusen",
-      "id": 168
-    },
-    {
       "club": "Bayern München",
       "id": 157
+    },
+    {
+      "club": "Bayer Leverkusen",
+      "id": 168
     },
     {
       "club": "Eintracht Frankfurt",
