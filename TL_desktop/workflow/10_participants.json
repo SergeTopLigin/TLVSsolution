@@ -357,13 +357,13 @@
             "pos": 2
           },
           {
-            "club": "Chelsea",
-            "id": 49,
+            "club": "Nottingham Forest",
+            "id": 65,
             "pos": 3
           },
           {
-            "club": "Nottingham Forest",
-            "id": 65,
+            "club": "Chelsea",
+            "id": 49,
             "pos": 4
           },
           {
@@ -397,7 +397,7 @@
             "id": 47,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 12
+            "cur_nat_pos": 11
           }
         ]
       }
@@ -646,15 +646,15 @@
       "POR League 24-25": {
         "tytle": "POR League",
         "season": "24-25",
-        "rating": 0.16,
+        "rating": 0.17,
         "quota": 1,
         "id": 94,
         "type": "League",
         "name": "Primeira Liga",
         "participants": [
           {
-            "club": "Benfica",
-            "id": 211,
+            "club": "FC Porto",
+            "id": 212,
             "pos": 1
           }
         ]
