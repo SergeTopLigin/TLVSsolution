@@ -6,7 +6,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 1.01,
+        "rating": 1.02,
         "quota": 19,
         "id": 2,
         "type": "Cup",
@@ -15,7 +15,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.2,
+        "rating": 0.19,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -54,7 +54,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.61,
+        "rating": 0.6,
         "quota": 5,
         "id": 39,
         "type": "League",
@@ -72,7 +72,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.31,
+        "rating": 0.3,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -159,7 +159,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.19,
+        "rating": 0.2,
         "quota": 1,
         "id": 61,
         "type": "League",

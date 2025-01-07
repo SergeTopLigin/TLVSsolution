@@ -1,50 +1,82 @@
 [
     {
-    "date": "2025-01-04T15:30:00+00:00",
-    "tourn_short": "ENG League",
+    "date": "2025-01-07T23:00:00+00:00",
+    "tourn_short": "ENG LCup",
     "season": "24-25",
-    "tourn_round": "RS-20",
-    "home": "Tottenham",
+    "tourn_round": "1/2",
+    "home": "Arsenal",
     "away": "Newcastle",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 11,
+        "home": 2,
         "away": 5
         }
     },
     {
-    "date": "2025-01-05T19:30:00+00:00",
-    "tourn_short": "FRA SCup",
+    "date": "2025-01-07T22:45:00+00:00",
+    "tourn_short": "POR LCup",
     "season": "24-25",
-    "tourn_round": "Final",
-    "home": "Paris Saint Germain",
-    "away": "Monaco",
+    "tourn_round": "1/2",
+    "home": "Sporting CP",
+    "away": "FC Porto",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 1,
+        "home": 2,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-01-08T22:00:00+00:00",
+    "tourn_short": "ESP SCup",
+    "season": "24-25",
+    "tourn_round": "1/2",
+    "home": "Athletic Club",
+    "away": "Barcelona",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 4,
         "away": 3
         }
     },
     {
-    "date": "2025-01-06T22:00:00+00:00",
-    "tourn_short": "ITA SCup",
+    "date": "2025-01-08T23:00:00+00:00",
+    "tourn_short": "ENG LCup",
     "season": "24-25",
-    "tourn_round": "Final",
-    "home": "Inter",
-    "away": "AC Milan",
+    "tourn_round": "1/2",
+    "home": "Tottenham",
+    "away": "Liverpool",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 1,
-        "away": 8
+        "home": 12,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-01-10T22:30:00+00:00",
+    "tourn_short": "GER League",
+    "season": "24-25",
+    "tourn_round": "RS-16",
+    "home": "Borussia Dortmund",
+    "away": "Bayer Leverkusen",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 6,
+        "away": 2
         }
     }
 ]

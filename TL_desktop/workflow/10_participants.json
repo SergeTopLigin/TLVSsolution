@@ -16,7 +16,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 1.01,
+        "rating": 1.02,
         "quota": 19,
         "id": 2,
         "type": "Cup",
@@ -170,7 +170,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.2,
+        "rating": 0.19,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -299,18 +299,18 @@
             "cur_nat_pos": 2
           },
           {
-            "club": "Manchester City",
-            "id": 50,
-            "pos": 8,
-            "nat": "ENG",
-            "cur_nat_pos": 7
-          },
-          {
             "club": "Paris Saint Germain",
             "id": 85,
-            "pos": 9,
+            "pos": 8,
             "nat": "FRA",
             "cur_nat_pos": 1
+          },
+          {
+            "club": "Manchester City",
+            "id": 50,
+            "pos": 9,
+            "nat": "ENG",
+            "cur_nat_pos": 7
           },
           {
             "club": "Borussia Dortmund",
@@ -340,7 +340,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.61,
+        "rating": 0.6,
         "quota": 5,
         "id": 39,
         "type": "League",
@@ -386,7 +386,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.31,
+        "rating": 0.3,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -397,7 +397,7 @@
             "id": 47,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 11
+            "cur_nat_pos": 12
           }
         ]
       }
@@ -432,13 +432,13 @@
             "pos": 1
           },
           {
-            "club": "Atalanta",
-            "id": 499,
+            "club": "Napoli",
+            "id": 492,
             "pos": 2
           },
           {
-            "club": "Napoli",
-            "id": 492,
+            "club": "Atalanta",
+            "id": 499,
             "pos": 3
           },
           {
@@ -604,7 +604,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.19,
+        "rating": 0.2,
         "quota": 1,
         "id": 61,
         "type": "League",
