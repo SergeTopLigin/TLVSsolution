@@ -310,11 +310,13 @@ for ass_n in Ass_TournRateQuot:
                     tourn[2] /= 5
                     # учет временного фактора  prev > curr (1/150 per day from prev final)
                     if nat_tourn['status'] == 'prev':
-                        tourn[2] *= max((150 - (DateNow - nat_tourn['dates']['final']) / datetime.timedelta(days=1)) / 150, 0)
+                        final_date = datetime.datetime(int(nat_tourn['dates']['final'][:4]), int(nat_tourn['dates']['final'][5:7]), int(nat_tourn['dates']['final'][8:10]))
+                        tourn[2] *= max((150 - (DateNow - final_date) / datetime.timedelta(days=1)) / 150, 0)
                     if nat_tourn['status'] == 'curr':
                         for prev_cup in nat_tourns:
                             if prev_cup['name'] == tourn[0] and prev_cup['status'] == 'prev':
-                                tourn[2] *= min(((DateNow - prev_cup['dates']['final']) / datetime.timedelta(days=1)) / 150, 1)
+                                final_date = datetime.datetime(int(nat_tourn['dates']['final'][:4]), int(nat_tourn['dates']['final'][5:7]), int(nat_tourn['dates']['final'][8:10]))
+                                tourn[2] *= min(((DateNow - final_date) / datetime.timedelta(days=1)) / 150, 1)
                     tourn[2] = round(tourn[2], 2)
 
                     break

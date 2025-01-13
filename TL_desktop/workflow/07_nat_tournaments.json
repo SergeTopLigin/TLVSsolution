@@ -400,10 +400,10 @@
     {
         "name": "POR LCup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-10-29",
-            "final": null
+            "final": "2025-01-11"
         },
         "rounds": [
             {
@@ -432,12 +432,32 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-01-11 22:45:00",
                 "total_teams": 2,
                 "teams_TL": [
                     ["Sporting CP", 228],
                     ["Benfica", 211]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BEL Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-09-08",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-02-06 22:45:00",
+                "total_teams": 4,
+                "teams_TL": [
+                    ["Club Brugge KV", 569]
                 ]
             }
         ]
@@ -752,6 +772,29 @@
             ["Casa Pia", 4716],
             ["Estrela", 15130],
             ["AVS", 21595]
+        ]
+    },
+    {
+        "name": "BEL League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["OH Leuven", 260],
+            ["KVC Westerlo", 261],
+            ["Beerschot Wilrijk", 263],
+            ["KV Mechelen", 266],
+            ["Anderlecht", 554],
+            ["Club Brugge KV", 569],
+            ["Gent", 631],
+            ["Standard Liege", 733],
+            ["Kortrijk", 734],
+            ["St. Truiden", 735],
+            ["Charleroi", 736],
+            ["Antwerp", 740],
+            ["Cercle Brugge", 741],
+            ["Genk", 742],
+            ["Union St. Gilloise", 1393],
+            ["Dender", 6215]
         ]
     }
 ]

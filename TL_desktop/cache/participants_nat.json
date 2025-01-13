@@ -17,10 +17,6 @@
       "id": 49
     },
     {
-      "club": "Newcastle",
-      "id": 34
-    },
-    {
       "club": "Manchester City",
       "id": 50
     },
@@ -75,10 +71,6 @@
     {
       "club": "Athletic Club",
       "id": 531
-    },
-    {
-      "club": "Villarreal",
-      "id": 533
     }
   ],
   "GER": [
@@ -95,10 +87,6 @@
       "id": 169
     },
     {
-      "club": "RB Leipzig",
-      "id": 173
-    },
-    {
       "club": "Borussia Dortmund",
       "id": 165
     }
@@ -113,12 +101,12 @@
       "id": 91
     },
     {
-      "club": "Lyon",
-      "id": 80
-    },
-    {
       "club": "Lille",
       "id": 79
+    },
+    {
+      "club": "Lyon",
+      "id": 80
     },
     {
       "club": "Stade Brestois 29",
@@ -126,10 +114,6 @@
     }
   ],
   "POR": [
-    {
-      "club": "FC Porto",
-      "id": 212
-    },
     {
       "club": "Sporting CP",
       "id": 228
@@ -139,13 +123,11 @@
       "id": 211
     }
   ],
-  "NED": [
-    {
-      "club": "Feyenoord",
-      "id": 209
-    }
-  ],
   "BEL": [
+    {
+      "club": "Genk",
+      "id": 742
+    },
     {
       "club": "Club Brugge KV",
       "id": 569
@@ -153,6 +135,12 @@
     {
       "club": "Anderlecht",
       "id": 554
+    }
+  ],
+  "NED": [
+    {
+      "club": "Feyenoord",
+      "id": 209
     }
   ]
 }

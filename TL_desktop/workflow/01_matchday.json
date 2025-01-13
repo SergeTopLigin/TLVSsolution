@@ -1,66 +1,66 @@
 [
     {
-    "date": "2025-01-11T22:45:00+00:00",
-    "tourn_short": "POR LCup",
-    "season": "24-25",
-    "tourn_round": "Final",
-    "home": "Sporting CP",
-    "away": "Benfica",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 3
-        }
-    },
-    {
-    "date": "2025-01-11T19:00:00+00:00",
-    "tourn_short": "FRA League",
-    "season": "24-25",
-    "tourn_round": "RS-17",
-    "home": "Stade Brestois 29",
-    "away": "Lyon",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 12,
-        "away": 4
-        }
-    },
-    {
-    "date": "2025-01-12T22:00:00+00:00",
-    "tourn_short": "ESP SCup",
-    "season": "24-25",
-    "tourn_round": "Final",
-    "home": "Real Madrid",
-    "away": "Barcelona",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 3
-        }
-    },
-    {
-    "date": "2025-01-12T20:30:00+00:00",
-    "tourn_short": "BEL League",
+    "date": "2025-01-14T23:00:00+00:00",
+    "tourn_short": "ENG League",
     "season": "24-25",
     "tourn_round": "RS-21",
-    "home": "Anderlecht",
-    "away": "Club Brugge KV",
+    "home": "Nottingham Forest",
+    "away": "Liverpool",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 3,
-        "away": 2
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-01-14T22:45:00+00:00",
+    "tourn_short": "ITA League",
+    "season": "24-25",
+    "tourn_round": "RS-19",
+    "home": "Atalanta",
+    "away": "Juventus",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 3,
+        "away": 5
+        }
+    },
+    {
+    "date": "2025-01-15T23:00:00+00:00",
+    "tourn_short": "ENG League",
+    "season": "24-25",
+    "tourn_round": "RS-21",
+    "home": "Arsenal",
+    "away": "Tottenham",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 12
+        }
+    },
+    {
+    "date": "2025-01-15T22:45:00+00:00",
+    "tourn_short": "BEL Cup",
+    "season": "24-25",
+    "tourn_round": "1/2",
+    "home": "Club Brugge KV",
+    "away": "Genk",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 1
         }
     }
 ]
