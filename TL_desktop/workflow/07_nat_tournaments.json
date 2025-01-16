@@ -17,11 +17,27 @@
             },
             {
                 "round": "3 Round",
-                "status": "curr",
-                "last_date": "2025-01-13 18:00:00",
+                "status": "prev",
+                "last_date": "2025-01-14 22:45:00",
                 "total_teams": 60,
                 "teams_TL": [
                     ["Arsenal", 42],
+                    ["Manchester United", 33],
+                    ["Manchester City", 50],
+                    ["Liverpool", 40],
+                    ["Aston Villa", 66],
+                    ["Chelsea", 49],
+                    ["Tottenham", 47],
+                    ["Brighton", 51],
+                    ["Newcastle", 34]
+                ]
+            },
+            {
+                "round": "4 Round",
+                "status": "curr",
+                "last_date": "2025-02-08 18:00:00",
+                "total_teams": 32,
+                "teams_TL": [
                     ["Manchester United", 33],
                     ["Manchester City", 50],
                     ["Liverpool", 40],
@@ -386,9 +402,20 @@
             },
             {
                 "round": "1/8",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-01-15 23:15:00",
                 "total_teams": 16,
+                "teams_TL": [
+                    ["Sporting CP", 228],
+                    ["SC Braga", 217],
+                    ["Benfica", 211]
+                ]
+            },
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2025-02-05 18:00:00",
+                "total_teams": 8,
                 "teams_TL": [
                     ["Sporting CP", 228],
                     ["SC Braga", 217],

@@ -13,6 +13,10 @@
       "id": 65
     },
     {
+      "club": "Newcastle",
+      "id": 34
+    },
+    {
       "club": "Chelsea",
       "id": 49
     },
@@ -31,12 +35,12 @@
   ],
   "ITA": [
     {
-      "club": "Inter",
-      "id": 505
-    },
-    {
       "club": "Napoli",
       "id": 492
+    },
+    {
+      "club": "Inter",
+      "id": 505
     },
     {
       "club": "Atalanta",
@@ -105,10 +109,6 @@
       "id": 79
     },
     {
-      "club": "Lyon",
-      "id": 80
-    },
-    {
       "club": "Stade Brestois 29",
       "id": 106
     }
@@ -121,6 +121,10 @@
     {
       "club": "Benfica",
       "id": 211
+    },
+    {
+      "club": "Guimaraes",
+      "id": 224
     }
   ],
   "BEL": [
