@@ -184,7 +184,7 @@
             },
             {
                 "round": "1/8",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-01-16 23:00:00",
                 "total_teams": 16,
                 "teams_TL": [
@@ -193,6 +193,19 @@
                     ["Real Sociedad", 548],
                     ["Atletico Madrid", 530],
                     ["Athletic Club", 531],
+                    ["Osasuna", 727]
+                ]
+            },
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2025-02-04 23:00:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["Real Madrid", 541],
+                    ["Barcelona", 529],
+                    ["Real Sociedad", 548],
+                    ["Atletico Madrid", 530],
                     ["Osasuna", 727]
                 ]
             }

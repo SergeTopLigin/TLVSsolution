@@ -1,66 +1,82 @@
 [
     {
-    "date": "2025-01-17T22:30:00+00:00",
-    "tourn_short": "GER League",
+    "date": "2025-01-21T20:45:00+00:00",
+    "tourn_short": "UCL",
     "season": "24-25",
-    "tourn_round": "RS-18",
-    "home": "Eintracht Frankfurt",
-    "away": "Borussia Dortmund",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 3,
-        "away": 10
-        }
-    },
-    {
-    "date": "2025-01-18T20:30:00+00:00",
-    "tourn_short": "ENG League",
-    "season": "24-25",
-    "tourn_round": "RS-22",
-    "home": "Arsenal",
+    "tourn_round": "LS-7",
+    "home": "Monaco",
     "away": "Aston Villa",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 2,
-        "away": 7
+        "home": 4,
+        "away": 8
         }
     },
     {
-    "date": "2025-01-18T20:00:00+00:00",
-    "tourn_short": "ITA League",
+    "date": "2025-01-21T23:00:00+00:00",
+    "tourn_short": "UCL",
     "season": "24-25",
-    "tourn_round": "RS-21",
-    "home": "Juventus",
-    "away": "AC Milan",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 6,
-        "away": 7
-        }
-    },
-    {
-    "date": "2025-01-18T22:45:00+00:00",
-    "tourn_short": "ITA League",
-    "season": "24-25",
-    "tourn_round": "RS-21",
-    "home": "Atalanta",
-    "away": "Napoli",
+    "tourn_round": "LS-7",
+    "home": "Benfica",
+    "away": "Barcelona",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 3,
-        "away": 1
+        "away": 2
+        }
+    },
+    {
+    "date": "2025-01-21T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-7",
+    "home": "Atletico Madrid",
+    "away": "Bayer Leverkusen",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 2
+        }
+    },
+    {
+    "date": "2025-01-21T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-7",
+    "home": "Liverpool",
+    "away": "Lille",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 3
+        }
+    },
+    {
+    "date": "2025-01-21T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-7",
+    "home": "Club Brugge KV",
+    "away": "Juventus",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 5
         }
     }
 ]
