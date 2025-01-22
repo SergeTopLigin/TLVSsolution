@@ -1,82 +1,34 @@
 [
     {
-    "date": "2025-01-21T20:45:00+00:00",
+    "date": "2025-01-22T23:00:00+00:00",
     "tourn_short": "UCL",
     "season": "24-25",
     "tourn_round": "LS-7",
-    "home": "Monaco",
-    "away": "Aston Villa",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 4,
-        "away": 8
-        }
-    },
-    {
-    "date": "2025-01-21T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "LS-7",
-    "home": "Benfica",
-    "away": "Barcelona",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 3,
-        "away": 2
-        }
-    },
-    {
-    "date": "2025-01-21T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "LS-7",
-    "home": "Atletico Madrid",
-    "away": "Bayer Leverkusen",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 2
-        }
-    },
-    {
-    "date": "2025-01-21T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "LS-7",
-    "home": "Liverpool",
-    "away": "Lille",
+    "home": "Paris Saint Germain",
+    "away": "Manchester City",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 1,
-        "away": 3
+        "away": 5
         }
     },
     {
-    "date": "2025-01-21T23:00:00+00:00",
+    "date": "2025-01-22T23:00:00+00:00",
     "tourn_short": "UCL",
     "season": "24-25",
     "tourn_round": "LS-7",
-    "home": "Club Brugge KV",
-    "away": "Juventus",
+    "home": "Feyenoord",
+    "away": "Bayern München",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 2,
-        "away": 5
+        "home": 4,
+        "away": 1
         }
     }
 ]

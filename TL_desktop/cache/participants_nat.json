@@ -17,6 +17,10 @@
       "id": 49
     },
     {
+      "club": "Manchester City",
+      "id": 50
+    },
+    {
       "club": "Aston Villa",
       "id": 66
     },
@@ -117,10 +121,6 @@
     {
       "club": "Sporting CP",
       "id": 228
-    },
-    {
-      "club": "Benfica",
-      "id": 211
     }
   ],
   "BEL": [
@@ -141,6 +141,10 @@
     {
       "club": "Feyenoord",
       "id": 209
+    },
+    {
+      "club": "PSV Eindhoven",
+      "id": 197
     }
   ]
 }

@@ -730,6 +730,13 @@ ITA-L   RS-21                    Atalanta   2:3   Napoli
                             FRA-4   TL-42         TL-39   ENG-8 
                                    UCLc16         UCLc5                   
 
+
+================================================================================
+
+ UCL    LS-7          Paris Saint Germain  23:00  Manchester City          
+                            FRA-1    TL-8         TL-9    ENG-5 
+                                TL8 | Lc1         TL9                     
+
  UCL    LS-7              Atletico Madrid   2:1   Bayer Leverkusen         
                             ESP-2    TL-6         TL-10   GER-2 
                        UCLc11 | TL6 | Lc2         UCLc4 | TL10 | Lc2      
@@ -745,14 +752,6 @@ ITA-L   RS-21                    Atalanta   2:3   Napoli
  UCL    LS-7               Club Brugge KV   0:0   Juventus                 
                             BEL-2    TL-7         TL-15   ITA-5 
                              UCLc19 | TL7         UCLc14                  
-
-================================================================================
-
-                                        22|01|2025
-
- UCL    LS-7          Paris Saint Germain  23:00  Manchester City          
-                            FRA-1    TL-8         TL-9    ENG-5 
-                                TL8 | Lc1         TL9                     
 
  UCL    LS-7                    Feyenoord  23:00  Bayern München           
                             NED-4   TL-20         TL-6    GER-1 
