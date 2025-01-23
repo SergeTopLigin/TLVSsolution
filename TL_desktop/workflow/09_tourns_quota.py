@@ -6,6 +6,14 @@ with open((os.path.abspath(__file__))[:-28]+'/cache/tournaments.json', 'r', enco
 with open((os.path.abspath(__file__))[:-28]+'/workflow/10_participants.json', 'r', encoding='utf-8') as j:
     participants = json.load(j)
 
+# удаление ассоциаций с квотой 0
+ass_del = []
+for ass in participants:
+    if ass not in tournaments:
+        ass_del.append(ass)
+for ass in ass_del:
+    participants.pop(ass)
+
 for ass in tournaments:
     if ass in participants:
         for tourn in tournaments[ass]['tournaments']:

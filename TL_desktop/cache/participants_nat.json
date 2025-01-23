@@ -87,10 +87,6 @@
       "id": 169
     },
     {
-      "club": "VfB Stuttgart",
-      "id": 172
-    },
-    {
       "club": "Borussia Dortmund",
       "id": 165
     }
@@ -123,28 +119,26 @@
       "id": 228
     }
   ],
-  "BEL": [
-    {
-      "club": "Genk",
-      "id": 742
-    },
-    {
-      "club": "Club Brugge KV",
-      "id": 569
-    },
-    {
-      "club": "Anderlecht",
-      "id": 554
-    }
-  ],
   "NED": [
-    {
-      "club": "Feyenoord",
-      "id": 209
-    },
     {
       "club": "PSV Eindhoven",
       "id": 197
+    },
+    {
+      "club": "Feyenoord",
+      "id": 209
+    }
+  ],
+  "SCO": [
+    {
+      "club": "Celtic",
+      "id": 247
+    }
+  ],
+  "BEL": [
+    {
+      "club": "Anderlecht",
+      "id": 554
     }
   ]
 }

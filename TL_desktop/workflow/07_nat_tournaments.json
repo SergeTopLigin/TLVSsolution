@@ -503,6 +503,27 @@
         ]
     },
     {
+        "name": "NED Cup",
+        "season": "24-25",
+        "status": "curr",
+        "dates": {
+            "first": "2024-10-31",
+            "final": null
+        },
+        "rounds": [
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2025-02-04 22:45:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["Feyenoord", 209],
+                    ["PSV Eindhoven", 197]
+                ]
+            }
+        ]
+    },
+    {
         "name": "ENG League",
         "season": "23-24",
         "status": "prev",
@@ -835,6 +856,31 @@
             ["Genk", 742],
             ["Union St. Gilloise", 1393],
             ["Dender", 6215]
+        ]
+    },
+    {
+        "name": "NED League",
+        "season": "24-25",
+        "status": "curr",
+        "teams": [
+            ["PEC Zwolle", 193],
+            ["Ajax", 194],
+            ["Willem II", 195],
+            ["PSV Eindhoven", 197],
+            ["AZ Alkmaar", 201],
+            ["Groningen", 202],
+            ["NAC Breda", 203],
+            ["Fortuna Sittard", 205],
+            ["Heracles", 206],
+            ["Utrecht", 207],
+            ["Feyenoord", 209],
+            ["Heerenveen", 210],
+            ["GO Ahead Eagles", 410],
+            ["NEC Nijmegen", 413],
+            ["Twente", 415],
+            ["Waalwijk", 417],
+            ["Almere City FC", 419],
+            ["Sparta Rotterdam", 426]
         ]
     }
 ]
