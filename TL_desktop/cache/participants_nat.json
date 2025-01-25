@@ -25,6 +25,10 @@
       "id": 66
     },
     {
+      "club": "Manchester United",
+      "id": 33
+    },
+    {
       "club": "Tottenham",
       "id": 47
     }
@@ -105,10 +109,6 @@
       "id": 91
     },
     {
-      "club": "Lyon",
-      "id": 80
-    },
-    {
       "club": "Stade Brestois 29",
       "id": 106
     }
@@ -133,12 +133,6 @@
     {
       "club": "Celtic",
       "id": 247
-    }
-  ],
-  "BEL": [
-    {
-      "club": "Anderlecht",
-      "id": 554
     }
   ]
 }

@@ -16,7 +16,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 1.09,
+        "rating": 1.08,
         "quota": 19,
         "id": 2,
         "type": "Cup",
@@ -170,7 +170,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.2,
+        "rating": 0.21,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -184,11 +184,11 @@
             "cur_nat_pos": 4
           },
           {
-            "club": "Anderlecht",
-            "id": 554,
+            "club": "Eintracht Frankfurt",
+            "id": 169,
             "pos": 2,
-            "nat": "BEL",
-            "cur_nat_pos": 4
+            "nat": "GER",
+            "cur_nat_pos": 3
           },
           {
             "club": "Athletic Club",
@@ -198,11 +198,11 @@
             "cur_nat_pos": 4
           },
           {
-            "club": "Lyon",
-            "id": 80,
+            "club": "Manchester United",
+            "id": 33,
             "pos": 4,
-            "nat": "FRA",
-            "cur_nat_pos": 6
+            "nat": "ENG",
+            "cur_nat_pos": 13
           }
         ]
       },
@@ -347,7 +347,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.58,
+        "rating": 0.59,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -388,7 +388,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.29,
+        "rating": 0.3,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -576,7 +576,7 @@
       "GER Cup 24-25": {
         "tytle": "GER Cup",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 0,
         "id": 81,
         "type": "Cup",
@@ -618,7 +618,7 @@
       "FRA Cup 24-25": {
         "tytle": "FRA Cup",
         "season": "24-25",
-        "rating": 0.02,
+        "rating": 0.04,
         "quota": 0,
         "id": 66,
         "type": "Cup",
@@ -686,7 +686,7 @@
       "NED League 24-25": {
         "tytle": "NED League",
         "season": "24-25",
-        "rating": 0.14,
+        "rating": 0.13,
         "quota": 1,
         "id": 88,
         "type": "League",

@@ -970,7 +970,7 @@
       "result": "lose",
       "opp_TLrate": 0.95,
       "goalDiff": -2,
-      "timestamp": 1737489600,
+      "timestamp": 1737565200,
       "tourn_short": "UCL",
       "season": "24-25",
       "tourn_round": "LS-7",
@@ -997,6 +997,51 @@
           "L",
           "c",
           "1"
+        ]
+      ]
+    },
+    {
+      "club_name": "Manchester City",
+      "date": "2025-01-25T20:30:00+00:00",
+      "match": "Manchester City - Chelsea",
+      "game_status": "expected",
+      "opponent": "Chelsea",
+      "opp_id": 49,
+      "result": null,
+      "opp_TLrate": 1.57,
+      "goalDiff": null,
+      "timestamp": 1737826200,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-23",
+      "opp_nat": "ENG",
+      "club_nat": "ENG",
+      "club_TLpos": 10,
+      "opp_TLpos": 3,
+      "club_NATpos": 5,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "TL",
+          "",
+          "10"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UECL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "3"
+        ],
+        [
+          "L",
+          "c",
+          "4"
         ]
       ]
     }
@@ -8369,6 +8414,41 @@
           "7"
         ]
       ]
+    },
+    {
+      "club_name": "Juventus",
+      "date": "2025-01-25T20:00:00+00:00",
+      "match": "Napoli - Juventus",
+      "game_status": "expected",
+      "opponent": "Napoli",
+      "opp_id": 492,
+      "result": null,
+      "opp_TLrate": -0.04,
+      "goalDiff": null,
+      "timestamp": 1737824400,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-22",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": 16,
+      "opp_TLpos": 22,
+      "club_NATpos": 5,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "497": [
@@ -9702,7 +9782,7 @@
       "result": "win",
       "opp_TLrate": 0.74,
       "goalDiff": 2,
-      "timestamp": 1737489600,
+      "timestamp": 1737565200,
       "tourn_short": "UCL",
       "season": "24-25",
       "tourn_round": "LS-7",
@@ -10043,6 +10123,41 @@
           "L",
           "c",
           "3"
+        ]
+      ]
+    },
+    {
+      "club_name": "Napoli",
+      "date": "2025-01-25T20:00:00+00:00",
+      "match": "Napoli - Juventus",
+      "game_status": "expected",
+      "opponent": "Juventus",
+      "opp_id": 496,
+      "result": null,
+      "opp_TLrate": 0.28,
+      "goalDiff": null,
+      "timestamp": 1737824400,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-22",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 22,
+      "opp_TLpos": 16,
+      "club_NATpos": 1,
+      "opp_NATpos": 5,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
         ]
       ]
     }
@@ -10909,7 +11024,7 @@
       "result": "lose",
       "opp_TLrate": -0.0,
       "goalDiff": -3,
-      "timestamp": 1737489600,
+      "timestamp": 1737565200,
       "tourn_short": "UCL",
       "season": "24-25",
       "tourn_round": "LS-7",
@@ -12564,7 +12679,7 @@
       "result": "win",
       "opp_TLrate": 1.23,
       "goalDiff": 3,
-      "timestamp": 1737489600,
+      "timestamp": 1737565200,
       "tourn_short": "UCL",
       "season": "24-25",
       "tourn_round": "LS-7",
@@ -12720,6 +12835,51 @@
           "LC",
           "c",
           "1"
+        ]
+      ]
+    },
+    {
+      "club_name": "Chelsea",
+      "date": "2025-01-25T20:30:00+00:00",
+      "match": "Manchester City - Chelsea",
+      "game_status": "expected",
+      "opponent": "Manchester City",
+      "opp_id": 50,
+      "result": null,
+      "opp_TLrate": 0.67,
+      "goalDiff": null,
+      "timestamp": 1737826200,
+      "tourn_short": "ENG League",
+      "season": "24-25",
+      "tourn_round": "RS-23",
+      "club_nat": "ENG",
+      "opp_nat": "ENG",
+      "club_TLpos": 3,
+      "opp_TLpos": 10,
+      "club_NATpos": 4,
+      "opp_NATpos": 5,
+      "club_qouta": [
+        [
+          "UECL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "3"
+        ],
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "TL",
+          "",
+          "10"
         ]
       ]
     }
