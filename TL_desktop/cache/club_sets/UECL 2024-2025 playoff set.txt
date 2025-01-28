@@ -1,0 +1,24 @@
+Chelsea;   id:49.
+Guimaraes;   id:224.
+Fiorentina;   id:502.
+Rapid Vienna;   id:781.
+Djurgardens IF;   id:364.
+FC Lugano;   id:606.
+Legia Warszawa;   id:339.
+Cercle Brugge;   id:741.
+Jagiellonia;   id:336.
+Shamrock Rovers;   id:652.
+Apoel Nicosia;   id:2247.
+Pafos;   id:3403.
+Panathinaikos;   id:617.
+Olimpija Ljubljana;   id:677.
+Real Betis;   id:543.
+1. FC Heidenheim;   id:180.
+Gent;   id:631.
+FC Copenhagen;   id:400.
+Vikingur Reykjavik;   id:278.
+Borac Banja Luka;   id:3364.
+Celje;   id:4360.
+Omonia Nicosia;   id:3402.
+Molde;   id:329.
+TSC Backa Topola;   id:2646.

@@ -4,7 +4,7 @@
  4  Atletico Madrid           89    1.42     7 pl       ESP          UCL c 5     TL  4     ESP L c 2     
  5  Paris Saint Germain       84    1.16     9 pl       FRA                      TL  5     FRA L c 1     
  6  Inter                     82    1.04    12 pl       ITA          UCL c 3     TL  6     ITA L c 2     
- 6  Bayern München            82    1.04    11 pl       GER          UCL c 15    TL  6     GER L c 1     
+ 6  Bayern München            82    1.04    11 pl       GER          UCL c 15    TL  7     GER L c 1     
  8  Chelsea                   80    0.90     3 pl       ENG          UECL c 1     TL  8     
  9  Manchester City           79    0.86    13 pl       ENG                      TL  9     ENG L c 4     
 10  Feyenoord                 79    0.84     2 pl       NED          UCL c 11    TL  10    

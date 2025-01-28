@@ -1,11 +1,91 @@
 [
     {
-    "date": "2025-01-25T20:30:00+00:00",
-    "tourn_short": "ENG League",
+    "date": "2025-01-29T23:00:00+00:00",
+    "tourn_short": "UCL",
     "season": "24-25",
-    "tourn_round": "RS-23",
-    "home": "Manchester City",
-    "away": "Chelsea",
+    "tourn_round": "LS-8",
+    "home": "Barcelona",
+    "away": "Atalanta",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 3,
+        "away": 3
+        }
+    },
+    {
+    "date": "2025-01-29T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-8",
+    "home": "Stade Brestois 29",
+    "away": "Real Madrid",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 8,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-01-29T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-8",
+    "home": "PSV Eindhoven",
+    "away": "Liverpool",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-01-29T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-8",
+    "home": "Inter",
+    "away": "Monaco",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 3
+        }
+    },
+    {
+    "date": "2025-01-29T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-8",
+    "home": "Aston Villa",
+    "away": "Celtic",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 8,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-01-29T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "LS-8",
+    "home": "Lille",
+    "away": "Feyenoord",
     "goals": {
         "home": null,
         "away": null
@@ -13,22 +93,6 @@
     "NATpos": {
         "home": 5,
         "away": 4
-        }
-    },
-    {
-    "date": "2025-01-25T20:00:00+00:00",
-    "tourn_short": "ITA League",
-    "season": "24-25",
-    "tourn_round": "RS-22",
-    "home": "Napoli",
-    "away": "Juventus",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 1,
-        "away": 5
         }
     }
 ]

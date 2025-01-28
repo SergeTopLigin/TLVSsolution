@@ -24,7 +24,7 @@ ESP
                            4  Athletic Club                        UEL c 3           
 GER
       24-25 Bundesliga          
-                           1  Bayern München             TL 6      UCL c 15          
+                           1  Bayern München             TL 7      UCL c 15          
                            2  Bayer Leverkusen                     UCL c 8           
                            3  Eintracht Frankfurt                  UEL c 2           
                               Borussia Dortmund                    UCL c 14          
