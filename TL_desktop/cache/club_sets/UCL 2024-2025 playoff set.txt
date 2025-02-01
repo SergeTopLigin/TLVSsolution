@@ -1,0 +1,24 @@
+Stade Brestois 29;   id:106.
+Barcelona;   id:529.
+Bayer Leverkusen;   id:168.
+AC Milan;   id:489.
+Borussia Dortmund;   id:165.
+Celtic;   id:247.
+Inter;   id:505.
+PSV Eindhoven;   id:197.
+Sporting CP;   id:228.
+Manchester City;   id:50.
+Arsenal;   id:42.
+Paris Saint Germain;   id:85.
+Feyenoord;   id:209.
+Atalanta;   id:499.
+Aston Villa;   id:66.
+Bayern München;   id:157.
+Benfica;   id:211.
+Atletico Madrid;   id:530.
+Monaco;   id:91.
+Lille;   id:79.
+Real Madrid;   id:541.
+Liverpool;   id:40.
+Juventus;   id:496.
+Club Brugge KV;   id:569.

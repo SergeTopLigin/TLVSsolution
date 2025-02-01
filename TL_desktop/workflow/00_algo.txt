@@ -13,8 +13,8 @@
 06_associations.py
 
 cache/club_sets:
-    playoff sets - по окончании группового турнира
-    group sets, UefaClubSet - по окончании квалификации
+    playoff sets - 01.02 (по окончании группового турнира)
+    group sets, UefaClubSet - 01.09 (по окончании квалификации)
 
 07_nat_tournaments.json: 
 для ассоциаций с квотой > 0
