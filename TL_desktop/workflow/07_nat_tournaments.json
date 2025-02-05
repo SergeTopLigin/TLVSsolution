@@ -199,7 +199,7 @@
             {
                 "round": "1/4",
                 "status": "curr",
-                "last_date": "2025-02-04 23:00:00",
+                "last_date": "2025-02-06 23:30:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Real Madrid", 541],
@@ -259,7 +259,7 @@
             {
                 "round": "1/4",
                 "status": "curr",
-                "last_date": "2025-02-05 20:00:00",
+                "last_date": "2025-02-25 23:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Lazio", 487],
@@ -326,7 +326,7 @@
             {
                 "round": "1/4",
                 "status": "curr",
-                "last_date": "2025-02-04 22:45:00",
+                "last_date": "2025-02-26 22:45:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["RB Leipzig", 173],
@@ -381,7 +381,7 @@
             {
                 "round": "1/8",
                 "status": "curr",
-                "last_date": "2025-02-05 22:45:00",
+                "last_date": "2025-02-06 23:00:00",
                 "total_teams": 16,
                 "teams_TL": [
                     ["Paris Saint Germain", 85],
@@ -438,7 +438,7 @@
             {
                 "round": "1/4",
                 "status": "curr",
-                "last_date": "2025-02-05 18:00:00",
+                "last_date": "2025-02-26 18:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Sporting CP", 228],
@@ -525,7 +525,7 @@
             {
                 "round": "1/4",
                 "status": "curr",
-                "last_date": "2025-02-04 22:45:00",
+                "last_date": "2025-02-06 22:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Feyenoord", 209],
