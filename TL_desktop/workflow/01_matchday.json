@@ -1,82 +1,66 @@
 [
     {
-    "date": "2025-02-05T20:45:00+00:00",
-    "tourn_short": "NED Cup",
+    "date": "2025-02-11T20:45:00+00:00",
+    "tourn_short": "UCL",
     "season": "24-25",
-    "tourn_round": "1/4",
-    "home": "PSV Eindhoven",
-    "away": "Feyenoord",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 4
-        }
-    },
-    {
-    "date": "2025-02-06T23:00:00+00:00",
-    "tourn_short": "ENG LCup",
-    "season": "24-25",
-    "tourn_round": "1/2",
-    "home": "Liverpool",
-    "away": "Tottenham",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 1,
-        "away": 15
-        }
-    },
-    {
-    "date": "2025-02-07T23:05:00+00:00",
-    "tourn_short": "FRA League",
-    "season": "24-25",
-    "tourn_round": "RS-21",
-    "home": "Paris Saint Germain",
-    "away": "Monaco",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 1,
-        "away": 3
-        }
-    },
-    {
-    "date": "2025-02-08T23:00:00+00:00",
-    "tourn_short": "ESP League",
-    "season": "24-25",
-    "tourn_round": "RS-23",
-    "home": "Real Madrid",
-    "away": "Atletico Madrid",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 1,
-        "away": 2
-        }
-    },
-    {
-    "date": "2025-02-09T20:35:00+00:00",
-    "tourn_short": "ENG Cup",
-    "season": "24-25",
-    "tourn_round": "4 round",
-    "home": "Aston Villa",
-    "away": "Tottenham",
+    "tourn_round": "1/16",
+    "home": "Stade Brestois 29",
+    "away": "Paris Saint Germain",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 8,
-        "away": 15
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-02-11T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/16",
+    "home": "Sporting CP",
+    "away": "Borussia Dortmund",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 11
+        }
+    },
+    {
+    "date": "2025-02-12T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/16",
+    "home": "Feyenoord",
+    "away": "AC Milan",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 4,
+        "away": 7
+        }
+    },
+    {
+    "date": "2025-02-12T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/16",
+    "home": "Monaco",
+    "away": "Benfica",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 4,
+        "away": 2
         }
     }
 ]

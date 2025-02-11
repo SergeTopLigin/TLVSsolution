@@ -35,7 +35,7 @@
             {
                 "round": "4 Round",
                 "status": "curr",
-                "last_date": "2025-02-08 18:00:00",
+                "last_date": "2025-02-11 23:00:00",
                 "total_teams": 32,
                 "teams_TL": [
                     ["Manchester United", 33],
@@ -118,12 +118,22 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
-                "last_date": "2025-02-25 00:00:00",
+                "status": "prev",
+                "last_date": "2025-02-06 23:00:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["Tottenham", 47],
                     ["Arsenal", 42],
+                    ["Liverpool", 40],
+                    ["Newcastle", 34]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-03-16 23:00:00",
+                "total_teams": 2,
+                "teams_TL": [
                     ["Liverpool", 40],
                     ["Newcastle", 34]
                 ]
@@ -198,7 +208,7 @@
             },
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-06 23:30:00",
                 "total_teams": 8,
                 "teams_TL": [
@@ -207,6 +217,18 @@
                     ["Real Sociedad", 548],
                     ["Atletico Madrid", 530],
                     ["Osasuna", 727]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-02-28 23:30:00",
+                "total_teams": 4,
+                "teams_TL": [
+                    ["Real Madrid", 541],
+                    ["Barcelona", 529],
+                    ["Real Sociedad", 548],
+                    ["Atletico Madrid", 530]
                 ]
             }
         ]
@@ -380,12 +402,22 @@
             },
             {
                 "round": "1/8",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-06 23:00:00",
                 "total_teams": 16,
                 "teams_TL": [
                     ["Paris Saint Germain", 85],
                     ["Lille", 79],
+                    ["Stade Brestois 29", 106]
+                ]
+            },
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2025-02-06 23:00:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["Paris Saint Germain", 85],
                     ["Stade Brestois 29", 106]
                 ]
             }
@@ -504,9 +536,18 @@
         "rounds": [
             {
                 "round": "1/2",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-06 22:45:00",
                 "total_teams": 4,
+                "teams_TL": [
+                    ["Club Brugge KV", 569]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-05-01 16:30:00",
+                "total_teams": 2,
                 "teams_TL": [
                     ["Club Brugge KV", 569]
                 ]
@@ -524,11 +565,20 @@
         "rounds": [
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-06 22:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Feyenoord", 209],
+                    ["PSV Eindhoven", 197]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-02-25 22:00:00",
+                "total_teams": 4,
+                "teams_TL": [
                     ["PSV Eindhoven", 197]
                 ]
             }

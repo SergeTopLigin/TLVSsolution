@@ -1,16 +1,18 @@
 rivals
 
 ENG Lcup
-Tottenham 4.93
+(Tottenham 4.93
     -0.43: curr
     1.79: Manchester City 2024-10-30
     -0.03: Manchester United 2024-12-19
-Liverpool 3.52
-    1.91: curr
+Liverpool 4.45
+    1.87: curr
     -0.79: West Ham 2024-09-25
-Newcastle 0.27
+    -0.23: Tottenham 2025-02-06
+Newcastle 2.29
     -1.2: curr
     -0.93: Chelsea 2024-10-30
+    0.82: Arsenal 2025-02-05
 
 ITA Cup
 Lazio 2.68
@@ -21,6 +23,6 @@ Bologna 1.36
     0.16: Atalanta 2025-01-04
 
 ESP Cup
-Pontevedra 
+(Pontevedra 
     -1.2: curr
     -0.14: Villarreal 2024-12-04

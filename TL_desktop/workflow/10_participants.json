@@ -170,7 +170,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.33,
+        "rating": 0.32,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -219,7 +219,7 @@
       "UECL 24-25": {
         "tytle": "UECL",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.09,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -271,23 +271,23 @@
             "cur_nat_pos": 1
           },
           {
-            "club": "Atletico Madrid",
-            "id": 530,
-            "pos": 4,
-            "nat": "ESP",
-            "cur_nat_pos": 2
-          },
-          {
             "club": "Paris Saint Germain",
             "id": 85,
-            "pos": 5,
+            "pos": 4,
             "nat": "FRA",
             "cur_nat_pos": 1
           },
           {
+            "club": "Atletico Madrid",
+            "id": 530,
+            "pos": 5,
+            "nat": "ESP",
+            "cur_nat_pos": 2
+          },
+          {
             "club": "Inter",
             "id": 505,
-            "pos": 5,
+            "pos": 6,
             "nat": "ITA",
             "cur_nat_pos": 1
           },
@@ -340,7 +340,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.56,
+        "rating": 0.55,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -381,18 +381,18 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.3,
+        "rating": 0.31,
         "quota": 1,
         "id": 48,
         "type": "Cup",
         "name": "League Cup",
         "participants": [
           {
-            "club": "Tottenham",
-            "id": 47,
+            "club": "Liverpool",
+            "id": 40,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 16
+            "cur_nat_pos": 1
           }
         ]
       }
@@ -480,8 +480,8 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.51,
-        "quota": 4,
+        "rating": 0.5,
+        "quota": 3,
         "id": 140,
         "type": "League",
         "name": "La Liga",
@@ -500,18 +500,13 @@
             "club": "Barcelona",
             "id": 529,
             "pos": 3
-          },
-          {
-            "club": "Athletic Club",
-            "id": 531,
-            "pos": 4
           }
         ]
       },
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.24,
+        "rating": 0.47,
         "quota": 1,
         "id": 143,
         "type": "Cup",
@@ -543,7 +538,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.44,
+        "rating": 0.43,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -616,7 +611,7 @@
       "FRA Cup 24-25": {
         "tytle": "FRA Cup",
         "season": "24-25",
-        "rating": 0.05,
+        "rating": 0.07,
         "quota": 0,
         "id": 66,
         "type": "Cup",
@@ -668,7 +663,7 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.18,
+        "rating": 0.17,
         "quota": 0,
         "id": 97,
         "type": "Cup",
@@ -700,7 +695,7 @@
       "NED Cup 24-25": {
         "tytle": "NED Cup",
         "season": "24-25",
-        "rating": 0.06,
+        "rating": 0.07,
         "quota": 0,
         "id": 90,
         "type": "Cup",
