@@ -47,6 +47,10 @@
       "id": 487
     },
     {
+      "club": "Juventus",
+      "id": 496
+    },
+    {
       "club": "AC Milan",
       "id": 489
     }
@@ -99,14 +103,6 @@
     {
       "club": "Lille",
       "id": 79
-    },
-    {
-      "club": "Monaco",
-      "id": 91
-    },
-    {
-      "club": "Stade Brestois 29",
-      "id": 106
     }
   ],
   "POR": [
@@ -131,6 +127,12 @@
     {
       "club": "Feyenoord",
       "id": 209
+    }
+  ],
+  "BEL": [
+    {
+      "club": "Club Brugge KV",
+      "id": 569
     }
   ]
 }

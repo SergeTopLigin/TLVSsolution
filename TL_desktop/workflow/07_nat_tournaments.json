@@ -34,7 +34,7 @@
             },
             {
                 "round": "4 Round",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-11 23:00:00",
                 "total_teams": 32,
                 "teams_TL": [
@@ -44,6 +44,19 @@
                     ["Aston Villa", 66],
                     ["Chelsea", 49],
                     ["Tottenham", 47],
+                    ["Brighton", 51],
+                    ["Newcastle", 34]
+                ]
+            },
+            {
+                "round": "5 Round",
+                "status": "curr",
+                "last_date": "2025-03-01 18:00:00",
+                "total_teams": 16,
+                "teams_TL": [
+                    ["Manchester United", 33],
+                    ["Manchester City", 50],
+                    ["Aston Villa", 66],
                     ["Brighton", 51],
                     ["Newcastle", 34]
                 ]
@@ -222,7 +235,7 @@
             {
                 "round": "1/2",
                 "status": "curr",
-                "last_date": "2025-02-28 23:30:00",
+                "last_date": "2025-04-02 23:30:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["Real Madrid", 541],
@@ -414,7 +427,7 @@
             {
                 "round": "1/4",
                 "status": "curr",
-                "last_date": "2025-02-06 23:00:00",
+                "last_date": "2025-02-26 23:10:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Paris Saint Germain", 85],
