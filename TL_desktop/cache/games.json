@@ -1194,13 +1194,13 @@
     {
       "club_name": "Manchester United",
       "date": "2025-02-16T19:30:00+00:00",
-      "match": "Tottenham - Manchester United",
-      "game_status": "expected",
+      "match": "Tottenham - Manchester United   1:0",
+      "game_status": "fixed",
       "opponent": "Tottenham",
       "opp_id": 47,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": -0.51,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1739723400,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -2496,6 +2496,46 @@
           "1"
         ]
       ]
+    },
+    {
+      "club_name": "Atalanta",
+      "date": "2025-02-18T23:00:00+00:00",
+      "match": "Atalanta - Club Brugge KV",
+      "game_status": "expected",
+      "opponent": "Club Brugge KV",
+      "opp_id": 569,
+      "result": null,
+      "opp_TLrate": 0.67,
+      "goalDiff": null,
+      "timestamp": 1739908800,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/16",
+      "club_nat": "ITA",
+      "opp_nat": "BEL",
+      "club_TLpos": 20,
+      "opp_TLpos": 11,
+      "club_NATpos": 3,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "15"
+        ],
+        [
+          "L",
+          "c",
+          "3"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "19"
+        ]
+      ]
     }
   ],
   "168": [
@@ -3049,13 +3089,13 @@
     {
       "club_name": "Bayer Leverkusen",
       "date": "2025-02-15T20:30:00+00:00",
-      "match": "Bayer Leverkusen - Bayern München",
-      "game_status": "expected",
+      "match": "Bayer Leverkusen - Bayern München   0:0",
+      "game_status": "fixed",
       "opponent": "Bayern München",
       "opp_id": 157,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 1.0,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1739640600,
       "tourn_short": "GER League",
       "season": "24-25",
@@ -6605,13 +6645,13 @@
     {
       "club_name": "Inter",
       "date": "2025-02-16T22:45:00+00:00",
-      "match": "Juventus - Inter",
-      "game_status": "expected",
+      "match": "Juventus - Inter   1:0",
+      "game_status": "fixed",
       "opponent": "Juventus",
       "opp_id": 496,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 0.18,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1739735100,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -7442,13 +7482,13 @@
     {
       "club_name": "Lazio",
       "date": "2025-02-15T20:00:00+00:00",
-      "match": "Lazio - Napoli",
-      "game_status": "expected",
+      "match": "Lazio - Napoli   2:2",
+      "game_status": "fixed",
       "opponent": "Napoli",
       "opp_id": 492,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 0.17,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1739638800,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -8019,6 +8059,41 @@
           "UCL",
           "c",
           "19"
+        ]
+      ]
+    },
+    {
+      "club_name": "AC Milan",
+      "date": "2025-02-18T20:45:00+00:00",
+      "match": "AC Milan - Feyenoord",
+      "game_status": "expected",
+      "opponent": "Feyenoord",
+      "opp_id": 209,
+      "result": null,
+      "opp_TLrate": 0.16,
+      "goalDiff": null,
+      "timestamp": 1739900700,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/16",
+      "club_nat": "ITA",
+      "opp_nat": "NED",
+      "club_TLpos": 21,
+      "opp_TLpos": 19,
+      "club_NATpos": 6,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "14"
         ]
       ]
     }
@@ -9368,13 +9443,13 @@
     {
       "club_name": "Juventus",
       "date": "2025-02-16T22:45:00+00:00",
-      "match": "Juventus - Inter",
-      "game_status": "expected",
+      "match": "Juventus - Inter   1:0",
+      "game_status": "fixed",
       "opponent": "Inter",
       "opp_id": 505,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 1.12,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1739735100,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -11379,13 +11454,13 @@
     {
       "club_name": "Napoli",
       "date": "2025-02-15T20:00:00+00:00",
-      "match": "Lazio - Napoli",
-      "game_status": "expected",
+      "match": "Lazio - Napoli   2:2",
+      "game_status": "fixed",
       "opponent": "Lazio",
       "opp_id": 487,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 0.34,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1739638800,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -12322,13 +12397,13 @@
     {
       "club_name": "Bayern München",
       "date": "2025-02-15T20:30:00+00:00",
-      "match": "Bayer Leverkusen - Bayern München",
-      "game_status": "expected",
+      "match": "Bayer Leverkusen - Bayern München   0:0",
+      "game_status": "fixed",
       "opponent": "Bayer Leverkusen",
       "opp_id": 168,
-      "result": null,
+      "result": "draw",
       "opp_TLrate": 0.75,
-      "goalDiff": null,
+      "goalDiff": 0,
       "timestamp": 1739640600,
       "tourn_short": "GER League",
       "season": "24-25",
@@ -13633,13 +13708,13 @@
     {
       "club_name": "Tottenham",
       "date": "2025-02-16T19:30:00+00:00",
-      "match": "Tottenham - Manchester United",
-      "game_status": "expected",
+      "match": "Tottenham - Manchester United   1:0",
+      "game_status": "fixed",
       "opponent": "Manchester United",
       "opp_id": 33,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 0.03,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1739723400,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -14633,6 +14708,41 @@
           "13"
         ]
       ]
+    },
+    {
+      "club_name": "Feyenoord",
+      "date": "2025-02-18T20:45:00+00:00",
+      "match": "AC Milan - Feyenoord",
+      "game_status": "expected",
+      "opponent": "AC Milan",
+      "opp_id": 489,
+      "result": null,
+      "opp_TLrate": 0.13,
+      "goalDiff": null,
+      "timestamp": 1739900700,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/16",
+      "opp_nat": "ITA",
+      "club_nat": "NED",
+      "club_TLpos": 19,
+      "opp_TLpos": 21,
+      "club_NATpos": 4,
+      "opp_NATpos": 6,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "14"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "17"
+        ]
+      ]
     }
   ],
   "620": [
@@ -15143,6 +15253,46 @@
           "UCL",
           "c",
           "14"
+        ]
+      ]
+    },
+    {
+      "club_name": "Club Brugge KV",
+      "date": "2025-02-18T23:00:00+00:00",
+      "match": "Atalanta - Club Brugge KV",
+      "game_status": "expected",
+      "opponent": "Atalanta",
+      "opp_id": 499,
+      "result": null,
+      "opp_TLrate": 0.15,
+      "goalDiff": null,
+      "timestamp": 1739908800,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/16",
+      "opp_nat": "ITA",
+      "club_nat": "BEL",
+      "club_TLpos": 11,
+      "opp_TLpos": 20,
+      "club_NATpos": 2,
+      "opp_NATpos": 3,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "19"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "15"
+        ],
+        [
+          "L",
+          "c",
+          "3"
         ]
       ]
     }

@@ -170,7 +170,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.32,
+        "rating": 0.31,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -340,7 +340,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.55,
+        "rating": 0.54,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -362,8 +362,8 @@
             "pos": 3
           },
           {
-            "club": "Chelsea",
-            "id": 49,
+            "club": "Manchester City",
+            "id": 50,
             "pos": 4
           }
         ]
@@ -415,7 +415,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.54,
+        "rating": 0.53,
         "quota": 4,
         "id": 135,
         "type": "League",
@@ -437,8 +437,8 @@
             "pos": 3
           },
           {
-            "club": "Lazio",
-            "id": 487,
+            "club": "Juventus",
+            "id": 496,
             "pos": 4
           }
         ]
@@ -457,7 +457,7 @@
             "id": 487,
             "pos": 1,
             "nat": "ITA",
-            "cur_nat_pos": 4
+            "cur_nat_pos": 5
           }
         ]
       }
@@ -487,18 +487,18 @@
         "name": "La Liga",
         "participants": [
           {
+            "club": "Barcelona",
+            "id": 529,
+            "pos": 1
+          },
+          {
             "club": "Real Madrid",
             "id": 541,
-            "pos": 1
+            "pos": 2
           },
           {
             "club": "Atletico Madrid",
             "id": 530,
-            "pos": 2
-          },
-          {
-            "club": "Barcelona",
-            "id": 529,
             "pos": 3
           }
         ]
@@ -538,7 +538,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.45,
+        "rating": 0.44,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -564,7 +564,7 @@
       "GER Cup 24-25": {
         "tytle": "GER Cup",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 0,
         "id": 81,
         "type": "Cup",
@@ -663,7 +663,7 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.17,
+        "rating": 0.16,
         "quota": 0,
         "id": 97,
         "type": "Cup",
