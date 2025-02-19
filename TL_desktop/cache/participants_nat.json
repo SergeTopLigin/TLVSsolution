@@ -25,12 +25,12 @@
       "id": 66
     },
     {
-      "club": "Manchester United",
-      "id": 33
-    },
-    {
       "club": "Tottenham",
       "id": 47
+    },
+    {
+      "club": "Manchester United",
+      "id": 33
     }
   ],
   "ITA": [
@@ -134,6 +134,10 @@
     }
   ],
   "BEL": [
+    {
+      "club": "Genk",
+      "id": 742
+    },
     {
       "club": "Club Brugge KV",
       "id": 569

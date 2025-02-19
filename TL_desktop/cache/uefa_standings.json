@@ -16,8 +16,8 @@
   "Bayern München": {
     "IDapi": 157,
     "nat": "GER",
-    "TL_rank": 1.8,
-    "visual_rank": 88,
+    "TL_rank": 1.86,
+    "visual_rank": 90,
     "buffer": false
   },
   "Liverpool": {
@@ -100,8 +100,8 @@
   "Benfica": {
     "IDapi": 211,
     "nat": "POR",
-    "TL_rank": 0.36,
-    "visual_rank": 46,
+    "TL_rank": 0.41,
+    "visual_rank": 47,
     "buffer": false
   },
   "Atalanta": {
@@ -149,21 +149,21 @@
   "Club Brugge KV": {
     "IDapi": 569,
     "nat": "BEL",
-    "TL_rank": -0.2,
-    "visual_rank": 29,
+    "TL_rank": -0.15,
+    "visual_rank": 31,
+    "buffer": false
+  },
+  "Feyenoord": {
+    "IDapi": 209,
+    "nat": "NED",
+    "TL_rank": -0.18,
+    "visual_rank": 30,
     "buffer": false
   },
   "Lazio": {
     "IDapi": 487,
     "nat": "ITA",
     "TL_rank": -0.21,
-    "visual_rank": 29,
-    "buffer": false
-  },
-  "Feyenoord": {
-    "IDapi": 209,
-    "nat": "NED",
-    "TL_rank": -0.23,
     "visual_rank": 29,
     "buffer": false
   },
