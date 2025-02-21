@@ -1,66 +1,18 @@
 [
     {
-    "date": "2025-02-19T20:45:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/16",
-    "home": "Borussia Dortmund",
-    "away": "Sporting CP",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 11,
-        "away": 1
-        }
-    },
-    {
-    "date": "2025-02-19T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/16",
-    "home": "Real Madrid",
-    "away": "Manchester City",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 4
-        }
-    },
-    {
-    "date": "2025-02-19T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/16",
-    "home": "PSV Eindhoven",
-    "away": "Juventus",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 4
-        }
-    },
-    {
-    "date": "2025-02-19T22:30:00+00:00",
+    "date": "2025-02-22T20:30:00+00:00",
     "tourn_short": "ENG League",
     "season": "24-25",
-    "tourn_round": "RS-29",
+    "tourn_round": "RS-26",
     "home": "Aston Villa",
-    "away": "Liverpool",
+    "away": "Chelsea",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 9,
-        "away": 1
+        "home": 10,
+        "away": 6
         }
     }
 ]

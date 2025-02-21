@@ -54,7 +54,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.54,
+        "rating": 0.53,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -72,7 +72,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.31,
+        "rating": 0.3,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -111,7 +111,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.5,
+        "rating": 0.51,
         "quota": 3,
         "id": 140,
         "type": "League",
@@ -144,7 +144,7 @@
       "GER Cup 24-25": {
         "tytle": "GER Cup",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 0,
         "id": 81,
         "type": "Cup",
@@ -176,6 +176,30 @@
       }
     }
   },
+  "NED": {
+    "as_short": "NED",
+    "as_full": "Netherlands",
+    "tournaments": {
+      "NED League 24-25": {
+        "tytle": "NED League",
+        "season": "24-25",
+        "rating": 0.18,
+        "quota": 1,
+        "id": 88,
+        "type": "League",
+        "name": "Eredivisie"
+      },
+      "NED Cup 24-25": {
+        "tytle": "NED Cup",
+        "season": "24-25",
+        "rating": 0.09,
+        "quota": 0,
+        "id": 90,
+        "type": "Cup",
+        "name": "KNVB Beker"
+      }
+    }
+  },
   "POR": {
     "as_short": "POR",
     "as_full": "Portugal",
@@ -183,7 +207,7 @@
       "POR League 24-25": {
         "tytle": "POR League",
         "season": "24-25",
-        "rating": 0.18,
+        "rating": 0.17,
         "quota": 1,
         "id": 94,
         "type": "League",
@@ -206,30 +230,6 @@
         "id": 97,
         "type": "Cup",
         "name": "Taça da Liga"
-      }
-    }
-  },
-  "NED": {
-    "as_short": "NED",
-    "as_full": "Netherlands",
-    "tournaments": {
-      "NED League 24-25": {
-        "tytle": "NED League",
-        "season": "24-25",
-        "rating": 0.16,
-        "quota": 1,
-        "id": 88,
-        "type": "League",
-        "name": "Eredivisie"
-      },
-      "NED Cup 24-25": {
-        "tytle": "NED Cup",
-        "season": "24-25",
-        "rating": 0.07,
-        "quota": 0,
-        "id": 90,
-        "type": "Cup",
-        "name": "KNVB Beker"
       }
     }
   },

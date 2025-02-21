@@ -32,25 +32,43 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 3. Arsenal              8   19  +13     2.38    1.63
 4. Inter                8   19  +10     2.38    1.25
 5. Atletico Madrid      8   18  +8      2.25    1.00
-6. Borussia Dortmund    9   18  +13     2.00    1.44
+6. Real Madrid          10  21  +11     2.10    1.10    1.49
 7. Bayer Leverkusen     8   16  +8      2.00    1.00
-8. Real Madrid          9   18  +9      2.00    1.00    1.49
-9. Lille                8   16  +7      2.00    0.88    0.52
-10. Aston Villa         8   16  +7      2.00    0.88    -2.20
-11. Bayern Munich       10  19  +9      1.90    0.90    1.00
-12. Paris Saint Germain 9   16  +8      1.78    0.87
+8. Lille                8   16  +7      2.00    0.88    0.52
+9. Aston Villa          8   16  +7      2.00    0.88    -2.20
+10. Paris Saint Germain 10  19  +15     1.90    1.50
+11. Borussia Dortmund   10  19  +13     1.90    1.30
+12. Bayern Munich       10  19  +9      1.90    0.90    1.00
 13. Benfica             10  17  +5      1.70    0.50
-14. Club Brugge KV      10  17  -1      1.70    -0.10
-15. Feyenoord           10  17  -2      1.70    -0.20
-16. Juventus            9   15  +3      1.67    0.33
+14. PSV Eindhoven       10  17  +4      1.70    0.40
+15. Club Brugge KV      10  17  -1      1.70    -0.10
+16. Feyenoord           10  17  -2      1.70    -0.20
 17. AC Milan            10  16  +2      1.60    0.20
-18. PSV Eindhoven       9   14  +3      1.56    0.33
+18. Juventus            10  15  +2      1.50    0.20
 19. Atalanta            10  15  +11     1.50    1.10
-20. Stade Brestois 29   9   13  -4      1.44    -0.44
-21. Monaco              10  14  -1      1.40    -0.10
-22. Celtic              10  13  -2      1.30    -0.20
-23. Manchester City     9   11  +3      1.22    0.33
-24. Sporting CP         9   11  -2      1.22    -0.22
+20. Monaco              10  14  -1      1.40    -0.10
+21. Celtic              10  13  -2      1.30    -0.20
+22. Stade Brestois 29   10  13  -11     1.30    -1.10
+23. Sporting CP         10  12  -2      1.20    -0.20
+24. Manchester City     10  11  +1      1.10    0.10
+
+1/8                     pl  pts gdif    pts/pl  gdif/pl TLrate
+1. Liverpool            8   21  +12     2.63    1.50
+2. Barcelona            8   19  +15     2.38    1.88
+3. Arsenal              8   19  +13     2.38    1.63
+4. Inter                8   19  +10     2.38    1.25
+5. Atletico Madrid      8   18  +8      2.25    1.00
+6. Real Madrid          10  21  +11     2.10    1.10    1.49
+7. Bayer Leverkusen     8   16  +8      2.00    1.00
+8. Lille                8   16  +7      2.00    0.88    0.52
+9. Aston Villa          8   16  +7      2.00    0.88    -2.20
+10. Paris Saint Germain 10  19  +15     1.90    1.50
+11. Borussia Dortmund   10  19  +13     1.90    1.30
+12. Bayern Munich       10  19  +9      1.90    0.90    1.00
+13. Benfica             10  17  +5      1.70    0.50
+14. PSV Eindhoven       10  17  +4      1.70    0.40
+15. Club Brugge KV      10  17  -1      1.70    -0.10
+16. Feyenoord           10  17  -2      1.70    -0.20
 
 
 
@@ -88,22 +106,40 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 3. Manchester United    8   18  +7      2.25    0.88
 4. Tottenham            8   17  +8      2.13    1.00
 5. Eintracht Frankfurt  8   16  +4      2.00    0.50
-6. FCSB*                9   17  +2      1.89    0.22
-7. Lyon                 8   15  +8      1.88    1.00
-8. Olympiakos Piraeus   8   15  +6      1.88    0.75
-9. Ajax                 9   16  +10     1.78    1.11
-10. Real Sociedad       9   16  +5      1.78    0.56
-11. Rangers             8   14  +6      1.75    0.75
-12. Ferencváros*        9   15  +1      1.67    0.11
-13. AZ Alkmaar          9   14  +3      1.56    0.33
-14. Bodo/Glimt          9   14  +2      1.56    0.22
-15. Anderlecht          9   14  -1      1.56    -0.11
-16. AS Roma             9   13  +4      1.44    0.44
-17. Fenerbahce          9   13  +1      1.44    0.11
-18. Twente              9   13  0       1.44    0.00
-19. Galatasaray         9   13  0       1.44    0.00
-20. Plzen               9   12  0       1.33    0.00
-21. FC Porto            9   12  +2      1.33    0.22
-22. FC Midtjylland      9   11  -1      1.22    -0.11
-23. Union St. Gilloise  9   11  -2      1.22    -0.22
-24. PAOK                9   10  +1      1.11    0.11
+6. FCSB*                10  20  +4      2.00    0.40
+7. Real Sociedad        10  19  +8      1.90    0.80
+8. Lyon                 8   15  +8      1.88    1.00
+9. Olympiakos Piraeus   8   15  +6      1.88    0.75
+10. Rangers             8   14  +6      1.75    0.75
+11. Bodo/Glimt          10  17  +3      1.70    0.30
+12. Ajax                10  16  +8      1.60    0.80
+13. AS Roma             10  16  +5      1.60    0.50
+14. AZ Alkmaar          10  15  +3      1.50    0.30    -3.17
+15. Plzen               10  15  +3      1.50    0.30    null
+16. Ferencváros*        10  15  -2      1.50    -0.20
+17. Anderlecht          10  15  -1      1.50    -0.10
+18. Fenerbahce          10  14  +1      1.40    0.10
+19. Galatasaray         10  14  0       1.40    0.00    null
+20. Union St. Gilloise  10  14  0       1.40    0.00    null
+21. Twente              10  13  -1      1.30    -0.10
+22. FC Porto            10  12  +1      1.20    0.10
+23. FC Midtjylland      10  11  -4      1.10    -0.40
+24. PAOK                10  10  -1      1.00    -0.10
+
+1/8                     pl  pts gdif    pts/pl  gdif/pl TLrate
+1. Lazio                8   19  +12     2.63    1.50
+2. Athletic Club        8   19  +8      2.63    1.00
+3. Manchester United    8   18  +7      2.25    0.88
+4. Tottenham            8   17  +8      2.13    1.00
+5. Eintracht Frankfurt  8   16  +4      2.00    0.50
+6. FCSB*                10  20  +4      2.00    0.40
+7. Real Sociedad        10  19  +8      1.90    0.80
+8. Lyon                 8   15  +8      1.88    1.00
+9. Olympiakos Piraeus   8   15  +6      1.88    0.75
+10. Rangers             8   14  +6      1.75    0.75
+11. Bodo/Glimt          10  17  +3      1.70    0.30
+12. Ajax                10  16  +8      1.60    0.80
+13. AS Roma             10  16  +5      1.60    0.50
+14. AZ Alkmaar          10  15  +3      1.50    0.30    -3.17
+15. Plzen               10  15  +3      1.50    0.30    null
+16. Fenerbahce          10  14  +1      1.40    0.10
