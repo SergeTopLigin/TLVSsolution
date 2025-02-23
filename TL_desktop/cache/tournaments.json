@@ -24,7 +24,7 @@
       "UECL 24-25": {
         "tytle": "UECL",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -44,39 +44,6 @@
         "id": null,
         "type": null,
         "name": "TopLiga"
-      }
-    }
-  },
-  "ENG": {
-    "as_short": "ENG",
-    "as_full": "England",
-    "tournaments": {
-      "ENG League 24-25": {
-        "tytle": "ENG League",
-        "season": "24-25",
-        "rating": 0.53,
-        "quota": 4,
-        "id": 39,
-        "type": "League",
-        "name": "Premier League"
-      },
-      "ENG Cup 24-25": {
-        "tytle": "ENG Cup",
-        "season": "24-25",
-        "rating": 0.06,
-        "quota": 0,
-        "id": 45,
-        "type": "Cup",
-        "name": "FA Cup"
-      },
-      "ENG LCup 24-25": {
-        "tytle": "ENG LCup",
-        "season": "24-25",
-        "rating": 0.3,
-        "quota": 1,
-        "id": 48,
-        "type": "Cup",
-        "name": "League Cup"
       }
     }
   },
@@ -104,6 +71,39 @@
       }
     }
   },
+  "ENG": {
+    "as_short": "ENG",
+    "as_full": "England",
+    "tournaments": {
+      "ENG League 24-25": {
+        "tytle": "ENG League",
+        "season": "24-25",
+        "rating": 0.51,
+        "quota": 3,
+        "id": 39,
+        "type": "League",
+        "name": "Premier League"
+      },
+      "ENG Cup 24-25": {
+        "tytle": "ENG Cup",
+        "season": "24-25",
+        "rating": 0.06,
+        "quota": 0,
+        "id": 45,
+        "type": "Cup",
+        "name": "FA Cup"
+      },
+      "ENG LCup 24-25": {
+        "tytle": "ENG LCup",
+        "season": "24-25",
+        "rating": 0.3,
+        "quota": 1,
+        "id": 48,
+        "type": "Cup",
+        "name": "League Cup"
+      }
+    }
+  },
   "ESP": {
     "as_short": "ESP",
     "as_full": "Spain",
@@ -111,7 +111,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.51,
+        "rating": 0.5,
         "quota": 3,
         "id": 140,
         "type": "League",

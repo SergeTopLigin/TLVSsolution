@@ -132,7 +132,7 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 3. Manchester United    8   18  +7      2.25    0.88
 4. Tottenham            8   17  +8      2.13    1.00
 5. Eintracht Frankfurt  8   16  +4      2.00    0.50
-6. FCSB*                10  20  +4      2.00    0.40
+6. FCSB                 10  20  +4      2.00    0.40
 7. Real Sociedad        10  19  +8      1.90    0.80
 8. Lyon                 8   15  +8      1.88    1.00
 9. Olympiakos Piraeus   8   15  +6      1.88    0.75
