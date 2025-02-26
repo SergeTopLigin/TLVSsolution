@@ -1,49 +1,97 @@
 [
     {
-    "date": "2025-02-23T19:30:00+00:00",
+    "date": "2025-02-26T22:30:00+00:00",
+    "tourn_short": "ENG League",
+    "season": "24-25",
+    "tourn_round": "RS-27",
+    "home": "Nottingham Forest",
+    "away": "Arsenal",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 3,
+        "away": 2
+        }
+    },
+    {
+    "date": "2025-03-01T23:00:00+00:00",
+    "tourn_short": "ESP League",
+    "season": "24-25",
+    "tourn_round": "RS-26",
+    "home": "Atletico Madrid",
+    "away": "Athletic Club",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 3,
+        "away": 4
+        }
+    },
+    {
+    "date": "2025-03-01T20:00:00+00:00",
+    "tourn_short": "ITA League",
+    "season": "24-25",
+    "tourn_round": "RS-27",
+    "home": "Napoli",
+    "away": "Inter",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 2
+        }
+    },
+    {
+    "date": "2025-03-01T20:30:00+00:00",
     "tourn_short": "GER League",
     "season": "24-25",
-    "tourn_round": "RS-23",
-    "home": "Bayern München",
-    "away": "Eintracht Frankfurt",
+    "tourn_round": "RS-24",
+    "home": "Eintracht Frankfurt",
+    "away": "Bayer Leverkusen",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 3,
+        "away": 2
+        }
+    },
+    {
+    "date": "2025-03-01T23:05:00+00:00",
+    "tourn_short": "FRA League",
+    "season": "24-25",
+    "tourn_round": "RS-24",
+    "home": "Paris Saint Germain",
+    "away": "Lille",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 1,
-        "away": 3
+        "away": 4
         }
     },
     {
-    "date": "2025-02-25T23:30:00+00:00",
-    "tourn_short": "ESP Cup",
+    "date": "2025-03-02T22:45:00+00:00",
+    "tourn_short": "ITA League",
     "season": "24-25",
-    "tourn_round": "1/2",
-    "home": "Barcelona",
-    "away": "Atletico Madrid",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 1,
-        "away": 3
-        }
-    },
-    {
-    "date": "2025-02-25T23:00:00+00:00",
-    "tourn_short": "ITA Cup",
-    "season": "24-25",
-    "tourn_round": "1/4",
-    "home": "Inter",
+    "tourn_round": "RS-27",
+    "home": "AC Milan",
     "away": "Lazio",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 2,
+        "home": 6,
         "away": 5
         }
     }
