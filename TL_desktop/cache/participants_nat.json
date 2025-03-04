@@ -57,12 +57,12 @@
       "id": 529
     },
     {
-      "club": "Real Madrid",
-      "id": 541
-    },
-    {
       "club": "Atletico Madrid",
       "id": 530
+    },
+    {
+      "club": "Real Madrid",
+      "id": 541
     },
     {
       "club": "Athletic Club",
@@ -97,12 +97,12 @@
       "id": 81
     },
     {
-      "club": "Lille",
-      "id": 79
-    },
-    {
       "club": "Monaco",
       "id": 91
+    },
+    {
+      "club": "Lille",
+      "id": 79
     }
   ],
   "POR": [

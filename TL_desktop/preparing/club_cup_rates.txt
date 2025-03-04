@@ -13,12 +13,21 @@ Newcastle 2.29
     0.82: Arsenal 2025-02-05
 
 ITA Cup
-Lazio 2.68
+(Lazio 2.68
     0.24: curr
     0.04: Napoli 2024-12-05
 Bologna 1.36
     -1.2: curr
     0.16: Atalanta 2025-01-04
+Inter 3.69
+    1.02: curr
+    0.27: Lazio 2025-02-25
+AC Milan 2.67
+    0.01: curr
+    0.26: AS Roma 2025-02-05
+Empoli 1.44
+    -1.2: curr
+    0.24: Juventus 2025-02-26
 
 ESP Cup
 (Pontevedra 

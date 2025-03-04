@@ -50,7 +50,7 @@
             },
             {
                 "round": "5 Round",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-03-01 18:00:00",
                 "total_teams": 16,
                 "teams_TL": [
@@ -59,6 +59,18 @@
                     ["Aston Villa", 66],
                     ["Brighton", 51],
                     ["Newcastle", 34]
+                ]
+            },
+            {
+                "round": "1/4",
+                "status": "curr",
+                "last_date": "2025-03-29 18:00:00",
+                "total_teams": 8,
+                "teams_TL": [
+                    ["Manchester City", 50],
+                    ["Aston Villa", 66],
+                    ["Brighton", 51],
+                    ["Nottingham Forest", 65]
                 ]
             }
         ]
@@ -293,7 +305,7 @@
             },
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-26 23:00:00",
                 "total_teams": 8,
                 "teams_TL": [
@@ -302,6 +314,16 @@
                     ["Juventus", 496],
                     ["AS Roma", 497],
                     ["Atalanta", 499],
+                    ["Inter", 505]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-04-23 23:00:00",
+                "total_teams": 4,
+                "teams_TL": [
+                    ["AC Milan", 489],
                     ["Inter", 505]
                 ]
             }
@@ -360,9 +382,20 @@
             },
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-26 22:45:00",
                 "total_teams": 8,
+                "teams_TL": [
+                    ["RB Leipzig", 173],
+                    ["VfB Stuttgart", 172],
+                    ["Bayer Leverkusen", 168]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-04-01 22:45:00",
+                "total_teams": 4,
                 "teams_TL": [
                     ["RB Leipzig", 173],
                     ["VfB Stuttgart", 172],
@@ -426,12 +459,21 @@
             },
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-26 23:10:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Paris Saint Germain", 85],
                     ["Stade Brestois 29", 106]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-04-02 18:00:00",
+                "total_teams": 4,
+                "teams_TL": [
+                    ["Paris Saint Germain", 85]
                 ]
             }
         ]
@@ -482,12 +524,22 @@
             },
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-26 18:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Sporting CP", 228],
                     ["SC Braga", 217],
+                    ["Benfica", 211]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-04-23 18:00:00",
+                "total_teams": 4,
+                "teams_TL": [
+                    ["Sporting CP", 228],
                     ["Benfica", 211]
                 ]
             }
@@ -588,12 +640,19 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-02-27 22:00:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["PSV Eindhoven", 197]
                 ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-04-21 19:00:00",
+                "total_teams": 2,
+                "teams_TL": []
             }
         ]
     },
