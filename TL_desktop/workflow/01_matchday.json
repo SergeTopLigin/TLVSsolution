@@ -1,66 +1,66 @@
 [
     {
-    "date": "2025-03-04T20:45:00+00:00",
+    "date": "2025-03-05T20:45:00+00:00",
     "tourn_short": "UCL",
     "season": "24-25",
     "tourn_round": "1/8",
-    "home": "Club Brugge KV",
-    "away": "Aston Villa",
+    "home": "Feyenoord",
+    "away": "Inter",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 4,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-03-05T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/8",
+    "home": "Paris Saint Germain",
+    "away": "Liverpool",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-03-05T23:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/8",
+    "home": "Benfica",
+    "away": "Barcelona",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 2,
-        "away": 10
+        "away": 1
         }
     },
     {
-    "date": "2025-03-04T23:00:00+00:00",
+    "date": "2025-03-05T23:00:00+00:00",
     "tourn_short": "UCL",
     "season": "24-25",
     "tourn_round": "1/8",
-    "home": "Real Madrid",
-    "away": "Atletico Madrid",
+    "home": "Bayern München",
+    "away": "Bayer Leverkusen",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 3,
+        "home": 1,
         "away": 2
-        }
-    },
-    {
-    "date": "2025-03-04T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/8",
-    "home": "PSV Eindhoven",
-    "away": "Arsenal",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 2
-        }
-    },
-    {
-    "date": "2025-03-04T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/8",
-    "home": "Borussia Dortmund",
-    "away": "Lille",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 10,
-        "away": 5
         }
     }
 ]

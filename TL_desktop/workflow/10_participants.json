@@ -16,7 +16,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 1.63,
+        "rating": 1.59,
         "quota": 20,
         "id": 2,
         "type": "Cup",
@@ -219,7 +219,7 @@
       "UECL 24-25": {
         "tytle": "UECL",
         "season": "24-25",
-        "rating": 0.07,
+        "rating": 0.06,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -340,7 +340,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.52,
+        "rating": 0.51,
         "quota": 4,
         "id": 135,
         "type": "League",
@@ -405,8 +405,8 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.5,
-        "quota": 3,
+        "rating": 0.51,
+        "quota": 4,
         "id": 39,
         "type": "League",
         "name": "Premier League",
@@ -425,6 +425,11 @@
             "club": "Nottingham Forest",
             "id": 65,
             "pos": 3
+          },
+          {
+            "club": "Manchester City",
+            "id": 50,
+            "pos": 4
           }
         ]
       },
@@ -475,7 +480,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.5,
+        "rating": 0.49,
         "quota": 3,
         "id": 140,
         "type": "League",
@@ -501,16 +506,21 @@
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.47,
-        "quota": 1,
+        "rating": 0.46,
+        "quota": 2,
         "id": 143,
         "type": "Cup",
         "name": "Copa del Rey",
         "participants": [
           {
+            "club": "Real Madrid",
+            "id": 541,
+            "pos": 1
+          },
+          {
             "club": "Barcelona",
             "id": 529,
-            "pos": 1
+            "pos": 2
           }
         ]
       }
@@ -533,7 +543,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.43,
+        "rating": 0.42,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -559,7 +569,7 @@
       "GER Cup 24-25": {
         "tytle": "GER Cup",
         "season": "24-25",
-        "rating": 0.16,
+        "rating": 0.15,
         "quota": 0,
         "id": 81,
         "type": "Cup",
@@ -585,7 +595,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.25,
+        "rating": 0.24,
         "quota": 2,
         "id": 61,
         "type": "League",
@@ -674,7 +684,7 @@
       "NED League 24-25": {
         "tytle": "NED League",
         "season": "24-25",
-        "rating": 0.18,
+        "rating": 0.16,
         "quota": 1,
         "id": 88,
         "type": "League",
@@ -695,38 +705,6 @@
         "id": 90,
         "type": "Cup",
         "name": "KNVB Beker",
-        "participants": []
-      }
-    }
-  },
-  "BEL": {
-    "as_short": "BEL",
-    "as_full": "Belgium",
-    "tournaments": {
-      "BEL League 24-25": {
-        "tytle": "BEL League",
-        "season": "24-25",
-        "rating": 0.14,
-        "quota": 1,
-        "id": 144,
-        "type": "League",
-        "name": "Jupiler Pro League",
-        "participants": [
-          {
-            "club": "Genk",
-            "id": 742,
-            "pos": 1
-          }
-        ]
-      },
-      "BEL Cup 24-25": {
-        "tytle": "BEL Cup",
-        "season": "24-25",
-        "rating": 0.23,
-        "quota": 0,
-        "id": 147,
-        "type": "Cup",
-        "name": "Cup",
         "participants": []
       }
     }

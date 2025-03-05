@@ -39,6 +39,10 @@
       "id": 65
     },
     {
+      "club": "Manchester City",
+      "id": 50
+    },
+    {
       "club": "Chelsea",
       "id": 49
     },
@@ -130,10 +134,6 @@
     }
   ],
   "BEL": [
-    {
-      "club": "Genk",
-      "id": 742
-    },
     {
       "club": "Club Brugge KV",
       "id": 569
