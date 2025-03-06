@@ -53,22 +53,22 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 24. Manchester City     10  11  +1      1.10    0.10
 
 1/8                     pl  pts gdif    pts/pl  gdif/pl TLrate
-1. Liverpool            8   21  +12     2.63    1.50
-2. Barcelona            8   19  +15     2.38    1.88
-3. Arsenal              8   19  +13     2.38    1.63
-4. Inter                8   19  +10     2.38    1.25
-5. Atletico Madrid      8   18  +8      2.25    1.00
-6. Real Madrid          10  21  +11     2.10    1.10    1.49
-7. Bayer Leverkusen     8   16  +8      2.00    1.00
-8. Lille                8   16  +7      2.00    0.88    0.52
-9. Aston Villa          8   16  +7      2.00    0.88    -2.20
-10. Paris Saint Germain 10  19  +15     1.90    1.50
-11. Borussia Dortmund   10  19  +13     1.90    1.30
-12. Bayern Munich       10  19  +9      1.90    0.90    1.00
-13. Benfica             10  17  +5      1.70    0.50
-14. PSV Eindhoven       10  17  +4      1.70    0.40
-15. Club Brugge KV      10  17  -1      1.70    -0.10
-16. Feyenoord           10  17  -2      1.70    -0.20
+1. Liverpool            9   24  +13     2.67    1.44
+2. Arsenal              9   22  +19     2.44    2.11
+3. Barcelona            9   22  +16     2.44    1.78
+4. Inter                9   22  +12     2.44    1.33
+5. Real Madrid          11  24  +12     2.18    1.09    1.49
+6. Aston Villa          9   19  +9      2.11    1.00    -2.20
+7. Bayern Munich        11  22  +12     2.00    1.09    1.00
+8. Atletico Madrid      9   18  +7      2.00    0.78
+9. Lille                9   17  +7      1.89    0.78    0.52
+10. Borussia Dortmund   11  20  +13     1.82    1.18
+11. Bayer Leverkusen    9   16  +5      1.78    0.56
+12. Paris Saint Germain 11  19  +14     1.73    1.27
+13. Benfica             11  17  +4      1.55    0.36
+14. PSV Eindhoven       11  17  -2      1.55    -0.18
+15. Club Brugge KV      11  17  -3      1.55    -0.27
+16. Feyenoord           11  17  -4      1.55    -0.36
 
 
 

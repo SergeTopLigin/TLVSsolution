@@ -30,18 +30,18 @@
             "cur_nat_pos": 1
           },
           {
-            "club": "Barcelona",
-            "id": 529,
-            "pos": 2,
-            "nat": "ESP",
-            "cur_nat_pos": 1
-          },
-          {
             "club": "Arsenal",
             "id": 42,
-            "pos": 3,
+            "pos": 2,
             "nat": "ENG",
             "cur_nat_pos": 2
+          },
+          {
+            "club": "Barcelona",
+            "id": 529,
+            "pos": 3,
+            "nat": "ESP",
+            "cur_nat_pos": 1
           },
           {
             "club": "Inter",
@@ -51,59 +51,59 @@
             "cur_nat_pos": 1
           },
           {
-            "club": "Atletico Madrid",
-            "id": 530,
-            "pos": 5,
-            "nat": "ESP",
-            "cur_nat_pos": 2
-          },
-          {
             "club": "Real Madrid",
             "id": 541,
-            "pos": 6,
+            "pos": 5,
             "nat": "ESP",
             "cur_nat_pos": 3
           },
           {
-            "club": "Bayer Leverkusen",
-            "id": 168,
-            "pos": 7,
-            "nat": "GER",
-            "cur_nat_pos": 2
-          },
-          {
-            "club": "Lille",
-            "id": 79,
-            "pos": 8,
-            "nat": "FRA",
-            "cur_nat_pos": 5
-          },
-          {
             "club": "Aston Villa",
             "id": 66,
-            "pos": 9,
+            "pos": 6,
             "nat": "ENG",
-            "cur_nat_pos": 10
-          },
-          {
-            "club": "Paris Saint Germain",
-            "id": 85,
-            "pos": 10,
-            "nat": "FRA",
-            "cur_nat_pos": 1
-          },
-          {
-            "club": "Borussia Dortmund",
-            "id": 165,
-            "pos": 11,
-            "nat": "GER",
             "cur_nat_pos": 10
           },
           {
             "club": "Bayern Munich",
             "id": 157,
-            "pos": 12,
+            "pos": 7,
             "nat": "GER",
+            "cur_nat_pos": 1
+          },
+          {
+            "club": "Atletico Madrid",
+            "id": 530,
+            "pos": 8,
+            "nat": "ESP",
+            "cur_nat_pos": 2
+          },
+          {
+            "club": "Lille",
+            "id": 79,
+            "pos": 9,
+            "nat": "FRA",
+            "cur_nat_pos": 5
+          },
+          {
+            "club": "Borussia Dortmund",
+            "id": 165,
+            "pos": 10,
+            "nat": "GER",
+            "cur_nat_pos": 10
+          },
+          {
+            "club": "Bayer Leverkusen",
+            "id": 168,
+            "pos": 11,
+            "nat": "GER",
+            "cur_nat_pos": 2
+          },
+          {
+            "club": "Paris Saint Germain",
+            "id": 85,
+            "pos": 12,
+            "nat": "FRA",
             "cur_nat_pos": 1
           },
           {
@@ -257,53 +257,53 @@
             "cur_nat_pos": 1
           },
           {
-            "club": "Paris Saint Germain",
-            "id": 85,
-            "pos": 2,
-            "nat": "FRA",
-            "cur_nat_pos": 1
-          },
-          {
             "club": "Barcelona",
             "id": 529,
-            "pos": 3,
+            "pos": 2,
             "nat": "ESP",
             "cur_nat_pos": 1
           },
           {
             "club": "Real Madrid",
             "id": 541,
-            "pos": 4,
+            "pos": 3,
             "nat": "ESP",
             "cur_nat_pos": 3
           },
           {
-            "club": "Atletico Madrid",
-            "id": 530,
-            "pos": 5,
-            "nat": "ESP",
-            "cur_nat_pos": 2
+            "club": "Paris Saint Germain",
+            "id": 85,
+            "pos": 4,
+            "nat": "FRA",
+            "cur_nat_pos": 1
           },
           {
             "club": "Bayern München",
             "id": 157,
-            "pos": 6,
+            "pos": 5,
             "nat": "GER",
             "cur_nat_pos": 1
           },
           {
-            "club": "Club Brugge KV",
-            "id": 569,
-            "pos": 7,
-            "nat": "BEL",
+            "club": "Atletico Madrid",
+            "id": 530,
+            "pos": 6,
+            "nat": "ESP",
             "cur_nat_pos": 2
           },
           {
             "club": "Inter",
             "id": 505,
-            "pos": 8,
+            "pos": 6,
             "nat": "ITA",
             "cur_nat_pos": 1
+          },
+          {
+            "club": "Arsenal",
+            "id": 42,
+            "pos": 8,
+            "nat": "ENG",
+            "cur_nat_pos": 2
           },
           {
             "club": "Bayer Leverkusen",
@@ -313,10 +313,10 @@
             "cur_nat_pos": 2
           },
           {
-            "club": "Arsenal",
-            "id": 42,
+            "club": "Club Brugge KV",
+            "id": 569,
             "pos": 10,
-            "nat": "ENG",
+            "nat": "BEL",
             "cur_nat_pos": 2
           }
         ]
@@ -340,7 +340,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.51,
+        "rating": 0.52,
         "quota": 4,
         "id": 135,
         "type": "League",
@@ -446,7 +446,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.3,
+        "rating": 0.32,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -480,7 +480,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.49,
+        "rating": 0.5,
         "quota": 3,
         "id": 140,
         "type": "League",
@@ -506,7 +506,7 @@
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.46,
+        "rating": 0.47,
         "quota": 2,
         "id": 143,
         "type": "Cup",
@@ -543,7 +543,7 @@
       "GER League 24-25": {
         "tytle": "GER League",
         "season": "24-25",
-        "rating": 0.42,
+        "rating": 0.43,
         "quota": 3,
         "id": 78,
         "type": "League",
@@ -684,7 +684,7 @@
       "NED League 24-25": {
         "tytle": "NED League",
         "season": "24-25",
-        "rating": 0.16,
+        "rating": 0.14,
         "quota": 1,
         "id": 88,
         "type": "League",

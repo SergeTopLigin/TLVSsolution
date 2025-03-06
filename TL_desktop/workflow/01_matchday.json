@@ -1,66 +1,18 @@
 [
     {
-    "date": "2025-03-05T20:45:00+00:00",
-    "tourn_short": "UCL",
+    "date": "2025-03-06T23:00:00+00:00",
+    "tourn_short": "UEL",
     "season": "24-25",
     "tourn_round": "1/8",
-    "home": "Feyenoord",
-    "away": "Inter",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 4,
-        "away": 1
-        }
-    },
-    {
-    "date": "2025-03-05T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/8",
-    "home": "Paris Saint Germain",
-    "away": "Liverpool",
+    "home": "Ajax",
+    "away": "Eintracht Frankfurt",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 1,
-        "away": 1
-        }
-    },
-    {
-    "date": "2025-03-05T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/8",
-    "home": "Benfica",
-    "away": "Barcelona",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 2,
-        "away": 1
-        }
-    },
-    {
-    "date": "2025-03-05T23:00:00+00:00",
-    "tourn_short": "UCL",
-    "season": "24-25",
-    "tourn_round": "1/8",
-    "home": "Bayern München",
-    "away": "Bayer Leverkusen",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 1,
-        "away": 2
+        "away": 3
         }
     }
 ]

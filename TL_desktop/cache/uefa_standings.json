@@ -16,15 +16,15 @@
   "Bayern München": {
     "IDapi": 157,
     "nat": "GER",
-    "TL_rank": 1.75,
-    "visual_rank": 87,
+    "TL_rank": 1.82,
+    "visual_rank": 89,
     "buffer": false
   },
   "Liverpool": {
     "IDapi": 40,
     "nat": "ENG",
-    "TL_rank": 1.57,
-    "visual_rank": 81,
+    "TL_rank": 1.64,
+    "visual_rank": 84,
     "buffer": false
   },
   "Paris Saint Germain": {
@@ -34,18 +34,18 @@
     "visual_rank": 62,
     "buffer": false
   },
+  "Inter": {
+    "IDapi": 505,
+    "nat": "ITA",
+    "TL_rank": 0.9,
+    "visual_rank": 62,
+    "buffer": false
+  },
   "AS Roma": {
     "IDapi": 497,
     "nat": "ITA",
     "TL_rank": 0.86,
     "visual_rank": 61,
-    "buffer": false
-  },
-  "Inter": {
-    "IDapi": 505,
-    "nat": "ITA",
-    "TL_rank": 0.83,
-    "visual_rank": 60,
     "buffer": false
   },
   "Borussia Dortmund": {
@@ -72,8 +72,8 @@
   "Barcelona": {
     "IDapi": 529,
     "nat": "ESP",
-    "TL_rank": 0.54,
-    "visual_rank": 51,
+    "TL_rank": 0.61,
+    "visual_rank": 53,
     "buffer": false
   },
   "Atletico Madrid": {
