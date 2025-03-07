@@ -33,3 +33,14 @@ ESP Cup
 (Pontevedra 
     -1.2: curr
     -0.14: Villarreal 2024-12-04
+
+GER Cup
+Bayer Leverkusen
+    0.69: curr
+    1.32: Bayern München 2024-12-03
+RB Leipzig
+    -0.14: curr
+    -0.47: Eintracht Frankfurt 2024-12-04
+VfB Stuttgart
+    -1.2: curr
+    
