@@ -47,30 +47,6 @@
       }
     }
   },
-  "ITA": {
-    "as_short": "ITA",
-    "as_full": "Italy",
-    "tournaments": {
-      "ITA League 24-25": {
-        "tytle": "ITA League",
-        "season": "24-25",
-        "rating": 0.52,
-        "quota": 4,
-        "id": 135,
-        "type": "League",
-        "name": "Serie A"
-      },
-      "ITA Cup 24-25": {
-        "tytle": "ITA Cup",
-        "season": "24-25",
-        "rating": 0.23,
-        "quota": 1,
-        "id": 137,
-        "type": "Cup",
-        "name": "Coppa Italia"
-      }
-    }
-  },
   "ENG": {
     "as_short": "ENG",
     "as_full": "England",
@@ -78,7 +54,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.51,
+        "rating": 0.53,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -101,6 +77,30 @@
         "id": 48,
         "type": "Cup",
         "name": "League Cup"
+      }
+    }
+  },
+  "ITA": {
+    "as_short": "ITA",
+    "as_full": "Italy",
+    "tournaments": {
+      "ITA League 24-25": {
+        "tytle": "ITA League",
+        "season": "24-25",
+        "rating": 0.53,
+        "quota": 4,
+        "id": 135,
+        "type": "League",
+        "name": "Serie A"
+      },
+      "ITA Cup 24-25": {
+        "tytle": "ITA Cup",
+        "season": "24-25",
+        "rating": 0.23,
+        "quota": 1,
+        "id": 137,
+        "type": "Cup",
+        "name": "Coppa Italia"
       }
     }
   },
@@ -201,7 +201,7 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.14,
+        "rating": 0.13,
         "quota": 0,
         "id": 97,
         "type": "Cup",
