@@ -136,19 +136,19 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 24. PAOK                10  10  -1      1.00    -0.10
 
 1/8                     pl  pts gdif    pts/pl  gdif/pl TLrate
-1. Lazio                9   22  +13     2.44    1.44
-2. Athletic Club        9   19  +7      2.11    0.78    -1.76
-3. Manchester United    9   19  +7      2.11    0.78    -0.29
-4. Eintracht Frankfurt  9   19  +5      2.11    0.56
-5. Lyon                 9   18  +10     2.00    1.11
-6. Rangers              9   17  +8      1.89    0.89
-7. Tottenham            9   17  +7      1.89    0.78
-8. Real Sociedad        11  20  +8      1.82    0.73
-9. Bodo/Glimt           11  20  +6      1.82    0.55
-10. FCSB                11  20  +2      1.82    0.18
-11. AS Roma             11  19  +6      1.73    0.55
-12. Olympiakos Piraeus  9   15  +3      1.67    0.33
-13. AZ Alkmaar          11  18  +4      1.64    0.36    -3.17
-14. Ajax                11  16  +7      1.45    0.64
-15. Plzen               11  15  +2      1.36    0.18    null
-16. Fenerbahce          11  14  -1      1.27    -0.09
+1. Lazio                10  23  +13     2.30    1.30
+3. Manchester United    10  22  +10     2.20    1.00    -0.29
+2. Athletic Club        10  22  +9      2.20    0.90    -1.76
+4. Eintracht Frankfurt  10  22  +8      2.20    0.80
+5. Lyon                 10  21  +14     2.10    1.40
+7. Tottenham            10  20  +9      2.00    0.90
+12. Olympiakos Piraeus  10  18  +4      1.80    0.40
+6. Rangers              10  17  +6      1.70    0.60
+8. Real Sociedad        12  20  +5      1.67    0.42    -0.04
+9. Bodo/Glimt           12  20  +5      1.67    0.42    -3.52
+10. FCSB                12  20  -2      1.67    -0.17
+11. AS Roma             12  19  +4      1.58    0.33
+13. AZ Alkmaar          12  18  +2      1.50    0.17    -3.17
+16. Fenerbahce          12  17  +1      1.42    0.08
+14. Ajax                12  16  +4      1.33    0.33
+15. Plzen               12  16  +2      1.33    0.17    null
