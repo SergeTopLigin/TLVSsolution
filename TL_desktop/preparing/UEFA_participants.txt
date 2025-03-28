@@ -137,18 +137,28 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 
 1/8                     pl  pts gdif    pts/pl  gdif/pl TLrate
 1. Lazio                10  23  +13     2.30    1.30
-3. Manchester United    10  22  +10     2.20    1.00    -0.29
-2. Athletic Club        10  22  +9      2.20    0.90    -1.76
+2. Manchester United    10  22  +10     2.20    1.00    -0.29
+3. Athletic Club        10  22  +9      2.20    0.90    -1.76
 4. Eintracht Frankfurt  10  22  +8      2.20    0.80
 5. Lyon                 10  21  +14     2.10    1.40
-7. Tottenham            10  20  +9      2.00    0.90
-12. Olympiakos Piraeus  10  18  +4      1.80    0.40
-6. Rangers              10  17  +6      1.70    0.60
-8. Real Sociedad        12  20  +5      1.67    0.42    -0.04
-9. Bodo/Glimt           12  20  +5      1.67    0.42    -3.52
-10. FCSB                12  20  -2      1.67    -0.17
-11. AS Roma             12  19  +4      1.58    0.33
+6. Tottenham            10  20  +9      2.00    0.90
+7. Olympiakos Piraeus   10  18  +4      1.80    0.40
+8. Rangers              10  17  +6      1.70    0.60
+9. Real Sociedad        12  20  +5      1.67    0.42    -0.04
+10. Bodo/Glimt          12  20  +5      1.67    0.42    -3.52
+11. FCSB                12  20  -2      1.67    -0.17
+12. AS Roma             12  19  +4      1.58    0.33
 13. AZ Alkmaar          12  18  +2      1.50    0.17    -3.17
-16. Fenerbahce          12  17  +1      1.42    0.08
-14. Ajax                12  16  +4      1.33    0.33
-15. Plzen               12  16  +2      1.33    0.17    null
+14. Fenerbahce          12  17  +1      1.42    0.08
+15. Ajax                12  16  +4      1.33    0.33
+16. Plzen               12  16  +2      1.33    0.17    null
+
+1/4                     pl  pts gdif    pts/pl  gdif/pl TLrate
+1. Lazio                10  23  +13     2.30    1.30
+2. Manchester United    10  22  +10     2.20    1.00    -0.29
+3. Athletic Club        10  22  +9      2.20    0.90    -1.76
+4. Eintracht Frankfurt  10  22  +8      2.20    0.80
+5. Lyon                 10  21  +14     2.10    1.40
+6. Tottenham            10  20  +9      2.00    0.90
+7. Rangers              10  17  +6      1.70    0.60
+8. Bodo/Glimt           12  20  +5      1.67    0.42    -3.52

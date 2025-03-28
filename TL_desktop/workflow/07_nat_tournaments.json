@@ -78,10 +78,10 @@
     {
         "name": "ENG LCup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-08-13",
-            "final": null
+            "final": "2025-03-16"
         },
         "rounds": [
             {
@@ -155,7 +155,7 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-03-16 23:00:00",
                 "total_teams": 2,
                 "teams_TL": [
