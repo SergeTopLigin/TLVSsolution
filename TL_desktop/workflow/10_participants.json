@@ -16,7 +16,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 1.6,
+        "rating": 1.58,
         "quota": 19,
         "id": 2,
         "type": "Cup",
@@ -48,7 +48,7 @@
             "id": 66,
             "pos": 4,
             "nat": "ENG",
-            "cur_nat_pos": 9
+            "cur_nat_pos": 7
           },
           {
             "club": "Bayern Munich",
@@ -69,7 +69,7 @@
             "id": 165,
             "pos": 7,
             "nat": "GER",
-            "cur_nat_pos": 11
+            "cur_nat_pos": 10
           },
           {
             "club": "Paris Saint Germain",
@@ -97,7 +97,7 @@
             "id": 79,
             "pos": 11,
             "nat": "FRA",
-            "cur_nat_pos": 6
+            "cur_nat_pos": 5
           },
           {
             "club": "Bayer Leverkusen",
@@ -125,7 +125,7 @@
             "id": 209,
             "pos": 15,
             "nat": "NED",
-            "cur_nat_pos": 4
+            "cur_nat_pos": 3
           },
           {
             "club": "Club Brugge KV",
@@ -170,7 +170,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.32,
+        "rating": 0.35,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -181,7 +181,7 @@
             "id": 487,
             "pos": 1,
             "nat": "ITA",
-            "cur_nat_pos": 6
+            "cur_nat_pos": 7
           },
           {
             "club": "Manchester United",
@@ -202,7 +202,7 @@
             "id": 169,
             "pos": 4,
             "nat": "GER",
-            "cur_nat_pos": 4
+            "cur_nat_pos": 3
           }
         ]
       },
@@ -310,7 +310,7 @@
             "id": 165,
             "pos": 9,
             "nat": "GER",
-            "cur_nat_pos": 11
+            "cur_nat_pos": 10
           },
           {
             "club": "Bayer Leverkusen",
@@ -340,7 +340,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.6,
+        "rating": 0.61,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -371,28 +371,36 @@
       "ENG Cup 24-25": {
         "tytle": "ENG Cup",
         "season": "24-25",
-        "rating": 0.09,
-        "quota": 0,
+        "rating": 0.19,
+        "quota": 1,
         "id": 45,
         "type": "Cup",
         "name": "FA Cup",
-        "participants": []
+        "participants": [
+          {
+            "club": "Aston Villa",
+            "id": 66,
+            "pos": 1,
+            "nat": "ENG",
+            "cur_nat_pos": 7
+          }
+        ]
       },
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.28,
+        "rating": 0.27,
         "quota": 1,
         "id": 48,
         "type": "Cup",
         "name": "League Cup",
         "participants": [
           {
-            "club": "Liverpool",
-            "id": 40,
+            "club": "Newcastle",
+            "id": 34,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 1
+            "cur_nat_pos": 5
           }
         ]
       }
@@ -481,7 +489,7 @@
         "tytle": "ESP League",
         "season": "24-25",
         "rating": 0.49,
-        "quota": 3,
+        "quota": 2,
         "id": 140,
         "type": "League",
         "name": "La Liga",
@@ -495,19 +503,14 @@
             "club": "Real Madrid",
             "id": 541,
             "pos": 2
-          },
-          {
-            "club": "Atletico Madrid",
-            "id": 530,
-            "pos": 3
           }
         ]
       },
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.46,
-        "quota": 1,
+        "rating": 0.58,
+        "quota": 2,
         "id": 143,
         "type": "Cup",
         "name": "Copa del Rey",
@@ -516,6 +519,11 @@
             "club": "Barcelona",
             "id": 529,
             "pos": 1
+          },
+          {
+            "club": "Real Madrid",
+            "id": 541,
+            "pos": 2
           }
         ]
       }
@@ -555,13 +563,13 @@
             "pos": 2
           },
           {
-            "club": "FSV Mainz 05",
-            "id": 164,
+            "club": "Eintracht Frankfurt",
+            "id": 169,
             "pos": 3
           },
           {
-            "club": "Eintracht Frankfurt",
-            "id": 169,
+            "club": "FSV Mainz 05",
+            "id": 164,
             "pos": 4
           }
         ]
@@ -596,7 +604,7 @@
         "tytle": "FRA League",
         "season": "24-25",
         "rating": 0.23,
-        "quota": 2,
+        "quota": 1,
         "id": 61,
         "type": "League",
         "name": "Ligue 1",
@@ -605,22 +613,55 @@
             "club": "Paris Saint Germain",
             "id": 85,
             "pos": 1
-          },
-          {
-            "club": "Marseille",
-            "id": 81,
-            "pos": 2
           }
         ]
       },
       "FRA Cup 24-25": {
         "tytle": "FRA Cup",
         "season": "24-25",
-        "rating": 0.14,
-        "quota": 0,
+        "rating": 0.29,
+        "quota": 1,
         "id": 66,
         "type": "Cup",
         "name": "Coupe de France",
+        "participants": [
+          {
+            "club": "Paris Saint Germain",
+            "id": 85,
+            "pos": 1
+          }
+]
+      }
+    }
+  },
+  "NED": {
+    "as_short": "NED",
+    "as_full": "Netherlands",
+    "tournaments": {
+      "NED League 24-25": {
+        "tytle": "NED League",
+        "season": "24-25",
+        "rating": 0.17,
+        "quota": 1,
+        "id": 88,
+        "type": "League",
+        "name": "Eredivisie",
+        "participants": [
+          {
+            "club": "Ajax",
+            "id": 194,
+            "pos": 1
+          }
+        ]
+      },
+      "NED Cup 24-25": {
+        "tytle": "NED Cup",
+        "season": "24-25",
+        "rating": 0.09,
+        "quota": 0,
+        "id": 90,
+        "type": "Cup",
+        "name": "KNVB Beker",
         "participants": []
       }
     }
@@ -668,43 +709,11 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.11,
+        "rating": 0.1,
         "quota": 0,
         "id": 97,
         "type": "Cup",
         "name": "Taça da Liga",
-        "participants": []
-      }
-    }
-  },
-  "NED": {
-    "as_short": "NED",
-    "as_full": "Netherlands",
-    "tournaments": {
-      "NED League 24-25": {
-        "tytle": "NED League",
-        "season": "24-25",
-        "rating": 0.14,
-        "quota": 1,
-        "id": 88,
-        "type": "League",
-        "name": "Eredivisie",
-        "participants": [
-          {
-            "club": "Ajax",
-            "id": 194,
-            "pos": 1
-          }
-        ]
-      },
-      "NED Cup 24-25": {
-        "tytle": "NED Cup",
-        "season": "24-25",
-        "rating": 0.09,
-        "quota": 0,
-        "id": 90,
-        "type": "Cup",
-        "name": "KNVB Beker",
         "participants": []
       }
     }

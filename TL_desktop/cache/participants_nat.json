@@ -17,6 +17,10 @@
       "id": 49
     },
     {
+      "club": "Newcastle",
+      "id": 34
+    },
+    {
       "club": "Aston Villa",
       "id": 66
     },
@@ -83,12 +87,12 @@
       "id": 168
     },
     {
-      "club": "FSV Mainz 05",
-      "id": 164
-    },
-    {
       "club": "Eintracht Frankfurt",
       "id": 169
+    },
+    {
+      "club": "FSV Mainz 05",
+      "id": 164
     },
     {
       "club": "Borussia Dortmund",
@@ -101,22 +105,8 @@
       "id": 85
     },
     {
-      "club": "Marseille",
-      "id": 81
-    },
-    {
       "club": "Lille",
       "id": 79
-    }
-  ],
-  "POR": [
-    {
-      "club": "Sporting CP",
-      "id": 228
-    },
-    {
-      "club": "Benfica",
-      "id": 211
     }
   ],
   "NED": [
@@ -131,6 +121,16 @@
     {
       "club": "Feyenoord",
       "id": 209
+    }
+  ],
+  "POR": [
+    {
+      "club": "Sporting CP",
+      "id": 228
+    },
+    {
+      "club": "Benfica",
+      "id": 211
     }
   ],
   "BEL": [

@@ -63,13 +63,24 @@
             },
             {
                 "round": "1/4",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-03-29 18:00:00",
                 "total_teams": 8,
                 "teams_TL": [
                     ["Manchester City", 50],
                     ["Aston Villa", 66],
                     ["Brighton", 51],
+                    ["Nottingham Forest", 65]
+                ]
+            },
+            {
+                "round": "1/2",
+                "status": "curr",
+                "last_date": "2025-04-26 17:00:00",
+                "total_teams": 4,
+                "teams_TL": [
+                    ["Manchester City", 50],
+                    ["Aston Villa", 66],
                     ["Nottingham Forest", 65]
                 ]
             }
@@ -246,7 +257,7 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-04-02 23:30:00",
                 "total_teams": 4,
                 "teams_TL": [
@@ -254,6 +265,16 @@
                     ["Barcelona", 529],
                     ["Real Sociedad", 548],
                     ["Atletico Madrid", 530]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-04-26 21:00:00",
+                "total_teams": 2,
+                "teams_TL": [
+                    ["Real Madrid", 541],
+                    ["Barcelona", 529]
                 ]
             }
         ]
@@ -320,7 +341,7 @@
             {
                 "round": "1/2",
                 "status": "curr",
-                "last_date": "2025-04-23 23:00:00",
+                "last_date": "2025-04-24 22:00:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["AC Milan", 489],
@@ -393,13 +414,22 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-04-01 22:45:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["RB Leipzig", 173],
                     ["VfB Stuttgart", 172],
                     ["Bayer Leverkusen", 168]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-05-24 21:00:00",
+                "total_teams": 2,
+                "teams_TL": [
+                    ["VfB Stuttgart", 172]
                 ]
             }
         ]
@@ -469,9 +499,18 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-04-02 18:00:00",
                 "total_teams": 4,
+                "teams_TL": [
+                    ["Paris Saint Germain", 85]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-05-24 22:00:00",
+                "total_teams": 2,
                 "teams_TL": [
                     ["Paris Saint Germain", 85]
                 ]

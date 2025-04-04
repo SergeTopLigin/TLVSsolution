@@ -6,7 +6,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 1.6,
+        "rating": 1.58,
         "quota": 19,
         "id": 2,
         "type": "Cup",
@@ -15,7 +15,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.32,
+        "rating": 0.35,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -54,7 +54,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.6,
+        "rating": 0.61,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -63,8 +63,8 @@
       "ENG Cup 24-25": {
         "tytle": "ENG Cup",
         "season": "24-25",
-        "rating": 0.09,
-        "quota": 0,
+        "rating": 0.19,
+        "quota": 1,
         "id": 45,
         "type": "Cup",
         "name": "FA Cup"
@@ -72,7 +72,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.28,
+        "rating": 0.27,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -112,7 +112,7 @@
         "tytle": "ESP League",
         "season": "24-25",
         "rating": 0.49,
-        "quota": 3,
+        "quota": 2,
         "id": 140,
         "type": "League",
         "name": "La Liga"
@@ -120,8 +120,8 @@
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.46,
-        "quota": 1,
+        "rating": 0.58,
+        "quota": 2,
         "id": 143,
         "type": "Cup",
         "name": "Copa del Rey"
@@ -160,7 +160,7 @@
         "tytle": "FRA League",
         "season": "24-25",
         "rating": 0.23,
-        "quota": 2,
+        "quota": 1,
         "id": 61,
         "type": "League",
         "name": "Ligue 1"
@@ -168,11 +168,35 @@
       "FRA Cup 24-25": {
         "tytle": "FRA Cup",
         "season": "24-25",
-        "rating": 0.14,
-        "quota": 0,
+        "rating": 0.29,
+        "quota": 1,
         "id": 66,
         "type": "Cup",
         "name": "Coupe de France"
+      }
+    }
+  },
+  "NED": {
+    "as_short": "NED",
+    "as_full": "Netherlands",
+    "tournaments": {
+      "NED League 24-25": {
+        "tytle": "NED League",
+        "season": "24-25",
+        "rating": 0.17,
+        "quota": 1,
+        "id": 88,
+        "type": "League",
+        "name": "Eredivisie"
+      },
+      "NED Cup 24-25": {
+        "tytle": "NED Cup",
+        "season": "24-25",
+        "rating": 0.09,
+        "quota": 0,
+        "id": 90,
+        "type": "Cup",
+        "name": "KNVB Beker"
       }
     }
   },
@@ -201,35 +225,11 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.11,
+        "rating": 0.1,
         "quota": 0,
         "id": 97,
         "type": "Cup",
         "name": "Taça da Liga"
-      }
-    }
-  },
-  "NED": {
-    "as_short": "NED",
-    "as_full": "Netherlands",
-    "tournaments": {
-      "NED League 24-25": {
-        "tytle": "NED League",
-        "season": "24-25",
-        "rating": 0.14,
-        "quota": 1,
-        "id": 88,
-        "type": "League",
-        "name": "Eredivisie"
-      },
-      "NED Cup 24-25": {
-        "tytle": "NED Cup",
-        "season": "24-25",
-        "rating": 0.09,
-        "quota": 0,
-        "id": 90,
-        "type": "Cup",
-        "name": "KNVB Beker"
       }
     }
   }
