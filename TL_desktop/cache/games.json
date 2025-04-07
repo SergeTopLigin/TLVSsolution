@@ -2329,6 +2329,66 @@
           "3"
         ]
       ]
+    },
+    {
+      "club_name": "Real Madrid",
+      "date": "2025-04-08T22:00:00+00:00",
+      "match": "Arsenal - Real Madrid",
+      "game_status": "expected",
+      "opponent": "Arsenal",
+      "opp_id": 42,
+      "result": null,
+      "opp_TLrate": 0.89,
+      "goalDiff": null,
+      "timestamp": 1744138800,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "opp_nat": "ENG",
+      "club_nat": "ESP",
+      "club_TLpos": 4,
+      "opp_TLpos": 8,
+      "club_NATpos": 2,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "6"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ],
+        [
+          "C",
+          "c",
+          "2"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "3"
+        ],
+        [
+          "TL",
+          "",
+          "8"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ]
     }
   ],
   "499": [
@@ -2995,13 +3055,13 @@
     {
       "club_name": "Atalanta",
       "date": "2025-04-06T19:00:00+00:00",
-      "match": "Atalanta - Lazio",
-      "game_status": "expected",
+      "match": "Atalanta - Lazio   0:1",
+      "game_status": "fixed",
       "opponent": "Lazio",
       "opp_id": 487,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 0.32,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1743955200,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -4820,13 +4880,13 @@
     {
       "club_name": "Aston Villa",
       "date": "2025-04-05T19:30:00+00:00",
-      "match": "Aston Villa - Nottingham Forest",
-      "game_status": "expected",
+      "match": "Aston Villa - Nottingham Forest   2:1",
+      "game_status": "fixed",
       "opponent": "Nottingham Forest",
       "opp_id": 65,
-      "result": null,
+      "result": "win",
       "opp_TLrate": -0.19,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1743870600,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -4854,6 +4914,56 @@
           "L",
           "c",
           "3"
+        ]
+      ]
+    },
+    {
+      "club_name": "Aston Villa",
+      "date": "2025-04-09T22:00:00+00:00",
+      "match": "Paris Saint Germain - Aston Villa",
+      "game_status": "expected",
+      "opponent": "Paris Saint Germain",
+      "opp_id": 85,
+      "result": null,
+      "opp_TLrate": 1.74,
+      "goalDiff": null,
+      "timestamp": 1744225200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "club_nat": "ENG",
+      "opp_nat": "FRA",
+      "club_TLpos": 12,
+      "opp_TLpos": 2,
+      "club_NATpos": 7,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "8"
+        ],
+        [
+          "TL",
+          "",
+          "2"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
         ]
       ]
     }
@@ -5663,6 +5773,66 @@
           "L",
           "c",
           "4"
+        ]
+      ]
+    },
+    {
+      "club_name": "Arsenal",
+      "date": "2025-04-08T22:00:00+00:00",
+      "match": "Arsenal - Real Madrid",
+      "game_status": "expected",
+      "opponent": "Real Madrid",
+      "opp_id": 541,
+      "result": null,
+      "opp_TLrate": 1.38,
+      "goalDiff": null,
+      "timestamp": 1744138800,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "club_nat": "ENG",
+      "opp_nat": "ESP",
+      "club_TLpos": 8,
+      "opp_TLpos": 4,
+      "club_NATpos": 2,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "3"
+        ],
+        [
+          "TL",
+          "",
+          "8"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "6"
+        ],
+        [
+          "TL",
+          "",
+          "4"
+        ],
+        [
+          "L",
+          "c",
+          "2"
+        ],
+        [
+          "C",
+          "c",
+          "2"
         ]
       ]
     }
@@ -6538,6 +6708,61 @@
           "L",
           "c",
           "3"
+        ]
+      ]
+    },
+    {
+      "club_name": "Barcelona",
+      "date": "2025-04-09T22:00:00+00:00",
+      "match": "Barcelona - Borussia Dortmund",
+      "game_status": "expected",
+      "opponent": "Borussia Dortmund",
+      "opp_id": 165,
+      "result": null,
+      "opp_TLrate": 0.78,
+      "goalDiff": null,
+      "timestamp": 1744225200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "club_nat": "ESP",
+      "opp_nat": "GER",
+      "club_TLpos": 1,
+      "opp_TLpos": 9,
+      "club_NATpos": 1,
+      "opp_NATpos": 8,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "7"
+        ],
+        [
+          "TL",
+          "",
+          "9"
         ]
       ]
     }
@@ -8746,6 +8971,66 @@
           "17"
         ]
       ]
+    },
+    {
+      "club_name": "Inter",
+      "date": "2025-04-08T22:00:00+00:00",
+      "match": "Bayern München - Inter",
+      "game_status": "expected",
+      "opponent": "Bayern München",
+      "opp_id": 157,
+      "result": null,
+      "opp_TLrate": 1.33,
+      "goalDiff": null,
+      "timestamp": 1744138800,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "club_nat": "ITA",
+      "opp_nat": "GER",
+      "club_TLpos": 6,
+      "opp_TLpos": 5,
+      "club_NATpos": 1,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "6"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "5"
+        ],
+        [
+          "TL",
+          "",
+          "5"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "51": [
@@ -9677,13 +9962,13 @@
     {
       "club_name": "Lazio",
       "date": "2025-04-06T19:00:00+00:00",
-      "match": "Atalanta - Lazio",
-      "game_status": "expected",
+      "match": "Atalanta - Lazio   0:1",
+      "game_status": "fixed",
       "opponent": "Atalanta",
       "opp_id": 499,
-      "result": null,
+      "result": "win",
       "opp_TLrate": 0.11,
-      "goalDiff": null,
+      "goalDiff": 1,
       "timestamp": 1743955200,
       "tourn_short": "ITA League",
       "season": "24-25",
@@ -12893,6 +13178,61 @@
           "3"
         ]
       ]
+    },
+    {
+      "club_name": "Borussia Dortmund",
+      "date": "2025-04-09T22:00:00+00:00",
+      "match": "Barcelona - Borussia Dortmund",
+      "game_status": "expected",
+      "opponent": "Barcelona",
+      "opp_id": 529,
+      "result": null,
+      "opp_TLrate": 2.01,
+      "goalDiff": null,
+      "timestamp": 1744225200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "opp_nat": "ESP",
+      "club_nat": "GER",
+      "club_TLpos": 9,
+      "opp_TLpos": 1,
+      "club_NATpos": 8,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "7"
+        ],
+        [
+          "TL",
+          "",
+          "9"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "1"
+        ],
+        [
+          "TL",
+          "",
+          "1"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ]
     }
   ],
   "180": [
@@ -14191,6 +14531,56 @@
           "2"
         ]
       ]
+    },
+    {
+      "club_name": "Paris Saint Germain",
+      "date": "2025-04-09T22:00:00+00:00",
+      "match": "Paris Saint Germain - Aston Villa",
+      "game_status": "expected",
+      "opponent": "Aston Villa",
+      "opp_id": 66,
+      "result": null,
+      "opp_TLrate": 0.39,
+      "goalDiff": null,
+      "timestamp": 1744225200,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "opp_nat": "ENG",
+      "club_nat": "FRA",
+      "club_TLpos": 2,
+      "opp_TLpos": 12,
+      "club_NATpos": 1,
+      "opp_NATpos": 7,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "8"
+        ],
+        [
+          "TL",
+          "",
+          "2"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "4"
+        ]
+      ]
     }
   ],
   "492": [
@@ -14663,6 +15053,41 @@
           "UCL",
           "c",
           "17"
+        ]
+      ]
+    },
+    {
+      "club_name": "Napoli",
+      "date": "2025-04-07T21:45:00+00:00",
+      "match": "Bologna - Napoli",
+      "game_status": "expected",
+      "opponent": "Bologna",
+      "opp_id": 500,
+      "result": null,
+      "opp_TLrate": null,
+      "goalDiff": null,
+      "timestamp": 1744051500,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-31",
+      "opp_nat": "ITA",
+      "club_nat": "ITA",
+      "club_TLpos": 13,
+      "opp_TLpos": null,
+      "club_NATpos": 2,
+      "opp_NATpos": 4,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "2"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "4"
         ]
       ]
     }
@@ -15771,6 +16196,66 @@
           "L",
           "c",
           "2"
+        ],
+        [
+          "C",
+          "c",
+          "1"
+        ]
+      ]
+    },
+    {
+      "club_name": "Bayern München",
+      "date": "2025-04-08T22:00:00+00:00",
+      "match": "Bayern München - Inter",
+      "game_status": "expected",
+      "opponent": "Inter",
+      "opp_id": 505,
+      "result": null,
+      "opp_TLrate": 1.26,
+      "goalDiff": null,
+      "timestamp": 1744138800,
+      "tourn_short": "UCL",
+      "season": "24-25",
+      "tourn_round": "1/4",
+      "opp_nat": "ITA",
+      "club_nat": "GER",
+      "club_TLpos": 5,
+      "opp_TLpos": 6,
+      "club_NATpos": 1,
+      "opp_NATpos": 1,
+      "club_qouta": [
+        [
+          "UCL",
+          "c",
+          "5"
+        ],
+        [
+          "TL",
+          "",
+          "5"
+        ],
+        [
+          "L",
+          "c",
+          "1"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "UCL",
+          "c",
+          "2"
+        ],
+        [
+          "TL",
+          "",
+          "6"
+        ],
+        [
+          "L",
+          "c",
+          "1"
         ],
         [
           "C",
@@ -19093,13 +19578,13 @@
     {
       "club_name": "Nottingham Forest",
       "date": "2025-04-05T19:30:00+00:00",
-      "match": "Aston Villa - Nottingham Forest",
-      "game_status": "expected",
+      "match": "Aston Villa - Nottingham Forest   2:1",
+      "game_status": "fixed",
       "opponent": "Aston Villa",
       "opp_id": 66,
-      "result": null,
+      "result": "lose",
       "opp_TLrate": 0.24,
-      "goalDiff": null,
+      "goalDiff": -1,
       "timestamp": 1743870600,
       "tourn_short": "ENG League",
       "season": "24-25",
@@ -19669,6 +20154,43 @@
           "TL",
           "",
           "9"
+        ]
+      ]
+    }
+  ],
+  "500": [
+    {
+      "club_name": "Bologna",
+      "date": "2025-04-07T21:45:00+00:00",
+      "match": "Bologna - Napoli",
+      "game_status": "expected",
+      "opponent": "Napoli",
+      "opp_id": 492,
+      "result": null,
+      "opp_TLrate": 0.35,
+      "goalDiff": null,
+      "timestamp": 1744051500,
+      "tourn_short": "ITA League",
+      "season": "24-25",
+      "tourn_round": "RS-31",
+      "club_nat": "ITA",
+      "opp_nat": "ITA",
+      "club_TLpos": null,
+      "opp_TLpos": 13,
+      "club_NATpos": 4,
+      "opp_NATpos": 2,
+      "club_qouta": [
+        [
+          "L",
+          "c",
+          "4"
+        ]
+      ],
+      "opp_qouta": [
+        [
+          "L",
+          "c",
+          "2"
         ]
       ]
     }

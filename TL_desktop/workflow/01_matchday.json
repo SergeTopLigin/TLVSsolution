@@ -1,33 +1,81 @@
 [
     {
-    "date": "2025-04-05T19:30:00+00:00",
-    "tourn_short": "ENG League",
-    "season": "24-25",
-    "tourn_round": "RS-31",
-    "home": "Aston Villa",
-    "away": "Nottingham Forest",
-    "goals": {
-        "home": null,
-        "away": null
-        },
-    "NATpos": {
-        "home": 7,
-        "away": 3
-        }
-    },
-    {
-    "date": "2025-04-06T19:00:00+00:00",
+    "date": "2025-04-07T21:45:00+00:00",
     "tourn_short": "ITA League",
     "season": "24-25",
     "tourn_round": "RS-31",
-    "home": "Atalanta",
-    "away": "Lazio",
+    "home": "Bologna",
+    "away": "Napoli",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 3,
+        "home": 4,
+        "away": 2
+        }
+    },
+    {
+    "date": "2025-04-08T22:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/4",
+    "home": "Arsenal",
+    "away": "Real Madrid",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 2,
+        "away": 2
+        }
+    },
+    {
+    "date": "2025-04-08T22:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/4",
+    "home": "Bayern München",
+    "away": "Inter",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 1
+        }
+    },
+    {
+    "date": "2025-04-09T22:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/4",
+    "home": "Barcelona",
+    "away": "Borussia Dortmund",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 8
+        }
+    },
+    {
+    "date": "2025-04-09T22:00:00+00:00",
+    "tourn_short": "UCL",
+    "season": "24-25",
+    "tourn_round": "1/4",
+    "home": "Paris Saint Germain",
+    "away": "Aston Villa",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
         "away": 7
         }
     }

@@ -13,12 +13,12 @@
       "id": 65
     },
     {
-      "club": "Chelsea",
-      "id": 49
-    },
-    {
       "club": "Newcastle",
       "id": 34
+    },
+    {
+      "club": "Chelsea",
+      "id": 49
     },
     {
       "club": "Aston Villa",
@@ -124,10 +124,6 @@
     }
   ],
   "POR": [
-    {
-      "club": "Sporting CP",
-      "id": 228
-    },
     {
       "club": "Benfica",
       "id": 211
