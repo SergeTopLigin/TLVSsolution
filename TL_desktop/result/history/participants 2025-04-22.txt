@@ -1,33 +1,33 @@
 ENG
       24-25 Premier League      
                            1  Liverpool                  TL 3      UCL c 9           
-                           2  Arsenal                    TL 4      UCL c 1           
-                           3  Newcastle                                      LCup c 1
-                           4  Nottingham Forest                                      
-                              Manchester City                                Cup c 1 
+                           2  Arsenal                    TL 5      UCL c 1           
+                           3  Nottingham Forest                                      
+                           4  Newcastle                                      LCup c 1
                               Chelsea                              UECL c 1          
-                              Aston Villa                TL 10     UCL c 5           
+                              Aston Villa                TL 10     UCL c 5   Cup c 1 
                               Manchester United                    UEL c 3           
                               Tottenham                            UEL c 2           
 ITA
       24-25 Serie A             
-                           1  Napoli                                                 
-                           2  Inter                      TL 5      UCL c 2           
+                           1  Inter                      TL 4      UCL c 2   Cup c 1 
+                           2  Napoli                                                 
                            3  Atalanta                                               
-                           4  Juventus                             UCL c 18          
-                              AC Milan                             UCL c 17  Cup c 1 
+                           4  Bologna                                                
+                              Juventus                             UCL c 18          
+                              AC Milan                             UCL c 17          
 ESP
       24-25 La Liga             
                            1  Barcelona                  TL 1      UCL c 3   Cup c 1 
-                           2  Real Madrid                TL 6      UCL c 8   Cup c 2 
+                           2  Real Madrid                TL 7      UCL c 8   Cup c 2 
                               Atletico Madrid            TL 8      UCL c 10          
                               Athletic Club                        UEL c 1           
 GER
       24-25 Bundesliga          
-                           1  Bayern München             TL 7      UCL c 6           
+                           1  Bayern München             TL 6      UCL c 6           
                            2  Bayer Leverkusen                     UCL c 12          
                            3  Eintracht Frankfurt                                    
-                           4  SC Freiburg                                            
+                           4  RB Leipzig                                             
                               Borussia Dortmund          TL 9      UCL c 7           
 FRA
       24-25 Ligue 1             

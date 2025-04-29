@@ -9,12 +9,16 @@
       "id": 42
     },
     {
+      "club": "Newcastle",
+      "id": 34
+    },
+    {
       "club": "Nottingham Forest",
       "id": 65
     },
     {
-      "club": "Newcastle",
-      "id": 34
+      "club": "Manchester City",
+      "id": 50
     },
     {
       "club": "Chelsea",
@@ -27,32 +31,28 @@
     {
       "club": "Manchester United",
       "id": 33
+    },
+    {
+      "club": "Tottenham",
+      "id": 47
     }
   ],
   "ITA": [
     {
-      "club": "Inter",
-      "id": 505
-    },
-    {
       "club": "Napoli",
       "id": 492
+    },
+    {
+      "club": "Inter",
+      "id": 505
     },
     {
       "club": "Atalanta",
       "id": 499
     },
     {
-      "club": "Bologna",
-      "id": 500
-    },
-    {
       "club": "Juventus",
       "id": 496
-    },
-    {
-      "club": "Lazio",
-      "id": 487
     },
     {
       "club": "AC Milan",
@@ -91,8 +91,8 @@
       "id": 169
     },
     {
-      "club": "FSV Mainz 05",
-      "id": 164
+      "club": "SC Freiburg",
+      "id": 160
     },
     {
       "club": "Borussia Dortmund",
@@ -125,6 +125,10 @@
   ],
   "POR": [
     {
+      "club": "Sporting CP",
+      "id": 228
+    },
+    {
       "club": "Benfica",
       "id": 211
     }
@@ -133,6 +137,12 @@
     {
       "club": "Club Brugge KV",
       "id": 569
+    }
+  ],
+  "NOR": [
+    {
+      "club": "Bodo/Glimt",
+      "id": 327
     }
   ]
 }

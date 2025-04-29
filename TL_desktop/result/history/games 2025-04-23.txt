@@ -1202,60 +1202,32 @@ ENG-L   RS-33                   Tottenham   1:2   Nottingham Forest
                            ENG-15   TL-28         TL-32   ENG-4 
                                     UELc3         Lc4                     
 
+
+================================================================================
+
                                         23|04|2025
 
-ITA-C    1/2                        Inter   0:3   AC Milan                 
+ITA-C    1/2                        Inter  22:00  AC Milan                 
                             ITA-1    TL-4         TL-27   ITA-9 
                   UCLc2 | TL4 | Lc1 | Cc1         UCLc17                  
 
                                         26|04|2025
 
-GER-L   RS-31         Eintracht Frankfurt   4:0   RB Leipzig               
+GER-L   RS-31         Eintracht Frankfurt  19:30  RB Leipzig               
                             GER-3   TL-24         TL-26   GER-4 
                                       Lc3         Lc4                     
 
-ESP-C   Final                   Barcelona   2:2   Real Madrid              
+ESP-C   Final                   Barcelona  23:00  Real Madrid              
                             ESP-1    TL-1         TL-6    ESP-2 
                   UCLc3 | TL1 | Lc1 | Cc1         UCLc8 | TL7 | Lc2 | Cc2 
 
                                         27|04|2025
 
-ENG-L   RS-34                   Liverpool   5:1   Tottenham                
+ENG-C    1/2            Nottingham Forest  18:30  Manchester City          
+                            ENG-4   TL-25         TL-19   ENG-3 
+                                      Lc3                                 
+
+ENG-L   RS-34                   Liverpool  18:30  Tottenham                
                             ENG-1    TL-3         TL-29   ENG-16
                         UCLc9 | TL3 | Lc1         UELc2                   
-
-
-================================================================================
-
-                                        29|04|2025
-
- UCL     1/2                      Arsenal  22:00  Paris Saint Germain      
-                            ENG-2    TL-4         TL-2    FRA-1 
-                        UCLc1 | TL4 | Lc2         UCLc4 | TL2 | Lc1 | Cc1 
-
-                                        30|04|2025
-
- UCL     1/2                    Barcelona  22:00  Inter                    
-                            ESP-1    TL-1         TL-5    ITA-2 
-                  UCLc3 | TL1 | Lc1 | Cc1         UCLc2 | TL5 | Lc2       
-
-                                        01|05|2025
-
- UEL     1/2                Athletic Club  22:00  Manchester United        
-                            ESP-4   TL-37         TL-35   ENG-14
-                                    UELc1         UELc3                   
-
- UEL     1/2                    Tottenham  22:00  Bodo/Glimt               
-                           ENG-16   TL-32         TL-None NOR-1 
-                                    UELc2         UELc4                   
-
-                                        04|05|2025
-
-GER-L   RS-32                 SC Freiburg  18:30  Bayer Leverkusen         
-                            GER-4 TL-None         TL-12   GER-2 
-                                      Lc4         UCLc12 | Lc2            
-
-ENG-L   RS-35                     Chelsea  18:30  Liverpool                
-                            ENG-6   TL-19         TL-3    ENG-1 
-                                   UECLc1         UCLc9 | TL3 | Lc1       
 

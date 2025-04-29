@@ -75,13 +75,22 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
-                "last_date": "2025-04-26 17:00:00",
+                "status": "prev",
+                "last_date": "2025-04-27 18:30:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["Manchester City", 50],
                     ["Aston Villa", 66],
                     ["Nottingham Forest", 65]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-05-17 01:00:00",
+                "total_teams": 2,
+                "teams_TL": [
+                    ["Manchester City", 50]
                 ]
             }
         ]
@@ -179,10 +188,10 @@
     {
         "name": "ESP Cup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-10-09",
-            "final": null
+            "final": "2025-04-26"
         },
         "rounds": [
             {
@@ -269,8 +278,8 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
-                "last_date": "2025-04-26 21:00:00",
+                "status": "prev",
+                "last_date": "2025-04-26 23:00:00",
                 "total_teams": 2,
                 "teams_TL": [
                     ["Real Madrid", 541],
@@ -340,12 +349,21 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-04-24 22:00:00",
                 "total_teams": 4,
                 "teams_TL": [
                     ["AC Milan", 489],
                     ["Inter", 505]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-05-14 21:00:00",
+                "total_teams": 2,
+                "teams_TL": [
+                    ["AC Milan", 489]
                 ]
             }
         ]
@@ -574,9 +592,19 @@
             },
             {
                 "round": "1/2",
-                "status": "curr",
-                "last_date": "2025-04-23 18:00:00",
+                "status": "prev",
+                "last_date": "2025-04-23 22:15:00",
                 "total_teams": 4,
+                "teams_TL": [
+                    ["Sporting CP", 228],
+                    ["Benfica", 211]
+                ]
+            },
+            {
+                "round": "Final",
+                "status": "curr",
+                "last_date": "2025-05-25 19:15:00",
+                "total_teams": 2,
                 "teams_TL": [
                     ["Sporting CP", 228],
                     ["Benfica", 211]
@@ -664,7 +692,7 @@
         "status": "curr",
         "dates": {
             "first": "2024-10-31",
-            "final": null
+            "final": "2025-04-21"
         },
         "rounds": [
             {
@@ -688,7 +716,7 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-04-21 19:00:00",
                 "total_teams": 2,
                 "teams_TL": []
