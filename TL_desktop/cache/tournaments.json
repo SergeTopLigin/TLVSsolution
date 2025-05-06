@@ -6,7 +6,7 @@
       "UCL 24-25": {
         "tytle": "UCL",
         "season": "24-25",
-        "rating": 1.58,
+        "rating": 1.56,
         "quota": 18,
         "id": 2,
         "type": "Cup",
@@ -15,7 +15,7 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.35,
+        "rating": 0.38,
         "quota": 4,
         "id": 3,
         "type": "Cup",
@@ -24,7 +24,7 @@
       "UECL 24-25": {
         "tytle": "UECL",
         "season": "24-25",
-        "rating": 0.05,
+        "rating": 0.08,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -54,7 +54,7 @@
       "ENG League 24-25": {
         "tytle": "ENG League",
         "season": "24-25",
-        "rating": 0.63,
+        "rating": 0.69,
         "quota": 4,
         "id": 39,
         "type": "League",
@@ -72,7 +72,7 @@
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.22,
+        "rating": 0.2,
         "quota": 1,
         "id": 48,
         "type": "Cup",
@@ -111,7 +111,7 @@
       "ESP League 24-25": {
         "tytle": "ESP League",
         "season": "24-25",
-        "rating": 0.47,
+        "rating": 0.46,
         "quota": 2,
         "id": 140,
         "type": "League",
@@ -120,7 +120,7 @@
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.54,
+        "rating": 0.51,
         "quota": 2,
         "id": 143,
         "type": "Cup",
@@ -159,7 +159,7 @@
       "FRA League 24-25": {
         "tytle": "FRA League",
         "season": "24-25",
-        "rating": 0.24,
+        "rating": 0.25,
         "quota": 1,
         "id": 61,
         "type": "League",
@@ -168,7 +168,7 @@
       "FRA Cup 24-25": {
         "tytle": "FRA Cup",
         "season": "24-25",
-        "rating": 0.28,
+        "rating": 0.3,
         "quota": 1,
         "id": 66,
         "type": "Cup",
@@ -192,7 +192,7 @@
       "NED Cup 24-25": {
         "tytle": "NED Cup",
         "season": "24-25",
-        "rating": 0.09,
+        "rating": 0.08,
         "quota": 0,
         "id": 90,
         "type": "Cup",
@@ -225,7 +225,7 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.06,
+        "rating": 0.05,
         "quota": 0,
         "id": 97,
         "type": "Cup",

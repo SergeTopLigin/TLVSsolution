@@ -81,10 +81,10 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 8. Real Madrid          14  24  +7      1.71    0.50    1.49
 
 1/2                     pl  pts gdif    pts/pl  gdif/pl TLrate
-1. Arsenal              12  29  +23     2.42    1.92
-2. Inter                12  29  +14     2.42    1.17
-3. Barcelona            12  28  +20     2.33    1.67
-4. Paris Saint Germain  14  25  +16     1.79    1.14
+1. Inter                13  30  +14     2.31    1.08
+2. Arsenal              13  29  +22     2.23    1.69
+3. Barcelona            13  29  +20     2.23    1.54
+4. Paris Saint Germain  15  28  +17     1.87    1.13
 
 
 UEL
@@ -170,16 +170,16 @@ League stage            pl  pts gdif    pts/pl  gdif/pl TLrate
 8. Rangers              12  18  +4      1.50    0.33
 
 1/2                     pl  pts gdif    pts/pl  gdif/pl TLrate
-1. Athletic Club        12  26  +11     2.17    0.92    -1.76
-2. Tottenham            12  24  +10     2.00    0.83    -0.16
-3. Manchester United    12  24  +10     2.00    0.83    -0.82
-4. Bodo/Glimt           14  23  +5      1.64    0.36    -3.52
+1. Manchester United    13  27  +13     2.08    1.00    -0.82
+2. Tottenham            13  27  +12     2.08    0.92    -0.16
+3. Athletic Club        13  26  +8      2.00    0.62    -1.76
+4. Bodo/Glimt           15  23  +3      1.53    0.20    -3.52
 
 
 UECL
 
 1/2                     pl  pts gdif    pts/pl  gdif/pl TLrate
-1. Chelsea              10  27  +25     2.70    2.50
-2. Fiorentina           10  20  +13     2.00    1.30
-3. Djurgardens IF       10  19  +8      1.90    0.80
-4. Real Betis           12  21  +9      1.75    0.75
+1. Chelsea              11  30  +28     2.73    2.55
+2. Fiorentina           11  20  +12     1.82    1.09
+3. Real Betis           13  24  +10     1.75    0.75
+4. Djurgardens IF       11  19  +5      1.73    0.45

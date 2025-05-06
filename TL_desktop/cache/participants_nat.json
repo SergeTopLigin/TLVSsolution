@@ -9,16 +9,12 @@
       "id": 42
     },
     {
-      "club": "Newcastle",
-      "id": 34
-    },
-    {
-      "club": "Nottingham Forest",
-      "id": 65
-    },
-    {
       "club": "Manchester City",
       "id": 50
+    },
+    {
+      "club": "Newcastle",
+      "id": 34
     },
     {
       "club": "Chelsea",
