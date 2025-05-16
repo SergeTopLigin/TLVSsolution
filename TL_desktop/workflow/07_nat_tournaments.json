@@ -291,10 +291,10 @@
     {
         "name": "ITA Cup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-08-03",
-            "final": null
+            "final": "2025-05-14"
         },
         "rounds": [
             {
@@ -359,7 +359,7 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-05-14 21:00:00",
                 "total_teams": 2,
                 "teams_TL": [

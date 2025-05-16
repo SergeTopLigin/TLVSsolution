@@ -9,12 +9,12 @@
       "id": 42
     },
     {
-      "club": "Manchester City",
-      "id": 50
-    },
-    {
       "club": "Newcastle",
       "id": 34
+    },
+    {
+      "club": "Manchester City",
+      "id": 50
     },
     {
       "club": "Chelsea",
@@ -87,10 +87,6 @@
       "id": 169
     },
     {
-      "club": "SC Freiburg",
-      "id": 160
-    },
-    {
       "club": "Borussia Dortmund",
       "id": 165
     }
@@ -103,13 +99,13 @@
     {
       "club": "Lille",
       "id": 79
+    },
+    {
+      "club": "Lyon",
+      "id": 80
     }
   ],
   "NED": [
-    {
-      "club": "Ajax",
-      "id": 194
-    },
     {
       "club": "PSV Eindhoven",
       "id": 197

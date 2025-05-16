@@ -15,8 +15,8 @@ Newcastle 2.29
 ENG Cup
 (Nottingham Forest 1.01
     -0.19: curr
-Manchester City 2.37
-    0.03: curr
+Manchester City 2.23
+    -0.11: curr
     -0.06: Nottingham Forest 27-04-2025
 Crystal Palace 1.85
     -1.2: curr
