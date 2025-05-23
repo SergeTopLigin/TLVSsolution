@@ -181,6 +181,13 @@
     "visual_rank": 27,
     "buffer": false
   },
+  "Tottenham": {
+    "IDapi": 47,
+    "nat": "ENG",
+    "TL_rank": -0.3,
+    "visual_rank": 26,
+    "buffer": false
+  },
   "PSV Eindhoven": {
     "IDapi": 197,
     "nat": "NED",
@@ -193,13 +200,6 @@
     "nat": "ENG",
     "TL_rank": -0.35,
     "visual_rank": 25,
-    "buffer": false
-  },
-  "Tottenham": {
-    "IDapi": 47,
-    "nat": "ENG",
-    "TL_rank": -0.37,
-    "visual_rank": 24,
     "buffer": false
   },
   "Ajax": {

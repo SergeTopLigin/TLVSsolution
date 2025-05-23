@@ -69,7 +69,7 @@
             "id": 165,
             "pos": 7,
             "nat": "GER",
-            "cur_nat_pos": 5
+            "cur_nat_pos": 4
           },
           {
             "club": "Real Madrid",
@@ -156,25 +156,25 @@
       "UEL 24-25": {
         "tytle": "UEL",
         "season": "24-25",
-        "rating": 0.41,
+        "rating": 0.4,
         "quota": 5,
         "id": 3,
         "type": "Cup",
         "name": "Europa League",
         "participants": [
           {
-            "club": "Manchester United",
-            "id": 33,
-            "pos": 1,
-            "nat": "ENG",
-            "cur_nat_pos": 16
-          },
-          {
             "club": "Tottenham",
             "id": 47,
-            "pos": 2,
+            "pos": 1,
             "nat": "ENG",
             "cur_nat_pos": 17
+          },
+          {
+            "club": "Manchester United",
+            "id": 33,
+            "pos": 2,
+            "nat": "ENG",
+            "cur_nat_pos": 16
           },
           {
             "club": "Athletic Club",
@@ -195,7 +195,7 @@
             "id": 80,
             "pos": 5,
             "nat": "FRA",
-            "cur_nat_pos": 7
+            "cur_nat_pos": 6
           }
         ]
       },
@@ -212,7 +212,7 @@
       "UECL 24-25": {
         "tytle": "UECL",
         "season": "24-25",
-        "rating": 0.06,
+        "rating": 0.08,
         "quota": 1,
         "id": 848,
         "type": "Cup",
@@ -271,37 +271,37 @@
             "cur_nat_pos": 2
           },
           {
-            "club": "Bayern München",
-            "id": 157,
-            "pos": 5,
-            "nat": "GER",
-            "cur_nat_pos": 1
-          },
-          {
             "club": "Arsenal",
             "id": 42,
-            "pos": 6,
+            "pos": 5,
             "nat": "ENG",
             "cur_nat_pos": 2
           },
           {
-            "club": "Real Madrid",
-            "id": 541,
-            "pos": 7,
-            "nat": "ESP",
-            "cur_nat_pos": 2
+            "club": "Bayern München",
+            "id": 157,
+            "pos": 6,
+            "nat": "GER",
+            "cur_nat_pos": 1
           },
           {
             "club": "Borussia Dortmund",
             "id": 165,
-            "pos": 8,
+            "pos": 7,
             "nat": "GER",
-            "cur_nat_pos": 5
+            "cur_nat_pos": 4
+          },
+          {
+            "club": "Real Madrid",
+            "id": 541,
+            "pos": 8,
+            "nat": "ESP",
+            "cur_nat_pos": 2
           },
           {
             "club": "Atletico Madrid",
             "id": 530,
-            "pos": 9,
+            "pos": 8,
             "nat": "ESP",
             "cur_nat_pos": 3
           },
@@ -350,13 +350,13 @@
             "pos": 2
           },
           {
-            "club": "Newcastle",
-            "id": 34,
+            "club": "Manchester City",
+            "id": 50,
             "pos": 3
           },
           {
-            "club": "Manchester City",
-            "id": 50,
+            "club": "Newcastle",
+            "id": 34,
             "pos": 4
           },
           {
@@ -369,38 +369,30 @@
       "ENG Cup 24-25": {
         "tytle": "ENG Cup",
         "season": "24-25",
-        "rating": 0.21,
+        "rating": 0.2,
         "quota": 1,
         "id": 45,
         "type": "Cup",
         "name": "FA Cup",
         "participants": [
           {
-            "club": "Manchester City",
-            "id": 50,
+            "club": "Crystal Palace",
+            "id": 52,
             "pos": 1,
             "nat": "ENG",
-            "cur_nat_pos": 4
+            "cur_nat_pos": 12
           }
         ]
       },
       "ENG LCup 24-25": {
         "tytle": "ENG LCup",
         "season": "24-25",
-        "rating": 0.18,
-        "quota": 1,
+        "rating": 0.17,
+        "quota": 0,
         "id": 48,
         "type": "Cup",
         "name": "League Cup",
-        "participants": [
-          {
-            "club": "Newcastle",
-            "id": 34,
-            "pos": 1,
-            "nat": "ENG",
-            "cur_nat_pos": 3
-          }
-        ]
+        "participants": []
       }
     }
   },
@@ -421,7 +413,7 @@
       "ITA League 24-25": {
         "tytle": "ITA League",
         "season": "24-25",
-        "rating": 0.54,
+        "rating": 0.53,
         "quota": 4,
         "id": 135,
         "type": "League",
@@ -452,15 +444,15 @@
       "ITA Cup 24-25": {
         "tytle": "ITA Cup",
         "season": "24-25",
-        "rating": 0.22,
+        "rating": 0.21,
         "quota": 1,
         "id": 137,
         "type": "Cup",
         "name": "Coppa Italia",
         "participants": [
           {
-            "club": "AC Milan",
-            "id": 489,
+            "club": "Bologna",
+            "id": 500,
             "pos": 1,
             "nat": "ITA",
             "cur_nat_pos": 8
@@ -507,7 +499,7 @@
       "ESP Cup 24-25": {
         "tytle": "ESP Cup",
         "season": "24-25",
-        "rating": 0.47,
+        "rating": 0.45,
         "quota": 2,
         "id": 143,
         "type": "Cup",
@@ -545,7 +537,7 @@
         "tytle": "GER League",
         "season": "24-25",
         "rating": 0.46,
-        "quota": 3,
+        "quota": 4,
         "id": 78,
         "type": "League",
         "name": "Bundesliga",
@@ -564,6 +556,11 @@
             "club": "Eintracht Frankfurt",
             "id": 169,
             "pos": 3
+          },
+          {
+            "club": "Borussia Dortmund",
+            "id": 165,
+            "pos": 4
           }
         ]
       },
@@ -612,7 +609,7 @@
       "FRA Cup 24-25": {
         "tytle": "FRA Cup",
         "season": "24-25",
-        "rating": 0.31,
+        "rating": 0.3,
         "quota": 1,
         "id": 66,
         "type": "Cup",
@@ -650,7 +647,7 @@
       "NED Cup 24-25": {
         "tytle": "NED Cup",
         "season": "24-25",
-        "rating": 0.08,
+        "rating": 0.07,
         "quota": 0,
         "id": 90,
         "type": "Cup",
@@ -702,7 +699,7 @@
       "POR LCup 24-25": {
         "tytle": "POR LCup",
         "season": "24-25",
-        "rating": 0.04,
+        "rating": 0.03,
         "quota": 0,
         "id": 97,
         "type": "Cup",

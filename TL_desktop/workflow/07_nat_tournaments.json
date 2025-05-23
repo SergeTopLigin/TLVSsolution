@@ -2,10 +2,10 @@
     {
         "name": "ENG Cup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-08-02",
-            "final": null
+            "final": "2025-05-17"
         },
         "rounds": [
             {
@@ -86,8 +86,8 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
-                "last_date": "2025-05-17 01:00:00",
+                "status": "prev",
+                "last_date": "2025-05-17 18:30:00",
                 "total_teams": 2,
                 "teams_TL": [
                     ["Manchester City", 50]

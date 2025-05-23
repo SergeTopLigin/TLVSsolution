@@ -9,12 +9,12 @@
       "id": 42
     },
     {
-      "club": "Newcastle",
-      "id": 34
-    },
-    {
       "club": "Manchester City",
       "id": 50
+    },
+    {
+      "club": "Newcastle",
+      "id": 34
     },
     {
       "club": "Chelsea",
@@ -23,6 +23,10 @@
     {
       "club": "Aston Villa",
       "id": 66
+    },
+    {
+      "club": "Crystal Palace",
+      "id": 52
     },
     {
       "club": "Manchester United",
@@ -53,6 +57,10 @@
     {
       "club": "AC Milan",
       "id": 489
+    },
+    {
+      "club": "Bologna",
+      "id": 500
     }
   ],
   "ESP": [

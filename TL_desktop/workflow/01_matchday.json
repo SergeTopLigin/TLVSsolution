@@ -1,66 +1,82 @@
 [
     {
-    "date": "2025-05-16T21:30:00+00:00",
-    "tourn_short": "ENG League",
+    "date": "2025-05-25T22:00:00+00:00",
+    "tourn_short": "ESP League",
     "season": "24-25",
-    "tourn_round": "RS-37",
-    "home": "Aston Villa",
-    "away": "Tottenham",
+    "tourn_round": "RS-38",
+    "home": "Athletic Club",
+    "away": "Barcelona",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 6,
-        "away": 17
+        "home": 4,
+        "away": 1
         }
     },
     {
-    "date": "2025-05-16T22:15:00+00:00",
+    "date": "2025-05-25T18:00:00+00:00",
     "tourn_short": "ENG League",
     "season": "24-25",
-    "tourn_round": "RS-37",
-    "home": "Chelsea",
-    "away": "Manchester United",
+    "tourn_round": "RS-38",
+    "home": "Manchester United",
+    "away": "Aston Villa",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 5,
-        "away": 16
+        "home": 16,
+        "away": 6
         }
     },
     {
-    "date": "2025-05-18T18:30:00+00:00",
+    "date": "2025-05-25T18:00:00+00:00",
     "tourn_short": "ENG League",
     "season": "24-25",
-    "tourn_round": "RS-37",
-    "home": "Arsenal",
-    "away": "Newcastle",
+    "tourn_round": "RS-38",
+    "home": "Liverpool",
+    "away": "Crystal Palace",
+    "goals": {
+        "home": null,
+        "away": null
+        },
+    "NATpos": {
+        "home": 1,
+        "away": 12
+        }
+    },
+    {
+    "date": "2025-05-25T19:15:00+00:00",
+    "tourn_short": "POR Cup",
+    "season": "24-25",
+    "tourn_round": "Final",
+    "home": "Benfica",
+    "away": "Sporting CP",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
         "home": 2,
-        "away": 3
+        "away": 1
         }
     },
     {
-    "date": "2025-05-21T22:00:00+00:00",
-    "tourn_short": "UEL",
+    "date": "2025-05-31T22:00:00+00:00",
+    "tourn_short": "UCL",
     "season": "24-25",
     "tourn_round": "Final",
-    "home": "Tottenham",
-    "away": "Manchester United",
+    "home": "Paris Saint Germain",
+    "away": "Inter",
     "goals": {
         "home": null,
         "away": null
         },
     "NATpos": {
-        "home": 17,
-        "away": 16
+        "home": 1,
+        "away": 2
         }
     }
 ]
