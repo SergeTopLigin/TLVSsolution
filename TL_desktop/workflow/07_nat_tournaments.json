@@ -371,10 +371,10 @@
     {
         "name": "GER Cup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-08-16",
-            "final": null
+            "final": "2025-05-24"
         },
         "rounds": [
             {
@@ -443,7 +443,7 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-05-24 21:00:00",
                 "total_teams": 2,
                 "teams_TL": [
@@ -455,10 +455,10 @@
     {
         "name": "FRA Cup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-10-26",
-            "final": null
+            "final": "2025-05-24"
         },
         "rounds": [
             {
@@ -526,7 +526,7 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-05-24 22:00:00",
                 "total_teams": 2,
                 "teams_TL": [
@@ -538,10 +538,10 @@
     {
         "name": "POR Cup",
         "season": "24-25",
-        "status": "curr",
+        "status": "prev",
         "dates": {
             "first": "2024-09-07",
-            "final": null
+            "final": "2025-05-25"
         },
         "rounds": [
             {
@@ -602,7 +602,7 @@
             },
             {
                 "round": "Final",
-                "status": "curr",
+                "status": "prev",
                 "last_date": "2025-05-25 19:15:00",
                 "total_teams": 2,
                 "teams_TL": [

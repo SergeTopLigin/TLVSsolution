@@ -30,8 +30,8 @@
   "Paris Saint Germain": {
     "IDapi": 85,
     "nat": "FRA",
-    "TL_rank": 1.28,
-    "visual_rank": 73,
+    "TL_rank": 1.35,
+    "visual_rank": 75,
     "buffer": false
   },
   "Inter": {
@@ -44,8 +44,8 @@
   "Chelsea": {
     "IDapi": 49,
     "nat": "ENG",
-    "TL_rank": 0.95,
-    "visual_rank": 63,
+    "TL_rank": 1.02,
+    "visual_rank": 65,
     "buffer": false
   },
   "Borussia Dortmund": {
